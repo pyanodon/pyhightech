@@ -1,0 +1,124 @@
+local recipe1 = {
+    type = "recipe",
+    name = "phosphate-mine",
+    energy_required = 10,
+    enabled = true,
+    ingredients = {
+        {"soil-extractormk01", 2},
+        {"automated-factory", 1},
+        {"iron-plate", 60}, --bobs tungsten-plate
+        {"jaw-crusher", 1},
+        {"advanced-circuit", 40} --updated-bob basic-electronic-circuit-board
+    },
+    result = "phosphate-mine"
+}
+
+local item1 = {
+    type = "item",
+    name = "phosphate-mine",
+    icon = "__pyhightech__/graphics/icons/phosphate-mine.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "py-hightech-buildings",
+    order = "a",
+    place_result = "phosphate-mine",
+    stack_size = 10
+}
+
+local entity1 = {
+    type = "mining-drill",
+    name = "phosphate-mine",
+    icon = "__pyhightech__/graphics/icons/phosphate-mine.png",
+    flags = {"placeable-neutral", "player-creation"},
+    minable = {mining_time = 1, result = "phosphate-mine"},
+    fast_replaceable_group = "phosphate-mine",
+    max_health = 600,
+    resource_categories = {"phosphate"},
+    corpse = "big-remnants",
+    dying_explosion = "medium-explosion",
+    collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
+    selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
+    input_fluid_box =
+    {
+      production_type = "input-output",
+      pipe_picture = assembler2pipepictures(),
+      pipe_covers = pipecoverspictures(),
+      base_area = 1,
+      height = 2,
+      base_level = -1,
+      pipe_connections =
+      {
+        { position = {-5, 0} },
+        { position = {5, 0} },
+        { position = {0, 5} },
+      }
+    },
+    module_specification = {
+        module_slots = 4
+    },
+    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    mining_speed = 1,
+    energy_source = {
+        type = "electric",
+        usage_priority = "secondary-input",
+        emissions = 0.01
+    },
+    energy_usage = "500kW",
+    mining_power = 2,
+    resource_searching_radius = 0.49,
+    vector_to_place_result = {0, -4.65},
+    radius_visualisation_picture = {
+        filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
+        width = 12,
+        height = 12
+    },
+    animations = {
+        layers = {
+            {
+                filename = "__pyhightech__/graphics/entity/phosphate-mine/phosphate-left.png",
+                width = 144,
+                height = 288,
+                line_length = 14,
+                frame_count = 70,
+                animation_speed = 0.2,
+                shift = util.by_pixel(-72, 0)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/phosphate-mine/phosphate-right.png",
+                width = 144,
+                height = 288,
+                line_length = 14,
+                frame_count = 70,
+                animation_speed = 0.2,
+                shift = util.by_pixel(72, 0)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/phosphate-mine/shadow-left.png",
+                priority = "extra-high",
+                width = 160,
+                height = 284,
+                line_length = 12,
+                frame_count = 70,
+                draw_as_shadow = true,
+                shift = util.by_pixel(-70, 6)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/phosphate-mine/shadow-right.png",
+                priority = "extra-high",
+                width = 142,
+                height = 284,
+                line_length = 12,
+                frame_count = 70,
+                draw_as_shadow = true,
+                shift = util.by_pixel(80, 6)
+            }
+        }
+    },
+    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
+    working_sound = {
+        sound = {filename = "__pyhightech__/sounds/phosphate-mine.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyhightech__/sounds/phosphate-mine.ogg", volume = 0.7},
+        apparent_volume = 2.5
+    }
+}
+
+data:extend {recipe1, item1, entity1}
