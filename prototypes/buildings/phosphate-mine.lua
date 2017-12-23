@@ -1,4 +1,8 @@
-local recipe1 = {
+local Recipe = require("stdlib/data/recipe")
+local Item = require("stdlib/data/item")
+local Entity = require("stdlib/data/entity")
+
+Recipe {
     type = "recipe",
     name = "phosphate-mine",
     energy_required = 10,
@@ -13,7 +17,7 @@ local recipe1 = {
     result = "phosphate-mine"
 }
 
-local item1 = {
+Item {
     type = "item",
     name = "phosphate-mine",
     icon = "__pyhightech__/graphics/icons/phosphate-mine.png",
@@ -24,7 +28,7 @@ local item1 = {
     stack_size = 10
 }
 
-local entity1 = {
+Entity {
     type = "mining-drill",
     name = "phosphate-mine",
     icon = "__pyhightech__/graphics/icons/phosphate-mine.png",
@@ -37,20 +41,18 @@ local entity1 = {
     dying_explosion = "medium-explosion",
     collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
-    input_fluid_box =
-    {
-      production_type = "input-output",
-      pipe_picture = assembler2pipepictures(),
-      pipe_covers = pipecoverspictures(),
-      base_area = 1,
-      height = 2,
-      base_level = -1,
-      pipe_connections =
-      {
-        { position = {-5, 0} },
-        { position = {5, 0} },
-        { position = {0, 5} },
-      }
+    input_fluid_box = {
+        production_type = "input-output",
+        pipe_picture = assembler2pipepictures(),
+        pipe_covers = pipecoverspictures(),
+        base_area = 1,
+        height = 2,
+        base_level = -1,
+        pipe_connections = {
+            {position = {-5, 0}},
+            {position = {5, 0}},
+            {position = {0, 5}}
+        }
     },
     module_specification = {
         module_slots = 4
@@ -120,5 +122,3 @@ local entity1 = {
         apparent_volume = 2.5
     }
 }
-
-data:extend {recipe1, item1, entity1}

@@ -1,17 +1,13 @@
-local technology = {
+local Technology = require("stdlib/data/technology")
+
+Technology {
     type = "technology",
     name = "advanced-mining-facilities",
     icon = "__pyfusionenergy__/graphics/technology/advanced-mining-facilities.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"diamond-mining"},
-    effects = {
-        {
-            type = "unlock-recipe",
-            recipe = "teste"
-        },
-
-    },
+    effects = {},
     unit = {
         count = 50,
         ingredients = {
@@ -22,4 +18,3 @@ local technology = {
         time = 70
     }
 }
-data:extend {technology}

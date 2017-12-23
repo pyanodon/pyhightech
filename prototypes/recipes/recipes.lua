@@ -1,4 +1,6 @@
-local clay = {
+local Recipe = require("stdlib/data/recipe")
+
+Recipe {
     type = "recipe",
     name = "clay",
     category = "clay",
@@ -14,11 +16,4 @@ local clay = {
     icon = "__pyhightech__/graphics/icons/clay.png",
     subgroup = "py-hightech-items",
     order = "a"
-}
-
-
-
-data:extend {
-    clay
-
 }

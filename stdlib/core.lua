@@ -11,7 +11,7 @@ require('stdlib/defines/color')
 require('stdlib/defines/time')
 
 --Temporary fix for this change
-defines.events.on_preplayer_mined_item = defines.events.on_preplayer_mined_item or defines.events.on_pre_player_mined_item --luacheck: ignore defines
+defines.events.on_pre_player_mined_item = defines.events.on_pre_player_mined_item or defines.events.on_preplayer_mined_item --luacheck: ignore defines
 
 local Core = {
     _module_name = "Core",
@@ -68,7 +68,7 @@ function Core.fail_if_not_type(var, types)
 end
 
 --- Returns true if the passed variable is a table.
--- @tparam mixed tab The variable to check
+-- @tparam mixed var The variable to check
 -- @treturn boolean If the variable is a table
 function Core.table(var)
     return type(var) == "table"

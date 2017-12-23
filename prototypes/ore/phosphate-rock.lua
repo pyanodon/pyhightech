@@ -1,14 +1,18 @@
-local autoplace = {
+local Data = require("stdlib/data/data")
+
+Data {
     type = "autoplace-control",
     name = "phosphate-rock",
     richness = true,
     order = "b-e"
 }
-local noise = {
+
+Data {
     type = "noise-layer",
     name = "phosphate-rock"
 }
-local resource = {
+
+Data {
     type = "resource",
     name = "phosphate-rock",
     category = "phosphate",
@@ -26,15 +30,15 @@ local resource = {
         -- mining_particle = "phosphate-rock-particle",
         mining_time = 2,
         result = "phosphate-rock",
-		fluid_amount = 50,
-		required_fluid = "water"
+        fluid_amount = 50,
+        required_fluid = "water"
     },
     collision_box = {{-4.3, -4.5}, {4.5, 4.5}},
     selection_box = {{-4.5, -4.3}, {4.3, 4.3}},
     autoplace = {
         control = "phosphate-rock",
         sharpness = 0.98,
-		starting_area = true,
+        starting_area = true,
         --max_probability = 0.035,
         richness_multiplier = 120,
         richness_multiplier_distance_bonus = 110,
@@ -44,7 +48,7 @@ local resource = {
             {
                 noise_layer = "phosphate-rock",
                 noise_octaves_difference = -1.5,
-                noise_persistence = 0.4,
+                noise_persistence = 0.4
             }
         }
     },
@@ -63,13 +67,11 @@ local resource = {
                 priority = "extra-high",
                 width = 576,
                 height = 576,
-				frame_count = 3,
-				variation_count = 1,
+                frame_count = 3,
+                variation_count = 1,
                 shift = util.by_pixel(0, 0),
                 scale = 0.5
-                }
+            }
         }
     }
 }
-
-data:extend {autoplace, noise, resource}

@@ -26,23 +26,22 @@ local item_types = {
 }
 
 function Item:get(item, itype, opts)
-    local types = itype and {itype} or item_types
-    local object
+    local object = self.get_object(item)
 
-    if type(item) == "table" then
-        if item.name and item.type then
-            return setmetatable(item, Item._mt):save_options(opts)
-        end
-    elseif type(item) == "string" then
-        for _, type_name in pairs(types) do
-            object = data.raw[type_name][item]
+    if not object then
+        for _, type_name in pairs(itype and {itype} or item_types) do
+            object = self.get_object(item, type_name)
             if object then
-                return setmetatable(object, Item._mt):save_options(opts)
+                break
             end
         end
     end
 
-    local msg = "Item: " .. (itype and (itype .. "/") or "") .. item .. " does not exist."
+    if object then
+        return setmetatable(object, Item._mt):extend(object.update_data):save_options(opts)
+    end
+
+    local msg = "Item: " .. (itype and (itype .. "/") or "") .. tostring(item) .. " does not exist."
     self.log(msg)
     return self
 end
@@ -51,7 +50,8 @@ Item:set_caller(Item.get)
 Item._mt = {
     type = "item",
     __index = Item,
-    __call = Item.get
+    __call = Item.get,
+    __tostring = Item.tostring
 }
 
 return Item

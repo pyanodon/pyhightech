@@ -1,4 +1,6 @@
-local phosphate_rock = {
+local Item = require("stdlib/data/item")
+
+Item {
     type = "item",
     name = "phosphate-rock",
     icon = "__pyhightech__/graphics/icons/ores/phosphate-rock.png",
@@ -8,7 +10,7 @@ local phosphate_rock = {
     stack_size = 500
 }
 
-local clay = {
+Item {
     type = "item",
     name = "clay",
     icon = "__pyhightech__/graphics/icons/clay.png",
@@ -16,9 +18,4 @@ local clay = {
     subgroup = "py-hightech-items",
     order = "a",
     stack_size = 500
-}
-
-data:extend {
-    phosphate_rock,
-	clay
 }
