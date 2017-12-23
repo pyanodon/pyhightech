@@ -43,8 +43,8 @@ Entity {
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     input_fluid_box = {
         production_type = "input-output",
-        pipe_picture = assembler2pipepictures(),
-        pipe_covers = pipecoverspictures(),
+        pipe_picture = _G.assembler2pipepictures(),
+        pipe_covers = _G.pipecoverspictures(),
         base_area = 1,
         height = 2,
         base_level = -1,
