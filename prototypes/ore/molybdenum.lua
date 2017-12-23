@@ -2,6 +2,7 @@ local Data = require("stdlib/data/data")
 
 Data {
     type = "autoplace-control",
+    category = "resource",
     name = "molybdenum-ore",
     richness = true,
     order = "b-e"
