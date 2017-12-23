@@ -202,8 +202,9 @@ end
 -- @tparam table tblA first table
 -- @tparam table tblB second table
 -- @tparam[opt=false] boolean array_merge set to true to merge the tables as an array or false for an associative array
+-- @tparam[opt=false] boolean raw use rawset for associated array
 -- @treturn array|table an array or an associated array where tblA and tblB have been merged
-function table.merge(tblA, tblB, array_merge)
+function table.merge(tblA, tblB, array_merge, raw)
     if not tblB then
         return tblA
     end
@@ -214,7 +215,11 @@ function table.merge(tblA, tblB, array_merge)
 
     else
         for k, v in pairs(tblB) do
-            tblA[k] = v
+            if raw then
+                rawset(tblA, k, v)
+            else
+                tblA[k] = v
+            end
         end
     end
     return tblA

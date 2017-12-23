@@ -1,6 +1,9 @@
+local Recipe = require("stdlib/data/recipe")
+local Item = require("stdlib/data/item")
+local Entity = require("stdlib/data/entity")
 local Pipes = require("stdlib.data.pipes")
 
-local recipe1 = {
+Recipe {
     type = "recipe",
     name = "clay-pit",
     energy_required = 10,
@@ -9,13 +12,12 @@ local recipe1 = {
         {"burner-mining-drill", 2},
         {"pipe", 10},
         {"iron-plate", 40},
-        {"stone-brick", 20},
-
+        {"stone-brick", 20}
     },
     result = "clay-pit"
 }
 
-local item1 = {
+Item {
     type = "item",
     name = "clay-pit",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
@@ -26,7 +28,7 @@ local item1 = {
     stack_size = 10
 }
 
-local entity1 = {
+Entity {
     type = "assembling-machine",
     name = "clay-pit",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
@@ -80,16 +82,15 @@ local entity1 = {
             pipe_picture = Pipes.pictures("assembling-machine-2", nil, nil, nil, nil),
             pipe_covers = Pipes.covers(true, true, false, false),
             base_area = 1,
-			height = 2,
+            height = 2,
             base_level = -1,
             pipe_connections = {
-				{ position = {-4.0, 0.0}},
-				{ position = {4.0, 0.0}},
-				{ position = {0.0, -4.0}},
-				{ position = {0.0, 4.0}},
-			}
+                {position = {-4.0, 0.0}},
+                {position = {4.0, 0.0}},
+                {position = {0.0, -4.0}},
+                {position = {0.0, 4.0}}
+            }
         },
-
         off_when_no_fluid_recipe = false
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
@@ -99,5 +100,3 @@ local entity1 = {
         apparent_volume = 2.5
     }
 }
-
-data:extend {recipe1, item1, entity1}

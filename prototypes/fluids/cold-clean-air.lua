@@ -1,4 +1,7 @@
-local cold_clean_air = {
+local Recipe = require("stdlib/data/recipe")
+local Fluid = require("stdlib/data/fluid")
+
+Recipe {
     type = "recipe",
     name = "cold-clean-air",
     category = "carbonfilter",
@@ -18,7 +21,7 @@ local cold_clean_air = {
     order = "r"
 }
 
-local fluid = {
+Fluid {
     type = "fluid",
     name = "cold-clean-air",
     icon = "__pyfusionenergy__/graphics/icons/cold-clean-air.png",
@@ -32,5 +35,3 @@ local fluid = {
     subgroup = "py-fusion-gases",
     order = "c"
 }
-
-data:extend {fluid, cold_clean_air}

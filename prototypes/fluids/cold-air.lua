@@ -1,4 +1,6 @@
-local fluid = {
+local Fluid = require("stdlib/data/fluid")
+
+Fluid {
     type = "fluid",
     name = "cold-air",
     icon = "__pyfusionenergy__/graphics/icons/cold-air.png",
@@ -12,5 +14,3 @@ local fluid = {
     subgroup = "py-fusion-gases",
     order = "c"
 }
-
-data:extend {fluid}

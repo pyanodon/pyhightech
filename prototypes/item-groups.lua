@@ -42,5 +42,5 @@ data:extend {
         name = "py-hightech-ores",
         group = "py-hightech",
         order = "e"
-    },
+    }
 }
