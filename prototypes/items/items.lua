@@ -19,3 +19,21 @@ Item {
     order = "a",
     stack_size = 500
 }
+Item {
+    type = "item",
+    name = "melamine",
+    icon = "__pyhightech__/graphics/icons/melamine.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "melamine-resin",
+    icon = "__pyhightech__/graphics/icons/melamine-resin.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "c",
+    stack_size = 200
+}

@@ -6,5 +6,13 @@ data:extend {
     {
         type = "recipe-category",
         name = "clay"
+    },
+    {
+        type = "recipe-category",
+        name = "moon"
+    },
+    {
+        type = "recipe-category",
+        name = "fbreactor"
     }
 }

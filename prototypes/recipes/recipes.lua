@@ -17,3 +17,21 @@ Recipe {
     subgroup = "py-hightech-items",
     order = "a"
 }
+Recipe {
+    type = "recipe",
+    name = "melamine-resin",
+    category = "fbreactor",
+    enabled = true,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "methanal", amount = 50},
+		{type = "item", name = "melamine", amount = 20}
+    },
+    results = {
+        {type = "item", name = "melamine-resin", amount = 10}
+    },
+    main_product = "melamine-resin",
+    icon = "__pyhightech__/graphics/icons/melamine-resin.png",
+    subgroup = "py-hightech-items",
+    order = "b"
+}
