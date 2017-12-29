@@ -44,7 +44,7 @@ Data {
         richness_multiplier = 120,
         richness_multiplier_distance_bonus = 110,
         richness_base = 85000,
-        coverage = 0.025,
+        coverage = 0.005,
         peaks = {
             {
                 noise_layer = "phosphate-rock",
