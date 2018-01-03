@@ -51,7 +51,7 @@ local entity1 = {
         emissions = 0.01
     },
     energy_usage = "100kW",
-    ingredient_count = 7,
+    ingredient_count = 10,
     animation = {
         layers = {
             {
@@ -102,31 +102,66 @@ local entity1 = {
             pipe_covers = Pipes.covers(false, true, true, true),
             base_area = 10,
 			base_level = -1,
-            pipe_connections = {
-				{ position = {-1.0, 3.0}},
-				{ position = {-3.0, -1.0}},
-				{ position = {1.0, -3.0}},
-				{ position = {3.0, 1.0}}
-			}
+			pipe_connections = {{type = "input", position = {-1.0, 3.0}}}
+        },
+        {
+            production_type = "input",
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_covers = Pipes.covers(false, true, true, true),
+            base_area = 10,
+			base_level = -1,
+			pipe_connections = {{type = "input", position = {-3.0, -1.0}}}
+        },
+        {
+            production_type = "input",
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_covers = Pipes.covers(false, true, true, true),
+            base_area = 10,
+			base_level = -1,
+			pipe_connections = {{type = "input", position = {1.0, -3.0}}}
+        },
+        {
+            production_type = "input",
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_covers = Pipes.covers(false, true, true, true),
+            base_area = 10,
+			base_level = -1,
+			pipe_connections = {{type = "input", position = {3.0, 1.0}}}
         },
         {
             production_type = "output",
             pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
             pipe_covers = Pipes.covers(false, true, true, true),
 			base_level = 1,
-            pipe_connections = {
-				{ position = {-3.0, 2.0}},
-				{ position = {-2.0, -3.0}},
-				{ position = {2.0, 3.0}},
-				{ position = {3.0, -2.0}}
-			}
+			pipe_connections = {{type = "output", position = {-3.0, 2.0}}}
+        },
+        {
+            production_type = "output",
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_covers = Pipes.covers(false, true, true, true),
+			base_level = 1,
+			pipe_connections = {{type = "output", position = {-2.0, -3.0}}}
+        },
+        {
+            production_type = "output",
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_covers = Pipes.covers(false, true, true, true),
+			base_level = 1,
+			pipe_connections = {{type = "output", position = {2.0, 3.0}}}
+        },
+        {
+            production_type = "output",
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_covers = Pipes.covers(false, true, true, true),
+			base_level = 1,
+			pipe_connections = {{type = "output", position = {3.0, -2.0}}}
         },
         off_when_no_fluid_recipe = true
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/fbreactor.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyhightech__/sounds/fbreactor.ogg", volume = 0.7},
+        sound = {filename = "__pyhightech__/sounds/fbreactor.ogg", volume = 0.6},
+        idle_sound = {filename = "__pyhightech__/sounds/fbreactor.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }
