@@ -45,7 +45,7 @@ Recipe {
 		{type = "item", name = "fawogae", amount = 20}
     },
     results = {
-        {type = "item", name = "urea", amount = 10}
+        {type = "item", name = "urea", amount = 15}
     },
     main_product = "urea",
     icon = "__pyhightech__/graphics/icons/urea.png",
@@ -199,6 +199,63 @@ Recipe {
     subgroup = "py-hightech-items",
     order = "j"
 }
+Recipe {
+    type = "recipe",
+    name = "fiberboard",
+    category = "pulp",
+    enabled = true,
+    energy_required = 10,
+    ingredients = {
+		{type = "item", name = "wood", amount = 2},
+		{type = "fluid", name = "steam", amount = 500, temperature = 165},
+    },
+    results = {
+        {type = "item", name = "fiberboard", amount = 2},
+		{type = "fluid", name = "organic-solvent", amount = 10},
+		{type = "fluid", name = "tall-oil", amount = 15},
+		{type = "fluid", name = "black-liquor", amount = 10},
+    },
+    main_product = "fiberboard",
+    icon = "__pyhightech__/graphics/icons/fiberboard.png",
+    subgroup = "py-hightech-items",
+    order = "j"
+}
+Recipe {
+    type = "recipe",
+    name = "formica",
+    category = "wpu",
+    enabled = true,
+    energy_required = 10,
+    ingredients = {
+		{type = "item", name = "fiberboard", amount = 2},
+		{type = "item", name = "melamine-resin", amount = 20},
+    },
+    results = {
+        {type = "item", name = "formica", amount = 5},
+    },
+    main_product = "formica",
+    icon = "__pyhightech__/graphics/icons/formica.png",
+    subgroup = "py-hightech-items",
+    order = "j"
+}
+Recipe {
+    type = "recipe",
+    name = "pcb1",
+    category = "pcb",
+    enabled = true,
+    energy_required = 5,
+    ingredients = {
+		{type = "item", name = "formica", amount = 2},
+		{type = "item", name = "copper-plate", amount = 5},
+    },
+    results = {
+        {type = "item", name = "pcb1", amount = 2},
+    },
+    main_product = "pcb1",
+    icon = "__pyhightech__/graphics/icons/pcb1.png",
+    subgroup = "py-hightech-items",
+    order = "k"
+}
 
 Recipe("capacitor1"):add_ingredient({type = "item", name = "resin", amount = 2})
 Recipe("capacitor1"):replace_ingredient("copper-plate", "tin-plate")
@@ -206,5 +263,6 @@ Recipe("resistor1"):add_ingredient({type = "item", name = "glass", amount = 1})
 Recipe("resistor1"):replace_ingredient("iron-plate", "tin-plate")
 Recipe("valve"):add_ingredient({type = "item", name = "glass", amount = 1})
 Recipe("valve"):add_ingredient({type = "fluid", name = "vacuum", amount = 50})
---Recipe("vacuum-pump"):set_enable(enabled)  should enable pYFusion vaccum pump
---Recipe("basic-electronic-components"):remove_unlock("electronic")  should remove that recipe from unlocking, then it wont appear in the game.
+Recipe("pcb1"):add_ingredient({type = "fluid", name = "vacuum", amount = 50})
+
+--Recipe("basic-electronic-components"):remove_unlock(electronics)  --should remove that recipe from unlocking, then it wont appear in the game.

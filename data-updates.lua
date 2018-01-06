@@ -6,3 +6,4 @@ end
 if angelsmods then
     require("prototypes.updates.angel-updates")
 end
+
