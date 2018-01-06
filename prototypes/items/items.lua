@@ -100,3 +100,34 @@ Item {
     order = "f",
     stack_size = 100
 }
+Item {
+    type = "item",
+    name = "pcb1",
+    icon = "__pyhightech__/graphics/icons/pcb1.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "f",
+    stack_size = 100
+}
+Item {
+    type = "item",
+    name = "fiberboard",
+    icon = "__pyhightech__/graphics/icons/fiberboard.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+	fuel_value = "5MJ",
+	fuel_category = "chemical",
+    order = "g",
+    stack_size = 100
+}
+Item {
+    type = "item",
+    name = "formica",
+    icon = "__pyhightech__/graphics/icons/formica.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+	fuel_value = "8MJ",
+	fuel_category = "chemical",
+    order = "g",
+    stack_size = 100
+}
