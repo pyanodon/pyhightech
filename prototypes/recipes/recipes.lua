@@ -7,7 +7,7 @@ Recipe {
     enabled = true,
     energy_required = 2,
     ingredients = {
-        {type = "fluid", name = "water", amount = 100}
+        {type = "fluid", name = "steam", amount = 100, temperature = 165}
     },
     results = {
         {type = "item", name = "clay", amount = 2}
@@ -42,7 +42,7 @@ Recipe {
     enabled = true,
     energy_required = 30,
     ingredients = {
-		{type = "item", name = "fawogae", amount = 20}
+		{type = "item", name = "fawogae", amount = 12}
     },
     results = {
         {type = "item", name = "urea", amount = 15}
@@ -256,6 +256,108 @@ Recipe {
     subgroup = "py-hightech-items",
     order = "k"
 }
+Recipe {
+    type = "recipe",
+    name = "circuit-board-1",
+    category = "chip",
+    enabled = true,
+    energy_required = 12,
+    ingredients = {
+		{type = "item", name = "pcb1", amount = 1},
+		{type = "item", name = "valve", amount = 3},
+		{type = "item", name = "inductor1", amount = 3},
+		{type = "item", name = "capacitor1", amount = 5},
+		{type = "item", name = "resistor1", amount = 6},
+    },
+    results = {
+        {type = "item", name = "circuit-board-1", amount = 1},
+    },
+    main_product = "circuit-board-1",
+    icon = "__pyhightech__/graphics/icons/circuit-board-1.png",
+    subgroup = "py-hightech-items",
+    order = "l"
+}
+Recipe {
+    type = "recipe",
+    name = "fluidize-coke",
+    category = "fbreactor",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+		{type = "item", name = "coke", amount = 5},
+		{type = "item", name = "copper-plate", amount = 3},
+    },
+    results = {
+        {type = "fluid", name = "ammonia", amount = 20},
+		{type = "fluid", name = "tar", amount = 30},
+		{type = "fluid", name = "tall-oil", amount = 20},
+    },
+    --main_product = "tall-oil",
+    icon = "__pyhightech__/graphics/icons/fluidize-coke.png",
+    subgroup = "py-hightech-recipes",
+    order = "b1"
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "tall-oil-separation",
+    category = "fluid-separator",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+		{type = "fluid", name = "tall-oil", amount = 10},
+		{type = "fluid", name = "light-oil", amount = 20},
+    },
+    results = {
+        {type = "fluid", name = "light-oil", amount = 30},
+		{type = "fluid", name = "benzene", amount = 20},
+		{type = "fluid", name = "aromatics", amount = 10},
+    },
+    --main_product = "benzene",
+    icon = "__pyhightech__/graphics/icons/tall-oil-separation.png",
+    subgroup = "py-hightech-recipes",
+    order = "b2"
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "silicon-wafer",
+    category = "hpf",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+		{type = "item", name = "pure-sand", amount = 20},
+		{type = "item", name = "coal-dust", amount = 20},
+		{type = "item", name = "graphite", amount = 3},
+    },
+    results = {
+        {type = "fluid", name = "flue-gas", amount = 100},
+		{type = "item", name = "silicon-wafer", amount = 5},
+    },
+    main_product = "silicon-wafer",
+    icon = "__pyhightech__/graphics/icons/silicon-wafer.png",
+    subgroup = "py-hightech-recipes",
+    order = "b4"
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "powdered-phosphate-rock",
+    category = "crusher",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+		{type = "item", name = "phosphate-rock", amount = 10},
+    },
+    results = {
+		{type = "item", name = "powdered-phosphate-rock", amount = 5},
+		{type = "item", name = "stone", amount = 5},
+    },
+    main_product = "powdered-phosphate-rock",
+    icon = "__pyhightech__/graphics/icons/crush-phosphate-rock.png",
+    subgroup = "py-hightech-recipes",
+    order = "b5"
+}:add_unlock("basic-electronics")
 
 Recipe("capacitor1"):add_ingredient({type = "item", name = "resin", amount = 2})
 Recipe("capacitor1"):replace_ingredient("copper-plate", "tin-plate")
@@ -264,5 +366,7 @@ Recipe("resistor1"):replace_ingredient("iron-plate", "tin-plate")
 Recipe("valve"):add_ingredient({type = "item", name = "glass", amount = 1})
 Recipe("valve"):add_ingredient({type = "fluid", name = "vacuum", amount = 50})
 Recipe("pcb1"):add_ingredient({type = "fluid", name = "vacuum", amount = 50})
+Recipe("silicon-wafer"):replace_ingredient("coal-dust", "carbon")
+Recipe("propene"):replace_ingredient("iron-plate", "lead-plate")
 
 --Recipe("basic-electronic-components"):remove_unlock(electronics)  --should remove that recipe from unlocking, then it wont appear in the game.

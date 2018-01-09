@@ -28,7 +28,7 @@ local recipe1 = {
         {"pipe", 10},
         {"electric-mining-drill", 1},
         {"stone-brick", 30},
-		{"wooden-board", 30},
+		{"wood", 30},
     },
     result = "pulp-mill"
 }
@@ -162,8 +162,8 @@ local entity1 = {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/pulp-mill.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyhightech__/sounds/pulp-mill.ogg", volume = 0.7},
+        sound = {filename = "__pyhightech__/sounds/pulp-mill.ogg", volume = 0.8},
+        idle_sound = {filename = "__pyhightech__/sounds/pulp-mill.ogg", volume = 0.6},
         apparent_volume = 2.5
     }
 }
