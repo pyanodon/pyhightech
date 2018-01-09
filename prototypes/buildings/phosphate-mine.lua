@@ -1,3 +1,4 @@
+local Pipes = require("stdlib.data.pipes")
 local Recipe = require("stdlib/data/recipe")
 local Item = require("stdlib/data/item")
 local Entity = require("stdlib/data/entity")
@@ -6,16 +7,16 @@ Recipe {
     type = "recipe",
     name = "phosphate-mine",
     energy_required = 10,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"soil-extractormk01", 2},
         {"automated-factory", 1},
-        {"iron-plate", 60}, --bobs tungsten-plate
+        {"iron-plate", 60},
         {"jaw-crusher", 1},
-        {"advanced-circuit", 40} --updated-bob basic-electronic-circuit-board
+        {"electronic-circuit", 40} 
     },
     result = "phosphate-mine"
-}
+}:add_unlock("basic-electronics")
 
 Item {
     type = "item",

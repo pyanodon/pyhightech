@@ -23,7 +23,11 @@ data:extend {
         type = "recipe-category",
         name = "pulp"
     },
-	    {
+	{
+        type = "recipe-category",
+        name = "chip"
+    },
+	{
         type = "recipe-category",
         name = "pcb"
     },

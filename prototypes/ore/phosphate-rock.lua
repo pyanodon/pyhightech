@@ -32,7 +32,7 @@ Data {
         mining_time = 2,
         result = "phosphate-rock",
         fluid_amount = 50,
-        required_fluid = "water"
+        required_fluid = "syngas"
     },
     collision_box = {{-4.3, -4.5}, {4.5, 4.5}},
     selection_box = {{-4.5, -4.3}, {4.3, 4.3}},

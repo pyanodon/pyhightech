@@ -131,3 +131,30 @@ Item {
     order = "g",
     stack_size = 100
 }
+Item {
+    type = "item",
+    name = "circuit-board-1",
+    icon = "__pyhightech__/graphics/icons/circuit-board-1.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 100
+}
+Item {
+    type = "item",
+    name = "powdered-phosphate-rock",
+    icon = "__pyhightech__/graphics/icons/powdered-phosphate-rock.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 400
+}
+Item {
+    type = "item",
+    name = "silicon-wafer",
+    icon = "__pyhightech__/graphics/icons/silicon-wafer.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "i",
+    stack_size = 150
+}

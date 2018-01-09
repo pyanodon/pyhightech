@@ -12,7 +12,9 @@ require("prototypes.buildings.aoug-paddock")
 require("prototypes.buildings.electronics-factory")
 require("prototypes.buildings.pulp-mill")
 require("prototypes.buildings.pcb-factory")
+require("prototypes.buildings.chipshooter")
 
+require("prototypes.technologies.basic-electronics")
 
 require("prototypes.ore.phosphate-rock")
 
@@ -24,6 +26,11 @@ require("prototypes.fluids.ammonia")
 require("prototypes.fluids.cyanic-acid")
 require("prototypes.fluids.black-liquor")
 require("prototypes.fluids.tall-oil")
+require("prototypes.fluids.benzene")
+require("prototypes.fluids.phosphoric-acid")
+require("prototypes.fluids.phosphorous-acid")
+require("prototypes.fluids.phosphine-gas")
+require("prototypes.fluids.propene")
 
 require("prototypes.items.items")
 
