@@ -115,8 +115,8 @@ Item {
     icon = "__pyhightech__/graphics/icons/fiberboard.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
-	fuel_value = "5MJ",
-	fuel_category = "chemical",
+    fuel_value = "5MJ",
+    fuel_category = "chemical",
     order = "g",
     stack_size = 100
 }
@@ -126,8 +126,8 @@ Item {
     icon = "__pyhightech__/graphics/icons/formica.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
-	fuel_value = "8MJ",
-	fuel_category = "chemical",
+    fuel_value = "8MJ",
+    fuel_category = "chemical",
     order = "g",
     stack_size = 100
 }

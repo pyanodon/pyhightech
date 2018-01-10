@@ -1,4 +1,4 @@
-local Pipes = require("stdlib.data.pipes")
+--local Pipes = require("stdlib.data.pipes")
 
 local recipe1 = {
     type = "recipe",
@@ -70,7 +70,7 @@ local entity1 = {
                 frame_count = 128,
                 animation_speed = 0.3,
                 shift = util.by_pixel(64, 0)
-            },			
+            },
         }
     },
 

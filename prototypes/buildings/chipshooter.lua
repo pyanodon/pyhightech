@@ -72,7 +72,7 @@ local entity1 = {
                 frame_count = 150,
                 animation_speed = 0.4,
                 shift = util.by_pixel(11, -64)
-            },			
+            },
             {
                 filename = "__pyhightech__/graphics/entity/chipshooter/3.png",
                 width = 36,
@@ -81,7 +81,7 @@ local entity1 = {
                 frame_count = 150,
                 animation_speed = 0.4,
                 shift = util.by_pixel(61, -64)
-            },	
+            },
             {
                 filename = "__pyhightech__/graphics/entity/chipshooter/shadow.png",
                 width = 105,
@@ -91,7 +91,7 @@ local entity1 = {
                 animation_speed = 0.4,
 				draw_as_shadow = true,
                 shift = util.by_pixel(72, 0)
-            },	
+            },
         }
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},

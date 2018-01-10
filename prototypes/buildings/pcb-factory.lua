@@ -83,7 +83,7 @@ local entity1 = {
                 frame_count = 276,
                 animation_speed = 0.4,
                 shift = util.by_pixel(-64, -5)
-            },			
+            },
             {
                 filename = "__pyhightech__/graphics/entity/pcb-factory/3.png",
                 width = 32,
@@ -92,7 +92,7 @@ local entity1 = {
                 frame_count = 276,
                 animation_speed = 0.4,
                 shift = util.by_pixel(-32, -5)
-            },	
+            },
             {
                 filename = "__pyhightech__/graphics/entity/pcb-factory/4.png",
                 width = 32,
@@ -102,7 +102,7 @@ local entity1 = {
                 frame_count = 276,
                 animation_speed = 0.4,
                 shift = util.by_pixel(0, -5)
-            },	
+            },
             {
                 filename = "__pyhightech__/graphics/entity/pcb-factory/5.png",
                 width = 32,
@@ -111,7 +111,7 @@ local entity1 = {
                 frame_count = 276,
                 animation_speed = 0.4,
                 shift = util.by_pixel(32, -5)
-            },	
+            },
             {
                 filename = "__pyhightech__/graphics/entity/pcb-factory/6.png",
                 width = 32,
@@ -120,7 +120,7 @@ local entity1 = {
                 frame_count = 276,
                 animation_speed = 0.4,
                 shift = util.by_pixel(64, -5)
-            },	
+            },
             {
                 filename = "__pyhightech__/graphics/entity/pcb-factory/7.png",
                 width = 32,
@@ -139,7 +139,7 @@ local entity1 = {
                 animation_speed = 0.4,
 				draw_as_shadow = true,
                 shift = util.by_pixel(112, -5)
-            },	
+            },
         }
     },
     fluid_boxes = {
