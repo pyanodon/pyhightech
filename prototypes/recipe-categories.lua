@@ -4,6 +4,10 @@ data:extend {
         name = "phosphate"
     },
     {
+        type = "resource-category",
+        name = "rare-earth"
+    },
+    {
         type = "recipe-category",
         name = "clay"
     },
