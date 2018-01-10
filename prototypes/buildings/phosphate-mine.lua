@@ -13,7 +13,7 @@ Recipe {
         {"automated-factory", 1},
         {"iron-plate", 60},
         {"jaw-crusher", 1},
-        {"electronic-circuit", 40} 
+        {"electronic-circuit", 40}
     },
     result = "phosphate-mine"
 }:add_unlock("basic-electronics")
