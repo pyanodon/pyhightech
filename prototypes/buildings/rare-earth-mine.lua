@@ -17,7 +17,7 @@ Recipe {
         {"electronic-circuit", 20}
     },
     result = "rare-earth-mine"
-}:add_unlock("basic-electronics")
+}:add_unlock("rare-earth-tech")
 
 Item {
     type = "item",
@@ -38,7 +38,7 @@ Entity {
     minable = {mining_time = 1, result = "rare-earth-mine"},
     fast_replaceable_group = "rare-earth-mine",
     max_health = 600,
-    resource_categories = {"rare-earth"},
+    resource_categories = {"rareearth"},
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     collision_box = {{-3.6, -3.6}, {3.6, 3.6}},

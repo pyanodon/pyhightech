@@ -9,7 +9,7 @@ Recipe {
     ingredients = {
         {type = "fluid", name = "syngas", amount = 80},
 		{type = "item", name = "powdered-phosphate-rock", amount = 5},
-		{type = "item", name = "sand", amount = 20},
+		{type = "item", name = "pure-sand", amount = 20},
 		{type = "item", name = "coke", amount = 5},
     },
     results = {

@@ -1,5 +1,142 @@
 local Recipe = require("stdlib/data/recipe")
 
+
+Recipe {
+    type = "recipe",
+    name = "crusher-ree",
+    category = "crusher",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "rare-earth-ore", amount = 10},
+    },
+    results = {
+        {type = "item", name = "rare-earth-powder", amount = 5},
+		{type = "item", name = "stone", amount = 5},
+    },
+    --main_product = "silicon-wafer",
+    icon = "__pyhightech__/graphics/icons/crush-rare-earth-ore.png",
+    subgroup = "py-hightech-recipes",
+    order = "b7"
+}:add_unlock("rare-earth-tech")
+
+Recipe {
+    type = "recipe",
+    name = "milling-ree",
+    category = "ball-mill",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "rare-earth-powder", amount = 5},
+    },
+    results = {
+        {type = "item", name = "rare-earth-dust", amount = 3},
+		{type = "item", name = "gravel", amount = 2},
+    },
+    --main_product = "silicon-wafer",
+    icon = "__pyhightech__/graphics/icons/rare-earth-dust.png",
+    subgroup = "py-hightech-recipes",
+    order = "b7"
+}:add_unlock("rare-earth-tech")
+
+Recipe {
+    type = "recipe",
+    name = "ree-float",
+    category = "agitator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "rare-earth-dust", amount = 3},
+		{type = "fluid", name = "organic-solvent", amount = 100},
+    },
+    results = {
+        {type = "item", name = "iron-ore", amount = 5},
+		{type = "fluid", name = "rare-earth-mud", amount = 100},
+    },
+    main_product = "rare-earth-mud",
+    icon = "__pycoalprocessing__/graphics/icons/rare-earth-mud.png",
+    subgroup = "py-hightech-recipes",
+    order = "b8"
+}:add_unlock("rare-earth-tech"):replace_result("iron-ore", "zinc-plate")
+
+Recipe {
+    type = "recipe",
+    name = "ree-concentrate1",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+		{type = "fluid", name = "ree-solution", amount = 100},
+    },
+    results = {
+        {type = "item", name = "iron-oxide", amount = 6},
+		{type = "item", name = "ree-concentrate", amount = 10},
+    },
+    main_product = "ree-concentrate",
+    icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
+    subgroup = "py-hightech-recipes",
+    order = "b8"
+}:add_unlock("rare-earth-tech")
+
+Recipe {
+    type = "recipe",
+    name = "ree-concentrate2",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+		{type = "fluid", name = "ree-solution", amount = 100},
+		{type = "fluid", name = "cyanic-acid", amount = 50},
+    },
+    results = {
+        {type = "item", name = "chromium", amount = 10},
+		{type = "item", name = "ree-concentrate", amount = 20},
+    },
+    main_product = "ree-concentrate",
+    icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
+    subgroup = "py-hightech-recipes",
+    order = "b8"
+}:add_unlock("rare-earth-tech"):replace_result("chromium", "gold-plate")
+
+Recipe {
+    type = "recipe",
+    name = "ree-concentrate3",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+		{type = "fluid", name = "ree-solution", amount = 100},
+		{type = "fluid", name = "sulfuric-acid", amount = 150},
+    },
+    results = {
+        {type = "item", name = "copper-plate", amount = 10},
+		{type = "item", name = "ree-concentrate", amount = 20},
+    },
+    main_product = "ree-concentrate",
+    icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
+    subgroup = "py-hightech-recipes",
+    order = "b8"
+}:add_unlock("rare-earth-tech"):replace_result("copper-plate", "nickel-plate")
+
+Recipe {
+    type = "recipe",
+    name = "reo",
+    category = "solid-separator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+		{type = "item", name = "ree-concentrate", amount = 10},
+    },
+    results = {
+        {type = "item", name = "iron-oxide", amount = 6},
+		{type = "item", name = "reo", amount = 20},
+    },
+    main_product = "reo",
+    icon = "__pyhightech__/graphics/icons/reo-separation.png",
+    subgroup = "py-hightech-recipes",
+    order = "b8"
+}:add_unlock("rare-earth-tech")
+
 Recipe {
     type = "recipe",
     name = "clay",
@@ -131,7 +268,7 @@ Recipe {
     main_product = "inductor1",
     icon = "__pyhightech__/graphics/icons/inductor1.png",
     subgroup = "py-hightech-items",
-    order = "f"
+    order = "a1"
 }
 
 Recipe {
@@ -150,7 +287,7 @@ Recipe {
     main_product = "capacitor1",
     icon = "__pyhightech__/graphics/icons/capacitor1.png",
     subgroup = "py-hightech-items",
-    order = "g"
+    order = "a2"
 }:add_ingredient({type = "item", name = "resin", amount = 2}):replace_ingredient("copper-plate", "tin-plate")
 
 Recipe {
@@ -169,7 +306,7 @@ Recipe {
     main_product = "resistor1",
     icon = "__pyhightech__/graphics/icons/resistor1.png",
     subgroup = "py-hightech-items",
-    order = "h"
+    order = "a3"
 }:add_ingredient({type = "item", name = "glass", amount = 1}):replace_ingredient("iron-plate", "tin-plate")
 
 Recipe {
@@ -207,7 +344,7 @@ Recipe {
     main_product = "valve",
     icon = "__pyhightech__/graphics/icons/valve.png",
     subgroup = "py-hightech-items",
-    order = "j"
+    order = "a4"
 }:add_ingredient({type = "item", name = "glass", amount = 1}):add_ingredient({type = "fluid", name = "vacuum", amount = 50})
 
 Recipe {
@@ -337,7 +474,7 @@ Recipe {
 Recipe {
     type = "recipe",
     name = "silicon-wafer",
-    category = "hpf",
+    category = "advanced-crafting",
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -360,7 +497,7 @@ Recipe {
     name = "powdered-phosphate-rock",
     category = "crusher",
     enabled = false,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = "item", name = "phosphate-rock", amount = 10}
     },
@@ -401,7 +538,7 @@ Recipe {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "silicon-wafer", amount = 5},
-        --{type = "item", name = "rare-earth", amount = 20},
+        {type = "item", name = "reo", amount = 20},
     },
     results = {
         {type = "item", name = "heavy-n", amount = 5}
@@ -410,5 +547,124 @@ Recipe {
     icon = "__pyhightech__/graphics/icons/heavy-n.png",
     subgroup = "py-hightech-recipes",
     order = "b6"
+}:add_unlock("semiconductor-doping"):add_ingredient({type = "item", name = "lithium", amount = 5})
+
+Recipe {
+    type = "recipe",
+    name = "p-dope",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "silicon-wafer", amount = 5},
+        {type = "fluid", name = "diborane", amount = 20},
+    },
+    results = {
+        {type = "item", name = "p-dope", amount = 5}
+    },
+    --main_product = "silicon-wafer",
+    icon = "__pyhightech__/graphics/icons/p-dope.png",
+    subgroup = "py-hightech-recipes",
+    order = "b5"
 }:add_unlock("semiconductor-doping")
 
+Recipe {
+    type = "recipe",
+    name = "transistor",
+    category = "electronic",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "light-n", amount = 5},
+        {type = "item", name = "heavy-n", amount = 5},
+		{type = "item", name = "p-dope", amount = 5},
+        {type = "fluid", name = "vacuum", amount = 100},
+		{type = "item", name = "melamine-resin", amount = 5},		
+    },
+    results = {
+        {type = "item", name = "transistor", amount = 5}
+    },
+    main_product = "transistor",
+    icon = "__pyhightech__/graphics/icons/transistor.png",
+    subgroup = "py-hightech-recipes",
+    order = "c1"
+}:add_unlock("semiconductor-doping")
+
+Recipe {
+    type = "recipe",
+    name = "cumene-distilation",
+    category = "distilator",
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "cumene", amount = 50},
+    },
+    results = {
+        {type = "item", name = "phenol", amount = 20},
+		{type = "fluid", name = "acetone", amount = 25},
+    },
+    --main_product = "transistor",
+    icon = "__pyhightech__/graphics/icons/phenol.png",
+    subgroup = "py-hightech-recipes",
+    order = "b1"
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "bakelite",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "methanal", amount = 20},
+        {type = "item", name = "phenol", amount = 15},
+        {type = "item", name = "zinc-chloride", amount = 5},
+        {type = "item", name = "organics", amount = 30},
+    },
+    results = {
+        {type = "item", name = "bakelite", amount = 5},
+    },
+    main_product = "bakelite",
+    icon = "__pyhightech__/graphics/icons/bakelite.png",
+    subgroup = "py-hightech-recipes",
+    order = "b1"
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "phenolicboard",
+    category = "pulp",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "fluid", name = "ammonia", amount = 30},
+        {type = "item", name = "fiberboard", amount = 10},
+        {type = "item", name = "bakelite", amount = 5},
+    },
+    results = {
+        {type = "item", name = "phenolicboard", amount = 5},
+    },
+    main_product = "phenolicboard",
+    icon = "__pyhightech__/graphics/icons/phenolic-board.png",
+    subgroup = "py-hightech-recipes",
+    order = "b1"
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "pcb2",
+    category = "pcb",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "phenolicboard", amount = 5},
+        {type = "item", name = "copper-plate", amount = 5},
+    },
+    results = {
+        {type = "item", name = "pcb2", amount = 3},
+    },
+    main_product = "pcb2",
+    icon = "__pyhightech__/graphics/icons/pcb2.png",
+    subgroup = "py-hightech-recipes",
+    order = "b1"
+}:add_unlock("basic-electronics"):add_ingredient({type = "item", name = "tin-plate", amount = 5})
