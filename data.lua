@@ -5,6 +5,7 @@ require("prototypes.recipe-categories")
 
 require("prototypes.technologies.basic-electronics")
 require("prototypes.technologies.semiconductor-doping")
+require("prototypes.technologies.rare-earth-tech")
 
 require("prototypes.ore.phosphate-rock")
 require("prototypes.ore.rare-earth-bolide")
@@ -31,6 +32,10 @@ require("prototypes.fluids.phosphoric-acid")
 require("prototypes.fluids.phosphorous-acid")
 require("prototypes.fluids.phosphine-gas")
 require("prototypes.fluids.propene")
+require("prototypes.fluids.ree-slurry")
+require("prototypes.fluids.ree-solution")
+require("prototypes.fluids.acetone")
+require("prototypes.fluids.cumene")
 
 require("prototypes.recipes.recipes")
 require("prototypes.items.items")

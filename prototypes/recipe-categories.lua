@@ -5,7 +5,7 @@ data:extend {
     },
     {
         type = "resource-category",
-        name = "rare-earth"
+        name = "rareearth"
     },
     {
         type = "recipe-category",

@@ -186,3 +186,93 @@ Item {
     order = "j",
     stack_size = 100
 }
+Item {
+    type = "item",
+    name = "rare-earth-powder",
+    icon = "__pyhightech__/graphics/icons/rare-earth-powder.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "k",
+    stack_size = 150
+}
+Item {
+    type = "item",
+    name = "rare-earth-dust",
+    icon = "__pyhightech__/graphics/icons/rare-earth-dust.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "k",
+    stack_size = 150
+}
+Item {
+    type = "item",
+    name = "ree-concentrate",
+    icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 150
+}
+Item {
+    type = "item",
+    name = "reo",
+    icon = "__pyhightech__/graphics/icons/reo.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 150
+}
+Item {
+    type = "item",
+    name = "p-dope",
+    icon = "__pyhightech__/graphics/icons/p-dope.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 150
+}
+Item {
+    type = "item",
+    name = "transistor",
+    icon = "__pyhightech__/graphics/icons/transistor.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 300
+}
+Item {
+    type = "item",
+    name = "phenol",
+    icon = "__pyhightech__/graphics/icons/phenol.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 300
+}
+Item {
+    type = "item",
+    name = "phenolicboard",
+    icon = "__pyhightech__/graphics/icons/phenolic-board.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "bakelite",
+    icon = "__pyhightech__/graphics/icons/bakelite.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "pcb2",
+    icon = "__pyhightech__/graphics/icons/pcb2.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}

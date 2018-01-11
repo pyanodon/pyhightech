@@ -2,14 +2,14 @@ local Technology = require("stdlib/data/technology")
 
 Technology {
     type = "technology",
-    name = "semiconductor-doping",
-    icon = "__pyhightech__/graphics/technology/semiconductor-doping.png",
+    name = "rare-earth-tech",
+    icon = "__pyhightech__/graphics/technology/rare-earth-tech.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"basic-electronics","rare-earth-tech"},
+    prerequisites = {"basic-electronics"},
     effects = {},
     unit = {
-        count = 45,
+        count = 50,
         ingredients = {
             {"science-pack-1", 2},
             {"science-pack-2", 1}

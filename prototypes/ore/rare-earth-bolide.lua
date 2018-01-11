@@ -16,7 +16,7 @@ Data {
 Data {
     type = "resource",
     name = "rare-earth-bolide",
-    category = "rare-earth",
+    category = "rareearth",
     icon = "__pyhightech__/graphics/icons/ores/rare-earth-bolide.png",
     flags = {"placeable-neutral"},
     order = "a-b-a",
