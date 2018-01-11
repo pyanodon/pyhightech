@@ -12,6 +12,16 @@ Item {
 
 Item {
     type = "item",
+    name = "rare-earth-ore",
+    icon = "__pyhightech__/graphics/icons/rare-earth-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-ores",
+    order = "a",
+    stack_size = 500
+}
+
+Item {
+    type = "item",
     name = "clay",
     icon = "__pyhightech__/graphics/icons/clay.png",
     flags = {"goes-to-main-inventory"},
@@ -157,4 +167,22 @@ Item {
     subgroup = "py-hightech-items",
     order = "i",
     stack_size = 150
+}
+Item {
+    type = "item",
+    name = "light-n",
+    icon = "__pyhightech__/graphics/icons/light-n.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "j",
+    stack_size = 100
+}
+Item {
+    type = "item",
+    name = "heavy-n",
+    icon = "__pyhightech__/graphics/icons/heavy-n.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "j",
+    stack_size = 100
 }

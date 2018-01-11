@@ -4,10 +4,13 @@ require("prototypes.item-groups")
 require("prototypes.recipe-categories")
 
 require("prototypes.technologies.basic-electronics")
+require("prototypes.technologies.semiconductor-doping")
 
 require("prototypes.ore.phosphate-rock")
+require("prototypes.ore.rare-earth-bolide")
 
 require("prototypes.buildings.phosphate-mine")
+require("prototypes.buildings.rare-earth-mine")
 require("prototypes.buildings.clay-pit")
 require("prototypes.buildings.moondrop-greenhouse")
 require("prototypes.buildings.fbreactor")

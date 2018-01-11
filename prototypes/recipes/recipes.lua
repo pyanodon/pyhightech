@@ -374,4 +374,41 @@ Recipe {
     order = "b5"
 }:add_unlock("basic-electronics")
 
---Recipe("basic-electronic-components"):remove_unlock("electronics") --should remove that recipe from unlocking, then it wont appear in the game.
+Recipe {
+    type = "recipe",
+    name = "light-n",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "silicon-wafer", amount = 5},
+        {type = "fluid", name = "phosphine-gas", amount = 20},
+    },
+    results = {
+        {type = "item", name = "light-n", amount = 5}
+    },
+    --main_product = "silicon-wafer",
+    icon = "__pyhightech__/graphics/icons/light-n.png",
+    subgroup = "py-hightech-recipes",
+    order = "b5"
+}:add_unlock("semiconductor-doping")
+
+Recipe {
+    type = "recipe",
+    name = "heavy-n",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "silicon-wafer", amount = 5},
+        --{type = "item", name = "rare-earth", amount = 20},
+    },
+    results = {
+        {type = "item", name = "heavy-n", amount = 5}
+    },
+    --main_product = "silicon-wafer",
+    icon = "__pyhightech__/graphics/icons/heavy-n.png",
+    subgroup = "py-hightech-recipes",
+    order = "b6"
+}:add_unlock("semiconductor-doping")
+
