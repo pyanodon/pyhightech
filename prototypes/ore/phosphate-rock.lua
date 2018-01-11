@@ -34,8 +34,8 @@ Data {
         fluid_amount = 50,
         required_fluid = "syngas"
     },
-    collision_box = {{-4.3, -4.5}, {4.5, 4.5}},
-    selection_box = {{-4.5, -4.3}, {4.3, 4.3}},
+    collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
+    selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     autoplace = {
         control = "phosphate-rock",
         sharpness = 0.98,
