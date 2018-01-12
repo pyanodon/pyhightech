@@ -1,26 +1,23 @@
-local Pipes = require("stdlib.data.pipes")
-
-local recipe1 = {
+Recipe {
     type = "recipe",
     name = "chipshooter",
     energy_required = 10,
     enabled = true,
     ingredients = {
         {"distilator", 2},
-		{"iron-plate", 60},
+        {"iron-plate", 60},
         {"iron-gear-wheel", 100},
-		{"inserter", 2},
-		{"pcb1", 20},
-
+        {"inserter", 2},
+        {"pcb1", 20}
     },
     result = "chipshooter"
 }
 
-local item1 = {
+Item {
     type = "item",
     name = "chipshooter",
     icon = "__pyhightech__/graphics/icons/chipshooter.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "py-hightech-buildings",
     order = "b",
@@ -28,7 +25,7 @@ local item1 = {
     stack_size = 10
 }
 
-local entity1 = {
+Entity {
     type = "assembling-machine",
     name = "chipshooter",
     icon = "__pyhightech__/graphics/icons/chipshooter.png",
@@ -89,9 +86,9 @@ local entity1 = {
                 line_length = 19,
                 frame_count = 150,
                 animation_speed = 0.4,
-				draw_as_shadow = true,
+                draw_as_shadow = true,
                 shift = util.by_pixel(72, 0)
-            },
+            }
         }
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
@@ -101,5 +98,3 @@ local entity1 = {
         apparent_volume = 2.5
     }
 }
-
-data:extend {recipe1, item1, entity1}

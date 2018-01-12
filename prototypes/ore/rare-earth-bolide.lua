@@ -1,5 +1,3 @@
-local Data = require("stdlib/data/data")
-
 Data {
     type = "autoplace-control",
     category = "resource",
@@ -30,7 +28,7 @@ Data {
         hardness = 1.0,
         -- mining_particle = "rare-earth-bolide-particle",
         mining_time = 2,
-        result = "rare-earth-ore",
+        result = "rare-earth-ore"
     },
     collision_box = {{-3.6, -3.6}, {3.6, 3.6}},
     selection_box = {{-4.0, -4.0}, {4.0, 4.0}},

@@ -1,5 +1,3 @@
-local Recipe = require("stdlib/data/recipe")
-
 Recipe {
     type = "recipe",
     name = "ree-solution",
@@ -21,7 +19,7 @@ Recipe {
 }:add_unlock("rare-earth-tech")
 
 
-local fluid = {
+Fluid {
     type = "fluid",
     name = "ree-solution",
     icon = "__pyhightech__/graphics/icons/ree-solution.png",
@@ -35,5 +33,3 @@ local fluid = {
     subgroup = "py-hightech-fluids",
     order = "c"
 }
-
-data:extend {fluid}

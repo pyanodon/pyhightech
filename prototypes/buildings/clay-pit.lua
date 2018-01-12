@@ -1,8 +1,3 @@
-local Recipe = require("stdlib/data/recipe")
-local Item = require("stdlib/data/item")
-local Entity = require("stdlib/data/entity")
-local Pipes = require("stdlib.data.pipes")
-
 Recipe {
     type = "recipe",
     name = "clay-pit",
@@ -21,7 +16,7 @@ Item {
     type = "item",
     name = "clay-pit",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "py-hightech-buildings",
     order = "a",

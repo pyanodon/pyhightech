@@ -1,8 +1,3 @@
-local Pipes = require("stdlib.data.pipes")
-local Recipe = require("stdlib/data/recipe")
-local Item = require("stdlib/data/item")
-local Entity = require("stdlib/data/entity")
-
 Recipe {
     type = "recipe",
     name = "rare-earth-mine",

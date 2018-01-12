@@ -1,6 +1,3 @@
-local Recipe = require("stdlib/data/recipe")
-local Fluid = require("stdlib/data/fluid")
-
 Recipe {
     type = "recipe",
     name = "cold-clean-air",

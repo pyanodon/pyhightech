@@ -1,5 +1,3 @@
-local Fluid = require("stdlib/data/fluid")
-
 Fluid {
     type = "fluid",
     name = "cold-air",

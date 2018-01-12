@@ -1,14 +1,14 @@
-local methane = {
+Recipe {
     type = "recipe",
     name = "methane",
     category = "moon",
     enabled = true,
     energy_required = 25,
     ingredients = {
-        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "water", amount = 100}
     },
     results = {
-        {type = "fluid", name = "methane", amount = 30},
+        {type = "fluid", name = "methane", amount = 30}
     },
     main_product = "methane",
     icon = "__pyhightech__/graphics/icons/methane.png",
@@ -16,7 +16,7 @@ local methane = {
     order = "a"
 }
 
-local fluid = {
+Fluid {
     type = "fluid",
     name = "methane",
     icon = "__pyhightech__/graphics/icons/methane.png",
@@ -30,5 +30,3 @@ local fluid = {
     subgroup = "py-hightech-fluids",
     order = "a"
 }
-
-data:extend {fluid, methane}

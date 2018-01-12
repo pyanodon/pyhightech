@@ -1,6 +1,4 @@
---local Pipes = require("stdlib.data.pipes")
-
-local recipe1 = {
+Recipe {
     type = "recipe",
     name = "auog-paddock",
     energy_required = 10,
@@ -8,17 +6,16 @@ local recipe1 = {
     ingredients = {
         {"stone", 100},
         {"soil", 300},
-        {"iron-plate", 80},
-
+        {"iron-plate", 80}
     },
     result = "auog-paddock"
 }
 
-local item1 = {
+Item {
     type = "item",
     name = "auog-paddock",
     icon = "__pyhightech__/graphics/icons/auog-paddock.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "py-hightech-buildings",
     order = "c",
@@ -26,7 +23,7 @@ local item1 = {
     stack_size = 10
 }
 
-local entity1 = {
+Entity {
     type = "assembling-machine",
     name = "auog-paddock",
     icon = "__pyhightech__/graphics/icons/auog-paddock.png",
@@ -70,10 +67,9 @@ local entity1 = {
                 frame_count = 128,
                 animation_speed = 0.3,
                 shift = util.by_pixel(64, 0)
-            },
+            }
         }
     },
-
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
         sound = {filename = "__pyhightech__/sounds/auog-paddock.ogg", volume = 1.5},
@@ -81,5 +77,3 @@ local entity1 = {
         apparent_volume = 2.5
     }
 }
-
-data:extend {recipe1, item1, entity1}

@@ -1,4 +1,4 @@
-local fluid = {
+Fluid {
     type = "fluid",
     name = "benzene",
     icon = "__pyhightech__/graphics/icons/benzene.png",
@@ -12,5 +12,3 @@ local fluid = {
     subgroup = "py-hightech-fluids",
     order = "f"
 }
-
-data:extend {fluid}

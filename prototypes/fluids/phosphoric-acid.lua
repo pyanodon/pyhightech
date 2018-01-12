@@ -1,5 +1,3 @@
-local Recipe = require("stdlib/data/recipe")
-
 Recipe {
     type = "recipe",
     name = "phosphoric-acid",
@@ -22,7 +20,7 @@ Recipe {
 }:add_unlock("basic-electronics")
 
 
-local fluid = {
+Fluid {
     type = "fluid",
     name = "phosphoric-acid",
     icon = "__pyhightech__/graphics/icons/phosphoric-acid.png",
@@ -36,5 +34,3 @@ local fluid = {
     subgroup = "py-hightech-fluids",
     order = "c"
 }
-
-data:extend {fluid}
