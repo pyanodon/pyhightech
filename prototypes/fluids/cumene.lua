@@ -1,5 +1,3 @@
-local Recipe = require("stdlib/data/recipe")
-
 Recipe {
     type = "recipe",
     name = "cumene",
@@ -7,13 +5,13 @@ Recipe {
     enabled = false,
     energy_required = 10,
     ingredients = {
-		{type = "fluid", name = "benzene", amount = 50},
-		{type = "fluid", name = "phosphoric-acid", amount = 50},
-		{type = "fluid", name = "propene", amount = 50},
-		{type = "item", name = "ceramic", amount = 5},
+        {type = "fluid", name = "benzene", amount = 50},
+        {type = "fluid", name = "phosphoric-acid", amount = 50},
+        {type = "fluid", name = "propene", amount = 50},
+        {type = "item", name = "ceramic", amount = 5}
     },
     results = {
-        {type = "fluid", name = "cumene", amount = 100},
+        {type = "fluid", name = "cumene", amount = 100}
     },
     main_product = "cumene",
     icon = "__pyhightech__/graphics/icons/cumene.png",
@@ -21,8 +19,7 @@ Recipe {
     order = "c"
 }:add_unlock("basic-electronics")
 
-
-local fluid = {
+Fluid {
     type = "fluid",
     name = "cumene",
     icon = "__pyhightech__/graphics/icons/cumene.png",
@@ -36,5 +33,3 @@ local fluid = {
     subgroup = "py-hightech-fluids",
     order = "c"
 }
-
-data:extend {fluid}

@@ -1,6 +1,6 @@
 local Pipes = require("stdlib.data.pipes")
 
-local recipe1 = {
+Recipe {
     type = "recipe",
     name = "electronics-factory",
     energy_required = 10,
@@ -9,16 +9,16 @@ local recipe1 = {
         {"fbreactor", 1},
         {"pipe", 15},
         {"electric-mining-drill", 2},
-        {"iron-plate", 40},
+        {"iron-plate", 40}
     },
     result = "electronics-factory"
 }
 
-local item1 = {
+Item {
     type = "item",
     name = "electronics-factory",
     icon = "__pyhightech__/graphics/icons/electronics-factory.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "py-hightech-buildings",
     order = "d",
@@ -26,7 +26,7 @@ local item1 = {
     stack_size = 10
 }
 
-local entity1 = {
+Entity {
     type = "assembling-machine",
     name = "electronics-factory",
     icon = "__pyhightech__/graphics/icons/electronics-factory.png",
@@ -55,7 +55,7 @@ local entity1 = {
         layers = {
             {
                 filename = "__pyhightech__/graphics/entity/electronics-factory/off.png",
-				--priority = "high",
+                --priority = "high",
                 width = 160,
                 height = 202,
                 --line_length = 10,
@@ -65,15 +65,15 @@ local entity1 = {
             },
             {
                 filename = "__pyhightech__/graphics/entity/electronics-factory/shadow.png",
-				--priority = "high",
+                --priority = "high",
                 width = 180,
                 height = 130,
                 --line_length = 10,
                 frame_count = 1,
                 --animation_speed = 0.4,
-				draw_as_shadow = true,
+                draw_as_shadow = true,
                 shift = util.by_pixel(12, 15)
-            },
+            }
         }
     },
     working_visualisations = {
@@ -84,46 +84,46 @@ local entity1 = {
             east_position = util.by_pixel(0, -36.6),
             animation = {
                 filename = "__pyhightech__/graphics/entity/electronics-factory/electronic-factory.png",
-				--priority = "low",
+                --priority = "low",
                 frame_count = 50,
                 line_length = 10,
                 width = 160,
                 height = 173,
                 animation_speed = 0.5
-            },
-        },
+            }
+        }
     },
     fluid_boxes = {
         --1
         {
             production_type = "input",
-            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = Pipes.covers(false, true, true, true),
             base_area = 10,
-			base_level = -1,
-			pipe_connections = {{type = "input", position = {0.0, -3.0}}}
+            base_level = -1,
+            pipe_connections = {{type = "input", position = {0.0, -3.0}}}
         },
         {
             production_type = "input",
-            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = Pipes.covers(false, true, true, true),
             base_area = 10,
-			base_level = -1,
-			pipe_connections = {{type = "input", position = {0.0, 3.0}}}
+            base_level = -1,
+            pipe_connections = {{type = "input", position = {0.0, 3.0}}}
         },
         {
             production_type = "output",
-            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = Pipes.covers(false, true, true, true),
-			base_level = 1,
-			pipe_connections = {{type = "output", position = {-3.0, 0.0}}}
+            base_level = 1,
+            pipe_connections = {{type = "output", position = {-3.0, 0.0}}}
         },
         {
             production_type = "output",
-            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0,-0.96}, nil, nil, pipes),
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = Pipes.covers(false, true, true, true),
-			base_level = 1,
-			pipe_connections = {{type = "output", position = {3.0, 0.0}}}
+            base_level = 1,
+            pipe_connections = {{type = "output", position = {3.0, 0.0}}}
         },
         off_when_no_fluid_recipe = true
     },
@@ -134,5 +134,3 @@ local entity1 = {
         apparent_volume = 2.5
     }
 }
-
-data:extend {recipe1, item1, entity1}

@@ -7,12 +7,12 @@ Recipe {
     enabled = false,
     energy_required = 10,
     ingredients = {
-		{type = "fluid", name = "rare-earth-mud", amount = 100},
-		{type = "fluid", name = "sulfuric-acid", amount = 200},
+        {type = "fluid", name = "rare-earth-mud", amount = 100},
+        {type = "fluid", name = "sulfuric-acid", amount = 200}
     },
     results = {
         {type = "fluid", name = "ree-slurry", amount = 100},
-		{type = "fluid", name = "dirty-water", amount = 100},
+        {type = "fluid", name = "dirty-water", amount = 100}
     },
     main_product = "ree-slurry",
     icon = "__pyhightech__/graphics/icons/rare-earth-slurry.png",
@@ -20,8 +20,7 @@ Recipe {
     order = "c"
 }:add_unlock("rare-earth-tech")
 
-
-local fluid = {
+Fluid {
     type = "fluid",
     name = "ree-slurry",
     icon = "__pyhightech__/graphics/icons/rare-earth-slurry.png",
@@ -35,5 +34,3 @@ local fluid = {
     subgroup = "py-hightech-fluids",
     order = "c"
 }
-
-data:extend {fluid}

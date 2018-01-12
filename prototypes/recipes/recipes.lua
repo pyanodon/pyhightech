@@ -1,6 +1,3 @@
-local Recipe = require("stdlib/data/recipe")
-
-
 Recipe {
     type = "recipe",
     name = "crusher-ree",
@@ -8,11 +5,11 @@ Recipe {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "rare-earth-ore", amount = 10},
+        {type = "item", name = "rare-earth-ore", amount = 10}
     },
     results = {
         {type = "item", name = "rare-earth-powder", amount = 5},
-		{type = "item", name = "stone", amount = 5},
+        {type = "item", name = "stone", amount = 5}
     },
     --main_product = "silicon-wafer",
     icon = "__pyhightech__/graphics/icons/crush-rare-earth-ore.png",
@@ -27,11 +24,11 @@ Recipe {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "rare-earth-powder", amount = 5},
+        {type = "item", name = "rare-earth-powder", amount = 5}
     },
     results = {
         {type = "item", name = "rare-earth-dust", amount = 3},
-		{type = "item", name = "gravel", amount = 2},
+        {type = "item", name = "gravel", amount = 2}
     },
     --main_product = "silicon-wafer",
     icon = "__pyhightech__/graphics/icons/rare-earth-dust.png",
@@ -47,11 +44,11 @@ Recipe {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "rare-earth-dust", amount = 3},
-		{type = "fluid", name = "organic-solvent", amount = 100},
+        {type = "fluid", name = "organic-solvent", amount = 100}
     },
     results = {
         {type = "item", name = "iron-ore", amount = 5},
-		{type = "fluid", name = "rare-earth-mud", amount = 100},
+        {type = "fluid", name = "rare-earth-mud", amount = 100}
     },
     main_product = "rare-earth-mud",
     icon = "__pycoalprocessing__/graphics/icons/rare-earth-mud.png",
@@ -66,11 +63,11 @@ Recipe {
     enabled = false,
     energy_required = 8,
     ingredients = {
-		{type = "fluid", name = "ree-solution", amount = 100},
+        {type = "fluid", name = "ree-solution", amount = 100}
     },
     results = {
         {type = "item", name = "iron-oxide", amount = 6},
-		{type = "item", name = "ree-concentrate", amount = 10},
+        {type = "item", name = "ree-concentrate", amount = 10}
     },
     main_product = "ree-concentrate",
     icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
@@ -85,12 +82,12 @@ Recipe {
     enabled = false,
     energy_required = 8,
     ingredients = {
-		{type = "fluid", name = "ree-solution", amount = 100},
-		{type = "fluid", name = "cyanic-acid", amount = 50},
+        {type = "fluid", name = "ree-solution", amount = 100},
+        {type = "fluid", name = "cyanic-acid", amount = 50}
     },
     results = {
         {type = "item", name = "chromium", amount = 10},
-		{type = "item", name = "ree-concentrate", amount = 20},
+        {type = "item", name = "ree-concentrate", amount = 20}
     },
     main_product = "ree-concentrate",
     icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
@@ -105,12 +102,12 @@ Recipe {
     enabled = false,
     energy_required = 8,
     ingredients = {
-		{type = "fluid", name = "ree-solution", amount = 100},
-		{type = "fluid", name = "sulfuric-acid", amount = 150},
+        {type = "fluid", name = "ree-solution", amount = 100},
+        {type = "fluid", name = "sulfuric-acid", amount = 150}
     },
     results = {
         {type = "item", name = "copper-plate", amount = 10},
-		{type = "item", name = "ree-concentrate", amount = 20},
+        {type = "item", name = "ree-concentrate", amount = 20}
     },
     main_product = "ree-concentrate",
     icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
@@ -125,11 +122,11 @@ Recipe {
     enabled = false,
     energy_required = 5,
     ingredients = {
-		{type = "item", name = "ree-concentrate", amount = 10},
+        {type = "item", name = "ree-concentrate", amount = 10}
     },
     results = {
         {type = "item", name = "iron-oxide", amount = 6},
-		{type = "item", name = "reo", amount = 20},
+        {type = "item", name = "reo", amount = 20}
     },
     main_product = "reo",
     icon = "__pyhightech__/graphics/icons/reo-separation.png",
@@ -519,7 +516,7 @@ Recipe {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "silicon-wafer", amount = 5},
-        {type = "fluid", name = "phosphine-gas", amount = 20},
+        {type = "fluid", name = "phosphine-gas", amount = 20}
     },
     results = {
         {type = "item", name = "light-n", amount = 5}
@@ -538,7 +535,7 @@ Recipe {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "silicon-wafer", amount = 5},
-        {type = "item", name = "reo", amount = 20},
+        {type = "item", name = "reo", amount = 20}
     },
     results = {
         {type = "item", name = "heavy-n", amount = 5}
@@ -557,7 +554,7 @@ Recipe {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "silicon-wafer", amount = 5},
-        {type = "fluid", name = "diborane", amount = 20},
+        {type = "fluid", name = "diborane", amount = 20}
     },
     results = {
         {type = "item", name = "p-dope", amount = 5}
@@ -577,9 +574,9 @@ Recipe {
     ingredients = {
         {type = "item", name = "light-n", amount = 5},
         {type = "item", name = "heavy-n", amount = 5},
-		{type = "item", name = "p-dope", amount = 5},
+        {type = "item", name = "p-dope", amount = 5},
         {type = "fluid", name = "vacuum", amount = 100},
-		{type = "item", name = "melamine-resin", amount = 5},		
+        {type = "item", name = "melamine-resin", amount = 5}
     },
     results = {
         {type = "item", name = "transistor", amount = 5}
@@ -597,11 +594,11 @@ Recipe {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "fluid", name = "cumene", amount = 50},
+        {type = "fluid", name = "cumene", amount = 50}
     },
     results = {
         {type = "item", name = "phenol", amount = 20},
-		{type = "fluid", name = "acetone", amount = 25},
+        {type = "fluid", name = "acetone", amount = 25}
     },
     --main_product = "transistor",
     icon = "__pyhightech__/graphics/icons/phenol.png",
@@ -619,10 +616,10 @@ Recipe {
         {type = "fluid", name = "methanal", amount = 20},
         {type = "item", name = "phenol", amount = 15},
         {type = "item", name = "zinc-chloride", amount = 5},
-        {type = "item", name = "organics", amount = 30},
+        {type = "item", name = "organics", amount = 30}
     },
     results = {
-        {type = "item", name = "bakelite", amount = 5},
+        {type = "item", name = "bakelite", amount = 5}
     },
     main_product = "bakelite",
     icon = "__pyhightech__/graphics/icons/bakelite.png",
@@ -639,10 +636,10 @@ Recipe {
     ingredients = {
         {type = "fluid", name = "ammonia", amount = 30},
         {type = "item", name = "fiberboard", amount = 10},
-        {type = "item", name = "bakelite", amount = 5},
+        {type = "item", name = "bakelite", amount = 5}
     },
     results = {
-        {type = "item", name = "phenolicboard", amount = 5},
+        {type = "item", name = "phenolicboard", amount = 5}
     },
     main_product = "phenolicboard",
     icon = "__pyhightech__/graphics/icons/phenolic-board.png",
@@ -658,10 +655,10 @@ Recipe {
     energy_required = 10,
     ingredients = {
         {type = "item", name = "phenolicboard", amount = 5},
-        {type = "item", name = "copper-plate", amount = 5},
+        {type = "item", name = "copper-plate", amount = 5}
     },
     results = {
-        {type = "item", name = "pcb2", amount = 3},
+        {type = "item", name = "pcb2", amount = 3}
     },
     main_product = "pcb2",
     icon = "__pyhightech__/graphics/icons/pcb2.png",

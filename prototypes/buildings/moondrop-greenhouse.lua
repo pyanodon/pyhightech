@@ -1,6 +1,4 @@
-local Pipes = require("stdlib.data.pipes")
-
-local recipe1 = {
+Recipe {
     type = "recipe",
     name = "moondrop-greenhouse",
     energy_required = 10,
@@ -9,17 +7,16 @@ local recipe1 = {
         {"steam-engine", 1},
         {"pipe", 15},
         {"iron-plate", 100},
-        {"iron-gear-wheel", 40},
-
+        {"iron-gear-wheel", 40}
     },
     result = "moondrop-greenhouse"
 }
 
-local item1 = {
+Item {
     type = "item",
     name = "moondrop-greenhouse",
     icon = "__pyhightech__/graphics/icons/moondrop-greenhouse.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "py-hightech-buildings",
     order = "b",
@@ -27,7 +24,7 @@ local item1 = {
     stack_size = 10
 }
 
-local entity1 = {
+Entity {
     type = "assembling-machine",
     name = "moondrop-greenhouse",
     icon = "__pyhightech__/graphics/icons/moondrop-greenhouse.png",
@@ -79,7 +76,7 @@ local entity1 = {
                 line_length = 10,
                 frame_count = 60,
                 animation_speed = 0.4,
-				draw_as_shadow = true,
+                draw_as_shadow = true,
                 shift = util.by_pixel(-60, 20)
             },
             {
@@ -89,7 +86,7 @@ local entity1 = {
                 line_length = 10,
                 frame_count = 60,
                 animation_speed = 0.4,
-				draw_as_shadow = true,
+                draw_as_shadow = true,
                 shift = util.by_pixel(100, 20)
             }
         }
@@ -98,28 +95,28 @@ local entity1 = {
         --1
         {
             production_type = "input",
-            pipe_picture = Pipes.pictures("assembling-machine-2", {0.05,0.49}, nil, nil, nil),
+            pipe_picture = Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_covers = Pipes.covers(true, true, false, false),
             base_area = 1,
-			height = 2,
+            height = 2,
             base_level = -1,
             pipe_connections = {
-				{ position = {-5.0, 0.0}},
-				{ position = {0.0, 5.0}}
-			}
+                {position = {-5.0, 0.0}},
+                {position = {0.0, 5.0}}
+            }
         },
         {
             production_type = "output",
             pipe_covers = Pipes.covers(true, true, true, true),
             base_level = 1,
-            pipe_picture = Pipes.pictures("assembling-machine-2", {0.05,0.49}, nil, nil, nil),
+            pipe_picture = Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_connections = {{type = "output", position = {5.0, 0.0}}}
         },
         {
             production_type = "output",
             pipe_covers = Pipes.covers(true, true, true, true),
             base_level = 1,
-            pipe_picture = Pipes.pictures("assembling-machine-2", {0.05,0.49}, nil, nil, nil),
+            pipe_picture = Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_connections = {{type = "output", position = {0.0, -5.0}}}
         },
         off_when_no_fluid_recipe = false
@@ -131,5 +128,3 @@ local entity1 = {
         apparent_volume = 2.5
     }
 }
-
-data:extend {recipe1, item1, entity1}

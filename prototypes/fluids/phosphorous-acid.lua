@@ -1,5 +1,3 @@
-local Recipe = require("stdlib/data/recipe")
-
 Recipe {
     type = "recipe",
     name = "phosphorous-acid",
@@ -8,12 +6,12 @@ Recipe {
     energy_required = 8,
     ingredients = {
         {type = "fluid", name = "syngas", amount = 80},
-		{type = "item", name = "powdered-phosphate-rock", amount = 5},
-		{type = "item", name = "pure-sand", amount = 20},
-		{type = "item", name = "coke", amount = 5},
+        {type = "item", name = "powdered-phosphate-rock", amount = 5},
+        {type = "item", name = "pure-sand", amount = 20},
+        {type = "item", name = "coke", amount = 5}
     },
     results = {
-        {type = "fluid", name = "phosphorous-acid", amount = 30},
+        {type = "fluid", name = "phosphorous-acid", amount = 30}
     },
     main_product = "phosphorous-acid",
     icon = "__pyhightech__/graphics/icons/phosphorous-acid.png",
@@ -21,7 +19,7 @@ Recipe {
     order = "b5"
 }:add_unlock("basic-electronics")
 
-local fluid = {
+Fluid {
     type = "fluid",
     name = "phosphorous-acid",
     icon = "__pyhightech__/graphics/icons/phosphorous-acid.png",
@@ -35,5 +33,3 @@ local fluid = {
     subgroup = "py-hightech-fluids",
     order = "c"
 }
-
-data:extend {fluid}

@@ -1,5 +1,3 @@
-local Pipes = require("stdlib.data.pipes")
-
 local pipe = {
     south = {
         filename = "__pyhightech__/graphics/entity/pcb-factory/bottom.png",
@@ -9,7 +7,7 @@ local pipe = {
     }
 }
 
-local recipe1 = {
+Recipe {
     type = "recipe",
     name = "pcb-factory",
     energy_required = 10,
@@ -18,20 +16,19 @@ local recipe1 = {
         {"steam-engine", 2},
         {"fbreactor", 2},
         {"distilator", 2},
-		{"iron-plate", 80},
-		{"copper-plate", 60},
+        {"iron-plate", 80},
+        {"copper-plate", 60},
         {"iron-gear-wheel", 100},
-		{"inserter", 6},
-
+        {"inserter", 6}
     },
     result = "pcb-factory"
 }
 
-local item1 = {
+Item {
     type = "item",
     name = "pcb-factory",
     icon = "__pyhightech__/graphics/icons/pcb-factory.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "py-hightech-buildings",
     order = "b",
@@ -39,7 +36,7 @@ local item1 = {
     stack_size = 10
 }
 
-local entity1 = {
+Entity {
     type = "assembling-machine",
     name = "pcb-factory",
     icon = "__pyhightech__/graphics/icons/pcb-factory.png",
@@ -97,7 +94,7 @@ local entity1 = {
                 filename = "__pyhightech__/graphics/entity/pcb-factory/4.png",
                 width = 32,
                 height = 256,
-				priority = "low",
+                priority = "low",
                 line_length = 64,
                 frame_count = 276,
                 animation_speed = 0.4,
@@ -137,27 +134,27 @@ local entity1 = {
                 line_length = 64,
                 frame_count = 276,
                 animation_speed = 0.4,
-				draw_as_shadow = true,
+                draw_as_shadow = true,
                 shift = util.by_pixel(112, -5)
-            },
+            }
         }
     },
     fluid_boxes = {
         --1
         {
             production_type = "input",
-            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.5,-4.04}, nil, nil, pipe),
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.5, -4.04}, nil, nil, pipe),
             pipe_covers = Pipes.covers(false, true, true, true),
             base_area = 10,
-			base_level = -1,
-			pipe_connections = {{type = "input", position = {0.0, 4.0}}}
+            base_level = -1,
+            pipe_connections = {{type = "input", position = {0.0, 4.0}}}
         },
         {
             production_type = "output",
-            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.5,-4.04}, nil, nil, pipe),
+            pipe_picture = Pipes.pictures("assembling-machine-2", nil, {0.5, -4.04}, nil, nil, pipe),
             pipe_covers = Pipes.covers(false, true, true, true),
-			base_level = 1,
-			pipe_connections = {{type = "output", position = {0.0, -4.0}}}
+            base_level = 1,
+            pipe_connections = {{type = "output", position = {0.0, -4.0}}}
         },
         off_when_no_fluid_recipe = false
     },
@@ -168,5 +165,3 @@ local entity1 = {
         apparent_volume = 2.5
     }
 }
-
-data:extend {recipe1, item1, entity1}

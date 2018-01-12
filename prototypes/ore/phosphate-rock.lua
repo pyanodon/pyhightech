@@ -1,5 +1,3 @@
-local Data = require("stdlib/data/data")
-
 Data {
     type = "autoplace-control",
     category = "resource",
