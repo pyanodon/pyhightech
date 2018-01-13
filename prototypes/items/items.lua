@@ -274,3 +274,48 @@ Item {
     order = "l",
     stack_size = 200
 }
+Item {
+    type = "item",
+    name = "cermet",
+    icon = "__pyhightech__/graphics/icons/cermet.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "crude-cermet",
+    icon = "__pyhightech__/graphics/icons/crude-cermet.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "microchip",
+    icon = "__pyhightech__/graphics/icons/microchip.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "fecr-alloy",
+    icon = "__pyhightech__/graphics/icons/fecr-alloy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "resistor2",
+    icon = "__pyhightech__/graphics/icons/resistor2.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
