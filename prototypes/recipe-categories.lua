@@ -38,5 +38,9 @@ data:extend {
     {
         type = "recipe-category",
         name = "fbreactor"
+    },
+    {
+        type = "recipe-category",
+        name = "erase"
     }
 }

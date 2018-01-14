@@ -669,3 +669,75 @@ Recipe {
         {type = "item", name = "resistor2", amount = 3}
     },
 }:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "diode",
+    category = "electronic",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "light-n", amount = 4},
+		{type = "item", name = "reo", amount = 4},
+		{type = "item", name = "cermet", amount = 4},
+		{type = "item", name = "p-dope", amount = 4},
+		{type = "fluid", name = "vacuum", amount = 50},
+    },
+    results = {
+        {type = "item", name = "diode", amount = 2}
+    },
+}:add_unlock("semiconductor-doping"):add_ingredient({type = "item", name = "tinned-copper-cable", amount = 20})
+
+Recipe {
+    type = "recipe",
+    name = "inductor2",
+    category = "electronic",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "melamine-resin", amount = 5},
+		{type = "item", name = "ferrite", amount = 10},
+		{type = "item", name = "copper-cable", amount = 20},
+    },
+    results = {
+        {type = "item", name = "inductor2", amount = 5}
+    },
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "capacitor2",
+    category = "electronic",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "cermet", amount = 5},
+		{type = "item", name = "steel-plate", amount = 10},
+		{type = "item", name = "copper-cable", amount = 20},
+		{type = "fluid", name = "boric-acid", amount = 200},
+    },
+    results = {
+        {type = "item", name = "capacitor2", amount = 5}
+    },
+}:add_unlock("basic-electronics"):replace_ingredient("copper-cable", "tinned-copper-cable"):replace_ingredient("steel-plate", "aluminium-plate"):replace_ingredient("cermet", "alumina")
+
+Recipe {
+    type = "recipe",
+    name = "circuit-board-2",
+    category = "chip",
+    enabled = true,
+    energy_required = 12,
+    ingredients = {
+        {type = "item", name = "pcb2", amount = 1},
+        {type = "item", name = "transistor", amount = 3},
+		{type = "item", name = "microchip", amount = 3},
+        {type = "item", name = "inductor2", amount = 4},
+		{type = "item", name = "diode", amount = 3},
+        {type = "item", name = "capacitor2", amount = 5},
+        {type = "item", name = "resistor2", amount = 6}
+    },
+    results = {
+        {type = "item", name = "circuit-board-2", amount = 1}
+    },
+    main_product = "circuit-board-2",
+}

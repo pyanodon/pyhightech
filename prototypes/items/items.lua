@@ -74,8 +74,26 @@ Item {
 }
 Item {
     type = "item",
+    name = "inductor2",
+    icon = "__pyhightech__/graphics/icons/inductor2.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "e",
+    stack_size = 150
+}
+Item {
+    type = "item",
     name = "capacitor1",
     icon = "__pyhightech__/graphics/icons/capacitor1.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "e",
+    stack_size = 150
+}
+Item {
+    type = "item",
+    name = "capacitor2",
+    icon = "__pyhightech__/graphics/icons/capacitor2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
     order = "e",
@@ -143,6 +161,15 @@ Item {
     type = "item",
     name = "circuit-board-1",
     icon = "__pyhightech__/graphics/icons/circuit-board-1.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 100
+}
+Item {
+    type = "item",
+    name = "circuit-board-2",
+    icon = "__pyhightech__/graphics/icons/circuit-board-2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
     order = "h",
@@ -235,7 +262,7 @@ Item {
     icon = "__pyhightech__/graphics/icons/transistor.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "b",
     stack_size = 300
 }
 Item {
@@ -298,7 +325,7 @@ Item {
     icon = "__pyhightech__/graphics/icons/microchip.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "b",
     stack_size = 200
 }
 Item {
@@ -316,6 +343,15 @@ Item {
     icon = "__pyhightech__/graphics/icons/resistor2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "diode",
+    icon = "__pyhightech__/graphics/icons/diode.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
     stack_size = 200
 }
