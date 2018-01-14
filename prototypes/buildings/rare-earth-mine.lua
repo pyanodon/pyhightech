@@ -11,7 +11,9 @@ Recipe {
 		{"fast-inserter", 4},
         {"electronic-circuit", 20}
     },
-    result = "rare-earth-mine"
+    results = {
+        {"rare-earth-mine", 1}
+    }
 }:add_unlock("rare-earth-tech")
 
 Item {

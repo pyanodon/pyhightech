@@ -9,7 +9,9 @@ Recipe {
         {"iron-plate", 40},
         {"stone-brick", 20}
     },
-    result = "clay-pit"
+    results = {
+        {"clay-pit", 1}
+    }
 }
 
 Item {

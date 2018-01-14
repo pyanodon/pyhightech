@@ -10,7 +10,9 @@ Recipe {
         {"jaw-crusher", 1},
         {"electronic-circuit", 40}
     },
-    result = "phosphate-mine"
+    results = {
+        {"phosphate-mine", 1}
+    }
 }:add_unlock("basic-electronics")
 
 Item {

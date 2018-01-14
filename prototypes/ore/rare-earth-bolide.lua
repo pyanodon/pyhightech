@@ -28,7 +28,9 @@ Data {
         hardness = 1.0,
         -- mining_particle = "rare-earth-bolide-particle",
         mining_time = 2,
-        result = "rare-earth-ore"
+        results = {
+            {"rare-earth-ore", 1}
+        }
     },
     collision_box = {{-3.6, -3.6}, {3.6, 3.6}},
     selection_box = {{-4.0, -4.0}, {4.0, 4.0}},
