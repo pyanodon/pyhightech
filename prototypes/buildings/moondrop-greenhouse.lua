@@ -9,7 +9,9 @@ Recipe {
         {"iron-plate", 100},
         {"iron-gear-wheel", 40}
     },
-    result = "moondrop-greenhouse"
+    results = {
+        {"moondrop-greenhouse", 1}
+    }
 }
 
 Item {

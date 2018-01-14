@@ -8,7 +8,9 @@ Recipe {
         {"soil", 300},
         {"iron-plate", 80}
     },
-    result = "auog-paddock"
+    results = {
+        {"auog-paddock", 1}
+    }
 }
 
 Item {

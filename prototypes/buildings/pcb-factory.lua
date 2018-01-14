@@ -21,7 +21,9 @@ Recipe {
         {"iron-gear-wheel", 100},
         {"inserter", 6}
     },
-    result = "pcb-factory"
+    results = {
+        {"pcb-factory", 1}
+    }
 }
 
 Item {

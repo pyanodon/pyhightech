@@ -10,7 +10,9 @@ Recipe {
         {"inserter", 2},
         {"pcb1", 20}
     },
-    result = "chipshooter"
+    results = {
+        {"chipshooter", 1}
+    }
 }
 
 Item {

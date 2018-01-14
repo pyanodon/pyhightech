@@ -9,7 +9,9 @@ Recipe {
         {"stone-furnace", 4},
         {"iron-plate", 40}
     },
-    result = "fbreactor"
+    results = {
+        {"fbreactor", 1}
+    }
 }
 
 Item {

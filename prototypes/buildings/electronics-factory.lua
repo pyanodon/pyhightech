@@ -11,7 +11,9 @@ Recipe {
         {"electric-mining-drill", 2},
         {"iron-plate", 40}
     },
-    result = "electronics-factory"
+    results = {
+        {"electronics-factory", 1}
+    }
 }
 
 Item {

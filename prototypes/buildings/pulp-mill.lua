@@ -28,7 +28,9 @@ Recipe {
         {"stone-brick", 30},
         {"wood", 30}
     },
-    result = "pulp-mill"
+    results = {
+        {"pulp-mill", 1}
+    }
 }
 
 Item {
