@@ -5,6 +5,7 @@ require("prototypes.item-groups")
 require("prototypes.recipe-categories")
 
 require("prototypes.technologies.basic-electronics")
+require("prototypes.technologies.advanced-electronics")
 require("prototypes.technologies.semiconductor-doping")
 require("prototypes.technologies.rare-earth-tech")
 
@@ -37,6 +38,7 @@ require("prototypes.fluids.ree-slurry")
 require("prototypes.fluids.ree-solution")
 require("prototypes.fluids.acetone")
 require("prototypes.fluids.cumene")
+require("prototypes.fluids.ech")
 
 require("prototypes.recipes.recipes")
 require("prototypes.items.items")
