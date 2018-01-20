@@ -14,6 +14,8 @@ end
 Recipe("vacuum-pump"):remove_unlock("diamond-mining"):set_enabled(true)
 Recipe("vacuum"):remove_unlock("diamond-mining"):set_enabled(true)
 Recipe("gas-separator"):remove_unlock("helium-processing"):add_unlock("semiconductor-doping")
+Recipe("mixer"):remove_unlock("advanced-mining-facilities"):add_unlock("advanced-electronics")
+Recipe("mixer"):replace_ingredient("titanium-bearing", "steel-bearing"):replace_ingredient("titanium-plate", "nexelit-plate")
 Recipe("ferrite"):remove_unlock("fusion-mk01"):add_unlock("basic-electronics")
 --Recipe("science-pack-3"):replace_ingredient("electronic-circuit", "circuit-board-2")
 Recipe("wooden-board"):set_enabled(false)

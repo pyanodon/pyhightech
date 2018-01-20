@@ -413,21 +413,36 @@ Recipe {
 
 Recipe {
     type = "recipe",
+    name = "silicon",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "pure-sand", amount = 20},
+        {type = "item", name = "coal-dust", amount = 20},
+    },
+    results = {
+        {type = "item", name = "silicon", amount = 10}
+    },
+    main_product = "silicon",
+}:add_unlock("basic-electronics"):replace_ingredient("coal-dust", "carbon")
+
+Recipe {
+    type = "recipe",
     name = "silicon-wafer",
     category = "advanced-crafting",
     enabled = false,
     energy_required = 8,
     ingredients = {
-        {type = "item", name = "pure-sand", amount = 20},
-        {type = "item", name = "coal-dust", amount = 20},
-        {type = "item", name = "graphite", amount = 3}
+        {type = "item", name = "silicon", amount = 5},
+		{type = "item", name = "graphite", amount = 3},
     },
     results = {
         {type = "fluid", name = "flue-gas", amount = 100},
         {type = "item", name = "silicon-wafer", amount = 5}
     },
     main_product = "silicon-wafer",
-}:add_unlock("basic-electronics"):replace_ingredient("coal-dust", "carbon")
+}:add_unlock("basic-electronics"):add_ingredient({type = "item", name = "crushed-quartz", amount = 2})
 
 Recipe {
     type = "recipe",
@@ -740,4 +755,72 @@ Recipe {
         {type = "item", name = "circuit-board-2", amount = 1}
     },
     main_product = "circuit-board-2",
-}
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "glass-fiber",
+    category = "hpf",
+    enabled = true,
+    energy_required = 15,
+    ingredients = {
+        {type = "item", name = "sand", amount = 10},
+        {type = "item", name = "limestone", amount = 5},
+		{type = "item", name = "clay", amount = 5},
+		{type = "item", name = "boron-trioxide", amount = 3},
+		{type = "fluid", name = "refsyngas", amount = 50},
+    },
+    results = {
+        {type = "item", name = "glass-fiber", amount = 3}
+    },
+    main_product = "glass-fiber",
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "bisphenol-a",
+    category = "chemistry",
+    enabled = true,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "phenol", amount = 6},
+        {type = "fluid", name = "acetone", amount = 20},
+    },
+    results = {
+        {type = "item", name = "bisphenol-a", amount = 3}
+    },
+    main_product = "bisphenol-a",
+}:add_unlock("advanced-electronics"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 50})
+
+Recipe {
+    type = "recipe",
+    name = "epoxy",
+    category = "mixer",
+    enabled = true,
+    energy_required = 15,
+    ingredients = {
+        {type = "item", name = "bisphenol-a", amount = 6},
+		{type = "fluid", name = "ech", amount = 30},
+    },
+    results = {
+        {type = "item", name = "epoxy", amount = 6}
+    },
+    main_product = "epoxy",
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "fiberglass",
+    category = "hpf",
+    enabled = true,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "glass-fiber", amount = 5},
+		{type = "item", name = "epoxy", amount = 3},
+		{type = "fluid", name = "boric-acid", amount = 100},
+    },
+    results = {
+        {type = "item", name = "fiberglass", amount = 3}
+    },
+    main_product = "fiberglass",
+}:add_unlock("advanced-electronics")

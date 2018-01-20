@@ -355,3 +355,48 @@ Item {
     order = "b",
     stack_size = 200
 }
+Item {
+    type = "item",
+    name = "silicon",
+    icon = "__pyhightech__/graphics/icons/silicon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "glass-fiber",
+    icon = "__pyhightech__/graphics/icons/glass-fiber.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "bisphenol-a",
+    icon = "__pyhightech__/graphics/icons/bisphenol-a.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "epoxy",
+    icon = "__pyhightech__/graphics/icons/epoxy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "fiberglass",
+    icon = "__pyhightech__/graphics/icons/fiberglass.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}

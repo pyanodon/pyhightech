@@ -1,5 +1,6 @@
 Recipe("electronic-circuit"):remove_unlock("electronics")
 Recipe("basic-electronic-components"):remove_unlock("electronics")
+Recipe("silicon-plate"):remove_unlock("basic-electronics")
 Recipe("phenolic-board"):remove_unlock("advanced-electronics")
 Recipe("circuit-board"):remove_unlock("advanced-electronics")
 Recipe("advanced-circuit"):remove_unlock("advanced-electronics")
