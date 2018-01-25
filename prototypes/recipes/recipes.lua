@@ -740,7 +740,7 @@ Recipe {
     type = "recipe",
     name = "circuit-board-2",
     category = "chip",
-    enabled = true,
+    enabled = false,
     energy_required = 12,
     ingredients = {
         {type = "item", name = "pcb2", amount = 1},
@@ -761,7 +761,7 @@ Recipe {
     type = "recipe",
     name = "glass-fiber",
     category = "hpf",
-    enabled = true,
+    enabled = false,
     energy_required = 15,
     ingredients = {
         {type = "item", name = "sand", amount = 10},
@@ -780,7 +780,7 @@ Recipe {
     type = "recipe",
     name = "bisphenol-a",
     category = "chemistry",
-    enabled = true,
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = "item", name = "phenol", amount = 6},
@@ -796,7 +796,7 @@ Recipe {
     type = "recipe",
     name = "epoxy",
     category = "mixer",
-    enabled = true,
+    enabled = false,
     energy_required = 15,
     ingredients = {
         {type = "item", name = "bisphenol-a", amount = 6},
@@ -812,7 +812,7 @@ Recipe {
     type = "recipe",
     name = "fiberglass",
     category = "hpf",
-    enabled = true,
+    enabled = false,
     energy_required = 8,
     ingredients = {
         {type = "item", name = "glass-fiber", amount = 5},
@@ -824,3 +824,90 @@ Recipe {
     },
     main_product = "fiberglass",
 }:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "pdms",
+    category = "mixer",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+		{type = "fluid", name = "dimethyldichlorosilane", amount = 100},
+		{type = "fluid", name = "water", amount = 200},
+    },
+    results = {
+        {type = "item", name = "pdms", amount = 10}
+    },
+    main_product = "pdms",
+	icon = "__pyhightech__/graphics/icons/mix-pdms.png",
+    subgroup = "py-hightech-recipes",
+    order = "b1"
+}:add_unlock("graphene"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 50})
+
+Recipe {
+    type = "recipe",
+    name = "nic-core",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "pure-sand", amount = 30},
+		{type = "fluid", name = "methane", amount = 100},
+    },
+    results = {
+        {type = "item", name = "nic-core", amount = 2}
+    },
+    main_product = "nic-core",
+}:add_unlock("graphene"):add_ingredient({type = "item", name = "nickel-plate", amount = 2}):add_ingredient({type = "fluid", name = "hydrogen", amount = 100})
+
+Recipe {
+    type = "recipe",
+    name = "pdms-graphene",
+    category = "nmf",
+    enabled = false,
+    energy_required = 7,
+    ingredients = {
+        {type = "item", name = "pdms", amount = 5},
+		{type = "fluid", name = "sulfuric-acid", amount = 100},
+		{type = "item", name = "nic-core", amount = 5},
+    },
+    results = {
+        {type = "item", name = "pdms-graphene", amount = 1}
+    },
+    main_product = "pdms-graphene",
+}:add_unlock("graphene")
+
+Recipe {
+    type = "recipe",
+    name = "graphene-sheet",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "copper-plate", amount = 5},
+		{type = "fluid", name = "boric-acid", amount = 70},
+		{type = "item", name = "pdms-graphene", amount = 1},
+    },
+    results = {
+        {type = "item", name = "graphene-sheet", amount = 4}
+    },
+    main_product = "graphene-sheet",
+}:add_unlock("graphene")
+
+Recipe {
+    type = "recipe",
+    name = "graphene-roll",
+    category = "nano",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "graphene-sheet", amount = 2},
+		{type = "fluid", name = "phosphoric-acid", amount = 50},
+		{type = "item", name = "biofilm", amount = 4},
+    },
+    results = {
+        {type = "item", name = "graphene-roll", amount = 5},
+		{type = "fluid", name = "dirty-water", amount = 50},
+    },
+    main_product = "graphene-roll",
+}:add_unlock("graphene")

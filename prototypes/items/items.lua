@@ -400,3 +400,48 @@ Item {
     order = "b",
     stack_size = 200
 }
+Item {
+    type = "item",
+    name = "pdms",
+    icon = "__pyhightech__/graphics/icons/pdms.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "nic-core",
+    icon = "__pyhightech__/graphics/icons/nic-core.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "pdms-graphene",
+    icon = "__pyhightech__/graphics/icons/pdms-graphene.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "graphene-sheet",
+    icon = "__pyhightech__/graphics/icons/graphene-sheet.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "graphene-roll",
+    icon = "__pyhightech__/graphics/icons/graphene-roll.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}

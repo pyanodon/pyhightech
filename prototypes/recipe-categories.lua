@@ -41,6 +41,10 @@ data:extend {
     },
     {
         type = "recipe-category",
+        name = "nano"
+    },
+    {
+        type = "recipe-category",
         name = "erase"
     }
 }
