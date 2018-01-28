@@ -2,7 +2,7 @@ Recipe {
     type = "recipe",
     name = "dimethyldichlorosilane",
     category = "fbreactor",
-    enabled = true,
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "chloromethane", amount = 100},

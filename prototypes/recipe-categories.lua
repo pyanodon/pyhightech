@@ -21,6 +21,10 @@ data:extend {
     },
     {
         type = "recipe-category",
+        name = "arum"
+    },
+    {
+        type = "recipe-category",
         name = "electronic"
     },
     {
