@@ -445,3 +445,84 @@ Item {
     order = "b",
     stack_size = 200
 }
+Item {
+    type = "item",
+    name = "heavy-p-type",
+    icon = "__pyhightech__/graphics/icons/heavy-p-type.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "processor-core",
+    icon = "__pyhightech__/graphics/icons/processor-core.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "processor",
+    icon = "__pyhightech__/graphics/icons/processor.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "phosphate-glass",
+    icon = "__pyhightech__/graphics/icons/phosphate-glass.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "resistor3",
+    icon = "__pyhightech__/graphics/icons/resistor3.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "high-flux-core",
+    icon = "__pyhightech__/graphics/icons/high-flux-core.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "stone-wool",
+    icon = "__pyhightech__/graphics/icons/stone-wool.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "b",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "pcb3",
+    icon = "__pyhightech__/graphics/icons/pcb3.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "pcb3-2",
+    icon = "__pyhightech__/graphics/icons/pcb3-2.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}

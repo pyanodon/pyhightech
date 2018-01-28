@@ -2,7 +2,7 @@ Recipe {
     type = "recipe",
     name = "chloromethane",
     category = "methanol",
-    enabled = true,
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "methanol", amount = 100},

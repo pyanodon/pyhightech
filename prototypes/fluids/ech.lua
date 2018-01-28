@@ -2,7 +2,7 @@ Recipe {
     type = "recipe",
     name = "ech",
     category = "mixer",
-    enabled = true,
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "oleochemicals", amount = 10},

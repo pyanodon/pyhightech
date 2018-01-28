@@ -75,19 +75,20 @@ Recipe {
 Recipe {
     type = "recipe",
     name = "ree-concentrate2",
-    category = "evaporator",
+    category = "pan",
     enabled = false,
     energy_required = 8,
     ingredients = {
         {type = "fluid", name = "ree-solution", amount = 100},
-        {type = "fluid", name = "cyanic-acid", amount = 50}
+		{type = "fluid", name = "water", amount = 200},
+        {type = "fluid", name = "cyanic-acid", amount = 50},
     },
     results = {
         {type = "item", name = "chromium", amount = 10},
-        {type = "item", name = "ree-concentrate", amount = 20}
+        {type = "item", name = "ree-concentrate", amount = 20},
     },
     main_product = "ree-concentrate",
-}:add_unlock("rare-earth-tech"):replace_result("chromium", "gold-plate")
+}:add_unlock("rare-earth-tech")
 
 Recipe {
     type = "recipe",
@@ -546,7 +547,7 @@ Recipe {
         {type = "fluid", name = "cumene", amount = 50}
     },
     results = {
-        {type = "item", name = "phenol", amount = 20},
+        {type = "item", name = "phenol", amount = 10},
         {type = "fluid", name = "acetone", amount = 25}
     },
     --main_product = "transistor",
@@ -836,7 +837,7 @@ Recipe {
 		{type = "fluid", name = "water", amount = 200},
     },
     results = {
-        {type = "item", name = "pdms", amount = 10}
+        {type = "item", name = "pdms", amount = 5}
     },
     main_product = "pdms",
 	icon = "__pyhightech__/graphics/icons/mix-pdms.png",
@@ -911,3 +912,201 @@ Recipe {
     },
     main_product = "graphene-roll",
 }:add_unlock("graphene")
+
+Recipe {
+    type = "recipe",
+    name = "processor-core",
+    category = "nano",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "heavy-p-type", amount = 3},
+		{type = "item", name = "light-n", amount = 3},
+		{type = "item", name = "heavy-n", amount = 3},
+    },
+    results = {
+        {type = "item", name = "processor-core", amount = 1},
+    },
+    main_product = "processor-core",
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "heavy-p-type",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "silicon-wafer", amount = 5},
+		{type = "fluid", name = "cold-clean-air", amount = 50},
+		{type = "item", name = "nexelit-plate", amount = 5},
+    },
+    results = {
+        {type = "item", name = "heavy-p-type", amount = 5},
+    },
+    main_product = "heavy-p-type",
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "processor",
+    category = "electronic",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "processor-core", amount = 1},
+		{type = "item", name = "graphene-roll", amount = 1},
+		{type = "fluid", name = "vacuum", amount = 100},
+		{type = "item", name = "epoxy", amount = 5},
+		{type = "fluid", name = "industrial-solvent", amount = 50},
+    },
+    results = {
+        {type = "item", name = "processor", amount = 1},
+    },
+    main_product = "processor",
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "gold-plate", amount = 2}):add_ingredient({type = "item", name = "aluminium-plate", amount = 2})
+
+Recipe {
+    type = "recipe",
+    name = "glass-fiber",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "sand", amount = 10},
+		{type = "item", name = "limestone", amount = 6},
+		{type = "item", name = "clay", amount = 8},
+		{type = "item", name = "boron-trioxide", amount = 5},
+    },
+    results = {
+        {type = "item", name = "glass-fiber", amount = 3},
+    },
+    main_product = "glass-fiber",
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "phosphate-glass",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "iron-oxide", amount = 12},
+		{type = "item", name = "glass-fiber", amount = 6},
+		{type = "item", name = "phosphate-rock", amount = 5},
+		{type = "fluid", name = "acetylene", amount = 50},
+    },
+    results = {
+        {type = "item", name = "phosphate-glass", amount = 1},
+    },
+    main_product = "phosphate-glass",
+}:add_unlock("advanced-electronics"):replace_ingredient("glass-fiber", "crushed-quartz")
+
+Recipe {
+    type = "recipe",
+    name = "fiberglass",
+    category = "pulp",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "glass-fiber", amount = 3},
+		{type = "item", name = "epoxy", amount = 5},
+		{type = "item", name = "fiberboard", amount = 2},
+		{type = "fluid", name = "boric-acid", amount = 100},
+		{type = "fluid", name = "steam", amount = 100 , temperature = 165,},
+		{type = "fluid", name = "tar", amount = 100},
+		
+    },
+    results = {
+        {type = "item", name = "fiberglass", amount = 1},
+    },
+    main_product = "fiberglass",
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "resistor3",
+    category = "electronic",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "phosphate-glass", amount = 2},
+		{type = "item", name = "nichrome", amount = 1},
+		{type = "fluid", name = "vacuum", amount = 100},
+		{type = "item", name = "epoxy", amount = 5},
+    },
+    results = {
+        {type = "item", name = "resistor3", amount = 3},
+    },
+    main_product = "resistor3",
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "nickel-plate", amount = 2})
+
+Recipe {
+    type = "recipe",
+    name = "stone-wool",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "stone", amount = 10},
+		{type = "item", name = "coke", amount = 3},
+		{type = "fluid", name = "steam", amount = 120 , temperature = 165,},
+		
+    },
+    results = {
+        {type = "item", name = "stone-wool", amount = 1},
+    },
+    main_product = "stone-wool",
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "stone-wool2",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "gravel", amount = 10},
+		{type = "item", name = "coke", amount = 3},
+		{type = "fluid", name = "creosote", amount = 60},
+		
+    },
+    results = {
+        {type = "item", name = "stone-wool", amount = 1},
+    },
+    main_product = "stone-wool",
+}:add_unlock("basic-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "pcb3",
+    category = "pcb",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "copper-plate", amount = 5},
+		{type = "item", name = "fiberglass", amount = 1},
+		{type = "fluid", name = "msa", amount = 100},
+    },
+    results = {
+        {type = "item", name = "pcb3", amount = 1},
+    },
+    main_product = "pcb3",
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "tin-plate", amount = 2})
+
+Recipe {
+    type = "recipe",
+    name = "pcb3-2",
+    category = "pcb",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "pcb3", amount = 1},
+		{type = "item", name = "battery", amount = 4},
+		{type = "item", name = "optical-fiber", amount = 3},
+    },
+    results = {
+        {type = "item", name = "pcb3-2", amount = 1},
+    },
+    main_product = "pcb3-2",
+}:add_unlock("advanced-electronics")
