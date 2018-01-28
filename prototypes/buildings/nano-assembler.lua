@@ -33,6 +33,7 @@ Entity {
     type = "assembling-machine",
     name = "nano-assembler",
     icon = "__pyhightech__/graphics/icons/nano-assembler.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "nano-assembler"},
     fast_replaceable_group = "nano-assembler",

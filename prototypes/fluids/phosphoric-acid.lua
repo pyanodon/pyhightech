@@ -13,10 +13,7 @@ Recipe {
         {type = "fluid", name = "phosphoric-acid", amount = 15},
 		{type = "fluid", name = "phosphine-gas", amount = 15},
     },
-    --main_product = "phosphine-gas",
-    icon = "__pyhightech__/graphics/icons/phosphine-gas.png",
-    subgroup = "py-hightech-recipes",
-    order = "b4"
+    main_product = "phosphine-gas",
 }:add_unlock("basic-electronics")
 
 
@@ -24,6 +21,7 @@ Fluid {
     type = "fluid",
     name = "phosphoric-acid",
     icon = "__pyhightech__/graphics/icons/phosphoric-acid.png",
+	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.780, g = 0.011, b = 0.352},
     flow_color = {r = 0.780, g = 0.011, b = 0.352},

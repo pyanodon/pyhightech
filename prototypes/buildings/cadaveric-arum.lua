@@ -40,6 +40,7 @@ Entity {
     type = "assembling-machine",
     name = "cadaveric-arum",
     icon = "__pyhightech__/graphics/icons/cadaveric-arum.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "cadaveric-arum"},
     fast_replaceable_group = "cadaveric-arum",

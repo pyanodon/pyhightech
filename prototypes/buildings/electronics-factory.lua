@@ -32,6 +32,7 @@ Entity {
     type = "assembling-machine",
     name = "electronics-factory",
     icon = "__pyhightech__/graphics/icons/electronics-factory.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "electronics-factory"},
     fast_replaceable_group = "electronics-factory",

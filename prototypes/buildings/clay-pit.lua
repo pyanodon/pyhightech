@@ -30,6 +30,7 @@ Entity {
     type = "assembling-machine",
     name = "clay-pit",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "clay-pit"},
     fast_replaceable_group = "clay-pit",

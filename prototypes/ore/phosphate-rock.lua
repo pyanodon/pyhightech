@@ -16,6 +16,7 @@ Data {
     name = "phosphate-rock",
     category = "phosphate",
     icon = "__pyhightech__/graphics/icons/ores/ancient-remains.png",
+	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
     map_color = {r = 0.733, g = 0.250, b = 0.184},

@@ -29,6 +29,7 @@ Entity {
     type = "assembling-machine",
     name = "auog-paddock",
     icon = "__pyhightech__/graphics/icons/auog-paddock.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "auog-paddock"},
     fast_replaceable_group = "auog-paddock",
