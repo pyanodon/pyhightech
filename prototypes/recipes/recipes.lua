@@ -13,6 +13,7 @@ Recipe {
     },
     --main_product = "silicon-wafer",
     icon = "__pyhightech__/graphics/icons/crush-rare-earth-ore.png",
+	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "b7"
 }:add_unlock("rare-earth-tech")
@@ -30,10 +31,7 @@ Recipe {
         {type = "item", name = "rare-earth-dust", amount = 3},
         {type = "item", name = "gravel", amount = 2}
     },
-    --main_product = "silicon-wafer",
-    icon = "__pyhightech__/graphics/icons/rare-earth-dust.png",
-    subgroup = "py-hightech-recipes",
-    order = "b7"
+    main_product = "rare-earth-dust",
 }:add_unlock("rare-earth-tech")
 
 Recipe {
@@ -51,9 +49,6 @@ Recipe {
         {type = "fluid", name = "rare-earth-mud", amount = 100}
     },
     main_product = "rare-earth-mud",
-    icon = "__pycoalprocessing__/graphics/icons/rare-earth-mud.png",
-    subgroup = "py-hightech-recipes",
-    order = "b7"
 }:add_unlock("rare-earth-tech"):replace_result("iron-ore", "zinc-plate")
 
 Recipe {
@@ -387,6 +382,7 @@ Recipe {
     },
     --main_product = "tall-oil",
     icon = "__pyhightech__/graphics/icons/fluidize-coke.png",
+	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "b1"
 }:add_unlock("basic-electronics")
@@ -408,6 +404,7 @@ Recipe {
     },
     --main_product = "benzene",
     icon = "__pyhightech__/graphics/icons/tall-oil-separation.png",
+	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "b2"
 }:add_unlock("basic-electronics")
@@ -460,6 +457,7 @@ Recipe {
     },
     main_product = "powdered-phosphate-rock",
     icon = "__pyhightech__/graphics/icons/crush-phosphate-rock.png",
+	icon_size = 32,
 }:add_unlock("basic-electronics")
 
 Recipe {
@@ -475,10 +473,7 @@ Recipe {
     results = {
         {type = "item", name = "light-n", amount = 5}
     },
-    --main_product = "silicon-wafer",
-    icon = "__pyhightech__/graphics/icons/light-n.png",
-    subgroup = "py-hightech-recipes",
-    order = "b5"
+    main_product = "light-n",
 }:add_unlock("semiconductor-doping")
 
 Recipe {
@@ -494,10 +489,7 @@ Recipe {
     results = {
         {type = "item", name = "heavy-n", amount = 5}
     },
-    --main_product = "silicon-wafer",
-    icon = "__pyhightech__/graphics/icons/heavy-n.png",
-    subgroup = "py-hightech-recipes",
-    order = "b6"
+    main_product = "heavy-n",
 }:add_unlock("semiconductor-doping"):add_ingredient({type = "item", name = "lithium", amount = 5})
 
 Recipe {
@@ -513,10 +505,7 @@ Recipe {
     results = {
         {type = "item", name = "p-dope", amount = 5}
     },
-    --main_product = "silicon-wafer",
-    icon = "__pyhightech__/graphics/icons/p-dope.png",
-    subgroup = "py-hightech-recipes",
-    order = "b5"
+    main_product = "p-dope",
 }:add_unlock("semiconductor-doping")
 
 Recipe {
@@ -550,10 +539,7 @@ Recipe {
         {type = "item", name = "phenol", amount = 10},
         {type = "fluid", name = "acetone", amount = 25}
     },
-    --main_product = "transistor",
-    icon = "__pyhightech__/graphics/icons/phenol.png",
-    subgroup = "py-hightech-recipes",
-    order = "b1"
+    main_product = "phenol",
 }:add_unlock("basic-electronics")
 
 Recipe {
@@ -841,6 +827,7 @@ Recipe {
     },
     main_product = "pdms",
 	icon = "__pyhightech__/graphics/icons/mix-pdms.png",
+	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "b1"
 }:add_unlock("graphene"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 50})

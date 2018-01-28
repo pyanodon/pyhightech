@@ -30,6 +30,7 @@ Entity {
     type = "assembling-machine",
     name = "moondrop-greenhouse",
     icon = "__pyhightech__/graphics/icons/moondrop-greenhouse.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "moondrop-greenhouse"},
     fast_replaceable_group = "moondrop-greenhouse",

@@ -19,6 +19,7 @@ Fluid {
     type = "fluid",
     name = "dimethyldichlorosilane",
     icon = "__pyhightech__/graphics/icons/dimethyldichlorosilane.png",
+	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.221, g = 0.449, b = 0.221},
     flow_color = {r = 0.221, g = 0.449, b = 0.221},

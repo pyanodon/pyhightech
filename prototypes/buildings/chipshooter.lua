@@ -31,6 +31,7 @@ Entity {
     type = "assembling-machine",
     name = "chipshooter",
     icon = "__pyhightech__/graphics/icons/chipshooter.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "chipshooter"},
     fast_replaceable_group = "chipshooter",

@@ -42,6 +42,7 @@ Entity {
     type = "assembling-machine",
     name = "pcb-factory",
     icon = "__pyhightech__/graphics/icons/pcb-factory.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pcb-factory"},
     fast_replaceable_group = "pcb-factory",

@@ -49,6 +49,7 @@ Entity {
     type = "assembling-machine",
     name = "pulp-mill",
     icon = "__pyhightech__/graphics/icons/pulp-mill.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pulp-mill"},
     fast_replaceable_group = "pulp-mill",

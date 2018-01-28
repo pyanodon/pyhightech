@@ -30,6 +30,7 @@ Entity {
     type = "assembling-machine",
     name = "fbreactor",
     icon = "__pyhightech__/graphics/icons/fbreactor.png",
+	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "fbreactor"},
     fast_replaceable_group = "fbreactor",

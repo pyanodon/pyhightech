@@ -2,6 +2,7 @@ Fluid {
     type = "fluid",
     name = "benzene",
     icon = "__pyhightech__/graphics/icons/benzene.png",
+	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.996, g = 0.905, b = 0.862},
     flow_color = {r = 0.996, g = 0.905, b = 0.862},

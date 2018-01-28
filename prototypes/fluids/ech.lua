@@ -13,6 +13,7 @@ Recipe {
     },
     main_product = "ech",
     icon = "__pyhightech__/graphics/icons/mix-ech.png",
+	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "c"
 }:add_unlock("advanced-electronics"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 50})
@@ -21,6 +22,7 @@ Fluid {
     type = "fluid",
     name = "ech",
     icon = "__pyhightech__/graphics/icons/ech.png",
+	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.02, g = 0.956, b = 0.172},
     flow_color = {r = 0.02, g = 0.956, b = 0.172},

@@ -14,15 +14,13 @@ Recipe {
         {type = "fluid", name = "water", amount = 50}
     },
     main_product = "propene",
-    icon = "__pyhightech__/graphics/icons/propene.png",
-    subgroup = "py-hightech-recipes",
-    order = "b5"
 }:add_unlock("basic-electronics"):replace_ingredient("iron-plate", "lead-plate")
 
 Fluid {
     type = "fluid",
     name = "propene",
     icon = "__pyhightech__/graphics/icons/propene.png",
+	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.572, g = 0.435, b = 0.666},
     flow_color = {r = 0.572, g = 0.435, b = 0.666},

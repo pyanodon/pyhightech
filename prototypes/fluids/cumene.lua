@@ -14,15 +14,13 @@ Recipe {
         {type = "fluid", name = "cumene", amount = 100}
     },
     main_product = "cumene",
-    icon = "__pyhightech__/graphics/icons/cumene.png",
-    subgroup = "py-hightech-recipes",
-    order = "c"
 }:add_unlock("basic-electronics")
 
 Fluid {
     type = "fluid",
     name = "cumene",
     icon = "__pyhightech__/graphics/icons/cumene.png",
+	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.00, g = 0.0, b = 0.0},
     flow_color = {r = 0.0, g = 0.0, b = 0.0},
