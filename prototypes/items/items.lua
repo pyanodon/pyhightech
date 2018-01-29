@@ -584,3 +584,73 @@ Item {
     order = "l",
     stack_size = 200
 }
+Item {
+    type = "item",
+    name = "inductor3",
+    icon = "__pyhightech__/graphics/icons/inductor3.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "re-tin",
+    icon = "__pyhightech__/graphics/icons/re-tin-alloy.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "diode-core",
+    icon = "__pyhightech__/graphics/icons/diode-core.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "diode3",
+    icon = "__pyhightech__/graphics/icons/diode3.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "capacitor-core",
+    icon = "__pyhightech__/graphics/icons/capacitor-core.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "capacitor-termination",
+    icon = "__pyhightech__/graphics/icons/capacitor-termination.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "capacitor3",
+    icon = "__pyhightech__/graphics/icons/capacitor3.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
