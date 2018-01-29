@@ -942,7 +942,7 @@ Recipe {
     energy_required = 10,
     ingredients = {
         {type = "item", name = "processor-core", amount = 1},
-		{type = "item", name = "graphene-roll", amount = 1},
+		{type = "item", name = "graphene-roll", amount = 4},
 		{type = "fluid", name = "vacuum", amount = 100},
 		{type = "item", name = "epoxy", amount = 5},
 		{type = "fluid", name = "industrial-solvent", amount = 50},
@@ -1096,4 +1096,136 @@ Recipe {
         {type = "item", name = "pcb3-2", amount = 1},
     },
     main_product = "pcb3-2",
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "high-flux-core",
+    category = "nano",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "nbfe-alloy", amount = 1},
+        {type = "item", name = "magnetic-core", amount = 1},
+        {type = "item", name = "graphene-roll", amount = 2},
+		{type = "fluid", name = "liquid-pure-air", amount = 30},
+    },
+    results = {
+        {type = "item", name = "high-flux-core", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):replace_ingredient("liquid-pure-air", "liquid-nitrogen")
+
+Recipe {
+    type = "recipe",
+    name = "inductor3",
+    category = "electronic",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "high-flux-core", amount = 1},
+		{type = "item", name = "epoxy", amount = 1},
+		{type = "item", name = "copper-cable", amount = 30},
+    },
+    results = {
+        {type = "item", name = "inductor3", amount = 3},
+    },
+}:add_unlock("advanced-electronics"):replace_ingredient("copper-cable", "gilded-copper-cable")
+
+Recipe {
+    type = "recipe",
+    name = "re-tin",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "iron-plate", amount = 5},
+		{type = "item", name = "reo", amount = 4},
+        {type = "item", name = "sand-casting", amount = 1},
+        {type = "fluid", name = "heavy-oil", amount = 100},
+    },
+    results = {
+        {type = "item", name = "re-tin", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):replace_ingredient("iron-plate", "tin-plate")
+
+Recipe {
+    type = "recipe",
+    name = "diode-core",
+    category = "nano",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "phosphate-glass", amount = 2},
+		{type = "item", name = "biofilm", amount = 1},
+        {type = "item", name = "re-tin", amount = 1},
+        {type = "item", name = "nexelit-plate", amount = 2},
+        {type = "fluid", name = "liquid-pure-air", amount = 30},
+    },
+    results = {
+        {type = "item", name = "diode-core", amount = 3},
+    },
+}:add_unlock("advanced-electronics"):replace_ingredient("liquid-pure-air", "liquid-nitrogen")
+
+Recipe {
+    type = "recipe",
+    name = "diode3",
+    category = "electronic",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "diode-core", amount = 1},
+		{type = "item", name = "epoxy", amount = 1},
+        {type = "item", name = "plastic-bar", amount = 1},
+    },
+    results = {
+        {type = "item", name = "diode3", amount = 1},
+    },
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "capacitor-core",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "copper-plate", amount = 2},
+        {type = "item", name = "ceramic", amount = 3},
+        {type = "item", name = "boron-carbide", amount = 1},
+    },
+    results = {
+        {type = "item", name = "capacitor-core", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 30})
+
+Recipe {
+    type = "recipe",
+    name = "capacitor-termination",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "steel-plate", amount = 4},
+		{type = "item", name = "copper-plate", amount = 4},
+        {type = "fluid", name = "boric-acid", amount = 50},
+    },
+    results = {
+        {type = "item", name = "capacitor-termination", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):replace_ingredient("boric-acid", "liquid-nitrogen"):replace_ingredient("steel-plate", "nickel-plate"):replace_ingredient("copper-plate", "tin-plate"):add_ingredient({type = "item", name = "silver-plate", amount = 1})
+
+Recipe {
+    type = "recipe",
+    name = "capacitor3",
+    category = "electronic",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "capacitor-core", amount = 1},
+		{type = "item", name = "capacitor-termination", amount = 1},
+        {type = "fluid", name = "vacuum", amount = 50},
+    },
+    results = {
+        {type = "item", name = "capacitor3", amount = 1},
+    },
 }:add_unlock("advanced-electronics")
