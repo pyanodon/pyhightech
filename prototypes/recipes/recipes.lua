@@ -1229,3 +1229,23 @@ Recipe {
         {type = "item", name = "capacitor3", amount = 1},
     },
 }:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "circuit-board-3",
+    category = "chip",
+    enabled = false,
+    energy_required = 12,
+    ingredients = {
+        {type = "item", name = "pcb3-2", amount = 1},
+        {type = "item", name = "resistor3", amount = 3},
+        {type = "item", name = "inductor3", amount = 3},
+        {type = "item", name = "capacitor3", amount = 2},
+        {type = "item", name = "microchip", amount = 3},
+        {type = "item", name = "processor", amount = 1},
+        {type = "item", name = "diode3", amount = 5},
+    },
+    results = {
+        {type = "item", name = "circuit-board-3", amount = 1}
+    },
+}:add_unlock("advanced-electronics")
