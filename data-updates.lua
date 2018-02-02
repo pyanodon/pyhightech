@@ -8,7 +8,7 @@ if angelsmods then
 end
 
 for _, recipe in pairs(data.raw.recipe) do
-  Recipe(recipe):replace_ingredient("basic-circuit-board", "pcb1"):replace_ingredient("electronic-circuit", "circuit-board-1"):replace_ingredient("advanced-circuit", "circuit-board-2")
+  Recipe(recipe):replace_ingredient("basic-circuit-board", "pcb1")
 end
 
 Recipe("vacuum-pump"):remove_unlock("diamond-mining"):set_enabled(true)

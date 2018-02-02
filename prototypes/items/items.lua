@@ -176,7 +176,7 @@ Item {
 }
 Item {
     type = "item",
-    name = "circuit-board-1",
+    name = "electronic-circuit",
     icon = "__pyhightech__/graphics/icons/circuit-board-1.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
@@ -186,7 +186,7 @@ Item {
 }
 Item {
     type = "item",
-    name = "circuit-board-2",
+    name = "advanced-circuit",
     icon = "__pyhightech__/graphics/icons/circuit-board-2.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
@@ -656,11 +656,11 @@ Item {
 }
 Item {
     type = "item",
-    name = "circuit-board-3",
+    name = "processing-unit",
     icon = "__pyhightech__/graphics/icons/circuit-board-3.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "h",
     stack_size = 200
 }
