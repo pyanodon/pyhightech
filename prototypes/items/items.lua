@@ -654,3 +654,13 @@ Item {
     order = "l",
     stack_size = 200
 }
+Item {
+    type = "item",
+    name = "circuit-board-3",
+    icon = "__pyhightech__/graphics/icons/circuit-board-3.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "l",
+    stack_size = 200
+}
