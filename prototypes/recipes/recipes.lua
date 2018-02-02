@@ -348,7 +348,7 @@ Recipe {
 
 Recipe {
     type = "recipe",
-    name = "circuit-board-1",
+    name = "electronic-circuit",
     category = "chip",
     enabled = true,
     energy_required = 12,
@@ -360,9 +360,9 @@ Recipe {
         {type = "item", name = "resistor1", amount = 6}
     },
     results = {
-        {type = "item", name = "circuit-board-1", amount = 1}
+        {type = "item", name = "electronic-circuit", amount = 1}
     },
-    main_product = "circuit-board-1",
+    main_product = "electronic-circuit",
 }
 
 Recipe {
@@ -725,7 +725,7 @@ Recipe {
 
 Recipe {
     type = "recipe",
-    name = "circuit-board-2",
+    name = "advanced-circuit",
     category = "chip",
     enabled = false,
     energy_required = 12,
@@ -739,9 +739,9 @@ Recipe {
         {type = "item", name = "resistor2", amount = 6}
     },
     results = {
-        {type = "item", name = "circuit-board-2", amount = 1}
+        {type = "item", name = "advanced-circuit", amount = 1}
     },
-    main_product = "circuit-board-2",
+    main_product = "advanced-circuit",
 }:add_unlock("basic-electronics")
 
 Recipe {
@@ -1232,7 +1232,7 @@ Recipe {
 
 Recipe {
     type = "recipe",
-    name = "circuit-board-3",
+    name = "processing-unit",
     category = "chip",
     enabled = false,
     energy_required = 12,
@@ -1246,6 +1246,6 @@ Recipe {
         {type = "item", name = "diode3", amount = 5},
     },
     results = {
-        {type = "item", name = "circuit-board-3", amount = 1}
+        {type = "item", name = "processing-unit", amount = 1}
     },
 }:add_unlock("advanced-electronics")
