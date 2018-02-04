@@ -19,4 +19,6 @@ Recipe("mixer"):replace_ingredient("titanium-bearing", "steel-bearing"):replace_
 Recipe("ferrite"):remove_unlock("fusion-mk01"):add_unlock("basic-electronics")
 Recipe("boron-carbide"):remove_unlock("fusion-mk01"):add_unlock("advanced-electronics")
 Recipe("wooden-board"):set_enabled(false)
+Recipe("fusion-reactor-mk01"):replace_ingredient("advanced-circuit", "processing-unit")
+Recipe("fusion-reactor-mk02"):replace_ingredient("advanced-circuit", "processing-unit")
 --Recipe("electronic-circuit"):change_category("assembly","chip")
