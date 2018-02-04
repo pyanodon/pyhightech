@@ -18,6 +18,5 @@ Recipe("mixer"):remove_unlock("advanced-mining-facilities"):add_unlock("advanced
 Recipe("mixer"):replace_ingredient("titanium-bearing", "steel-bearing"):replace_ingredient("titanium-plate", "nexelit-plate")
 Recipe("ferrite"):remove_unlock("fusion-mk01"):add_unlock("basic-electronics")
 Recipe("boron-carbide"):remove_unlock("fusion-mk01"):add_unlock("advanced-electronics")
---Recipe("science-pack-3"):replace_ingredient("electronic-circuit", "circuit-board-2")
 Recipe("wooden-board"):set_enabled(false)
---Recipe("wooden-board"):change_category("distilator")
+--Recipe("electronic-circuit"):change_category("assembly","chip")
