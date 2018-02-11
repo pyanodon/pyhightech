@@ -19,3 +19,5 @@ Recipe("boron-carbide"):remove_unlock("fusion-mk01"):add_unlock("advanced-electr
 Recipe("fusion-reactor-mk01"):replace_ingredient("advanced-circuit", "processing-unit")
 Recipe("fusion-reactor-mk02"):replace_ingredient("advanced-circuit", "processing-unit")
 Recipe("electronic-circuit"):change_category("assembly", "chip")
+Recipe("nexelit-matrix"):replace_ingredient("resin", "epoxy")
+Recipe("nexelit-matrix"):replace_ingredient("wood", "epoxy")
