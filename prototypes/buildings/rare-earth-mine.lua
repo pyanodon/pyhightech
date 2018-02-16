@@ -40,7 +40,7 @@ Entity {
     resource_categories = {"rare-earth"},
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    collision_box = {{-3.6, -3.6}, {3.6, 3.6}},
+    collision_box = {{-3.8, -3.8}, {3.8, 3.8}},
     selection_box = {{-4.0, -4.0}, {4.0, 4.0}},
 
     module_specification = {

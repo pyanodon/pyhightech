@@ -33,7 +33,7 @@ Data {
             {"rare-earth-ore", 1}
         }
     },
-    collision_box = {{-3.6, -3.6}, {3.6, 3.6}},
+    collision_box = {{-3.8, -3.8}, {3.8, 3.8}},
     selection_box = {{-4.0, -4.0}, {4.0, 4.0}},
     autoplace = {
         control = "rare-earth-bolide",

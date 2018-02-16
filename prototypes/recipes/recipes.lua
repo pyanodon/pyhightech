@@ -1249,3 +1249,117 @@ Recipe {
         {type = "item", name = "processing-unit", amount = 1}
     },
 }:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "carbon-dust",
+    category = "ball-mill",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "coke", amount = 5},
+    },
+    results = {
+        {type = "item", name = "carbon-dust", amount = 10}
+    },
+}:add_unlock("nano-tech"):replace_ingredient("coke", "carbon")
+
+Recipe {
+    type = "recipe",
+    name = "biopolymer",
+    category = "bio-reactor",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "silver-foam", amount = 5},
+        {type = "fluid", name = "bacteria-2", amount = 25},
+        {type = "fluid", name = "diesel", amount = 150},
+    },
+    results = {
+        {type = "item", name = "biopolymer", amount = 4}
+    },
+}:add_unlock("nano-tech")
+
+Recipe {
+    type = "recipe",
+    name = "carbon-nanotube",
+    category = "nano",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "carbon-dust", amount = 5},
+        {type = "fluid", name = "methane", amount = 100},
+        {type = "item", name = "nenbit-matrix", amount = 1},
+        {type = "item", name = "biopolymer", amount = 5},
+        {type = "item", name = "vanadium-oxide", amount = 3},
+    },
+    results = {
+        {type = "item", name = "carbon-nanotube", amount = 1}
+    },
+}:add_unlock("nano-tech")
+
+Recipe {
+    type = "recipe",
+    name = "sodium-silicate",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "pure-sand", amount = 20},
+        {type = "fluid", name = "refsyngas", amount = 150},
+        {type = "item", name = "phenol", amount = 15},
+    },
+    results = {
+        {type = "item", name = "sodium-silicate", amount = 1}
+    },
+}:add_unlock("nano-tech"):replace_ingredient("phenol", "sodium-hydroxide")
+
+Recipe {
+    type = "recipe",
+    name = "silica-powder",
+    category = "ball-mill",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "sodium-silicate", amount = 1},
+    },
+    results = {
+        {type = "item", name = "silica-powder", amount = 10}
+    },
+}:add_unlock("nano-tech")
+
+Recipe {
+    type = "recipe",
+    name = "colloidal-silica",
+    category = "nmf",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "silica-powder", amount = 5},
+        {type = "item", name = "sulfur", amount = 3},
+        {type = "item", name = "niobium-plate", amount = 2},
+        {type = "item", name = "plastic-bar", amount = 1},
+        {type = "fluid", name = "vacuum", amount = 200},
+    },
+    results = {
+        {type = "item", name = "colloidal-silica", amount = 2}
+    },
+}:add_unlock("nano-tech"):replace_ingredient("niobium-plate", "lead-plate")
+
+Recipe {
+    type = "recipe",
+    name = "nanochip",
+    category = "nano",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "carbon-nanotube", amount = 1},
+        {type = "item", name = "heavy-p-type", amount = 2},
+        {type = "item", name = "light-n", amount = 2},
+        {type = "item", name = "graphene-roll", amount = 4},
+        {type = "fluid", name = "helium", amount = 20},
+    },
+    results = {
+        {type = "item", name = "nanochip", amount = 2}
+    },
+}:add_unlock("nano-tech")

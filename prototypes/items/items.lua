@@ -664,3 +664,73 @@ Item {
     order = "h",
     stack_size = 200
 }
+Item {
+    type = "item",
+    name = "carbon-dust",
+    icon = "__pyhightech__/graphics/icons/carbon-dust.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 300
+}
+Item {
+    type = "item",
+    name = "biopolymer",
+    icon = "__pyhightech__/graphics/icons/biopolymer.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 300
+}
+Item {
+    type = "item",
+    name = "carbon-nanotube",
+    icon = "__pyhightech__/graphics/icons/carbon-nanotube.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 300
+}
+Item {
+    type = "item",
+    name = "sodium-silicate",
+    icon = "__pyhightech__/graphics/icons/sodium-silicate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 300
+}
+Item {
+    type = "item",
+    name = "silica-powder",
+    icon = "__pyhightech__/graphics/icons/silica-powder.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 300
+}
+Item {
+    type = "item",
+    name = "colloidal-silica",
+    icon = "__pyhightech__/graphics/icons/colloidal-silica.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 300
+}
+Item {
+    type = "item",
+    name = "nanochip",
+    icon = "__pyhightech__/graphics/icons/nano-chip.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 300
+}
