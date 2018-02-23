@@ -25,6 +25,7 @@ require("prototypes.buildings.pcb-factory")
 require("prototypes.buildings.chipshooter")
 require("prototypes.buildings.nano-assembler")
 require("prototypes.buildings.cadaveric-arum")
+require("prototypes.buildings.kicalk-plantation")
 
 require("prototypes.fluids.methane")
 require("prototypes.fluids.methanal")
