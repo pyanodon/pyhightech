@@ -734,3 +734,15 @@ Item {
     order = "h",
     stack_size = 300
 }
+Item {
+    type = "item",
+    name = "raw-fiber",
+    fuel_category = "chemical",
+    fuel_value = "8MJ",
+    icon = "__pyhightech__/graphics/icons/raw-fiber.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 500
+}

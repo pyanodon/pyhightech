@@ -1363,3 +1363,51 @@ Recipe {
         {type = "item", name = "nanochip", amount = 2}
     },
 }:add_unlock("nano-tech")
+
+Recipe {
+    type = "recipe",
+    name = "raw-fiber",
+    category = "kicalk",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "clay", amount = 5},
+        {type = "item", name = "sand", amount = 10},
+        {type = "item", name = "soil", amount = 15},
+        {type = "item", name = "small-lamp", amount = 2},
+        {type = "fluid", name = "water", amount = 20},
+        {type = "fluid", name = "carbon-dioxide", amount = 200},
+    },
+    results = {
+        {type = "item", name = "raw-fiber", amount = 10}
+    },
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "bonemeal2",
+    category = "ulric",
+    enabled = "false",
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "ralesia", amount = 8},
+        {type = "item", name = "raw-fiber", amount = 5},
+    },
+    results = {
+        {type = "item", name = "bonemeal", amount = 10}
+    },
+}:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "ash3",
+    category = "hpf",
+    enabled = "false",
+    energy_required = 2,
+    ingredients = {
+        {type = "item", name = "raw-fiber", amount = 5},
+    },
+    results = {
+        {type = "item", name = "ash", amount = 3}
+    },
+}:add_unlock("advanced-electronics")
