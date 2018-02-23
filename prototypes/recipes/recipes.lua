@@ -1411,3 +1411,81 @@ Recipe {
         {type = "item", name = "ash", amount = 3}
     },
 }:add_unlock("advanced-electronics")
+
+Recipe {
+    type = "recipe",
+    name = "fiber",
+    category = "centrifuging",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "raw-fiber", amount = 5},
+    },
+    results = {
+        {type = "item", name = "fiber", amount = 2},
+        {type = "item", name = "organics", amount = 3},
+    },
+    main_product = "fiber",
+}:add_unlock("nano-tech")
+
+Recipe {
+    type = "recipe",
+    name = "micro-fiber",
+    category = "pulp",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "fiber", amount = 4},
+    },
+    results = {
+        {type = "item", name = "micro-fiber", amount = 2},
+    },
+}:add_unlock("nano-tech")
+
+Recipe {
+    type = "recipe",
+    name = "resorcinol",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "melamine-resin", amount = 2},
+        {type = "item", name = "phenol", amount = 5},
+    },
+    results = {
+        {type = "item", name = "resorcinol", amount = 2},
+    },
+}:add_unlock("aerogel"):replace_ingredient("melamine-resin", "resin"):replace_ingredient("phenol", "sodium-hydroxide")
+
+Recipe {
+    type = "recipe",
+    name = "rf-gel",
+    category = "mixer",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "limestone", amount = 5},
+        {type = "item", name = "resorcinol", amount = 4},
+        {type = "fluid", name = "methanal", amount = 100},
+    },
+    results = {
+        {type = "item", name = "rf-gel", amount = 1},
+    },
+}:add_unlock("aerogel")
+
+Recipe {
+    type = "recipe",
+    name = "clean-rf-gel",
+    category = "washer",
+    enabled = false,
+    energy_required = 7,
+    ingredients = {
+        {type = "item", name = "rf-gel", amount = 1},
+        {type = "fluid", name = "water", amount = 100},
+    },
+    results = {
+        {type = "item", name = "clean-rf-gel", amount = 1},
+        {type = "fluid", name = "dirty-water", amount = 100},
+    },
+    main_product = "clean-rf-gel",
+}:add_unlock("aerogel")
