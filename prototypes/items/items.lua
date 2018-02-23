@@ -746,3 +746,55 @@ Item {
     order = "h",
     stack_size = 500
 }
+Item {
+    type = "item",
+    name = "fiber",
+    fuel_category = "chemical",
+    fuel_value = "10MJ",
+    icon = "__pyhightech__/graphics/icons/fiber.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "micro-fiber",
+    icon = "__pyhightech__/graphics/icons/microfiber.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "resorcinol",
+    icon = "__pyhightech__/graphics/icons/resorcinol.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "rf-gel",
+    icon = "__pyhightech__/graphics/icons/rf-gel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "clean-rf-gel",
+    icon = "__pyhightech__/graphics/icons/clean-rf-gel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
