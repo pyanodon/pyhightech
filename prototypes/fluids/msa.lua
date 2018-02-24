@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "msa",
     category = "mixer",
@@ -15,7 +15,7 @@ Recipe {
     main_product = "msa",
 }:add_unlock("advanced-electronics"):replace_ingredient("industrial-solvent", "chlorine")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "msa",
     icon = "__pyhightech__/graphics/icons/msa.png",

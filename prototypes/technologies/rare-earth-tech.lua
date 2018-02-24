@@ -1,4 +1,4 @@
-Technology {
+TECHNOLOGY {
     type = "technology",
     name = "rare-earth-tech",
     icon = "__pyhightech__/graphics/technology/rare-earth-tech.png",

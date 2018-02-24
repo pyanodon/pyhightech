@@ -1,4 +1,4 @@
-Data {
+DATA {
     type = "autoplace-control",
     category = "resource",
     name = "phosphate-rock",
@@ -6,12 +6,12 @@ Data {
     order = "b-e"
 }
 
-Data {
+DATA {
     type = "noise-layer",
     name = "phosphate-rock"
 }
 
-Data {
+DATA {
     type = "resource",
     name = "phosphate-rock",
     category = "phosphate",

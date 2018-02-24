@@ -1,4 +1,4 @@
-Data {
+DATA {
     type = "autoplace-control",
     category = "resource",
     name = "molybdenum-ore",
@@ -6,12 +6,12 @@ Data {
     order = "b-e"
 }
 
-Data {
+DATA {
     type = "noise-layer",
     name = "molybdenum-ore"
 }
 
-Data {
+DATA {
     type = "resource",
     name = "molybdenum-ore",
     icon = "__pyfusionenergy__/graphics/icons/ores/molybdenum.png",

@@ -1,6 +1,4 @@
-local Recipe = require("stdlib/data/recipe")
-
-Recipe {
+RECIPE {
     type = "recipe",
     name = "ree-slurry",
     category = "thickener",
@@ -17,7 +15,7 @@ Recipe {
     main_product = "ree-slurry",
 }:add_unlock("rare-earth-tech")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "ree-slurry",
     icon = "__pyhightech__/graphics/icons/rare-earth-slurry.png",

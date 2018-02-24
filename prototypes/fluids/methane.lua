@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "methane",
     category = "moon",
@@ -13,7 +13,7 @@ Recipe {
     main_product = "methane",
 }
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "methane",
     icon = "__pyhightech__/graphics/icons/methane.png",

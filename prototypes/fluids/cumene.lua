@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "cumene",
     category = "fbreactor",
@@ -16,7 +16,7 @@ Recipe {
     main_product = "cumene",
 }:add_unlock("basic-electronics")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "cumene",
     icon = "__pyhightech__/graphics/icons/cumene.png",

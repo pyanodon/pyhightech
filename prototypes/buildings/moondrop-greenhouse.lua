@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "moondrop-greenhouse",
     energy_required = 10,
@@ -14,7 +14,7 @@ Recipe {
     }
 }
 
-Item {
+ITEM {
     type = "item",
     name = "moondrop-greenhouse",
     icon = "__pyhightech__/graphics/icons/moondrop-greenhouse.png",
@@ -26,7 +26,7 @@ Item {
     stack_size = 10
 }
 
-Entity {
+ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse",
     icon = "__pyhightech__/graphics/icons/moondrop-greenhouse.png",
@@ -98,8 +98,8 @@ Entity {
         --1
         {
             production_type = "input",
-            pipe_picture = Data.Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
-            pipe_covers = Data.Pipes.covers(true, true, false, false),
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
+            pipe_covers = DATA.Pipes.covers(true, true, false, false),
             base_area = 1,
             height = 2,
             base_level = -1,
@@ -110,16 +110,16 @@ Entity {
         },
         {
             production_type = "output",
-            pipe_covers = Data.Pipes.covers(true, true, true, true),
+            pipe_covers = DATA.Pipes.covers(true, true, true, true),
             base_level = 1,
-            pipe_picture = Data.Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_connections = {{type = "output", position = {5.0, 0.0}}}
         },
         {
             production_type = "output",
-            pipe_covers = Data.Pipes.covers(true, true, true, true),
+            pipe_covers = DATA.Pipes.covers(true, true, true, true),
             base_level = 1,
-            pipe_picture = Data.Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_connections = {{type = "output", position = {0.0, -5.0}}}
         },
         off_when_no_fluid_recipe = false

@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "phosphate-mine",
     energy_required = 10,
@@ -15,7 +15,7 @@ Recipe {
     }
 }:add_unlock("basic-electronics")
 
-Item {
+ITEM {
     type = "item",
     name = "phosphate-mine",
     icon = "__pyhightech__/graphics/icons/phosphate-mine.png",
@@ -27,7 +27,7 @@ Item {
     stack_size = 10
 }
 
-Entity {
+ENTITY {
     type = "mining-drill",
     name = "phosphate-mine",
     icon = "__pyhightech__/graphics/icons/phosphate-mine.png",

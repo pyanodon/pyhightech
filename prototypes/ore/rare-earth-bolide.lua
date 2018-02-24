@@ -1,4 +1,4 @@
-Data {
+DATA {
     type = "autoplace-control",
     category = "resource",
     name = "rare-earth-bolide",
@@ -6,12 +6,12 @@ Data {
     order = "b-e"
 }
 
-Data {
+DATA {
     type = "noise-layer",
     name = "rare-earth-bolide"
 }
 
-Data {
+DATA {
     type = "resource",
     name = "rare-earth-bolide",
     category = "rare-earth",

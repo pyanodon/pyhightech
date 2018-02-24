@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "soaked-gel",
     category = "washer",
@@ -13,7 +13,7 @@ Recipe {
     },
 }:add_unlock("aerogel")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "soaked-gel",
     icon = "__pyhightech__/graphics/icons/soaked-gel.png",

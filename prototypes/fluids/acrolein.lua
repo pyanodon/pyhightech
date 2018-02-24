@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "acrolein",
     category = "hpf",
@@ -12,7 +12,7 @@ Recipe {
     },
 }
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "acrolein",
     icon = "__pyhightech__/graphics/icons/acrolein.png",
