@@ -1489,3 +1489,104 @@ Recipe {
     },
     main_product = "clean-rf-gel",
 }:add_unlock("aerogel")
+
+Recipe {
+    type = "recipe",
+    name = "aerogel",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "soaked-gel", amount = 200},
+    },
+    results = {
+        {type = "item", name = "aerogel", amount = 1},
+    },
+}:add_unlock("aerogel")
+
+Recipe {
+    type = "recipe",
+    name = "carbon-aerogel",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "syngas", amount = 200},
+        {type = "item", name = "aerogel", amount = 1},
+        {type = "item", name = "silicon", amount = 5},
+    },
+    results = {
+        {type = "item", name = "carbon-aerogel", amount = 1},
+    },
+}:add_unlock("aerogel"):replace_ingredient("syngas", "nitrogen"):replace_ingredient("silicon", "quartz")
+
+Recipe {
+    type = "recipe",
+    name = "sub-denier-microfiber",
+    category = "nmf",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "ammonia", amount = 100},
+        {type = "item", name = "aerogel", amount = 1},
+        {type = "item", name = "micro-fiber", amount = 5},
+        {type = "fluid", name = "acrolein", amount = 100},
+    },
+    results = {
+        {type = "item", name = "sub-denier-microfiber", amount = 1},
+    },
+}:add_unlock("nano-tech"):replace_ingredient("ammonia", "nitrogen-dioxide")
+
+Recipe {
+    type = "recipe",
+    name = "kondo-substrate",
+    category = "pcb",
+    enabled = false,
+    energy_required = 12,
+    ingredients = {
+        {type = "fluid", name = "industrial-solvent", amount = 100},
+        {type = "fluid", name = "helium", amount = 50},
+        {type = "item", name = "heavy-fermion", amount = 1},
+        {type = "item", name = "sub-denier-microfiber", amount = 2},
+        {type = "item", name = "nenbit-matrix", amount = 2},
+    },
+    results = {
+        {type = "item", name = "kondo-substrate", amount = 1},
+    },
+}:add_unlock("nano-tech")
+
+Recipe {
+    type = "recipe",
+    name = "heavy-fermion",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 12,
+    ingredients = {
+        {type = "item", name = "copper-plate", amount = 10},
+        {type = "item", name = "reo", amount = 5},
+        {type = "item", name = "uranium-238", amount = 2},
+        {type = "item", name = "fuelrod-mk01", amount = 2},
+    },
+    results = {
+        {type = "item", name = "heavy-fermion", amount = 1},
+    },
+}:add_unlock("nano-tech"):add_ingredient({type = "item", name = "gold-plate", amount = 5})
+
+Recipe {
+    type = "recipe",
+    name = "kondo-core",
+    category = "nano",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "sc-wire", amount = 5},
+        {type = "fluid", name = "vacuum", amount = 120},
+        {type = "item", name = "pdms-graphene", amount = 8},
+        {type = "item", name = "diamond", amount = 2},
+        {type = "item", name = "colloidal-silica", amount = 4},
+        {type = "item", name = "molybdenum-sulfide", amount = 10},
+    },
+    results = {
+        {type = "item", name = "kondo-core", amount = 1},
+    },
+}:add_unlock("nano-tech")
