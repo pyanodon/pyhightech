@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "ech",
     category = "mixer",
@@ -18,7 +18,7 @@ Recipe {
     order = "c"
 }:add_unlock("advanced-electronics"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 50})
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "ech",
     icon = "__pyhightech__/graphics/icons/ech.png",

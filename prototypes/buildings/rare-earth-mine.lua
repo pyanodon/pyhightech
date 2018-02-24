@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "rare-earth-mine",
     energy_required = 10,
@@ -16,7 +16,7 @@ Recipe {
     }
 }:add_unlock("rare-earth-tech")
 
-Item {
+ITEM {
     type = "item",
     name = "rare-earth-mine",
     icon = "__pyhightech__/graphics/icons/rare-earth-mine.png",
@@ -28,7 +28,7 @@ Item {
     stack_size = 10
 }
 
-Entity {
+ENTITY {
     type = "mining-drill",
     name = "rare-earth-mine",
     icon = "__pyhightech__/graphics/icons/rare-earth-mine.png",

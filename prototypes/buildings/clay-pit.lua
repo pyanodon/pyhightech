@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "clay-pit",
     energy_required = 10,
@@ -14,7 +14,7 @@ Recipe {
     }
 }
 
-Item {
+ITEM {
     type = "item",
     name = "clay-pit",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
@@ -26,7 +26,7 @@ Item {
     stack_size = 10
 }
 
-Entity {
+ENTITY {
     type = "assembling-machine",
     name = "clay-pit",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
@@ -78,8 +78,8 @@ Entity {
         --1
         {
             production_type = "input",
-            pipe_picture = Data.Pipes.pictures("assembling-machine-2", nil, nil, nil, nil),
-            pipe_covers = Data.Pipes.covers(true, true, false, false),
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, nil, nil, nil),
+            pipe_covers = DATA.Pipes.covers(true, true, false, false),
             base_area = 1,
             height = 2,
             base_level = -1,

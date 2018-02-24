@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "dms",
     category = "arum",
@@ -17,7 +17,7 @@ Recipe {
     main_product = "dms",
 }:add_unlock("advanced-electronics")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "dms",
     icon = "__pyhightech__/graphics/icons/dms.png",

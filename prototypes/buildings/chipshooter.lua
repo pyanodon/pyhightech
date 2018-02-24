@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "chipshooter",
     energy_required = 10,
@@ -15,7 +15,7 @@ Recipe {
     }
 }
 
-Item {
+ITEM {
     type = "item",
     name = "chipshooter",
     icon = "__pyhightech__/graphics/icons/chipshooter.png",
@@ -27,7 +27,7 @@ Item {
     stack_size = 10
 }
 
-Entity {
+ENTITY {
     type = "assembling-machine",
     name = "chipshooter",
     icon = "__pyhightech__/graphics/icons/chipshooter.png",

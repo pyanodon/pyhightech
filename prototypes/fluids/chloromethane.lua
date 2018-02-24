@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "chloromethane",
     category = "methanol",
@@ -14,7 +14,7 @@ Recipe {
     main_product = "chloromethane",
 }:add_unlock("graphene"):replace_ingredient("sulfuric-acid" , "hydrogen-chloride")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "chloromethane",
     icon = "__pyhightech__/graphics/icons/chloromethane.png",

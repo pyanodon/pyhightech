@@ -1,4 +1,4 @@
-Item {
+ITEM {
     type = "item",
     name = "phosphate-rock",
     icon = "__pyhightech__/graphics/icons/ores/phosphate-rock.png",
@@ -9,7 +9,7 @@ Item {
     stack_size = 500
 }
 
-Item {
+ITEM {
     type = "item",
     name = "rare-earth-ore",
     icon = "__pyhightech__/graphics/icons/rare-earth-ore.png",
@@ -20,7 +20,7 @@ Item {
     stack_size = 500
 }
 
-Item {
+ITEM {
     type = "item",
     name = "clay",
     icon = "__pyhightech__/graphics/icons/clay.png",
@@ -30,7 +30,7 @@ Item {
     order = "a",
     stack_size = 500
 }
-Item {
+ITEM {
     type = "item",
     name = "melamine",
     icon = "__pyhightech__/graphics/icons/melamine.png",
@@ -40,7 +40,7 @@ Item {
     order = "b",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "melamine-resin",
     icon = "__pyhightech__/graphics/icons/melamine-resin.png",
@@ -50,7 +50,7 @@ Item {
     order = "c",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "urea",
     icon = "__pyhightech__/graphics/icons/urea.png",
@@ -60,7 +60,7 @@ Item {
     order = "d",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "ceramic",
     icon = "__pyhightech__/graphics/icons/ceramic.png",
@@ -70,7 +70,7 @@ Item {
     order = "e",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "inductor1",
     icon = "__pyhightech__/graphics/icons/inductor1.png",
@@ -80,7 +80,7 @@ Item {
     order = "e",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "inductor2",
     icon = "__pyhightech__/graphics/icons/inductor2.png",
@@ -90,7 +90,7 @@ Item {
     order = "e",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "capacitor1",
     icon = "__pyhightech__/graphics/icons/capacitor1.png",
@@ -100,7 +100,7 @@ Item {
     order = "e",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "capacitor2",
     icon = "__pyhightech__/graphics/icons/capacitor2.png",
@@ -110,7 +110,7 @@ Item {
     order = "e",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "resistor1",
     icon = "__pyhightech__/graphics/icons/resistor1.png",
@@ -120,7 +120,7 @@ Item {
     order = "e",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "graphite",
     icon = "__pyhightech__/graphics/icons/graphite.png",
@@ -130,7 +130,7 @@ Item {
     order = "f",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "valve",
     icon = "__pyhightech__/graphics/icons/valve.png",
@@ -140,7 +140,7 @@ Item {
     order = "f",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "pcb1",
     icon = "__pyhightech__/graphics/icons/pcb1.png",
@@ -150,7 +150,7 @@ Item {
     order = "f",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "fiberboard",
     icon = "__pyhightech__/graphics/icons/fiberboard.png",
@@ -162,7 +162,7 @@ Item {
     order = "g",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "formica",
     icon = "__pyhightech__/graphics/icons/formica.png",
@@ -174,7 +174,7 @@ Item {
     order = "g",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "electronic-circuit",
     icon = "__pyhightech__/graphics/icons/circuit-board-1.png",
@@ -184,7 +184,7 @@ Item {
     order = "h",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "advanced-circuit",
     icon = "__pyhightech__/graphics/icons/circuit-board-2.png",
@@ -194,7 +194,7 @@ Item {
     order = "h",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "powdered-phosphate-rock",
     icon = "__pyhightech__/graphics/icons/powdered-phosphate-rock.png",
@@ -204,7 +204,7 @@ Item {
     order = "h",
     stack_size = 400
 }
-Item {
+ITEM {
     type = "item",
     name = "silicon-wafer",
     icon = "__pyhightech__/graphics/icons/silicon-wafer.png",
@@ -214,7 +214,7 @@ Item {
     order = "i",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "light-n",
     icon = "__pyhightech__/graphics/icons/light-n.png",
@@ -224,7 +224,7 @@ Item {
     order = "j",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "heavy-n",
     icon = "__pyhightech__/graphics/icons/heavy-n.png",
@@ -234,7 +234,7 @@ Item {
     order = "j",
     stack_size = 100
 }
-Item {
+ITEM {
     type = "item",
     name = "rare-earth-powder",
     icon = "__pyhightech__/graphics/icons/rare-earth-powder.png",
@@ -244,7 +244,7 @@ Item {
     order = "k",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "rare-earth-dust",
     icon = "__pyhightech__/graphics/icons/rare-earth-dust.png",
@@ -254,7 +254,7 @@ Item {
     order = "k",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "ree-concentrate",
     icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
@@ -264,7 +264,7 @@ Item {
     order = "l",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "reo",
     icon = "__pyhightech__/graphics/icons/reo.png",
@@ -274,7 +274,7 @@ Item {
     order = "l",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "p-dope",
     icon = "__pyhightech__/graphics/icons/p-dope.png",
@@ -284,7 +284,7 @@ Item {
     order = "l",
     stack_size = 150
 }
-Item {
+ITEM {
     type = "item",
     name = "transistor",
     icon = "__pyhightech__/graphics/icons/transistor.png",
@@ -294,7 +294,7 @@ Item {
     order = "b",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "phenol",
     icon = "__pyhightech__/graphics/icons/phenol.png",
@@ -304,7 +304,7 @@ Item {
     order = "l",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "phenolicboard",
     icon = "__pyhightech__/graphics/icons/phenolic-board.png",
@@ -314,7 +314,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "bakelite",
     icon = "__pyhightech__/graphics/icons/bakelite.png",
@@ -324,7 +324,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "pcb2",
     icon = "__pyhightech__/graphics/icons/pcb2.png",
@@ -334,7 +334,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "cermet",
     icon = "__pyhightech__/graphics/icons/cermet.png",
@@ -344,7 +344,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "crude-cermet",
     icon = "__pyhightech__/graphics/icons/crude-cermet.png",
@@ -354,7 +354,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "microchip",
     icon = "__pyhightech__/graphics/icons/microchip.png",
@@ -364,7 +364,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "fecr-alloy",
     icon = "__pyhightech__/graphics/icons/fecr-alloy.png",
@@ -374,7 +374,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "resistor2",
     icon = "__pyhightech__/graphics/icons/resistor2.png",
@@ -384,7 +384,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "diode",
     icon = "__pyhightech__/graphics/icons/diode.png",
@@ -394,7 +394,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "silicon",
     icon = "__pyhightech__/graphics/icons/silicon.png",
@@ -404,7 +404,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "glass-fiber",
     icon = "__pyhightech__/graphics/icons/glass-fiber.png",
@@ -414,7 +414,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "bisphenol-a",
     icon = "__pyhightech__/graphics/icons/bisphenol-a.png",
@@ -424,7 +424,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "epoxy",
     icon = "__pyhightech__/graphics/icons/epoxy.png",
@@ -434,7 +434,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "fiberglass",
     icon = "__pyhightech__/graphics/icons/fiberglass.png",
@@ -444,7 +444,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "pdms",
     icon = "__pyhightech__/graphics/icons/pdms.png",
@@ -454,7 +454,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "nic-core",
     icon = "__pyhightech__/graphics/icons/nic-core.png",
@@ -464,7 +464,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "pdms-graphene",
     icon = "__pyhightech__/graphics/icons/pdms-graphene.png",
@@ -474,7 +474,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "graphene-sheet",
     icon = "__pyhightech__/graphics/icons/graphene-sheet.png",
@@ -484,7 +484,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "graphene-roll",
     icon = "__pyhightech__/graphics/icons/graphene-roll.png",
@@ -494,7 +494,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "heavy-p-type",
     icon = "__pyhightech__/graphics/icons/heavy-p-type.png",
@@ -504,7 +504,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "processor-core",
     icon = "__pyhightech__/graphics/icons/processor-core.png",
@@ -514,7 +514,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "processor",
     icon = "__pyhightech__/graphics/icons/processor.png",
@@ -524,7 +524,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "phosphate-glass",
     icon = "__pyhightech__/graphics/icons/phosphate-glass.png",
@@ -534,7 +534,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "resistor3",
     icon = "__pyhightech__/graphics/icons/resistor3.png",
@@ -544,7 +544,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "high-flux-core",
     icon = "__pyhightech__/graphics/icons/high-flux-core.png",
@@ -554,7 +554,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "stone-wool",
     icon = "__pyhightech__/graphics/icons/stone-wool.png",
@@ -564,7 +564,7 @@ Item {
     order = "b",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "pcb3",
     icon = "__pyhightech__/graphics/icons/pcb3.png",
@@ -574,7 +574,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "pcb3-2",
     icon = "__pyhightech__/graphics/icons/pcb3-2.png",
@@ -584,7 +584,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "inductor3",
     icon = "__pyhightech__/graphics/icons/inductor3.png",
@@ -594,7 +594,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "re-tin",
     icon = "__pyhightech__/graphics/icons/re-tin-alloy.png",
@@ -604,7 +604,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "diode-core",
     icon = "__pyhightech__/graphics/icons/diode-core.png",
@@ -614,7 +614,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "diode3",
     icon = "__pyhightech__/graphics/icons/diode3.png",
@@ -624,7 +624,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "capacitor-core",
     icon = "__pyhightech__/graphics/icons/capacitor-core.png",
@@ -634,7 +634,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "capacitor-termination",
     icon = "__pyhightech__/graphics/icons/capacitor-termination.png",
@@ -644,7 +644,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "capacitor3",
     icon = "__pyhightech__/graphics/icons/capacitor3.png",
@@ -654,7 +654,7 @@ Item {
     order = "l",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "processing-unit",
     icon = "__pyhightech__/graphics/icons/circuit-board-3.png",
@@ -664,7 +664,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "carbon-dust",
     icon = "__pyhightech__/graphics/icons/carbon-dust.png",
@@ -674,7 +674,7 @@ Item {
     order = "h",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "biopolymer",
     icon = "__pyhightech__/graphics/icons/biopolymer.png",
@@ -684,7 +684,7 @@ Item {
     order = "h",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "carbon-nanotube",
     icon = "__pyhightech__/graphics/icons/carbon-nanotube.png",
@@ -694,7 +694,7 @@ Item {
     order = "h",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "sodium-silicate",
     icon = "__pyhightech__/graphics/icons/sodium-silicate.png",
@@ -704,7 +704,7 @@ Item {
     order = "h",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "silica-powder",
     icon = "__pyhightech__/graphics/icons/silica-powder.png",
@@ -714,7 +714,7 @@ Item {
     order = "h",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "colloidal-silica",
     icon = "__pyhightech__/graphics/icons/colloidal-silica.png",
@@ -724,7 +724,7 @@ Item {
     order = "h",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "nanochip",
     icon = "__pyhightech__/graphics/icons/nano-chip.png",
@@ -734,7 +734,7 @@ Item {
     order = "h",
     stack_size = 300
 }
-Item {
+ITEM {
     type = "item",
     name = "raw-fiber",
     fuel_category = "chemical",
@@ -746,7 +746,7 @@ Item {
     order = "h",
     stack_size = 500
 }
-Item {
+ITEM {
     type = "item",
     name = "fiber",
     fuel_category = "chemical",
@@ -758,7 +758,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "micro-fiber",
     icon = "__pyhightech__/graphics/icons/microfiber.png",
@@ -768,7 +768,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "sub-denier-microfiber",
     icon = "__pyhightech__/graphics/icons/sub-denier-microfiber.png",
@@ -778,7 +778,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "resorcinol",
     icon = "__pyhightech__/graphics/icons/resorcinol.png",
@@ -788,7 +788,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "rf-gel",
     icon = "__pyhightech__/graphics/icons/rf-gel.png",
@@ -798,7 +798,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "clean-rf-gel",
     icon = "__pyhightech__/graphics/icons/clean-rf-gel.png",
@@ -808,7 +808,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "aerogel",
     icon = "__pyhightech__/graphics/icons/aerogel.png",
@@ -818,7 +818,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "carbon-aerogel",
     icon = "__pyhightech__/graphics/icons/carbon-aerogel.png",
@@ -828,7 +828,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "kondo-substrate",
     icon = "__pyhightech__/graphics/icons/kondo-base.png",
@@ -838,7 +838,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "kondo-core",
     icon = "__pyhightech__/graphics/icons/kondo-core.png",
@@ -848,7 +848,7 @@ Item {
     order = "h",
     stack_size = 200
 }
-Item {
+ITEM {
     type = "item",
     name = "heavy-fermion",
     icon = "__pyhightech__/graphics/icons/heavy-fermion.png",

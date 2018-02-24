@@ -1,4 +1,4 @@
-Technology {
+TECHNOLOGY {
     type = "technology",
     name = "aerogel",
     icon = "__pyhightech__/graphics/technology/aerogel.png",

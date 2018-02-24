@@ -1,4 +1,4 @@
-Fluid {
+FLUID {
     type = "fluid",
     name = "acetone",
     icon = "__pyhightech__/graphics/icons/acetone.png",

@@ -7,7 +7,7 @@ local pipe = {
     }
 }
 
-Recipe {
+RECIPE {
     type = "recipe",
     name = "pcb-factory",
     energy_required = 10,
@@ -26,7 +26,7 @@ Recipe {
     }
 }
 
-Item {
+ITEM {
     type = "item",
     name = "pcb-factory",
     icon = "__pyhightech__/graphics/icons/pcb-factory.png",
@@ -38,7 +38,7 @@ Item {
     stack_size = 10
 }
 
-Entity {
+ENTITY {
     type = "assembling-machine",
     name = "pcb-factory",
     icon = "__pyhightech__/graphics/icons/pcb-factory.png",
@@ -146,24 +146,24 @@ Entity {
         --1
         {
             production_type = "input",
-            pipe_picture = Data.Pipes.pictures("assembling-machine-2", nil, {0.5, -4.04}, nil, nil, pipe),
-            pipe_covers = Data.Pipes.covers(false, true, true, true),
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.5, -4.04}, nil, nil, pipe),
+            pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
             pipe_connections = {{type = "input", position = {0.0, 4.0}}}
         },
         {
             production_type = "input",
-            pipe_picture = Data.Pipes.pictures("assembling-machine-2", nil, {0.5, -4.04}, nil, nil, pipe),
-            pipe_covers = Data.Pipes.covers(false, true, true, true),
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.5, -4.04}, nil, nil, pipe),
+            pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_area = 10,
             base_level = -1,
             pipe_connections = {{type = "input", position = {4.0, 0.0}}}
         },
         {
             production_type = "output",
-            pipe_picture = Data.Pipes.pictures("assembling-machine-2", nil, {0.5, -4.04}, nil, nil, pipe),
-            pipe_covers = Data.Pipes.covers(false, true, true, true),
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.5, -4.04}, nil, nil, pipe),
+            pipe_covers = DATA.Pipes.covers(false, true, true, true),
             base_level = 1,
             pipe_connections = {{type = "output", position = {0.0, -4.0}}}
         },

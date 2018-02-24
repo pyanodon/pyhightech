@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "auog-paddock",
     energy_required = 10,
@@ -13,7 +13,7 @@ Recipe {
     }
 }
 
-Item {
+ITEM {
     type = "item",
     name = "auog-paddock",
     icon = "__pyhightech__/graphics/icons/auog-paddock.png",
@@ -25,7 +25,7 @@ Item {
     stack_size = 10
 }
 
-Entity {
+ENTITY {
     type = "assembling-machine",
     name = "auog-paddock",
     icon = "__pyhightech__/graphics/icons/auog-paddock.png",

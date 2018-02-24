@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "ree-solution",
     category = "fluid-separator",
@@ -16,7 +16,7 @@ Recipe {
 }:add_unlock("rare-earth-tech")
 
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "ree-solution",
     icon = "__pyhightech__/graphics/icons/ree-solution.png",

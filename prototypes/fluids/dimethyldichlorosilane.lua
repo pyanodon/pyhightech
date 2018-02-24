@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "dimethyldichlorosilane",
     category = "fbreactor",
@@ -15,7 +15,7 @@ Recipe {
     main_product = "dimethyldichlorosilane",
 }:add_unlock("graphene")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "dimethyldichlorosilane",
     icon = "__pyhightech__/graphics/icons/dimethyldichlorosilane.png",

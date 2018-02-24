@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "bacteria-2",
     category = "genlab",
@@ -15,7 +15,7 @@ Recipe {
     main_product = "bacteria-2",
 }:add_unlock("nano-tech")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "bacteria-2",
     icon = "__pyhightech__/graphics/icons/bacteria-2.png",

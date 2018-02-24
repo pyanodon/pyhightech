@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "propene",
     category = "gasifier",
@@ -16,7 +16,7 @@ Recipe {
     main_product = "propene",
 }:add_unlock("basic-electronics"):replace_ingredient("iron-plate", "lead-plate")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "propene",
     icon = "__pyhightech__/graphics/icons/propene.png",

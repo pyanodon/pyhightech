@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "phosphoric-acid",
     category = "distilator",
@@ -17,7 +17,7 @@ Recipe {
 }:add_unlock("basic-electronics")
 
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "phosphoric-acid",
     icon = "__pyhightech__/graphics/icons/phosphoric-acid.png",

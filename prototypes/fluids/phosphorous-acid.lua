@@ -1,4 +1,4 @@
-Recipe {
+RECIPE {
     type = "recipe",
     name = "phosphorous-acid",
     category = "hpf",
@@ -16,7 +16,7 @@ Recipe {
     main_product = "phosphorous-acid",
 }:add_unlock("basic-electronics")
 
-Fluid {
+FLUID {
     type = "fluid",
     name = "phosphorous-acid",
     icon = "__pyhightech__/graphics/icons/phosphorous-acid.png",
