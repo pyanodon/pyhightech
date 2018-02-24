@@ -50,6 +50,7 @@ require("prototypes.fluids.chloromethane")
 require("prototypes.fluids.dimethyldichlorosilane")
 require("prototypes.fluids.bacteria-2")
 require("prototypes.fluids.soaked-gel")
+require("prototypes.fluids.acrolein")
 
 require("prototypes.recipes.recipes")
 require("prototypes.items.items")

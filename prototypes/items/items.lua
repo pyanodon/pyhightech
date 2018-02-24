@@ -770,6 +770,16 @@ Item {
 }
 Item {
     type = "item",
+    name = "sub-denier-microfiber",
+    icon = "__pyhightech__/graphics/icons/sub-denier-microfiber.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
     name = "resorcinol",
     icon = "__pyhightech__/graphics/icons/resorcinol.png",
 	icon_size = 32,
@@ -792,6 +802,56 @@ Item {
     type = "item",
     name = "clean-rf-gel",
     icon = "__pyhightech__/graphics/icons/clean-rf-gel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "aerogel",
+    icon = "__pyhightech__/graphics/icons/aerogel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "carbon-aerogel",
+    icon = "__pyhightech__/graphics/icons/carbon-aerogel.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "kondo-substrate",
+    icon = "__pyhightech__/graphics/icons/kondo-base.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "kondo-core",
+    icon = "__pyhightech__/graphics/icons/kondo-core.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+Item {
+    type = "item",
+    name = "heavy-fermion",
+    icon = "__pyhightech__/graphics/icons/heavy-fermion.png",
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
