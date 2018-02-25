@@ -938,3 +938,33 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "zinc-nanocompound",
+    icon = "__pyhightech__/graphics/icons/zinc-nanocompound.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "zinc-nanocomplex",
+    icon = "__pyhightech__/graphics/icons/zinc-nanocomplex.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "csle-diode",
+    icon = "__pyhightech__/graphics/icons/csle-diode.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
