@@ -1388,13 +1388,29 @@ RECIPE {
     name = "bonemeal2",
     category = "ulric",
     enabled = "false",
-    energy_required = 4,
+    energy_required = 30,
     ingredients = {
         {type = "item", name = "ralesia", amount = 8},
         {type = "item", name = "raw-fiber", amount = 5},
     },
     results = {
         {type = "item", name = "bonemeal", amount = 10}
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "mukmoux-fat2",
+    category = "mukmoux",
+    enabled = "false",
+    energy_required = 50,
+    ingredients = {
+        {type = "item", name = "fawogae", amount = 5},
+        {type = "item", name = "ralesia-seeds", amount = 30},
+        {type = "item", name = "raw-fiber", amount = 5},
+    },
+    results = {
+        {type = "item", name = "mukmoux-fat", amount = 20}
     },
 }:add_unlock("advanced-electronics")
 
@@ -1713,3 +1729,74 @@ RECIPE {
     icon = "__pyhightech__/graphics/icons/recrush-dry-ralesia.png",
 	icon_size = 32,
 }:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "zinc-nanocompound",
+    category = "nmf",
+    enabled = false,
+    energy_required = 15,
+    ingredients = {
+        {type = "item", name = "zinc-acetate", amount = 1},
+        {type = "item", name = "sulfur", amount = 10},
+        {type = "fluid", name = "ralesia-extract", amount = 100},
+    },
+    results = {
+        {type = "item", name = "zinc-nanocompound", amount = 1},
+    },
+}:add_unlock("nano-tech"):add_ingredient({type = "item", name = "sodium-hydroxide", amount = 10})
+
+RECIPE {
+    type = "recipe",
+    name = "zinc-nanocomplex",
+    category = "washer",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "zinc-nanocompound", amount = 1},
+        {type = "fluid", name = "methanol", amount = 100},
+    },
+    results = {
+        {type = "item", name = "zinc-nanocomplex", amount = 1},
+        {type = "fluid", name = "dirty-water", amount = 100},
+    },
+    main_product = "zinc-nanocomplex",
+    icon = "__pyhightech__/graphics/icons/wash-zincnano.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "b7"
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "zno-nanoparticles",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "zinc-nanocomplex", amount = 5},
+        {type = "item", name = "lead-container", amount = 1},
+    },
+    results = {
+        {type = "item", name = "zno-nanoparticles", amount = 5},
+    },
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "csle-diode",
+    category = "electronic",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "vanadium-oxide", amount = 2},
+        {type = "item", name = "phosphate-glass", amount = 4},
+        {type = "item", name = "biopolymer", amount = 2},
+        {type = "item", name = "carbon-nanotube", amount = 1},
+        {type = "item", name = "zno-nanoparticles", amount = 1},
+        {type = "fluid", name = "boric-acid", amount = 100},
+    },
+    results = {
+        {type = "item", name = "csle-diode", amount = 3},
+    },
+}:add_unlock("nano-tech"):add_ingredient({type = "item", name = "salt", amount = 50})
