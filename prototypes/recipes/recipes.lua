@@ -1566,6 +1566,7 @@ RECIPE {
         {type = "item", name = "reo", amount = 5},
         {type = "item", name = "uranium-238", amount = 2},
         {type = "item", name = "fuelrod-mk01", amount = 2},
+        {type = "item", name = "sand-casting", amount = 4},
     },
     results = {
         {type = "item", name = "heavy-fermion", amount = 1},
@@ -1589,4 +1590,126 @@ RECIPE {
     results = {
         {type = "item", name = "kondo-core", amount = 1},
     },
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "kondo-processor",
+    category = "nano",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "kondo-substrate", amount = 1},
+        {type = "fluid", name = "vacuum", amount = 150},
+        {type = "item", name = "kondo-core", amount = 1},
+        {type = "item", name = "biopolymer", amount = 5},
+        {type = "item", name = "aerogel", amount = 1},
+        {type = "item", name = "zno-nanoparticles", amount = 1},
+    },
+    results = {
+        {type = "item", name = "kondo-processor", amount = 1},
+    },
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "crco-alloy",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "chromium", amount = 5},
+        {type = "item", name = "tailings-dust", amount = 15},
+        {type = "item", name = "fuelrod-mk01", amount = 1},
+        {type = "item", name = "sand-casting", amount = 2},
+        {type = "item", name = "borax", amount = 5},
+        {type = "fluid", name = "petroleum-gas", amount = 200},
+    },
+    results = {
+        {type = "item", name = "crco-alloy", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "cobalt-ore", amount = 5})
+
+RECIPE {
+    type = "recipe",
+    name = "nxag-matrix",
+    category = "nmf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "nexelit-matrix", amount = 4},
+        {type = "item", name = "super-alloy", amount = 1},
+        {type = "fluid", name = "boric-acid", amount = 100},
+        {type = "fluid", name = "vacuum", amount = 100},
+
+    },
+    results = {
+        {type = "item", name = "nxag-matrix", amount = 1},
+    },
+}:add_unlock("helium-processing"):add_ingredient({type = "item", name = "silver-plate", amount = 4})
+
+RECIPE {
+    type = "recipe",
+    name = "paradiamatic-resistor",
+    category = "electronic",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "nichrome", amount = 4},
+        {type = "item", name = "reo", amount = 5},
+        {type = "item", name = "cermet", amount = 5},
+        {type = "item", name = "crco-alloy", amount = 2},
+        {type = "item", name = "nxag-matrix", amount = 1},
+        {type = "fluid", name = "boric-acid", amount = 100},
+
+    },
+    results = {
+        {type = "item", name = "paradiamatic-resistor", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "lead-plate", amount = 4})
+
+RECIPE {
+    type = "recipe",
+    name = "zinc-acetate",
+    category = "mixer",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "stone-brick", amount = 10},
+        {type = "fluid", name = "acetic-acid", amount = 100},
+
+    },
+    results = {
+        {type = "item", name = "zinc-acetate", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):replace_ingredient("stone-brick", "zinc-plate")
+
+RECIPE {
+    type = "recipe",
+    name = "dry-ralesia",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "ralesia", amount = 5},
+    },
+    results = {
+        {type = "item", name = "dry-ralesia", amount = 5},
+    },
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "ralesia-powder",
+    category = "secondary-crusher",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "dry-ralesia", amount = 10},
+    },
+    results = {
+        {type = "item", name = "ralesia-powder", amount = 5},
+    },
+    icon = "__pyhightech__/graphics/icons/recrush-dry-ralesia.png",
+	icon_size = 32,
 }:add_unlock("nano-tech")
