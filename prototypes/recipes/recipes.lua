@@ -1800,3 +1800,91 @@ RECIPE {
         {type = "item", name = "csle-diode", amount = 3},
     },
 }:add_unlock("nano-tech"):add_ingredient({type = "item", name = "salt", amount = 50})
+
+RECIPE {
+    type = "recipe",
+    name = "ndfeb-alloy",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "iron-plate", amount = 12},
+		{type = "item", name = "reo", amount = 5},
+        {type = "item", name = "boron", amount = 4},
+        {type = "item", name = "borax", amount = 5},
+        {type = "item", name = "fuelrod-mk01", amount = 1},
+        {type = "item", name = "sand-casting", amount = 2},
+		{type = "fluid", name = "carbon-dioxide", amount = 100},
+    },
+    results = {
+        {type = "item", name = "ndfeb-alloy", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):replace_ingredient("carbon-dioxide", "oxygen")
+
+RECIPE {
+    type = "recipe",
+    name = "ndfeb-powder",
+    category = "ball-mill",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "ndfeb-alloy", amount = 1},
+    },
+    results = {
+        {type = "item", name = "ndfeb-powder", amount = 10},
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "re-magnet",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "ndfeb-powder", amount = 5},
+        {type = "item", name = "borax", amount = 5},
+        {type = "item", name = "fuelrod-mk01", amount = 1},
+        {type = "item", name = "sand-casting", amount = 2},
+    },
+    results = {
+        {type = "item", name = "re-magnet", amount = 1},
+    },
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "nickel-plate", amount = 2})
+
+RECIPE {
+    type = "recipe",
+    name = "sc-substrate",
+    category = "pcb",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "re-magnet", amount = 1},
+        {type = "item", name = "sc-unit", amount = 1},
+        {type = "item", name = "nbti-alloy", amount = 2},
+        {type = "item", name = "advanced-circuit", amount = 1},
+        {type = "fluid", name = "msa", amount = 200},
+    },
+    results = {
+        {type = "item", name = "sc-substrate", amount = 1}
+    },
+
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "superconductor",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "sc-substrate", amount = 1},
+        {type = "item", name = "re-magnet", amount = 1},
+        {type = "item", name = "agzn-alloy", amount = 1},
+        {type = "fluid", name = "liquid-helium", amount = 50},
+    },
+    results = {
+        {type = "item", name = "superconductor", amount = 1}
+    },
+
+}:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "gold-plate", amount = 1}):replace_ingredient("liquid-helium", "liquid-nitrogen")
