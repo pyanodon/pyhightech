@@ -968,3 +968,53 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "ndfeb-alloy",
+    icon = "__pyhightech__/graphics/icons/ndfeb-alloy.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "ndfeb-powder",
+    icon = "__pyhightech__/graphics/icons/ndfeb-powder.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "re-magnet",
+    icon = "__pyhightech__/graphics/icons/re-magnet.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "sc-substrate",
+    icon = "__pyhightech__/graphics/icons/sc-substrate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "superconductor",
+    icon = "__pyhightech__/graphics/icons/superconductor.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
