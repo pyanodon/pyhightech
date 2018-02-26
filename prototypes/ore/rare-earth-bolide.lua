@@ -33,8 +33,8 @@ DATA {
             {"rare-earth-ore", 1}
         }
     },
-    collision_box = {{-3.8, -3.8}, {3.8, 3.8}},
-    selection_box = {{-4.0, -4.0}, {4.0, 4.0}},
+    collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
+    selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     autoplace = {
         control = "rare-earth-bolide",
         sharpness = 0.88,
@@ -42,7 +42,7 @@ DATA {
         --max_probability = 0.035,
         richness_multiplier = 120,
         richness_multiplier_distance_bonus = 110,
-        richness_base = 85000,
+        richness_base = 75000,
         coverage = 0.003,
         peaks = {
             {
@@ -61,7 +61,7 @@ DATA {
             height = 256,
             frame_count = 1,
             variation_count = 1,
-            shift = util.by_pixel(14, 0)
+            shift = util.by_pixel(0, -2)
         }
     }
 }
