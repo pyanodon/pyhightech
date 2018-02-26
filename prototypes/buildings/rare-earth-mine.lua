@@ -40,8 +40,8 @@ ENTITY {
     resource_categories = {"rare-earth"},
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    collision_box = {{-3.8, -3.8}, {3.8, 3.8}},
-    selection_box = {{-4.0, -4.0}, {4.0, 4.0}},
+    collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
+    selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
 
     module_specification = {
         module_slots = 4
@@ -56,7 +56,7 @@ ENTITY {
     energy_usage = "1000kW",
     mining_power = 1.5,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0.5, -4.5},
+    vector_to_place_result = {0, -5.0},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -68,8 +68,8 @@ ENTITY {
                 filename = "__pyhightech__/graphics/entity/rare-earth-mine/rare-earth-left.png",
                 width = 96,
                 height = 261,
-                line_length = 14,
-                frame_count = 70,
+                line_length = 21,
+                frame_count = 126,
                 animation_speed = 0.2,
                 shift = util.by_pixel(-82, 0)
             },
@@ -77,8 +77,8 @@ ENTITY {
                 filename = "__pyhightech__/graphics/entity/rare-earth-mine/rare-earth-mid.png",
                 width = 96,
                 height = 261,
-                line_length = 14,
-                frame_count = 70,
+                line_length = 21,
+                frame_count = 126,
                 animation_speed = 0.2,
                 shift = util.by_pixel(14, 0)
             },
@@ -87,15 +87,15 @@ ENTITY {
                 priority = "extra-high",
                 width = 80,
                 height = 261,
-                line_length = 12,
-                frame_count = 70,
+                line_length = 21,
+                frame_count = 126,
                 shift = util.by_pixel(100, 0)
             },
         }
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/rare-earth.ogg", volume = 1.0},
+        sound = {filename = "__pyhightech__/sounds/rare-earth.ogg", volume = 0.9},
         idle_sound = {filename = "__pyhightech__/sounds/rare-earth.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
