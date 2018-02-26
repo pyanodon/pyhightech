@@ -731,6 +731,7 @@ RECIPE {
     energy_required = 12,
     ingredients = {
         {type = "item", name = "pcb2", amount = 1},
+        {type = "item", name = "electronic-circuit", amount = 1},
         {type = "item", name = "transistor", amount = 3},
 		{type = "item", name = "microchip", amount = 3},
         {type = "item", name = "inductor2", amount = 4},
@@ -1238,10 +1239,12 @@ RECIPE {
     energy_required = 12,
     ingredients = {
         {type = "item", name = "pcb3-2", amount = 1},
+        {type = "item", name = "advanced-circuit", amount = 1},
         {type = "item", name = "resistor3", amount = 3},
         {type = "item", name = "inductor3", amount = 3},
         {type = "item", name = "capacitor3", amount = 2},
         {type = "item", name = "microchip", amount = 3},
+        {type = "item", name = "optical-fiber", amount = 3},
         {type = "item", name = "processor", amount = 1},
         {type = "item", name = "diode3", amount = 5},
     },
@@ -1888,3 +1891,132 @@ RECIPE {
     },
 
 }:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "gold-plate", amount = 1}):replace_ingredient("liquid-helium", "liquid-nitrogen")
+
+RECIPE {
+    type = "recipe",
+    name = "nanocrystaline-core",
+    category = "nano",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "niobium-plate", amount = 5},
+        {type = "item", name = "silicon", amount = 10},
+        {type = "item", name = "iron-plate", amount = 5},
+        {type = "item", name = "boron", amount = 3},
+        {type = "item", name = "copper-plate", amount = 5},
+    },
+    results = {
+        {type = "item", name = "nanocrystaline-core", amount = 1}
+    },
+
+}:add_unlock("nano-tech"):add_ingredient({type = "item", name = "gold-plate", amount = 2})
+
+RECIPE {
+    type = "recipe",
+    name = "fault-current-inductor",
+    category = "electronic",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "nanocrystaline-core", amount = 1},
+        {type = "item", name = "biopolymer", amount = 5},
+        {type = "item", name = "super-alloy", amount = 1},
+        {type = "item", name = "superconductor", amount = 3},
+        {type = "item", name = "battery", amount = 5},
+    },
+    results = {
+        {type = "item", name = "fault-current-inductor", amount = 1}
+    },
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "supercapacitor-core",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "active-carbon", amount = 2},
+        {type = "item", name = "graphite", amount = 1},
+        {type = "item", name = "carbon-aerogel", amount = 8},
+        {type = "item", name = "sodium-chlorate", amount = 10},
+        {type = "fluid", name = "water", amount = 50},
+    },
+    results = {
+        {type = "item", name = "supercapacitor-core", amount = 1}
+    },
+
+}:add_unlock("aerogel"):add_ingredient({type = "item", name = "silver-plate", amount = 2})
+
+RECIPE {
+    type = "recipe",
+    name = "supercapacitor-shell",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "fiberboard", amount = 2},
+        {type = "item", name = "nexelit-plate", amount = 2},
+        {type = "item", name = "molybdenum-plate", amount = 2},
+        {type = "item", name = "iron-plate", amount = 3},
+        {type = "fluid", name = "water", amount = 50},
+    },
+    results = {
+        {type = "item", name = "supercapacitor-shell", amount = 1}
+    },
+
+}:add_unlock("advanced-electronics"):replace_ingredient("iron-plate", "aluminium-plate")
+
+RECIPE {
+    type = "recipe",
+    name = "supercapacitor",
+    category = "electronic",
+    enabled = false,
+    energy_required = 12,
+    ingredients = {
+        {type = "item", name = "supercapacitor-core", amount = 3},
+        {type = "item", name = "supercapacitor-shell", amount = 2},
+    },
+    results = {
+        {type = "item", name = "supercapacitor", amount = 2}
+    },
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "pcb4",
+    category = "pcb",
+    enabled = false,
+    energy_required = 12,
+    ingredients = {
+        {type = "item", name = "pcb3-2", amount = 1},
+        {type = "item", name = "heavy-fermion", amount = 2},
+        {type = "item", name = "ceramic", amount = 3},
+        {type = "item", name = "zno-nanoparticles", amount = 2},
+        {type = "fluid", name = "msa", amount = 50},
+    },
+    results = {
+        {type = "item", name = "pcb4", amount = 1}
+    },
+}:add_unlock("nano-tech"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
+
+RECIPE {
+    type = "recipe",
+    name = "intelligent-unit",
+    category = "chip",
+    enabled = false,
+    energy_required = 30,
+    ingredients = {
+        {type = "item", name = "pcb4", amount = 1},
+        {type = "item", name = "processing-unit", amount = 1},
+        {type = "item", name = "kondo-processor", amount = 1},
+        {type = "item", name = "csle-diode", amount = 1},
+        {type = "item", name = "supercapacitor", amount = 1},
+        {type = "item", name = "paradiamatic-resistor", amount = 1},
+        {type = "item", name = "nanochip", amount = 1},
+        {type = "item", name = "fault-current-inductor", amount = 1},
+    },
+    results = {
+        {type = "item", name = "intelligent-unit", amount = 2}
+    },
+}:add_unlock("nano-tech")

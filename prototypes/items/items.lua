@@ -1018,3 +1018,73 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "nanocrystaline-core",
+    icon = "__pyhightech__/graphics/icons/nanocrystaline-core.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "fault-current-inductor",
+    icon = "__pyhightech__/graphics/icons/fault-current-inductor.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "supercapacitor-core",
+    icon = "__pyhightech__/graphics/icons/supercapacitor-core.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "supercapacitor-shell",
+    icon = "__pyhightech__/graphics/icons/supercapacitor-shell.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "supercapacitor",
+    icon = "__pyhightech__/graphics/icons/supercapacitor.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "pcb4",
+    icon = "__pyhightech__/graphics/icons/pcb4.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "intelligent-unit",
+    icon = "__pyhightech__/graphics/icons/intelligent-unit.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
