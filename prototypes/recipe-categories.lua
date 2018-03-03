@@ -53,6 +53,10 @@ data:extend {
     },
     {
         type = "recipe-category",
+        name = "zipir"
+    },
+    {
+        type = "recipe-category",
         name = "erase"
     }
 }

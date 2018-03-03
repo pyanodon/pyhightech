@@ -2020,3 +2020,22 @@ RECIPE {
         {type = "item", name = "intelligent-unit", amount = 2}
     },
 }:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "zipir-carcass",
+    category = "zipir",
+    enabled = false,
+    energy_required = 60,
+    ingredients = {
+        {type = "item", name = "stone-wool", amount = 5},
+        {type = "fluid", name = "water", amount = 200},
+        {type = "item", name = "fawogae-substrate", amount = 10},
+        {type = "fluid", name = "pressured-water", amount = 300},
+    },
+    results = {
+        {type = "item", name = "zipir-carcass", amount = 1},
+        {type = "fluid", name = "waste-water", amount = 200},
+    },
+    main_product = "zipir-carcass",
+}:add_unlock("advanced-electronics"):replace_ingredient("water", "water-saline")
