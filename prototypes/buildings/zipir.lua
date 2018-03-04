@@ -13,17 +13,16 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"carbon-filter", 1},
+        {"clay-pit", 1},
         {"fbreactor", 2},
-        {"py-tank-5000", 1},
         {"steel-plate", 100},
-        {"advanced-circuit", 20},
-        {"niobium-pipe", 15}
+        {"electronic-circuit", 20},
+        {"pipe", 15}
     },
     results = {
         {"zipir", 1}
     }
-}:add_unlock("advanced-electronics")
+}:add_unlock("basic-electronics")
 
 ITEM {
     type = "item",
