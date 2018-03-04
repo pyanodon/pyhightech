@@ -634,6 +634,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "crude-cermet", amount = 3},
+        {type = "item", name = "ash", amount = 5},
 		{type = "fluid", name = "boric-acid", amount = 100},
     },
     results = {
@@ -2109,3 +2110,126 @@ RECIPE {
     subgroup = "py-hightech-recipes",
     order = "d"
 }:add_unlock("basic-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "bonemeal3",
+    category = "crusher",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "bones", amount = 5},
+    },
+    results = {
+        {type = "item", name = "bonemeal", amount = 5},
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "ash-bone",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "bones", amount = 2},
+    },
+    results = {
+        {type = "item", name = "ash", amount = 4},
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "calcinate-bone",
+    category = "hpf",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "item", name = "bones", amount = 4},
+    },
+    results = {
+        {type = "item", name = "calcinates", amount = 3},
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "bone-briquette",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "bones", amount = 4},
+        {type = "item", name = "coal-dust", amount = 10},
+        {type = "fluid", name = "heavy-oil", amount = 50},
+    },
+    results = {
+        {type = "item", name = "coal-briquette", amount = 2},
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "bone-fat",
+    category = "fbreactor",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "bones", amount = 2},
+        {type = "fluid", name = "steam", amount = 200, temperature = 165},
+    },
+    results = {
+        {type = "item", name = "mukmoux-fat", amount = 2},
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "fawogae2",
+    category = "fawogae",
+    enabled = false,
+    energy_required = 3.0,
+    ingredients = {
+        {type = "fluid", name = "water", amount = 900},
+        {type = "item", name = "py-fertilizer", amount = 4},
+    },
+    results = {
+        {type = "item", name = "fawogae", amount = 10},
+    }
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "log7",
+    category = "nursery",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "py-fertilizer", amount = 2},
+        {type = "fluid", name = "water", amount = 300},
+    },
+    results = {
+        {type = "item", name = "log", amount = 3},
+    },
+    icon = "__pyhightech__/graphics/icons/log7.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "d"
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "fertilizer",
+    category = "mixer",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "blood", amount = 30},
+        {type = "item", name = "bones", amount = 3},
+        {type = "item", name = "organics", amount = 10},
+    },
+    results = {
+        {type = "item", name = "py-fertilizer", amount = 10},
+    }
+}:add_unlock("advanced-electronics")
