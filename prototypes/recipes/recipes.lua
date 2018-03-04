@@ -2038,4 +2038,74 @@ RECIPE {
         {type = "fluid", name = "waste-water", amount = 200},
     },
     main_product = "zipir-carcass",
-}:add_unlock("advanced-electronics"):replace_ingredient("water", "water-saline")
+}:add_unlock("basic-electronics"):replace_ingredient("water", "water-saline")
+
+RECIPE {
+    type = "recipe",
+    name = "benzene-aromatics",
+    category = "distilator",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "aromatics", amount = 200},
+        {type = "item", name = "nexelit-plate", amount = 2},
+        {type = "fluid", name = "steam", amount = 300, temperature = 165},
+    },
+    results = {
+        {type = "fluid", name = "benzene", amount = 150},
+    },
+}:add_unlock("basic-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "organic-solvent2",
+    category = "oil-processing",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "fluid", name = "acetone", amount = 100},
+        {type = "fluid", name = "syngas", amount = 100},
+    },
+    results = {
+        {type = "fluid", name = "organic-solvent", amount = 100},
+        {type = "fluid", name = "ammonia", amount = 50},
+    },
+    main_product = "organic-solvent",
+}:add_unlock("oil-processing")
+
+RECIPE {
+    type = "recipe",
+    name = "plastic2",
+    category = "mixer",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "acetone", amount = 100},
+        {type = "fluid", name = "sulfuric-acid", amount = 300},
+        {type = "fluid", name = "ammonia", amount = 100},
+    },
+    results = {
+        {type = "item", name = "plastic-bar", amount = 20},
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "rendering",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "zipir-carcass", amount = 1},
+    },
+    results = {
+        {type = "item", name = "bones", amount = 5},
+        {type = "item", name = "skin", amount = 10},
+        {type = "item", name = "meat", amount = 3},
+        {type = "fluid", name = "blood", amount = 15},
+    },
+    icon = "__pyhightech__/graphics/icons/rendering.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "d"
+}:add_unlock("basic-electronics")

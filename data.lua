@@ -55,6 +55,7 @@ require("prototypes/fluids/acrolein")
 require("prototypes/fluids/acetic-acid")
 require("prototypes/fluids/raw-ralesia-extract")
 require("prototypes/fluids/ralesia-extract")
+require("prototypes/fluids/blood")
 
 require("prototypes/recipes/recipes")
 require("prototypes/items/items")
