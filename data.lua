@@ -56,6 +56,8 @@ require("prototypes/fluids/acetic-acid")
 require("prototypes/fluids/raw-ralesia-extract")
 require("prototypes/fluids/ralesia-extract")
 require("prototypes/fluids/blood")
+require("prototypes/fluids/carbon-sulfide")
+require("prototypes/fluids/etching")
 
 require("prototypes/recipes/recipes")
 require("prototypes/items/items")
