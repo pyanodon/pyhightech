@@ -2340,7 +2340,7 @@ RECIPE {
         {type = "item", name = "collagen", amount = 10},
         {type = "item", name = "nexelit-plate", amount = 2},
         {type = "item", name = "resorcinol", amount = 2},
-        {type = "fluid", name = "metanal", amount = 50},
+        {type = "fluid", name = "methanal", amount = 50},
     },
     results = {
         {type = "item", name = "epoxy", amount = 3},
@@ -2368,7 +2368,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "hyperelastic-material",
-    category = "bioreactor",
+    category = "bio-reactor",
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2376,9 +2376,9 @@ RECIPE {
         {type = "item", name = "biopolymer", amount = 5},
         {type = "item", name = "bonemeal", amount = 10},
         {type = "item", name = "collagen", amount = 10},
-        {type = "item", name = "zinc-nanoparticles", amount = 1},
+        {type = "item", name = "zno-nanoparticles", amount = 1},
     },
     results = {
         {type = "item", name = "hyperelastic-material", amount = 1},
     }
-}:add_unlock("advanced-electronics")
+}:add_unlock("advanced-electronics")--:add_ingredient({type = "item", name = "glass", amount = 4})
