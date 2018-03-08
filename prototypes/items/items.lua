@@ -1138,3 +1138,73 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "rayon",
+    icon = "__pyhightech__/graphics/icons/rayon.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 50
+}
+ITEM {
+    type = "item",
+    name = "blood-meal",
+    icon = "__pyhightech__/graphics/icons/blood-meal.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 50
+}
+ITEM {
+    type = "item",
+    name = "nylon",
+    icon = "__pyhightech__/graphics/icons/nylon.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "nylon-parts",
+    icon = "__pyhightech__/graphics/icons/nylon-parts.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "collagen",
+    icon = "__pyhightech__/graphics/icons/collagen.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "resilin",
+    icon = "__pyhightech__/graphics/icons/resilin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "hyperelastic-material",
+    icon = "__pyhightech__/graphics/icons/hyperelastic-material.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}

@@ -12,6 +12,23 @@ RECIPE {
     },
 }
 
+RECIPE {
+    type = "recipe",
+    name = "acrolein2",
+    category = "mixer",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "propene", amount = 100},
+        {type = "item", name = "chromium", amount = 2},
+    },
+    results = {
+        {type = "fluid", name = "acrolein", amount = 80},
+        {type = "fluid", name = "water", amount = 30},
+    },
+    main_product = "acrolein",
+}:add_unlock("advanced-electronics"):add_ingredient({type = "fluid", name = "oxygen", amount = 80})
+
 FLUID {
     type = "fluid",
     name = "acrolein",
