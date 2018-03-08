@@ -21,9 +21,9 @@ DATA {
     order = "a-b-a",
     map_color = {r = 0.733, g = 0.250, b = 0.184},
     highlight = true,
-    minimum = 85000,
-    normal = 100000,
-    maximum = 350000,
+    minimum = 65000,
+    normal = 80000,
+    maximum = 150000,
     map_grid = false,
     minable = {
         hardness = 1.0,
@@ -45,7 +45,7 @@ DATA {
         richness_multiplier = 120,
         richness_multiplier_distance_bonus = 110,
         richness_base = 85000,
-        coverage = 0.005,
+        coverage = 0.004,
         peaks = {
             {
                 noise_layer = "phosphate-rock",

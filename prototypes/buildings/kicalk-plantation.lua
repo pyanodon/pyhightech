@@ -15,16 +15,15 @@ RECIPE {
     ingredients = {
         {"botanical-nursery", 2},
         {"ralesia-plantation", 1},
-        {"advanced-circuit", 20},
+        {"electronic-circuit", 20},
         {"py-tank-5000", 1},
-        {"hydrocyclone", 1},
-        {"sand-extractor", 1},
+        {"classifier", 1},
 
     },
     results = {
         {"kicalk-plantation", 1}
     }
-}:add_unlock("advanced-electronics")
+}:add_unlock("coal-processing-1")
 
 ITEM {
     type = "item",

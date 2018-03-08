@@ -1208,3 +1208,73 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "nano-wires",
+    icon = "__pyhightech__/graphics/icons/nano-wires.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "nems",
+    icon = "__pyhightech__/graphics/icons/nems.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "volumetric-capacitor",
+    icon = "__pyhightech__/graphics/icons/volumetric-capacitor.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "laser-module",
+    icon = "__pyhightech__/graphics/icons/laser-module.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "yag-laser-module",
+    icon = "__pyhightech__/graphics/icons/yag-laser-module.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "lithium-niobate",
+    icon = "__pyhightech__/graphics/icons/lithium-niobate.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "parametric-oscilator",
+    icon = "__pyhightech__/graphics/icons/parametric-oscilator.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
