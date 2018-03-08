@@ -21,9 +21,9 @@ DATA {
     order = "a-b-a",
     map_color = {r = 0.133, g = 0.133, b = 0.086},
     highlight = true,
-    minimum = 100000,
-    normal = 150000,
-    maximum = 350000,
+    minimum = 40000,
+    normal = 50000,
+    maximum = 100000,
     map_grid = false,
     minable = {
         hardness = 1.0,

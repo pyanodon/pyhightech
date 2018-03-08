@@ -18,6 +18,7 @@ RECIPE("mixer"):remove_unlock("advanced-mining-facilities"):add_unlock("advanced
 RECIPE("mixer"):replace_ingredient("titanium-bearing", "steel-bearing"):replace_ingredient("titanium-plate", "nexelit-plate")
 RECIPE("py-heat-exchanger"):add_ingredient({type = "item", name = "processing-unit", amount = 4})
 RECIPE("science-coating"):add_ingredient({type = "item", name = "nylon", amount = 5})
+RECIPE("kevlar"):add_ingredient({type = "item", name = "nylon", amount = 5})
 RECIPE("explosives"):add_ingredient({type = "item", name = "collagen", amount = 5})
 RECIPE("ferrite"):remove_unlock("fusion-mk01"):add_unlock("basic-electronics")
 RECIPE("boron-carbide"):remove_unlock("fusion-mk01"):add_unlock("advanced-electronics")
@@ -32,3 +33,5 @@ RECIPE("battery"):add_ingredient({type = "item", name = "rayon", amount = 2})
 RECIPE("biofilm"):add_ingredient({type = "item", name = "rayon", amount = 2})
 RECIPE("nas-battery"):add_ingredient({type = "item", name = "rayon", amount = 2})
 RECIPE("centrifuge"):remove_unlock("nuclear-power"):add_unlock("basic-electronics")
+
+data.raw["tool"]["high-tech-science-pack"].icon = "__pyhightech__/graphics/icons/high-tech-science-pack.png"

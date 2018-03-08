@@ -2106,7 +2106,7 @@ RECIPE {
         {type = "item", name = "bones", amount = 5},
     },
     results = {
-        {type = "item", name = "bonemeal", amount = 5},
+        {type = "item", name = "bonemeal", amount = 2},
     },
 }:add_unlock("advanced-electronics")
 
@@ -2249,7 +2249,7 @@ RECIPE {
     results = {
         {type = "item", name = "rayon", amount = 3},
     }
-}:add_unlock("sulfur-processing")
+}:add_unlock("basic-electronics")
 
 RECIPE {
     type = "recipe",
@@ -2320,7 +2320,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "skin", amount = 10},
+        {type = "item", name = "skin", amount = 20},
         {type = "item", name = "urea", amount = 5},
         {type = "fluid", name = "acetic-acid", amount = 50},
         {type = "fluid", name = "steam", amount = 500, temperature = 165},
@@ -2354,7 +2354,7 @@ RECIPE {
     enabled = false,
     energy_required = 30,
     ingredients = {
-        {type = "item", name = "meat", amount = 9},
+        {type = "item", name = "meat", amount = 20},
         {type = "item", name = "aerogel", amount = 2},
         {type = "item", name = "melamine", amount = 5},
         {type = "item", name = "zinc-nanocompound", amount = 1},
@@ -2375,10 +2375,189 @@ RECIPE {
         {type = "item", name = "resilin", amount = 1},
         {type = "item", name = "biopolymer", amount = 5},
         {type = "item", name = "bonemeal", amount = 10},
-        {type = "item", name = "collagen", amount = 10},
+        {type = "item", name = "collagen", amount = 20},
         {type = "item", name = "zno-nanoparticles", amount = 1},
     },
     results = {
         {type = "item", name = "hyperelastic-material", amount = 1},
     }
 }:add_unlock("advanced-electronics")--:add_ingredient({type = "item", name = "glass", amount = 4})
+
+RECIPE {
+    type = "recipe",
+    name = "nano-wires",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "sc-wire", amount = 10},
+        {type = "item", name = "silicon", amount = 5},
+        {type = "item", name = "carbon-nanotube", amount = 2},
+    },
+    results = {
+        {type = "item", name = "nano-wires", amount = 5},
+    }
+}:add_unlock("nano-tech"):add_ingredient({type = "item", name = "crushed-gold", amount = 10})
+
+RECIPE {
+    type = "recipe",
+    name = "waste-water-recycle",
+    category = "carbonfilter",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "filtration-media", amount = 1},
+        {type = "item", name = "biofilm", amount = 1},
+        {type = "fluid", name = "waste-water", amount = 200},
+    },
+    results = {
+        {type = "fluid", name = "water", amount = 200},
+    }
+}:add_unlock("basic-electronics"):replace_result("water", "water-saline")
+
+RECIPE {
+    type = "recipe",
+    name = "nems",
+    category = "nano",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "nano-wires", amount = 30},
+        {type = "item", name = "diamond", amount = 5},
+        {type = "item", name = "graphene-roll", amount = 10},
+        {type = "item", name = "carbon-aerogel", amount = 10},
+        {type = "item", name = "carbon-nanotube", amount = 15},
+        {type = "item", name = "nexelit-plate", amount = 10},
+        {type = "item", name = "silicon-wafer", amount = 5},
+        {type = "item", name = "resilin", amount = 1},
+        {type = "fluid", name = "etching", amount = 50},
+    },
+    results = {
+        {type = "item", name = "nems", amount = 5},
+    }
+}:add_unlock("nano-tech"):add_ingredient({type = "item", name = "glass", amount = 4})
+
+RECIPE {
+    type = "recipe",
+    name = "lithium-chloride",
+    category = "mixer",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "reo", amount = 10},
+        {type = "item", name = "chromite-sand", amount = 10},
+        {type = "fluid", name = "sulfuric-acid", amount = 300},
+    },
+    results = {
+        {type = "item", name = "lithium-chloride", amount = 3},
+    }
+}:add_unlock("advanced-electronics"):replace_ingredient("chromite-sand", "lithium"):replace_ingredient("sulfuric-acid", "hydrogen-chloride")
+
+RECIPE {
+    type = "recipe",
+    name = "volumetric-capacitor",
+    category = "nano",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "lithium-chloride", amount = 6},
+        {type = "item", name = "plastic-bar", amount = 5},
+        {type = "item", name = "aerogel", amount = 3},
+        {type = "item", name = "graphene-roll", amount = 2},
+        {type = "item", name = "vanadium-oxide", amount = 2},
+        {type = "fluid", name = "vacuum", amount = 150},
+    },
+    results = {
+        {type = "item", name = "volumetric-capacitor", amount = 1},
+    }
+}:add_unlock("aerogel"):add_ingredient({type = "item", name = "glass", amount = 5})
+
+RECIPE {
+    type = "recipe",
+    name = "laser-turret-desconstruction",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "laser-turret", amount = 3},
+    },
+    results = {
+        {type = "item", name = "iron-plate", amount = 15},
+        {type = "item", name = "steel-plate", amount = 60},
+        {type = "item", name = "lens", amount = 3},
+        {type = "item", name = "laser-module", amount = 1},
+    },
+    main_product = "laser-module",
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "yag-laser-module",
+    category = "nmf",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "laser-module", amount = 1},
+        {type = "item", name = "reo", amount = 10},
+        {type = "item", name = "re-magnet", amount = 3},
+    },
+    results = {
+        {type = "item", name = "yag-laser-module", amount = 1},
+    },
+}:add_unlock("nano-tech"):add_ingredient({type = "item", name = "aluminium-plate", amount = 3})
+
+RECIPE {
+    type = "recipe",
+    name = "lithium-niobate",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "chromium", amount = 5},
+        {type = "item", name = "niobium-plate", amount = 10},
+        {type = "item", name = "boron", amount = 5},
+        {type = "fluid", name = "helium", amount = 20},
+    },
+    results = {
+        {type = "item", name = "lithium-niobate", amount = 2},
+    },
+}:add_unlock("advanced-electronics"):replace_ingredient("chromium", "lithium")
+
+RECIPE {
+    type = "recipe",
+    name = "parametric-oscilator",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "yag-laser-module", amount = 1},
+        {type = "item", name = "control-unit", amount = 1},
+        {type = "item", name = "lithium-niobate", amount = 4},
+        {type = "item", name = "steel-plate", amount = 15},
+        {type = "item", name = "lens", amount = 3},
+        {type = "item", name = "pcb4", amount = 1},
+    },
+    results = {
+        {type = "item", name = "parametric-oscilator", amount = 1},
+    },
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "high-tech-science-pack",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "intelligent-unit", amount = 1},
+        {type = "item", name = "parametric-oscilator", amount = 1},
+        {type = "item", name = "kevlar", amount = 10},
+        {type = "item", name = "volumetric-capacitor", amount = 1},
+        {type = "item", name = "nems", amount = 1},
+        {type = "item", name = "hyperelastic-material", amount = 1},
+        {type = "item", name = "nano-wires", amount = 3},
+    },
+    results = {
+        {type = "item", name = "high-tech-science-pack", amount = 3},
+    },
+}:add_unlock("nano-tech")
