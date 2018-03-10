@@ -29,6 +29,7 @@ require("prototypes/buildings/cadaveric-arum")
 require("prototypes/buildings/kicalk-plantation")
 require("prototypes/buildings/zipir")
 require("prototypes/buildings/cr-01")
+require("prototypes/buildings/cargo-01")
 require("prototypes/buildings/py-roboport-mk01")
 
 require("prototypes/fluids/methane")

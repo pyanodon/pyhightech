@@ -181,7 +181,7 @@ ITEM {
 	icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
-    order = "h",
+    order = "f",
     stack_size = 100
 }
 ITEM {
