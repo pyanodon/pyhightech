@@ -1278,3 +1278,63 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "myoglobin",
+    icon = "__pyhightech__/graphics/icons/myoglobin.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "paramagnetic-material",
+    icon = "__pyhightech__/graphics/icons/paramagnetic-material.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "diamagnetic-material",
+    icon = "__pyhightech__/graphics/icons/diamagnetic-material.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "superconductor-servomechanims",
+    icon = "__pyhightech__/graphics/icons/superconductor-servomechanims.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "harmonic-absorber",
+    icon = "__pyhightech__/graphics/icons/harmonic-absorber.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "pyrolytic-carbon",
+    icon = "__pyhightech__/graphics/icons/pyrolytic-carbon.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}

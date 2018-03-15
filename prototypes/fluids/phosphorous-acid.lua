@@ -8,10 +8,10 @@ RECIPE {
         {type = "fluid", name = "syngas", amount = 80},
         {type = "item", name = "powdered-phosphate-rock", amount = 5},
         {type = "item", name = "pure-sand", amount = 20},
-        {type = "item", name = "coke", amount = 5}
+        {type = "item", name = "ash", amount = 15}
     },
     results = {
-        {type = "fluid", name = "phosphorous-acid", amount = 30}
+        {type = "fluid", name = "phosphorous-acid", amount = 50}
     },
     main_product = "phosphorous-acid",
 }:add_unlock("basic-electronics")
