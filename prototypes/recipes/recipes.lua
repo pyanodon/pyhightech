@@ -156,7 +156,7 @@ RECIPE {
     enabled = true,
     energy_required = 30,
     ingredients = {
-        {type = "item", name = "fawogae", amount = 12}
+        {type = "item", name = "fawogae", amount = 12},
     },
     results = {
         {type = "item", name = "urea", amount = 15}
@@ -302,7 +302,7 @@ RECIPE {
     enabled = true,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "wood", amount = 2},
+        {type = "item", name = "treated-wood", amount = 2},
         {type = "fluid", name = "steam", amount = 500, temperature = 165}
     },
     results = {
@@ -423,7 +423,7 @@ RECIPE {
         {type = "item", name = "silicon", amount = 10}
     },
     main_product = "silicon",
-}:add_unlock("basic-electronics"):replace_ingredient("coal-dust", "carbon")
+}:add_unlock("basic-electronics")
 
 RECIPE {
     type = "recipe",
@@ -640,7 +640,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "crude-cermet", amount = 3},
-        {type = "item", name = "ash", amount = 5},
+        {type = "item", name = "ash", amount = 20},
 		{type = "fluid", name = "lubricant", amount = 200},
     },
     results = {
@@ -1269,7 +1269,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "carbon-dust", amount = 5},
+        {type = "item", name = "carbon-dust", amount = 15},
         {type = "fluid", name = "methane", amount = 100},
         {type = "item", name = "nenbit-matrix", amount = 1},
         {type = "item", name = "biopolymer", amount = 5},
@@ -1356,8 +1356,8 @@ RECIPE {
     ingredients = {
         {type = "item", name = "clay", amount = 5},
         {type = "item", name = "sand", amount = 10},
-        {type = "item", name = "soil", amount = 15},
-        {type = "item", name = "small-lamp", amount = 2},
+        {type = "item", name = "py-fertilizer", amount = 2},
+        {type = "item", name = "small-lamp", amount = 1},
         {type = "fluid", name = "water", amount = 20},
         {type = "fluid", name = "carbon-dioxide", amount = 200},
     },
@@ -1383,6 +1383,22 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "bonemeal4",
+    category = "ulric",
+    enabled = "false",
+    energy_required = 25,
+    ingredients = {
+        {type = "item", name = "ralesia", amount = 8},
+        {type = "item", name = "raw-fiber", amount = 5},
+        {type = "item", name = "ash", amount = 10},
+    },
+    results = {
+        {type = "item", name = "bonemeal", amount = 13}
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
     name = "mukmoux-fat2",
     category = "mukmoux",
     enabled = "false",
@@ -1394,6 +1410,23 @@ RECIPE {
     },
     results = {
         {type = "item", name = "mukmoux-fat", amount = 20}
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "mukmoux-fat3",
+    category = "mukmoux",
+    enabled = "false",
+    energy_required = 40,
+    ingredients = {
+        {type = "item", name = "fawogae", amount = 5},
+        {type = "item", name = "ralesia-seeds", amount = 30},
+        {type = "item", name = "raw-fiber", amount = 5},
+        {type = "item", name = "ash", amount = 10},
+    },
+    results = {
+        {type = "item", name = "mukmoux-fat", amount = 25}
     },
 }:add_unlock("advanced-electronics")
 
@@ -1449,7 +1482,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "melamine-resin", amount = 2},
-        {type = "item", name = "phenol", amount = 5},
+        {type = "item", name = "phenol", amount = 10},
     },
     results = {
         {type = "item", name = "resorcinol", amount = 2},
@@ -2212,12 +2245,13 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "blood", amount = 30},
         {type = "item", name = "bones", amount = 6},
+        {type = "item", name = "ash", amount = 10},
         {type = "item", name = "organics", amount = 20},
     },
     results = {
         {type = "item", name = "py-fertilizer", amount = 10},
     }
-}:add_unlock("advanced-electronics")
+}:add_unlock("basic-electronics")
 
 RECIPE {
     type = "recipe",
@@ -2464,7 +2498,7 @@ RECIPE {
         {type = "item", name = "plastic-bar", amount = 5},
         {type = "item", name = "aerogel", amount = 3},
         {type = "item", name = "graphene-roll", amount = 2},
-        {type = "item", name = "vanadium-oxide", amount = 2},
+        {type = "item", name = "vanadium-oxide", amount = 3},
         {type = "fluid", name = "vacuum", amount = 150},
     },
     results = {
@@ -2561,3 +2595,196 @@ RECIPE {
         {type = "item", name = "high-tech-science-pack", amount = 3},
     },
 }:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "syngas-methane",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "syngas", amount = 150},
+        {type = "item", name = "niobium-plate", amount = 1},
+    },
+    results = {
+        {type = "fluid", name = "methane", amount = 100},
+        {type = "fluid", name = "flue-gas", amount = 50},
+    },
+    main_product = "methane",
+}:add_unlock("coal-processing-3"):replace_ingredient("niobium-plate", "nickel-plate"):replace_result("flue-gas", "oxygen")
+
+RECIPE {
+    type = "recipe",
+    name = "methane-methanal",
+    category = "fbreactor",
+    enabled = false,
+    energy_required = 4,
+    ingredients = {
+        {type = "fluid", name = "methane", amount = 30},
+        {type = "fluid", name = "water", amount = 50},
+        {type = "item", name = "molybdenum-ore", amount = 3},
+    },
+    results = {
+        {type = "fluid", name = "methanal", amount = 60},
+    },
+}:add_unlock("coal-processing-2"):replace_ingredient("water", "oxygen")
+
+RECIPE {
+    type = "recipe",
+    name = "coal-phenol",
+    category = "hpf",
+    enabled = false,
+    energy_required = 7,
+    ingredients = {
+        {type = "item", name = "coal", amount = 20},
+        {type = "item", name = "filtration-media", amount = 1},
+    },
+    results = {
+        {type = "item", name = "coke", amount = 10},
+        {type = "item", name = "phenol", amount = 5},
+    },
+    main_product = "phenol",
+}:add_unlock("basic-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "tar-lightoil",
+    category = "distilator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "tar", amount = 120},
+    },
+    results = {
+        {type = "fluid", name = "light-oil", amount = 50},
+        {type = "fluid", name = "tall-oil", amount = 50},
+        {type = "fluid", name = "aromatics", amount = 20},
+    },
+    main_product = "light-oil",
+}:add_unlock("basic-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "coarse-tar",
+    category = "distilator",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "coal", amount = 10},
+        {type = "item", name = "coarse", amount = 20},
+    },
+    results = {
+        {type = "fluid", name = "tar", amount = 60},
+    },
+}:add_unlock("basic-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "myoglobin",
+    category = "hydrocyclone",
+    enabled = false,
+    energy_required = 8,
+    ingredients = {
+        {type = "item", name = "meat", amount = 10},
+        {type = "item", name = "urea", amount = 10},
+        {type = "fluid", name = "cyanic-acid", amount = 50},
+        {type = "item", name = "powdered-phosphate-rock", amount = 10},
+    },
+    results = {
+        {type = "item", name = "myoglobin", amount = 2},
+    },
+    icon = "__pyhightech__/graphics/icons/hydro-myoglobin.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "d"
+}:add_unlock("basic-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "paramagnetic-material",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 15,
+    ingredients = {
+        {type = "item", name = "myoglobin", amount = 5},
+        {type = "item", name = "chromium", amount = 5},
+        {type = "item", name = "iron-plate", amount = 5},
+        {type = "item", name = "nylon", amount = 2},
+        {type = "item", name = "iron-oxide", amount = 3},
+    },
+    results = {
+        {type = "item", name = "paramagnetic-material", amount = 1},
+    },
+}:add_unlock("earnshaw-theorem"):replace_ingredient("iron-plate", "aluminium-plate")
+
+RECIPE {
+    type = "recipe",
+    name = "diamagnetic-material",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 15,
+    ingredients = {
+        {type = "item", name = "pyrolytic-carbon", amount = 5},
+        {type = "item", name = "re-magnet", amount = 1},
+        {type = "item", name = "niobium-plate", amount = 2},
+        {type = "item", name = "rayon", amount = 2},
+        {type = "item", name = "copper-plate", amount = 5},
+    },
+    results = {
+        {type = "item", name = "diamagnetic-material", amount = 1},
+    },
+}:add_unlock("earnshaw-theorem"):add_ingredient({type = "item", name = "lead-plate", amount = 2})
+
+RECIPE {
+    type = "recipe",
+    name = "superconductor-servomechanims",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 15,
+    ingredients = {
+        {type = "item", name = "superconductor", amount = 4},
+        {type = "item", name = "nylon", amount = 2},
+        {type = "item", name = "nems", amount = 1},
+        {type = "item", name = "sc-coil", amount = 1},
+        {type = "item", name = "sub-denier-microfiber", amount = 4},
+        {type = "item", name = "volumetric-capacitor", amount = 2},
+    },
+    results = {
+        {type = "item", name = "superconductor-servomechanims", amount = 1},
+    },
+}:add_unlock("earnshaw-theorem")
+
+RECIPE {
+    type = "recipe",
+    name = "harmonic-absorber",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 15,
+    ingredients = {
+        {type = "item", name = "super-alloy", amount = 2},
+        {type = "item", name = "hyperelastic-material", amount = 2},
+        {type = "item", name = "rayon", amount = 3},
+        {type = "item", name = "zno-nanoparticles", amount = 4},
+        {type = "item", name = "aerogel", amount = 2},
+    },
+    results = {
+        {type = "item", name = "harmonic-absorber", amount = 1},
+    },
+}:add_unlock("earnshaw-theorem"):add_ingredient({type = "item", name = "rubber", amount = 5})
+
+RECIPE {
+    type = "recipe",
+    name = "pyrolytic-carbon",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "graphene-roll", amount = 2},
+        {type = "item", name = "carbon-nanotube", amount = 1},
+        {type = "fluid", name = "vacuum", amount = 150},
+        {type = "item", name = "coke", amount = 7},
+    },
+    results = {
+        {type = "item", name = "pyrolytic-carbon", amount = 1},
+    },
+}:add_unlock("earnshaw-theorem")

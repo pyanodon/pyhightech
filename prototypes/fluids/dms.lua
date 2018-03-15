@@ -8,11 +8,12 @@ RECIPE {
         {type = "fluid", name = "coal-gas", amount = 60},
 		{type = "fluid", name = "water", amount = 300},
 		{type = "fluid", name = "acidgas", amount = 100},
-		{type = "item", name = "sand", amount = 15},
+        {type = "item", name = "sand", amount = 15},
+        {type = "item", name = "py-fertilizer", amount = 4},
 		{type = "item", name = "stone-wool", amount = 4},
     },
     results = {
-        {type = "fluid", name = "dms", amount = 10}
+        {type = "fluid", name = "dms", amount = 15}
     },
     main_product = "dms",
 }:add_unlock("advanced-electronics")
