@@ -1338,3 +1338,63 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "nv-center",
+    icon = "__pyhightech__/graphics/icons/nv-center.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "quantum-dots",
+    icon = "__pyhightech__/graphics/icons/quantum-dots.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "pi-josephson-junction",
+    icon = "__pyhightech__/graphics/icons/pi-josephson-junction.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "var-josephson-junction",
+    icon = "__pyhightech__/graphics/icons/var-josephson-junction.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "quantum-vortex-storage-system",
+    icon = "__pyhightech__/graphics/icons/quantum-vortex-storage-system.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "bose-einstein-superfluid",
+    icon = "__pyhightech__/graphics/icons/bose-einstein-superfluid.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}

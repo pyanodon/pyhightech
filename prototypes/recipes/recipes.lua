@@ -2789,3 +2789,110 @@ RECIPE {
         {type = "item", name = "pyrolytic-carbon", amount = 1},
     },
 }:add_unlock("earnshaw-theorem")
+
+RECIPE {
+    type = "recipe",
+    name = "quantum-dots",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "silicon-wafer", amount = 5},
+        {type = "fluid", name = "phosphine-gas", amount = 150},
+        {type = "fluid", name = "boric-acid", amount = 150},
+        {type = "fluid", name = "etching", amount = 50},
+        {type = "item", name = "colloidal-silica", amount = 10},
+    },
+    results = {
+        {type = "item", name = "quantum-dots", amount = 1},
+    },
+}:add_unlock("quantum")
+
+RECIPE {
+    type = "recipe",
+    name = "pi-josephson-junction",
+    category = "electronic",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "superconductor", amount = 1},
+        {type = "item", name = "heavy-fermion", amount = 2},
+        {type = "item", name = "phosphate-glass", amount = 5},
+        {type = "item", name = "carbon-nanotube", amount = 3},
+        {type = "item", name = "nano-wires", amount = 5},
+        {type = "item", name = "diamagnetic-material", amount = 2},
+    },
+    results = {
+        {type = "item", name = "pi-josephson-junction", amount = 1},
+    },
+}:add_unlock("quantum")
+
+RECIPE {
+    type = "recipe",
+    name = "var-josephson-junction",
+    category = "electronic",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "nxag-matrix", amount = 4},
+        {type = "item", name = "nanocrystaline-core", amount = 1},
+        {type = "item", name = "paramagnetic-material", amount = 2},
+        {type = "item", name = "graphene-roll", amount = 3},
+        {type = "item", name = "crco-alloy", amount = 4},
+    },
+    results = {
+        {type = "item", name = "var-josephson-junction", amount = 1},
+    },
+}:add_unlock("quantum")
+
+RECIPE {
+    type = "recipe",
+    name = "bose-einstein-superfluid",
+    category = "nmf",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "fluid", name = "liquid-helium", amount = 30},
+        {type = "item", name = "heavy-fermion", amount = 3},
+        {type = "item", name = "copper-plate", amount = 5},
+        {type = "item", name = "sc-unit", amount = 1},
+        {type = "item", name = "plastic-bar", amount = 1},
+    },
+    results = {
+        {type = "item", name = "bose-einstein-superfluid", amount = 1},
+    },
+}:add_unlock("quantum")
+
+RECIPE {
+    type = "recipe",
+    name = "quantum-vortex-storage-system",
+    category = "nmf",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "bose-einstein-superfluid", amount = 1},
+        {type = "item", name = "volumetric-capacitor", amount = 2},
+        {type = "item", name = "biopolymer", amount = 4},
+    },
+    results = {
+        {type = "item", name = "quantum-vortex-storage-system", amount = 1},
+    },
+}:add_unlock("quantum")
+
+RECIPE {
+    type = "recipe",
+    name = "nv-center",
+    category = "electronic",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "diamond", amount = 1},
+        {type = "item", name = "paramagnetic-material", amount = 2},
+        {type = "item", name = "diamagnetic-material", amount = 2},
+        {type = "item", name = "parametric-oscilator", amount = 1},
+        {type = "item", name = "harmonic-absorber", amount = 1},
+    },
+    results = {
+        {type = "item", name = "nv-center", amount = 1},
+    },
+}:add_unlock("quantum")
