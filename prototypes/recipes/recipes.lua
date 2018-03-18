@@ -2566,6 +2566,7 @@ RECIPE {
     ingredients = {
         {type = "item", name = "yag-laser-module", amount = 1},
         {type = "item", name = "control-unit", amount = 1},
+        {type = "item", name = "paramagnetic-material", amount = 1},
         {type = "item", name = "lithium-niobate", amount = 4},
         {type = "item", name = "steel-plate", amount = 15},
         {type = "item", name = "lens", amount = 3},
