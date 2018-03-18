@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {"cargo-ht", 1}
     }
-}:add_ingredient({type = "item", name = "bob-logistic-robot-4", amount = 1}):add_unlock("earnshaw-theorem")
+}:add_unlock("earnshaw-theorem"):add_ingredient({type = "item", name = "bob-logistic-robot-4", amount = 1}):add_ingredient({type = "item", name = "cargo-01", amount = 1})
 
 ITEM {
     type = "item",

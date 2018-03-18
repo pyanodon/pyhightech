@@ -57,6 +57,10 @@ data:extend {
     },
     {
         type = "recipe-category",
+        name = "quantum"
+    },
+    {
+        type = "recipe-category",
         name = "erase"
     }
 }
