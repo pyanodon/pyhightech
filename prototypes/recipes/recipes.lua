@@ -2839,6 +2839,7 @@ RECIPE {
         {type = "item", name = "paramagnetic-material", amount = 2},
         {type = "item", name = "graphene-roll", amount = 3},
         {type = "item", name = "crco-alloy", amount = 4},
+        {type = "item", name = "niobium-plate", amount = 5},
     },
     results = {
         {type = "item", name = "var-josephson-junction", amount = 1},
@@ -2895,4 +2896,53 @@ RECIPE {
     results = {
         {type = "item", name = "nv-center", amount = 1},
     },
+}:add_unlock("quantum")
+
+RECIPE {
+    type = "recipe",
+    name = "space-science-pack",
+    category = "quantum",
+    enabled = false,
+    energy_required = 60,
+    ingredients = {
+        {type = "item", name = "nv-center", amount = 1},
+        {type = "item", name = "quantum-dots", amount = 1},
+        {type = "item", name = "pi-josephson-junction", amount = 1},
+        {type = "item", name = "var-josephson-junction", amount = 1},
+        {type = "item", name = "quantum-vortex-storage-system", amount = 1},
+        {type = "fluid", name = "liquid-helium", amount = 30},
+        {type = "fluid", name = "vacuum", amount = 500},
+    },
+    results = {
+        {type = "item", name = "space-science-pack", amount = 3},
+    },
+}:add_unlock("quantum")
+
+RECIPE {
+    type = "recipe",
+    name = "random-science-pack",
+    category = "quantum",
+    enabled = false,
+    energy_required = 40,
+    ingredients = {
+        {type = "item", name = "nv-center", amount = 1},
+        {type = "item", name = "quantum-dots", amount = 1},
+        {type = "item", name = "pi-josephson-junction", amount = 1},
+        {type = "item", name = "var-josephson-junction", amount = 1},
+        {type = "item", name = "quantum-vortex-storage-system", amount = 1},
+        {type = "fluid", name = "liquid-helium", amount = 30},
+        {type = "fluid", name = "vacuum", amount = 500},
+    },
+    results = {
+        {type = "item", name = "production-science-pack", amount = 1, probability = 0.3},
+        {type = "item", name = "military-science-pack", amount = 1, probability = 0.3},
+        {type = "item", name = "science-pack-3", amount = 1, probability = 0.3},
+        {type = "item", name = "science-pack-2", amount = 1, probability = 0.3},
+        {type = "item", name = "science-pack-1", amount = 1, probability = 0.3},
+    },
+    main_product = "production-science-pack",
+    icon = "__pyhightech__/graphics/icons/random-packs.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "c1"
 }:add_unlock("quantum")
