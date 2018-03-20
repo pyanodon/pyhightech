@@ -8,6 +8,7 @@ RECIPE {
         {"iron-plate", 15},
         {"engine-unit", 1},
         {"iron-gear-wheel", 20},
+        {"engine-unit", 1},
         {"electronic-circuit", 5},
     },
     results = {
@@ -102,7 +103,7 @@ ENTITY {
       width = 32,
       height = 37,
       frame_count = 1,
-      shift = util.by_pixel(33.5, 18.75),
+      shift = {1.09375, 0.59375},
       direction_count = 16,
       hr_version = {
         filename = "__pyhightech__/graphics/entity/cr-01/hr-shadow.png",
@@ -124,7 +125,7 @@ ENTITY {
       width = 32,
       height = 37,
       frame_count = 1,
-      shift = util.by_pixel(33.5, 18.75),
+      shift = {1.09375, 0.59375},
       direction_count = 16,
       hr_version = {
         filename = "__pyhightech__/graphics/entity/cr-01/hr-shadow.png",

@@ -22,7 +22,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/py-roboport-mk01.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "py-hightech-buildings",
+    subgroup = "py-hightech-items",
     order = "b",
     place_result = "py-roboport-mk01",
     stack_size = 10
@@ -67,7 +67,7 @@ ENTITY {
     charge_approach_distance = 5,
     robot_slots_count = 4,
     material_slots_count = 4,
-    stationing_offset = util.by_pixel(0, -3),
+    stationing_offset = {0, 0},
     charging_offsets =
     {
       {-0, -0.5},
@@ -94,13 +94,13 @@ ENTITY {
           width = 96,
           height = 80,
           draw_as_shadow = true,
-          shift = util.by_pixel(8, 15),
+          shift = util.by_pixel(10, 15),
           hr_version = {
             filename = "__pyhightech__/graphics/entity/py-roboport-mk01/hr-shadow.png",
             width = 192,
             height = 160,
             draw_as_shadow = true,
-            shift = util.by_pixel(8, 15),
+            shift = util.by_pixel(10, 15),
             scale = 0.5
           }
         }
@@ -132,7 +132,7 @@ ENTITY {
       height = 16,
       frame_count = 2,
       animation_speed = 0.1,
-      shift = util.by_pixel(28, -7),
+      shift = util.by_pixel(18, 0),
       hr_version = {
         filename = "__pyhightech__/graphics/entity/py-roboport-mk01/hr-anim.png",
         priority = "extra-high",
@@ -140,7 +140,7 @@ ENTITY {
         height = 32,
         frame_count = 2,
         animation_speed = 0.1,
-        shift = util.by_pixel(28, -7),
+        shift = util.by_pixel(18, 0),
         scale = 0.5
       }
     },
