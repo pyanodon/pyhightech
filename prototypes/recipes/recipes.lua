@@ -977,7 +977,7 @@ RECIPE {
         {type = "item", name = "rayon", amount = 2},
         {type = "item", name = "nylon", amount = 3},
 		{type = "item", name = "fiberboard", amount = 2},
-		{type = "fluid", name = "boric-acid", amount = 100},
+		{type = "fluid", name = "boric-acid", amount = 300},
 		{type = "fluid", name = "steam", amount = 100 , temperature = 165,},
 		{type = "fluid", name = "tar", amount = 100},
 
@@ -2360,7 +2360,7 @@ RECIPE {
         {type = "fluid", name = "steam", amount = 500, temperature = 165},
     },
     results = {
-        {type = "item", name = "collagen", amount = 5},
+        {type = "item", name = "collagen", amount = 4},
     }
 }:add_unlock("basic-electronics")
 
