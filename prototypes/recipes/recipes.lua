@@ -113,7 +113,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "iron-oxide", amount = 6},
-        {type = "item", name = "reo", amount = 20}
+        {type = "item", name = "reo", amount = 5}
     },
     main_product = "reo",
 }:add_unlock("rare-earth-tech")
@@ -2703,7 +2703,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "paramagnetic-material",
-    category = "advanced-crafting",
+    category = "pa",
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2716,12 +2716,12 @@ RECIPE {
     results = {
         {type = "item", name = "paramagnetic-material", amount = 1},
     },
-}:add_unlock("earnshaw-theorem"):replace_ingredient("iron-plate", "aluminium-plate")
+}:add_unlock("nano-tech"):replace_ingredient("iron-plate", "aluminium-plate")
 
 RECIPE {
     type = "recipe",
     name = "diamagnetic-material",
-    category = "advanced-crafting",
+    category = "pa",
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2758,7 +2758,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "harmonic-absorber",
-    category = "advanced-crafting",
+    category = "pa",
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2793,7 +2793,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "quantum-dots",
-    category = "gas-separator",
+    category = "pa",
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2946,3 +2946,68 @@ RECIPE {
     subgroup = "py-hightech-recipes",
     order = "c1"
 }:add_unlock("quantum")
+
+RECIPE {
+    type = "recipe",
+    name = "antimatter",
+    category = "pa",
+    enabled = false,
+    energy_required = 120,
+    ingredients = {
+        {type = "item", name = "superconductor-servomechanims", amount = 1},
+        {type = "item", name = "harmonic-absorber", amount = 1},
+        {type = "item", name = "re-magnet", amount = 2},
+        {type = "item", name = "diamagnetic-material", amount = 1},
+    },
+    results = {
+        {type = "item", name = "antimatter", amount = 1},
+    },
+}:add_unlock("nucleo")
+
+RECIPE {
+    type = "recipe",
+    name = "antimatter-fusion",
+    category = "fusion-02",
+    enabled = "false",
+    energy_required = 30,
+    ingredients = {
+        {type = "fluid", name = "pressured-water", amount = 20000},
+        {type = "item", name = "blanket", amount = 1},
+        {type = "item", name = "antimatter", amount = 1},
+        {type = "item", name = "divertor", amount = 5},
+        {type = "item", name = "wall-shield", amount = 5},
+        {type = "fluid", name = "liquid-helium", amount = 100},
+        {type = "fluid", name = "water", amount = 5000}
+    },
+    results = {
+        {type = "fluid", name = "critical-steam", amount = 20000, temperature = 5000},
+        {type = "fluid", name = "helium", amount = 500},
+        {type = "fluid", name = "steam", amount = 5500}
+    },
+    --main_product= "blanket",
+    icon = "__pyhightech__/graphics/icons/fusion-antimatter.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "e"
+}:add_unlock("nucleo")
+
+RECIPE {
+    type = "recipe",
+    name = "steam-exchange5",
+    category = "heat-exchanger",
+    enabled = "false",
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "critical-steam", amount = 500, temperature = 5000},
+        {type = "fluid", name = "water", amount = 400}
+    },
+    results = {
+        {type = "fluid", name = "pressured-steam", amount = 1000, temperature = 5000},
+        {type = "fluid", name = "steam", amount = 400}
+    },
+    --main_product= "blanket",
+    icon = "__pyhightech__/graphics/icons/steam-exchange5.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "e"
+}:add_unlock("nucleo")

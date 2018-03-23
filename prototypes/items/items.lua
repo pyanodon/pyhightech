@@ -1398,3 +1398,15 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "antimatter",
+    icon = "__pyhightech__/graphics/icons/antimatter.png",
+    icon_size = 32,
+    fuel_value = "30GJ",
+    fuel_category = "nuclear",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
