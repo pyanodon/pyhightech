@@ -61,6 +61,10 @@ data:extend {
     },
     {
         type = "recipe-category",
+        name = "pa"
+    },
+    {
+        type = "recipe-category",
         name = "erase"
     }
 }
