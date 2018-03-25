@@ -1410,3 +1410,33 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "crystallographic-substrate",
+    icon = "__pyhightech__/graphics/icons/crystallographic-substrate.png",
+    icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "proton-donor",
+    icon = "__pyhightech__/graphics/icons/proton-donor.png",
+    icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
+    name = "proton-receiver",
+    icon = "__pyhightech__/graphics/icons/proton-receiver.png",
+    icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}

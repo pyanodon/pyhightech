@@ -67,4 +67,5 @@ require("prototypes/fluids/carbon-sulfide")
 require("prototypes/fluids/etching")
 
 require("prototypes/recipes/recipes")
+require("prototypes/recipes/recipes-particle")
 require("prototypes/items/items")
