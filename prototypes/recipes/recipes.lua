@@ -1788,7 +1788,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zno-nanoparticles",
-    category = "evaporator",
+    category = "pa",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -2073,7 +2073,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "benzene", amount = 150},
     },
-}:add_unlock("basic-electronics")
+}:add_unlock("coal-processing-3")
 
 RECIPE {
     type = "recipe",
@@ -2883,7 +2883,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nv-center",
-    category = "electronic",
+    category = "pa",
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2952,7 +2952,7 @@ RECIPE {
     name = "antimatter",
     category = "pa",
     enabled = false,
-    energy_required = 120,
+    energy_required = 150,
     ingredients = {
         {type = "item", name = "superconductor-servomechanims", amount = 1},
         {type = "item", name = "harmonic-absorber", amount = 1},
@@ -2962,7 +2962,7 @@ RECIPE {
     results = {
         {type = "item", name = "antimatter", amount = 1},
     },
-}:add_unlock("nucleo")
+}:add_unlock("earnshaw-theorem")
 
 RECIPE {
     type = "recipe",
@@ -2989,7 +2989,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "e"
-}:add_unlock("nucleo")
+}:add_unlock("fusion-mk04")
 
 RECIPE {
     type = "recipe",
@@ -3010,4 +3010,66 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "e"
+}:add_unlock("fusion-mk04")
+
+RECIPE {
+    type = "recipe",
+    name = "saline-water",
+    category = "washer",
+    enabled = true,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "stone", amount = 10},
+        {type = "fluid", name = "water", amount = 100},
+    },
+    results = {
+        {type = "fluid", name = "water-saline", amount = 50},
+    },
+}
+
+RECIPE {
+    type = "recipe",
+    name = "crystallographic-substrate",
+    category = "fbreactor",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "nichrome", amount = 1},
+        {type = "item", name = "rayon", amount = 1},
+        {type = "item", name = "cermet", amount = 1},
+        {type = "fluid", name = "propene", amount = 20},
+    },
+    results = {
+        {type = "item", name = "crystallographic-substrate", amount = 4},
+    },
+}:add_unlock("nucleo")
+
+RECIPE {
+    type = "recipe",
+    name = "proton-donor",
+    category = "advanced-crafting",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "crystallographic-substrate", amount = 1},
+        {type = "item", name = "boron", amount = 1},
+    },
+    results = {
+        {type = "item", name = "proton-donor", amount = 1},
+    },
+}:add_unlock("nucleo")
+
+RECIPE {
+    type = "recipe",
+    name = "proton-receiver",
+    category = "advanced-foundry",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "crystallographic-substrate", amount = 1},
+        {type = "item", name = "sulfur", amount = 1},
+    },
+    results = {
+        {type = "item", name = "proton-receiver", amount = 1},
+    },
 }:add_unlock("nucleo")

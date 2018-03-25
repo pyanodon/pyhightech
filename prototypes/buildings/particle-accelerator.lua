@@ -4,9 +4,11 @@ RECIPE {
     energy_required = 10,
     enabled = false,
     ingredients = {
-        {"stone", 100},
-        {"soil", 300},
-        {"iron-plate", 80}
+        {"stone-brick", 100},
+        {"advanced-circuit", 50},
+        {"gasturbinemk02", 2},
+        {"agitator", 1},
+        {"engine-unit", 20},
     },
     results = {
         {"particle-accelerator", 1}
@@ -49,7 +51,7 @@ ENTITY {
         usage_priority = "secondary-input",
         emissions = 0.01
     },
-    energy_usage = "200MW",
+    energy_usage = "100MW",
     ingredient_count = 10,
     animation = {
         layers = {
@@ -72,7 +74,7 @@ ENTITY {
                 frame_count = 1,
                 --animation_speed = 0.4,
                 draw_as_shadow = true,
-                shift = util.by_pixel(17, 0)
+                shift = util.by_pixel(17, 16)
             }
         }
     },
@@ -127,6 +129,20 @@ ENTITY {
             base_area = 10,
             base_level = -1,
             pipe_connections = {{type = "input", position = {-2.5, 6.5}}}
+        },
+        {
+            production_type = "output",
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_covers = DATA.Pipes.covers(false, true, true, true),
+            base_level = 1,
+            pipe_connections = {{type = "output", position = {2.5, -6.5}}}
+        },
+        {
+            production_type = "output",
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_covers = DATA.Pipes.covers(false, true, true, true),
+            base_level = 1,
+            pipe_connections = {{type = "output", position = {-2.5, -6.5}}}
         },
         off_when_no_fluid_recipe = true
     },
