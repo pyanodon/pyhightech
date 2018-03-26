@@ -6,59 +6,21 @@ if mods["boblibrary"] then
 end
 
 for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("basic-circuit-board", "pcb1")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("circuit-board", "pcb2")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("superior-circuit-board", "pcb3")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("multi-layer-circuit-board", "pcb4")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("fibreglass-board", "fiberglass")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("basic-electronic-components", "resistor2")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("electronic-components", "transistor")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("intergrated-electronics", "microchip")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("processing-electronics", "kondo-processor")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("advanced-processing-unit", "intelligent-unit")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("silicon-nitride", "cermet")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("module-processor-board", "pcb2")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("module-processor-board-2", "pcb3")
-end
-
-for _, recipe in pairs(data.raw.recipe) do
-  RECIPE(recipe):replace_ingredient("module-processor-board-3", "pcb4")
+  local r = RECIPE(recipe)
+  r:replace_ingredient("basic-circuit-board", "pcb1")
+  r:replace_ingredient("circuit-board", "pcb2")
+  r:replace_ingredient("superior-circuit-board", "pcb3")
+  r:replace_ingredient("multi-layer-circuit-board", "pcb4")
+  r:replace_ingredient("fibreglass-board", "fiberglass")
+  r:replace_ingredient("basic-electronic-components", "resistor2")
+  r:replace_ingredient("electronic-components", "transistor")
+  r:replace_ingredient("intergrated-electronics", "microchip")
+  r:replace_ingredient("processing-electronics", "kondo-processor")
+  r:replace_ingredient("advanced-processing-unit", "intelligent-unit")
+  r:replace_ingredient("silicon-nitride", "cermet")
+  r:replace_ingredient("module-processor-board", "pcb2")
+  r:replace_ingredient("module-processor-board-2", "pcb3")
+  r:replace_ingredient("module-processor-board-3", "pcb4")
 end
 
 RECIPE("vacuum-pump"):remove_unlock("diamond-mining"):set_enabled(true)
@@ -91,15 +53,10 @@ RECIPE("centrifuge"):remove_unlock("nuclear-power"):add_unlock("basic-electronic
 RECIPE("hydrocyclone"):remove_unlock("advanced-mining-facilities"):add_unlock("basic-electronics")
 
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
-RECIPE("robot-brain-logistic"):add_ingredient({type = "item", name = "paramagnetic-material", amount = 1}):add_ingredient({type = "item", name = "inductor2", amount = 5})
-RECIPE("robot-brain-construction"):add_ingredient({type = "item", name = "paramagnetic-material", amount = 1}):add_ingredient({type = "item", name = "diode", amount = 3})
-RECIPE("robot-brain-logistic-2"):add_ingredient({type = "item", name = "capacitor2", amount = 3}):add_ingredient({type = "item", name = "inductor2", amount = 5}):add_ingredient({type = "item", name = "diamagnetic-material", amount = 1})
-RECIPE("robot-brain-construction-2"):add_ingredient({type = "item", name = "capacitor2", amount = 5}):add_ingredient({type = "item", name = "diode", amount = 3}):add_ingredient({type = "item", name = "diamagnetic-material", amount = 1})
-RECIPE("robot-brain-logistic-3"):add_ingredient({type = "item", name = "capacitor3", amount = 3}):add_ingredient({type = "item", name = "diode3", amount = 5}):add_ingredient({type = "item", name = "processor", amount = 2}):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 1})
-RECIPE("robot-brain-construction-3"):add_ingredient({type = "item", name = "inductor3", amount = 5}):add_ingredient({type = "item", name = "resistor3", amount = 5}):add_ingredient({type = "item", name = "processor", amount = 1}):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 1})
-RECIPE("robot-brain-logistic-4"):add_ingredient({type = "item", name = "supercapacitor", amount = 3}):add_ingredient({type = "item", name = "csle-diode", amount = 5}):add_ingredient({type = "item", name = "hyperelastic-material", amount = 1})
-RECIPE("robot-brain-construction-4"):add_ingredient({type = "item", name = "fault-current-inductor", amount = 3}):add_ingredient({type = "item", name = "paradiamatic-resistor", amount = 5}):add_ingredient({type = "item", name = "hyperelastic-material", amount = 1})
+
+RECIPE("construction-robot-ht"):add_ingredient({type = "item", name = "py-construction-robot-01", amount = 1})
+RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "py-logistic-robot-01", amount = 1})
 
 TECHNOLOGY("logistic-system"):remove_pack("science-pack-3")
 
-data.raw["tool"]["high-tech-science-pack"].icon = "__pyhightech__/graphics/icons/high-tech-science-pack.png"
+ITEM("high-tech-science-pack", "tool").icon = "__pyhightech__/graphics/icons/high-tech-science-pack.png"
