@@ -235,6 +235,6 @@ ENTITY {
           scale = 0.5
         }
       },
-    working_sound = flying_robot_sounds(),
+    working_sound = _G.flying_robot_sounds(),
     cargo_centered = {0.0, 0.2},
   }
