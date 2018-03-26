@@ -2471,21 +2471,21 @@ RECIPE {
     }
 }:add_unlock("nano-tech"):add_ingredient({type = "item", name = "glass", amount = 4})
 
--- RECIPE {
---     type = 'recipe',
---     name = 'lithium-chloride',
---     category = 'mixer',
---     enabled = false,
---     energy_required = 5,
---     ingredients = {
---         {type = 'item', name = 'reo', amount = 10},
---         {type = 'item', name = 'chromite-sand', amount = 10},
---         {type = 'fluid', name = 'sulfuric-acid', amount = 300}
---     },
---     results = {
---         {type = 'item', name = 'lithium-chloride', amount = 3}
---     }
--- }:add_unlock('advanced-electronics'):replace_ingredient('chromite-sand', 'lithium'):replace_ingredient('sulfuric-acid', 'hydrogen-chloride')
+ RECIPE {
+     type = 'recipe',
+     name = 'lithium-chloride',
+     category = 'mixer',
+     enabled = false,
+     energy_required = 5,
+     ingredients = {
+         {type = 'item', name = 'reo', amount = 10},
+         {type = 'item', name = 'chromite-sand', amount = 10},
+         {type = 'fluid', name = 'sulfuric-acid', amount = 300}
+     },
+     results = {
+         {type = 'item', name = 'lithium-chloride', amount = 3}
+     }
+}:add_unlock('advanced-electronics'):replace_ingredient('chromite-sand', 'lithium'):replace_ingredient('sulfuric-acid', 'hydrogen-chloride')
 
 RECIPE {
     type = "recipe",
@@ -3073,3 +3073,33 @@ RECIPE {
         {type = "item", name = "proton-receiver", amount = 1},
     },
 }:add_unlock("nucleo")
+
+RECIPE {
+    type = "recipe",
+    name = "black-liquor",
+    category = "gasifier",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "black-liquor", amount = 80},
+    },
+    results = {
+        {type = "fluid", name = "aromatics", amount = 100},
+        {type = "fluid", name = "acetone", amount = 50},
+    },
+}:add_unlock("coal-processing-1"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
+
+RECIPE {
+    type = "recipe",
+    name = "coal-slurry-fuel",
+    category = "distilator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "fluid", name = "coal-slurry", amount = 100},
+    },
+    results = {
+        {type = "fluid", name = "aromatics", amount = 50},
+        {type = "fluid", name = "benzene", amount = 50},
+    },
+}:add_unlock("coal-processing-1")

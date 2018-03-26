@@ -1270,6 +1270,16 @@ ITEM {
 }
 ITEM {
     type = "item",
+    name = "lithium-chloride",
+    icon = "__pyhightech__/graphics/icons/lithium-chloride.png",
+	icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
+ITEM {
+    type = "item",
     name = "parametric-oscilator",
     icon = "__pyhightech__/graphics/icons/parametric-oscilator.png",
 	icon_size = 32,
