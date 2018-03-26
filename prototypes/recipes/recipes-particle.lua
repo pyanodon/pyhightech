@@ -168,6 +168,48 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "pa-molybdenum",
+    category = "pa",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "chromium", amount = 10},
+        {type = "item", name = "proton-donor", amount = 2},
+    },
+    results = {
+        {type = "item", name = "molybdenum-plate", amount = 10},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+    },
+    main_product = "molybdenum-plate",
+    icon = "__pyhightech__/graphics/icons/pa/pa-molybdenum.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "f"
+}:add_unlock("molybdenum-processing")
+
+RECIPE {
+    type = "recipe",
+    name = "pa-vanadium",
+    category = "pa",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "chromium", amount = 10},
+        {type = "item", name = "proton-receiver", amount = 2},
+    },
+    results = {
+        {type = "item", name = "vanadium-oxide", amount = 10},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+    },
+    main_product = "vanadium-oxide",
+    icon = "__pyhightech__/graphics/icons/pa/pa-vanadium.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "f"
+}:add_unlock("vanadium-processing")
+
+RECIPE {
+    type = "recipe",
     name = "pa-uranium",
     category = "pa",
     enabled = false,
@@ -207,3 +249,24 @@ RECIPE {
     subgroup = "py-hightech-recipes",
     order = "f"
 }:add_unlock("nucleo")
+
+RECIPE {
+    type = "recipe",
+    name = "pa-diamond",
+    category = "pa",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "graphite", amount = 50},
+        {type = "item", name = "proton-donor", amount = 20},
+    },
+    results = {
+        {type = "item", name = "diamond", amount = 10},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+    },
+    main_product = "diamond",
+    icon = "__pyhightech__/graphics/icons/pa/pa-diamond.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "f"
+}:add_unlock("diamond-mining")
