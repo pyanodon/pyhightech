@@ -1,11 +1,11 @@
-local pipe = {
-    south = {
-        filename = "__pyhightech__/graphics/entity/zipir/bot.png",
-        priority = "extra-high",
-        width = 305,
-        height = 290
-    }
-}
+-- local pipe = {
+--     south = {
+--         filename = "__pyhightech__/graphics/entity/zipir/bot.png",
+--         priority = "extra-high",
+--         width = 305,
+--         height = 290
+--     }
+-- }
 
 RECIPE {
     type = "recipe",
