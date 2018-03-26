@@ -1,0 +1,12 @@
+{
+    "entity": [
+        [
+            "cr-ht",
+            "construction-robot-ht"
+        ],
+        [
+            "cargo-ht",
+            "logistic-robot-ht"
+        ]
+    ]
+}

@@ -1,6 +1,6 @@
 RECIPE {
     type = "recipe",
-    name = "cr-ht",
+    name = "construction-robot-ht",
     energy_required = 15,
     category = "crafting-with-fluid",
     enabled = false,
@@ -13,29 +13,29 @@ RECIPE {
         {type = "fluid", name = "grease", amount = 300},
     },
     results = {
-        {"cr-ht", 1}
+        {"construction-robot-ht", 1}
     }
-}:add_unlock("earnshaw-theorem"):add_ingredient({type = "item", name = "bob-construction-robot-4", amount = 1}):add_ingredient({type = "item", name = "cr-01", amount = 1})
+}:add_unlock("earnshaw-theorem"):add_ingredient({type = "item", name = "bob-construction-robot-4", amount = 1})
 
 ITEM {
     type = "item",
-    name = "cr-ht",
-    icon = "__pyhightech__/graphics/icons/cr-ht.png",
+    name = "construction-robot-ht",
+    icon = "__pyhightech__/graphics/icons/construction-robot-ht.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "py-hightech-items",
     order = "b",
-    place_result = "cr-ht",
+    place_result = "construction-robot-ht",
     stack_size = 10
 }
 
 ENTITY {
     type = "construction-robot",
-    name = "cr-ht",
-    icon = "__pyhightech__/graphics/icons/cr-ht.png",
+    name = "construction-robot-ht",
+    icon = "__pyhightech__/graphics/icons/construction-robot-ht.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
-    minable = {hardness = 0.1, mining_time = 0.1, result = "cr-ht"},
+    minable = {hardness = 0.1, mining_time = 0.1, result = "construction-robot-ht"},
     resistances = { { type = "fire", percent = 85 } },
     max_health = 20,
     collision_box = {{0, 0}, {0, 0}},
@@ -52,7 +52,7 @@ ENTITY {
     working_light = {intensity = 0.8, size = 3, color = {r = 0.8, g = 0.8, b = 0.9}},
     idle =
     {
-      filename = "__pyhightech__/graphics/entity/cr-ht/i.png",
+      filename = "__pyhightech__/graphics/entity/construction-robot-ht/i.png",
       priority = "high",
       line_length = 8,
       width = 96,
@@ -61,7 +61,7 @@ ENTITY {
       shift = {0, 0},
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/cr-ht/hr-i.png",
+        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-i.png",
         priority = "high",
         line_length = 8,
         width = 192,
@@ -74,7 +74,7 @@ ENTITY {
     },
     in_motion =
     {
-      filename = "__pyhightech__/graphics/entity/cr-ht/r.png",
+      filename = "__pyhightech__/graphics/entity/construction-robot-ht/r.png",
       priority = "high",
       line_length = 8,
       width = 96,
@@ -83,7 +83,7 @@ ENTITY {
       shift = {0, 0},
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/cr-ht/hr-r.png",
+        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-r.png",
         priority = "high",
         line_length = 8,
         width = 192,
@@ -96,7 +96,7 @@ ENTITY {
     },
     shadow_idle =
     {
-      filename = "__pyhightech__/graphics/entity/cr-ht/s.png",
+      filename = "__pyhightech__/graphics/entity/construction-robot-ht/s.png",
       priority = "high",
       line_length = 8,
       width = 80,
@@ -106,7 +106,7 @@ ENTITY {
       shift = util.by_pixel(33.5, 18.75),
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/cr-ht/hr-s.png",
+        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-s.png",
         priority = "high",
         line_length = 8,
         width = 160,
@@ -120,7 +120,7 @@ ENTITY {
     },
     shadow_in_motion =
     {
-      filename = "__pyhightech__/graphics/entity/cr-ht/s.png",
+      filename = "__pyhightech__/graphics/entity/construction-robot-ht/s.png",
       priority = "high",
       line_length = 8,
       width = 80,
@@ -130,7 +130,7 @@ ENTITY {
       shift = util.by_pixel(33.5, 18.75),
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/cr-ht/hr-s.png",
+        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-s.png",
         priority = "high",
         line_length = 8,
         width = 160,
@@ -144,7 +144,7 @@ ENTITY {
     },
     working =
     {
-      filename = "__pyhightech__/graphics/entity/cr-ht/w.png",
+      filename = "__pyhightech__/graphics/entity/construction-robot-ht/w.png",
       priority = "high",
       line_length = 8,
       width = 96,
@@ -153,7 +153,7 @@ ENTITY {
       shift = {0, 0},
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/cr-ht/hr-w.png",
+        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-w.png",
         priority = "high",
         line_length = 8,
         width = 192,
@@ -166,7 +166,7 @@ ENTITY {
     },
     shadow_working =
     {
-        filename = "__pyhightech__/graphics/entity/cr-ht/s.png",
+        filename = "__pyhightech__/graphics/entity/construction-robot-ht/s.png",
         priority = "high",
         line_length = 8,
         width = 80,
@@ -176,7 +176,7 @@ ENTITY {
         shift = util.by_pixel(33.5, 18.75),
         direction_count = 16,
         hr_version = {
-          filename = "__pyhightech__/graphics/entity/cr-ht/hr-s.png",
+          filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-s.png",
           priority = "high",
           line_length = 8,
           width = 160,

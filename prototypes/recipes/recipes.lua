@@ -2471,21 +2471,21 @@ RECIPE {
     }
 }:add_unlock("nano-tech"):add_ingredient({type = "item", name = "glass", amount = 4})
 
-RECIPE {
-    type = "recipe",
-    name = "lithium-chloride",
-    category = "mixer",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "item", name = "reo", amount = 10},
-        {type = "item", name = "chromite-sand", amount = 10},
-        {type = "fluid", name = "sulfuric-acid", amount = 300},
-    },
-    results = {
-        {type = "item", name = "lithium-chloride", amount = 3},
-    }
-}:add_unlock("advanced-electronics"):replace_ingredient("chromite-sand", "lithium"):replace_ingredient("sulfuric-acid", "hydrogen-chloride")
+-- RECIPE {
+--     type = 'recipe',
+--     name = 'lithium-chloride',
+--     category = 'mixer',
+--     enabled = false,
+--     energy_required = 5,
+--     ingredients = {
+--         {type = 'item', name = 'reo', amount = 10},
+--         {type = 'item', name = 'chromite-sand', amount = 10},
+--         {type = 'fluid', name = 'sulfuric-acid', amount = 300}
+--     },
+--     results = {
+--         {type = 'item', name = 'lithium-chloride', amount = 3}
+--     }
+-- }:add_unlock('advanced-electronics'):replace_ingredient('chromite-sand', 'lithium'):replace_ingredient('sulfuric-acid', 'hydrogen-chloride')
 
 RECIPE {
     type = "recipe",
@@ -2494,7 +2494,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "lithium-chloride", amount = 6},
+        --{type = "item", name = "lithium-chloride", amount = 6}
         {type = "item", name = "plastic-bar", amount = 5},
         {type = "item", name = "aerogel", amount = 3},
         {type = "item", name = "graphene-roll", amount = 2},
@@ -2504,7 +2504,7 @@ RECIPE {
     results = {
         {type = "item", name = "volumetric-capacitor", amount = 1},
     }
-}:add_unlock("aerogel"):add_ingredient({type = "item", name = "glass", amount = 5})
+}:add_unlock("aerogel"):add_ingredient({type = "item", name = "glass", amount = 5}):add_ingredient({type = "item", name = "lithium-chloride", amount = 6})
 
 RECIPE {
     type = "recipe",
