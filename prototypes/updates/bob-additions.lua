@@ -63,7 +63,7 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "helium", amount = 100},
-        {type = "item", name = "proton-reveiver", amount = 4},
+        {type = "item", name = "proton-receiver", amount = 4},
     },
     results = {
         {type = "fluid", name = "hydrogen", amount = 1000},
@@ -83,7 +83,7 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "item", name = "lithium-plate", amount = 5},
+        {type = "item", name = "lithium", amount = 5},
         {type = "item", name = "proton-donor", amount = 2},
     },
     results = {
@@ -258,7 +258,7 @@ RECIPE {
         {type = "item", name = "vanadium-oxide", amount = 10},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
-    main_product = "titanium-plate",
+    main_product = "vanadium-oxide",
     icon = "__pyhightech__/graphics/icons/pa/pa-vanadium.png",
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
