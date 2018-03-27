@@ -141,6 +141,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "methanal", amount = 50},
+        {type = "item", name = "urea", amount = 5},
         {type = "item", name = "melamine", amount = 20}
     },
     results = {
@@ -1253,6 +1254,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "item", name = "silver-foam", amount = 5},
+        {type = "item", name = "urea", amount = 10},
         {type = "item", name = "collagen", amount = 20},
         {type = "fluid", name = "bacteria-2", amount = 25},
         {type = "fluid", name = "diesel", amount = 150},
@@ -2494,7 +2496,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        --{type = "item", name = "lithium-chloride", amount = 6}
+        {type = "item", name = "lithium-chloride", amount = 6},
         {type = "item", name = "plastic-bar", amount = 5},
         {type = "item", name = "aerogel", amount = 3},
         {type = "item", name = "graphene-roll", amount = 2},
@@ -2504,7 +2506,7 @@ RECIPE {
     results = {
         {type = "item", name = "volumetric-capacitor", amount = 1},
     }
-}:add_unlock("aerogel"):add_ingredient({type = "item", name = "glass", amount = 5}):add_ingredient({type = "item", name = "lithium-chloride", amount = 6})
+}:add_unlock("aerogel"):add_ingredient({type = "item", name = "glass", amount = 5})
 
 RECIPE {
     type = "recipe",
@@ -2626,7 +2628,7 @@ RECIPE {
         {type = "item", name = "molybdenum-ore", amount = 3},
     },
     results = {
-        {type = "fluid", name = "methanal", amount = 60},
+        {type = "fluid", name = "methanal", amount = 80},
     },
 }:add_unlock("coal-processing-2"):replace_ingredient("water", "oxygen")
 
@@ -3087,6 +3089,7 @@ RECIPE {
         {type = "fluid", name = "aromatics", amount = 100},
         {type = "fluid", name = "acetone", amount = 50},
     },
+    main_product= "aromatics",
 }:add_unlock("coal-processing-1"):add_ingredient({type = "fluid", name = "oxygen", amount = 100})
 
 RECIPE {
@@ -3102,4 +3105,5 @@ RECIPE {
         {type = "fluid", name = "aromatics", amount = 50},
         {type = "fluid", name = "benzene", amount = 50},
     },
+    main_product= "benzene",
 }:add_unlock("coal-processing-1")
