@@ -21,7 +21,7 @@ FLUID {
     name = "phosphorous-acid",
     icon = "__pyhightech__/graphics/icons/phosphorous-acid.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.847, g = 0.05, b = 0.98},
     flow_color = {r = 0.847, g = 0.05, b = 0.98},
     max_temperature = 100,

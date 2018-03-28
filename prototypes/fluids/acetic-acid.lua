@@ -19,7 +19,7 @@ FLUID {
     name = "acetic-acid",
     icon = "__pyhightech__/graphics/icons/acetic-acid.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.588, g = 0.274, b = 0.423},
     flow_color = {r = 0.588, g = 0.274, b = 0.423},
     max_temperature = 100,

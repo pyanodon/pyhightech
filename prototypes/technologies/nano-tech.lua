@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = '__pyhightech__/graphics/technology/nano-tech.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {'graphene'},
+    prerequisites = {"graphene"},
     effects = {},
     unit = {
         count = 100,

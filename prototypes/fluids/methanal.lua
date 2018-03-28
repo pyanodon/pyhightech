@@ -19,7 +19,7 @@ FLUID {
     name = "methanal",
     icon = "__pyhightech__/graphics/icons/methanal.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.560, g = 0.219, b = 0.117},
     flow_color = {r = 0.560, g = 0.219, b = 0.117},
     max_temperature = 100,

@@ -23,7 +23,7 @@ FLUID {
     name = "ech",
     icon = "__pyhightech__/graphics/icons/ech.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.02, g = 0.956, b = 0.172},
     flow_color = {r = 0.02, g = 0.956, b = 0.172},
     max_temperature = 100,

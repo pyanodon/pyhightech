@@ -3,7 +3,7 @@ RECIPE {
     name = "pa-sulfur",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "graphite", amount = 5},
         {type = "item", name = "proton-donor", amount = 1},
@@ -24,7 +24,7 @@ RECIPE {
     name = "pa-aromatics",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "fluid", name = "syngas", amount = 100},
         {type = "item", name = "proton-receiver", amount = 1},
@@ -45,7 +45,7 @@ RECIPE {
     name = "pa-benzene",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "fluid", name = "coal-gas", amount = 100},
         {type = "item", name = "proton-receiver", amount = 1},
@@ -66,7 +66,7 @@ RECIPE {
     name = "pa-propene",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "coal", amount = 30},
         {type = "item", name = "proton-donor", amount = 1},
@@ -87,7 +87,7 @@ RECIPE {
     name = "pa-silicon",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "coal", amount = 10},
         {type = "item", name = "proton-donor", amount = 1},
@@ -108,7 +108,7 @@ RECIPE {
     name = "pa-coal",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "sand", amount = 30},
         {type = "item", name = "proton-receiver", amount = 1},
@@ -129,7 +129,7 @@ RECIPE {
     name = "pa-niobium",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "chromium", amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
@@ -150,7 +150,7 @@ RECIPE {
     name = "pa-chromium",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "iron-plate", amount = 10},
         {type = "item", name = "proton-receiver", amount = 1},
@@ -171,7 +171,7 @@ RECIPE {
     name = "pa-molybdenum",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "chromium", amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
@@ -192,7 +192,7 @@ RECIPE {
     name = "pa-vanadium",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "chromium", amount = 10},
         {type = "item", name = "proton-receiver", amount = 2},
@@ -213,7 +213,7 @@ RECIPE {
     name = "pa-uranium",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "iron-plate", amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
@@ -234,7 +234,7 @@ RECIPE {
     name = "pa-uranium-235",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "uranium-238", amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
@@ -255,7 +255,7 @@ RECIPE {
     name = "pa-diamond",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "graphite", amount = 50},
         {type = "item", name = "proton-donor", amount = 20},
@@ -270,3 +270,22 @@ RECIPE {
     subgroup = "py-hightech-recipes",
     order = "f"
 }:add_unlock("diamond-mining")
+
+RECIPE {
+    type = "recipe",
+    name = "pa-proton",
+    category = "pa",
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "uranium-235", amount = 10},
+    },
+    results = {
+        {type = "fluid", name = "proton", amount = 5},
+    },
+    main_product = "proton",
+    icon = "__pyhightech__/graphics/icons/pa/pa-proton.png",
+	icon_size = 32,
+    subgroup = "py-hightech-recipes",
+    order = "f"
+}:add_unlock("fusion-mk02")

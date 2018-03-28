@@ -20,7 +20,7 @@ FLUID {
     name = "bacteria-2",
     icon = "__pyhightech__/graphics/icons/bacteria-2.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.478, g = 0.8, b = 0.784},
     flow_color = {r = 0.478, g = 0.8, b = 0.784},
     max_temperature = 100,

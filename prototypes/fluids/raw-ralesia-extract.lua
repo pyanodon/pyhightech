@@ -22,7 +22,7 @@ FLUID {
     name = "raw-ralesia-extract",
     icon = "__pyhightech__/graphics/icons/raw-ralesia-extract.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.803, g = 0.564, b = 0.08},
     flow_color = {r = 0.803, g = 0.564, b = 0.08},
     max_temperature = 100,
