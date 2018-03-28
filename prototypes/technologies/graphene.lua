@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightech__/graphics/technology/graphene.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"advanced-electronics" , "methanol-processing-2"},
+    prerequisites = {"advanced-electronics"},
     effects = {},
     unit = {
         count = 55,

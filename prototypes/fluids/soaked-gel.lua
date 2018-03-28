@@ -18,7 +18,7 @@ FLUID {
     name = "soaked-gel",
     icon = "__pyhightech__/graphics/icons/soaked-gel.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.317, g = 0.6, b = 0.764},
     flow_color = {r = 0.317, g = 0.6, b = 0.764},
     max_temperature = 100,

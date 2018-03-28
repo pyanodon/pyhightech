@@ -3,7 +3,7 @@ FLUID {
     name = "blood",
     icon = "__pyhightech__/graphics/icons/blood.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.854, g = 0.219, b = 0.0},
     flow_color = {r = 0.854, g = 0.219, b = 0.0},
     max_temperature = 100,

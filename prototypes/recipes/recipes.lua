@@ -2247,6 +2247,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "blood", amount = 30},
         {type = "item", name = "bones", amount = 6},
+        {type = "item", name = "urea", amount = 5},
         {type = "item", name = "ash", amount = 10},
         {type = "item", name = "organics", amount = 20},
     },
@@ -2279,6 +2280,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "carbon-sulfide", amount = 50},
         {type = "fluid", name = "ammonia", amount = 50},
+        {type = "item", name = "urea", amount = 5},
         {type = "fluid", name = "sulfuric-acid", amount = 150},
         {type = "item", name = "fiber", amount = 5},
     },
@@ -3042,7 +3044,7 @@ RECIPE {
         {type = "fluid", name = "propene", amount = 20},
     },
     results = {
-        {type = "item", name = "crystallographic-substrate", amount = 4},
+        {type = "item", name = "crystallographic-substrate", amount = 1},
     },
 }:add_unlock("nucleo")
 
@@ -3051,7 +3053,7 @@ RECIPE {
     name = "proton-donor",
     category = "advanced-crafting",
     enabled = false,
-    energy_required = 5,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "crystallographic-substrate", amount = 1},
         {type = "item", name = "boron", amount = 1},
@@ -3106,4 +3108,49 @@ RECIPE {
         {type = "fluid", name = "benzene", amount = 50},
     },
     main_product= "benzene",
+}:add_unlock("coal-processing-1")
+
+RECIPE {
+    type = "recipe",
+    name = "ammonia-urea",
+    category = "chemistry",
+    enabled = true,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "urea", amount = 20},
+    },
+    results = {
+        {type = "fluid", name = "ammonia", amount = 50},
+    },
+}:add_unlock("oil-processing")
+
+RECIPE {
+    type = "recipe",
+    name = "plastic3",
+    category = "fbreactor",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "chromium", amount = 1},
+        {type = "fluid", name = "nitrobenzene", amount = 50},
+        {type = "fluid", name = "methanal", amount = 50},
+    },
+    results = {
+        {type = "item", name = "plastic-bar", amount = 10},
+    },
+}:add_unlock("coal-processing-2"):add_ingredient({type = "fluid", name = "hydrogen", amount = 50})
+
+RECIPE {
+    type = "recipe",
+    name = "iron-oxide",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "iron-plate", amount = 5},
+        {type = "fluid", name = "nitrobenzene", amount = 50},
+    },
+    results = {
+        {type = "item", name = "iron-oxide", amount = 10},
+    },
 }:add_unlock("coal-processing-1")

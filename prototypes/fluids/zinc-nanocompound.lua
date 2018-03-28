@@ -18,7 +18,7 @@ FLUID {
     name = "zinc-nanocompound",
     icon = "__pyhightech__/graphics/icons/zinc-nanocompound.png",
 	icon_size = 32,
-    default_temperature = 15,
+    default_temperature = 10,
     base_color = {r = 0.384, g = 0.756, b = 0.4},
     flow_color = {r = 0.384, g = 0.756, b = 0.4},
     max_temperature = 100,

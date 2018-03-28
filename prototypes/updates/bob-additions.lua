@@ -18,7 +18,7 @@ RECIPE {
     name = "pa-oxygen",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "graphite", amount = 5},
         {type = "item", name = "proton-donor", amount = 2},
@@ -39,7 +39,7 @@ RECIPE {
     name = "pa-helium",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "fluid", name = "hydrogen", amount = 1000},
         {type = "item", name = "proton-donor", amount = 20},
@@ -60,7 +60,7 @@ RECIPE {
     name = "pa-hydrogen",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "fluid", name = "helium", amount = 100},
         {type = "item", name = "proton-receiver", amount = 4},
@@ -81,7 +81,7 @@ RECIPE {
     name = "pa-boron",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "lithium", amount = 5},
         {type = "item", name = "proton-donor", amount = 2},
@@ -102,7 +102,7 @@ RECIPE {
     name = "pa-coal2",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "fluid", name = "nitrogen", amount = 1000},
         {type = "item", name = "proton-receiver", amount = 2},
@@ -123,7 +123,7 @@ RECIPE {
     name = "pa-aluminium",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "silicon", amount = 10},
         {type = "item", name = "proton-receiver", amount = 1},
@@ -144,7 +144,7 @@ RECIPE {
     name = "pa-cobalt",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "iron-plate", amount = 10},
         {type = "item", name = "proton-donor", amount = 1},
@@ -165,7 +165,7 @@ RECIPE {
     name = "pa-nickel",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "copper-plate", amount = 10},
         {type = "item", name = "proton-receiver", amount = 1},
@@ -186,7 +186,7 @@ RECIPE {
     name = "pa-zinc",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "copper-plate", amount = 10},
         {type = "item", name = "proton-donor", amount = 1},
@@ -207,7 +207,7 @@ RECIPE {
     name = "pa-silver",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "copper-plate", amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
@@ -228,7 +228,7 @@ RECIPE {
     name = "pa-gold",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "silver-plate", amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
@@ -249,7 +249,7 @@ RECIPE {
     name = "pa-vanadium2",
     category = "pa",
     enabled = false,
-    energy_required = 6,
+    energy_required = 15,
     ingredients = {
         {type = "item", name = "titanium-plate", amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
