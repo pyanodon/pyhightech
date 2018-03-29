@@ -2489,7 +2489,7 @@ RECIPE {
      results = {
          {type = 'item', name = 'lithium-chloride', amount = 3}
      }
-}:add_unlock('advanced-electronics'):replace_ingredient('chromite-sand', 'lithium'):replace_ingredient('sulfuric-acid', 'hydrogen-chloride')
+}:add_unlock('advanced-electronics'):replace_ingredient('sulfuric-acid', 'hydrogen-chloride')
 
 RECIPE {
     type = "recipe",

@@ -35,10 +35,11 @@ RECIPE("agitator"):remove_unlock("advanced-mining-facilities"):add_unlock("basic
 RECIPE("agitator"):replace_ingredient("plastic-bar", "melamine"):replace_ingredient("electric-engine-unit", "engine-unit")
 RECIPE("mixer"):remove_unlock("advanced-mining-facilities"):add_unlock("basic-electronics")
 RECIPE("mixer"):replace_ingredient("titanium-bearing", "steel-bearing"):replace_ingredient("titanium-plate", "nexelit-plate")
+RECIPE("ball-mill"):remove_ingredient("py-asphalt"):add_ingredient({type = "item", name = "electronic-circuit", amount = 10})
 RECIPE("py-heat-exchanger"):add_ingredient({type = "item", name = "processing-unit", amount = 4})
 RECIPE("science-coating"):add_ingredient({type = "item", name = "nylon", amount = 5})
 RECIPE("bio-reactor"):add_ingredient({type = "item", name = "processing-unit", amount = 5})
-RECIPE("mo-mine"):add_ingredient({type = "item", name = "processing-unit", amount = 5})
+RECIPE("mo-mine"):remove_unlock("molybdenum-processing"):add_unlock("rare-earth-tech")
 RECIPE("kevlar"):add_ingredient({type = "item", name = "nylon", amount = 5})
 RECIPE("explosives"):add_ingredient({type = "item", name = "collagen", amount = 5})
 RECIPE("ferrite"):remove_unlock("fusion-mk01"):add_unlock("basic-electronics")
@@ -62,6 +63,7 @@ RECIPE("cladding"):add_ingredient({type = "fluid", name = "nitrobenzene", amount
 RECIPE("nas-battery"):add_ingredient({type = "item", name = "rayon", amount = 2})
 RECIPE("centrifuge"):remove_unlock("nuclear-power"):add_unlock("basic-electronics")
 RECIPE("hydrocyclone"):remove_unlock("advanced-mining-facilities"):add_unlock("basic-electronics")
+RECIPE("thickener"):remove_unlock("advanced-mining-facilities"):add_unlock("basic-electronics")
 
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
 
@@ -70,5 +72,6 @@ RECIPE("logistic-robot-ht"):add_ingredient({type = "item", name = "py-logistic-r
 
 TECHNOLOGY("logistic-system"):remove_pack("science-pack-3")
 TECHNOLOGY("electric-engine"):remove_prereq("advanced-electronics")
+TECHNOLOGY("laser"):remove_prereq("advanced-electronics")
 
 ITEM("high-tech-science-pack", "tool").icon = "__pyhightech__/graphics/icons/high-tech-science-pack.png"

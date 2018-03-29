@@ -8,7 +8,7 @@ RECIPE {
         {type = "fluid", name = "syngas", amount = 80},
         {type = "item", name = "powdered-phosphate-rock", amount = 5},
         {type = "item", name = "pure-sand", amount = 20},
-        {type = "item", name = "ash", amount = 15}
+        {type = "item", name = "ash", amount = 10}
     },
     results = {
         {type = "fluid", name = "phosphorous-acid", amount = 50}

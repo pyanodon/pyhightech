@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "ree-solution", amount = 100},
-		{type = "item", name = "uranium-ore", amount = 20},
+		{type = "item", name = "uranium-ore", amount = 10},
     },
     main_product = "ree-solution",
 }:add_unlock("rare-earth-tech")
