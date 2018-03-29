@@ -5,13 +5,13 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "tar", amount = 100},
+        {type = "fluid", name = "phosphoric-acid", amount = 100},
         {type = "fluid", name = "sulfuric-acid", amount = 100},
         {type = "fluid", name = "hydrogen-peroxide", amount = 50},
-        {type = "item", name = "mukmoux-fat", amount = 5},
+        {type = "item", name = "mukmoux-fat", amount = 10},
     },
     results = {
-        {type = "fluid", name = "etching", amount = 30}
+        {type = "fluid", name = "etching", amount = 80}
     },
 }:add_unlock("basic-electronics")
 
