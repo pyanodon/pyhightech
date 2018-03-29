@@ -1450,3 +1450,13 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+ITEM {
+    type = "item",
+    name = "dried-meat",
+    icon = "__pyhightech__/graphics/icons/dried-meat.png",
+    icon_size = 32,
+    flags = {"goes-to-main-inventory"},
+    subgroup = "py-hightech-items",
+    order = "h",
+    stack_size = 200
+}
