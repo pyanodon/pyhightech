@@ -123,7 +123,7 @@ RECIPE {
     name = "clay",
     category = "clay",
     enabled = true,
-    energy_required = 2,
+    energy_required = 4,
     ingredients = {
         {type = "fluid", name = "steam", amount = 100, temperature = 165}
     },
@@ -303,7 +303,7 @@ RECIPE {
     enabled = true,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "treated-wood", amount = 2},
+        {type = "item", name = "treated-wood", amount = 5},
         {type = "fluid", name = "steam", amount = 500, temperature = 165}
     },
     results = {
@@ -342,7 +342,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 5}
     },
     results = {
-        {type = "item", name = "pcb1", amount = 2}
+        {type = "item", name = "pcb1", amount = 1}
     },
     main_product = "pcb1",
 }:add_ingredient({type = "fluid", name = "vacuum", amount = 50})
@@ -1428,7 +1428,7 @@ RECIPE {
         {type = "item", name = "ash", amount = 10},
     },
     results = {
-        {type = "item", name = "mukmoux-fat", amount = 25}
+        {type = "item", name = "mukmoux-fat", amount = 30}
     },
 }:add_unlock("advanced-electronics")
 
@@ -2123,7 +2123,7 @@ RECIPE {
         {type = "item", name = "bones", amount = 5},
         {type = "item", name = "skin", amount = 10},
         {type = "item", name = "meat", amount = 3},
-        {type = "fluid", name = "blood", amount = 15},
+        {type = "fluid", name = "blood", amount = 30},
     },
     icon = "__pyhightech__/graphics/icons/rendering.png",
 	icon_size = 32,
@@ -2202,7 +2202,7 @@ RECIPE {
     results = {
         {type = "item", name = "mukmoux-fat", amount = 2},
     },
-}:add_unlock("advanced-electronics")
+}:add_unlock("basic-electronics")
 
 RECIPE {
     type = "recipe",
@@ -3154,3 +3154,50 @@ RECIPE {
         {type = "item", name = "iron-oxide", amount = 10},
     },
 }:add_unlock("coal-processing-1")
+
+RECIPE {
+    type = "recipe",
+    name = "dried-meat",
+    category = "evaporator",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "meat", amount = 10},
+    },
+    results = {
+        {type = "item", name = "dried-meat", amount = 5},
+    },
+}:add_unlock("advanced-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "coal-briquette3",
+    category = "olefin",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "dried-meat", amount = 3},
+        {type = "item", name = "coal-dust", amount = 10},
+        {type = "item", name = "iron-plate", amount = 1},
+        {type = "fluid", name = "sulfuric-acid", amount = 50},
+    },
+    results = {
+        {type = "item", name = "coal-briquette", amount = 1},
+    },
+}:add_unlock("fuel-production")
+
+RECIPE {
+    type = "recipe",
+    name = "petroleum-gas2",
+    category = "bio-reactor",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "organic-solvent", amount = 100},
+        {type = "item", name = "meat", amount = 10},
+        {type = "fluid", name = "bacteria-2", amount = 50},
+    },
+    results = {
+        {type = "fluid", name = "petroleum-gas", amount = 100},
+    },
+}:add_unlock("helium-processing")
