@@ -69,36 +69,21 @@ ENTITY {
 				priority = "extra-high",
                 width = 288,
                 height = 295,
-                frame_count = 1,
+                line_length = 5,
+                frame_count = 20,
+                animation_speed = 0.3,
                 shift = util.by_pixel(0, -4),
-                hr_version = {
-                    filename = "__pyhightech__/graphics/entity/cadaveric-arum/hr-cadaveric-arum.png",
-					priority = "extra-high",
-                    width = 576,
-                    height = 590,
-					frame_count = 1,
-                    shift = util.by_pixel(0, -4),
-                    scale = 0.5
-                }
             },
             {
                 filename = "__pyhightech__/graphics/entity/cadaveric-arum/shadow.png",
 				priority = "extra-high",
                 width = 298,
                 height = 295,
-                frame_count = 1,
+                line_length = 5,
+                frame_count = 20,
+                animation_speed = 0.3,
                 shift = util.by_pixel(6, -4),
                 draw_as_shadow = true,
-                hr_version = {
-                    filename = "__pyhightech__/graphics/entity/cadaveric-arum/hr-shadow.png",
-					priority = "extra-high",
-                    width = 596,
-                    height = 590,
-					frame_count = 1,
-                    shift = util.by_pixel(6, -4),
-                    draw_as_shadow = true,
-                    scale = 0.5
-                }
             }
         }
     },

@@ -37,7 +37,7 @@ RECIPE("mixer"):remove_unlock("advanced-mining-facilities"):add_unlock("basic-el
 RECIPE("mixer"):replace_ingredient("titanium-bearing", "steel-bearing"):replace_ingredient("titanium-plate", "nexelit-plate")
 RECIPE("ball-mill"):remove_ingredient("py-asphalt"):add_ingredient({type = "item", name = "electronic-circuit", amount = 10})
 RECIPE("py-heat-exchanger"):add_ingredient({type = "item", name = "processing-unit", amount = 4})
-RECIPE("science-coating"):add_ingredient({type = "item", name = "nylon", amount = 5})
+RECIPE("science-coating"):add_ingredient({type = "item", name = "nylon", amount = 5}):add_ingredient({type = "item", name = "zinc-acetate", amount = 15})
 RECIPE("bio-reactor"):add_ingredient({type = "item", name = "advanced-circuit", amount = 5})
 RECIPE("bio-reactor"):remove_unlock("helium-processing"):add_unlock("nano-tech")
 RECIPE("compressor"):remove_unlock("regolite-mining"):add_unlock("advanced-electronics")

@@ -520,6 +520,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "silicon-wafer", amount = 5},
+        {type = "item", name = "zinc-acetate", amount = 2},
         {type = "fluid", name = "diborane", amount = 20},
         {type = "fluid", name = "etching", amount = 20},
     },
