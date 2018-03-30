@@ -304,6 +304,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "item", name = "treated-wood", amount = 5},
+        {type = "item", name = "raw-fiber", amount = 5},
         {type = "fluid", name = "steam", amount = 500, temperature = 165}
     },
     results = {
@@ -1169,7 +1170,7 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "copper-plate", amount = 2},
+        {type = "item", name = "copper-coating", amount = 1},
         {type = "item", name = "ceramic", amount = 3},
         {type = "item", name = "boron-carbide", amount = 1},
     },
@@ -1359,6 +1360,40 @@ RECIPE {
         {type = "item", name = "clay", amount = 5},
         {type = "item", name = "sand", amount = 10},
         {type = "item", name = "py-fertilizer", amount = 2},
+        {type = "item", name = "small-lamp", amount = 1},
+        {type = "fluid", name = "water", amount = 20},
+        {type = "fluid", name = "carbon-dioxide", amount = 200},
+    },
+    results = {
+        {type = "item", name = "raw-fiber", amount = 10}
+    },
+}:add_unlock("basic-electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "raw-fiber2",
+    category = "kicalk",
+    enabled = true,
+    energy_required = 40,
+    ingredients = {
+        {type = "item", name = "clay", amount = 5},
+        {type = "item", name = "small-lamp", amount = 1},
+        {type = "fluid", name = "water", amount = 20},
+    },
+    results = {
+        {type = "item", name = "raw-fiber", amount = 10}
+    },
+}
+
+RECIPE {
+    type = "recipe",
+    name = "raw-fiber3",
+    category = "kicalk",
+    enabled = false,
+    energy_required = 25,
+    ingredients = {
+        {type = "item", name = "clay", amount = 5},
+        {type = "item", name = "sand", amount = 10},
         {type = "item", name = "small-lamp", amount = 1},
         {type = "fluid", name = "water", amount = 20},
         {type = "fluid", name = "carbon-dioxide", amount = 200},
@@ -2245,7 +2280,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "blood", amount = 30},
+        {type = "fluid", name = "blood", amount = 10},
         {type = "item", name = "bones", amount = 6},
         {type = "item", name = "urea", amount = 5},
         {type = "item", name = "ash", amount = 10},
@@ -2282,7 +2317,7 @@ RECIPE {
         {type = "fluid", name = "ammonia", amount = 50},
         {type = "item", name = "urea", amount = 5},
         {type = "fluid", name = "sulfuric-acid", amount = 150},
-        {type = "item", name = "fiber", amount = 5},
+        {type = "item", name = "fiber", amount = 15},
     },
     results = {
         {type = "item", name = "rayon", amount = 3},
@@ -2379,9 +2414,10 @@ RECIPE {
         {type = "item", name = "nexelit-plate", amount = 2},
         {type = "item", name = "resorcinol", amount = 2},
         {type = "fluid", name = "methanal", amount = 50},
+        {type = "fluid", name = "ech", amount = 50},
     },
     results = {
-        {type = "item", name = "epoxy", amount = 3},
+        {type = "item", name = "epoxy", amount = 4},
     }
 }:add_unlock("advanced-electronics")
 
@@ -3200,4 +3236,33 @@ RECIPE {
     results = {
         {type = "fluid", name = "petroleum-gas", amount = 100},
     },
-}:add_unlock("helium-processing")
+}:add_unlock("nano-tech")
+
+RECIPE {
+    type = "recipe",
+    name = "coal-dust3",
+    category = "hpf",
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = "item", name = "raw-fiber", amount = 10},
+    },
+    results = {
+        {type = "item", name = "coal-dust", amount = 10},
+    },
+}:add_unlock("coal-processing-1")
+
+RECIPE {
+    type = "recipe",
+    name = "acidgas",
+    category = "gas-separator",
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = "item", name = "sulfur", amount = 10},
+        {type = "fluid", name = "refsyngas", amount = 100},
+    },
+    results = {
+        {type = "fluid", name = "acidgas", amount = 100},
+    },
+}:add_unlock("coal-processing-2")
