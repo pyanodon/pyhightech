@@ -167,6 +167,22 @@ RECIPE {
 
 RECIPE {
     type = "recipe",
+    name = "urea2",
+    category = "auog",
+    enabled = true,
+    energy_required = 20,
+    ingredients = {
+        {type = "item", name = "fawogae", amount = 10},
+        {type = "item", name = "raw-fiber", amount = 6},
+    },
+    results = {
+        {type = "item", name = "urea", amount = 15}
+    },
+    main_product = "urea",
+}
+
+RECIPE {
+    type = "recipe",
     name = "urea-decomposition",
     category = "distilator",
     enabled = true,
@@ -1057,7 +1073,7 @@ RECIPE {
 		{type = "fluid", name = "msa", amount = 100},
     },
     results = {
-        {type = "item", name = "pcb3", amount = 1},
+        {type = "item", name = "pcb3", amount = 2},
     },
     main_product = "pcb3",
 }:add_unlock("advanced-electronics"):add_ingredient({type = "item", name = "tin-plate", amount = 2})
@@ -2280,7 +2296,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "blood", amount = 10},
+        {type = "fluid", name = "blood", amount = 30},
         {type = "item", name = "bones", amount = 6},
         {type = "item", name = "urea", amount = 5},
         {type = "item", name = "ash", amount = 10},
@@ -2347,7 +2363,7 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "carbon-dioxide", amount = 300},
-        {type = "item", name = "blood-meal", amount = 1},
+        {type = "item", name = "blood-meal", amount = 3},
         {type = "item", name = "phenol", amount = 5},
         {type = "item", name = "chromium", amount = 1},
         {type = "fluid", name = "steam", amount = 300, temperature = 165},
@@ -3266,3 +3282,25 @@ RECIPE {
         {type = "fluid", name = "acidgas", amount = 100},
     },
 }:add_unlock("coal-processing-2")
+
+RECIPE {
+    type = "recipe",
+    name = "methane-combustion",
+    category = "combustion",
+    enabled = "false",
+    energy_required = 3,
+    ingredients = {
+        {type = "fluid", name = "methane", amount = 100},
+        {type = "fluid", name = "water", amount = 500},
+        {type = "item", name = "coke", amount = 5}
+    },
+    results = {
+        {type = "fluid", name = "combustion-mixture1", amount = 50, temperature = 550},
+        {type = "fluid", name = "steam", amount = 500, temperature = 60}
+    },
+    icon = "__pyhightech__/graphics/icons/combustion-methane.png",
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = "py-combustion",
+    order = "a"
+}:add_unlock("energy-2")
