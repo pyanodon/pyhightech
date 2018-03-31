@@ -2441,7 +2441,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "resilin",
-    category = "genlab",
+    category = "bio-reactor",
     enabled = false,
     energy_required = 30,
     ingredients = {

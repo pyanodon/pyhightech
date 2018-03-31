@@ -9,7 +9,7 @@ RECIPE {
         {type = "item", name = "ralesia-powder", amount = 10},
     },
     results = {
-        {type = "fluid", name = "raw-ralesia-extract", amount = 5},
+        {type = "fluid", name = "raw-ralesia-extract", amount = 50},
     },
     icon = "__pyhightech__/graphics/icons/hydro-ralesia-extract.png",
 	icon_size = 32,
