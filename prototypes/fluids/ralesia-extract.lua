@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "raw-ralesia-extract", amount = 50},
-		{type = "item", name = "biofilm", amount = 2},
+		{type = "item", name = "biofilm", amount = 1},
     },
     results = {
         {type = "fluid", name = "ralesia-extract", amount = 50}
