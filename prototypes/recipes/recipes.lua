@@ -1858,7 +1858,7 @@ RECIPE {
     name = 'zno-nanoparticles',
     category = 'pa',
     enabled = false,
-    energy_required = 4,
+    energy_required = 10,
     ingredients = {
         {type = 'item', name = 'zinc-nanocomplex', amount = 5},
         {type = 'item', name = 'lead-container', amount = 1}
@@ -2443,7 +2443,7 @@ RECIPE {
         {type = 'fluid', name = 'ech', amount = 50}
     },
     results = {
-        {type = 'item', name = 'epoxy', amount = 4}
+        {type = "item", name = "epoxy", amount = 6},
     }
 }:add_unlock('advanced-electronics')
 
