@@ -189,7 +189,7 @@ RECIPE {
     type = 'recipe',
     name = 'urea2',
     category = 'auog',
-    enabled = true,
+    enabled = false,
     energy_required = 20,
     ingredients = {
         {type = 'item', name = 'fawogae', amount = 10},
@@ -199,7 +199,7 @@ RECIPE {
         {type = 'item', name = 'urea', amount = 15}
     },
     main_product = 'urea'
-}
+}:add_unlock('coal-processing-1')
 
 RECIPE {
     type = 'recipe',
@@ -389,7 +389,7 @@ RECIPE {
     name = 'electronic-circuit',
     category = 'chip',
     enabled = true,
-    energy_required = 12,
+    energy_required = 10,
     ingredients = {
         {type = 'item', name = 'pcb1', amount = 1},
         {type = 'item', name = 'valve', amount = 3},
@@ -398,7 +398,7 @@ RECIPE {
         {type = 'item', name = 'resistor1', amount = 6}
     },
     results = {
-        {type = 'item', name = 'electronic-circuit', amount = 1}
+        {type = 'item', name = 'electronic-circuit', amount = 2}
     },
     main_product = 'electronic-circuit'
 }
@@ -3315,3 +3315,20 @@ RECIPE {
     subgroup = 'py-combustion',
     order = 'a'
 }:add_unlock('energy-2')
+
+RECIPE {
+    type = 'recipe',
+    name = 'electronic-circuit-initial',
+    category = 'crafting',
+    enabled = true,
+    energy_required = 20,
+    ingredients = {
+        {type = 'item', name = 'copper-plate', amount = 5},
+        {type = 'item', name = 'copper-cable', amount = 5},
+        {type = 'item', name = 'wood', amount = 2}
+    },
+    results = {
+        {type = 'item', name = 'electronic-circuit', amount = 1}
+    },
+    main_product = 'electronic-circuit'
+}:replace_result('electronic-circuit', 'basic-circuit-board')
