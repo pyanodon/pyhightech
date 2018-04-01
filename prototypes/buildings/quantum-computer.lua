@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"gasturbinemk03", 2},
-        {"niobium-pipe", 20},
+        {"pipe", 20},
         {"intelligent-unit", 5},
         {"niobium-plate", 20},
         {"refined-concrete", 100},
