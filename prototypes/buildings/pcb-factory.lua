@@ -19,7 +19,6 @@ RECIPE {
         {"iron-plate", 80},
         {"copper-plate", 60},
         {"iron-gear-wheel", 100},
-        {"inserter", 6}
     },
     results = {
         {"pcb-factory", 1}

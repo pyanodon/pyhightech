@@ -88,7 +88,7 @@ ENTITY {
                 --priority = "high",
                 width = 173,
                 height = 168,
-                line_length = 12,
+                line_length = 11,
                 frame_count = 61,
                 animation_speed = 0.4,
                 draw_as_shadow = true,
