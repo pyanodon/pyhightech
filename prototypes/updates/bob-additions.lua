@@ -264,3 +264,20 @@ RECIPE {
     subgroup = "py-hightech-recipes",
     order = "f"
 }:add_unlock("vanadium-processing")
+
+RECIPE {
+    type = 'recipe',
+    name = 'electronic-circuit-initial',
+    category = 'crafting',
+    enabled = true,
+    energy_required = 25,
+    ingredients = {
+        {type = 'item', name = 'copper-plate', amount = 5},
+        {type = 'item', name = 'copper-cable', amount = 5},
+        {type = 'item', name = 'wood', amount = 2}
+    },
+    results = {
+        {type = 'item', name = 'pcb1', amount = 1}
+    },
+    main_product = 'pcb1'
+}
