@@ -3321,7 +3321,7 @@ RECIPE {
     name = 'electronic-circuit-initial',
     category = 'crafting',
     enabled = true,
-    energy_required = 20,
+    energy_required = 25,
     ingredients = {
         {type = 'item', name = 'copper-plate', amount = 5},
         {type = 'item', name = 'copper-cable', amount = 5},
@@ -3331,4 +3331,4 @@ RECIPE {
         {type = 'item', name = 'electronic-circuit', amount = 1}
     },
     main_product = 'electronic-circuit'
-}:replace_result('electronic-circuit', 'basic-circuit-board')
+}
