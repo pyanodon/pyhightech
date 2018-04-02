@@ -79,7 +79,7 @@ RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 RECIPE('construction-robot-ht'):add_ingredient({type = 'item', name = 'py-construction-robot-01', amount = 1})
 RECIPE('logistic-robot-ht'):add_ingredient({type = 'item', name = 'py-logistic-robot-01', amount = 1})
 
-TECHNOLOGY('logistic-system'):remove_pack('science-pack-3')
+TECHNOLOGY('logistic-system'):remove_pack('science-pack-3'):remove_pack('high-tech-science-pack'):remove_pack('production-science-pack')
 TECHNOLOGY('electric-engine'):remove_prereq('advanced-electronics')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
 
