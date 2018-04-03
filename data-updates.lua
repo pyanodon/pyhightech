@@ -12,6 +12,8 @@ for _, recipe in pairs(data.raw.recipe) do
     r:replace_ingredient('superior-circuit-board', 'pcb3')
     r:replace_ingredient('multi-layer-circuit-board', 'pcb4')
     r:replace_ingredient('fibreglass-board', 'fiberglass')
+    r:replace_ingredient('phenolic-board', 'phenolicboard')
+    r:replace_ingredient('ferric-chloride-solution', 'boric-acid')
     r:replace_ingredient('basic-electronic-components', 'resistor2')
     r:replace_ingredient('electronic-components', 'transistor')
     r:replace_ingredient('intergrated-electronics', 'microchip')
