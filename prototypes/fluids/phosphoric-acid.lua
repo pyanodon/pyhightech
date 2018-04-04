@@ -3,7 +3,7 @@ RECIPE {
     name = "phosphoric-acid",
     category = "distilator",
     enabled = false,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = "fluid", name = "phosphorous-acid", amount = 30},
         {type = "fluid", name = "steam", amount = 120, temperature = 165},
