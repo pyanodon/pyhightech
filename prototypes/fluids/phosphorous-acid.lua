@@ -3,7 +3,7 @@ RECIPE {
     name = "phosphorous-acid",
     category = "hpf",
     enabled = false,
-    energy_required = 8,
+    energy_required = 5,
     ingredients = {
         {type = "fluid", name = "syngas", amount = 80},
         {type = "item", name = "powdered-phosphate-rock", amount = 5},
