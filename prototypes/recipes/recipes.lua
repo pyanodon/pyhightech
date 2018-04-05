@@ -784,7 +784,7 @@ RECIPE {
         {type = 'item', name = 'inductor2', amount = 4},
         {type = 'item', name = 'diode', amount = 3},
         {type = 'item', name = 'capacitor2', amount = 5},
-        {type = 'item', name = 'resistor2', amount = 6}
+        {type = 'item', name = 'resistor2', amount = 15}
     },
     results = {
         {type = 'item', name = 'advanced-circuit', amount = 1}
@@ -3323,9 +3323,8 @@ RECIPE {
     enabled = true,
     energy_required = 25,
     ingredients = {
-        {type = 'item', name = 'copper-plate', amount = 10},
-        {type = 'item', name = 'copper-cable', amount = 10},
-        {type = 'item', name = 'iron-plate', amount = 10},
+        {type = 'item', name = 'copper-plate', amount = 12},
+        {type = 'item', name = 'copper-cable', amount = 12},
         {type = 'item', name = 'wood', amount = 2},
     },
     results = {
