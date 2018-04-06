@@ -33,3 +33,6 @@ RECIPE("robot-brain-logistic-3"):add_ingredient({type = "item", name = "capacito
 RECIPE("robot-brain-construction-3"):add_ingredient({type = "item", name = "inductor3", amount = 5}):add_ingredient({type = "item", name = "resistor3", amount = 5}):add_ingredient({type = "item", name = "processor", amount = 1}):add_ingredient({type = "item", name = "superconductor-servomechanims", amount = 1})
 RECIPE("robot-brain-logistic-4"):add_ingredient({type = "item", name = "supercapacitor", amount = 3}):add_ingredient({type = "item", name = "csle-diode", amount = 5}):add_ingredient({type = "item", name = "hyperelastic-material", amount = 1})
 RECIPE("robot-brain-construction-4"):add_ingredient({type = "item", name = "fault-current-inductor", amount = 3}):add_ingredient({type = "item", name = "paradiamatic-resistor", amount = 5}):add_ingredient({type = "item", name = "hyperelastic-material", amount = 1})
+
+RECIPE('construction-robot-ht'):replace_ingredient('construction-robot', 'bob-construction-robot-4')
+RECIPE('logistic-robot-ht'):replace_ingredient('logistic-robot', 'bob-logistic-robot-4')

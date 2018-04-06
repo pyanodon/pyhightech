@@ -83,8 +83,8 @@ RECIPE('quantum-computer'):replace_ingredient('pipe', 'niobium-pipe')
 
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
-RECIPE('construction-robot-ht'):add_ingredient({type = 'item', name = 'py-construction-robot-01', amount = 1})
-RECIPE('logistic-robot-ht'):add_ingredient({type = 'item', name = 'py-logistic-robot-01', amount = 1})
+RECIPE('construction-robot-ht'):replace_ingredient('construction-robot', 'py-construction-robot-01')
+RECIPE('logistic-robot-ht'):replace_ingredient('logistic-robot', 'py-logistic-robot-01')
 
 TECHNOLOGY('logistic-system'):remove_pack('science-pack-3'):remove_pack('high-tech-science-pack'):remove_pack('production-science-pack')
 TECHNOLOGY('electric-engine'):remove_prereq('advanced-electronics')

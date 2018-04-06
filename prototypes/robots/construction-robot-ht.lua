@@ -10,12 +10,13 @@ RECIPE {
         {"diamagnetic-material", 1},
         {"paramagnetic-material", 1},
         {"intelligent-unit", 1},
+        {"construction-robot", 1},
         {type = "fluid", name = "grease", amount = 300},
     },
     results = {
         {"construction-robot-ht", 1}
     }
-}:add_unlock("earnshaw-theorem"):add_ingredient({type = "item", name = "bob-construction-robot-4", amount = 1})
+}:add_unlock("earnshaw-theorem"):replace_ingredient('construction-robot', 'bob-construction-robot-4')
 
 ITEM {
     type = "item",
