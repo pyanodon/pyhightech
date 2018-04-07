@@ -2481,8 +2481,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'hyperelastic-material', amount = 1}
     }
-}:add_unlock('advanced-electronics')
- --:add_ingredient({type = "item", name = "glass", amount = 4})
+}:add_unlock('advanced-electronics'):add_ingredient({type = "item", name = "rubber", amount = 15})
 
 RECIPE {
     type = 'recipe',
