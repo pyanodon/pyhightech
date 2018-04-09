@@ -1784,7 +1784,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zinc-acetate', amount = 1}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('stone-brick', 'zinc-plate')
+}:add_unlock('semiconductor-doping'):replace_ingredient('stone-brick', 'zinc-plate')
 
 RECIPE {
     type = 'recipe',
