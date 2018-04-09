@@ -580,7 +580,7 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'phenol', amount = 10},
-        {type = 'fluid', name = 'acetone', amount = 25}
+        {type = 'fluid', name = 'acetone', amount = 70}
     },
     main_product = 'phenol'
 }:add_unlock('basic-electronics')
