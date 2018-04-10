@@ -100,13 +100,17 @@ ENTITY {
             production_type = "input",
             pipe_picture = DATA.Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_covers = DATA.Pipes.covers(true, true, false, false),
-            base_area = 1,
-            height = 2,
+            base_area = 10,
             base_level = -1,
-            pipe_connections = {
-                {position = {-5.0, 0.0}},
-                {position = {0.0, 5.0}}
-            }
+            pipe_connections ={{type = "input", position = {-5.0, 0.0}}}
+        },
+        {
+            production_type = "input",
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
+            pipe_covers = DATA.Pipes.covers(true, true, false, false),
+            base_area = 10,
+            base_level = -1,
+            pipe_connections ={{type = "input", position = {0.0, 5.0}}}
         },
         {
             production_type = "output",

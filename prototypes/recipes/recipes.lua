@@ -1290,7 +1290,7 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'silver-foam', amount = 5},
         {type = 'item', name = 'urea', amount = 10},
-        {type = 'item', name = 'collagen', amount = 20},
+        {type = 'item', name = 'collagen', amount = 10},
         {type = 'fluid', name = 'bacteria-2', amount = 25},
         {type = 'fluid', name = 'diesel', amount = 150}
     },
@@ -1600,10 +1600,10 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'fluid', name = 'soaked-gel', amount = 200}
+        {type = 'fluid', name = 'soaked-gel', amount = 100}
     },
     results = {
-        {type = 'item', name = 'aerogel', amount = 1}
+        {type = 'item', name = 'aerogel', amount = 2}
     }
 }:add_unlock('aerogel')
 
@@ -3238,7 +3238,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'item', name = 'dried-meat', amount = 3},
+        {type = 'item', name = 'dried-meat', amount = 10},
         {type = 'item', name = 'coal-dust', amount = 10},
         {type = 'item', name = 'iron-plate', amount = 1},
         {type = 'fluid', name = 'sulfuric-acid', amount = 50}
