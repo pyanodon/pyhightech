@@ -1313,7 +1313,7 @@ RECIPE {
         {type = 'item', name = 'vanadium-oxide', amount = 3}
     },
     results = {
-        {type = 'item', name = 'carbon-nanotube', amount = 1}
+        {type = 'item', name = 'carbon-nanotube', amount = 2}
     }
 }:add_unlock('nano-tech')
 
