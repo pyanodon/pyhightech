@@ -13,6 +13,38 @@ RECIPE {
     main_product = "methane",
 }
 
+RECIPE {
+    type = "recipe",
+    name = "methane-py-fertilizer",
+    category = "moon",
+    enabled = true,
+    energy_required = 10,
+    ingredients = {
+        {type = "fluid", name = "water", amount = 100},
+        {type = "item", name = "py-fertilizer", amount = 1},
+    },
+    results = {
+        {type = "fluid", name = "methane", amount = 30}
+    },
+    main_product = "methane",
+}
+
+RECIPE {
+    type = "recipe",
+    name = "methane-co2",
+    category = "moon",
+    enabled = true,
+    energy_required = 18,
+    ingredients = {
+        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "carbon-dioxide", amount = 100},
+    },
+    results = {
+        {type = "fluid", name = "methane", amount = 30}
+    },
+    main_product = "methane",
+}
+
 FLUID {
     type = "fluid",
     name = "methane",
