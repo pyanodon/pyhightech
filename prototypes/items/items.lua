@@ -1418,7 +1418,7 @@ ITEM {
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 200
+    stack_size = 5
 }
 ITEM {
     type = "item",
