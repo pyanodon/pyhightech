@@ -2182,7 +2182,7 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'bones', amount = 5},
-        {type = 'item', name = 'skin', amount = 10},
+        {type = 'item', name = 'skin', amount = 15},
         {type = 'item', name = 'meat', amount = 3},
         {type = 'fluid', name = 'blood', amount = 30}
     },
