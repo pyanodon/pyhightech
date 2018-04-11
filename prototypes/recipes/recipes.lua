@@ -579,8 +579,8 @@ RECIPE {
         {type = 'fluid', name = 'cumene', amount = 50}
     },
     results = {
-        {type = 'item', name = 'phenol', amount = 10},
-        {type = 'fluid', name = 'acetone', amount = 70}
+        {type = 'item', name = 'phenol', amount = 5},
+        {type = 'fluid', name = 'acetone', amount = 100}
     },
     main_product = 'phenol'
 }:add_unlock('basic-electronics')
@@ -821,7 +821,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = 'item', name = 'phenol', amount = 6},
+        {type = 'item', name = 'phenol', amount = 10},
         {type = 'fluid', name = 'acetone', amount = 20}
     },
     results = {
