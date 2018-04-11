@@ -709,6 +709,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
+        {type = 'item', name = 'resistor1', amount = 3},
         {type = 'item', name = 'fecr-alloy', amount = 4},
         {type = 'fluid', name = 'boric-acid', amount = 50},
         {type = 'item', name = 'cermet', amount = 3}
@@ -745,6 +746,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'melamine-resin', amount = 5},
+        {type = 'item', name = 'inductor1', amount = 5},
         {type = 'item', name = 'ferrite', amount = 10},
         {type = 'item', name = 'copper-cable', amount = 20}
     },
@@ -761,6 +763,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'cermet', amount = 5},
+        {type = 'item', name = 'capacitor1', amount = 5},
         {type = 'item', name = 'steel-plate', amount = 10},
         {type = 'item', name = 'copper-cable', amount = 20},
         {type = 'fluid', name = 'boric-acid', amount = 200}
@@ -1295,7 +1298,7 @@ RECIPE {
         {type = 'fluid', name = 'diesel', amount = 150}
     },
     results = {
-        {type = 'item', name = 'biopolymer', amount = 4}
+        {type = 'item', name = 'biopolymer', amount = 5}
     }
 }:add_unlock('nano-tech')
 
