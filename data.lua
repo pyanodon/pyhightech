@@ -71,3 +71,5 @@ require("prototypes/fluids/blood")
 require("prototypes/fluids/carbon-sulfide")
 require("prototypes/fluids/etching")
 require("prototypes/fluids/nitrobenzene")
+
+table.insert(data.raw.player.player.crafting_categories, "handcrafting")

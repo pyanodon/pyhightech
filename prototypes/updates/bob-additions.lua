@@ -268,12 +268,12 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'electronic-circuit-initial',
-    category = 'crafting',
+    category = 'handcrafting',
     enabled = true,
     energy_required = 10,
     ingredients = {
-        {type = 'item', name = 'copper-plate', amount = 15},
-        {type = 'item', name = 'copper-cable', amount = 15},
+        {type = 'item', name = 'copper-plate', amount = 10},
+        {type = 'item', name = 'copper-cable', amount = 10},
         {type = 'item', name = 'wood', amount = 2}
     },
     results = {
