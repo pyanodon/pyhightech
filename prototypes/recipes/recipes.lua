@@ -1606,7 +1606,7 @@ RECIPE {
         {type = 'fluid', name = 'soaked-gel', amount = 100}
     },
     results = {
-        {type = 'item', name = 'aerogel', amount = 2}
+        {type = 'item', name = 'aerogel', amount = 4}
     }
 }:add_unlock('aerogel')
 
