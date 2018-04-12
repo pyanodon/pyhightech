@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item", name = "clean-rf-gel", amount = 1},
-        {type = "fluid", name = "acetone", amount = 50},
+        {type = "fluid", name = "acetone", amount = 40},
     },
     results = {
         {type = "fluid", name = "soaked-gel", amount = 50},
