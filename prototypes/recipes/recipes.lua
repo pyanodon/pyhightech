@@ -1402,7 +1402,7 @@ RECIPE {
         {type = 'fluid', name = 'carbon-dioxide', amount = 200}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 10}
+        {type = 'item', name = 'raw-fiber', amount = 15}
     }
 }:add_unlock('basic-electronics')
 
@@ -3323,10 +3323,10 @@ RECIPE {
     name = 'electronic-circuit-initial',
     category = 'crafting',
     enabled = true,
-    energy_required = 25,
+    energy_required = 10,
     ingredients = {
-        {type = 'item', name = 'copper-plate', amount = 12},
-        {type = 'item', name = 'copper-cable', amount = 12},
+        {type = 'item', name = 'copper-plate', amount = 15},
+        {type = 'item', name = 'copper-cable', amount = 15},
         {type = 'item', name = 'wood', amount = 2},
     },
     results = {
