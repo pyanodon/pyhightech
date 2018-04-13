@@ -10,8 +10,8 @@ RECIPE {
         {type = "item", name = "raw-wood", amount = 10},
     },
     results = {
-        {type = "fluid", name = "phosphoric-acid", amount = 15},
-		{type = "fluid", name = "phosphine-gas", amount = 15},
+        {type = "fluid", name = "phosphoric-acid", amount = 25},
+		{type = "fluid", name = "phosphine-gas", amount = 10},
     },
     main_product = "phosphine-gas",
 }:add_unlock("basic-electronics")
