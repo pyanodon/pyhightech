@@ -1442,6 +1442,22 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
+    name = 'raw-fiber4',
+    category = 'kicalk',
+    enabled = true,
+    energy_required = 60,
+    ingredients = {
+        {type = 'item', name = 'clay', amount = 5},
+        {type = 'item', name = 'soil', amount = 30},
+        {type = 'fluid', name = 'water', amount = 20}
+    },
+    results = {
+        {type = 'item', name = 'raw-fiber', amount = 8}
+    }
+}
+
+RECIPE {
+    type = 'recipe',
     name = 'bonemeal2',
     category = 'ulric',
     enabled = 'false',
