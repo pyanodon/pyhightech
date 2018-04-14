@@ -2792,7 +2792,7 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = 'item', name = 'myoglobin', amount = 5},
+        {type = 'item', name = 'myoglobin', amount = 25},
         {type = 'item', name = 'chromium', amount = 5},
         {type = 'item', name = 'iron-plate', amount = 5},
         {type = 'item', name = 'nylon', amount = 2},
