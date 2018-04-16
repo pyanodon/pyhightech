@@ -278,6 +278,5 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'pcb1', amount = 1}
-    },
-    main_product = 'pcb1'
+    }
 }

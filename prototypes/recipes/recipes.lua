@@ -478,7 +478,7 @@ RECIPE {
         {type = 'item', name = 'silicon-wafer', amount = 5}
     },
     main_product = 'silicon-wafer'
-}:add_unlock('basic-electronics'):add_ingredient({type = 'item', name = 'crushed-quartz', amount = 2})
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1005,7 +1005,7 @@ RECIPE {
         {type = 'item', name = 'phosphate-glass', amount = 1}
     },
     main_product = 'phosphate-glass'
-}:add_unlock('advanced-electronics'):replace_ingredient('glass-fiber', 'crushed-quartz')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2516,7 +2516,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nano-wires', amount = 5}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'item', name = 'crushed-gold', amount = 10})
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -3347,6 +3347,5 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'electronic-circuit', amount = 1}
-    },
-    main_product = 'electronic-circuit'
+    }
 }
