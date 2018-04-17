@@ -41,7 +41,7 @@ RECIPE('hydrogen-peroxide'):remove_unlock('coal-processing-3'):add_unlock('basic
 RECIPE('agitator'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
 RECIPE('agitator'):replace_ingredient('plastic-bar', 'melamine'):replace_ingredient('electric-engine-unit', 'engine-unit')
 RECIPE('mixer'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
-RECIPE('mixer'):replace_ingredient('titanium-bearing', 'steel-bearing'):replace_ingredient('titanium-plate', 'nexelit-plate')
+--RECIPE('mixer'):replace_ingredient('titanium-bearing', 'steel-bearing'):replace_ingredient('titanium-plate', 'nexelit-plate')
 RECIPE('ball-mill'):remove_ingredient('py-asphalt'):add_ingredient({type = 'item', name = 'electronic-circuit', amount = 10})
 RECIPE('py-heat-exchanger'):add_ingredient({type = 'item', name = 'processing-unit', amount = 4})
 RECIPE('science-coating'):add_ingredient({type = 'item', name = 'nylon', amount = 5}):add_ingredient({type = 'item', name = 'zinc-acetate', amount = 15})
