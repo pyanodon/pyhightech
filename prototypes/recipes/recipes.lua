@@ -1687,7 +1687,7 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'copper-plate', amount = 10},
         {type = 'item', name = 'reo', amount = 5},
-        {type = 'item', name = 'uranium-238', amount = 2},
+        {type = 'item', name = 'uranium-238', amount = 6},
         {type = 'item', name = 'fuelrod-mk01', amount = 2},
         {type = 'item', name = 'sand-casting', amount = 4}
     },
