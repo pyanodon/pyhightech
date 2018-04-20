@@ -2991,7 +2991,7 @@ RECIPE {
     energy_required = 60,
     ingredients = {
         {type = 'item', name = 'nv-center', amount = 1},
-        {type = 'item', name = 'quantum-dots', amount = 1},
+        {type = 'item', name = 'quantum-dots', amount = 4},
         {type = 'item', name = 'pi-josephson-junction', amount = 1},
         {type = 'item', name = 'var-josephson-junction', amount = 1},
         {type = 'item', name = 'quantum-vortex-storage-system', amount = 1},
