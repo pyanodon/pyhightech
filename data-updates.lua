@@ -79,10 +79,10 @@ RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('basic-electronic
 RECIPE('hydrocyclone'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
 RECIPE('thickener'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
 RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
-RECIPE('quantum-computer'):replace_ingredient('pipe', 'niobium-pipe')
 
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
+RECIPE('quantum-computer'):replace_ingredient('pipe', 'niobium-pipe')
 RECIPE('construction-robot-ht'):replace_ingredient('construction-robot', 'py-construction-robot-01')
 RECIPE('logistic-robot-ht'):replace_ingredient('logistic-robot', 'py-logistic-robot-01')
 
@@ -91,3 +91,14 @@ TECHNOLOGY('electric-engine'):remove_prereq('advanced-electronics')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
 
 ITEM('high-tech-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
+
+for _, player in pairs(data.raw["player"]) do
+    if player.crafting_categories then
+        player.crafting_categories[#player.crafting_categories + 1] = "handcrafting"
+    end
+end
+for _, controller in pairs(data.raw["god-controller"]) do
+    if controller.crafting_categories then
+        controller.crafting_categories[#controller.crafting_categories + 1] = "handcrafting"
+    end
+end
