@@ -270,7 +270,7 @@ RECIPE {
     name = 'electronic-circuit-initial',
     category = 'handcrafting',
     enabled = true,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = 'item', name = 'copper-plate', amount = 10},
         {type = 'item', name = 'copper-cable', amount = 10},

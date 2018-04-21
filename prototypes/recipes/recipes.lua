@@ -3314,6 +3314,20 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
+    name = 'phosphoric-acid2',
+    category = 'hpf',
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = 'fluid', name = 'phosphine-gas', amount = 50}
+    },
+    results = {
+        {type = 'fluid', name = 'phosphoric-acid', amount = 40}
+    }
+}:add_unlock('basic-electronics'):add_ingredient({type = 'fluid', name = 'oxygen', amount = 30})
+
+RECIPE {
+    type = 'recipe',
     name = 'methane-combustion',
     category = 'combustion',
     enabled = 'false',
