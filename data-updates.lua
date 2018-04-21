@@ -92,13 +92,10 @@ TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
 
 ITEM('high-tech-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
 
-for _, player in pairs(data.raw["player"]) do
-    if player.crafting_categories then
-        player.crafting_categories[#player.crafting_categories + 1] = "handcrafting"
-    end
+local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
+for _, player in DATA:pairs('player') do
+    player.crafting_categories = player:get_field('crafting_categories', default) + 'handcrafting'
 end
-for _, controller in pairs(data.raw["god-controller"]) do
-    if controller.crafting_categories then
-        controller.crafting_categories[#controller.crafting_categories + 1] = "handcrafting"
-    end
+for _, controller in DATA:pairs('god-controller') do
+    controller.crafting_categories = controller:get_field('crafting_categories', default) + 'handcrafting'
 end
