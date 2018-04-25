@@ -279,7 +279,7 @@ RECIPE {
         {type = 'item', name = 'copper-plate', amount = 2}
     },
     results = {
-        {type = 'item', name = 'capacitor1', amount = 2}
+        {type = 'item', name = 'capacitor1', amount = 3}
     },
     main_product = 'capacitor1'
 }:add_ingredient({type = 'item', name = 'resin', amount = 2}):replace_ingredient('copper-plate', 'tin-plate')
@@ -295,7 +295,7 @@ RECIPE {
         {type = 'item', name = 'coke', amount = 2}
     },
     results = {
-        {type = 'item', name = 'resistor1', amount = 2}
+        {type = 'item', name = 'resistor1', amount = 3}
     },
     main_product = 'resistor1'
 }:add_ingredient({type = 'item', name = 'glass', amount = 1}):replace_ingredient('iron-plate', 'tin-plate')
@@ -648,7 +648,7 @@ RECIPE {
         {type = 'item', name = 'light-n', amount = 10},
         {type = 'item', name = 'p-dope', amount = 10},
         {type = 'item', name = 'plastic-bar', amount = 5},
-        {type = 'item', name = 'cermet', amount = 10},
+        {type = 'item', name = 'cermet', amount = 5},
         {type = 'item', name = 'copper-cable', amount = 10}
     },
     results = {
@@ -734,7 +734,7 @@ RECIPE {
         {type = 'item', name = 'nylon', amount = 3}
     },
     results = {
-        {type = 'item', name = 'diode', amount = 2}
+        {type = 'item', name = 'diode', amount = 3}
     }
 }:add_unlock('semiconductor-doping'):add_ingredient({type = 'item', name = 'tinned-copper-cable', amount = 20})
 
@@ -778,7 +778,7 @@ RECIPE {
     name = 'advanced-circuit',
     category = 'chip',
     enabled = false,
-    energy_required = 12,
+    energy_required = 5,
     ingredients = {
         {type = 'item', name = 'pcb2', amount = 1},
         {type = 'item', name = 'electronic-circuit', amount = 1},
@@ -790,7 +790,7 @@ RECIPE {
         {type = 'item', name = 'resistor2', amount = 15}
     },
     results = {
-        {type = 'item', name = 'advanced-circuit', amount = 1}
+        {type = 'item', name = 'advanced-circuit', amount = 3}
     },
     main_product = 'advanced-circuit'
 }:add_unlock('basic-electronics')
@@ -1212,7 +1212,7 @@ RECIPE {
         {type = 'item', name = 'boron-carbide', amount = 1}
     },
     results = {
-        {type = 'item', name = 'capacitor-core', amount = 1}
+        {type = 'item', name = 'capacitor-core', amount = 2}
     }
 }:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'sodium-hydroxide', amount = 30})
 
@@ -1228,7 +1228,7 @@ RECIPE {
         {type = 'fluid', name = 'boric-acid', amount = 50}
     },
     results = {
-        {type = 'item', name = 'capacitor-termination', amount = 1}
+        {type = 'item', name = 'capacitor-termination', amount = 2}
     }
 }:add_unlock('advanced-electronics'):replace_ingredient('boric-acid', 'liquid-nitrogen'):replace_ingredient('steel-plate', 'nickel-plate'):replace_ingredient('copper-plate', 'tin-plate'):add_ingredient({type = 'item', name = 'silver-plate', amount = 1})
 
@@ -1241,10 +1241,10 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'capacitor-core', amount = 1},
         {type = 'item', name = 'capacitor-termination', amount = 1},
-        {type = 'fluid', name = 'vacuum', amount = 50}
+        {type = 'fluid', name = 'vacuum', amount = 100}
     },
     results = {
-        {type = 'item', name = 'capacitor3', amount = 1}
+        {type = 'item', name = 'capacitor3', amount = 2}
     }
 }:add_unlock('advanced-electronics')
 
@@ -1253,20 +1253,20 @@ RECIPE {
     name = 'processing-unit',
     category = 'chip',
     enabled = false,
-    energy_required = 12,
+    energy_required = 10,
     ingredients = {
         {type = 'item', name = 'pcb3-2', amount = 1},
         {type = 'item', name = 'advanced-circuit', amount = 1},
         {type = 'item', name = 'resistor3', amount = 3},
         {type = 'item', name = 'inductor3', amount = 3},
-        {type = 'item', name = 'capacitor3', amount = 2},
+        {type = 'item', name = 'capacitor3', amount = 3},
         {type = 'item', name = 'microchip', amount = 3},
         {type = 'item', name = 'optical-fiber', amount = 3},
         {type = 'item', name = 'processor', amount = 1},
         {type = 'item', name = 'diode3', amount = 5}
     },
     results = {
-        {type = 'item', name = 'processing-unit', amount = 1}
+        {type = 'item', name = 'processing-unit', amount = 3}
     }
 }:add_unlock('advanced-electronics')
 
@@ -2105,7 +2105,7 @@ RECIPE {
     name = 'intelligent-unit',
     category = 'chip',
     enabled = false,
-    energy_required = 30,
+    energy_required = 15,
     ingredients = {
         {type = 'item', name = 'pcb4', amount = 1},
         {type = 'item', name = 'processing-unit', amount = 1},
@@ -2118,7 +2118,7 @@ RECIPE {
         {type = 'item', name = 'fault-current-inductor', amount = 1}
     },
     results = {
-        {type = 'item', name = 'intelligent-unit', amount = 2}
+        {type = 'item', name = 'intelligent-unit', amount = 1}
     }
 }:add_unlock('nano-tech')
 
@@ -3353,13 +3353,13 @@ RECIPE {
     name = 'electronic-circuit-initial',
     category = 'handcrafting',
     enabled = true,
-    energy_required = 5,
+    energy_required = 2,
     ingredients = {
         {type = 'item', name = 'copper-plate', amount = 10},
         {type = 'item', name = 'copper-cable', amount = 10},
         {type = 'item', name = 'wood', amount = 2},
     },
     results = {
-        {type = 'item', name = 'electronic-circuit', amount = 1}
+        {type = 'item', name = 'electronic-circuit', amount = 3}
     }
 }
