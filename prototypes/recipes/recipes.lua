@@ -398,7 +398,7 @@ RECIPE {
         {type = 'item', name = 'resistor1', amount = 6}
     },
     results = {
-        {type = 'item', name = 'electronic-circuit', amount = 2}
+        {type = 'item', name = 'electronic-circuit', amount = 3}
     },
     main_product = 'electronic-circuit'
 }
