@@ -1402,7 +1402,7 @@ RECIPE {
         {type = 'fluid', name = 'carbon-dioxide', amount = 200}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 15}
+        {type = 'item', name = 'raw-fiber', amount = 20}
     }
 }:add_unlock('basic-electronics')
 
@@ -1436,7 +1436,7 @@ RECIPE {
         {type = 'fluid', name = 'carbon-dioxide', amount = 200}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 10}
+        {type = 'item', name = 'raw-fiber', amount = 15}
     }
 }:add_unlock('basic-electronics')
 
@@ -1452,7 +1452,20 @@ RECIPE {
         {type = 'fluid', name = 'water', amount = 20}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 8}
+        {type = 'item', name = 'raw-fiber', amount = 5}
+    }
+}
+RECIPE {
+    type = 'recipe',
+    name = 'raw-fiber5',
+    category = 'wpu',
+    enabled = true,
+    energy_required = 20,
+    ingredients = {
+        {type = 'item', name = 'log', amount = 1},
+    },
+    results = {
+        {type = 'item', name = 'raw-fiber', amount = 4}
     }
 }
 
