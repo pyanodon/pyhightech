@@ -15,7 +15,6 @@ RECIPE {
     ingredients = {
         {"botanical-nursery", 2},
         {"ralesia-plantation", 1},
-        {"electronic-circuit", 5},
         {"storage-tank", 1}, --replace py-tank-5000
         {"classifier", 1},
 

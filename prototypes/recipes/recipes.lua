@@ -193,10 +193,10 @@ RECIPE {
     energy_required = 20,
     ingredients = {
         {type = 'item', name = 'fawogae', amount = 10},
-        {type = 'item', name = 'raw-fiber', amount = 6}
+        {type = 'item', name = 'raw-fiber', amount = 5}
     },
     results = {
-        {type = 'item', name = 'urea', amount = 15}
+        {type = 'item', name = 'urea', amount = 20}
     },
     main_product = 'urea'
 }:add_unlock('coal-processing-1')
@@ -206,7 +206,7 @@ RECIPE {
     name = 'urea-decomposition',
     category = 'distilator',
     enabled = true,
-    energy_required = 10,
+    energy_required = 7,
     ingredients = {
         {type = 'item', name = 'urea', amount = 20}
     },
@@ -1411,7 +1411,7 @@ RECIPE {
     name = 'raw-fiber2',
     category = 'kicalk',
     enabled = true,
-    energy_required = 40,
+    energy_required = 20,
     ingredients = {
         {type = 'item', name = 'clay', amount = 5},
         {type = 'item', name = 'small-lamp', amount = 1},
@@ -1445,7 +1445,7 @@ RECIPE {
     name = 'raw-fiber4',
     category = 'kicalk',
     enabled = true,
-    energy_required = 60,
+    energy_required = 30,
     ingredients = {
         {type = 'item', name = 'clay', amount = 5},
         {type = 'item', name = 'soil', amount = 30},
@@ -1460,7 +1460,7 @@ RECIPE {
     name = 'raw-fiber5',
     category = 'wpu',
     enabled = true,
-    energy_required = 20,
+    energy_required = 35,
     ingredients = {
         {type = 'item', name = 'log', amount = 1},
     },
