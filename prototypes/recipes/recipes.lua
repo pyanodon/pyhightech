@@ -148,7 +148,7 @@ RECIPE {
         {type = 'fluid', name = 'steam', amount = 100, temperature = 165}
     },
     results = {
-        {type = 'item', name = 'clay', amount = 2}
+        {type = 'item', name = 'clay', amount = 3}
     },
     main_product = 'clay'
 }
@@ -193,10 +193,10 @@ RECIPE {
     energy_required = 20,
     ingredients = {
         {type = 'item', name = 'fawogae', amount = 10},
-        {type = 'item', name = 'raw-fiber', amount = 5}
+        {type = 'item', name = 'raw-fiber', amount = 6}
     },
     results = {
-        {type = 'item', name = 'urea', amount = 20}
+        {type = 'item', name = 'urea', amount = 15}
     },
     main_product = 'urea'
 }:add_unlock('coal-processing-1')
@@ -206,7 +206,7 @@ RECIPE {
     name = 'urea-decomposition',
     category = 'distilator',
     enabled = true,
-    energy_required = 7,
+    energy_required = 10,
     ingredients = {
         {type = 'item', name = 'urea', amount = 20}
     },
@@ -247,7 +247,7 @@ RECIPE {
         {type = 'item', name = 'coke', amount = 1}
     },
     results = {
-        {type = 'item', name = 'ceramic', amount = 1}
+        {type = 'item', name = 'ceramic', amount = 5}
     },
     main_product = 'ceramic'
 }
@@ -1402,7 +1402,7 @@ RECIPE {
         {type = 'fluid', name = 'carbon-dioxide', amount = 200}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 20}
+        {type = 'item', name = 'raw-fiber', amount = 15}
     }
 }:add_unlock('basic-electronics')
 
@@ -1411,7 +1411,7 @@ RECIPE {
     name = 'raw-fiber2',
     category = 'kicalk',
     enabled = true,
-    energy_required = 20,
+    energy_required = 40,
     ingredients = {
         {type = 'item', name = 'clay', amount = 5},
         {type = 'item', name = 'small-lamp', amount = 1},
@@ -1436,7 +1436,7 @@ RECIPE {
         {type = 'fluid', name = 'carbon-dioxide', amount = 200}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 15}
+        {type = 'item', name = 'raw-fiber', amount = 10}
     }
 }:add_unlock('basic-electronics')
 
@@ -1445,27 +1445,14 @@ RECIPE {
     name = 'raw-fiber4',
     category = 'kicalk',
     enabled = true,
-    energy_required = 30,
+    energy_required = 60,
     ingredients = {
         {type = 'item', name = 'clay', amount = 5},
         {type = 'item', name = 'soil', amount = 30},
         {type = 'fluid', name = 'water', amount = 20}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 5}
-    }
-}
-RECIPE {
-    type = 'recipe',
-    name = 'raw-fiber5',
-    category = 'wpu',
-    enabled = true,
-    energy_required = 35,
-    ingredients = {
-        {type = 'item', name = 'log', amount = 1},
-    },
-    results = {
-        {type = 'item', name = 'raw-fiber', amount = 4}
+        {type = 'item', name = 'raw-fiber', amount = 8}
     }
 }
 
