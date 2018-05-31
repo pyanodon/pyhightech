@@ -64,6 +64,7 @@ RECIPE('b2o3-milling'):remove_unlock('fusion-mk01'):add_unlock('basic-electronic
 RECIPE('genlab'):remove_unlock('fusion-mk01'):add_unlock('nano-tech')
 RECIPE('fusion-reactor-mk01'):replace_ingredient('advanced-circuit', 'processing-unit')
 RECIPE('fusion-reactor-mk02'):replace_ingredient('advanced-circuit', 'intelligent-unit')
+RECIPE('small-lamp'):replace_ingredient('electronic-circuit', 'copper-plate')
 RECIPE('electronic-circuit'):change_category('chip')
 RECIPE('advanced-circuit'):change_category('chip')
 RECIPE('processing-unit'):change_category('chip')
