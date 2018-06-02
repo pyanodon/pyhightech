@@ -26,7 +26,7 @@ RECIPE("wood-board"):set_enabled(false):remove_unlock()
 
 RECIPE("phosphate-glass"):replace_ingredient('glass-fiber', 'crushed-quartz')
 RECIPE("silicon-wafer"):add_ingredient({type = 'item', name = 'crushed-quartz', amount = 2})
-RECIPE('small-lamp'):replace_ingredient('electronic-circuit', 'copper-plate')
+RECIPE('small-lamp'):replace_ingredient('basic-circuit-board', 'copper-plate')
 RECIPE("nano-wires"):add_ingredient({type = 'item', name = 'crushed-gold', amount = 10})
 
 RECIPE("robot-brain-logistic"):add_ingredient({type = "item", name = "paramagnetic-material", amount = 1}):add_ingredient({type = "item", name = "inductor2", amount = 5})
