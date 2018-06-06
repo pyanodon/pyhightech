@@ -75,7 +75,6 @@ RECIPE {
     energy_required = 8,
     ingredients = {
         {type = 'fluid', name = 'ree-solution', amount = 100},
-        {type = 'fluid', name = 'water', amount = 200},
         {type = 'fluid', name = 'cyanic-acid', amount = 50}
     },
     results = {
