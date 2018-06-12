@@ -3323,7 +3323,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'phosphoric-acid', amount = 40}
     }
-}:add_unlock('basic-electronics'):add_ingredient({type = 'fluid', name = 'oxygen', amount = 30})
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
