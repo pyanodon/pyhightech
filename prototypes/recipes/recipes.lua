@@ -1130,7 +1130,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'high-flux-core', amount = 1}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('liquid-pure-air', 'liquid-nitrogen')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1181,7 +1181,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'diode-core', amount = 3}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('liquid-pure-air', 'liquid-nitrogen')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1229,7 +1229,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor-termination', amount = 2}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('boric-acid', 'liquid-nitrogen'):replace_ingredient('steel-plate', 'nickel-plate'):replace_ingredient('copper-plate', 'tin-plate'):add_ingredient({type = 'item', name = 'silver-plate', amount = 1})
+}:add_unlock('advanced-electronics'):replace_ingredient('steel-plate', 'nickel-plate'):replace_ingredient('copper-plate', 'tin-plate'):add_ingredient({type = 'item', name = 'silver-plate', amount = 1})
 
 RECIPE {
     type = 'recipe',
@@ -1639,7 +1639,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'carbon-aerogel', amount = 1}
     }
-}:add_unlock('aerogel'):replace_ingredient('syngas', 'nitrogen'):replace_ingredient('silicon', 'quartz')
+}:add_unlock('aerogel'):replace_ingredient('silicon', 'quartz')
 
 RECIPE {
     type = 'recipe',
@@ -1990,7 +1990,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'superconductor', amount = 1}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'gold-plate', amount = 1}):replace_ingredient('liquid-helium', 'liquid-nitrogen')
+}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'gold-plate', amount = 1})
 
 RECIPE {
     type = 'recipe',
