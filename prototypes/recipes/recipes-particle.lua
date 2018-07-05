@@ -108,7 +108,7 @@ RECIPE {
     name = "pa-coal",
     category = "pa",
     enabled = false,
-    energy_required = 15,
+    energy_required = 10,
     ingredients = {
         {type = "item", name = "sand", amount = 30},
         {type = "item", name = "proton-receiver", amount = 1},
@@ -192,13 +192,13 @@ RECIPE {
     name = "pa-vanadium",
     category = "pa",
     enabled = false,
-    energy_required = 15,
+    energy_required = 40,
     ingredients = {
         {type = "item", name = "chromium", amount = 10},
         {type = "item", name = "proton-receiver", amount = 2},
     },
     results = {
-        {type = "item", name = "vanadium-oxide", amount = 10},
+        {type = "item", name = "vanadium-oxide", amount = 6},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "vanadium-oxide",
@@ -219,7 +219,7 @@ RECIPE {
         {type = "item", name = "proton-donor", amount = 2},
     },
     results = {
-        {type = "item", name = "uranium-ore", amount = 20},
+        {type = "item", name = "uranium-ore", amount = 10},
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "uranium-ore",
