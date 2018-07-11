@@ -225,7 +225,7 @@ RECIPE {
     ingredients = {
         {type = 'fluid', name = 'water', amount = 200},
         {type = 'fluid', name = 'cyanic-acid', amount = 20},
-        {type = 'fluid', name = 'ammonia', amount = 10}
+        {type = 'fluid', name = 'ammonia', amount = 20}
     },
     results = {
         {type = 'item', name = 'melamine', amount = 20},
