@@ -176,7 +176,7 @@ RECIPE {
     enabled = true,
     energy_required = 30,
     ingredients = {
-        {type = 'item', name = 'fawogae', amount = 12}
+        {type = 'item', name = 'fawogae', amount = 5}
     },
     results = {
         {type = 'item', name = 'urea', amount = 15}
@@ -191,11 +191,11 @@ RECIPE {
     enabled = false,
     energy_required = 20,
     ingredients = {
-        {type = 'item', name = 'fawogae', amount = 10},
+        {type = 'item', name = 'fawogae', amount = 4},
         {type = 'item', name = 'raw-fiber', amount = 6}
     },
     results = {
-        {type = 'item', name = 'urea', amount = 15}
+        {type = 'item', name = 'urea', amount = 20}
     },
     main_product = 'urea'
 }:add_unlock('coal-processing-1')
@@ -1498,7 +1498,7 @@ RECIPE {
         {type = 'item', name = 'raw-fiber', amount = 5}
     },
     results = {
-        {type = 'item', name = 'mukmoux-fat', amount = 20}
+        {type = 'item', name = 'mukmoux-fat', amount = 25}
     }
 }:add_unlock('advanced-electronics')
 
@@ -2294,7 +2294,7 @@ RECIPE {
         {type = 'item', name = 'py-fertilizer', amount = 4}
     },
     results = {
-        {type = 'item', name = 'fawogae', amount = 10}
+        {type = 'item', name = 'fawogae', amount = 20}
     }
 }:add_unlock('advanced-electronics')
 
