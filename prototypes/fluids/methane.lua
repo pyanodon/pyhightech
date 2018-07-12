@@ -24,7 +24,7 @@ RECIPE {
         {type = "item", name = "py-fertilizer", amount = 1},
     },
     results = {
-        {type = "fluid", name = "methane", amount = 30}
+        {type = "fluid", name = "methane", amount = 50}
     },
     main_product = "methane",
 }
