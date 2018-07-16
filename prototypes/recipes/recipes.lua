@@ -2202,7 +2202,7 @@ RECIPE {
         {type = 'item', name = 'bones', amount = 5},
         {type = 'item', name = 'skin', amount = 15},
         {type = 'item', name = 'meat', amount = 3},
-        {type = 'fluid', name = 'blood', amount = 30}
+        {type = 'fluid', name = 'blood', amount = 60}
     },
     icon = '__pyhightech__/graphics/icons/rendering.png',
     icon_size = 32,
