@@ -11,7 +11,7 @@ RECIPE {
         {type = "item", name = "mukmoux-fat", amount = 10},
     },
     results = {
-        {type = "fluid", name = "etching", amount = 80}
+        {type = "fluid", name = "etching", amount = 150}
     },
 }:add_unlock("basic-electronics")
 
