@@ -338,7 +338,7 @@ RECIPE {
     enabled = true,
     energy_required = 10,
     ingredients = {
-        {type = 'item', name = 'treated-wood', amount = 5},
+        {type = 'item', name = 'treated-wood', amount = 3},
         {type = 'item', name = 'raw-fiber', amount = 5},
         {type = 'fluid', name = 'steam', amount = 500, temperature = 165}
     },
@@ -509,7 +509,7 @@ RECIPE {
         {type = 'fluid', name = 'etching', amount = 20}
     },
     results = {
-        {type = 'item', name = 'light-n', amount = 5}
+        {type = 'item', name = 'light-n', amount = 10}
     },
     main_product = 'light-n'
 }:add_unlock('semiconductor-doping')
@@ -526,7 +526,7 @@ RECIPE {
         {type = 'fluid', name = 'etching', amount = 20}
     },
     results = {
-        {type = 'item', name = 'heavy-n', amount = 5}
+        {type = 'item', name = 'heavy-n', amount = 10}
     },
     main_product = 'heavy-n'
 }:add_unlock('semiconductor-doping'):add_ingredient({type = 'item', name = 'lithium', amount = 5})
@@ -544,7 +544,7 @@ RECIPE {
         {type = 'fluid', name = 'etching', amount = 20}
     },
     results = {
-        {type = 'item', name = 'p-dope', amount = 5}
+        {type = 'item', name = 'p-dope', amount = 10}
     },
     main_product = 'p-dope'
 }:add_unlock('semiconductor-doping')
@@ -708,13 +708,13 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'item', name = 'resistor1', amount = 3},
+        {type = 'item', name = 'resistor1', amount = 4},
         {type = 'item', name = 'fecr-alloy', amount = 4},
         {type = 'fluid', name = 'boric-acid', amount = 50},
         {type = 'item', name = 'cermet', amount = 3}
     },
     results = {
-        {type = 'item', name = 'resistor2', amount = 3}
+        {type = 'item', name = 'resistor2', amount = 4}
     }
 }:add_unlock('basic-electronics')
 
@@ -733,7 +733,7 @@ RECIPE {
         {type = 'item', name = 'nylon', amount = 3}
     },
     results = {
-        {type = 'item', name = 'diode', amount = 3}
+        {type = 'item', name = 'diode', amount = 4}
     }
 }:add_unlock('semiconductor-doping'):add_ingredient({type = 'item', name = 'tinned-copper-cable', amount = 20})
 
@@ -964,7 +964,7 @@ RECIPE {
         {type = 'item', name = 'nexelit-plate', amount = 5}
     },
     results = {
-        {type = 'item', name = 'heavy-p-type', amount = 5}
+        {type = 'item', name = 'heavy-p-type', amount = 10}
     },
     main_product = 'heavy-p-type'
 }:add_unlock('advanced-electronics')
@@ -2128,7 +2128,7 @@ RECIPE {
     enabled = false,
     energy_required = 60,
     ingredients = {
-        {type = 'item', name = 'stone-wool', amount = 5},
+        {type = 'item', name = 'stone-wool', amount = 3},
         {type = 'fluid', name = 'water', amount = 200},
         {type = 'item', name = 'fawogae-substrate', amount = 10},
         {type = 'fluid', name = 'pressured-water', amount = 300}

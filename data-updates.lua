@@ -80,6 +80,8 @@ RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('basic-electronic
 RECIPE('hydrocyclone'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
 RECIPE('thickener'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
 RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
+RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-circuit')
+RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
 
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
