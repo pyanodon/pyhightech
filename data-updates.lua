@@ -25,6 +25,7 @@ for _, recipe in pairs(data.raw.recipe) do
     r:replace_ingredient('module-processor-board-3', 'pcb4')
 end
 
+RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 RECIPE('vacuum-pump'):remove_unlock('diamond-mining'):set_enabled(true)
 RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
 RECIPE('vacuum'):remove_unlock('diamond-mining'):set_enabled(true)
@@ -83,7 +84,6 @@ RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
 RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-circuit')
 RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
 RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
-RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
