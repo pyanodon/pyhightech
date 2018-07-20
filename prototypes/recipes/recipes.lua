@@ -3200,7 +3200,7 @@ RECIPE {
         {type = 'item', name = 'urea', amount = 20}
     },
     results = {
-        {type = 'fluid', name = 'ammonia', amount = 80}
+        {type = 'fluid', name = 'ammonia', amount = 100}
     }
 }:add_unlock('oil-processing')
 
