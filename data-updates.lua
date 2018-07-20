@@ -82,6 +82,8 @@ RECIPE('thickener'):remove_unlock('advanced-mining-facilities'):add_unlock('basi
 RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
 RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-circuit')
 RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
+RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
+RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
