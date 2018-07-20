@@ -2437,7 +2437,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'item', name = 'skin', amount = 20},
+        {type = 'item', name = 'skin', amount = 25},
         {type = 'item', name = 'urea', amount = 5},
         {type = 'fluid', name = 'acetic-acid', amount = 50},
         {type = 'fluid', name = 'steam', amount = 500, temperature = 165}
@@ -3200,7 +3200,7 @@ RECIPE {
         {type = 'item', name = 'urea', amount = 20}
     },
     results = {
-        {type = 'fluid', name = 'ammonia', amount = 50}
+        {type = 'fluid', name = 'ammonia', amount = 80}
     }
 }:add_unlock('oil-processing')
 
