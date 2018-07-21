@@ -336,7 +336,7 @@ RECIPE {
     name = 'fiberboard',
     category = 'pulp',
     enabled = true,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = 'item', name = 'treated-wood', amount = 3},
         {type = 'item', name = 'raw-fiber', amount = 5},
