@@ -3337,7 +3337,7 @@ RECIPE {
         {type = 'item', name = 'coke', amount = 5}
     },
     results = {
-        {type = 'fluid', name = 'combustion-mixture1', amount = 50, temperature = 550},
+        {type = 'fluid', name = 'combustion-mixture1', amount = 150, temperature = 550},
         {type = 'fluid', name = 'steam', amount = 500, temperature = 60}
     },
     icon = '__pyhightech__/graphics/icons/combustion-methane.png',
@@ -3362,3 +3362,59 @@ RECIPE {
         {type = 'item', name = 'electronic-circuit', amount = 3}
     }
 }
+
+RECIPE {
+    type = 'recipe',
+    name = 'plastics-3',
+    category = 'distilator',
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = 'fluid', name = 'benzene', amount = 100},
+        {type = 'fluid', name = 'ethylene', amount = 80},
+        {type = "fluid", name = "steam", amount = 200, temperature = 165},
+        {type = 'item', name = 'iron-oxide', amount = 2},
+    },
+    results = {
+        {type = 'item', name = 'plastic-bar', amount = 20}
+    }
+}:add_unlock('basic-electronics')
+
+RECIPE {
+    type = 'recipe',
+    name = 'benzene-combustion',
+    category = 'combustion',
+    enabled = 'false',
+    energy_required = 3,
+    ingredients = {
+        {type = 'fluid', name = 'benzene', amount = 100},
+        {type = 'fluid', name = 'water', amount = 500},
+        {type = 'item', name = 'coke', amount = 3}
+    },
+    results = {
+        {type = 'fluid', name = 'combustion-mixture1', amount = 150, temperature = 750},
+        {type = 'fluid', name = 'steam', amount = 500, temperature = 60}
+    },
+    icon = '__pyhightech__/graphics/icons/combustion-benzene.png',
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = 'py-combustion',
+    order = 'a'
+}:add_unlock('energy-2')
+
+RECIPE {
+    type = 'recipe',
+    name = 'nylon2',
+    category = 'mixer',
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = 'fluid', name = 'benzene', amount = 100},
+        {type = 'fluid', name = 'ammonia', amount = 100},
+        {type = 'fluid', name = 'sulfuric-acid', amount = 50},
+        {type = 'item', name = 'nichrome', amount = 2},
+    },
+    results = {
+        {type = 'item', name = 'nylon', amount = 6}
+    }
+}:add_unlock('basic-electronics')
