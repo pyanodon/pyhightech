@@ -2217,10 +2217,11 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = 'item', name = 'bones', amount = 5}
+        {type = 'item', name = 'bones', amount = 5},
+        {type = 'item', name = 'meat', amount = 5},
     },
     results = {
-        {type = 'item', name = 'bonemeal', amount = 2}
+        {type = 'item', name = 'bonemeal', amount = 4}
     }
 }:add_unlock('advanced-electronics')
 
@@ -3417,4 +3418,22 @@ RECIPE {
     results = {
         {type = 'item', name = 'nylon', amount = 6}
     }
+}:add_unlock('basic-electronics')
+
+RECIPE {
+    type = 'recipe',
+    name = 'phosporic-acid2',
+    category = 'chemistry',
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = 'item', name = 'bonemeal', amount = 3},
+        {type = 'item', name = 'collagen', amount = 10},
+        {type = 'fluid', name = 'sulfuric-acid', amount = 40},
+    },
+    results = {
+        {type = 'item', name = 'phosphate-rock', amount = 4},
+        {type = 'fluid', name = 'phosphoric-acid', amount = 25},
+    },
+    main_product = 'phosphoric-acid',
 }:add_unlock('basic-electronics')
