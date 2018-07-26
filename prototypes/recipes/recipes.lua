@@ -3437,3 +3437,25 @@ RECIPE {
     },
     main_product = 'phosphoric-acid',
 }:add_unlock('basic-electronics')
+
+RECIPE {
+    type = 'recipe',
+    name = 'tall-oil-combustion',
+    category = 'combustion',
+    enabled = 'false',
+    energy_required = 3,
+    ingredients = {
+        {type = 'fluid', name = 'tall-oil', amount = 100},
+        {type = 'fluid', name = 'water', amount = 500},
+        {type = 'item', name = 'coke', amount = 3}
+    },
+    results = {
+        {type = 'fluid', name = 'combustion-mixture1', amount = 150, temperature = 600},
+        {type = 'fluid', name = 'steam', amount = 500, temperature = 60}
+    },
+    icon = '__pyhightech__/graphics/icons/combustion-tall-oil.png',
+    icon_size = 32,
+    --main_product = "combustion-mixture1",
+    subgroup = 'py-combustion',
+    order = 'a'
+}:add_unlock('energy-2')
