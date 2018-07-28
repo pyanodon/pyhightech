@@ -3357,7 +3357,7 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'copper-plate', amount = 10},
         {type = 'item', name = 'copper-cable', amount = 10},
-        {type = 'item', name = 'wood', amount = 2},
+        {type = 'item', name = 'wood', amount = 1},
     },
     results = {
         {type = 'item', name = 'electronic-circuit', amount = 3}
