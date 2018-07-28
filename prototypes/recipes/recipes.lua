@@ -397,7 +397,7 @@ RECIPE {
         {type = 'item', name = 'resistor1', amount = 6}
     },
     results = {
-        {type = 'item', name = 'electronic-circuit', amount = 3}
+        {type = 'item', name = 'electronic-circuit', amount = 5}
     },
     main_product = 'electronic-circuit'
 }
@@ -789,7 +789,7 @@ RECIPE {
         {type = 'item', name = 'resistor2', amount = 15}
     },
     results = {
-        {type = 'item', name = 'advanced-circuit', amount = 3}
+        {type = 'item', name = 'advanced-circuit', amount = 5}
     },
     main_product = 'advanced-circuit'
 }:add_unlock('basic-electronics')
@@ -1265,7 +1265,7 @@ RECIPE {
         {type = 'item', name = 'diode3', amount = 5}
     },
     results = {
-        {type = 'item', name = 'processing-unit', amount = 3}
+        {type = 'item', name = 'processing-unit', amount = 5}
     }
 }:add_unlock('advanced-electronics')
 
@@ -2117,7 +2117,7 @@ RECIPE {
         {type = 'item', name = 'fault-current-inductor', amount = 1}
     },
     results = {
-        {type = 'item', name = 'intelligent-unit', amount = 1}
+        {type = 'item', name = 'intelligent-unit', amount = 2}
     }
 }:add_unlock('nano-tech')
 
