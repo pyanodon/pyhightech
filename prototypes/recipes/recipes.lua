@@ -343,7 +343,7 @@ RECIPE {
         {type = 'fluid', name = 'steam', amount = 500, temperature = 165}
     },
     results = {
-        {type = 'item', name = 'fiberboard', amount = 2},
+        {type = 'item', name = 'fiberboard', amount = 4},
         {type = 'fluid', name = 'organic-solvent', amount = 10},
         {type = 'fluid', name = 'tall-oil', amount = 15},
         {type = 'fluid', name = 'black-liquor', amount = 10}
