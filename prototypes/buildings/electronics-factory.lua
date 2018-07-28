@@ -90,7 +90,7 @@ ENTITY {
                 line_length = 10,
                 width = 160,
                 height = 173,
-                animation_speed = 0.5
+                animation_speed = 0.4
             }
         }
     },
