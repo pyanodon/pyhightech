@@ -678,7 +678,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = 'item', name = 'crude-cermet', amount = 3},
-        {type = 'item', name = 'ash', amount = 20},
+        {type = 'item', name = 'ash', amount = 10},
         {type = 'fluid', name = 'lubricant', amount = 200}
     },
     results = {
@@ -1529,7 +1529,7 @@ RECIPE {
         {type = 'item', name = 'raw-fiber', amount = 5}
     },
     results = {
-        {type = 'item', name = 'ash', amount = 3}
+        {type = 'item', name = 'ash', amount = 15}
     }
 }:add_unlock('advanced-electronics')
 
