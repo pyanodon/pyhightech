@@ -39,11 +39,11 @@ DATA {
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     autoplace = {
         control = "phosphate-rock",
-        sharpness = 0.88,
+        sharpness = 0.94,
         starting_area = false,
         --max_probability = 0.035,
-        richness_multiplier = 10,
-        richness_multiplier_distance_bonus = 10,
+        richness_multiplier = 100,
+        richness_multiplier_distance_bonus = 100,
         richness_base = 40000,
         coverage = 0.0002,
         peaks = {

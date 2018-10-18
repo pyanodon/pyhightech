@@ -40,8 +40,8 @@ DATA {
         sharpness = 0.98,
         starting_area = true,
         --max_probability = 0.035,
-        richness_multiplier = 10,
-        richness_multiplier_distance_bonus = 10,
+        richness_multiplier = 100,
+        richness_multiplier_distance_bonus = 100,
         richness_base = 40000,
         coverage = 0.0008,
         peaks = {
