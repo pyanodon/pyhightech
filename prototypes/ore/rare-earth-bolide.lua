@@ -19,7 +19,7 @@ DATA {
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
-    map_color = {r = 0.133, g = 0.133, b = 0.086},
+    map_color = {r = 0.627, g = 0.490, b = 0.070},
     highlight = true,
     minimum = 10000,
     normal = 30000,
@@ -40,9 +40,9 @@ DATA {
         sharpness = 0.98,
         starting_area = true,
         --max_probability = 0.035,
-        richness_multiplier = 120,
-        richness_multiplier_distance_bonus = 110,
-        richness_base = 75000,
+        richness_multiplier = 10,
+        richness_multiplier_distance_bonus = 10,
+        richness_base = 40000,
         coverage = 0.0008,
         peaks = {
             {
