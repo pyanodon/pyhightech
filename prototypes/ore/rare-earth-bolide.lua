@@ -37,7 +37,7 @@ DATA {
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     autoplace = {
         control = "rare-earth-bolide",
-        sharpness = 0.88,
+        sharpness = 0.98,
         starting_area = true,
         --max_probability = 0.035,
         richness_multiplier = 120,
