@@ -21,9 +21,9 @@ DATA {
     order = "a-b-a",
     map_color = {r = 0.133, g = 0.133, b = 0.086},
     highlight = true,
-    minimum = 40000,
-    normal = 50000,
-    maximum = 100000,
+    minimum = 10000,
+    normal = 30000,
+    maximum = 80000,
     map_grid = false,
     minable = {
         hardness = 1.0,
@@ -43,7 +43,7 @@ DATA {
         richness_multiplier = 120,
         richness_multiplier_distance_bonus = 110,
         richness_base = 75000,
-        coverage = 0.002,
+        coverage = 0.0008,
         peaks = {
             {
                 noise_layer = "rare-earth-bolide",
