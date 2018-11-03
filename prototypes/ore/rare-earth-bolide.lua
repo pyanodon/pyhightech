@@ -43,7 +43,7 @@ DATA {
         richness_multiplier = 100,
         richness_multiplier_distance_bonus = 100,
         richness_base = 40000,
-        coverage = 0.0008,
+        coverage = 0.0004,
         peaks = {
             {
                 noise_layer = "rare-earth-bolide",
