@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 10,
     enabled = true,
     ingredients = {
-        {"automated-factory", 1},
+        {"automated-factory-mk01", 1},
         {"advanced-circuit", 15},
         {"niobium-plate", 20},
         {"iron-gear-wheel", 30},
