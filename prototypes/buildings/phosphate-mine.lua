@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"soil-extractormk01", 2},
-        {"automated-factory", 1},
+        {"automated-factory-mk01", 1},
         {"iron-plate", 60},
         {"jaw-crusher", 1},
         {"electronic-circuit", 40}
