@@ -500,7 +500,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'light-n',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -512,12 +512,12 @@ RECIPE {
         {type = 'item', name = 'light-n', amount = 10}
     },
     main_product = 'light-n'
-}:add_unlock('semiconductor-doping')
+}:add_unlock('semiconductor-doping'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
     name = 'heavy-n',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -529,12 +529,12 @@ RECIPE {
         {type = 'item', name = 'heavy-n', amount = 10}
     },
     main_product = 'heavy-n'
-}:add_unlock('semiconductor-doping')
+}:add_unlock('semiconductor-doping'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
     name = 'p-dope',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -547,7 +547,7 @@ RECIPE {
         {type = 'item', name = 'p-dope', amount = 10}
     },
     main_product = 'p-dope'
-}:add_unlock('semiconductor-doping')
+}:add_unlock('semiconductor-doping'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
@@ -847,7 +847,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'pdms',
-    category = 'mixer',
+    category = 'chemistry',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -862,12 +862,12 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-recipes',
     order = 'b1'
-}:add_unlock('graphene')
+}:add_unlock('graphene'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
     name = 'nic-core',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -878,7 +878,7 @@ RECIPE {
         {type = 'item', name = 'nic-core', amount = 2}
     },
     main_product = 'nic-core'
-}:add_unlock('graphene')
+}:add_unlock('graphene'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
@@ -953,7 +953,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'heavy-p-type',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -966,7 +966,7 @@ RECIPE {
         {type = 'item', name = 'heavy-p-type', amount = 10}
     },
     main_product = 'heavy-p-type'
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-electronics'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
@@ -1215,7 +1215,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'capacitor-termination',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1226,7 +1226,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor-termination', amount = 2}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-electronics'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
@@ -1576,7 +1576,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'rf-gel',
-    category = 'mixer',
+    category = 'chemistry',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1587,7 +1587,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'rf-gel', amount = 1}
     }
-}:add_unlock('aerogel')
+}:add_unlock('aerogel'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
@@ -1784,7 +1784,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'zinc-acetate',
-    category = 'mixer',
+    category = 'chemistry',
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1794,7 +1794,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zinc-acetate', amount = 1}
     }
-}:add_unlock('semiconductor-doping')
+}:add_unlock('semiconductor-doping'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
@@ -2168,7 +2168,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'plastic2',
-    category = 'mixer',
+    category = 'rectisol',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2179,7 +2179,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'plastic-bar', amount = 20}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-electronics'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
@@ -2331,7 +2331,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'glycerol2',
-    category = 'mixer',
+    category = 'chemistry',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2341,7 +2341,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'glycerol', amount = 30}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-electronics'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
@@ -2379,7 +2379,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'nylon',
-    category = 'mixer',
+    category = 'chemistry',
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -2392,7 +2392,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nylon', amount = 5}
     }
-}:add_unlock('basic-electronics')
+}:add_unlock('basic-electronics'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
@@ -2497,7 +2497,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'nano-wires',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2508,7 +2508,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nano-wires', amount = 5}
     }
-}:add_unlock('nano-tech')
+}:add_unlock('nano-tech'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
@@ -2551,7 +2551,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'lithium-chloride',
-    category = 'mixer',
+    category = 'chemistry',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2562,7 +2562,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'lithium-chloride', amount = 3}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-electronics'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
@@ -2676,7 +2676,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'syngas-methane',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2688,7 +2688,7 @@ RECIPE {
         {type = 'fluid', name = 'flue-gas', amount = 50}
     },
     main_product = 'methane'
-}:add_unlock('coal-processing-3'):replace_result('flue-gas', 'oxygen')
+}:add_unlock('coal-processing-3'):replace_result('flue-gas', 'oxygen'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
@@ -3288,7 +3288,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'acidgas',
-    category = 'gas-separator',
+    category = 'chemistry',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3298,7 +3298,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'acidgas', amount = 100}
     }
-}:add_unlock('coal-processing-2')
+}:add_unlock('coal-processing-2'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
@@ -3394,7 +3394,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'nylon2',
-    category = 'mixer',
+    category = 'rectisol',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3406,7 +3406,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nylon', amount = 6}
     }
-}:add_unlock('basic-electronics')
+}:add_unlock('basic-electronics'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
