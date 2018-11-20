@@ -281,7 +281,7 @@ RECIPE {
         {type = 'item', name = 'capacitor1', amount = 3}
     },
     main_product = 'capacitor1'
-}:add_ingredient({type = 'item', name = 'resin', amount = 2}):replace_ingredient('copper-plate', 'tin-plate')
+}:add_ingredient({type = 'item', name = 'resin', amount = 2})
 
 RECIPE {
     type = 'recipe',
@@ -297,7 +297,7 @@ RECIPE {
         {type = 'item', name = 'resistor1', amount = 3}
     },
     main_product = 'resistor1'
-}:add_ingredient({type = 'item', name = 'glass', amount = 1}):replace_ingredient('iron-plate', 'tin-plate')
+}
 
 RECIPE {
     type = 'recipe',
@@ -329,7 +329,7 @@ RECIPE {
         {type = 'item', name = 'valve', amount = 2}
     },
     main_product = 'valve'
-}:add_ingredient({type = 'item', name = 'glass', amount = 1}):add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
+}:add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
 
 RECIPE {
     type = 'recipe',
@@ -529,7 +529,7 @@ RECIPE {
         {type = 'item', name = 'heavy-n', amount = 10}
     },
     main_product = 'heavy-n'
-}:add_unlock('semiconductor-doping'):add_ingredient({type = 'item', name = 'lithium', amount = 5})
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
@@ -635,7 +635,7 @@ RECIPE {
         {type = 'item', name = 'pcb2', amount = 3}
     },
     main_product = 'pcb2'
-}:add_unlock('basic-electronics'):add_ingredient({type = 'item', name = 'tin-plate', amount = 5})
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -654,7 +654,7 @@ RECIPE {
         {type = 'item', name = 'microchip', amount = 3}
     },
     main_product = 'microchip'
-}:add_unlock('semiconductor-doping'):add_ingredient({type = 'item', name = 'tin-plate', amount = 5}):add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
+}:add_unlock('semiconductor-doping'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
 
 RECIPE {
     type = 'recipe',
@@ -668,7 +668,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'crude-cermet', amount = 5}
     }
-}:add_unlock('basic-electronics'):add_ingredient({type = 'item', name = 'nickel-ore', amount = 5}):add_ingredient({type = 'item', name = 'molybdenum-ore', amount = 5})
+}:add_unlock('basic-electronics'):add_ingredient({type = 'item', name = 'molybdenum-ore', amount = 5})
 
 RECIPE {
     type = 'recipe',
@@ -729,13 +729,12 @@ RECIPE {
         {type = 'item', name = 'reo', amount = 4},
         {type = 'item', name = 'cermet', amount = 4},
         {type = 'item', name = 'p-dope', amount = 4},
-        {type = 'fluid', name = 'vacuum', amount = 50},
         {type = 'item', name = 'nylon', amount = 3}
     },
     results = {
         {type = 'item', name = 'diode', amount = 4}
     }
-}:add_unlock('semiconductor-doping'):add_ingredient({type = 'item', name = 'tinned-copper-cable', amount = 20})
+}:add_unlock('semiconductor-doping'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
 
 RECIPE {
     type = 'recipe',
@@ -770,7 +769,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor2', amount = 5}
     }
-}:add_unlock('basic-electronics'):replace_ingredient('copper-cable', 'tinned-copper-cable'):replace_ingredient('steel-plate', 'aluminium-plate'):replace_ingredient('cermet', 'alumina')
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -827,7 +826,7 @@ RECIPE {
         {type = 'item', name = 'bisphenol-a', amount = 3}
     },
     main_product = 'bisphenol-a'
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'fluid', name = 'hydrogen-chloride', amount = 50})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -863,7 +862,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-recipes',
     order = 'b1'
-}:add_unlock('graphene'):add_ingredient({type = 'fluid', name = 'hydrogen-chloride', amount = 50})
+}:add_unlock('graphene')
 
 RECIPE {
     type = 'recipe',
@@ -879,7 +878,7 @@ RECIPE {
         {type = 'item', name = 'nic-core', amount = 2}
     },
     main_product = 'nic-core'
-}:add_unlock('graphene'):add_ingredient({type = 'item', name = 'nickel-plate', amount = 2}):add_ingredient({type = 'fluid', name = 'hydrogen', amount = 100})
+}:add_unlock('graphene')
 
 RECIPE {
     type = 'recipe',
@@ -978,7 +977,6 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'processor-core', amount = 1},
         {type = 'item', name = 'graphene-roll', amount = 4},
-        {type = 'fluid', name = 'vacuum', amount = 100},
         {type = 'item', name = 'epoxy', amount = 5},
         {type = 'fluid', name = 'industrial-solvent', amount = 50}
     },
@@ -986,7 +984,7 @@ RECIPE {
         {type = 'item', name = 'processor', amount = 1}
     },
     main_product = 'processor'
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'gold-plate', amount = 2}):add_ingredient({type = 'item', name = 'aluminium-plate', amount = 2})
+}:add_unlock('advanced-electronics'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
 
 RECIPE {
     type = 'recipe',
@@ -1037,14 +1035,13 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'phosphate-glass', amount = 2},
         {type = 'item', name = 'nichrome', amount = 1},
-        {type = 'fluid', name = 'vacuum', amount = 100},
         {type = 'item', name = 'epoxy', amount = 5}
     },
     results = {
         {type = 'item', name = 'resistor3', amount = 3}
     },
     main_product = 'resistor3'
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'nickel-plate', amount = 2})
+}:add_unlock('advanced-electronics'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
 
 RECIPE {
     type = 'recipe',
@@ -1096,7 +1093,7 @@ RECIPE {
         {type = 'item', name = 'pcb3', amount = 2}
     },
     main_product = 'pcb3'
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'tin-plate', amount = 2})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1146,7 +1143,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'inductor3', amount = 3}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('copper-cable', 'gilded-copper-cable')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1163,7 +1160,7 @@ RECIPE {
     results = {
         {type = 'item', name = 're-tin', amount = 1}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('iron-plate', 'tin-plate')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1213,7 +1210,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor-core', amount = 2}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'sodium-hydroxide', amount = 30})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1229,7 +1226,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor-termination', amount = 2}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('steel-plate', 'nickel-plate'):replace_ingredient('copper-plate', 'tin-plate'):add_ingredient({type = 'item', name = 'silver-plate', amount = 1})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1240,12 +1237,11 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'capacitor-core', amount = 1},
         {type = 'item', name = 'capacitor-termination', amount = 1},
-        {type = 'fluid', name = 'vacuum', amount = 100}
     },
     results = {
         {type = 'item', name = 'capacitor3', amount = 2}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-electronics'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
 
 RECIPE {
     type = 'recipe',
@@ -1281,7 +1277,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'carbon-dust', amount = 10}
     }
-}:add_unlock('nano-tech'):replace_ingredient('coke', 'carbon')
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -1333,7 +1329,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'sodium-silicate', amount = 1}
     }
-}:add_unlock('nano-tech'):replace_ingredient('phenol', 'sodium-hydroxide')
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -1360,12 +1356,11 @@ RECIPE {
         {type = 'item', name = 'sulfur', amount = 3},
         {type = 'item', name = 'niobium-plate', amount = 2},
         {type = 'item', name = 'plastic-bar', amount = 1},
-        {type = 'fluid', name = 'vacuum', amount = 200}
     },
     results = {
         {type = 'item', name = 'colloidal-silica', amount = 2}
     }
-}:add_unlock('nano-tech'):replace_ingredient('niobium-plate', 'lead-plate')
+}:add_unlock('nano-tech'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 200})
 
 RECIPE {
     type = 'recipe',
@@ -1576,7 +1571,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'resorcinol', amount = 2}
     }
-}:add_unlock('aerogel'):replace_ingredient('melamine-resin', 'resin'):replace_ingredient('phenol', 'sodium-hydroxide')
+}:add_unlock('aerogel'):replace_ingredient('melamine-resin', 'resin')
 
 RECIPE {
     type = 'recipe',
@@ -1639,7 +1634,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'carbon-aerogel', amount = 1}
     }
-}:add_unlock('aerogel'):replace_ingredient('silicon', 'quartz')
+}:add_unlock('aerogel')
 
 RECIPE {
     type = 'recipe',
@@ -1656,7 +1651,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'sub-denier-microfiber', amount = 1}
     }
-}:add_unlock('nano-tech'):replace_ingredient('ammonia', 'nitrogen-dioxide')
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -1693,7 +1688,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'heavy-fermion', amount = 1}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'item', name = 'gold-plate', amount = 5})
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -1703,7 +1698,6 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'sc-wire', amount = 5},
-        {type = 'fluid', name = 'vacuum', amount = 120},
         {type = 'item', name = 'pdms-graphene', amount = 8},
         {type = 'item', name = 'diamond', amount = 2},
         {type = 'item', name = 'colloidal-silica', amount = 4},
@@ -1713,7 +1707,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'kondo-core', amount = 1}
     }
-}:add_unlock('nano-tech')
+}:add_unlock('nano-tech'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 120})
 
 RECIPE {
     type = 'recipe',
@@ -1723,7 +1717,6 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = 'item', name = 'kondo-substrate', amount = 1},
-        {type = 'fluid', name = 'vacuum', amount = 150},
         {type = 'item', name = 'kondo-core', amount = 1},
         {type = 'item', name = 'biopolymer', amount = 5},
         {type = 'item', name = 'aerogel', amount = 1},
@@ -1732,7 +1725,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'kondo-processor', amount = 1}
     }
-}:add_unlock('nano-tech')
+}:add_unlock('nano-tech'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 150})
 
 RECIPE {
     type = 'recipe',
@@ -1751,7 +1744,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'crco-alloy', amount = 1}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'cobalt-ore', amount = 5})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1763,12 +1756,11 @@ RECIPE {
         {type = 'item', name = 'nexelit-matrix', amount = 4},
         {type = 'item', name = 'super-alloy', amount = 1},
         {type = 'fluid', name = 'boric-acid', amount = 100},
-        {type = 'fluid', name = 'vacuum', amount = 100}
     },
     results = {
         {type = 'item', name = 'nxag-matrix', amount = 1}
     }
-}:add_unlock('helium-processing'):add_ingredient({type = 'item', name = 'silver-plate', amount = 4})
+}:add_unlock('helium-processing'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
 
 RECIPE {
     type = 'recipe',
@@ -1787,7 +1779,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'paradiamatic-resistor', amount = 1}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'lead-plate', amount = 4})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1802,7 +1794,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zinc-acetate', amount = 1}
     }
-}:add_unlock('semiconductor-doping'):replace_ingredient('stone-brick', 'zinc-plate')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
@@ -1848,7 +1840,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zinc-nanocompound', amount = 1}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'item', name = 'sodium-hydroxide', amount = 10})
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -1903,7 +1895,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'csle-diode', amount = 3}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'item', name = 'salt', amount = 50})
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -1923,7 +1915,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'ndfeb-alloy', amount = 1}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('carbon-dioxide', 'oxygen')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1954,7 +1946,7 @@ RECIPE {
     results = {
         {type = 'item', name = 're-magnet', amount = 1}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'nickel-plate', amount = 2})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1990,7 +1982,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'superconductor', amount = 1}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'gold-plate', amount = 1})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2008,7 +2000,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nanocrystaline-core', amount = 1}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'item', name = 'gold-plate', amount = 2})
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -2044,7 +2036,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'supercapacitor-core', amount = 1}
     }
-}:add_unlock('aerogel'):add_ingredient({type = 'item', name = 'silver-plate', amount = 2})
+}:add_unlock('aerogel')
 
 RECIPE {
     type = 'recipe',
@@ -2062,7 +2054,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'supercapacitor-shell', amount = 1}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('iron-plate', 'aluminium-plate')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2097,7 +2089,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'pcb4', amount = 1}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'item', name = 'lead-plate', amount = 2})
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -2349,7 +2341,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'glycerol', amount = 30}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'sodium-hydroxide', amount = 5})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2500,7 +2492,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'hyperelastic-material', amount = 1}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = "item", name = "rubber", amount = 15})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2554,7 +2546,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nems', amount = 5}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'item', name = 'glass', amount = 4})
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -2570,7 +2562,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'lithium-chloride', amount = 3}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('sulfuric-acid', 'hydrogen-chloride')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2584,12 +2576,11 @@ RECIPE {
         {type = 'item', name = 'aerogel', amount = 3},
         {type = 'item', name = 'graphene-roll', amount = 2},
         {type = 'item', name = 'vanadium-oxide', amount = 3},
-        {type = 'fluid', name = 'vacuum', amount = 150}
     },
     results = {
         {type = 'item', name = 'volumetric-capacitor', amount = 1}
     }
-}:add_unlock('aerogel'):add_ingredient({type = 'item', name = 'glass', amount = 5})
+}:add_unlock('aerogel'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 150})
 
 RECIPE {
     type = 'recipe',
@@ -2623,7 +2614,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'yag-laser-module', amount = 1}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'item', name = 'aluminium-plate', amount = 3})
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -2640,7 +2631,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'lithium-niobate', amount = 2}
     }
-}:add_unlock('advanced-electronics'):replace_ingredient('chromium', 'lithium')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2697,7 +2688,7 @@ RECIPE {
         {type = 'fluid', name = 'flue-gas', amount = 50}
     },
     main_product = 'methane'
-}:add_unlock('coal-processing-3'):replace_ingredient('niobium-plate', 'nickel-plate'):replace_result('flue-gas', 'oxygen')
+}:add_unlock('coal-processing-3'):replace_result('flue-gas', 'oxygen')
 
 RECIPE {
     type = 'recipe',
@@ -2713,7 +2704,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'methanal', amount = 80}
     }
-}:add_unlock('coal-processing-2'):replace_ingredient('water', 'oxygen')
+}:add_unlock('coal-processing-2')
 
 RECIPE {
     type = 'recipe',
@@ -2801,7 +2792,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'paramagnetic-material', amount = 1}
     }
-}:add_unlock('nano-tech'):replace_ingredient('iron-plate', 'aluminium-plate')
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -2819,7 +2810,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'diamagnetic-material', amount = 1}
     }
-}:add_unlock('earnshaw-theorem'):add_ingredient({type = 'item', name = 'lead-plate', amount = 2})
+}:add_unlock('earnshaw-theorem')
 
 RECIPE {
     type = 'recipe',
@@ -2856,7 +2847,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'harmonic-absorber', amount = 1}
     }
-}:add_unlock('earnshaw-theorem'):add_ingredient({type = 'item', name = 'rubber', amount = 5})
+}:add_unlock('earnshaw-theorem')
 
 RECIPE {
     type = 'recipe',
@@ -2867,13 +2858,12 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'graphene-roll', amount = 2},
         {type = 'item', name = 'carbon-nanotube', amount = 1},
-        {type = 'fluid', name = 'vacuum', amount = 150},
         {type = 'item', name = 'coke', amount = 7}
     },
     results = {
         {type = 'item', name = 'pyrolytic-carbon', amount = 1}
     }
-}:add_unlock('earnshaw-theorem')
+}:add_unlock('earnshaw-theorem'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 150})
 
 RECIPE {
     type = 'recipe',
@@ -2996,12 +2986,11 @@ RECIPE {
         {type = 'item', name = 'var-josephson-junction', amount = 1},
         {type = 'item', name = 'quantum-vortex-storage-system', amount = 1},
         {type = 'fluid', name = 'liquid-helium', amount = 30},
-        {type = 'fluid', name = 'vacuum', amount = 500}
     },
     results = {
         {type = 'item', name = 'space-science-pack', amount = 3}
     }
-}:add_unlock('quantum')
+}:add_unlock('quantum'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 500})
 
 RECIPE {
     type = 'recipe',
@@ -3016,7 +3005,6 @@ RECIPE {
         {type = 'item', name = 'var-josephson-junction', amount = 1},
         {type = 'item', name = 'quantum-vortex-storage-system', amount = 1},
         {type = 'fluid', name = 'liquid-helium', amount = 30},
-        {type = 'fluid', name = 'vacuum', amount = 500}
     },
     results = {
         {type = 'item', name = 'production-science-pack', amount = 1, probability = 0.3},
@@ -3030,7 +3018,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-recipes',
     order = 'c1'
-}:add_unlock('quantum')
+}:add_unlock('quantum'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 500})
 
 RECIPE {
     type = 'recipe',
@@ -3173,7 +3161,7 @@ RECIPE {
         {type = 'fluid', name = 'acetone', amount = 50}
     },
     main_product = 'aromatics'
-}:add_unlock('coal-processing-1'):add_ingredient({type = 'fluid', name = 'oxygen', amount = 100})
+}:add_unlock('coal-processing-1')
 
 RECIPE {
     type = 'recipe',
@@ -3219,7 +3207,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'plastic-bar', amount = 10}
     }
-}:add_unlock('coal-processing-2'):add_ingredient({type = 'fluid', name = 'hydrogen', amount = 50})
+}:add_unlock('coal-processing-2')
 
 RECIPE {
     type = 'recipe',

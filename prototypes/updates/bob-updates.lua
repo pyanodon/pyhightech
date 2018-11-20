@@ -23,11 +23,7 @@ RECIPE("silicon-wafer"):remove_unlock("silicon-processing")
 RECIPE("wooden-board"):set_enabled(false)
 RECIPE("basic-circuit-board"):set_enabled(false):remove_unlock()
 RECIPE("wood-board"):set_enabled(false):remove_unlock()
-RECIPE('high-flux-core'):replace_ingredient('liquid-pure-air', 'liquid-nitrogen')
-RECIPE('diode-core'):replace_ingredient('liquid-pure-air', 'liquid-nitrogen')
-RECIPE('capacitor-termination'):replace_ingredient('boric-acid', 'liquid-nitrogen')
-RECIPE('carbon-aerogel'):replace_ingredient('syngas', 'nitrogen')
-RECIPE('superconductor'):replace_ingredient('liquid-helium', 'liquid-nitrogen')
+
 
 RECIPE("phosphate-glass"):replace_ingredient('glass-fiber', 'crushed-quartz')
 RECIPE("silicon-wafer"):add_ingredient({type = 'item', name = 'crushed-quartz', amount = 2})
