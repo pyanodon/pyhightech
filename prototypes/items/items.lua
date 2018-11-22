@@ -1413,7 +1413,7 @@ ITEM {
     name = "antimatter",
     icon = "__pyhightech__/graphics/icons/antimatter.png",
     icon_size = 32,
-    fuel_value = "30GJ",
+    fuel_value = "40GJ",
     fuel_category = "nuclear",
     flags = {"goes-to-main-inventory"},
     subgroup = "py-hightech-items",
