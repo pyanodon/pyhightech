@@ -87,6 +87,8 @@ RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
 RECIPE('kmauts-ration'):replace_ingredient('organics', 'skin')
 RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 
+RECIPE("accumulator-mk02"):remove_ingredient("battery"):add_ingredient({type = 'item', name = 'supercapacitor', amount = 10})
+
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
 RECIPE('quantum-computer'):replace_ingredient('pipe', 'niobium-pipe')
