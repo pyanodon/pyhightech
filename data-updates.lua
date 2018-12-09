@@ -1,10 +1,5 @@
 require('stdlib/data/data').create_data_globals()
 
-if mods['boblibrary'] then
-    require('prototypes/updates/bob-updates')
-    require('prototypes/updates/bob-additions')
-end
-
 for _, recipe in pairs(data.raw.recipe) do
     local r = RECIPE(recipe)
     r:replace_ingredient('basic-circuit-board', 'pcb1')
