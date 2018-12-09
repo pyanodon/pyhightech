@@ -50,7 +50,7 @@ ENTITY {
         emissions = 0.01
     },
     energy_usage = "50kW",
-    ingredient_count = 2,
+    ingredient_count = 10,
     animation = {
         layers = {
             {

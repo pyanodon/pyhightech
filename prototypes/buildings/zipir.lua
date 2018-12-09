@@ -61,7 +61,7 @@ ENTITY {
         emissions = 0.03
     },
     energy_usage = "600kW",
-    ingredient_count = 8,
+    ingredient_count = 20,
     animation = {
         filename = "__pyhightech__/graphics/entity/zipir/off.png",
         width = 305,
