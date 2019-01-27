@@ -2528,6 +2528,20 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
+    name = 'waste-water-urea',
+    category = 'evaporator',
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = 'fluid', name = 'waste-water', amount = 200}
+    },
+    results = {
+        {type = 'item', name = 'urea', amount = 10}
+    }
+}:add_unlock('basic-electronics')
+
+RECIPE {
+    type = 'recipe',
     name = 'nems',
     category = 'nano',
     enabled = false,
