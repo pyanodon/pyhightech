@@ -21,14 +21,14 @@ for _, recipe in pairs(data.raw.recipe) do
 end
 
 RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
-RECIPE('vacuum-pump'):remove_unlock('diamond-mining'):set_enabled(true)
+RECIPE('vacuum-pump'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
 RECIPE('vacuum'):remove_unlock('diamond-mining'):set_enabled(true)
 RECIPE('tar-processing-unit'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('creosote'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('gas-separator'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
-RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
-RECIPE('pressured-air'):add_ingredient({type = 'fluid', name = 'liquid-air', amount = 100})
+--RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
+--RECIPE('pressured-air'):add_ingredient({type = 'fluid', name = 'liquid-air', amount = 100})
 RECIPE('purified-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 RECIPE('cool-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')

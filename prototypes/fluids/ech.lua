@@ -16,7 +16,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "c"
-}:add_unlock("advanced-electronics"):add_ingredient({type = "fluid", name = "hydrogen-chloride", amount = 50})
+}:add_unlock("advanced-electronics")
 
 FLUID {
     type = "fluid",
