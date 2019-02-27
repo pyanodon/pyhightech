@@ -20,6 +20,9 @@ for _, recipe in pairs(data.raw.recipe) do
     r:replace_ingredient('module-processor-board-3', 'pcb4')
 end
 
+RECIPE('rich-re'):remove_unlock('coal-processing-2')
+RECIPE('eva-ree-dust'):remove_unlock('coal-processing-2')
+RECIPE('remud-dirty-water'):remove_unlock('coal-processing-2')
 RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 RECIPE('vacuum-pump'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
@@ -39,7 +42,6 @@ RECIPE('agitator'):replace_ingredient('plastic-bar', 'melamine'):replace_ingredi
 RECIPE('mixer'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
 RECIPE('mixer'):replace_ingredient('titanium-bearing', 'steel-bearing')
 RECIPE('ball-mill'):remove_ingredient('py-asphalt'):add_ingredient({type = 'item', name = 'electronic-circuit', amount = 10})
-RECIPE('py-heat-exchanger'):add_ingredient({type = 'item', name = 'processing-unit', amount = 4})
 RECIPE('science-coating'):add_ingredient({type = 'item', name = 'nylon', amount = 5}):add_ingredient({type = 'item', name = 'zinc-acetate', amount = 15})
 RECIPE('bio-reactor'):add_ingredient({type = 'item', name = 'advanced-circuit', amount = 5})
 RECIPE('bio-reactor'):remove_unlock('helium-processing'):add_unlock('nano-tech')
