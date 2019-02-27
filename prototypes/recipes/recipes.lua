@@ -2609,6 +2609,8 @@ RECIPE {
         {type = 'item', name = 'iron-plate', amount = 15},
         {type = 'item', name = 'steel-plate', amount = 60},
         {type = 'item', name = 'lens', amount = 3},
+        {type = 'item', name = 'battery', amount = 30},
+        {type = 'item', name = 'electronic-circuit', amount = 40},
         {type = 'item', name = 'laser-module', amount = 1}
     },
     main_product = 'laser-module'
