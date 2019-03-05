@@ -29,7 +29,7 @@ ITEM {
     name = "kicalk-plantation",
     icon = "__pyhightech__/graphics/icons/kicalk-plantation.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "b",
     place_result = "kicalk-plantation",

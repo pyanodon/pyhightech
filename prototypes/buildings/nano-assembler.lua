@@ -20,7 +20,7 @@ ITEM {
     name = "nano-assembler",
     icon = "__pyhightech__/graphics/icons/nano-assembler.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "f",
     place_result = "nano-assembler",

@@ -18,7 +18,7 @@ ITEM {
     name = "auog-paddock",
     icon = "__pyhightech__/graphics/icons/auog-paddock.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "c",
     place_result = "auog-paddock",

@@ -23,7 +23,7 @@ ITEM {
     name = "construction-robot-ht",
     icon = "__pyhightech__/graphics/icons/construction-robot-ht.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-items",
     order = "b",
     place_result = "construction-robot-ht",
