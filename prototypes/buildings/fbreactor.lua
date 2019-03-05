@@ -19,7 +19,7 @@ ITEM {
     name = "fbreactor",
     icon = "__pyhightech__/graphics/icons/fbreactor.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "c",
     place_result = "fbreactor",

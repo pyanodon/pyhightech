@@ -29,7 +29,7 @@ ITEM {
     name = "zipir",
     icon = "__pyhightech__/graphics/icons/zipir.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "b",
     place_result = "zipir",
@@ -78,7 +78,7 @@ ENTITY {
             east_position = util.by_pixel(-112.5, -50),
             animation = {
                 filename = "__pyhightech__/graphics/entity/zipir/a.png",
-                frame_count = 260,
+                frame_count = 255,
                 line_length = 32,
                 width = 64,
                 height = 192,
@@ -93,7 +93,7 @@ ENTITY {
             east_position = util.by_pixel(-112.5, -50),
             animation = {
                 filename = "__pyhightech__/graphics/entity/zipir/b.png",
-                frame_count = 260,
+                frame_count = 255,
                 line_length = 32,
                 width = 64,
                 height = 192,
@@ -108,7 +108,7 @@ ENTITY {
             east_position = util.by_pixel(-112.5, -50),
             animation = {
                 filename = "__pyhightech__/graphics/entity/zipir/c.png",
-                frame_count = 260,
+                frame_count = 255,
                 line_length = 32,
                 width = 64,
                 height = 192,
@@ -123,7 +123,7 @@ ENTITY {
             east_position = util.by_pixel(-112.5, -50),
             animation = {
                 filename = "__pyhightech__/graphics/entity/zipir/d.png",
-                frame_count = 260,
+                frame_count = 255,
                 line_length = 32,
                 width = 64,
                 height = 192,
@@ -138,7 +138,7 @@ ENTITY {
             east_position = util.by_pixel(-112.5, -50),
             animation = {
                 filename = "__pyhightech__/graphics/entity/zipir/e.png",
-                frame_count = 260,
+                frame_count = 255,
                 line_length = 32,
                 width = 13,
                 height = 192,

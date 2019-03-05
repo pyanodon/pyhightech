@@ -2671,7 +2671,7 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
-    name = 'high-tech-science-pack',
+    name = 'utility-science-pack',
     category = 'advanced-crafting',
     enabled = false,
     energy_required = 20,
@@ -2685,7 +2685,7 @@ RECIPE {
         {type = 'item', name = 'nano-wires', amount = 3}
     },
     results = {
-        {type = 'item', name = 'high-tech-science-pack', amount = 3}
+        {type = 'item', name = 'utility-science-pack', amount = 3}
     }
 }:add_unlock('nano-tech')
 
@@ -3025,9 +3025,9 @@ RECIPE {
     results = {
         {type = 'item', name = 'production-science-pack', amount = 1, probability = 0.3},
         {type = 'item', name = 'military-science-pack', amount = 1, probability = 0.3},
-        {type = 'item', name = 'science-pack-3', amount = 1, probability = 0.3},
-        {type = 'item', name = 'science-pack-2', amount = 1, probability = 0.3},
-        {type = 'item', name = 'science-pack-1', amount = 1, probability = 0.3}
+        {type = 'item', name = 'chemical-science-pack', amount = 1, probability = 0.3},
+        {type = 'item', name = 'logistic-science-pack', amount = 1, probability = 0.3},
+        {type = 'item', name = 'automation-science-pack', amount = 1, probability = 0.3}
     },
     main_product = 'production-science-pack',
     icon = '__pyhightech__/graphics/icons/random-packs.png',

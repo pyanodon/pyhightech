@@ -21,7 +21,7 @@ ITEM {
     name = "rare-earth-mine",
     icon = "__pyhightech__/graphics/icons/rare-earth-mine.png",
 	icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "a",
     place_result = "rare-earth-mine",
