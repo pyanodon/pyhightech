@@ -29,7 +29,7 @@ ITEM {
     name = "cadaveric-arum",
     icon = "__pyhightech__/graphics/icons/cadaveric-arum.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "b",
     place_result = "cadaveric-arum",

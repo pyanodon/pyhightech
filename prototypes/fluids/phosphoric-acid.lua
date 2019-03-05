@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "phosphorous-acid", amount = 40},
         {type = "fluid", name = "steam", amount = 120, temperature = 165},
-        {type = "item", name = "raw-wood", amount = 10},
+        {type = "item", name = "wood", amount = 10},
     },
     results = {
         {type = "fluid", name = "phosphoric-acid", amount = 20},
