@@ -38,7 +38,7 @@ ITEM {
     name = "pulp-mill",
     icon = "__pyhightech__/graphics/icons/pulp-mill.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "d",
     place_result = "pulp-mill",

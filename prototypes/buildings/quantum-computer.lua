@@ -23,7 +23,7 @@ ITEM {
     name = "quantum-computer",
     icon = "__pyhightech__/graphics/icons/quantum-computer.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "d",
     place_result = "quantum-computer",

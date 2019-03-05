@@ -19,7 +19,7 @@ ITEM {
     name = "clay-pit",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "py-hightech-buildings",
     order = "a",
     place_result = "clay-pit",

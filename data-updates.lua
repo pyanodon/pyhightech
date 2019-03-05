@@ -92,11 +92,11 @@ RECIPE('quantum-computer'):replace_ingredient('pipe', 'niobium-pipe')
 RECIPE('construction-robot-ht'):replace_ingredient('construction-robot', 'py-construction-robot-01')
 RECIPE('logistic-robot-ht'):replace_ingredient('logistic-robot', 'py-logistic-robot-01')
 
-TECHNOLOGY('logistic-system'):remove_pack('high-tech-science-pack'):remove_pack('production-science-pack'):remove_pack('science-pack-3')
+TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('production-science-pack'):remove_pack('chemical-science-pack')
 TECHNOLOGY('electric-engine'):remove_prereq('advanced-electronics')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
 
-ITEM('high-tech-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
+ITEM('utility-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
 
 local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
 for _, player in DATA:pairs('player') do
