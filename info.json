@@ -3,9 +3,9 @@
   "version": "1.0.15",
   "factorio_version": "0.17",
   "title": "Pyanodons HighTech",
-  "author": "Pyanodon, Nexela",
+  "author": "Pyanodon, Nexela, Kingarthur",
   "contact": "",
   "homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=51490&sid=f5d85f769fccb0ac398bf4036f829064",
   "description": "Improves and raise difficult of electronics in the game",
-  "dependencies": ["pycoalprocessing >= 1.0.11","pyfusionenergy >= 1.0.8"]
+  "dependencies": ["pycoalprocessing >= 1.0.16","pyfusionenergy >= 1.1.4"]
 }

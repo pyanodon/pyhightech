@@ -82,6 +82,7 @@ RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
 RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-circuit')
 RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
 RECIPE('kmauts-ration'):replace_ingredient('organics', 'skin')
+RECIPE('fawogae-plantation-mk03'):replace_ingredient('treated-wood', 'fiberboard')
 RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 
 RECIPE("accumulator-mk02"):remove_ingredient("battery"):add_ingredient({type = 'item', name = 'supercapacitor', amount = 10})
