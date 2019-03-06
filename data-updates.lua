@@ -97,6 +97,16 @@ TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('p
 TECHNOLOGY('electric-engine'):remove_prereq('advanced-electronics')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
 
+
+RECIPE("utility-science-pack"):remove_unlock('utility-science-pack')
+TECHNOLOGY('utility-science-pack'):remove_prereq('robotics'):remove_prereq('advanced-electronics-2'):remove_prereq('low-density-structure')
+TECHNOLOGY('military-4'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+TECHNOLOGY('rocket-control-unit'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+TECHNOLOGY('logistic-system'):remove_prereq('utility-science-pack')
+TECHNOLOGY('fusion-reactor-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+TECHNOLOGY('personal-roboport-equipment-2'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+
+
 ITEM('utility-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
 
 local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
