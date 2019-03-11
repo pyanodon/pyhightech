@@ -1,4 +1,4 @@
-require('stdlib/data/data').create_data_globals()
+require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 
 for _, recipe in pairs(data.raw.recipe) do
     local r = RECIPE(recipe)
@@ -109,7 +109,7 @@ TECHNOLOGY('personal-roboport-equipment-2'):remove_prereq('utility-science-pack'
 
 ITEM('utility-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
 
-local default = setmetatable({}, require("stdlib/utils/classes/string_array"))
+local default = setmetatable({}, require("__stdlib__/stdlib/utils/classes/string_array"))
 for _, player in DATA:pairs('player') do
     player.crafting_categories = player:get_field('crafting_categories', default) + 'handcrafting'
 end
