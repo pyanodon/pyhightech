@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "syngas", amount = 60},
         {type = "fluid", name = "steam", amount = 200, temperature = 165},
-        {type = "item", name = "iron-plate", amount = 5}
+        {type = "item", name = "iron-plate", amount = 4}
     },
     results = {
         {type = "fluid", name = "propene", amount = 60},
