@@ -10,7 +10,7 @@ RECIPE {
         {type = "item", name = "coal", amount = 5},
     },
     results = {
-        {type = "fluid", name = "carbon-sulfide", amount = 50}
+        {type = "fluid", name = "carbon-sulfide", amount = 60}
     },
 }:add_unlock("basic-electronics")
 

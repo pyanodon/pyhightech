@@ -3,7 +3,7 @@ RECIPE {
     name = "cumene",
     category = "fbreactor",
     enabled = false,
-    energy_required = 10,
+    energy_required = 8,
     ingredients = {
         {type = "fluid", name = "benzene", amount = 50},
         {type = "fluid", name = "phosphoric-acid", amount = 50},

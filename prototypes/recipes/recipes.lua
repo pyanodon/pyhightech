@@ -174,7 +174,7 @@ RECIPE {
     name = 'urea',
     category = 'auog',
     enabled = true,
-    energy_required = 30,
+    energy_required = 25,
     ingredients = {
         {type = 'item', name = 'fawogae', amount = 5}
     },
@@ -189,13 +189,13 @@ RECIPE {
     name = 'urea2',
     category = 'auog',
     enabled = false,
-    energy_required = 20,
+    energy_required = 10,
     ingredients = {
         {type = 'item', name = 'fawogae', amount = 4},
         {type = 'item', name = 'raw-fiber', amount = 6}
     },
     results = {
-        {type = 'item', name = 'urea', amount = 20}
+        {type = 'item', name = 'urea', amount = 25}
     },
     main_product = 'urea'
 }:add_unlock('coal-processing-1')
@@ -205,13 +205,13 @@ RECIPE {
     name = 'urea-decomposition',
     category = 'distilator',
     enabled = true,
-    energy_required = 10,
+    energy_required = 8,
     ingredients = {
         {type = 'item', name = 'urea', amount = 20}
     },
     results = {
-        {type = 'fluid', name = 'ammonia', amount = 10},
-        {type = 'fluid', name = 'cyanic-acid', amount = 10}
+        {type = 'fluid', name = 'ammonia', amount = 30},
+        {type = 'fluid', name = 'cyanic-acid', amount = 30}
     },
     main_product = 'cyanic-acid'
 }
@@ -319,7 +319,7 @@ RECIPE {
     name = 'valve',
     category = 'electronic',
     enabled = true,
-    energy_required = 15,
+    energy_required = 7,
     ingredients = {
         {type = 'item', name = 'iron-plate', amount = 5},
         {type = 'item', name = 'copper-plate', amount = 2},
@@ -661,14 +661,14 @@ RECIPE {
     name = 'crude-cermet',
     category = 'ball-mill',
     enabled = false,
-    energy_required = 7,
+    energy_required = 5,
     ingredients = {
         {type = 'item', name = 'ceramic', amount = 5}
     },
     results = {
         {type = 'item', name = 'crude-cermet', amount = 5}
     }
-}:add_unlock('basic-electronics'):add_ingredient({type = 'item', name = 'molybdenum-ore', amount = 5})
+}:add_unlock('basic-electronics'):add_ingredient({type = 'item', name = 'molybdenum-ore', amount = 3})
 
 RECIPE {
     type = 'recipe',
@@ -691,7 +691,7 @@ RECIPE {
     name = 'fecr-alloy',
     category = 'hpf',
     enabled = false,
-    energy_required = 4,
+    energy_required = 3,
     ingredients = {
         {type = 'item', name = 'iron-plate', amount = 5},
         {type = 'item', name = 'chromium', amount = 1}
@@ -1386,17 +1386,17 @@ RECIPE {
     name = 'raw-fiber',
     category = 'kicalk',
     enabled = false,
-    energy_required = 10,
+    energy_required = 30,
     ingredients = {
-        {type = 'item', name = 'clay', amount = 5},
-        {type = 'item', name = 'sand', amount = 10},
-        {type = 'item', name = 'py-fertilizer', amount = 2},
+        {type = 'item', name = 'clay', amount = 15},
+        {type = 'item', name = 'sand', amount = 30},
+        {type = 'item', name = 'py-fertilizer', amount = 6},
         {type = 'item', name = 'small-lamp', amount = 1},
-        {type = 'fluid', name = 'water', amount = 20},
-        {type = 'fluid', name = 'carbon-dioxide', amount = 200}
+        {type = 'fluid', name = 'water', amount = 60},
+        {type = 'fluid', name = 'carbon-dioxide', amount = 600}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 15}
+        {type = 'item', name = 'raw-fiber', amount = 45}
     }
 }:add_unlock('basic-electronics')
 
@@ -1405,14 +1405,14 @@ RECIPE {
     name = 'raw-fiber2',
     category = 'kicalk',
     enabled = true,
-    energy_required = 40,
+    energy_required = 120,
     ingredients = {
-        {type = 'item', name = 'clay', amount = 5},
+        {type = 'item', name = 'clay', amount = 15},
         {type = 'item', name = 'small-lamp', amount = 1},
-        {type = 'fluid', name = 'water', amount = 20}
+        {type = 'fluid', name = 'water', amount = 60}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 10}
+        {type = 'item', name = 'raw-fiber', amount = 30}
     }
 }
 
@@ -1421,16 +1421,16 @@ RECIPE {
     name = 'raw-fiber3',
     category = 'kicalk',
     enabled = false,
-    energy_required = 25,
+    energy_required = 75,
     ingredients = {
-        {type = 'item', name = 'clay', amount = 5},
-        {type = 'item', name = 'sand', amount = 10},
+        {type = 'item', name = 'clay', amount = 15},
+        {type = 'item', name = 'sand', amount = 30},
         {type = 'item', name = 'small-lamp', amount = 1},
-        {type = 'fluid', name = 'water', amount = 20},
-        {type = 'fluid', name = 'carbon-dioxide', amount = 200}
+        {type = 'fluid', name = 'water', amount = 60},
+        {type = 'fluid', name = 'carbon-dioxide', amount = 600}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 10}
+        {type = 'item', name = 'raw-fiber', amount = 30}
     }
 }:add_unlock('basic-electronics')
 
@@ -1439,14 +1439,14 @@ RECIPE {
     name = 'raw-fiber4',
     category = 'kicalk',
     enabled = true,
-    energy_required = 60,
+    energy_required = 180,
     ingredients = {
-        {type = 'item', name = 'clay', amount = 5},
-        {type = 'item', name = 'soil', amount = 30},
-        {type = 'fluid', name = 'water', amount = 20}
+        {type = 'item', name = 'clay', amount = 15},
+        {type = 'item', name = 'soil', amount = 60},
+        {type = 'fluid', name = 'water', amount = 60}
     },
     results = {
-        {type = 'item', name = 'raw-fiber', amount = 8}
+        {type = 'item', name = 'raw-fiber', amount = 24}
     }
 }
 
@@ -1786,7 +1786,7 @@ RECIPE {
     name = 'zinc-acetate',
     category = 'chemistry',
     enabled = false,
-    energy_required = 8,
+    energy_required = 4,
     ingredients = {
         {type = 'item', name = 'stone-brick', amount = 10},
         {type = 'fluid', name = 'acetic-acid', amount = 100}
@@ -1831,11 +1831,11 @@ RECIPE {
     name = 'zinc-nanocompound',
     category = 'nmf',
     enabled = false,
-    energy_required = 15,
+    energy_required = 7,
     ingredients = {
         {type = 'item', name = 'zinc-acetate', amount = 1},
         {type = 'item', name = 'sulfur', amount = 10},
-        {type = 'fluid', name = 'ralesia-extract', amount = 100}
+        {type = 'fluid', name = 'ralesia-extract', amount = 50}
     },
     results = {
         {type = 'item', name = 'zinc-nanocompound', amount = 1}
@@ -1868,7 +1868,7 @@ RECIPE {
     name = 'zno-nanoparticles',
     category = 'pa',
     enabled = false,
-    energy_required = 10,
+    energy_required = 8,
     ingredients = {
         {type = 'item', name = 'zinc-nanocomplex', amount = 5},
         {type = 'item', name = 'lead-container', amount = 1}
@@ -2076,7 +2076,7 @@ RECIPE {
     name = 'pcb4',
     category = 'pcb',
     enabled = false,
-    energy_required = 12,
+    energy_required = 4,
     ingredients = {
         {type = 'item', name = 'pcb3-2', amount = 1},
         {type = 'item', name = 'heavy-fermion', amount = 2},
@@ -2102,7 +2102,7 @@ RECIPE {
         {type = 'item', name = 'processing-unit', amount = 1},
         {type = 'item', name = 'kondo-processor', amount = 1},
         {type = 'item', name = 'csle-diode', amount = 1},
-        {type = 'item', name = 'optical-fiber', amount = 10},
+        {type = 'item', name = 'optical-fiber', amount = 8},
         {type = 'item', name = 'supercapacitor', amount = 1},
         {type = 'item', name = 'paradiamatic-resistor', amount = 1},
         {type = 'item', name = 'nanochip', amount = 1},
@@ -2348,16 +2348,16 @@ RECIPE {
     name = 'rayon',
     category = 'pulp',
     enabled = false,
-    energy_required = 15,
+    energy_required = 6,
     ingredients = {
         {type = 'fluid', name = 'carbon-sulfide', amount = 50},
         {type = 'fluid', name = 'ammonia', amount = 50},
-        {type = 'item', name = 'urea', amount = 5},
+        {type = 'item', name = 'urea', amount = 10},
         {type = 'fluid', name = 'sulfuric-acid', amount = 150},
         {type = 'item', name = 'fiber', amount = 15}
     },
     results = {
-        {type = 'item', name = 'rayon', amount = 3}
+        {type = 'item', name = 'rayon', amount = 5}
     }
 }:add_unlock('basic-electronics')
 
@@ -2414,7 +2414,7 @@ RECIPE {
     name = 'nylon-parts',
     category = 'crafting',
     enabled = false,
-    energy_required = 7,
+    energy_required = 5,
     ingredients = {
         {type = 'item', name = 'nylon', amount = 1}
     },
@@ -2797,9 +2797,9 @@ RECIPE {
     name = 'paramagnetic-material',
     category = 'pa',
     enabled = false,
-    energy_required = 15,
+    energy_required = 12,
     ingredients = {
-        {type = 'item', name = 'myoglobin', amount = 25},
+        {type = 'item', name = 'myoglobin', amount = 18},
         {type = 'item', name = 'chromium', amount = 5},
         {type = 'item', name = 'iron-plate', amount = 5},
         {type = 'item', name = 'nylon', amount = 2},

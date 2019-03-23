@@ -3,7 +3,7 @@ RECIPE {
     name = "methane",
     category = "moon",
     enabled = true,
-    energy_required = 25,
+    energy_required = 20,
     ingredients = {
         {type = "fluid", name = "water", amount = 100}
     },
@@ -18,7 +18,7 @@ RECIPE {
     name = "methane-py-fertilizer",
     category = "moon",
     enabled = true,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = "fluid", name = "water", amount = 100},
         {type = "item", name = "py-fertilizer", amount = 1},
@@ -34,7 +34,7 @@ RECIPE {
     name = "methane-co2",
     category = "moon",
     enabled = true,
-    energy_required = 18,
+    energy_required = 10,
     ingredients = {
         {type = "fluid", name = "water", amount = 100},
         {type = "fluid", name = "carbon-dioxide", amount = 100},

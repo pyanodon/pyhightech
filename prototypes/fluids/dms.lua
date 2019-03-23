@@ -3,7 +3,7 @@ RECIPE {
     name = "dms",
     category = "arum",
     enabled = false,
-    energy_required = 15,
+    energy_required = 8,
     ingredients = {
         {type = "fluid", name = "coal-gas", amount = 60},
 		{type = "fluid", name = "water", amount = 300},
