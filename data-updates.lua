@@ -1,4 +1,5 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
+local FUN = require("__pycoalprocessing__/functions/functions")
 
 for _, recipe in pairs(data.raw.recipe) do
     local r = RECIPE(recipe)
@@ -116,3 +117,40 @@ end
 for _, controller in DATA:pairs('god-controller') do
     controller.crafting_categories = controller:get_field('crafting_categories', default) + 'handcrafting'
 end
+
+local recipes_list =
+	{
+	"ammonia-urea",
+	"bisphenol-a",
+	"logistic-robot-ht",
+	"construction-robot-ht",
+	"fiber",
+	"nylon-parts",
+	}
+
+local Cat_list =
+	{
+	"phosphate",
+	"rare-earth",
+	"clay",
+	"moon",
+	"auog",
+	"arum",
+	"electronic",
+	"pulp",
+	"chip",
+	"pcb",
+	"fbreactor",
+	"nano",
+	"kicalk",
+	"zipir",
+	"quantum",
+	"pa",
+	"handcrafting",
+	"erase",
+	}
+
+--adding to module limitation list
+FUN.recipe_add_prod(recipes_list,Cat_list)
+FUN.add_buildings(recipes_list)
+FUN.productivity(recipes_list)
