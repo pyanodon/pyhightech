@@ -27,7 +27,7 @@ ITEM {
     subgroup = "py-hightech-items",
     order = "b",
     place_result = "logistic-robot-ht",
-    stack_size = 10
+    stack_size = 50
 }
 
 ENTITY {
