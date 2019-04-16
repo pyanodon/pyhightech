@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "electronics-factory",
-    energy_required = 10,
+    energy_required = 2,
     enabled = true,
     ingredients = {
         {"fbreactor", 1},

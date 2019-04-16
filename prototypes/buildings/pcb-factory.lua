@@ -10,7 +10,7 @@ local pipe = {
 RECIPE {
     type = "recipe",
     name = "pcb-factory",
-    energy_required = 10,
+    energy_required = 2,
     enabled = true,
     ingredients = {
         {"steam-engine", 2},

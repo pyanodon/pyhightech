@@ -10,7 +10,7 @@ local pipe = {
 RECIPE {
     type = "recipe",
     name = "kicalk-plantation",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"botanical-nursery", 2},
@@ -53,7 +53,7 @@ ENTITY {
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"kicalk"},
-    crafting_speed = 1,
+    crafting_speed = 2,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",

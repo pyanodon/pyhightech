@@ -10,7 +10,7 @@ local pipe = {
 RECIPE {
     type = "recipe",
     name = "cadaveric-arum",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"botanical-nursery", 1},

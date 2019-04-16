@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "auog-paddock",
-    energy_required = 10,
+    energy_required = 2,
     enabled = true,
     ingredients = {
         {"stone", 100},
