@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "clay-pit",
-    energy_required = 10,
+    energy_required = 2,
     enabled = true,
     ingredients = {
         {"burner-mining-drill", 2},

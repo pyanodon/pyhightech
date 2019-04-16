@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "rare-earth-mine",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"soil-extractormk01", 2},

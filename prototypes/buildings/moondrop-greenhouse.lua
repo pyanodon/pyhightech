@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "moondrop-greenhouse",
-    energy_required = 10,
+    energy_required = 2,
     enabled = true,
     ingredients = {
         {"steam-engine", 1},

@@ -10,7 +10,7 @@
 RECIPE {
     type = "recipe",
     name = "zipir",
-    energy_required = 10,
+    energy_required = 2,
     enabled = false,
     ingredients = {
         {"clay-pit", 1},
@@ -54,7 +54,7 @@ ENTITY {
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"zipir"},
-    crafting_speed = 1,
+    crafting_speed = 2,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",

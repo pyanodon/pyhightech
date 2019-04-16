@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nano-assembler",
-    energy_required = 10,
+    energy_required = 2,
     enabled = true,
     ingredients = {
         {"automated-factory-mk01", 1},

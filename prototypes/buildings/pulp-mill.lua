@@ -19,7 +19,7 @@ local pipe_right = {
 RECIPE {
     type = "recipe",
     name = "pulp-mill",
-    energy_required = 10,
+    energy_required = 2,
     enabled = true,
     ingredients = {
         {"fbreactor", 1},
