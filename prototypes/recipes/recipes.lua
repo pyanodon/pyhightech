@@ -1698,7 +1698,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'sc-wire', amount = 5},
-        {type = 'item', name = 'pdms-graphene', amount = 8},
+        {type = 'item', name = 'graphene-roll', amount = 8},
         {type = 'item', name = 'diamond', amount = 2},
         {type = 'item', name = 'colloidal-silica', amount = 4},
         {type = 'item', name = 'molybdenum-sulfide', amount = 10},
