@@ -71,7 +71,7 @@ ENTITY {
                 height = 256,
                 line_length = 64,
                 frame_count = 255,
-                animation_speed = 0.2,
+                animation_speed = 0.3,
                 shift = util.by_pixel(-96, -5)
             },
             {
@@ -80,7 +80,7 @@ ENTITY {
                 height = 256,
                 line_length = 64,
                 frame_count = 255,
-                animation_speed = 0.2,
+                animation_speed = 0.3,
                 shift = util.by_pixel(-64, -5)
             },
             {
@@ -89,7 +89,7 @@ ENTITY {
                 height = 256,
                 line_length = 64,
                 frame_count = 255,
-                animation_speed = 0.2,
+                animation_speed = 0.3,
                 shift = util.by_pixel(-32, -5)
             },
             {
@@ -99,7 +99,7 @@ ENTITY {
                 priority = "low",
                 line_length = 64,
                 frame_count = 255,
-                animation_speed = 0.2,
+                animation_speed = 0.3,
                 shift = util.by_pixel(0, -5)
             },
             {
@@ -108,7 +108,7 @@ ENTITY {
                 height = 256,
                 line_length = 64,
                 frame_count = 255,
-                animation_speed = 0.2,
+                animation_speed = 0.3,
                 shift = util.by_pixel(32, -5)
             },
             {
@@ -117,7 +117,7 @@ ENTITY {
                 height = 256,
                 line_length = 64,
                 frame_count = 255,
-                animation_speed = 0.2,
+                animation_speed = 0.3,
                 shift = util.by_pixel(64, -5)
             },
             {
@@ -126,7 +126,7 @@ ENTITY {
                 height = 256,
                 line_length = 64,
                 frame_count = 255,
-                animation_speed = 0.2,
+                animation_speed = 0.3,
                 shift = util.by_pixel(96, -5)
             },
             {
@@ -135,7 +135,7 @@ ENTITY {
                 height = 256,
                 line_length = 64,
                 frame_count = 255,
-                animation_speed = 0.2,
+                animation_speed = 0.3,
                 draw_as_shadow = true,
                 shift = util.by_pixel(112, -5)
             }
