@@ -141,6 +141,7 @@ RECIPE {
     type = 'recipe',
     name = 'clay',
     category = 'clay',
+    hidden = true,
     enabled = true,
     energy_required = 4,
     ingredients = {

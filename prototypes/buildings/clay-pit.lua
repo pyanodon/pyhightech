@@ -34,6 +34,7 @@ ENTITY {
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "clay-pit"},
     fast_replaceable_group = "clay-pit",
+    fixed_recipe = "clay",
     max_health = 400,
     corpse = "big-remnants",
     dying_explosion = "big-explosion",
