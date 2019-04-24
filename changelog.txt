@@ -3,6 +3,7 @@ Version: 1.1.4
 Date: ??????
   Balances:
     - fixed recipes on claypit.
+    - fixed recipes on antimatter fusion reaction.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.3
 Date: ??????
