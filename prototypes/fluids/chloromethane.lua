@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "chloromethane", amount = 30}
     },
     main_product = "chloromethane",
-}:add_unlock("graphene"):replace_ingredient("sulfuric-acid" , "hydrogen-chloride")
+}:add_unlock("graphene")
 
 FLUID {
     type = "fluid",

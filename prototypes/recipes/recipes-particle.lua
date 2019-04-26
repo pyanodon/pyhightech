@@ -143,7 +143,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo"):replace_ingredient("chromium", "nickel-plate")
+}:add_unlock("nucleo")
 
 RECIPE {
     type = "recipe",
@@ -227,7 +227,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo"):replace_ingredient("iron-plate", "gold-plate")
+}:add_unlock("nucleo")
 
 RECIPE {
     type = "recipe",

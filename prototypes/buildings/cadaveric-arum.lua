@@ -22,7 +22,7 @@ RECIPE {
     results = {
         {"cadaveric-arum", 1}
     }
-}:add_ingredient({type = "item", name = "rubber", amount = 20}):add_unlock("advanced-electronics")
+}:add_unlock("advanced-electronics")
 
 ITEM {
     type = "item",
