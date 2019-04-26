@@ -16,7 +16,7 @@ RECIPE {
     results = {
         {"construction-robot-ht", 1}
     }
-}:add_unlock("earnshaw-theorem"):replace_ingredient('construction-robot', 'bob-construction-robot-4')
+}:add_unlock("earnshaw-theorem")
 
 ITEM {
     type = "item",

@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"nano-assembler", 1}
     }
-}:replace_ingredient("iron-gear-wheel", "titanium-bearing"):add_unlock("advanced-electronics")
+}:add_unlock("advanced-electronics")
 
 ITEM {
     type = "item",

@@ -49,7 +49,7 @@ RECIPE {
         {type = 'fluid', name = 'rare-earth-mud', amount = 100}
     },
     main_product = 'rare-earth-mud'
-}:add_unlock('rare-earth-tech'):replace_result('iron-ore', 'zinc-plate')
+}:add_unlock('rare-earth-tech')
 
 RECIPE {
     type = 'recipe',
@@ -99,7 +99,7 @@ RECIPE {
         {type = 'item', name = 'ree-concentrate', amount = 20}
     },
     main_product = 'ree-concentrate'
-}:add_unlock('rare-earth-tech'):replace_result('copper-plate', 'nickel-plate')
+}:add_unlock('rare-earth-tech')
 
 RECIPE {
     type = 'recipe',
@@ -282,7 +282,7 @@ RECIPE {
         {type = 'item', name = 'capacitor1', amount = 3}
     },
     main_product = 'capacitor1'
-}:add_ingredient({type = 'item', name = 'resin', amount = 2})
+}
 
 RECIPE {
     type = 'recipe',
@@ -1572,7 +1572,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'resorcinol', amount = 2}
     }
-}:add_unlock('aerogel'):replace_ingredient('melamine-resin', 'resin')
+}:add_unlock('aerogel')
 
 RECIPE {
     type = 'recipe',
@@ -2705,7 +2705,7 @@ RECIPE {
         {type = 'fluid', name = 'flue-gas', amount = 50}
     },
     main_product = 'methane'
-}:add_unlock('coal-processing-3'):replace_result('flue-gas', 'oxygen'):change_category('gas-separator')
+}:add_unlock('coal-processing-3'):change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',

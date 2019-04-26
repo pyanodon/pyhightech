@@ -23,7 +23,7 @@ end
 
 RECIPE('rich-re'):remove_unlock('coal-processing-2')
 RECIPE('eva-ree-dust'):remove_unlock('coal-processing-2')
-RECIPE('remud-dirty-water'):remove_unlock('coal-processing-2')
+--RECIPE('remud-dirty-water'):remove_unlock('coal-processing-2')
 RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 RECIPE('vacuum-pump'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
@@ -41,13 +41,10 @@ RECIPE('hydrogen-peroxide'):remove_unlock('coal-processing-3'):add_unlock('basic
 RECIPE('agitator'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
 RECIPE('agitator'):replace_ingredient('plastic-bar', 'melamine'):replace_ingredient('electric-engine-unit', 'engine-unit')
 RECIPE('mixer'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
-RECIPE('mixer'):replace_ingredient('titanium-bearing', 'steel-bearing')
-RECIPE('ball-mill'):remove_ingredient('py-asphalt'):add_ingredient({type = 'item', name = 'electronic-circuit', amount = 10})
 RECIPE('science-coating'):add_ingredient({type = 'item', name = 'nylon', amount = 5}):add_ingredient({type = 'item', name = 'zinc-acetate', amount = 15})
 RECIPE('bio-reactor'):add_ingredient({type = 'item', name = 'advanced-circuit', amount = 5})
 RECIPE('bio-reactor'):remove_unlock('helium-processing'):add_unlock('nano-tech')
 RECIPE('compressor'):remove_unlock('regolite-mining'):add_unlock('advanced-electronics')
-RECIPE('liquid-nitrogen'):remove_unlock('helium-processing'):add_unlock('advanced-electronics')
 RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('rare-earth-tech')
 RECIPE('kevlar'):add_ingredient({type = 'item', name = 'nylon', amount = 5})
 RECIPE('explosives'):add_ingredient({type = 'item', name = 'collagen', amount = 5})
@@ -109,6 +106,16 @@ TECHNOLOGY('personal-roboport-equipment-2'):remove_prereq('utility-science-pack'
 
 
 ITEM('utility-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
+
+--recipe updates
+RECIPE("ree-float"):replace_result('iron-ore', 'zinc-plate')
+RECIPE("ree-concentrate3"):replace_result('copper-plate', 'nickel-plate')
+RECIPE("syngas-methane"):replace_result('flue-gas', 'oxygen')
+RECIPE("pa-niobium"):replace_ingredient("chromium", "nickel-plate")
+RECIPE("pa-uranium"):replace_ingredient("iron-plate", "gold-plate")
+RECIPE("propene"):replace_ingredient("iron-plate", "lead-plate")
+RECIPE("msa"):replace_ingredient("industrial-solvent", "chlorine")
+RECIPE("acrolein"):add_ingredient({type = "fluid", name = "oxygen", amount = 80})
 
 local default = setmetatable({}, require("__stdlib__/stdlib/utils/classes/string_array"))
 for _, player in DATA:pairs('player') do
