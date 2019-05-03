@@ -1,9 +1,11 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.1.4
+Version: 1.1.5
 Date: ??????
   Balances:
     - fixed recipes on claypit.
     - fixed recipes on antimatter fusion reaction.
+  Bugfixes:
+    - tried to make it run after the update.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.3
 Date: ??????
