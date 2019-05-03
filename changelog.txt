@@ -4,6 +4,7 @@ Date: ??????
   Balances:
     - fixed recipes on claypit.
     - fixed recipes on antimatter fusion reaction.
+    - fixed fuels.
   Bugfixes:
     - tried to make it run after the update.
 ---------------------------------------------------------------------------------------------------
