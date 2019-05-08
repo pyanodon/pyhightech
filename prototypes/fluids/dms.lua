@@ -16,7 +16,7 @@ RECIPE {
         {type = "fluid", name = "dms", amount = 15}
     },
     main_product = "dms",
-}:add_unlock("advanced-electronics")
+}:add_unlock("basic-electronics")
 
 FLUID {
     type = "fluid",
