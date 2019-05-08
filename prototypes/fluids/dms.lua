@@ -13,7 +13,7 @@ RECIPE {
 		{type = "item", name = "stone-wool", amount = 4},
     },
     results = {
-        {type = "fluid", name = "dms", amount = 15}
+        {type = "fluid", name = "dms", amount = 25}
     },
     main_product = "dms",
 }:add_unlock("basic-electronics")
