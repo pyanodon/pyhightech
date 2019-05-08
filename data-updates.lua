@@ -276,7 +276,7 @@ local recipes_list =
   "nems",
   "lithium-chloride",
   "volumetric-capacitor",
-  "laser-turret-desconstruction",
+  --"laser-turret-desconstruction",
   "yag-laser-module",
   "lithium-niobate",
   "parametric-oscilator",
