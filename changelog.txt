@@ -3,6 +3,8 @@ Version: 1.1.6
 Date: ??????
   Balances:
     - removed modules in laser-turret descontruction.
+    - moved DMS recipe to basic-electronics tech.
+    - make cadaveric arum buildable in basic electronics.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.5
 Date: ??????

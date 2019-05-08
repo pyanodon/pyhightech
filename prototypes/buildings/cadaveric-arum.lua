@@ -15,7 +15,7 @@ RECIPE {
     ingredients = {
         {"botanical-nursery", 1},
         {"plastic-bar", 100},
-        {"advanced-circuit", 20},
+        {"electronic-circuit", 25},
         {"steel-plate", 60},
         {"hydrocyclone", 1}
     },
