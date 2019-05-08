@@ -2406,7 +2406,7 @@ RECIPE {
         {type = 'item', name = 'nylon', amount = 3}
     },
     results = {
-        {type = 'item', name = 'plastic-bar', amount = 5}
+        {type = 'item', name = 'plastic-bar', amount = 15}
     }
 }:add_unlock('advanced-electronics')
 
