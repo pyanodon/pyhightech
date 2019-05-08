@@ -22,7 +22,7 @@ RECIPE {
     results = {
         {"cadaveric-arum", 1}
     }
-}:add_unlock("advanced-electronics")
+}:add_unlock("basic-electronics")
 
 ITEM {
     type = "item",
