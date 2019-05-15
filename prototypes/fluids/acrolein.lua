@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "acrolein",
-    category = "hpf",
+    category = "advanced-foundry",
     enabled = true,
     energy_required = 15,
     ingredients = {
