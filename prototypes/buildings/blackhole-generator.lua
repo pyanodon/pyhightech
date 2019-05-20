@@ -4,22 +4,28 @@ RECIPE {
     energy_required = 2,
     enabled = true,
     ingredients = {
-        {"iron-plate", 1},
-		{"electronic-circuit", 1}
+        {"steel-plate", 100},
+        {"concrete", 100},
+        {"processing-unit", 25},
+        {"antimatter", 1},
+        {"supercapacitor", 10},
+        {"superconductor", 10},
+        {"particle-accelerator", 1},
+        {"sc-unit", 5},
     },
     results = {
         {"blackhole", 1}
     }
-}
+}:add_unlock("penrose")
 
 ITEM {
     type = "item",
     name = "blackhole",
-    icon = "__pyhightech__/graphics/untextured.png",
+    icon = "__pyhightech__/graphics/icons/blackhole-generator.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
-    order = "c",
+    order = "d",
     place_result = "blackhole",
     stack_size = 10
 }
@@ -27,7 +33,7 @@ ITEM {
 ENTITY {
     type = "generator",
     name = "blackhole",
-    icon = "__pyhightech__/graphics/untextured.png",
+    icon = "__pyhightech__/graphics/icons/blackhole-generator.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "blackhole"},
@@ -35,8 +41,8 @@ ENTITY {
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
-    collision_box = {{-1, -1}, {1, 1}},
-    selection_box = {{-3, -3}, {3, 3}},
+    collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
+    selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     energy_source =
 		{
 				type = "electric",
@@ -57,43 +63,37 @@ ENTITY {
       layers =
       {
         {
-          filename = "__pyhightech__/graphics/untextured128.png",
-          width = 128,
-          height = 128,
-          frame_count = 1,
-          line_length = 1,
-          shift = util.by_pixel(1, -5),
-          hr_version =
-          {
-            filename = "__pyhightech__/graphics/untextured128.png",
-            width = 128,
-            height = 128,
-            frame_count = 1,
-            line_length = 1,
-            --shift = util.by_pixel(1, -4.75),
-            --scale = 0.5
-          }
+          filename = "__pyhightech__/graphics/entity/blackhole-generator/a1.png",
+          width = 96,
+          height = 400,
+          frame_count = 80,
+          line_length = 20,
+          shift = util.by_pixel(-96, -54),
         },
-        --[[{
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H-shadow.png",
-          width = 254,
-          height = 80,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(48, 24),
-          hr_version =
-          {
-            filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H-shadow.png",
-            width = 508,
-            height = 160,
-            frame_count = 32,
-            line_length = 8,
-            draw_as_shadow = true,
-            shift = util.by_pixel(48, 24),
-            scale = 0.5
-          }
-        }]]--
+        {
+          filename = "__pyhightech__/graphics/entity/blackhole-generator/a2.png",
+          width = 96,
+          height = 400,
+          frame_count = 80,
+          line_length = 20,
+          shift = util.by_pixel(0, -54),
+        },
+        {
+          filename = "__pyhightech__/graphics/entity/blackhole-generator/a3.png",
+          width = 96,
+          height = 400,
+          frame_count = 80,
+          line_length = 20,
+          shift = util.by_pixel(96, -54),
+        },
+        {
+          filename = "__pyhightech__/graphics/entity/blackhole-generator/a4.png",
+          width = 32,
+          height = 400,
+          frame_count = 80,
+          line_length = 20,
+          shift = util.by_pixel(160, -54),
+        },
       }
     },
     vertical_animation =
@@ -101,61 +101,43 @@ ENTITY {
       layers =
       {
         {
-          filename = "__pyhightech__/graphics/untextured128.png",
-          width = 128,
-          height = 128,
-          frame_count = 1,
-          line_length = 1,
-          shift = util.by_pixel(1, -5),
-          hr_version =
-          {
-            filename = "__pyhightech__/graphics/untextured128.png",
-            width = 128,
-            height = 128,
-            frame_count = 1,
-            line_length = 1,
-            --shift = util.by_pixel(1, -4.75),
-            --scale = 0.5
-          }
+          filename = "__pyhightech__/graphics/entity/blackhole-generator/a1.png",
+          width = 96,
+          height = 400,
+          frame_count = 80,
+          line_length = 20,
+          shift = util.by_pixel(-96, -54),
         },
-        --[[{
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V-shadow.png",
-          width = 165,
-          height = 153,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(40.5, 9.5),
-          hr_version =
-          {
-            filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V-shadow.png",
-            width = 330,
-            height = 307,
-            frame_count = 32,
-            line_length = 8,
-            draw_as_shadow = true,
-            shift = util.by_pixel(40.5, 9.25),
-            scale = 0.5
-          }
-        }]]--
-      }
-    },
-    smoke =
-    {
-      {
-        name = "light-smoke",
-        north_position = {0.9, 0.0},
-        east_position = {-2.0, -2.0},
-        frequency = 10 / 32,
-        starting_vertical_speed = 0.08,
-        slow_down_factor = 1,
-        starting_frame_deviation = 60
+        {
+          filename = "__pyhightech__/graphics/entity/blackhole-generator/a2.png",
+          width = 96,
+          height = 400,
+          frame_count = 80,
+          line_length = 20,
+          shift = util.by_pixel(0, -54),
+        },
+        {
+          filename = "__pyhightech__/graphics/entity/blackhole-generator/a3.png",
+          width = 96,
+          height = 400,
+          frame_count = 80,
+          line_length = 20,
+          shift = util.by_pixel(96, -54),
+        },
+        {
+          filename = "__pyhightech__/graphics/entity/blackhole-generator/a4.png",
+          width = 32,
+          height = 400,
+          frame_count = 80,
+          line_length = 20,
+          shift = util.by_pixel(160, -54),
+        },
       }
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/auog-paddock.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/auog-paddock.ogg", volume = 1.1},
+        sound = {filename = "__pyhightech__/sounds/blackhole-generator.ogg", volume = 1.5},
+        idle_sound = {filename = "__pyhightech__/sounds/blackhole-generator.ogg", volume = 1.0},
         apparent_volume = 2.5
     }
 }

@@ -13,6 +13,7 @@ require("prototypes/technologies/aerogel")
 require("prototypes/technologies/earnshaw-theorem")
 require("prototypes/technologies/quantum")
 require("prototypes/technologies/nucleo")
+require("prototypes/technologies/penrose")
 
 require("prototypes/ore/phosphate-rock")
 require("prototypes/ore/rare-earth-bolide")

@@ -54,6 +54,8 @@ RECIPE('sc-coil'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics'
 RECIPE('sc-wire'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics')
 RECIPE('coil-core'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics')
 RECIPE('magnetic-core'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics')
+RECIPE('deposited-core'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics'):change_category('nano')
+RECIPE('sc-unit'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics')
 RECIPE('boron'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
 RECIPE('boron-mixture'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics'):replace_ingredient('helium', 'acetylene')
 RECIPE('b2o3-milling'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
