@@ -51,7 +51,7 @@ ENTITY {
 			emissions_per_minute = 0,
 		},
 	effectivity = 1,
-	max_power_output = "1MW",
+	max_power_output = "10MW",
 	horizontal_animation =
     {
       layers =
