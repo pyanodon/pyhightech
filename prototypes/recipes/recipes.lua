@@ -3107,7 +3107,7 @@ RECIPE {
     name = 'saline-water',
     category = 'washer',
     enabled = true,
-    energy_required = 10,
+    energy_required = 3,
     ingredients = {
         {type = 'item', name = 'stone', amount = 10},
         {type = 'fluid', name = 'water', amount = 100}
