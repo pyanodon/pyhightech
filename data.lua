@@ -40,6 +40,7 @@ require("prototypes/buildings/kicalk-plantation")
 require("prototypes/buildings/zipir")
 require("prototypes/buildings/quantum-computer")
 require("prototypes/buildings/particle-accelerator")
+require("prototypes/buildings/blackhole-generator")
 
 require("prototypes/fluids/methane")
 require("prototypes/fluids/methanal")
