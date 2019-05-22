@@ -187,7 +187,7 @@ ENTITY {
     name = "magic-furnace",
     icon = "__pyhightech__/graphics/empty.png",
     icon_size = 32,
-    flags = {"placeable-neutral", "placeable-player", "player-creation", "not-deconstructable"},
+    flags = {"placeable-neutral", "placeable-player", "player-creation", "not-deconstructable", "not-blueprintable"},
     --minable = {mining_time = 0.1, result = "magic-furnace"},
 	minable = {minable = false, mining_time = 0},
     max_health = 350,
