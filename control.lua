@@ -1,7 +1,7 @@
 require("__core__/lualib/util")
 
 
-script.on_init(function(event)
+script.on_init(function()
 
 global.blackhole =
 {
@@ -49,7 +49,7 @@ end
 
 end)
 
-script.on_nth_tick(30,function(fuelcheck)
+script.on_nth_tick(30,function()
 
 for _,e in pairs(global.blackhole) do
 
@@ -57,7 +57,6 @@ for _,e in pairs(global.blackhole) do
 	--log(serpent.block(e.generator.pos))
 	local curgen = game.surfaces["nauvis"].find_entity("blackhole",e.generator.pos)
 	local curfurn = game.surfaces["nauvis"].find_entity("magic-furnace",e.furnace.pos)
-
 	if curgen ~= nil then
 		--log(serpent.block(curgen.name))
 		--log(serpent.block(curfurn.name))
@@ -66,26 +65,13 @@ for _,e in pairs(global.blackhole) do
 			local fuel = curfurn.get_output_inventory().get_item_count()
 			if fuel >= 1 then
 				curgen.get_fuel_inventory().insert({name="blackhole-fuel",count=fuel})
-				
 				curfurn.get_output_inventory().clear()
 			end
 		end
 	end
-
 end
 
 end)
-
-function fuelcheck(event)
-
-for _,e in pairs(global.blackhole) do
-
-log(serpent.block(e))
-
-
-end
-
-end
 
 script.on_event({defines.events.on_player_mined_entity, defines.events.on_robot_mined_entity}, function(event)
 	if event.entity.name == "blackhole" then

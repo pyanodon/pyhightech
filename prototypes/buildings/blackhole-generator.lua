@@ -169,7 +169,7 @@ data:extend(
 }
 )
 
---hidden furnace 
+--hidden furnace
 ITEM {
     type = "item",
     name = "magic-furnace",
