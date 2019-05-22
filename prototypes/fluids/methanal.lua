@@ -3,13 +3,13 @@ RECIPE {
     name = "methanal",
     category = "hpf",
     enabled = true,
-    energy_required = 8,
+    energy_required = 4,
     ingredients = {
         {type = "fluid", name = "methane", amount = 60},
         {type = "item", name = "copper-plate", amount = 5}
     },
     results = {
-        {type = "fluid", name = "methanal", amount = 30}
+        {type = "fluid", name = "methanal", amount = 50}
     },
     main_product = "methanal",
 }
