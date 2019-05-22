@@ -46,7 +46,7 @@ ENTITY {
     energy_source =
 		{
 				type = "electric",
-				usage_priority = "secondary-output",
+				usage_priority = "primary-output",
 		},
 	burner =
 		{
