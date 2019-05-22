@@ -147,7 +147,7 @@ ENTITY {
 ITEM {
 	type = "item",
     name = "blackhole-fuel",
-    icon = "__pyhightech__/graphics/untextured.png",
+    icon = "__pyhightech__/graphics/icons/matter.png",
     icon_size = 32,
     fuel_category = "blackhole",
     fuel_value = "5MJ",
@@ -187,9 +187,9 @@ ENTITY {
     name = "magic-furnace",
     icon = "__pyhightech__/graphics/empty.png",
     icon_size = 32,
-    flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {mining_time = 0.1, result = "magic-furnace"},
-	--minable = {minable = false, mining_time = 0},
+    flags = {"placeable-neutral", "placeable-player", "player-creation", "not-deconstructable"},
+    --minable = {mining_time = 0.1, result = "magic-furnace"},
+	minable = {minable = false, mining_time = 0},
     max_health = 350,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",
@@ -200,8 +200,8 @@ ENTITY {
         percent = 80
       }
     },
-    collision_box = {{-3, -3}, {3, 3}},
-    selection_box = {{-1, -1}, {1, 1}},
+    collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
+    selection_box = {{-0, -0}, {0, 0}},
 	--[[
     module_specification =
     {
