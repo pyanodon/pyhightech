@@ -57,7 +57,7 @@ ENTITY {
 			emissions_per_minute = 0,
 		},
 	effectivity = 1,
-	max_power_output = "20MW",
+	max_power_output = "15MW",
 	horizontal_animation =
     {
       layers =
@@ -150,7 +150,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/matter.png",
     icon_size = 32,
     fuel_category = "blackhole",
-    fuel_value = "5MJ",
+    fuel_value = "3MJ",
     subgroup = "raw-resource",
     order = "b[coal]",
     stack_size = 50
