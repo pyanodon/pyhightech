@@ -57,7 +57,7 @@ ENTITY {
 			emissions_per_minute = 0,
 		},
 	effectivity = 1,
-	max_power_output = "10MW",
+	max_power_output = "20MW",
 	horizontal_animation =
     {
       layers =
@@ -136,8 +136,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/blackhole-generator.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/blackhole-generator.ogg", volume = 1.0},
+        sound = {filename = "__pyhightech__/sounds/blackhole-generator.ogg", volume = 0.55},
+        idle_sound = {filename = "__pyhightech__/sounds/blackhole-generator.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }
