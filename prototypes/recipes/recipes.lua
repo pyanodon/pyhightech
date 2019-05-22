@@ -2719,7 +2719,7 @@ RECIPE {
         {type = 'item', name = 'molybdenum-ore', amount = 3}
     },
     results = {
-        {type = 'fluid', name = 'methanal', amount = 80}
+        {type = 'fluid', name = 'methanal', amount = 100}
     }
 }:add_unlock('coal-processing-2')
 
