@@ -150,7 +150,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/matter.png",
     icon_size = 32,
     fuel_category = "blackhole",
-    fuel_value = "3MJ",
+    fuel_value = "100KJ",
     subgroup = "raw-resource",
     order = "b[coal]",
     stack_size = 50
