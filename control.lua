@@ -26,7 +26,7 @@ end)
 script.on_event({defines.events.on_built_entity, defines.events.on_robot_built_entity}, function(event)
 local E = event.created_entity
 if E.name == "blackhole" then
-local Furn = game.surfaces["nauvis"].create_entity{name="magic-furnace",position={E.position.x,E.position.y},force=game.players[event.player_index].force}
+local Furn = game.surfaces["nauvis"].create_entity{name="magic-furnace",position={E.position.x,E.position.y},force=E.force}
 
 local newgen = util.table.deepcopy(global.blackhole[1])
 
