@@ -14,7 +14,7 @@ local blackholemods =
 	{"coal-dust",5},
 	}
 
-local defaultfuelcount = 30 -- 100KJ per unit times 30 = 3MJ
+local defaultfuelcount = 40 -- 100KJ per unit times 30 = 3MJ
 --creating all the hidden recipes for each item to be converted to blackhole fuel
 for i, item in pairs(data.raw.item) do
 	local fuelcount = defaultfuelcount
