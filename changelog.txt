@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+  Balance:
+    - Reduced Myoglobin in Paramagnetic material.
+    - Reduced Meat in Resilin.
+    - Reduced Collagen in Biopolymer.
+    - Increased meat production.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.1
   Balance:
     - fixed bug when robots try to put the singularity.

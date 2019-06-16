@@ -305,7 +305,7 @@ RECIPE {
     name = 'graphite',
     category = 'hpf',
     enabled = true,
-    energy_required = 5,
+    energy_required = 3,
     ingredients = {
         {type = 'item', name = 'coke', amount = 5}
     },
@@ -1289,7 +1289,7 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'silver-foam', amount = 5},
         {type = 'item', name = 'urea', amount = 10},
-        {type = 'item', name = 'collagen', amount = 10},
+        {type = 'item', name = 'collagen', amount = 5},
         {type = 'fluid', name = 'bacteria-2', amount = 25},
         {type = 'fluid', name = 'diesel', amount = 150}
     },
@@ -2194,7 +2194,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'bones', amount = 5},
         {type = 'item', name = 'skin', amount = 15},
-        {type = 'item', name = 'meat', amount = 3},
+        {type = 'item', name = 'meat', amount = 7},
         {type = 'fluid', name = 'blood', amount = 60}
     },
     icon = '__pyhightech__/graphics/icons/rendering.png',
@@ -2466,7 +2466,7 @@ RECIPE {
     enabled = false,
     energy_required = 30,
     ingredients = {
-        {type = 'item', name = 'meat', amount = 20},
+        {type = 'item', name = 'meat', amount = 10},
         {type = 'item', name = 'aerogel', amount = 2},
         {type = 'item', name = 'melamine', amount = 5},
         {type = 'item', name = 'zinc-nanocompound', amount = 1},
@@ -2800,7 +2800,7 @@ RECIPE {
     enabled = false,
     energy_required = 12,
     ingredients = {
-        {type = 'item', name = 'myoglobin', amount = 18},
+        {type = 'item', name = 'myoglobin', amount = 10},
         {type = 'item', name = 'chromium', amount = 5},
         {type = 'item', name = 'iron-plate', amount = 5},
         {type = 'item', name = 'nylon', amount = 2},
