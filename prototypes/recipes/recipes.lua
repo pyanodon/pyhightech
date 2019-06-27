@@ -2487,7 +2487,7 @@ RECIPE {
         {type = 'item', name = 'resilin', amount = 1},
         {type = 'item', name = 'biopolymer', amount = 5},
         {type = 'item', name = 'bonemeal', amount = 10},
-        {type = 'item', name = 'collagen', amount = 20},
+        {type = 'item', name = 'collagen', amount = 10},
         {type = 'item', name = 'zno-nanoparticles', amount = 1}
     },
     results = {
