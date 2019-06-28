@@ -97,6 +97,7 @@ RECIPE('logistic-robot-ht'):replace_ingredient('logistic-robot', 'py-logistic-ro
 TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('production-science-pack'):remove_pack('chemical-science-pack')
 TECHNOLOGY('electric-engine'):remove_prereq('advanced-electronics')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
+TECHNOLOGY('modules'):remove_prereq('advanced-electronics'):add_prereq('methanol-processing-2')
 
 
 RECIPE("utility-science-pack"):remove_unlock('utility-science-pack')
