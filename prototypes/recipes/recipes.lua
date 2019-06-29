@@ -3024,11 +3024,11 @@ RECIPE {
         {type = 'fluid', name = 'liquid-helium', amount = 30},
     },
     results = {
-        {type = 'item', name = 'production-science-pack', amount = 1, probability = 0.3},
-        {type = 'item', name = 'military-science-pack', amount = 1, probability = 0.3},
-        {type = 'item', name = 'chemical-science-pack', amount = 1, probability = 0.3},
-        {type = 'item', name = 'logistic-science-pack', amount = 1, probability = 0.3},
-        {type = 'item', name = 'automation-science-pack', amount = 1, probability = 0.3}
+        {type = 'item', name = 'production-science-pack', amount = 3},
+        {type = 'item', name = 'military-science-pack', amount = 3},
+        {type = 'item', name = 'chemical-science-pack', amount = 3},
+        {type = 'item', name = 'logistic-science-pack', amount = 3},
+        {type = 'item', name = 'automation-science-pack', amount = 3}
     },
     main_product = 'production-science-pack',
     icon = '__pyhightech__/graphics/icons/random-packs.png',
