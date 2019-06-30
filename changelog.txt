@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.6
+  Changes:
+    - Fixed recipes unlocked before the building in the starting game.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.5
   Bug-fixes:
     - Modules technology now unlocks in science 2.

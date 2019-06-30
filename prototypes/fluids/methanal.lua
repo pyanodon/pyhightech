@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "methanal",
     category = "hpf",
-    enabled = true,
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "methane", amount = 60},
@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "methanal", amount = 50}
     },
     main_product = "methanal",
-}
+}:add_unlock('coal-processing-1')
 
 FLUID {
     type = "fluid",
