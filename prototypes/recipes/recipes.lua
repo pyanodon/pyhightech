@@ -240,7 +240,7 @@ RECIPE {
     type = 'recipe',
     name = 'ceramic',
     category = 'hpf',
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'clay', amount = 10},
@@ -250,7 +250,7 @@ RECIPE {
         {type = 'item', name = 'ceramic', amount = 5}
     },
     main_product = 'ceramic'
-}
+}:add_unlock('coal-processing-1')
 
 RECIPE {
     type = 'recipe',
@@ -304,7 +304,7 @@ RECIPE {
     type = 'recipe',
     name = 'graphite',
     category = 'hpf',
-    enabled = true,
+    enabled = false,
     energy_required = 3,
     ingredients = {
         {type = 'item', name = 'coke', amount = 5}
@@ -313,7 +313,7 @@ RECIPE {
         {type = 'item', name = 'graphite', amount = 2}
     },
     main_product = 'graphite'
-}
+}:add_unlock('coal-processing-1')
 
 RECIPE {
     type = 'recipe',
