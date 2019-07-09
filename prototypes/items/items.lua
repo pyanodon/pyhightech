@@ -246,16 +246,6 @@ ITEM {
 }
 ITEM {
     type = "item",
-    name = "rare-earth-dust",
-    icon = "__pyhightech__/graphics/icons/rare-earth-dust.png",
-	icon_size = 32,
-    flags = {},
-    subgroup = "py-hightech-items",
-    order = "k",
-    stack_size = 150
-}
-ITEM {
-    type = "item",
     name = "ree-concentrate",
     icon = "__pyhightech__/graphics/icons/ree-concentrate.png",
 	icon_size = 32,
