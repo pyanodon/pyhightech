@@ -2294,7 +2294,7 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
-    name = 'log7',
+    name = 'log7-2',
     category = 'nursery',
     enabled = false,
     energy_required = 10,
