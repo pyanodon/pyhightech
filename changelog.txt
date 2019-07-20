@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.7
+  Changes:
+    - Added new graphics for rare earth ores.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.6
   Changes:
     - Fixed recipes unlocked before the building in the starting game.
