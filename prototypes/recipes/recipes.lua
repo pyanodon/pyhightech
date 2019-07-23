@@ -1294,7 +1294,7 @@ RECIPE {
         {type = 'fluid', name = 'diesel', amount = 150}
     },
     results = {
-        {type = 'item', name = 'biopolymer', amount = 5}
+        {type = 'item', name = 'biopolymer', amount = 7}
     }
 }:add_unlock('nano-tech')
 
@@ -1787,7 +1787,7 @@ RECIPE {
     name = 'zinc-acetate',
     category = 'chemistry',
     enabled = false,
-    energy_required = 4,
+    energy_required = 3.5,
     ingredients = {
         {type = 'item', name = 'stone-brick', amount = 10},
         {type = 'fluid', name = 'acetic-acid', amount = 100}
