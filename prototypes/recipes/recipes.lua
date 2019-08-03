@@ -3200,7 +3200,7 @@ RECIPE {
     type = 'recipe',
     name = 'ammonia-urea',
     category = 'chemistry',
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'urea', amount = 20}
