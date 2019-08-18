@@ -840,7 +840,7 @@ RECIPE {
         {type = 'fluid', name = 'ech', amount = 30}
     },
     results = {
-        {type = 'item', name = 'epoxy', amount = 6}
+        {type = 'item', name = 'epoxy', amount = 4}
     },
     main_product = 'epoxy'
 }:add_unlock('advanced-electronics')
