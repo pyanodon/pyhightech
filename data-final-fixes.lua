@@ -6,6 +6,8 @@ local blackholemods =
 	{
 	--{item name, amount of fuel in x*100KJ}
 	{"soil",1},
+	{"guar-seeds",2},
+	{"clay",2},
 	{"wood",5},
 	{"limestone",5},
 	{"lime",5},
