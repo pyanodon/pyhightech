@@ -43,5 +43,8 @@ for i, item in pairs(data.raw.item) do
 end
 
 for _,name in pairs(blackholemods) do
-	data.raw.recipe["blackhole-fuel-"..name[1]].results[1].amount=name[2]
+	--log(name)
+	if data.raw.item[name] ~= nil then
+		data.raw.recipe["blackhole-fuel-"..name[1]].results[1].amount=name[2]
+	end
 end
