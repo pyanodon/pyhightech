@@ -95,7 +95,7 @@ RECIPE {
         {type = 'fluid', name = 'sulfuric-acid', amount = 150}
     },
     results = {
-        {type = 'item', name = 'copper-plate', amount = 10},
+        {type = 'item', name = 'copper-plate', amount = 2},
         {type = 'item', name = 'ree-concentrate', amount = 20}
     },
     main_product = 'ree-concentrate'
@@ -111,7 +111,7 @@ RECIPE {
         {type = 'item', name = 'ree-concentrate', amount = 10}
     },
     results = {
-        {type = 'item', name = 'iron-oxide', amount = 6},
+        {type = 'item', name = 'iron-oxide', amount = 2},
         {type = 'item', name = 'reo', amount = 5}
     },
     main_product = 'reo'
