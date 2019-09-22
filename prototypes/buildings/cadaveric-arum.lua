@@ -17,7 +17,7 @@ RECIPE {
         {"plastic-bar", 100},
         {"electronic-circuit", 25},
         {"steel-plate", 60},
-        {"hydrocyclone", 1}
+        {"hydrocyclone-mk01", 1}
     },
     results = {
         {"cadaveric-arum", 1}
