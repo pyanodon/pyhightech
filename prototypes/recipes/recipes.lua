@@ -2619,6 +2619,24 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
+    name = 'laser-module-alt',
+    category = 'advanced-crafting',
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = 'item', name = 'lens', amount = 5},
+        {type = 'item', name = 'battery', amount = 5},
+        {type = 'item', name = 'advanced-circuit', amount = 5},
+        {type = 'item', name = 'plastic-bar', amount = 10},
+    },
+    results = {
+        {type = 'item', name = 'laser-module', amount = 1}
+    },
+    main_product = 'laser-module'
+}:add_unlock('nano-tech')
+
+RECIPE {
+    type = 'recipe',
     name = 'yag-laser-module',
     category = 'nmf',
     enabled = false,
