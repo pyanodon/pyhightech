@@ -7,7 +7,7 @@ RECIPE {
         {"stone-brick", 100},
         {"advanced-circuit", 50},
         {"gasturbinemk02", 2},
-        {"agitator", 1},
+        {"agitator-mk01", 1},
         {"engine-unit", 20},
     },
     results = {
