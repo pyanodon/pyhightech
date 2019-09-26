@@ -255,10 +255,10 @@ RECIPE {
     name = "pa-diamond",
     category = "pa",
     enabled = false,
-    energy_required = 15,
+    energy_required = 30,
     ingredients = {
         {type = "item", name = "graphite", amount = 50},
-        {type = "item", name = "proton-donor", amount = 20},
+        {type = "item", name = "proton-donor", amount = 10},
     },
     results = {
         {type = "item", name = "diamond", amount = 10},

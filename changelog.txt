@@ -2,6 +2,7 @@
 Version: 1.3.5
   Changes:
     - Removed modules in high-advanced parts.
+    - Removed 10 proton donors from diamond via particle acceleration.
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.4
   Changes:
