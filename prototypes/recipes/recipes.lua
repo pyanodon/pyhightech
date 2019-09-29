@@ -3451,12 +3451,12 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'bonemeal', amount = 3},
-        {type = 'item', name = 'collagen', amount = 10},
+        {type = 'item', name = 'collagen', amount = 4},
         {type = 'fluid', name = 'sulfuric-acid', amount = 40},
     },
     results = {
         {type = 'item', name = 'phosphate-rock', amount = 4},
-        {type = 'fluid', name = 'phosphoric-acid', amount = 25},
+        {type = 'fluid', name = 'phosphoric-acid', amount = 10},
     },
     main_product = 'phosphoric-acid',
 }:add_unlock('basic-electronics')
