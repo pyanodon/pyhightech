@@ -3482,3 +3482,17 @@ RECIPE {
     subgroup = 'py-combustion',
     order = 'a'
 }:add_unlock('energy-2')
+
+RECIPE {
+    type = 'recipe',
+    name = 'plastic-from-melamine',
+    category = 'crafting',
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = 'item', name = 'melamine', amount = 10},
+    },
+    results = {
+        {type = 'item', name = 'plastic-bar', amount = 5}
+    }
+}:add_unlock('basic-electronics')
