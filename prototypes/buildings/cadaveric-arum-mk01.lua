@@ -9,7 +9,7 @@ local pipe = {
 
 RECIPE {
     type = "recipe",
-    name = "cadaveric-arum",
+    name = "cadaveric-arum-mk01",
     energy_required = 2,
     enabled = false,
     ingredients = {
@@ -20,29 +20,29 @@ RECIPE {
         {"hydrocyclone-mk01", 1}
     },
     results = {
-        {"cadaveric-arum", 1}
+        {"cadaveric-arum-mk01", 1}
     }
 }:add_unlock("basic-electronics")
 
 ITEM {
     type = "item",
-    name = "cadaveric-arum",
+    name = "cadaveric-arum-mk01",
     icon = "__pyhightech__/graphics/icons/cadaveric-arum.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "b",
-    place_result = "cadaveric-arum",
+    place_result = "cadaveric-arum-mk01",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "cadaveric-arum",
+    name = "cadaveric-arum-mk01",
     icon = "__pyhightech__/graphics/icons/cadaveric-arum.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "cadaveric-arum"},
+    minable = {mining_time = 1, result = "cadaveric-arum-mk01"},
     fast_replaceable_group = "cadaveric-arum",
     max_health = 100,
     corpse = "big-remnants",

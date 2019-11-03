@@ -9,41 +9,41 @@ local pipe = {
 
 RECIPE {
     type = "recipe",
-    name = "pcb-factory",
+    name = "pcb-factory-mk01",
     energy_required = 2,
     enabled = true,
     ingredients = {
         {"steam-engine", 2},
-        {"fbreactor", 2},
+        {"fbreactor-mk01", 2},
         {"distilator", 2},
         {"iron-plate", 80},
         {"copper-plate", 60},
         {"iron-gear-wheel", 100},
     },
     results = {
-        {"pcb-factory", 1}
+        {"pcb-factory-mk01", 1}
     }
 }
 
 ITEM {
     type = "item",
-    name = "pcb-factory",
+    name = "pcb-factory-mk01",
     icon = "__pyhightech__/graphics/icons/pcb-factory.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "b",
-    place_result = "pcb-factory",
+    place_result = "pcb-factory-mk01",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "pcb-factory",
+    name = "pcb-factory-mk01",
     icon = "__pyhightech__/graphics/icons/pcb-factory.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "pcb-factory"},
+    minable = {mining_time = 1, result = "pcb-factory-mk01"},
     fast_replaceable_group = "pcb-factory",
     max_health = 100,
     corpse = "big-remnants",

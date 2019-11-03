@@ -1,6 +1,6 @@
 RECIPE {
     type = "recipe",
-    name = "chipshooter",
+    name = "chipshooter-mk02",
     energy_required = 2,
     enabled = true,
     ingredients = {
@@ -11,29 +11,29 @@ RECIPE {
         {"pcb1", 20}
     },
     results = {
-        {"chipshooter", 1}
+        {"chipshooter-mk02", 1}
     }
 }
 
 ITEM {
     type = "item",
-    name = "chipshooter",
+    name = "chipshooter-mk02",
     icon = "__pyhightech__/graphics/icons/chipshooter.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "b",
-    place_result = "chipshooter",
+    place_result = "chipshooter-mk02",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "chipshooter",
+    name = "chipshooter-mk02",
     icon = "__pyhightech__/graphics/icons/chipshooter.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "chipshooter"},
+    minable = {mining_time = 1, result = "chipshooter-mk02"},
     fast_replaceable_group = "chipshooter",
     max_health = 100,
     corpse = "big-remnants",

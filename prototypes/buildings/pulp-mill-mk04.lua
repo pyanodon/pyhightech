@@ -18,7 +18,7 @@ local pipe_right = {
 
 RECIPE {
     type = "recipe",
-    name = "pulp-mill",
+    name = "pulp-mill-mk04",
     energy_required = 2,
     enabled = true,
     ingredients = {
@@ -29,29 +29,29 @@ RECIPE {
         {"wood", 30}
     },
     results = {
-        {"pulp-mill", 1}
+        {"pulp-mill-mk04", 1}
     }
 }
 
 ITEM {
     type = "item",
-    name = "pulp-mill",
+    name = "pulp-mill-mk04",
     icon = "__pyhightech__/graphics/icons/pulp-mill.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "d",
-    place_result = "pulp-mill",
+    place_result = "pulp-mill-mk04",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "pulp-mill",
+    name = "pulp-mill-mk04",
     icon = "__pyhightech__/graphics/icons/pulp-mill.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "pulp-mill"},
+    minable = {mining_time = 1, result = "pulp-mill-mk04"},
     fast_replaceable_group = "pulp-mill",
     max_health = 100,
     corpse = "medium-remnants",

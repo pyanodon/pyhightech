@@ -1,6 +1,6 @@
 RECIPE {
     type = "recipe",
-    name = "fbreactor",
+    name = "fbreactor-mk02",
     energy_required = 2,
     enabled = true,
     ingredients = {
@@ -10,29 +10,29 @@ RECIPE {
         {"iron-plate", 40}
     },
     results = {
-        {"fbreactor", 1}
+        {"fbreactor-mk02", 1}
     }
 }
 
 ITEM {
     type = "item",
-    name = "fbreactor",
+    name = "fbreactor-mk02",
     icon = "__pyhightech__/graphics/icons/fbreactor.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "c",
-    place_result = "fbreactor",
+    place_result = "fbreactor-mk02",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "fbreactor",
+    name = "fbreactor-mk02",
     icon = "__pyhightech__/graphics/icons/fbreactor.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "fbreactor"},
+    minable = {mining_time = 1, result = "fbreactor-mk02"},
     fast_replaceable_group = "fbreactor",
     max_health = 100,
     corpse = "medium-remnants",
