@@ -1,38 +1,38 @@
 RECIPE {
     type = "recipe",
-    name = "electronics-factory",
+    name = "electronics-factory-mk01",
     energy_required = 2,
     enabled = true,
     ingredients = {
-        {"fbreactor", 1},
+        {"fbreactor-mk01", 1},
         {"pipe", 15},
         {"electric-mining-drill", 2},
         {"iron-plate", 40}
     },
     results = {
-        {"electronics-factory", 1}
+        {"electronics-factory-mk01", 1}
     }
 }
 
 ITEM {
     type = "item",
-    name = "electronics-factory",
+    name = "electronics-factory-mk01",
     icon = "__pyhightech__/graphics/icons/electronics-factory.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "d",
-    place_result = "electronics-factory",
+    place_result = "electronics-factory-mk01",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "electronics-factory",
+    name = "electronics-factory-mk01",
     icon = "__pyhightech__/graphics/icons/electronics-factory.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "electronics-factory"},
+    minable = {mining_time = 1, result = "electronics-factory-mk01"},
     fast_replaceable_group = "electronics-factory",
     max_health = 100,
     corpse = "medium-remnants",

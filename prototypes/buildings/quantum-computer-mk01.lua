@@ -1,6 +1,6 @@
 RECIPE {
     type = "recipe",
-    name = "quantum-computer",
+    name = "quantum-computer-mk01",
     energy_required = 10,
     enabled = false,
     ingredients = {
@@ -14,29 +14,29 @@ RECIPE {
         {"control-unit", 6},
     },
     results = {
-        {"quantum-computer", 1}
+        {"quantum-computer-mk01", 1}
     }
 }:add_unlock("quantum")
 
 ITEM {
     type = "item",
-    name = "quantum-computer",
+    name = "quantum-computer-mk01",
     icon = "__pyhightech__/graphics/icons/quantum-computer.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "d",
-    place_result = "quantum-computer",
+    place_result = "quantum-computer-mk01",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "quantum-computer",
+    name = "quantum-computer-mk01",
     icon = "__pyhightech__/graphics/icons/quantum-computer.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "quantum-computer"},
+    minable = {mining_time = 1, result = "quantum-computer-mk01"},
     fast_replaceable_group = "quantum-computer",
     max_health = 100,
     corpse = "medium-remnants",

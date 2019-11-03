@@ -1,6 +1,6 @@
 RECIPE {
     type = "recipe",
-    name = "clay-pit",
+    name = "clay-pit-mk01",
     energy_required = 2,
     enabled = true,
     ingredients = {
@@ -10,29 +10,29 @@ RECIPE {
         {"stone-brick", 20}
     },
     results = {
-        {"clay-pit", 1}
+        {"clay-pit-mk01", 1}
     }
 }
 
 ITEM {
     type = "item",
-    name = "clay-pit",
+    name = "clay-pit-mk01",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "a",
-    place_result = "clay-pit",
+    place_result = "clay-pit-mk01",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "clay-pit",
+    name = "clay-pit-mk01",
     icon = "__pyhightech__/graphics/icons/clay-pit.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "clay-pit"},
+    minable = {mining_time = 1, result = "clay-pit-mk01"},
     fast_replaceable_group = "clay-pit",
     fixed_recipe = "clay",
     max_health = 400,

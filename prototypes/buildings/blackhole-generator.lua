@@ -10,7 +10,7 @@ RECIPE {
         {"antimatter", 1},
         {"supercapacitor", 10},
         {"superconductor", 10},
-        {"particle-accelerator", 1},
+        {"particle-accelerator-mk01", 1},
         {"sc-unit", 5},
     },
     results = {

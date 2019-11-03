@@ -13,7 +13,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "sulfur",
-    icon = "__pyhightech__/graphics/icons/pa/pa-sulfur.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__base__/graphics/icons/sulfur.png", scale = 0.5}
+		},	
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -34,7 +38,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "aromatics",
-    icon = "__pyhightech__/graphics/icons/pa/pa-aromatics.png",
+	icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pycoalprocessing__/graphics/icons/aromatics.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -55,7 +63,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "benzene",
-    icon = "__pyhightech__/graphics/icons/pa/pa-benzene.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightech__/graphics/icons/benzene.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -76,7 +88,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "propene",
-    icon = "__pyhightech__/graphics/icons/pa/pa-propene.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightech__/graphics/icons/propene.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -97,7 +113,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "silicon",
-    icon = "__pyhightech__/graphics/icons/pa/pa-silicon.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightech__/graphics/icons/silicon.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -118,7 +138,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "coal",
-    icon = "__pyhightech__/graphics/icons/pa/pa-coal.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__base__/graphics/icons/mip/coal.png", icon_size = 64, scale = 0.25, icon_mipmaps = 4}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -139,7 +163,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "niobium-plate",
-    icon = "__pyhightech__/graphics/icons/pa/pa-niobium.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pycoalprocessing__/graphics/icons/niobium-plate.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -160,7 +188,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "chromium",
-    icon = "__pyhightech__/graphics/icons/pa/pa-chromium.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pycoalprocessing__/graphics/icons/chromium.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -181,7 +213,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "molybdenum-plate",
-    icon = "__pyhightech__/graphics/icons/pa/pa-molybdenum.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyfusionenergy__/graphics/icons/molybdenum-plate.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -202,7 +238,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "vanadium-oxide",
-    icon = "__pyhightech__/graphics/icons/pa/pa-vanadium.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyfusionenergy__/graphics/icons/vanadium-oxide.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -223,7 +263,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "uranium-ore",
-    icon = "__pyhightech__/graphics/icons/pa/pa-uranium.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__base__/graphics/icons/mip/uranium-ore.png", icon_size = 64, scale = 0.25, icon_mipmaps = 4}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -244,7 +288,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "uranium-235",
-    icon = "__pyhightech__/graphics/icons/pa/pa-uranium-235.png",
+    icnos =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over"},
+			{icon = "__base__/graphics/icons/uranium-235.png", icon_size = 64, scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -265,7 +313,11 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "diamond",
-    icon = "__pyhightech__/graphics/icons/pa/pa-diamond.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyfusionenergy__/graphics/icons/diamond.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
@@ -284,7 +336,11 @@ RECIPE {
         {type = "fluid", name = "proton", amount = 5},
     },
     main_product = "proton",
-    icon = "__pyhightech__/graphics/icons/pa/pa-proton.png",
+    icons =
+		{
+			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyfusionenergy__/graphics/icons/proton.png", scale = 0.5}
+		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"

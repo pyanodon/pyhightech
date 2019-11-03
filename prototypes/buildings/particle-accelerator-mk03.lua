@@ -1,39 +1,39 @@
 RECIPE {
     type = "recipe",
-    name = "particle-accelerator",
+    name = "particle-accelerator-mk03",
     energy_required = 10,
     enabled = false,
     ingredients = {
         {"stone-brick", 100},
         {"advanced-circuit", 50},
-        {"gasturbinemk02", 2},
-        {"agitator-mk01", 1},
+        {"gasturbinemk03", 2},
+        {"agitator-mk03", 1},
         {"engine-unit", 20},
     },
     results = {
-        {"particle-accelerator", 1}
+        {"particle-accelerator-mk03", 1}
     }
 }:add_unlock("nucleo")
 
 ITEM {
     type = "item",
-    name = "particle-accelerator",
+    name = "particle-accelerator-mk03",
     icon = "__pyhightech__/graphics/icons/particle-accelerator.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "c",
-    place_result = "particle-accelerator",
+    place_result = "particle-accelerator-mk03",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "particle-accelerator",
+    name = "particle-accelerator-mk03",
     icon = "__pyhightech__/graphics/icons/particle-accelerator.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "particle-accelerator"},
+    minable = {mining_time = 1, result = "particle-accelerator-mk03"},
     fast_replaceable_group = "particle-accelerator",
     max_health = 100,
     corpse = "big-remnants",

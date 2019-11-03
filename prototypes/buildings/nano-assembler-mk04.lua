@@ -1,39 +1,39 @@
 RECIPE {
     type = "recipe",
-    name = "nano-assembler",
+    name = "nano-assembler-mk04",
     energy_required = 2,
     enabled = true,
     ingredients = {
-        {"automated-factory-mk01", 1},
+        {"automated-factory-mk04", 1},
         {"advanced-circuit", 15},
         {"niobium-plate", 20},
         {"iron-gear-wheel", 30},
         {"iron-plate", 40}
     },
     results = {
-        {"nano-assembler", 1}
+        {"nano-assembler-mk04", 1}
     }
 }:add_unlock("advanced-electronics")
 
 ITEM {
     type = "item",
-    name = "nano-assembler",
+    name = "nano-assembler-mk04",
     icon = "__pyhightech__/graphics/icons/nano-assembler.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "f",
-    place_result = "nano-assembler",
+    place_result = "nano-assembler-mk04",
     stack_size = 10
 }
 
 ENTITY {
     type = "assembling-machine",
-    name = "nano-assembler",
+    name = "nano-assembler-mk04",
     icon = "__pyhightech__/graphics/icons/nano-assembler.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "nano-assembler"},
+    minable = {mining_time = 1, result = "nano-assembler-mk04"},
     fast_replaceable_group = "nano-assembler",
     max_health = 100,
     corpse = "medium-remnants",
