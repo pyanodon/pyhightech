@@ -46,7 +46,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "d",
     stack_size = 100
 }
 ITEM {
@@ -56,7 +56,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "c",
+    order = "d",
     stack_size = 100
 }
 ITEM {
@@ -65,7 +65,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/urea.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-urea",
     order = "d",
     stack_size = 100
 }
@@ -85,7 +85,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/inductor1.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-1",
     order = "e",
     stack_size = 150
 }
@@ -95,7 +95,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/inductor2.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-2",
     order = "e",
     stack_size = 150
 }
@@ -105,7 +105,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/capacitor1.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-1",
     order = "e",
     stack_size = 150
 }
@@ -115,7 +115,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/capacitor2.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-2",
     order = "e",
     stack_size = 150
 }
@@ -125,7 +125,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/resistor1.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-1",
     order = "e",
     stack_size = 200
 }
@@ -145,7 +145,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/valve.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-1",
     order = "f",
     stack_size = 100
 }
@@ -155,7 +155,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/pcb1.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-1",
     order = "f",
     stack_size = 100
 }
@@ -165,7 +165,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/fiberboard.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-1",
     fuel_value = "5MJ",
     fuel_category = "chemical",
     order = "g",
@@ -177,7 +177,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/formica.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-1",
     fuel_value = "8MJ",
     fuel_category = "chemical",
     order = "g",
@@ -189,8 +189,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/circuit-board-1.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-tier-1",
+    order = "a",
     stack_size = 100
 }
 ITEM {
@@ -199,8 +199,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/circuit-board-2.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-tier-2",
+    order = "a",
     stack_size = 100
 }
 ITEM {
@@ -250,7 +250,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "k",
+    order = "cc",
     stack_size = 150
 }
 ITEM {
@@ -260,7 +260,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "ca",
     stack_size = 150
 }
 ITEM {
@@ -270,7 +270,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "cb",
     stack_size = 150
 }
 ITEM {
@@ -280,7 +280,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "j",
     stack_size = 150
 }
 ITEM {
@@ -289,8 +289,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/transistor.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-2",
+    order = "d",
     stack_size = 300
 }
 ITEM {
@@ -309,7 +309,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/phenolic-board.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-2",
     order = "l",
     stack_size = 200
 }
@@ -329,7 +329,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/pcb2.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-2",
     order = "l",
     stack_size = 200
 }
@@ -340,7 +340,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "k",
     stack_size = 200
 }
 ITEM {
@@ -350,7 +350,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "l",
+    order = "k",
     stack_size = 200
 }
 ITEM {
@@ -359,8 +359,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/microchip.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-2",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -379,8 +379,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/resistor2.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-2",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -389,8 +389,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/diode.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-2",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -400,7 +400,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -410,7 +410,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -420,7 +420,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -430,7 +430,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -439,8 +439,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/fiberglass.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-3",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -450,7 +450,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -460,7 +460,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "e",
     stack_size = 200
 }
 ITEM {
@@ -470,7 +470,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "e",
     stack_size = 200
 }
 ITEM {
@@ -480,7 +480,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "e",
     stack_size = 200
 }
 ITEM {
@@ -490,7 +490,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "e",
     stack_size = 200
 }
 ITEM {
@@ -500,7 +500,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "j",
     stack_size = 200
 }
 ITEM {
@@ -509,8 +509,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/processor-core.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-3",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -519,8 +519,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/processor.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-3",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -530,7 +530,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -539,8 +539,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/resistor3.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-3",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -549,8 +549,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/high-flux-core.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "b",
+    subgroup = "py-hightech-tier-3",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -560,7 +560,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "b",
+    order = "d",
     stack_size = 200
 }
 ITEM {
@@ -569,7 +569,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/pcb3.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "l",
     stack_size = 200
 }
@@ -579,7 +579,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/pcb3-2.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "l",
     stack_size = 200
 }
@@ -589,7 +589,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/inductor3.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "l",
     stack_size = 200
 }
@@ -609,7 +609,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/diode-core.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "l",
     stack_size = 200
 }
@@ -619,7 +619,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/diode3.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "l",
     stack_size = 200
 }
@@ -629,7 +629,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/capacitor-core.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "l",
     stack_size = 200
 }
@@ -639,7 +639,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/capacitor-termination.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "l",
     stack_size = 200
 }
@@ -649,7 +649,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/capacitor3.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "l",
     stack_size = 200
 }
@@ -659,8 +659,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/circuit-board-3.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-tier-3",
+    order = "a",
     stack_size = 200
 }
 ITEM {
@@ -689,7 +689,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/carbon-nanotube.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 300
 }
@@ -729,7 +729,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/nano-chip.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 300
 }
@@ -741,8 +741,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/raw-fiber.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-kicalk",
+    order = "a",
     stack_size = 500
 }
 ITEM {
@@ -753,7 +753,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/fiber.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-kicalk",
     order = "h",
     stack_size = 200
 }
@@ -763,7 +763,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/microfiber.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-kicalk",
     order = "h",
     stack_size = 200
 }
@@ -773,7 +773,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/sub-denier-microfiber.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-kicalk",
     order = "h",
     stack_size = 200
 }
@@ -783,7 +783,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/resorcinol.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-aerogel",
     order = "h",
     stack_size = 200
 }
@@ -793,7 +793,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/rf-gel.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-aerogel",
     order = "h",
     stack_size = 200
 }
@@ -803,7 +803,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/clean-rf-gel.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-aerogel",
     order = "h",
     stack_size = 200
 }
@@ -813,7 +813,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/aerogel.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-aerogel",
     order = "h",
     stack_size = 200
 }
@@ -823,7 +823,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/carbon-aerogel.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-aerogel",
     order = "h",
     stack_size = 200
 }
@@ -833,7 +833,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/kondo-base.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -843,7 +843,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/kondo-core.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -853,7 +853,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/heavy-fermion.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -863,7 +863,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/kondo-processor.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -883,7 +883,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/nxag-matrix.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -893,7 +893,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/paradiamatic-resistor.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -914,7 +914,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "h",
+    order = "r",
     stack_size = 200
 }
 ITEM {
@@ -924,7 +924,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "h",
+    order = "r",
     stack_size = 200
 }
 ITEM {
@@ -963,7 +963,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/csle-diode.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -994,7 +994,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
-    order = "h",
+    order = "cd",
     stack_size = 200
 }
 ITEM {
@@ -1003,7 +1003,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/sc-substrate.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "h",
     stack_size = 200
 }
@@ -1013,7 +1013,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/superconductor.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-3",
     order = "h",
     stack_size = 200
 }
@@ -1023,7 +1023,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/nanocrystaline-core.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1033,7 +1033,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/fault-current-inductor.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1043,7 +1043,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/supercapacitor-core.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-aerogel",
     order = "h",
     stack_size = 200
 }
@@ -1053,7 +1053,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/supercapacitor-shell.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1063,7 +1063,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/supercapacitor.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1073,7 +1073,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/pcb4.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1083,8 +1083,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/intelligent-unit.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-tier-4",
+    order = "a",
     stack_size = 200
 }
 ITEM {
@@ -1093,8 +1093,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/zipir-carcass.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-zipir",
+    order = "a",
     stack_size = 200
 }
 ITEM {
@@ -1103,7 +1103,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/bone.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 200
 }
@@ -1113,7 +1113,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/meat.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 500
 }
@@ -1123,7 +1123,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/skin.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 800
 }
@@ -1133,7 +1133,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/fertilizer.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 200
 }
@@ -1143,7 +1143,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/rayon.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-kicalk",
     order = "h",
     stack_size = 50
 }
@@ -1153,7 +1153,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/blood-meal.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 50
 }
@@ -1163,8 +1163,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/nylon.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-zipir",
+    order = "m",
     stack_size = 200
 }
 ITEM {
@@ -1173,8 +1173,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/nylon-parts.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-zipir",
+    order = "ma",
     stack_size = 200
 }
 ITEM {
@@ -1183,7 +1183,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/collagen.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 200
 }
@@ -1193,7 +1193,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/resilin.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 200
 }
@@ -1203,8 +1203,8 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/hyperelastic-material.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
-    order = "h",
+    subgroup = "py-hightech-tier-2",
+    order = "m",
     stack_size = 200
 }
 ITEM {
@@ -1213,7 +1213,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/nano-wires.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1223,7 +1223,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/nems.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1233,7 +1233,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/volumetric-capacitor.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-aerogel",
     order = "h",
     stack_size = 200
 }
@@ -1243,7 +1243,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/laser-module.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1253,7 +1253,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/yag-laser-module.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1283,7 +1283,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/parametric-oscilator.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1293,7 +1293,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/myoglobin.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 200
 }
@@ -1303,7 +1303,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/paramagnetic-material.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-tier-4",
     order = "h",
     stack_size = 200
 }
@@ -1313,7 +1313,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/diamagnetic-material.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-earnshaw",
     order = "h",
     stack_size = 200
 }
@@ -1323,7 +1323,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/superconductor-servomechanims.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-earnshaw",
     order = "h",
     stack_size = 200
 }
@@ -1333,7 +1333,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/harmonic-absorber.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-earnshaw",
     order = "h",
     stack_size = 200
 }
@@ -1343,7 +1343,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/pyrolytic-carbon.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-earnshaw",
     order = "h",
     stack_size = 200
 }
@@ -1353,7 +1353,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/nv-center.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-quantum",
     order = "h",
     stack_size = 200
 }
@@ -1363,7 +1363,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/quantum-dots.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-quantum",
     order = "h",
     stack_size = 200
 }
@@ -1373,7 +1373,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/pi-josephson-junction.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-quantum",
     order = "h",
     stack_size = 200
 }
@@ -1383,7 +1383,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/var-josephson-junction.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-quantum",
     order = "h",
     stack_size = 200
 }
@@ -1393,7 +1393,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/quantum-vortex-storage-system.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-quantum",
     order = "h",
     stack_size = 200
 }
@@ -1403,7 +1403,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/bose-einstein-superfluid.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-quantum",
     order = "h",
     stack_size = 200
 }
@@ -1415,7 +1415,7 @@ ITEM {
     fuel_value = "40GJ",
     fuel_category = "nuclear",
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-earnshaw",
     order = "h",
     stack_size = 5
 }
@@ -1455,7 +1455,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/dried-meat.png",
     icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-items",
+    subgroup = "py-hightech-zipir",
     order = "h",
     stack_size = 200
 }
