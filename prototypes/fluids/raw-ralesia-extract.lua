@@ -12,9 +12,7 @@ RECIPE {
         {type = "fluid", name = "raw-ralesia-extract", amount = 50},
     },
     icon = "__pyhightech__/graphics/icons/hydro-ralesia-extract.png",
-	icon_size = 32,
-    subgroup = "py-hightech-recipes",
-    order = "a"
+	icon_size = 32
 }:add_unlock("nano-tech")
 
 FLUID {
@@ -30,5 +28,5 @@ FLUID {
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     subgroup = "py-hightech-fluids",
-    order = "a"
+    order = "b"
 }
