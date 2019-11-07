@@ -1,0 +1,45 @@
+
+{
+  "entity":
+  [
+    ["cadaveric-arum", "cadaveric-arum-mk01"],
+	["chipshooter", "chipshooter-mk01"],
+	["clay-pit", "clay-pit-mk01"],
+	["electronics-factory", "electronics-factory-mk01"],
+	["fbreactor", "fbreactor-mk01"],
+	["moondrop-greenhouse", "moondrop-greenhouse-mk01"],
+	["nano-assembler", "nano-assembler-mk01"],
+	["particle-accelerator", "particle-accelerator-mk01"],
+	["pcb-factory", "pcb-factory-mk01"],
+	["pulp-mill", "pulp-mill-mk01"],
+	["quantum-computer", "quantum-computer-mk01"]
+  ],
+  "item":
+  [
+    ["cadaveric-arum", "cadaveric-arum-mk01"],
+	["chipshooter", "chipshooter-mk01"],
+	["clay-pit", "clay-pit-mk01"],
+	["electronics-factory", "electronics-factory-mk01"],
+	["fbreactor", "fbreactor-mk01"],
+	["moondrop-greenhouse", "moondrop-greenhouse-mk01"],
+	["nano-assembler", "nano-assembler-mk01"],
+	["particle-accelerator", "particle-accelerator-mk01"],
+	["pcb-factory", "pcb-factory-mk01"],
+	["pulp-mill", "pulp-mill-mk01"],
+	["quantum-computer", "quantum-computer-mk01"]
+  ],
+  "recipe":
+  [
+    ["cadaveric-arum", "cadaveric-arum-mk01"],
+	["chipshooter", "chipshooter-mk01"],
+	["clay-pit", "clay-pit-mk01"],
+	["electronics-factory", "electronics-factory-mk01"],
+	["fbreactor", "fbreactor-mk01"],
+	["moondrop-greenhouse", "moondrop-greenhouse-mk01"],
+	["nano-assembler", "nano-assembler-mk01"],
+	["particle-accelerator", "particle-accelerator-mk01"],
+	["pcb-factory", "pcb-factory-mk01"],
+	["pulp-mill", "pulp-mill-mk01"],
+	["quantum-computer", "quantum-computer-mk01"]
+  ]
+}
