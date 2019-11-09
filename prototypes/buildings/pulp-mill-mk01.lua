@@ -19,7 +19,7 @@ local pipe_right = {
 RECIPE {
     type = "recipe",
     name = "pulp-mill-mk01",
-    energy_required = 2,
+    energy_required = 0.5,
     enabled = true,
     ingredients = {
         {"fbreactor-mk01", 1},
@@ -36,10 +36,10 @@ RECIPE {
 ITEM {
     type = "item",
     name = "pulp-mill-mk01",
-    icon = "__pyhightech__/graphics/icons/pulp-mill.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/pulp-mill-mk01.png",
+    icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-buildings",
+    subgroup = "py-hightech-buildings-mk01",
     order = "d",
     place_result = "pulp-mill-mk01",
     stack_size = 10
@@ -48,8 +48,8 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "pulp-mill-mk01",
-    icon = "__pyhightech__/graphics/icons/pulp-mill.png",
-	icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/pulp-mill-mk01.png",
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pulp-mill-mk01"},
     fast_replaceable_group = "pulp-mill",
@@ -60,9 +60,9 @@ ENTITY {
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
     match_animation_speed_to_activity = false,
     module_specification = {
-        module_slots = 4
+        module_slots = 1
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"consumption", "speed"},
     crafting_categories = {"pulp"},
     crafting_speed = 1,
     energy_source = {
@@ -83,6 +83,17 @@ ENTITY {
                 frame_count = 61,
                 animation_speed = 0.4,
                 shift = util.by_pixel(0, -36)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/pulp-mill/pulp-mill-mask.png",
+                --priority = "high",
+                width = 160,
+                height = 248,
+                line_length = 12,
+                frame_count = 61,
+                animation_speed = 0.4,
+                shift = util.by_pixel(0, -36),
+                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
             },
             {
                 filename = "__pyhightech__/graphics/entity/pulp-mill/shadow.png",

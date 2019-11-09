@@ -10,25 +10,26 @@ local pipe = {
 RECIPE {
     type = "recipe",
     name = "cadaveric-arum-mk03",
-    energy_required = 2,
+    energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"botanical-nursery", 1},
+        {"cadaveric-arum-mk02", 1},
         {"plastic-bar", 100},
-        {"electronic-circuit", 25},
-        {"steel-plate", 60},
-        {"hydrocyclone-mk03", 1}
+        {"processing-unit", 25},
+        {"phosphate-glass", 30},
+        {"biopolymer", 15},
+        {"aerogel", 15}
     },
     results = {
         {"cadaveric-arum-mk03", 1}
     }
-}:add_unlock("basic-electronics")
+}
 
 ITEM {
     type = "item",
     name = "cadaveric-arum-mk03",
-    icon = "__pyhightech__/graphics/icons/cadaveric-arum.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/cadaveric-arum-mk03.png",
+    icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "b",
@@ -39,10 +40,10 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "cadaveric-arum-mk03",
-    icon = "__pyhightech__/graphics/icons/cadaveric-arum.png",
+    icon = "__pyhightech__/graphics/icons/cadaveric-arum-mk03.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "cadaveric-arum-mk03"},
+    minable = {mining_time = 0.5, result = "cadaveric-arum-mk03"},
     fast_replaceable_group = "cadaveric-arum",
     max_health = 100,
     corpse = "big-remnants",
@@ -51,17 +52,17 @@ ENTITY {
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     match_animation_speed_to_activity = false,
     module_specification = {
-        module_slots = 1
+        module_slots = 5
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"speed"},
     crafting_categories = {"arum"},
-    crafting_speed = 1,
+    crafting_speed = 0.01,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
-        emissions_per_minute = 0.06,
+        emissions_per_minute = -3,
     },
-    energy_usage = "350kW",
+    energy_usage = "750kW",
     ingredient_count = 10,
     animation = {
         layers = {
@@ -74,6 +75,17 @@ ENTITY {
                 frame_count = 20,
                 animation_speed = 0.3,
                 shift = util.by_pixel(0, -4),
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/cadaveric-arum/cadaveric-arum-mask.png",
+				priority = "extra-high",
+                width = 288,
+                height = 295,
+                line_length = 5,
+                frame_count = 20,
+                animation_speed = 0.3,
+                shift = util.by_pixel(0, -4),
+                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
             },
             {
                 filename = "__pyhightech__/graphics/entity/cadaveric-arum/shadow.png",

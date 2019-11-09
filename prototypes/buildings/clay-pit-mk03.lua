@@ -1,26 +1,28 @@
 RECIPE {
     type = "recipe",
     name = "clay-pit-mk03",
-    energy_required = 2,
-    enabled = true,
+    energy_required = 0.5,
+    enabled = false,
     ingredients = {
-        {"burner-mining-drill", 2},
-        {"pipe", 10},
-        {"iron-plate", 40},
-        {"stone-brick", 20}
+        {"clay-pit-mk02", 1},
+        {"niobium-plate", 10},
+        {"processing-unit", 15},
+        {"concrete", 40},
+        {"engine-unit", 10},
+        {"graphene-roll", 30},
     },
     results = {
         {"clay-pit-mk03", 1}
     }
-}
+}:add_unlock("graphene")
 
 ITEM {
     type = "item",
     name = "clay-pit-mk03",
-    icon = "__pyhightech__/graphics/icons/clay-pit.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/clay-pit-mk03.png",
+    icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-buildings",
+    subgroup = "py-hightech-buildings-mk03",
     order = "a",
     place_result = "clay-pit-mk03",
     stack_size = 10
@@ -29,10 +31,10 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "clay-pit-mk03",
-    icon = "__pyhightech__/graphics/icons/clay-pit.png",
-	icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/clay-pit-mk03.png",
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "clay-pit-mk03"},
+    minable = {mining_time = 0.5, result = "clay-pit-mk03"},
     fast_replaceable_group = "clay-pit",
     fixed_recipe = "clay",
     max_health = 400,
@@ -42,17 +44,17 @@ ENTITY {
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
     match_animation_speed_to_activity = false,
     module_specification = {
-        module_slots = 4
+        module_slots = 3
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"speed"},
     crafting_categories = {"clay"},
-    crafting_speed = 1,
+    crafting_speed = 3,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
         emissions_per_minute = 0.06,
     },
-    energy_usage = "100kW",
+    energy_usage = "600kW",
     ingredient_count = 10,
     animation = {
         layers = {
@@ -66,6 +68,16 @@ ENTITY {
                 shift = util.by_pixel(-56, 0)
             },
             {
+                filename = "__pyhightech__/graphics/entity/clay-pit/clay-left-mask.png",
+                width = 112,
+                height = 229,
+                line_length = 10,
+                frame_count = 80,
+                animation_speed = 0.3,
+                shift = util.by_pixel(-56, 0),
+                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
+            },
+            {
                 filename = "__pyhightech__/graphics/entity/clay-pit/clay-right.png",
                 width = 112,
                 height = 229,
@@ -73,6 +85,16 @@ ENTITY {
                 frame_count = 80,
                 animation_speed = 0.3,
                 shift = util.by_pixel(56, 0)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/clay-pit/clay-right-mask.png",
+                width = 112,
+                height = 229,
+                line_length = 10,
+                frame_count = 80,
+                animation_speed = 0.3,
+                shift = util.by_pixel(56, 0),
+                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
             }
         }
     },

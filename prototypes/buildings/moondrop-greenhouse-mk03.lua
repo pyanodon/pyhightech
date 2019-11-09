@@ -1,13 +1,16 @@
 RECIPE {
     type = "recipe",
     name = "moondrop-greenhouse-mk03",
-    energy_required = 2,
-    enabled = true,
+    energy_required = 0.5,
+    enabled = false,
     ingredients = {
-        {"steam-engine", 1},
-        {"pipe", 15},
-        {"iron-plate", 100},
-        {"iron-gear-wheel", 40}
+        {"moondrop-greenhouse-mk02", 1},
+        {"graphene-roll", 15},
+        {"processing-unit", 10},
+        {"plastic-bar", 100},
+        {"niobium-plate", 20},
+        {"biopolymer", 10},
+        {"engine-unit", 10},
     },
     results = {
         {"moondrop-greenhouse-mk03", 1}
@@ -17,8 +20,8 @@ RECIPE {
 ITEM {
     type = "item",
     name = "moondrop-greenhouse-mk03",
-    icon = "__pyhightech__/graphics/icons/moondrop-greenhouse.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/moondrop-greenhouse-mk03.png",
+    icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "b",
@@ -29,10 +32,10 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk03",
-    icon = "__pyhightech__/graphics/icons/moondrop-greenhouse.png",
-	icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/moondrop-greenhouse-mk03.png",
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "moondrop-greenhouse-mk03"},
+    minable = {mining_time = 0.5, result = "moondrop-greenhouse-mk03"},
     fast_replaceable_group = "moondrop-greenhouse",
     max_health = 100,
     corpse = "big-remnants",
@@ -41,17 +44,17 @@ ENTITY {
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     match_animation_speed_to_activity = false,
     module_specification = {
-        module_slots = 1
+        module_slots = 3
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"speed"},
     crafting_categories = {"moon"},
-    crafting_speed = 1,
+    crafting_speed = 3,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
         emissions_per_minute = -25,
     },
-    energy_usage = "100kW",
+    energy_usage = "550kW",
     ingredient_count = 20,
     animation = {
         layers = {
@@ -65,6 +68,16 @@ ENTITY {
                 shift = util.by_pixel(-72, 0)
             },
             {
+                filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/moon-left-mask.png",
+                width = 144,
+                height = 288,
+                line_length = 10,
+                frame_count = 60,
+                animation_speed = 0.4,
+                shift = util.by_pixel(-72, 0),
+                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
+            },
+            {
                 filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/moon-right.png",
                 width = 144,
                 height = 288,
@@ -72,6 +85,16 @@ ENTITY {
                 frame_count = 60,
                 animation_speed = 0.4,
                 shift = util.by_pixel(72, 0)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/moon-right-mask.png",
+                width = 144,
+                height = 288,
+                line_length = 10,
+                frame_count = 60,
+                animation_speed = 0.4,
+                shift = util.by_pixel(72, 0),
+                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
             },
             {
                 filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/s-left.png",

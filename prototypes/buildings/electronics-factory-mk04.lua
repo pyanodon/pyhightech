@@ -1,26 +1,29 @@
 RECIPE {
     type = "recipe",
     name = "electronics-factory-mk04",
-    energy_required = 2,
-    enabled = true,
+    energy_required = 0.5,
+    enabled = false,
     ingredients = {
-        {"fbreactor", 1},
-        {"pipe", 15},
-        {"electric-mining-drill", 2},
-        {"iron-plate", 40}
+        {"electronics-factory-mk03", 1},
+        {"low-density-structure", 30},
+        {"electric-engine-unit", 5},
+        {"nbfe-alloy", 30},
+        {"intelligent-unit", 10},
+        {"superconductor-servomechanims", 10},
+        {"hyperelastic-material", 15},
     },
     results = {
         {"electronics-factory-mk04", 1}
     }
-}
+}:add_unlock("nano-tech")
 
 ITEM {
     type = "item",
     name = "electronics-factory-mk04",
-    icon = "__pyhightech__/graphics/icons/electronics-factory.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/electronics-factory-mk04.png",
+    icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-buildings",
+    subgroup = "py-hightech-buildings-mk04",
     order = "d",
     place_result = "electronics-factory-mk04",
     stack_size = 10
@@ -29,10 +32,10 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "electronics-factory-mk04",
-    icon = "__pyhightech__/graphics/icons/electronics-factory.png",
-	icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/electronics-factory-mk04.png",
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "electronics-factory-mk04"},
+    minable = {mining_time = 0.5, result = "electronics-factory-mk04"},
     fast_replaceable_group = "electronics-factory",
     max_health = 100,
     corpse = "medium-remnants",
@@ -43,27 +46,32 @@ ENTITY {
     module_specification = {
         module_slots = 4
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"speed"},
     crafting_categories = {"electronic"},
-    crafting_speed = 1,
+    crafting_speed = 4,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
         emissions_per_minute = 0.06,
     },
-    energy_usage = "150kW",
+    energy_usage = "1000kW",
     ingredient_count = 20,
     animation = {
         layers = {
             {
                 filename = "__pyhightech__/graphics/entity/electronics-factory/off.png",
-                --priority = "high",
                 width = 160,
                 height = 202,
-                --line_length = 10,
                 frame_count = 1,
-                --animation_speed = 0.4,
                 shift = util.by_pixel(0, -22)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/electronics-factory/off-mask.png",
+                width = 160,
+                height = 202,
+                frame_count = 1,
+                shift = util.by_pixel(0, -22),
+                tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
             },
             {
                 filename = "__pyhightech__/graphics/entity/electronics-factory/shadow.png",
@@ -93,7 +101,23 @@ ENTITY {
                 height = 173,
                 animation_speed = 0.4
             }
-        }
+        },
+        {
+            north_position = util.by_pixel(0, -36.6),
+            west_position = util.by_pixel(0, -36.6),
+            south_position = util.by_pixel(0, -36.6),
+            east_position = util.by_pixel(0, -36.6),
+            animation = {
+                filename = "__pyhightech__/graphics/entity/electronics-factory/electronic-factory-mask.png",
+                --priority = "low",
+                frame_count = 50,
+                line_length = 10,
+                width = 160,
+                height = 173,
+                animation_speed = 0.4,
+                tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
+            }
+        },
     },
     fluid_boxes = {
         --1
