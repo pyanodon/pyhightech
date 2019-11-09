@@ -6,13 +6,13 @@ function modules.effectivityblacklist()
 	local set = {}
 
 	--convert recipe table into a set
-	for r, recipe in pairs(data.raw.recipe) do
+	for _, recipe in pairs(data.raw.recipe) do
 		if data.raw.recipe[recipe.name].category == 'pa' then
 			set[recipe.name] = true
 		end
 	end
-		
-	for r ,recipe in pairs(data.raw.recipe) do
+
+	for _,recipe in pairs(data.raw.recipe) do
 		if set[recipe.name] == nil then
 			table.insert(effectlimitaionlist, recipe.name)
 		end
