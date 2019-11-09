@@ -11,7 +11,31 @@ data:extend {
         type = "item-subgroup",
         name = "py-hightech-buildings",
         group = "py-hightech",
+        order = "ae"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-buildings-mk01",
+        group = "py-hightech",
         order = "a"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-buildings-mk02",
+        group = "py-hightech",
+        order = "ab"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-buildings-mk03",
+        group = "py-hightech",
+        order = "ac"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-buildings-mk04",
+        group = "py-hightech",
+        order = "ad"
     },
     {
         type = "item-subgroup",
