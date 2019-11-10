@@ -520,7 +520,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-3",
-    order = "d",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -540,7 +540,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-3",
-    order = "d",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -580,7 +580,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-3",
-    order = "l",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -590,7 +590,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-3",
-    order = "l",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -620,7 +620,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-3",
-    order = "l",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -650,7 +650,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-3",
-    order = "l",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -730,7 +730,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-4",
-    order = "h",
+    order = "b",
     stack_size = 300
 }
 ITEM {
@@ -864,7 +864,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-4",
-    order = "h",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -894,7 +894,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-4",
-    order = "h",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -964,7 +964,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-4",
-    order = "h",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -1034,7 +1034,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-4",
-    order = "h",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -1064,7 +1064,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-4",
-    order = "h",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -1074,7 +1074,7 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-4",
-    order = "h",
+    order = "b",
     stack_size = 200
 }
 ITEM {
@@ -1203,7 +1203,7 @@ ITEM {
     icon = "__pyhightech__/graphics/icons/hyperelastic-material.png",
 	icon_size = 32,
     flags = {},
-    subgroup = "py-hightech-tier-2",
+    subgroup = "py-hightech-tier-3",
     order = "m",
     stack_size = 200
 }
