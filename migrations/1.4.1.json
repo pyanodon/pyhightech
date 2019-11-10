@@ -11,7 +11,7 @@
 	["nano-assembler", "nano-assembler-mk01"],
 	["particle-accelerator", "particle-accelerator-mk01"],
 	["pcb-factory", "pcb-factory-mk01"],
-	["pulp-mill", "pulp-mill-mk01"],
+	["pulp-mill", "pulp-mill-mk01"]
   ],
   "item":
   [
@@ -24,7 +24,7 @@
 	["nano-assembler", "nano-assembler-mk01"],
 	["particle-accelerator", "particle-accelerator-mk01"],
 	["pcb-factory", "pcb-factory-mk01"],
-	["pulp-mill", "pulp-mill-mk01"],
+	["pulp-mill", "pulp-mill-mk01"]
   ],
   "recipe":
   [
@@ -37,6 +37,6 @@
 	["nano-assembler", "nano-assembler-mk01"],
 	["particle-accelerator", "particle-accelerator-mk01"],
 	["pcb-factory", "pcb-factory-mk01"],
-	["pulp-mill", "pulp-mill-mk01"],
+	["pulp-mill", "pulp-mill-mk01"]
   ]
 }
