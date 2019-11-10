@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "fbreactor-mk01",
-    energy_required = 2,
+    energy_required = 0.5,
     enabled = true,
     ingredients = {
         {"boiler", 2},
@@ -17,10 +17,10 @@ RECIPE {
 ITEM {
     type = "item",
     name = "fbreactor-mk01",
-    icon = "__pyhightech__/graphics/icons/fbreactor.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/fbreactor-mk01.png",
+    icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-buildings",
+    subgroup = "py-hightech-buildings-mk01",
     order = "c",
     place_result = "fbreactor-mk01",
     stack_size = 10
@@ -29,8 +29,8 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "fbreactor-mk01",
-    icon = "__pyhightech__/graphics/icons/fbreactor.png",
-	icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/fbreactor-mk01.png",
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "fbreactor-mk01"},
     fast_replaceable_group = "fbreactor",
@@ -41,9 +41,9 @@ ENTITY {
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
     match_animation_speed_to_activity = false,
     module_specification = {
-        module_slots = 4
+        module_slots = 1
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"speed"},
     crafting_categories = {"fbreactor"},
     crafting_speed = 1,
     energy_source = {
@@ -51,7 +51,7 @@ ENTITY {
         usage_priority = "secondary-input",
         emissions_per_minute = 0.06,
     },
-    energy_usage = "100kW",
+    energy_usage = "200kW",
     ingredient_count = 10,
     animation = {
         layers = {
@@ -61,6 +61,14 @@ ENTITY {
                 height = 220,
                 frame_count = 1,
                 shift = util.by_pixel(0, -23)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/fbreactor/fbreactor-mask.png",
+                width = 160,
+                height = 220,
+                frame_count = 1,
+                shift = util.by_pixel(0, -23),
+                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
             },
             {
                 filename = "__pyhightech__/graphics/entity/fbreactor/shadow.png",

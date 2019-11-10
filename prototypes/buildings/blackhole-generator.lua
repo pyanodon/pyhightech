@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "blackhole",
     energy_required = 2,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"steel-plate", 100},
         {"concrete", 100},

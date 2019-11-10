@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "particle-accelerator-mk01",
-    energy_required = 10,
+    energy_required = 0.5,
     enabled = false,
     ingredients = {
         {"stone-brick", 100},
@@ -18,10 +18,10 @@ RECIPE {
 ITEM {
     type = "item",
     name = "particle-accelerator-mk01",
-    icon = "__pyhightech__/graphics/icons/particle-accelerator.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/particle-accelerator-mk01.png",
+    icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-buildings",
+    subgroup = "py-hightech-buildings-mk01",
     order = "c",
     place_result = "particle-accelerator-mk01",
     stack_size = 10
@@ -30,10 +30,10 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "particle-accelerator-mk01",
-    icon = "__pyhightech__/graphics/icons/particle-accelerator.png",
-	icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/particle-accelerator-mk01.png",
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "particle-accelerator-mk01"},
+    minable = {mining_time = 0.5, result = "particle-accelerator-mk01"},
     fast_replaceable_group = "particle-accelerator",
     max_health = 100,
     corpse = "big-remnants",
@@ -42,9 +42,9 @@ ENTITY {
     selection_box = {{-6.0, -6.0}, {6.0, 6.0}},
     match_animation_speed_to_activity = false,
     module_specification = {
-        module_slots = 5
+        module_slots = 1
     },
-    allowed_effects = {"speed", "productivity", "pollution"},
+    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"pa"},
     crafting_speed = 1,
     energy_source = {
@@ -58,22 +58,24 @@ ENTITY {
         layers = {
             {
                 filename = "__pyhightech__/graphics/entity/particle-accelerator/off.png",
-                --priority = "high",
                 width = 384,
-                height = 416,
-                --line_length = 10,
+                height = 415,
                 frame_count = 1,
-                --animation_speed = 0.4,
                 shift = util.by_pixel(-1, -16)
             },
             {
+                filename = "__pyhightech__/graphics/entity/particle-accelerator/off-mask.png",
+                width = 384,
+                height = 415,
+                frame_count = 1,
+                shift = util.by_pixel(-1, -16),
+                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+            },
+            {
                 filename = "__pyhightech__/graphics/entity/particle-accelerator/shadow.png",
-                --priority = "high",
                 width = 426,
                 height = 366,
-                --line_length = 10,
                 frame_count = 1,
-                --animation_speed = 0.4,
                 draw_as_shadow = true,
                 shift = util.by_pixel(17, 16)
             }
@@ -102,6 +104,23 @@ ENTITY {
             south_position = util.by_pixel(0, 0),
             east_position = util.by_pixel(0, 0),
             animation = {
+                filename = "__pyhightech__/graphics/entity/particle-accelerator/left-mask.png",
+                --priority = "low",
+                frame_count = 30,
+                line_length = 10,
+                width = 160,
+                height = 352,
+                animation_speed = 0.5,
+                shift = util.by_pixel(-81, -16),
+                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+            }
+        },
+        {
+            north_position = util.by_pixel(0, 0),
+            west_position = util.by_pixel(0, 0),
+            south_position = util.by_pixel(0, 0),
+            east_position = util.by_pixel(0, 0),
+            animation = {
                 filename = "__pyhightech__/graphics/entity/particle-accelerator/right.png",
                 --priority = "low",
                 frame_count = 30,
@@ -110,6 +129,23 @@ ENTITY {
                 height = 352,
                 animation_speed = 0.5,
                 shift = util.by_pixel(79, -16)
+            }
+        },
+        {
+            north_position = util.by_pixel(0, 0),
+            west_position = util.by_pixel(0, 0),
+            south_position = util.by_pixel(0, 0),
+            east_position = util.by_pixel(0, 0),
+            animation = {
+                filename = "__pyhightech__/graphics/entity/particle-accelerator/right-mask.png",
+                --priority = "low",
+                frame_count = 30,
+                line_length = 10,
+                width = 160,
+                height = 352,
+                animation_speed = 0.5,
+                shift = util.by_pixel(79, -16),
+                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
             }
         },
     },
