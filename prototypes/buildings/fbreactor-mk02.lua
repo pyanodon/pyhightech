@@ -1,26 +1,27 @@
 RECIPE {
     type = "recipe",
     name = "fbreactor-mk02",
-    energy_required = 2,
-    enabled = true,
+    energy_required = 0.5,
+    enabled = false,
     ingredients = {
-        {"boiler", 2},
-        {"pipe", 15},
-        {"stone-furnace", 4},
-        {"iron-plate", 40}
+        {"fbreactor-mk01", 1},
+        {"evaporator", 1},
+        {"engine-unit", 4},
+        {"pipe", 10},
+        {"steel-plate", 30},
     },
     results = {
         {"fbreactor-mk02", 1}
     }
-}
+}:add_unlock("basic-electronics")
 
 ITEM {
     type = "item",
     name = "fbreactor-mk02",
-    icon = "__pyhightech__/graphics/icons/fbreactor.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/fbreactor-mk02.png",
+    icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-buildings",
+    subgroup = "py-hightech-buildings-mk02",
     order = "c",
     place_result = "fbreactor-mk02",
     stack_size = 10
@@ -29,8 +30,8 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "fbreactor-mk02",
-    icon = "__pyhightech__/graphics/icons/fbreactor.png",
-	icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/fbreactor-mk02.png",
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "fbreactor-mk02"},
     fast_replaceable_group = "fbreactor",
@@ -41,17 +42,17 @@ ENTITY {
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
     match_animation_speed_to_activity = false,
     module_specification = {
-        module_slots = 4
+        module_slots = 2
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"speed"},
     crafting_categories = {"fbreactor"},
-    crafting_speed = 1,
+    crafting_speed = 2,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
         emissions_per_minute = 0.06,
     },
-    energy_usage = "100kW",
+    energy_usage = "400kW",
     ingredient_count = 10,
     animation = {
         layers = {
@@ -61,6 +62,14 @@ ENTITY {
                 height = 220,
                 frame_count = 1,
                 shift = util.by_pixel(0, -23)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/fbreactor/fbreactor-mask.png",
+                width = 160,
+                height = 220,
+                frame_count = 1,
+                shift = util.by_pixel(0, -23),
+                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
                 filename = "__pyhightech__/graphics/entity/fbreactor/shadow.png",

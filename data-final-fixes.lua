@@ -48,3 +48,7 @@ for _,name in pairs(blackholemods) do
 		data.raw.recipe["blackhole-fuel-"..name[1]].results[1].amount=name[2]
 	end
 end
+
+local ell = require('prototypes/functions/effectivity-modules')
+
+ell.effectivityblacklist()

@@ -19,27 +19,30 @@ local pipe_right = {
 RECIPE {
     type = "recipe",
     name = "pulp-mill-mk04",
-    energy_required = 2,
-    enabled = true,
+    energy_required = 0.5,
+    enabled = false,
     ingredients = {
-        {"fbreactor", 1},
-        {"pipe", 10},
-        {"electric-mining-drill", 1},
-        {"stone-brick", 30},
-        {"wood", 30}
+        {"pulp-mill-mk03", 1},
+        {"superconductor-servomechanims", 20},
+        {"heavy-fermion", 50},
+        {"volumetric-capacitor", 20},
+        {"intelligent-unit", 20},
+        {"low-density-structure", 50},
+        {"electric-engine-unit", 50},
+        {"nbfe-alloy", 50},
     },
     results = {
         {"pulp-mill-mk04", 1}
     }
-}
+}:add_unlock("nano-tech")
 
 ITEM {
     type = "item",
     name = "pulp-mill-mk04",
-    icon = "__pyhightech__/graphics/icons/pulp-mill.png",
-    icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/pulp-mill-mk04.png",
+    icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-buildings",
+    subgroup = "py-hightech-buildings-mk04",
     order = "d",
     place_result = "pulp-mill-mk04",
     stack_size = 10
@@ -48,8 +51,8 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "pulp-mill-mk04",
-    icon = "__pyhightech__/graphics/icons/pulp-mill.png",
-	icon_size = 32,
+    icon = "__pyhightech__/graphics/icons/pulp-mill-mk04.png",
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pulp-mill-mk04"},
     fast_replaceable_group = "pulp-mill",
@@ -62,15 +65,15 @@ ENTITY {
     module_specification = {
         module_slots = 4
     },
-    allowed_effects = {"consumption", "speed", "productivity", "pollution"},
+    allowed_effects = {"consumption", "speed"},
     crafting_categories = {"pulp"},
-    crafting_speed = 1,
+    crafting_speed = 4,
     energy_source = {
         type = "electric",
         usage_priority = "secondary-input",
         emissions_per_minute = 0.06,
     },
-    energy_usage = "150kW",
+    energy_usage = "950kW",
     ingredient_count = 20,
     animation = {
         layers = {
@@ -83,6 +86,17 @@ ENTITY {
                 frame_count = 61,
                 animation_speed = 0.4,
                 shift = util.by_pixel(0, -36)
+            },
+            {
+                filename = "__pyhightech__/graphics/entity/pulp-mill/pulp-mill-mask.png",
+                --priority = "high",
+                width = 160,
+                height = 248,
+                line_length = 12,
+                frame_count = 61,
+                animation_speed = 0.4,
+                shift = util.by_pixel(0, -36),
+                tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
             },
             {
                 filename = "__pyhightech__/graphics/entity/pulp-mill/shadow.png",
