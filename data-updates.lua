@@ -34,7 +34,9 @@ RECIPE('gas-separator-mk01'):remove_unlock('helium-processing'):add_unlock('semi
 --RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 --RECIPE('pressured-air'):add_ingredient({type = 'fluid', name = 'liquid-air', amount = 100})
 RECIPE('purified-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
+if not mods['pyrawores'] then
 RECIPE('cool-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
+end
 RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 RECIPE('anthraquinone'):remove_unlock('fuel-production'):add_unlock('basic-electronics')
 RECIPE('hydrogen-peroxide'):remove_unlock('coal-processing-3'):add_unlock('basic-electronics')
@@ -86,7 +88,7 @@ RECIPE('fawogae-plantation-mk03'):replace_ingredient('treated-wood', 'fiberboard
 RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 RECIPE('kmauts-ration'):remove_ingredient("ralesia"):add_ingredient({type = "item", name = "blood-meal", amount = 5})
 
-RECIPE("accumulator-mk02"):remove_ingredient("battery"):add_ingredient({type = 'item', name = 'supercapacitor', amount = 10}):remove_unlock('coal-processing-3'):remove_unlock('electric-energy-accumulators-1'):add_unlock('nano-tech')
+RECIPE("accumulator-mk02"):remove_ingredient("battery"):add_ingredient({type = 'item', name = 'supercapacitor', amount = 10}):remove_unlock('coal-processing-3'):remove_unlock('electric-energy-accumulators'):add_unlock('nano-tech')
 
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
@@ -106,7 +108,7 @@ TECHNOLOGY('military-4'):remove_prereq('utility-science-pack'):add_prereq('nano-
 TECHNOLOGY('rocket-control-unit'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
 TECHNOLOGY('logistic-system'):remove_prereq('utility-science-pack')
 TECHNOLOGY('fusion-reactor-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
-TECHNOLOGY('personal-roboport-equipment-2'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+TECHNOLOGY('personal-roboport-mk2-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
 
 
 ITEM('utility-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
