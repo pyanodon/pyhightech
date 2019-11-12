@@ -50,21 +50,89 @@ data:extend {
         order = "c"
     },
     {
+        -- i will use this category for pa recipes
+        -- because other pymods also create such recipes and stuff them in here
         type = "item-subgroup",
         name = "py-hightech-recipes",
         group = "py-hightech",
-        order = "b"
+        order = "z"
     },
     {
         type = "item-subgroup",
         name = "py-hightech-gases",
         group = "py-hightech",
-        order = "u"
+        order = "e"
     },
     {
         type = "item-subgroup",
         name = "py-hightech-ores",
         group = "py-hightech",
+        order = "f"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-tier-1",
+        group = "py-hightech",
+        order = "ga"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-tier-2",
+        group = "py-hightech",
+        order = "gb"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-tier-3",
+        group = "py-hightech",
+        order = "gc"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-tier-4",
+        group = "py-hightech",
+        order = "gd"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-earnshaw",
+        group = "py-hightech",
+        order = "ge"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-quantum",
+        group = "py-hightech",
+        order = "gf"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-misc",
+        group = "py-hightech",
         order = "e"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-kicalk",
+        group = "py-hightech",
+        order = "ea"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-urea",
+        group = "py-hightech",
+        order = "eb"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-zipir",
+        group = "py-hightech",
+        order = "ec"
+    },
+    {
+        type = "item-subgroup",
+        name = "py-hightech-aerogel",
+        group = "py-hightech",
+        order = "ed"
     }
 }

@@ -14,7 +14,7 @@ RECIPE {
     --main_product = "silicon-wafer",
     icon = '__pyhightech__/graphics/icons/crush-rare-earth-ore.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
+    subgroup = 'py-hightech-items',
     order = 'b7'
 }:add_unlock('rare-earth-tech')
 
@@ -400,7 +400,9 @@ RECIPE {
     results = {
         {type = 'item', name = 'electronic-circuit', amount = 5}
     },
-    main_product = 'electronic-circuit'
+    main_product = 'electronic-circuit',
+    subgroup = 'py-hightech-tier-1',
+    order = 'aab'
 }
 
 RECIPE {
@@ -421,7 +423,7 @@ RECIPE {
     --main_product = "tall-oil",
     icon = '__pyhightech__/graphics/icons/fluidize-coke.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
+    subgroup = 'py-hightech-fluids',
     order = 'b1'
 }:add_unlock('basic-electronics')
 
@@ -443,7 +445,7 @@ RECIPE {
     --main_product = "benzene",
     icon = '__pyhightech__/graphics/icons/tall-oil-separation.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
+    subgroup = 'py-hightech-fluids',
     order = 'b2'
 }:add_unlock('basic-electronics')
 
@@ -861,7 +863,7 @@ RECIPE {
     main_product = 'pdms',
     icon = '__pyhightech__/graphics/icons/mix-pdms.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
+    subgroup = 'py-hightech-fluids',
     order = 'b1'
 }:add_unlock('graphene'):change_category('mixer')
 
@@ -1860,7 +1862,7 @@ RECIPE {
     main_product = 'zinc-nanocomplex',
     icon = '__pyhightech__/graphics/icons/wash-zincnano.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
+    subgroup = 'py-hightech-fluids',
     order = 'b7'
 }:add_unlock('nano-tech')
 
@@ -2199,8 +2201,8 @@ RECIPE {
     },
     icon = '__pyhightech__/graphics/icons/rendering.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
-    order = 'd'
+    subgroup = 'py-hightech-zipir',
+    order = 'b'
 }:add_unlock('basic-electronics')
 
 RECIPE {
@@ -2307,7 +2309,7 @@ RECIPE {
     },
     icon = '__pyhightech__/graphics/icons/log7.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
+    subgroup = 'py-items',
     order = 'd'
 }:add_unlock('advanced-electronics')
 
@@ -2807,8 +2809,8 @@ RECIPE {
     },
     icon = '__pyhightech__/graphics/icons/hydro-myoglobin.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
-    order = 'd'
+    subgroup = 'py-hightech-zipir',
+    order = 'h'
 }:add_unlock('basic-electronics')
 
 RECIPE {
@@ -3024,7 +3026,9 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'space-science-pack', amount = 3}
-    }
+    },
+    subgroup = "py-hightech-quantum",
+    order = "a"
 }:add_unlock('quantum'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 500})
 
 RECIPE {
@@ -3051,8 +3055,8 @@ RECIPE {
     main_product = 'production-science-pack',
     icon = '__pyhightech__/graphics/icons/random-packs.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
-    order = 'c1'
+    subgroup = "py-hightech-quantum",
+    order = "a"
 }:add_unlock('quantum'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 500})
 
 RECIPE {
@@ -3095,7 +3099,7 @@ RECIPE {
     --main_product= "blanket",
     icon = '__pyhightech__/graphics/icons/fusion-antimatter.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
+    subgroup = 'py-fusion-items',
     order = 'e'
 }:add_unlock('fusion-mk04')
 
@@ -3116,7 +3120,7 @@ RECIPE {
     --main_product= "blanket",
     icon = '__pyhightech__/graphics/icons/steam-exchange5.png',
     icon_size = 32,
-    subgroup = 'py-hightech-recipes',
+    subgroup = 'py-fusion-items',
     order = 'e'
 }:add_unlock('fusion-mk04')
 
@@ -3164,7 +3168,9 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'proton-donor', amount = 1}
-    }
+    },
+    subgroup = 'py-hightech-recipes',
+    order = 'a'
 }:add_unlock('nucleo')
 
 RECIPE {
@@ -3179,7 +3185,9 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'proton-receiver', amount = 1}
-    }
+    },
+    subgroup = 'py-hightech-recipes',
+    order = 'a'
 }:add_unlock('nucleo')
 
 RECIPE {
@@ -3384,7 +3392,9 @@ RECIPE {
     },
     results = {
         {type = 'item', name = 'electronic-circuit', amount = 3}
-    }
+    },
+    subgroup = 'py-hightech-tier-1',
+    order = 'aaa'
 }
 
 RECIPE {

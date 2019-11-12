@@ -13,9 +13,7 @@ RECIPE {
     },
     main_product = "ech",
     icon = "__pyhightech__/graphics/icons/mix-ech.png",
-	icon_size = 32,
-    subgroup = "py-hightech-recipes",
-    order = "c"
+	icon_size = 32
 }:add_unlock("advanced-electronics")
 
 FLUID {
