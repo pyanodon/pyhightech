@@ -6,6 +6,7 @@ RECIPE {
     ingredients = {
         {"fbreactor-mk01", 1},
         {"evaporator", 1},
+        {"advanced-circuit", 15},
         {"engine-unit", 4},
         {"pipe", 10},
         {"steel-plate", 30},
