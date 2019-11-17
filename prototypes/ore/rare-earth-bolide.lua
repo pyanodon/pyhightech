@@ -38,7 +38,7 @@ DATA {
     autoplace = {
         control = "rare-earth-bolide",
         sharpness = 0.98,
-        starting_area = true,
+        starting_area = false,
         --max_probability = 0.035,
         richness_multiplier = 100,
         richness_multiplier_distance_bonus = 100,
