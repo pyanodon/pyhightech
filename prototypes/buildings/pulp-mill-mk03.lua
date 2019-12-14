@@ -25,7 +25,7 @@ RECIPE {
         {"pulp-mill-mk02", 1},
         {"graphene-roll", 20},
         {"processing-unit", 10},
-        {"niobium-pipe", 20},
+        {"pipe", 20},
         {"biopolymer", 15},
         {"engine-unit", 10},
     },
