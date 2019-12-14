@@ -93,6 +93,7 @@ RECIPE("accumulator-mk02"):remove_ingredient("battery"):add_ingredient({type = '
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
 RECIPE('quantum-computer'):replace_ingredient('pipe', 'niobium-pipe')
+RECIPE('pulp-mill-mk03'):replace_ingredient('pipe', 'niobium-pipe')
 RECIPE('construction-robot-ht'):replace_ingredient('construction-robot', 'py-construction-robot-01')
 RECIPE('logistic-robot-ht'):replace_ingredient('logistic-robot', 'py-logistic-robot-01')
 
