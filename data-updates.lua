@@ -28,7 +28,7 @@ RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('basic-electronic
 RECIPE('vacuum-pump-mk01'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
 RECIPE('vacuum'):remove_unlock('diamond-mining'):set_enabled(true)
-RECIPE('tar-processing-unit'):remove_unlock('coal-processing-1'):set_enabled(true)
+--RECIPE('tar-processing-unit'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('creosote'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('gas-separator-mk01'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 --RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
