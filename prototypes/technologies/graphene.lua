@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "graphene",
-    icon = "__pyhightech__/graphics/technology/graphene.png",
+    icon = "__pyhightechgraphics__/graphics/technology/graphene.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"advanced-electronics"},

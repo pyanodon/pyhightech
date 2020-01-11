@@ -15,7 +15,7 @@ DATA {
     type = "resource",
     name = "phosphate-rock",
     category = "phosphate",
-    icon = "__pyhightech__/graphics/icons/ores/ancient-remains.png",
+    icon = "__pyhightechgraphics__/graphics/icons/ores/ancient-remains.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -57,7 +57,7 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyhightech__/graphics/entity/ores/ancient-remains.png",
+            filename = "__pyhightechgraphics__/graphics/entity/ores/ancient-remains.png",
             priority = "extra-high",
             width = 288,
             height = 288,
@@ -65,7 +65,7 @@ DATA {
             variation_count = 1,
             shift = {0.0, -0.0},
             hr_version = {
-                filename = "__pyhightech__/graphics/entity/ores/hr-ancient-remains.png",
+                filename = "__pyhightechgraphics__/graphics/entity/ores/hr-ancient-remains.png",
                 priority = "extra-high",
                 width = 576,
                 height = 576,

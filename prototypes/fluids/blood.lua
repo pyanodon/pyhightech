@@ -1,7 +1,7 @@
 FLUID {
     type = "fluid",
     name = "blood",
-    icon = "__pyhightech__/graphics/icons/blood.png",
+    icon = "__pyhightechgraphics__/graphics/icons/blood.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.854, g = 0.219, b = 0.0},

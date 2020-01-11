@@ -1,7 +1,7 @@
 FLUID {
     type = "fluid",
     name = "ammonia",
-    icon = "__pyhightech__/graphics/icons/ammonia.png",
+    icon = "__pyhightechgraphics__/graphics/icons/ammonia.png",
 	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.9, g = 0.9, b = 1},

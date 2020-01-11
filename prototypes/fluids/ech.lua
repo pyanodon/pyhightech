@@ -12,14 +12,14 @@ RECIPE {
         {type = "fluid", name = "ech", amount = 30}
     },
     main_product = "ech",
-    icon = "__pyhightech__/graphics/icons/mix-ech.png",
+    icon = "__pyhightechgraphics__/graphics/icons/mix-ech.png",
 	icon_size = 32
 }:add_unlock("advanced-electronics")
 
 FLUID {
     type = "fluid",
     name = "ech",
-    icon = "__pyhightech__/graphics/icons/ech.png",
+    icon = "__pyhightechgraphics__/graphics/icons/ech.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.02, g = 0.956, b = 0.172},

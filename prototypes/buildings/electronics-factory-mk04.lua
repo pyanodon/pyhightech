@@ -20,7 +20,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "electronics-factory-mk04",
-    icon = "__pyhightech__/graphics/icons/electronics-factory-mk04.png",
+    icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk04.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings-mk04",
@@ -32,7 +32,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "electronics-factory-mk04",
-    icon = "__pyhightech__/graphics/icons/electronics-factory-mk04.png",
+    icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk04.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "electronics-factory-mk04"},
@@ -59,14 +59,14 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/electronics-factory/off.png",
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/off.png",
                 width = 160,
                 height = 202,
                 frame_count = 1,
                 shift = util.by_pixel(0, -22)
             },
             {
-                filename = "__pyhightech__/graphics/entity/electronics-factory/off-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/off-mask.png",
                 width = 160,
                 height = 202,
                 frame_count = 1,
@@ -74,7 +74,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/electronics-factory/shadow.png",
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/shadow.png",
                 --priority = "high",
                 width = 180,
                 height = 130,
@@ -93,7 +93,7 @@ ENTITY {
             south_position = util.by_pixel(0, -36.6),
             east_position = util.by_pixel(0, -36.6),
             animation = {
-                filename = "__pyhightech__/graphics/entity/electronics-factory/electronic-factory.png",
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory.png",
                 --priority = "low",
                 frame_count = 50,
                 line_length = 10,
@@ -108,7 +108,7 @@ ENTITY {
             south_position = util.by_pixel(0, -36.6),
             east_position = util.by_pixel(0, -36.6),
             animation = {
-                filename = "__pyhightech__/graphics/entity/electronics-factory/electronic-factory-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory-mask.png",
                 --priority = "low",
                 frame_count = 50,
                 line_length = 10,
@@ -155,8 +155,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/electronics-factory.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyhightech__/sounds/electronics-factory.ogg", volume = 0.7},
+        sound = {filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

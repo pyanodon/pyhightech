@@ -18,7 +18,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "etching",
-    icon = "__pyhightech__/graphics/icons/etching.png",
+    icon = "__pyhightechgraphics__/graphics/icons/etching.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0, g = 0.286, b = 0},

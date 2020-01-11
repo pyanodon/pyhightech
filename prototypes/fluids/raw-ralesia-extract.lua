@@ -11,14 +11,14 @@ RECIPE {
     results = {
         {type = "fluid", name = "raw-ralesia-extract", amount = 50},
     },
-    icon = "__pyhightech__/graphics/icons/hydro-ralesia-extract.png",
+    icon = "__pyhightechgraphics__/graphics/icons/hydro-ralesia-extract.png",
 	icon_size = 32
 }:add_unlock("nano-tech")
 
 FLUID {
     type = "fluid",
     name = "raw-ralesia-extract",
-    icon = "__pyhightech__/graphics/icons/raw-ralesia-extract.png",
+    icon = "__pyhightechgraphics__/graphics/icons/raw-ralesia-extract.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.803, g = 0.564, b = 0.08},

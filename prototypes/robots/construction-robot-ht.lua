@@ -21,7 +21,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "construction-robot-ht",
-    icon = "__pyhightech__/graphics/icons/construction-robot-ht.png",
+    icon = "__pyhightechgraphics__/graphics/icons/construction-robot-ht.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-items",
@@ -33,7 +33,7 @@ ITEM {
 ENTITY {
     type = "construction-robot",
     name = "construction-robot-ht",
-    icon = "__pyhightech__/graphics/icons/construction-robot-ht.png",
+    icon = "__pyhightechgraphics__/graphics/icons/construction-robot-ht.png",
     icon_size = 32,
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {hardness = 0.1, mining_time = 0.1, result = "construction-robot-ht"},
@@ -53,7 +53,7 @@ ENTITY {
     working_light = {intensity = 0.8, size = 3, color = {r = 0.8, g = 0.8, b = 0.9}},
     idle =
     {
-      filename = "__pyhightech__/graphics/entity/construction-robot-ht/i.png",
+      filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/i.png",
       priority = "high",
       line_length = 8,
       width = 96,
@@ -62,7 +62,7 @@ ENTITY {
       shift = {0, 0},
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-i.png",
+        filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-i.png",
         priority = "high",
         line_length = 8,
         width = 192,
@@ -75,7 +75,7 @@ ENTITY {
     },
     in_motion =
     {
-      filename = "__pyhightech__/graphics/entity/construction-robot-ht/r.png",
+      filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/r.png",
       priority = "high",
       line_length = 8,
       width = 96,
@@ -84,7 +84,7 @@ ENTITY {
       shift = {0, 0},
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-r.png",
+        filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-r.png",
         priority = "high",
         line_length = 8,
         width = 192,
@@ -97,7 +97,7 @@ ENTITY {
     },
     shadow_idle =
     {
-      filename = "__pyhightech__/graphics/entity/construction-robot-ht/s.png",
+      filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/s.png",
       priority = "high",
       line_length = 8,
       width = 80,
@@ -107,7 +107,7 @@ ENTITY {
       shift = util.by_pixel(33.5, 18.75),
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-s.png",
+        filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-s.png",
         priority = "high",
         line_length = 8,
         width = 160,
@@ -121,7 +121,7 @@ ENTITY {
     },
     shadow_in_motion =
     {
-      filename = "__pyhightech__/graphics/entity/construction-robot-ht/s.png",
+      filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/s.png",
       priority = "high",
       line_length = 8,
       width = 80,
@@ -131,7 +131,7 @@ ENTITY {
       shift = util.by_pixel(33.5, 18.75),
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-s.png",
+        filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-s.png",
         priority = "high",
         line_length = 8,
         width = 160,
@@ -145,7 +145,7 @@ ENTITY {
     },
     working =
     {
-      filename = "__pyhightech__/graphics/entity/construction-robot-ht/w.png",
+      filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/w.png",
       priority = "high",
       line_length = 8,
       width = 96,
@@ -154,7 +154,7 @@ ENTITY {
       shift = {0, 0},
       direction_count = 16,
       hr_version = {
-        filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-w.png",
+        filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-w.png",
         priority = "high",
         line_length = 8,
         width = 192,
@@ -167,7 +167,7 @@ ENTITY {
     },
     shadow_working =
     {
-        filename = "__pyhightech__/graphics/entity/construction-robot-ht/s.png",
+        filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/s.png",
         priority = "high",
         line_length = 8,
         width = 80,
@@ -177,7 +177,7 @@ ENTITY {
         shift = util.by_pixel(33.5, 18.75),
         direction_count = 16,
         hr_version = {
-          filename = "__pyhightech__/graphics/entity/construction-robot-ht/hr-s.png",
+          filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-s.png",
           priority = "high",
           line_length = 8,
           width = 160,

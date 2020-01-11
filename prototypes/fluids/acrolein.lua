@@ -32,7 +32,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "acrolein",
-    icon = "__pyhightech__/graphics/icons/acrolein.png",
+    icon = "__pyhightechgraphics__/graphics/icons/acrolein.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.517, g = 0.250, b = 0},

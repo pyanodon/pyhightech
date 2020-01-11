@@ -48,7 +48,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "methane",
-    icon = "__pyhightech__/graphics/icons/methane.png",
+    icon = "__pyhightechgraphics__/graphics/icons/methane.png",
 	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.458, g = 0.772, b = 0.619},

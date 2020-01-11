@@ -12,7 +12,7 @@ RECIPE {
         {type = 'item', name = 'stone', amount = 5}
     },
     --main_product = "silicon-wafer",
-    icon = '__pyhightech__/graphics/icons/crush-rare-earth-ore.png',
+    icon = '__pyhightechgraphics__/graphics/icons/crush-rare-earth-ore.png',
     icon_size = 32,
     subgroup = 'py-hightech-items',
     order = 'b7'
@@ -421,7 +421,7 @@ RECIPE {
         {type = 'fluid', name = 'tall-oil', amount = 20}
     },
     --main_product = "tall-oil",
-    icon = '__pyhightech__/graphics/icons/fluidize-coke.png',
+    icon = '__pyhightechgraphics__/graphics/icons/fluidize-coke.png',
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b1'
@@ -443,7 +443,7 @@ RECIPE {
         {type = 'fluid', name = 'aromatics', amount = 10}
     },
     --main_product = "benzene",
-    icon = '__pyhightech__/graphics/icons/tall-oil-separation.png',
+    icon = '__pyhightechgraphics__/graphics/icons/tall-oil-separation.png',
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b2'
@@ -496,7 +496,7 @@ RECIPE {
         {type = 'item', name = 'stone', amount = 5}
     },
     main_product = 'powdered-phosphate-rock',
-    icon = '__pyhightech__/graphics/icons/crush-phosphate-rock.png',
+    icon = '__pyhightechgraphics__/graphics/icons/crush-phosphate-rock.png',
     icon_size = 32
 }:add_unlock('basic-electronics')
 
@@ -861,7 +861,7 @@ RECIPE {
         {type = 'item', name = 'pdms', amount = 5}
     },
     main_product = 'pdms',
-    icon = '__pyhightech__/graphics/icons/mix-pdms.png',
+    icon = '__pyhightechgraphics__/graphics/icons/mix-pdms.png',
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b1'
@@ -1825,7 +1825,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'ralesia-powder', amount = 5}
     },
-    icon = '__pyhightech__/graphics/icons/recrush-dry-ralesia.png',
+    icon = '__pyhightechgraphics__/graphics/icons/recrush-dry-ralesia.png',
     icon_size = 32
 }:add_unlock('nano-tech')
 
@@ -1860,7 +1860,7 @@ RECIPE {
         {type = 'fluid', name = 'dirty-water', amount = 100}
     },
     main_product = 'zinc-nanocomplex',
-    icon = '__pyhightech__/graphics/icons/wash-zincnano.png',
+    icon = '__pyhightechgraphics__/graphics/icons/wash-zincnano.png',
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b7'
@@ -2199,7 +2199,7 @@ RECIPE {
         {type = 'item', name = 'meat', amount = 7},
         {type = 'fluid', name = 'blood', amount = 60}
     },
-    icon = '__pyhightech__/graphics/icons/rendering.png',
+    icon = '__pyhightechgraphics__/graphics/icons/rendering.png',
     icon_size = 32,
     subgroup = 'py-hightech-zipir',
     order = 'b'
@@ -2307,7 +2307,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'log', amount = 3}
     },
-    icon = '__pyhightech__/graphics/icons/log7.png',
+    icon = '__pyhightechgraphics__/graphics/icons/log7.png',
     icon_size = 32,
     subgroup = 'py-items',
     order = 'd'
@@ -2807,7 +2807,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'myoglobin', amount = 2}
     },
-    icon = '__pyhightech__/graphics/icons/hydro-myoglobin.png',
+    icon = '__pyhightechgraphics__/graphics/icons/hydro-myoglobin.png',
     icon_size = 32,
     subgroup = 'py-hightech-zipir',
     order = 'h'
@@ -3053,7 +3053,7 @@ RECIPE {
         {type = 'item', name = 'automation-science-pack', amount = 5}
     },
     main_product = 'production-science-pack',
-    icon = '__pyhightech__/graphics/icons/random-packs.png',
+    icon = '__pyhightechgraphics__/graphics/icons/random-packs.png',
     icon_size = 32,
     subgroup = "py-hightech-quantum",
     order = "a"
@@ -3097,7 +3097,7 @@ RECIPE {
         {type = 'fluid', name = 'steam', amount = 5000}
     },
     --main_product= "blanket",
-    icon = '__pyhightech__/graphics/icons/fusion-antimatter.png',
+    icon = '__pyhightechgraphics__/graphics/icons/fusion-antimatter.png',
     icon_size = 32,
     subgroup = 'py-fusion-items',
     order = 'e'
@@ -3118,7 +3118,7 @@ RECIPE {
         {type = 'fluid', name = 'steam', amount = 400}
     },
     --main_product= "blanket",
-    icon = '__pyhightech__/graphics/icons/steam-exchange5.png',
+    icon = '__pyhightechgraphics__/graphics/icons/steam-exchange5.png',
     icon_size = 32,
     subgroup = 'py-fusion-items',
     order = 'e'
@@ -3372,7 +3372,7 @@ RECIPE {
         {type = 'fluid', name = 'combustion-mixture1', amount = 150, temperature = 550},
         {type = 'fluid', name = 'steam', amount = 500, temperature = 60}
     },
-    icon = '__pyhightech__/graphics/icons/combustion-methane.png',
+    icon = '__pyhightechgraphics__/graphics/icons/combustion-methane.png',
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = 'py-combustion',
@@ -3429,7 +3429,7 @@ RECIPE {
         {type = 'fluid', name = 'combustion-mixture1', amount = 150, temperature = 520},
         {type = 'fluid', name = 'steam', amount = 500, temperature = 60}
     },
-    icon = '__pyhightech__/graphics/icons/combustion-benzene.png',
+    icon = '__pyhightechgraphics__/graphics/icons/combustion-benzene.png',
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = 'py-combustion',
@@ -3486,7 +3486,7 @@ RECIPE {
         {type = 'fluid', name = 'combustion-mixture1', amount = 150, temperature = 600},
         {type = 'fluid', name = 'steam', amount = 500, temperature = 60}
     },
-    icon = '__pyhightech__/graphics/icons/combustion-tall-oil.png',
+    icon = '__pyhightechgraphics__/graphics/icons/combustion-tall-oil.png',
     icon_size = 32,
     --main_product = "combustion-mixture1",
     subgroup = 'py-combustion',

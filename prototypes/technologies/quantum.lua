@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "quantum",
-    icon = "__pyhightech__/graphics/technology/quantum-computing.png",
+    icon = "__pyhightechgraphics__/graphics/technology/quantum-computing.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nano-tech","earnshaw-theorem"},

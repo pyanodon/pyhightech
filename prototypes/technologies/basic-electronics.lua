@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "basic-electronics",
-    icon = "__pyhightech__/graphics/technology/basic-electronics.png",
+    icon = "__pyhightechgraphics__/graphics/technology/basic-electronics.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"coal-processing-2"},

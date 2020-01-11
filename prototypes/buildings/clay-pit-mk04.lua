@@ -20,7 +20,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "clay-pit-mk04",
-    icon = "__pyhightech__/graphics/icons/clay-pit-mk04.png",
+    icon = "__pyhightechgraphics__/graphics/icons/clay-pit-mk04.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings-mk04",
@@ -32,7 +32,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "clay-pit-mk04",
-    icon = "__pyhightech__/graphics/icons/clay-pit-mk04.png",
+    icon = "__pyhightechgraphics__/graphics/icons/clay-pit-mk04.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "clay-pit-mk04"},
@@ -60,7 +60,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/clay-pit/clay-left.png",
+                filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-left.png",
                 width = 112,
                 height = 229,
                 line_length = 10,
@@ -69,7 +69,7 @@ ENTITY {
                 shift = util.by_pixel(-56, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/clay-pit/clay-left-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-left-mask.png",
                 width = 112,
                 height = 229,
                 line_length = 10,
@@ -79,7 +79,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/clay-pit/clay-right.png",
+                filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-right.png",
                 width = 112,
                 height = 229,
                 line_length = 10,
@@ -88,7 +88,7 @@ ENTITY {
                 shift = util.by_pixel(56, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/clay-pit/clay-right-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-right-mask.png",
                 width = 112,
                 height = 229,
                 line_length = 10,
@@ -119,8 +119,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/clay-pit.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/clay-pit.ogg", volume = 0.7},
+        sound = {filename = "__pyhightechgraphics__/sounds/clay-pit.ogg", volume = 1.5},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/clay-pit.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

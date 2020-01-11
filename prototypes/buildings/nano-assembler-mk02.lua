@@ -20,7 +20,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "nano-assembler-mk02",
-    icon = "__pyhightech__/graphics/icons/nano-assembler-mk02.png",
+    icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk02.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings-mk02",
@@ -32,7 +32,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk02",
-    icon = "__pyhightech__/graphics/icons/nano-assembler-mk02.png",
+    icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk02.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "nano-assembler-mk02"},
@@ -59,7 +59,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/nano-assembler/nano-assembler.png",
+                filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler.png",
                 --priority = "high",
                 width = 236,
                 height = 224,
@@ -69,7 +69,7 @@ ENTITY {
                 shift = util.by_pixel(5,0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/nano-assembler/nano-assembler-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler-mask.png",
                 --priority = "high",
                 width = 236,
                 height = 224,
@@ -117,8 +117,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/nano-assembler.ogg", volume = 2.0},
-        idle_sound = {filename = "__pyhightech__/sounds/nano-assembler.ogg", volume = 1.2},
+        sound = {filename = "__pyhightechgraphics__/sounds/nano-assembler.ogg", volume = 2.0},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/nano-assembler.ogg", volume = 1.2},
         apparent_volume = 2.5
     }
 }

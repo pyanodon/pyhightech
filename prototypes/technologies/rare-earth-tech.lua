@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "rare-earth-tech",
-    icon = "__pyhightech__/graphics/technology/rare-earth-tech.png",
+    icon = "__pyhightechgraphics__/graphics/technology/rare-earth-tech.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"basic-electronics"},

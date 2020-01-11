@@ -19,7 +19,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "ethylene",
-    icon = "__pyhightech__/graphics/icons/ethylene.png",
+    icon = "__pyhightechgraphics__/graphics/icons/ethylene.png",
 	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.896, g = 0.805, b = 0.762},

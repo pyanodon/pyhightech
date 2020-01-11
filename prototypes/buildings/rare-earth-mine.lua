@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "rare-earth-mine",
-    icon = "__pyhightech__/graphics/icons/rare-earth-mine.png",
+    icon = "__pyhightechgraphics__/graphics/icons/rare-earth-mine.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "rare-earth-mine",
-    icon = "__pyhightech__/graphics/icons/rare-earth-mine.png",
+    icon = "__pyhightechgraphics__/graphics/icons/rare-earth-mine.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "rare-earth-mine"},
@@ -65,7 +65,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/rare-earth-mine/rare-earth-left.png",
+                filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-left.png",
                 width = 96,
                 height = 261,
                 line_length = 21,
@@ -74,7 +74,7 @@ ENTITY {
                 shift = util.by_pixel(-82, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/rare-earth-mine/rare-earth-mid.png",
+                filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-mid.png",
                 width = 96,
                 height = 261,
                 line_length = 21,
@@ -83,7 +83,7 @@ ENTITY {
                 shift = util.by_pixel(14, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/rare-earth-mine/rare-earth-right.png",
+                filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-right.png",
                 priority = "extra-high",
                 width = 80,
                 height = 261,
@@ -95,8 +95,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/rare-earth.ogg", volume = 0.9},
-        idle_sound = {filename = "__pyhightech__/sounds/rare-earth.ogg", volume = 0.7},
+        sound = {filename = "__pyhightechgraphics__/sounds/rare-earth.ogg", volume = 0.9},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/rare-earth.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

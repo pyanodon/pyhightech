@@ -15,7 +15,7 @@ RECIPE {
     main_product = "sulfur",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
 			{icon = "__base__/graphics/icons/sulfur.png", scale = 0.5}
 		},
 	icon_size = 32,
@@ -40,8 +40,8 @@ RECIPE {
     main_product = "aromatics",
 	icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pycoalprocessing__/graphics/icons/aromatics.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pycoalprocessinggraphics__/graphics/icons/aromatics.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -65,8 +65,8 @@ RECIPE {
     main_product = "benzene",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pyhightech__/graphics/icons/benzene.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightechgraphics__/graphics/icons/benzene.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -90,8 +90,8 @@ RECIPE {
     main_product = "propene",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pyhightech__/graphics/icons/propene.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightechgraphics__/graphics/icons/propene.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -115,8 +115,8 @@ RECIPE {
     main_product = "silicon",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pyhightech__/graphics/icons/silicon.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightechgraphics__/graphics/icons/silicon.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -140,7 +140,7 @@ RECIPE {
     main_product = "coal",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
 			{icon = "__base__/graphics/icons/mip/coal.png", icon_size = 64, scale = 0.25, icon_mipmaps = 4}
 		},
 	icon_size = 32,
@@ -165,8 +165,8 @@ RECIPE {
     main_product = "niobium-plate",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pycoalprocessing__/graphics/icons/niobium-plate.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pycoalprocessinggraphics__/graphics/icons/niobium-plate.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -190,8 +190,8 @@ RECIPE {
     main_product = "chromium",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pycoalprocessing__/graphics/icons/chromium.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pycoalprocessinggraphics__/graphics/icons/chromium.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -215,8 +215,8 @@ RECIPE {
     main_product = "molybdenum-plate",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pyfusionenergy__/graphics/icons/molybdenum-plate.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyfusionenergygraphics__/graphics/icons/molybdenum-plate.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -240,8 +240,8 @@ RECIPE {
     main_product = "vanadium-oxide",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pyfusionenergy__/graphics/icons/vanadium-oxide.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyfusionenergygraphics__/graphics/icons/vanadium-oxide.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -265,7 +265,7 @@ RECIPE {
     main_product = "uranium-ore",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
 			{icon = "__base__/graphics/icons/mip/uranium-ore.png", icon_size = 64, scale = 0.25, icon_mipmaps = 4}
 		},
 	icon_size = 32,
@@ -290,7 +290,7 @@ RECIPE {
     main_product = "uranium-235",
     icnos =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over"},
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over"},
 			{icon = "__base__/graphics/icons/uranium-235.png", icon_size = 64, scale = 0.5}
 		},
 	icon_size = 32,
@@ -315,8 +315,8 @@ RECIPE {
     main_product = "diamond",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pyfusionenergy__/graphics/icons/diamond.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyfusionenergygraphics__/graphics/icons/diamond.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -338,8 +338,8 @@ RECIPE {
     main_product = "proton",
     icons =
 		{
-			{icon = "__pyhightech__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pyfusionenergy__/graphics/icons/proton.png", scale = 0.5}
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyfusionenergygraphics__/graphics/icons/proton.png", scale = 0.5}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",

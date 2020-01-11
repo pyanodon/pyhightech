@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "fbreactor-mk02",
-    icon = "__pyhightech__/graphics/icons/fbreactor-mk02.png",
+    icon = "__pyhightechgraphics__/graphics/icons/fbreactor-mk02.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings-mk02",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "fbreactor-mk02",
-    icon = "__pyhightech__/graphics/icons/fbreactor-mk02.png",
+    icon = "__pyhightechgraphics__/graphics/icons/fbreactor-mk02.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "fbreactor-mk02"},
@@ -58,14 +58,14 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/fbreactor/fbreactor.png",
+                filename = "__pyhightechgraphics__/graphics/entity/fbreactor/fbreactor.png",
                 width = 160,
                 height = 220,
                 frame_count = 1,
                 shift = util.by_pixel(0, -23)
             },
             {
-                filename = "__pyhightech__/graphics/entity/fbreactor/fbreactor-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/fbreactor/fbreactor-mask.png",
                 width = 160,
                 height = 220,
                 frame_count = 1,
@@ -73,7 +73,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/fbreactor/shadow.png",
+                filename = "__pyhightechgraphics__/graphics/entity/fbreactor/shadow.png",
                 width = 182,
                 height = 220,
                 frame_count = 1,
@@ -89,7 +89,7 @@ ENTITY {
             south_position = util.by_pixel(16, 11),
             east_position = util.by_pixel(16, 11),
             animation = {
-                filename = "__pyhightech__/graphics/entity/fbreactor/anim.png",
+                filename = "__pyhightechgraphics__/graphics/entity/fbreactor/anim.png",
                 frame_count = 40,
                 line_length = 10,
                 width = 128,
@@ -164,8 +164,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/fbreactor.ogg", volume = 0.6},
-        idle_sound = {filename = "__pyhightech__/sounds/fbreactor.ogg", volume = 0.5},
+        sound = {filename = "__pyhightechgraphics__/sounds/fbreactor.ogg", volume = 0.6},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/fbreactor.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }

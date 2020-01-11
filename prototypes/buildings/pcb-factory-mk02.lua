@@ -1,6 +1,6 @@
 local pipe = {
     south = {
-        filename = "__pyhightech__/graphics/entity/pcb-factory/bottom.png",
+        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/bottom.png",
         priority = "extra-high",
         width = 240,
         height = 256
@@ -28,7 +28,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "pcb-factory-mk02",
-    icon = "__pyhightech__/graphics/icons/pcb-factory-mk02.png",
+    icon = "__pyhightechgraphics__/graphics/icons/pcb-factory-mk02.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings-mk02",
@@ -40,7 +40,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "pcb-factory-mk02",
-    icon = "__pyhightech__/graphics/icons/pcb-factory-mk02.png",
+    icon = "__pyhightechgraphics__/graphics/icons/pcb-factory-mk02.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "pcb-factory-mk02"},
@@ -67,7 +67,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/1.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/1.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -76,7 +76,7 @@ ENTITY {
                 shift = util.by_pixel(-96, -5)
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/1-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/1-mask.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -86,7 +86,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/2.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/2.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -95,7 +95,7 @@ ENTITY {
                 shift = util.by_pixel(-64, -5)
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/2-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/2-mask.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -105,7 +105,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/3.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/3.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -114,7 +114,7 @@ ENTITY {
                 shift = util.by_pixel(-32, -5)
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/3-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/3-mask.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -124,7 +124,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/4.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/4.png",
                 width = 32,
                 height = 256,
                 priority = "low",
@@ -134,7 +134,7 @@ ENTITY {
                 shift = util.by_pixel(0, -5)
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/4-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/4-mask.png",
                 width = 32,
                 height = 256,
                 priority = "low",
@@ -145,7 +145,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/5.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/5.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -154,7 +154,7 @@ ENTITY {
                 shift = util.by_pixel(32, -5)
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/5-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/5-mask.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -164,7 +164,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/6.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/6.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -173,7 +173,7 @@ ENTITY {
                 shift = util.by_pixel(64, -5)
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/6-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/6-mask.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -183,7 +183,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/7.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/7.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -192,7 +192,7 @@ ENTITY {
                 shift = util.by_pixel(96, -5)
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/7-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/7-mask.png",
                 width = 32,
                 height = 256,
                 line_length = 64,
@@ -202,7 +202,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/pcb-factory/8.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/8.png",
                 width = 16,
                 height = 256,
                 line_length = 64,
@@ -242,8 +242,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/pcb-factory.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/pcb-factory.ogg", volume = 0.9},
+        sound = {filename = "__pyhightechgraphics__/sounds/pcb-factory.ogg", volume = 1.5},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/pcb-factory.ogg", volume = 0.9},
         apparent_volume = 2.5
     }
 }

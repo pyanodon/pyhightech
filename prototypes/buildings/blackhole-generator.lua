@@ -21,7 +21,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "blackhole",
-    icon = "__pyhightech__/graphics/icons/blackhole-generator.png",
+    icon = "__pyhightechgraphics__/graphics/icons/blackhole-generator.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -33,7 +33,7 @@ ITEM {
 ENTITY {
     type = "generator",
     name = "blackhole",
-    icon = "__pyhightech__/graphics/icons/blackhole-generator.png",
+    icon = "__pyhightechgraphics__/graphics/icons/blackhole-generator.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "blackhole"},
@@ -52,18 +52,18 @@ ENTITY {
 		{
 			type = "burner",
 			fuel_category = "blackhole",
-			effectivity = 1,
+			--effectivity = 2,
 			fuel_inventory_size =1,
 			emissions_per_minute = 0,
 		},
-	effectivity = 1,
-	max_power_output = "15MW",
+	effectivity = 2,
+	max_power_output = "150MW",
 	horizontal_animation =
     {
       layers =
       {
         {
-          filename = "__pyhightech__/graphics/entity/blackhole-generator/a1.png",
+          filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a1.png",
           width = 96,
           height = 400,
           frame_count = 80,
@@ -71,7 +71,7 @@ ENTITY {
           shift = util.by_pixel(-96, -54),
         },
         {
-          filename = "__pyhightech__/graphics/entity/blackhole-generator/a2.png",
+          filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a2.png",
           width = 96,
           height = 400,
           frame_count = 80,
@@ -79,7 +79,7 @@ ENTITY {
           shift = util.by_pixel(0, -54),
         },
         {
-          filename = "__pyhightech__/graphics/entity/blackhole-generator/a3.png",
+          filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a3.png",
           width = 96,
           height = 400,
           frame_count = 80,
@@ -87,7 +87,7 @@ ENTITY {
           shift = util.by_pixel(96, -54),
         },
         {
-          filename = "__pyhightech__/graphics/entity/blackhole-generator/a4.png",
+          filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a4.png",
           width = 32,
           height = 400,
           frame_count = 80,
@@ -101,7 +101,7 @@ ENTITY {
       layers =
       {
         {
-          filename = "__pyhightech__/graphics/entity/blackhole-generator/a1.png",
+          filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a1.png",
           width = 96,
           height = 400,
           frame_count = 80,
@@ -109,7 +109,7 @@ ENTITY {
           shift = util.by_pixel(-96, -54),
         },
         {
-          filename = "__pyhightech__/graphics/entity/blackhole-generator/a2.png",
+          filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a2.png",
           width = 96,
           height = 400,
           frame_count = 80,
@@ -117,7 +117,7 @@ ENTITY {
           shift = util.by_pixel(0, -54),
         },
         {
-          filename = "__pyhightech__/graphics/entity/blackhole-generator/a3.png",
+          filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a3.png",
           width = 96,
           height = 400,
           frame_count = 80,
@@ -125,7 +125,7 @@ ENTITY {
           shift = util.by_pixel(96, -54),
         },
         {
-          filename = "__pyhightech__/graphics/entity/blackhole-generator/a4.png",
+          filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a4.png",
           width = 32,
           height = 400,
           frame_count = 80,
@@ -136,8 +136,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/blackhole-generator.ogg", volume = 0.55},
-        idle_sound = {filename = "__pyhightech__/sounds/blackhole-generator.ogg", volume = 0.5},
+        sound = {filename = "__pyhightechgraphics__/sounds/blackhole-generator.ogg", volume = 0.55},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/blackhole-generator.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }
@@ -147,13 +147,13 @@ ENTITY {
 ITEM {
 	type = "item",
     name = "blackhole-fuel",
-    icon = "__pyhightech__/graphics/icons/matter.png",
+    icon = "__pyhightechgraphics__/graphics/icons/matter.png",
     icon_size = 32,
     fuel_category = "blackhole",
-    fuel_value = "100KJ",
+    fuel_value = "1.12MJ",
     subgroup = "raw-resource",
     order = "b[coal]",
-    stack_size = 50
+    stack_size = 500
 }
 
 data:extend(
@@ -173,7 +173,7 @@ data:extend(
 ITEM {
     type = "item",
     name = "magic-furnace",
-    icon = "__pyhightech__/graphics/untextured.png",
+    icon = "__pyhightechgraphics__/graphics/untextured.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -185,7 +185,7 @@ ITEM {
 ENTITY {
     type = "furnace",
     name = "magic-furnace",
-    icon = "__pyhightech__/graphics/empty.png",
+    icon = "__pyhightechgraphics__/graphics/empty.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation", "not-deconstructable", "not-blueprintable"},
     --minable = {mining_time = 0.1, result = "magic-furnace"},

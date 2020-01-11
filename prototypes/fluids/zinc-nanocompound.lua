@@ -16,7 +16,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "zinc-nanocompound",
-    icon = "__pyhightech__/graphics/icons/zinc-nanocompound.png",
+    icon = "__pyhightechgraphics__/graphics/icons/zinc-nanocompound.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.384, g = 0.756, b = 0.4},
