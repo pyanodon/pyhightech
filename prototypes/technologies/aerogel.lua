@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "aerogel",
-    icon = "__pyhightech__/graphics/technology/aerogel.png",
+    icon = "__pyhightechgraphics__/graphics/technology/aerogel.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"advanced-electronics"},

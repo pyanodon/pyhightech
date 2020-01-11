@@ -17,7 +17,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "chloromethane",
-    icon = "__pyhightech__/graphics/icons/chloromethane.png",
+    icon = "__pyhightechgraphics__/graphics/icons/chloromethane.png",
 	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.321, g = 0.549, b = 0.321},

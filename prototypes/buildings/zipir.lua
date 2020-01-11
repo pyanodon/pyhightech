@@ -1,6 +1,6 @@
 -- local pipe = {
 --     south = {
---         filename = "__pyhightech__/graphics/entity/zipir/bot.png",
+--         filename = "__pyhightechgraphics__/graphics/entity/zipir/bot.png",
 --         priority = "extra-high",
 --         width = 305,
 --         height = 290
@@ -27,7 +27,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "zipir",
-    icon = "__pyhightech__/graphics/icons/zipir.png",
+    icon = "__pyhightechgraphics__/graphics/icons/zipir.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -39,7 +39,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "zipir",
-    icon = "__pyhightech__/graphics/icons/zipir.png",
+    icon = "__pyhightechgraphics__/graphics/icons/zipir.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "zipir"},
@@ -64,7 +64,7 @@ ENTITY {
     energy_usage = "600kW",
     ingredient_count = 20,
     animation = {
-        filename = "__pyhightech__/graphics/entity/zipir/off.png",
+        filename = "__pyhightechgraphics__/graphics/entity/zipir/off.png",
         width = 305,
         height = 290,
         frame_count = 1,
@@ -78,7 +78,7 @@ ENTITY {
             south_position = util.by_pixel(-112.5, -50),
             east_position = util.by_pixel(-112.5, -50),
             animation = {
-                filename = "__pyhightech__/graphics/entity/zipir/a.png",
+                filename = "__pyhightechgraphics__/graphics/entity/zipir/a.png",
                 frame_count = 255,
                 line_length = 32,
                 width = 64,
@@ -93,7 +93,7 @@ ENTITY {
             south_position = util.by_pixel(-112.5, -50),
             east_position = util.by_pixel(-112.5, -50),
             animation = {
-                filename = "__pyhightech__/graphics/entity/zipir/b.png",
+                filename = "__pyhightechgraphics__/graphics/entity/zipir/b.png",
                 frame_count = 255,
                 line_length = 32,
                 width = 64,
@@ -108,7 +108,7 @@ ENTITY {
             south_position = util.by_pixel(-112.5, -50),
             east_position = util.by_pixel(-112.5, -50),
             animation = {
-                filename = "__pyhightech__/graphics/entity/zipir/c.png",
+                filename = "__pyhightechgraphics__/graphics/entity/zipir/c.png",
                 frame_count = 255,
                 line_length = 32,
                 width = 64,
@@ -123,7 +123,7 @@ ENTITY {
             south_position = util.by_pixel(-112.5, -50),
             east_position = util.by_pixel(-112.5, -50),
             animation = {
-                filename = "__pyhightech__/graphics/entity/zipir/d.png",
+                filename = "__pyhightechgraphics__/graphics/entity/zipir/d.png",
                 frame_count = 255,
                 line_length = 32,
                 width = 64,
@@ -138,7 +138,7 @@ ENTITY {
             south_position = util.by_pixel(-112.5, -50),
             east_position = util.by_pixel(-112.5, -50),
             animation = {
-                filename = "__pyhightech__/graphics/entity/zipir/e.png",
+                filename = "__pyhightechgraphics__/graphics/entity/zipir/e.png",
                 frame_count = 255,
                 line_length = 32,
                 width = 13,
@@ -184,8 +184,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/zipir.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/zipir.ogg", volume = 0.9},
+        sound = {filename = "__pyhightechgraphics__/sounds/zipir.ogg", volume = 1.5},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/zipir.ogg", volume = 0.9},
         apparent_volume = 2.5
     }
 }

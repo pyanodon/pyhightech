@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "chipshooter-mk01",
-    icon = "__pyhightech__/graphics/icons/chipshooter-mk01.png",
+    icon = "__pyhightechgraphics__/graphics/icons/chipshooter-mk01.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings-mk01",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "chipshooter-mk01",
-    icon = "__pyhightech__/graphics/icons/chipshooter-mk01.png",
+    icon = "__pyhightechgraphics__/graphics/icons/chipshooter-mk01.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "chipshooter-mk01"},
@@ -57,7 +57,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/chipshooter/1.png",
+                filename = "__pyhightechgraphics__/graphics/entity/chipshooter/1.png",
                 width = 64,
                 height = 288,
                 line_length = 32,
@@ -66,7 +66,7 @@ ENTITY {
                 shift = util.by_pixel(-53, -64)
             },
             {
-                filename = "__pyhightech__/graphics/entity/chipshooter/1-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/chipshooter/1-mask.png",
                 width = 64,
                 height = 288,
                 line_length = 32,
@@ -76,7 +76,7 @@ ENTITY {
                 tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/chipshooter/2.png",
+                filename = "__pyhightechgraphics__/graphics/entity/chipshooter/2.png",
                 width = 64,
                 height = 288,
                 line_length = 32,
@@ -85,7 +85,7 @@ ENTITY {
                 shift = util.by_pixel(11, -64)
             },
             {
-                filename = "__pyhightech__/graphics/entity/chipshooter/2-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/chipshooter/2-mask.png",
                 width = 64,
                 height = 288,
                 line_length = 32,
@@ -95,7 +95,7 @@ ENTITY {
                 tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/chipshooter/3.png",
+                filename = "__pyhightechgraphics__/graphics/entity/chipshooter/3.png",
                 width = 36,
                 height = 288,
                 line_length = 32,
@@ -104,7 +104,7 @@ ENTITY {
                 shift = util.by_pixel(61, -64)
             },
             {
-                filename = "__pyhightech__/graphics/entity/chipshooter/3-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/chipshooter/3-mask.png",
                 width = 36,
                 height = 288,
                 line_length = 32,
@@ -114,7 +114,7 @@ ENTITY {
                 tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/chipshooter/shadow.png",
+                filename = "__pyhightechgraphics__/graphics/entity/chipshooter/shadow.png",
                 width = 105,
                 height = 161,
                 line_length = 19,
@@ -127,8 +127,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/chipshooter.ogg", volume = 0.9},
-        idle_sound = {filename = "__pyhightech__/sounds/chipshooter.ogg", volume = 0.5},
+        sound = {filename = "__pyhightechgraphics__/sounds/chipshooter.ogg", volume = 0.9},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/chipshooter.ogg", volume = 0.5},
         apparent_volume = 2.5
     }
 }

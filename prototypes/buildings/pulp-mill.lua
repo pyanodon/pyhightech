@@ -1,6 +1,6 @@
 local pipe_left = {
     south = {
-        filename = "__pyhightech__/graphics/entity/pulp-mill/bottom-left.png",
+        filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/bottom-left.png",
         priority = "low",
         width = 160,
         height = 248
@@ -9,7 +9,7 @@ local pipe_left = {
 
 local pipe_right = {
     south = {
-        filename = "__pyhightech__/graphics/entity/pulp-mill/bottom-right.png",
+        filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/bottom-right.png",
         priority = "low",
         width = 160,
         height = 248
@@ -36,7 +36,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "pulp-mill",
-    icon = "__pyhightech__/graphics/icons/pulp-mill.png",
+    icon = "__pyhightechgraphics__/graphics/icons/pulp-mill.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -48,7 +48,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "pulp-mill",
-    icon = "__pyhightech__/graphics/icons/pulp-mill.png",
+    icon = "__pyhightechgraphics__/graphics/icons/pulp-mill.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pulp-mill"},
@@ -75,7 +75,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/pulp-mill/pulp-mill.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/pulp-mill.png",
                 --priority = "high",
                 width = 160,
                 height = 248,
@@ -85,7 +85,7 @@ ENTITY {
                 shift = util.by_pixel(0, -36)
             },
             {
-                filename = "__pyhightech__/graphics/entity/pulp-mill/shadow.png",
+                filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/shadow.png",
                 --priority = "high",
                 width = 173,
                 height = 168,
@@ -163,8 +163,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/pulp-mill.ogg", volume = 0.8},
-        idle_sound = {filename = "__pyhightech__/sounds/pulp-mill.ogg", volume = 0.6},
+        sound = {filename = "__pyhightechgraphics__/sounds/pulp-mill.ogg", volume = 0.8},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/pulp-mill.ogg", volume = 0.6},
         apparent_volume = 2.5
     }
 }

@@ -16,7 +16,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "ralesia-extract",
-    icon = "__pyhightech__/graphics/icons/ralesia-extract.png",
+    icon = "__pyhightechgraphics__/graphics/icons/ralesia-extract.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.903, g = 0.664, b = 0.18},

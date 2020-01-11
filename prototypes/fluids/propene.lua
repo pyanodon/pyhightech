@@ -19,7 +19,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "propene",
-    icon = "__pyhightech__/graphics/icons/propene.png",
+    icon = "__pyhightechgraphics__/graphics/icons/propene.png",
 	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.572, g = 0.435, b = 0.666},

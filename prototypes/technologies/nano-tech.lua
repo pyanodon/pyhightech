@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = 'technology',
     name = 'nano-tech',
-    icon = '__pyhightech__/graphics/technology/nano-tech.png',
+    icon = '__pyhightechgraphics__/graphics/technology/nano-tech.png',
     icon_size = 128,
     order = 'c-a',
     prerequisites = {"graphene"},

@@ -18,7 +18,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "msa",
-    icon = "__pyhightech__/graphics/icons/msa.png",
+    icon = "__pyhightechgraphics__/graphics/icons/msa.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.509, g = 0.062, b = 0.0},

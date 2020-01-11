@@ -16,7 +16,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "auog-paddock",
-    icon = "__pyhightech__/graphics/icons/auog-paddock.png",
+    icon = "__pyhightechgraphics__/graphics/icons/auog-paddock.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -28,7 +28,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "auog-paddock",
-    icon = "__pyhightech__/graphics/icons/auog-paddock.png",
+    icon = "__pyhightechgraphics__/graphics/icons/auog-paddock.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "auog-paddock"},
@@ -55,7 +55,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/auog-paddock/left.png",
+                filename = "__pyhightechgraphics__/graphics/entity/auog-paddock/left.png",
                 width = 128,
                 height = 256,
                 line_length = 16,
@@ -64,7 +64,7 @@ ENTITY {
                 shift = util.by_pixel(-64, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/auog-paddock/right.png",
+                filename = "__pyhightechgraphics__/graphics/entity/auog-paddock/right.png",
                 width = 128,
                 height = 256,
                 line_length = 16,
@@ -76,8 +76,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/auog-paddock.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/auog-paddock.ogg", volume = 1.1},
+        sound = {filename = "__pyhightechgraphics__/sounds/auog-paddock.ogg", volume = 1.5},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/auog-paddock.ogg", volume = 1.1},
         apparent_volume = 2.5
     }
 }

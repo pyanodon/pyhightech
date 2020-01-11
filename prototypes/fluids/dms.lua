@@ -21,7 +21,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "dms",
-    icon = "__pyhightech__/graphics/icons/dms.png",
+    icon = "__pyhightechgraphics__/graphics/icons/dms.png",
 	icon_size = 32,
     default_temperature = 15,
     base_color = {r = 0.913, g = 0.878, b = 0.0},

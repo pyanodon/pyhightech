@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "semiconductor-doping",
-    icon = "__pyhightech__/graphics/technology/semiconductor-doping.png",
+    icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"rare-earth-tech"},

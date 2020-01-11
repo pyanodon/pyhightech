@@ -17,7 +17,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "moondrop-greenhouse-mk02",
-    icon = "__pyhightech__/graphics/icons/moondrop-greenhouse-mk02.png",
+    icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk02.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -29,7 +29,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk02",
-    icon = "__pyhightech__/graphics/icons/moondrop-greenhouse-mk02.png",
+    icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk02.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "moondrop-greenhouse-mk02"},
@@ -56,7 +56,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/moon-left.png",
+                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-left.png",
                 width = 144,
                 height = 288,
                 line_length = 10,
@@ -65,7 +65,7 @@ ENTITY {
                 shift = util.by_pixel(-72, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/moon-left-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-left-mask.png",
                 width = 144,
                 height = 288,
                 line_length = 10,
@@ -75,7 +75,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/moon-right.png",
+                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-right.png",
                 width = 144,
                 height = 288,
                 line_length = 10,
@@ -84,7 +84,7 @@ ENTITY {
                 shift = util.by_pixel(72, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/moon-right-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-right-mask.png",
                 width = 144,
                 height = 288,
                 line_length = 10,
@@ -94,7 +94,7 @@ ENTITY {
                 tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/s-left.png",
+                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/s-left.png",
                 width = 160,
                 height = 299,
                 line_length = 10,
@@ -104,7 +104,7 @@ ENTITY {
                 shift = util.by_pixel(-60, 20)
             },
             {
-                filename = "__pyhightech__/graphics/entity/moondrop-greenhouse/s-right.png",
+                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/s-right.png",
                 width = 160,
                 height = 299,
                 line_length = 10,
@@ -151,8 +151,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/moondrop-greenhouse.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/moondrop-greenhouse.ogg", volume = 0.7},
+        sound = {filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 1.5},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

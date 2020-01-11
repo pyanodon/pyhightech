@@ -15,7 +15,7 @@ DATA {
     type = "resource",
     name = "rare-earth-bolide",
     category = "rare-earth",
-    icon = "__pyhightech__/graphics/icons/ores/rare-earth-bolide.png",
+    icon = "__pyhightechgraphics__/graphics/icons/ores/rare-earth-bolide.png",
 	icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -55,7 +55,7 @@ DATA {
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyhightech__/graphics/entity/ores/rare-earth-bolide.png",
+            filename = "__pyhightechgraphics__/graphics/entity/ores/rare-earth-bolide.png",
             priority = "extra-high",
             width = 256,
             height = 256,

@@ -17,7 +17,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "acetic-acid",
-    icon = "__pyhightech__/graphics/icons/acetic-acid.png",
+    icon = "__pyhightechgraphics__/graphics/icons/acetic-acid.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.588, g = 0.274, b = 0.423},

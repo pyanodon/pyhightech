@@ -21,7 +21,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "quantum-computer",
-    icon = "__pyhightech__/graphics/icons/quantum-computer.png",
+    icon = "__pyhightechgraphics__/graphics/icons/quantum-computer.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -33,7 +33,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "quantum-computer",
-    icon = "__pyhightech__/graphics/icons/quantum-computer.png",
+    icon = "__pyhightechgraphics__/graphics/icons/quantum-computer.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "quantum-computer"},
@@ -60,7 +60,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/quantum-computer/off.png",
+                filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/off.png",
                 --priority = "high",
                 width = 384,
                 height = 384,
@@ -70,7 +70,7 @@ ENTITY {
                 shift = util.by_pixel(0, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/quantum-computer/shadow.png",
+                filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/shadow.png",
                 --priority = "high",
                 width = 384,
                 height = 384,
@@ -89,7 +89,7 @@ ENTITY {
             south_position = util.by_pixel(0, 0),
             east_position = util.by_pixel(0, 0),
             animation = {
-                filename = "__pyhightech__/graphics/entity/quantum-computer/on.png",
+                filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/on.png",
                 --priority = "low",
                 frame_count = 20,
                 line_length = 5,
@@ -121,8 +121,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/quantum-computer.ogg", volume = 1.4},
-        idle_sound = {filename = "__pyhightech__/sounds/quantum-computer.ogg", volume = 1.0},
+        sound = {filename = "__pyhightechgraphics__/sounds/quantum-computer.ogg", volume = 1.4},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/quantum-computer.ogg", volume = 1.0},
         apparent_volume = 2.5
     }
 }

@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "phosphate-mine",
-    icon = "__pyhightech__/graphics/icons/phosphate-mine.png",
+    icon = "__pyhightechgraphics__/graphics/icons/phosphate-mine.png",
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "phosphate-mine",
-    icon = "__pyhightech__/graphics/icons/phosphate-mine.png",
+    icon = "__pyhightechgraphics__/graphics/icons/phosphate-mine.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "phosphate-mine"},
@@ -87,7 +87,7 @@ ENTITY {
     animations = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/phosphate-mine/phosphate-left.png",
+                filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/phosphate-left.png",
                 width = 144,
                 height = 288,
                 line_length = 14,
@@ -96,7 +96,7 @@ ENTITY {
                 shift = util.by_pixel(-72, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/phosphate-mine/phosphate-right.png",
+                filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/phosphate-right.png",
                 width = 144,
                 height = 288,
                 line_length = 14,
@@ -105,7 +105,7 @@ ENTITY {
                 shift = util.by_pixel(72, 0)
             },
             {
-                filename = "__pyhightech__/graphics/entity/phosphate-mine/shadow-left.png",
+                filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/shadow-left.png",
                 priority = "extra-high",
                 width = 160,
                 height = 284,
@@ -115,7 +115,7 @@ ENTITY {
                 shift = util.by_pixel(-70, 6)
             },
             {
-                filename = "__pyhightech__/graphics/entity/phosphate-mine/shadow-right.png",
+                filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/shadow-right.png",
                 priority = "extra-high",
                 width = 142,
                 height = 284,
@@ -128,8 +128,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/phosphate-mine.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyhightech__/sounds/phosphate-mine.ogg", volume = 0.7},
+        sound = {filename = "__pyhightechgraphics__/sounds/phosphate-mine.ogg", volume = 1.0},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/phosphate-mine.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

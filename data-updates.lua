@@ -112,7 +112,7 @@ TECHNOLOGY('fusion-reactor-equipment'):remove_prereq('utility-science-pack'):add
 TECHNOLOGY('personal-roboport-mk2-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
 
 
-ITEM('utility-science-pack', 'tool'):set_field('icon', '__pyhightech__/graphics/icons/high-tech-science-pack.png')
+ITEM('utility-science-pack', 'tool'):set_field('icon', '__pyhightechgraphics__/graphics/icons/high-tech-science-pack.png')
 
 --recipe updates
 RECIPE("ree-float"):replace_result('iron-ore', 'zinc-plate')

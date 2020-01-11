@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "particle-accelerator-mk01",
-    icon = "__pyhightech__/graphics/icons/particle-accelerator-mk01.png",
+    icon = "__pyhightechgraphics__/graphics/icons/particle-accelerator-mk01.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings-mk01",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "particle-accelerator-mk01",
-    icon = "__pyhightech__/graphics/icons/particle-accelerator-mk01.png",
+    icon = "__pyhightechgraphics__/graphics/icons/particle-accelerator-mk01.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "particle-accelerator-mk01"},
@@ -57,14 +57,14 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/particle-accelerator/off.png",
+                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/off.png",
                 width = 384,
                 height = 415,
                 frame_count = 1,
                 shift = util.by_pixel(-1, -16)
             },
             {
-                filename = "__pyhightech__/graphics/entity/particle-accelerator/off-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/off-mask.png",
                 width = 384,
                 height = 415,
                 frame_count = 1,
@@ -72,7 +72,7 @@ ENTITY {
                 tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
             },
             {
-                filename = "__pyhightech__/graphics/entity/particle-accelerator/shadow.png",
+                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/shadow.png",
                 width = 426,
                 height = 366,
                 frame_count = 1,
@@ -88,7 +88,7 @@ ENTITY {
             south_position = util.by_pixel(0, 0),
             east_position = util.by_pixel(0, 0),
             animation = {
-                filename = "__pyhightech__/graphics/entity/particle-accelerator/left.png",
+                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/left.png",
                 --priority = "low",
                 frame_count = 30,
                 line_length = 10,
@@ -104,7 +104,7 @@ ENTITY {
             south_position = util.by_pixel(0, 0),
             east_position = util.by_pixel(0, 0),
             animation = {
-                filename = "__pyhightech__/graphics/entity/particle-accelerator/left-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/left-mask.png",
                 --priority = "low",
                 frame_count = 30,
                 line_length = 10,
@@ -121,7 +121,7 @@ ENTITY {
             south_position = util.by_pixel(0, 0),
             east_position = util.by_pixel(0, 0),
             animation = {
-                filename = "__pyhightech__/graphics/entity/particle-accelerator/right.png",
+                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/right.png",
                 --priority = "low",
                 frame_count = 30,
                 line_length = 10,
@@ -137,7 +137,7 @@ ENTITY {
             south_position = util.by_pixel(0, 0),
             east_position = util.by_pixel(0, 0),
             animation = {
-                filename = "__pyhightech__/graphics/entity/particle-accelerator/right-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/right-mask.png",
                 --priority = "low",
                 frame_count = 30,
                 line_length = 10,
@@ -193,8 +193,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/particle-accelerator.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/particle-accelerator.ogg", volume = 0.7},
+        sound = {filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 1.5},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 0.7},
         apparent_volume = 2.5
     }
 }

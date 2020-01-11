@@ -15,7 +15,7 @@ local blackholemods = {
     {'coal-dust', 5}
 }
 
-local defaultfuelcount = 40 -- 100KJ per unit times 30 = 3MJ
+local defaultfuelcount = 1 -- 100KJ per unit times 30 = 3MJ
 --creating all the hidden recipes for each item to be converted to blackhole fuel
 for i, item in pairs(data.raw.item) do
     local fuelcount = defaultfuelcount
@@ -34,17 +34,17 @@ for i, item in pairs(data.raw.item) do
             },
             main_product = 'blackhole-fuel',
             hidden = true,
-            hidden_from_flow_stats = true
+            hidden_from_flow_stats = false
         }
     end
 end
 
-for _, name in pairs(blackholemods) do
-    --log(name)
-    if data.raw.item[name] ~= nil then
-        data.raw.recipe['blackhole-fuel-' .. name[1]].results[1].amount = name[2]
-    end
-end
+--for _, name in pairs(blackholemods) do
+--    --log(name)
+--    if data.raw.item[name] ~= nil then
+--        data.raw.recipe['blackhole-fuel-' .. name[1]].results[1].amount = name[2]
+--    end
+--end
 
 local ell = require('prototypes/functions/effectivity-modules')
 

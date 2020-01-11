@@ -18,7 +18,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "ree-slurry",
-    icon = "__pyhightech__/graphics/icons/rare-earth-slurry.png",
+    icon = "__pyhightechgraphics__/graphics/icons/rare-earth-slurry.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.027, g = 0.396, b = 0.384},

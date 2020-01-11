@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "penrose",
-    icon = "__pyhightech__/graphics/technology/penrose.png",
+    icon = "__pyhightechgraphics__/graphics/technology/penrose.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nano-tech","earnshaw-theorem"},

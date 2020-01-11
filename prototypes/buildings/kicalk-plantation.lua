@@ -1,6 +1,6 @@
 local pipe = {
     south = {
-        filename = "__pyhightech__/graphics/entity/kicalk-plantation/bottom.png",
+        filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/bottom.png",
         priority = "extra-high",
         width = 229,
         height = 235,
@@ -26,7 +26,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "kicalk-plantation",
-    icon = "__pyhightech__/graphics/icons/kicalk-plantation.png",
+    icon = "__pyhightechgraphics__/graphics/icons/kicalk-plantation.png",
     icon_size = 32,
     flags = {},
     subgroup = "py-hightech-buildings",
@@ -38,7 +38,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "kicalk-plantation",
-    icon = "__pyhightech__/graphics/icons/kicalk-plantation.png",
+    icon = "__pyhightechgraphics__/graphics/icons/kicalk-plantation.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "kicalk-plantation"},
@@ -65,7 +65,7 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightech__/graphics/entity/kicalk-plantation/kicalk-plantation.png",
+                filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/kicalk-plantation.png",
 				priority = "extra-high",
                 width = 229,
                 height = 235,
@@ -75,7 +75,7 @@ ENTITY {
                 shift = util.by_pixel(0, -5),
             },
             {
-                filename = "__pyhightech__/graphics/entity/kicalk-plantation/shadow.png",
+                filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/shadow.png",
 				priority = "extra-high",
                 width = 253,
                 height = 242,
@@ -123,8 +123,8 @@ ENTITY {
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
     working_sound = {
-        sound = {filename = "__pyhightech__/sounds/kicalk-plantation.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightech__/sounds/kicalk-plantation.ogg", volume = 0.9},
+        sound = {filename = "__pyhightechgraphics__/sounds/kicalk-plantation.ogg", volume = 1.5},
+        idle_sound = {filename = "__pyhightechgraphics__/sounds/kicalk-plantation.ogg", volume = 0.9},
         apparent_volume = 2.5
     }
 }

@@ -19,7 +19,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "cumene",
-    icon = "__pyhightech__/graphics/icons/cumene.png",
+    icon = "__pyhightechgraphics__/graphics/icons/cumene.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.00, g = 0.0, b = 0.0},

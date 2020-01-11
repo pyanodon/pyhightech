@@ -17,7 +17,7 @@ RECIPE {
 FLUID {
     type = "fluid",
     name = "nitrobenzene",
-    icon = "__pyhightech__/graphics/icons/nitrobenzene.png",
+    icon = "__pyhightechgraphics__/graphics/icons/nitrobenzene.png",
 	icon_size = 32,
     default_temperature = 10,
     base_color = {r = 0.549, g = 0.384, b = 0.223},
