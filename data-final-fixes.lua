@@ -39,12 +39,12 @@ for i, item in pairs(data.raw.item) do
     end
 end
 
---for _, name in pairs(blackholemods) do
---    --log(name)
---    if data.raw.item[name] ~= nil then
---        data.raw.recipe['blackhole-fuel-' .. name[1]].results[1].amount = name[2]
---    end
---end
+for _, name in pairs(blackholemods) do
+    --log(name)
+    if data.raw.item[name] ~= nil then
+        data.raw.recipe['blackhole-fuel-' .. name[1]].results[1].amount = name[2]
+    end
+end
 
 local ell = require('prototypes/functions/effectivity-modules')
 
