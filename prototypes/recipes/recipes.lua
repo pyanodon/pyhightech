@@ -2601,26 +2601,6 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
-    name = 'laser-turret-desconstruction',
-    category = 'advanced-crafting',
-    enabled = false,
-    energy_required = 20,
-    ingredients = {
-        {type = 'item', name = 'laser-turret', amount = 3}
-    },
-    results = {
-        {type = 'item', name = 'iron-plate', amount = 15},
-        {type = 'item', name = 'steel-plate', amount = 60},
-        {type = 'item', name = 'lens', amount = 3},
-        {type = 'item', name = 'battery', amount = 30},
-        {type = 'item', name = 'electronic-circuit', amount = 40},
-        {type = 'item', name = 'laser-module', amount = 1}
-    },
-    main_product = 'laser-module'
-}:add_unlock('nano-tech')
-
-RECIPE {
-    type = 'recipe',
     name = 'laser-module-alt',
     category = 'advanced-crafting',
     enabled = false,
