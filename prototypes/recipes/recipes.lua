@@ -2433,7 +2433,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'item', name = 'skin', amount = 25},
+        {type = 'item', name = 'skin', amount = 10},
         {type = 'item', name = 'urea', amount = 5},
         {type = 'fluid', name = 'acetic-acid', amount = 50},
         {type = 'fluid', name = 'steam', amount = 500, temperature = 165}
