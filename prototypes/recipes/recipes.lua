@@ -2342,7 +2342,7 @@ RECIPE {
         {type = 'item', name = 'skin', amount = 5}
     },
     results = {
-        {type = 'fluid', name = 'glycerol', amount = 30}
+        {type = 'fluid', name = 'glycerol', amount = 50}
     }
 }:add_unlock('advanced-electronics'):change_category('mixer')
 
