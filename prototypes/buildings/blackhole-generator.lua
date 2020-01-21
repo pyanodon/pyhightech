@@ -31,7 +31,7 @@ ITEM {
 }
 
 ENTITY {
-    type = "generator",
+    type = "burner-generator",
     name = "blackhole",
     icon = "__pyhightechgraphics__/graphics/icons/blackhole-generator.png",
 	icon_size = 32,
@@ -58,7 +58,7 @@ ENTITY {
 		},
 	effectivity = 2,
 	max_power_output = "150MW",
-	horizontal_animation =
+	animation =
     {
       layers =
       {
@@ -94,12 +94,6 @@ ENTITY {
           line_length = 20,
           shift = util.by_pixel(160, -54),
         },
-      }
-    },
-    vertical_animation =
-    {
-      layers =
-      {
         {
           filename = "__pyhightechgraphics__/graphics/entity/blackhole-generator/a1.png",
           width = 96,
