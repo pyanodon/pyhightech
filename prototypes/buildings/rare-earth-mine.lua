@@ -7,7 +7,7 @@ RECIPE {
         {"soil-extractormk01", 2},
         {"distilator", 1},
         {"steel-plate", 60},
-        {"electric-engine-unit", 10},
+        {"engine-unit", 10},
 		{"fast-inserter", 4},
         {"electronic-circuit", 20}
     },
