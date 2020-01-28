@@ -236,6 +236,9 @@ ENTITY {
           scale = 0.5
         }
       },
-    working_sound = _G.flying_robot_sounds(),
+      working_sound =
+      {
+        filename = '__base__/sound/flying-robot-1.ogg',
+      },
     cargo_centered = {0.0, 0.2},
   }
