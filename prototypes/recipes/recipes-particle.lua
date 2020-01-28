@@ -15,10 +15,10 @@ RECIPE {
     main_product = "sulfur",
     icons =
 		{
-			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
+			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", scale = 2},
 			{icon = "__base__/graphics/icons/sulfur.png", scale = 0.5}
 		},
-	icon_size = 64,
+	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
 }:add_unlock("nucleo")
