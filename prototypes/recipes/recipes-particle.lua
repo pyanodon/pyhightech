@@ -18,7 +18,7 @@ RECIPE {
 			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
 			{icon = "__base__/graphics/icons/sulfur.png", scale = 0.5}
 		},
-	icon_size = 32,
+	icon_size = 64,
     subgroup = "py-hightech-recipes",
     order = "f"
 }:add_unlock("nucleo")
