@@ -2154,7 +2154,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'organic-solvent2',
-    category = 'oil-processing',
+    category = 'chemistry',
     enabled = false,
     energy_required = 8,
     ingredients = {
