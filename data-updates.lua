@@ -129,12 +129,11 @@ RECIPE("effectivity-module-3"):replace_ingredient("processing-unit", "intelligen
 
 RECIPE("pa-niobium"):replace_ingredient("chromium", "nickel-plate")
 
-local default = setmetatable({}, require("__stdlib__/stdlib/utils/classes/string_array"))
 for _, player in DATA:pairs('character') do
-    player.crafting_categories = player:get_field('crafting_categories', default) + 'handcrafting'
+    player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'
 end
 for _, controller in DATA:pairs('god-controller') do
-    controller.crafting_categories = controller:get_field('crafting_categories', default) + 'handcrafting'
+    controller.crafting_categories = controller.String_Array(controller.crafting_categories or {}) + 'handcrafting'
 end
 
 local recipes_list =
