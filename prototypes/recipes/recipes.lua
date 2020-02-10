@@ -649,7 +649,7 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'light-n', amount = 10},
         {type = 'item', name = 'p-dope', amount = 10},
-        {type = 'item', name = 'plastic-bar', amount = 5},
+        {type = 'item', name = 'plastic-bar', amount = 6},
         {type = 'item', name = 'cermet', amount = 5},
         {type = 'item', name = 'copper-cable', amount = 10}
     },
@@ -1192,7 +1192,7 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'diode-core', amount = 1},
         {type = 'item', name = 'epoxy', amount = 1},
-        {type = 'item', name = 'plastic-bar', amount = 1}
+        {type = 'item', name = 'plastic-bar', amount = 3}
     },
     results = {
         {type = 'item', name = 'diode3', amount = 1}
@@ -1358,7 +1358,7 @@ RECIPE {
         {type = 'item', name = 'silica-powder', amount = 5},
         {type = 'item', name = 'sulfur', amount = 3},
         {type = 'item', name = 'niobium-plate', amount = 2},
-        {type = 'item', name = 'plastic-bar', amount = 1},
+        {type = 'item', name = 'plastic-bar', amount = 20},
     },
     results = {
         {type = 'item', name = 'colloidal-silica', amount = 2}
@@ -2589,7 +2589,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'lithium-chloride', amount = 6},
-        {type = 'item', name = 'plastic-bar', amount = 5},
+        {type = 'item', name = 'plastic-bar', amount = 30},
         {type = 'item', name = 'aerogel', amount = 3},
         {type = 'item', name = 'graphene-roll', amount = 2},
         {type = 'item', name = 'vanadium-oxide', amount = 3},
@@ -2609,7 +2609,7 @@ RECIPE {
         {type = 'item', name = 'lens', amount = 5},
         {type = 'item', name = 'battery', amount = 5},
         {type = 'item', name = 'advanced-circuit', amount = 5},
-        {type = 'item', name = 'plastic-bar', amount = 10},
+        {type = 'item', name = 'plastic-bar', amount = 12},
     },
     results = {
         {type = 'item', name = 'laser-module', amount = 1}
@@ -2949,7 +2949,7 @@ RECIPE {
         {type = 'item', name = 'heavy-fermion', amount = 3},
         {type = 'item', name = 'copper-plate', amount = 5},
         {type = 'item', name = 'sc-unit', amount = 1},
-        {type = 'item', name = 'plastic-bar', amount = 1}
+        {type = 'item', name = 'plastic-bar', amount = 20}
     },
     results = {
         {type = 'item', name = 'bose-einstein-superfluid', amount = 1}
