@@ -432,14 +432,14 @@ RECIPE {
     name = 'tall-oil-separation',
     category = 'fluid-separator',
     enabled = false,
-    energy_required = 10,
+    energy_required = 5,
     ingredients = {
         {type = 'fluid', name = 'tall-oil', amount = 10},
         {type = 'fluid', name = 'light-oil', amount = 20}
     },
     results = {
         {type = 'fluid', name = 'light-oil', amount = 30},
-        {type = 'fluid', name = 'benzene', amount = 20},
+        {type = 'fluid', name = 'benzene', amount = 10},
         {type = 'fluid', name = 'aromatics', amount = 10}
     },
     --main_product = "benzene",
