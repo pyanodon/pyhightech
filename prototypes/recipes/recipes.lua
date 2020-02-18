@@ -3340,6 +3340,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'methane-combustion',
+    localised_name = {"recipe-name.combustion-mixture", {"fluid-name.methane"}, 550},
     category = 'combustion',
     enabled = 'false',
     energy_required = 3,
@@ -3397,6 +3398,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'benzene-combustion',
+    localised_name = {"recipe-name.combustion-mixture", {"fluid-name.benzene"}, 520},
     category = 'combustion',
     enabled = 'false',
     energy_required = 3,
@@ -3454,6 +3456,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'tall-oil-combustion',
+    localised_name = {"recipe-name.combustion-mixture", {"fluid-name.tall-oil"}, 600},
     category = 'combustion',
     enabled = 'false',
     energy_required = 3,
