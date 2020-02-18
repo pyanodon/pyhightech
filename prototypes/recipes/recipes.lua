@@ -2682,6 +2682,7 @@ RECIPE {
         {type = 'item', name = 'kevlar', amount = 10},
         {type = 'item', name = 'volumetric-capacitor', amount = 1},
         {type = 'item', name = 'nems', amount = 1},
+        {type = 'item', name = 'superconductor-servomechanims', amount = 1},
         {type = 'item', name = 'hyperelastic-material', amount = 1},
         {type = 'item', name = 'nano-wires', amount = 3}
     },
