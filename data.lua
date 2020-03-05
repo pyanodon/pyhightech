@@ -3,6 +3,7 @@ require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 require("prototypes/item-groups")
 require("prototypes/recipe-categories")
 
+require("prototypes/pipes/ht-pipes")
 require("prototypes/technologies/basic-electronics")
 require("prototypes/technologies/advanced-electronics")
 require("prototypes/technologies/semiconductor-doping")
