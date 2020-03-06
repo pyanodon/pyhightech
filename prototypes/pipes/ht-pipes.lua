@@ -5,8 +5,8 @@ local function py_pipepictures()
         straight_vertical_single = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-straight-vertical-single.png",
             priority = "extra-high",
-            width = 160,
-            height = 160,
+            width = 128,
+            height = 128,
             scale = 0.5
         },
         straight_vertical = {
@@ -24,7 +24,7 @@ local function py_pipepictures()
             scale = 0.5
         },
         straight_horizontal_window = {
-            filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-straight-horizontal.png",
+            filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-straight-horizontal-window.png",
             priority = "extra-high",
             width = 128,
             height = 128,
@@ -361,7 +361,7 @@ ENTITY {
         priority = "extra-high-no-scale",
         width = 128,
         height = 128,
-        scale = 0.5
+        scale = 1.0
     },
     pictures = {
         up = {
