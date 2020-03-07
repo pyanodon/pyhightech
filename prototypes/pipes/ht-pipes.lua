@@ -237,7 +237,7 @@ RECIPE {
     results = {
         {"ht-pipes", 3}
     }
-}:add_unlock("coal-processing-2"):replace_ingredient("copper-plate", "niobium-plate")
+}:add_unlock("coal-processing-3"):replace_ingredient("copper-plate", "niobium-plate")
 
 ITEM {
     type = "item",
@@ -263,7 +263,7 @@ RECIPE {
     results = {
         {"ht-pipes-to-ground", 2}
     }
-}:add_unlock("coal-processing-2")
+}:add_unlock("coal-processing-3")
 
 ITEM {
     type = "item",
