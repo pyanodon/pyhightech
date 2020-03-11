@@ -3320,7 +3320,7 @@ RECIPE {
         {type = 'fluid', name = 'refsyngas', amount = 100}
     },
     results = {
-        {type = 'fluid', name = 'acidgas', amount = 100}
+        {type = 'fluid', name = 'acidgas', amount = 150}
     }
 }:add_unlock('coal-processing-2'):change_category('gas-separator')
 
