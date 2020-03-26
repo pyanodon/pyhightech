@@ -41,7 +41,7 @@ RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semicond
 RECIPE('anthraquinone'):remove_unlock('fuel-production'):add_unlock('basic-electronics')
 RECIPE('hydrogen-peroxide'):remove_unlock('coal-processing-3'):add_unlock('basic-electronics')
 RECIPE('agitator-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
-RECIPE('agitator-mk01'):replace_ingredient('plastic-bar', 'melamine'):replace_ingredient('electric-engine-unit', 'engine-unit')
+RECIPE('agitator-mk01'):replace_ingredient('plastic-bar', 'melamine')
 RECIPE('mixer-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
 RECIPE('science-coating'):add_ingredient({type = 'item', name = 'nylon', amount = 5}):add_ingredient({type = 'item', name = 'zinc-acetate', amount = 15})
 RECIPE('bio-reactor'):add_ingredient({type = 'item', name = 'advanced-circuit', amount = 5})
