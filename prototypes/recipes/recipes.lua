@@ -799,7 +799,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'glass-fiber',
-    category = 'hpf',
+    category = 'glassworks',
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -992,7 +992,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'phosphate-glass',
-    category = 'advanced-foundry',
+    category = 'glassworks',
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1010,7 +1010,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'fiberglass',
-    category = 'pulp',
+    category = 'glassworks',
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1020,7 +1020,6 @@ RECIPE {
         {type = 'item', name = 'nylon', amount = 3},
         {type = 'item', name = 'fiberboard', amount = 2},
         {type = 'fluid', name = 'boric-acid', amount = 300},
-        {type = 'fluid', name = 'steam', amount = 100, temperature = 165},
         {type = 'fluid', name = 'tar', amount = 100}
     },
     results = {
