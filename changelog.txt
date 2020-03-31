@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.5
+Date: 2020-03-31
+  Changes:
+    - Changed rare earth extractor icon.
+    - Replace electric engine unit on agitators to engine units.
+    - Increased pollution absorption in organic buildings.
+    - Increased acid gas output.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.4
 Date: 2020-03-08
   Changes:
