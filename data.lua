@@ -143,3 +143,9 @@ require("prototypes/fluids/blood")
 require("prototypes/fluids/carbon-sulfide")
 require("prototypes/fluids/etching")
 require("prototypes/fluids/nitrobenzene")
+
+data.raw.fluid["benzene"].fuel_value = "1MJ"
+data.raw.fluid["ethylene"].fuel_value = "1MJ"
+data.raw.fluid["methane"].fuel_value = "0.8MJ"
+data.raw.fluid["propene"].fuel_value = "1MJ"
+data.raw.fluid["tall-oil"].fuel_value = "1MJ"
