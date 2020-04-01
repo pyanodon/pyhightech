@@ -1020,7 +1020,6 @@ RECIPE {
         {type = 'item', name = 'nylon', amount = 3},
         {type = 'item', name = 'fiberboard', amount = 2},
         {type = 'fluid', name = 'boric-acid', amount = 300},
-        {type = 'fluid', name = 'tar', amount = 100}
     },
     results = {
         {type = 'item', name = 'fiberglass', amount = 1}
