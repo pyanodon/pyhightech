@@ -10,7 +10,7 @@ RECIPE {
         {type = "item", name = "ground-sample01", amount = 8},
     },
     results = {
-        {type = "fluid", name = "bacteria-2", amount = 50}
+        {type = "fluid", name = "bacteria-2", amount = 100}
     },
     main_product = "bacteria-2",
 }:add_unlock("nano-tech")
