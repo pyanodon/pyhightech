@@ -134,5 +134,11 @@ data:extend {
         name = "py-hightech-aerogel",
         group = "py-hightech",
         order = "ed"
-    }
+    },
+    {
+        type = "item-subgroup",
+        name = "pyht-pipes",
+        group = "py-hightech",
+        order = "c"
+    },
 }
