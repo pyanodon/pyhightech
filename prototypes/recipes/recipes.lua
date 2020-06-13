@@ -3485,3 +3485,19 @@ RECIPE {
         {type = 'item', name = 'plastic-bar', amount = 5}
     }
 }:add_unlock('basic-electronics')
+
+RECIPE {
+    type = 'recipe',
+    name = 'propene-to-acetone',
+    category = 'fbreactor',
+    enabled = false,
+    energy_required = 5,
+    ingredients = {
+        {type = 'fluid', name = 'propene', amount = 50},
+        {type = 'item', name = 'copper-plate', amount = 2},
+        {type = 'item', name = 'chromite-sand', amount = 5},
+    },
+    results = {
+        {type = 'fluid', name = 'acetone', amount = 50}
+    }
+}:add_unlock('basic-electronics'):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 100}):change_category("wet-scrubber")
