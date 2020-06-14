@@ -2776,7 +2776,7 @@ RECIPE {
     name = 'myoglobin',
     category = 'hydrocyclone',
     enabled = false,
-    energy_required = 8,
+    energy_required = 10,
     ingredients = {
         {type = 'item', name = 'meat', amount = 10},
         {type = 'item', name = 'urea', amount = 10},
@@ -2799,7 +2799,7 @@ RECIPE {
     enabled = false,
     energy_required = 12,
     ingredients = {
-        {type = 'item', name = 'myoglobin', amount = 10},
+        {type = 'item', name = 'myoglobin', amount = 4},
         {type = 'item', name = 'chromium', amount = 5},
         {type = 'item', name = 'iron-plate', amount = 5},
         {type = 'item', name = 'nylon', amount = 2},
