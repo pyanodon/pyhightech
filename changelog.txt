@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.0
+Date: ????
+  Changes:
+    - Added acetone recipe.
+    - Fixed typos.
+    - Fixed pipes subgroup bug.
+    - Added russian locale.
+    - Buff in bateria-2.
+---------------------------------------------------------------------------------------------------
 Version: 1.5.9
 Date: 2020-05-10
   Changes:
