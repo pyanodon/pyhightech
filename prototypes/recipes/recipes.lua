@@ -3073,7 +3073,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'critical-steam', amount = 20000, temperature = 5000},
         {type = 'fluid', name = 'helium', amount = 500},
-        {type = 'fluid', name = 'steam', amount = 5000}
+        {type = 'fluid', name = 'steam', amount = 5000, temperature = 60}
     },
     --main_product= "blanket",
     icon = '__pyhightechgraphics__/graphics/icons/fusion-antimatter.png',
@@ -3094,7 +3094,7 @@ RECIPE {
     },
     results = {
         {type = 'fluid', name = 'pressured-steam', amount = 1000, temperature = 5000},
-        {type = 'fluid', name = 'steam', amount = 400}
+        {type = 'fluid', name = 'steam', amount = 400, temperature = 60}
     },
     --main_product= "blanket",
     icon = '__pyhightechgraphics__/graphics/icons/steam-exchange5.png',
