@@ -83,7 +83,7 @@ RECIPE('thickener-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock(
 RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
 RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-circuit')
 RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
-RECIPE('kmauts-ration'):replace_ingredient('organics', 'skin')
+RECIPE('kmauts-ration')remove_ingredient("organics"):add_ingredient({type = "item", name = "skin", amount = 25})
 RECIPE('fawogae-plantation-mk03'):replace_ingredient('treated-wood', 'fiberboard')
 RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 RECIPE('kmauts-ration'):remove_ingredient("ralesia"):add_ingredient({type = "item", name = "blood-meal", amount = 5})
