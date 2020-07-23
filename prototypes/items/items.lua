@@ -287,7 +287,7 @@ ITEM {
     type = "item",
     name = "transistor",
     icon = "__pyhightechgraphics__/graphics/icons/transistor.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "d",
