@@ -16,12 +16,12 @@ Date: ????
     - Fixed typos.
     - Fixed pipes subgroup bug.
     - Added russian locale.
-    - Buff in bateria-2.
+    - Buff in bacteria-2.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.9
 Date: 2020-05-10
   Changes:
-    - Added subgroup for pyht pipes that was missing when pyindustries isnt loaded
+    - Added subgroup for pyHT pipes that was missing when pyindustries isnt loaded
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.8
 Date: 2020-04-02
@@ -54,7 +54,7 @@ Date: 2020-03-08
 Version: 1.5.3
 Date: 2020-02-28
   Changes:
-    - yelled at robots to use their inside voices
+    - Yelled at robots to use their inside voices
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.2
 Date: 2020-02-18
@@ -95,7 +95,7 @@ Version: 1.4.4
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.3
   Changes:
-    - Fixed allowed module typres in buildings
+    - Fixed allowed module types in buildings
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.2
   Changes:
@@ -177,16 +177,16 @@ Version: 1.2.3
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.1
   Balance:
-    - fixed bug when robots try to put the singularity.
-    - improved russian locale.
+    - Fixed bug when robots try to put the singularity.
+    - Improved russian locale.
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.1
   Balance:
-    - reduced production of the singularity.
+    - Reduced production of the singularity.
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
   Bug fix:
-    - matter source.
+    - Matter source.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.9
   ADDED:
@@ -202,21 +202,21 @@ Version: 1.1.7
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.6
   Balances:
-    - removed modules in laser-turret descontruction.
-    - moved DMS recipe to basic-electronics tech.
-    - make cadaveric arum buildable in basic electronics.
+    - Removed modules in laser-turret descontruction.
+    - Moved DMS recipe to basic-electronics tech.
+    - Make cadaveric arum buildable in basic electronics.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.5
   Balances:
-    - fixed recipes on claypit.
-    - fixed recipes on antimatter fusion reaction.
-    - fixed fuels.
+    - Fixed recipes on claypit.
+    - Fixed recipes on antimatter fusion reaction.
+    - Fixed fuels.
   Bugfixes:
-    - tried to make it run after the update.
+    - Tried to make it run after the update.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.3
   Balances:
-    - Speed up kikalks.
+    - Speed up kicalks.
     - Balanced Polution.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.2
