@@ -3501,3 +3501,23 @@ RECIPE {
         {type = 'fluid', name = 'acetone', amount = 50}
     }
 }:add_unlock('basic-electronics'):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 100}):change_category("wet-scrubber")
+
+RECIPE {
+    type = "recipe",
+    name = "rich-clay-2",
+    category = "crafting-with-fluid",
+    enabled = false,
+    energy_required = 6,
+    ingredients = {
+        {type = "item", name = "clay", amount = 20},
+        {type = "fluid", name = "dirty-water", amount = 100}
+    },
+    results = {
+        {type = "item", name = "rich-clay", amount = 10}
+    },
+    main_product = "rich-clay",
+    icon = "__pycoalprocessinggraphics__/graphics/icons/rich-clay.png",
+    icon_size = 32,
+    subgroup = "py-items",
+    order = "j"
+}:add_unlock("coal-processing-1")
