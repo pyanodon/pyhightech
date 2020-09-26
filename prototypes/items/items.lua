@@ -657,7 +657,7 @@ ITEM {
     type = "item",
     name = "processing-unit",
     icon = "__pyhightechgraphics__/graphics/icons/circuit-board-3.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "a",
