@@ -78,14 +78,14 @@ local function py_pipepictures()
             width = 128,
             height = 128,
             scale = 0.5
-         },
+        },
         t_right = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-t-right.png",
             priority = "extra-high",
             width = 128,
             height = 128,
             scale = 0.5
-          },
+        },
         t_left = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-t-left.png",
             priority = "extra-high",
@@ -132,46 +132,45 @@ local function py_pipepictures()
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
-            height = 32,
+            height = 32
         },
         vertical_window_background = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
-            height = 32,
+            height = 32
         },
         fluid_background = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
-            height = 32,
+            height = 32
         },
         low_temperature_flow = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
-            height = 32,
+            height = 32
         },
         middle_temperature_flow = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
-            height = 32,
+            height = 32
         },
         high_temperature_flow = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
-            height = 32,
+            height = 32
         },
         gas_flow = {
             filename = "__pyhightechgraphics__/graphics/icons/filler.png",
             priority = "extra-high",
             width = 32,
-            height = 32,
-        },
+            height = 32
+        }
     }
-
 end
 
 local function py_pipecoverspictures()
@@ -184,7 +183,7 @@ local function py_pipecoverspictures()
                     width = 128,
                     height = 128,
                     scale = 0.5
-                },
+                }
             }
         },
         east = {
@@ -195,7 +194,7 @@ local function py_pipecoverspictures()
                     width = 128,
                     height = 128,
                     scale = 0.5
-                },
+                }
             }
         },
         south = {
@@ -206,7 +205,7 @@ local function py_pipecoverspictures()
                     width = 128,
                     height = 128,
                     scale = 0.5
-                },
+                }
             }
         },
         west = {
@@ -217,11 +216,10 @@ local function py_pipecoverspictures()
                     width = 128,
                     height = 128,
                     scale = 0.5
-                    }
-                },
+                }
             }
         }
-
+    }
 end
 
 --NIOBIUM PIPES
@@ -232,7 +230,7 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {"copper-plate", 1},
-        {"plastic-bar", 1},
+        {"plastic-bar", 1}
     },
     results = {
         {"ht-pipes", 3}
@@ -258,7 +256,7 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {"ht-pipes", 10},
+        {"ht-pipes", 10}
     },
     results = {
         {"ht-pipes-to-ground", 2}
@@ -283,7 +281,10 @@ ENTITY {
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes.png",
     icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.3, mining_time = 0.1, result = "ht-pipes"},
+    minable = {
+        mining_time = 0.1,
+        result = "ht-pipes"
+    },
     max_health = 100,
     corpse = "small-remnants",
     resistances = {
@@ -329,7 +330,10 @@ ENTITY {
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes-to-ground.png",
     icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.3, mining_time = 0.1, result = "ht-pipes-to-ground"},
+    minable = {
+        mining_time = 0.1,
+        result = "ht-pipes-to-ground"
+    },
     max_health = 100,
     corpse = "small-remnants",
     resistances = {

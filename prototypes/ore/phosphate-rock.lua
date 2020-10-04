@@ -21,12 +21,8 @@ DATA {
     order = "a-b-a",
     map_color = {r = 0.998, g = 0.998, b = 0.998},
     highlight = true,
-    minimum = 10000,
-    normal = 20000,
-    maximum = 30000,
     map_grid = false,
     minable = {
-        hardness = 1.0,
         -- mining_particle = "phosphate-rock-particle",
         mining_time = 2,
         results = {
@@ -37,22 +33,19 @@ DATA {
     },
     collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
-    autoplace = {
-        control = "phosphate-rock",
-        sharpness = 0.94,
-        starting_area = false,
-        --max_probability = 0.035,
-        richness_multiplier = 100,
-        richness_multiplier_distance_bonus = 100,
-        richness_base = 40000,
-        coverage = 0.0002,
-        peaks = {
-            {
-                noise_layer = "phosphate-rock",
-                noise_octaves_difference = -1.5,
-                noise_persistence = 0.4
-            }
-        }
+    tree_removal_probability = 0.7,
+    tree_removal_max_distance = 32 * 32,
+    autoplace = resource_autoplace.resource_autoplace_settings {
+        name = "phosphate-rock",
+        order = "b",
+        base_density = 10,
+        base_spots_per_km2 = 1.25,
+        has_starting_area_placement = false,
+        random_spot_size_minimum = 2,
+        random_spot_size_maximum = 4,
+        regular_rq_factor_multiplier = 1,
+        starting_rq_factor_multiplier = 2,
+        candidate_spot_count = 20
     },
     stage_counts = {0},
     stages = {
