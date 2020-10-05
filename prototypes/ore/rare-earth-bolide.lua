@@ -3,7 +3,7 @@ DATA {
     category = "resource",
     name = "rare-earth-bolide",
     richness = true,
-    order = "b-e"
+    order = "r-ra"
 }
 
 DATA {
@@ -37,14 +37,16 @@ DATA {
     autoplace = resource_autoplace.resource_autoplace_settings {
         name = "rare-earth-bolide",
         order = "b",
-        base_density = 10,
+        base_density = 3,
         base_spots_per_km2 = 1.25,
+        random_probability = 1/48,
         has_starting_area_placement = false,
-        random_spot_size_minimum = 2,
-        random_spot_size_maximum = 4,
+        random_spot_size_minimum = 1,
+        random_spot_size_maximum = 2,
+        additional_richness = 10000,
         regular_rq_factor_multiplier = 1,
-        starting_rq_factor_multiplier = 2,
-        candidate_spot_count = 20
+        --starting_rq_factor_multiplier = 2,
+        --candidate_spot_count = 20
     },
     stage_counts = {0},
     stages = {
