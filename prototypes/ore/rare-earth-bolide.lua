@@ -1,3 +1,5 @@
+local resource_autoplace = require("resource-autoplace")
+
 DATA {
     type = "autoplace-control",
     category = "resource",
@@ -23,7 +25,6 @@ DATA {
     highlight = true,
     map_grid = false,
     minable = {
-        
         -- mining_particle = "rare-earth-bolide-particle",
         mining_time = 2,
         results = {
