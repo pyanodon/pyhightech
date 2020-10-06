@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.4
+Date: 2020-10-06
+  Changes:
+    - Update ore generation.
+    - Removed outdated compatibility code that was slowing down loading.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.3
 Date: 2020-10-02
   Changes:
