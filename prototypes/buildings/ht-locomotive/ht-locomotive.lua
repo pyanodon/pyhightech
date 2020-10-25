@@ -4,22 +4,22 @@ RECIPE {
     type = "recipe",
     name = "ht-locomotive",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"iron-plate", 60},
     },
     results = {
         {"ht-locomotive", 1}
     }
-}
+}:add_unlock("ht-trains")
 
 ITEM {
     type = "item",
     name = "ht-locomotive",
-    icon = "__pyhightechgraphics__/graphics/icons/chipshooter-mk01.png",
+    icon = "__pyhightechgraphics__/graphics/icons/ht-locomotive.png",
     icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-buildings-mk01",
+    subgroup = "py-hightech-misc",
     order = "b",
     place_result = "ht-locomotive",
     stack_size = 10
@@ -28,10 +28,10 @@ ITEM {
 {
     type = "locomotive",
     name = "ht-locomotive",
-    icon = "__base__/graphics/icons/locomotive.png",
-    icon_size = 64, icon_mipmaps = 4,
+    icon = "__pyhightechgraphics__/graphics/icons/ht-locomotive.png",
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
-    minable = {mining_time = 0.5, result = "locomotive"},
+    minable = {mining_time = 0.5, result = "ht-locomotive"},
     mined_sound = {filename = "__core__/sound/deconstruct-large.ogg",volume = 0.8},
     max_health = 1000,
     corpse = "locomotive-remnants",
@@ -41,33 +41,33 @@ ITEM {
     --damaged_trigger_effect = hit_effects.entity(),
     drawing_box = {{-1, -4}, {1, 3}},
     alert_icon_shift = util.by_pixel(0, -24),
-    weight = 2000,
-    max_speed = 1.2,
-    max_power = "600kW",
-    reversing_power_modifier = 0.6,
-    braking_force = 10,
-    friction_force = 0.50,
+    weight = 1200,
+    max_speed = 1.7,
+    max_power = "800kW",
+    reversing_power_modifier = 0.5,
+    braking_force = 25,
+    friction_force = 0.40,
     vertical_selection_shift = -0.5,
-    air_resistance = 0.0075, -- this is a percentage of current speed that will be subtracted
+    air_resistance = 0.0050, -- this is a percentage of current speed that will be subtracted
     connection_distance = 3,
-    joint_distance = 4,
+    joint_distance = 3,
     energy_per_hit_point = 5,
     resistances =
     {
       {
         type = "fire",
         decrease = 15,
-        percent = 50
+        percent = 90
       },
       {
         type = "physical",
         decrease = 15,
-        percent = 30
+        percent = 20
       },
       {
         type = "impact",
         decrease = 50,
-        percent = 60
+        percent = 40
       },
       {
         type = "explosion",
@@ -77,29 +77,14 @@ ITEM {
       {
         type = "acid",
         decrease = 3,
-        percent = 20
+        percent = 90
       }
     },
     burner =
     {
-      fuel_category = "chemical",
+      fuel_category = "nexelit",
       effectivity = 1,
-      fuel_inventory_size = 3,
-      smoke =
-      {
-        {
-          name = "train-smoke",
-          deviation = {0.3, 0.3},
-          frequency = 100,
-          position = {0, 0},
-          starting_frame = 0,
-          starting_frame_deviation = 60,
-          height = 2,
-          height_deviation = 0.5,
-          starting_vertical_speed = 0.2,
-          starting_vertical_speed_deviation = 0.1
-        }
-      }
+      fuel_inventory_size = 5,
     },
     front_light =
     {
@@ -108,39 +93,39 @@ ITEM {
         minimum_darkness = 0.3,
         picture =
         {
-          filename = "__core__/graphics/light-cone.png",
+          filename = "__pyhightechgraphics__/graphics/entity/ht-locomotive/light-cone.png",
           priority = "extra-high",
           flags = { "light" },
           scale = 2,
-          width = 200,
-          height = 200
+          width = 235,
+          height = 235
         },
-        shift = {-0.6, -16},
-        size = 2,
-        intensity = 0.6,
-        color = {r = 1.0, g = 0.9, b = 0.9}
+        shift = util.by_pixel(0, -360),
+        size = 1.0,
+        intensity = 1.2,
+        color = {r = 0.333, g = 0.768, b = 0.913}
       },
       {
         type = "oriented",
         minimum_darkness = 0.3,
         picture =
         {
-          filename = "__core__/graphics/light-cone.png",
+          filename = "__pyhightechgraphics__/graphics/entity/ht-locomotive/spot.png",
           priority = "extra-high",
           flags = { "light" },
-          scale = 2,
+          scale = 1,
           width = 200,
           height = 200
         },
-        shift = {0.6, -16},
-        size = 2,
-        intensity = 0.6,
-        color = {r = 1.0, g = 0.9, b = 0.9}
-      }
+        shift = util.by_pixel(0, -125),
+        size = 1.0,
+        intensity = 1.0,
+        color = {r = 0.333, g = 0.828, b = 1.0}
+      },
     },
-    back_light = rolling_stock_back_light(),
+    --back_light = rolling_stock_back_light(),
     stand_by_light = rolling_stock_stand_by_light(),
-    color = {r = 0.92, g = 0.07, b = 0, a = 0.5},
+    color = {r = 0.333, g = 0.768, b = 0.913},
     pictures =
     {
       layers =
@@ -173,7 +158,7 @@ ITEM {
           },
           line_length = 4,
           lines_per_file = 4,
-          shift = {0.0, -0.5},
+          shift = util.by_pixel(0, -36),
           hr_version =
           {
             priority = "very-low",
@@ -203,8 +188,8 @@ ITEM {
             },
             line_length = 4,
             lines_per_file = 4,
-            shift = {0.0, -0.5},
-            scale = 0.5
+            shift = util.by_pixel(0, -36),
+            scale = 0.52
             }
         },
 
@@ -238,58 +223,68 @@ ITEM {
           },
           line_length = 4,
           lines_per_file = 4,
-          shift = {1, 0.3}
+          shift = util.by_pixel(48, 12),
         }
       }
     },
     minimap_representation =
     {
-      filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-minimap-representation.png",
+      filename = "__pyhightechgraphics__/graphics/entity/ht-locomotive/icon-map.png",
       flags = {"icon"},
-      size = {20, 40},
-      scale = 0.5
+      size = {20, 44},
+      scale = 0.4
     },
     selected_minimap_representation =
     {
-      filename = "__base__/graphics/entity/diesel-locomotive/diesel-locomotive-selected-minimap-representation.png",
+      filename = "__pyhightechgraphics__/graphics/entity/ht-locomotive/icon-map-selected.png",
       flags = {"icon"},
-      size = {20, 40},
-      scale = 0.5
+      size = {20, 44},
+      scale = 0.4
     },
-    wheels = standard_train_wheels,
+    --wheels = standard_train_wheels,
     stop_trigger =
     {
       -- left side
       {
         type = "create-trivial-smoke",
-        repeat_count = 125,
+        repeat_count = 5,
         smoke_name = "smoke-train-stop",
         initial_height = 0,
         -- smoke goes to the left
-        speed = {-0.03, 0},
+        speed = {-0.03, -0.4},
         speed_multiplier = 0.75,
         speed_multiplier_deviation = 1.1,
+        color = {r = 0.333, g = 0.768, b = 0.913},
         offset_deviation = {{-0.75, -2.7}, {-0.3, 2.7}}
       },
       -- right side
       {
         type = "create-trivial-smoke",
-        repeat_count = 125,
+        repeat_count = 5,
         smoke_name = "smoke-train-stop",
         initial_height = 0,
         -- smoke goes to the right
-        speed = {0.03, 0},
+        speed = {0.03, -0.4},
         speed_multiplier = 0.75,
         speed_multiplier_deviation = 1.1,
+        color = {r = 0.333, g = 0.768, b = 0.913},
         offset_deviation = {{0.3, -2.7}, {0.75, 2.7}}
       },
       {
         type = "play-sound",
-        sound = sounds.train_brakes,
+        sound =
+        {
+          filename = "__pyhightechgraphics__/sounds/ht-locomotive-break.ogg",
+          volume = 0.5
+        },
       },
       {
         type = "play-sound",
-        sound = sounds.train_brake_screech,
+        sound =
+        {
+          filename = "__pyhightechgraphics__/sounds/bonk.ogg",
+          volume = 0.5
+        },
       },
     },
     drive_over_tie_trigger = drive_over_tie(),
@@ -299,20 +294,20 @@ ITEM {
     {
       sound =
       {
-        filename = "__base__/sound/train-engine.ogg",
-        volume = 0.35
+        filename = "__pyhightechgraphics__/sounds/ht-locomotive-engine.ogg",
+        volume = 0.63
       },
       deactivate_sound =
       {
-        filename = "__base__/sound/train-engine-stop.ogg",
-        volume = 0
+        filename = "__pyhightechgraphics__/sounds/ht-locomotive-end-engine.ogg",
+        volume = 0.50
       },
       match_speed_to_activity = true,
       max_sounds_per_type = 2,
       -- use_doppler_shift = false
     },
-    open_sound = { filename = "__base__/sound/train-door-open.ogg", volume=0.5 },
-    close_sound = { filename = "__base__/sound/train-door-close.ogg", volume = 0.4 },
+    open_sound = { filename = "__pyhightechgraphics__/sounds/ht-locomotive-open.ogg", volume=0.5 },
+    close_sound = { filename = "__pyhightechgraphics__/sounds/ht-locomotive-close.ogg", volume = 0.4 },
     sound_minimum_speed = 0.5,
     sound_scaling_ratio = 0.35,
     water_reflection = locomotive_reflection(),

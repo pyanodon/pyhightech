@@ -15,6 +15,7 @@ require("prototypes/technologies/earnshaw-theorem")
 require("prototypes/technologies/quantum")
 require("prototypes/technologies/nucleo")
 require("prototypes/technologies/penrose")
+require("prototypes/technologies/ht-trains")
 
 require("prototypes/ore/phosphate-rock")
 require("prototypes/ore/rare-earth-bolide")

@@ -3521,3 +3521,21 @@ RECIPE {
     subgroup = "py-items",
     order = "j"
 }:add_unlock("coal-processing-1")
+
+RECIPE {
+    type = 'recipe',
+    name = 'nexelit-battery',
+    category = 'advanced-crafting',
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = 'fluid', name = 'anthraquinone', amount = 20},
+        {type = 'fluid', name = 'olefin', amount = 50},
+        {type = 'item', name = 'nexelit-plate', amount = 5},
+        {type = 'item', name = 'zinc-acetate', amount = 1},
+        {type = 'item', name = 'nylon', amount = 2},
+    },
+    results = {
+        {type = 'item', name = 'nexelit-battery', amount = 1}
+    }
+}:add_unlock('ht-trains')

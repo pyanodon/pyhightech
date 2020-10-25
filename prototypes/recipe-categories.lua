@@ -70,5 +70,9 @@ data:extend {
     {
         type = "recipe-category",
         name = "erase"
-    }
+    },
+    {
+        type = "fuel-category",
+        name = "nexelit"
+    },
 }
