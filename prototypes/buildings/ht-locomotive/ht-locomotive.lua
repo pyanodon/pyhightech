@@ -6,7 +6,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"iron-plate", 60},
+        {"steel-plate", 60},
+        {"gasturbinemk01", 1},
+        {"plastic-bar", 100},
+        {"advanced-circuit", 20},
+        {"nbfe-alloy", 50},
+        {"nexelit-plate", 20},
+        {"iron-gear-wheel", 100},
+        {"nichrome", 10},
     },
     results = {
         {"ht-locomotive", 1}
