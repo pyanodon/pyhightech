@@ -56,8 +56,8 @@ ITEM {
     friction_force = 0.40,
     vertical_selection_shift = -0.5,
     air_resistance = 0.0050, -- this is a percentage of current speed that will be subtracted
-    connection_distance = 3,
-    joint_distance = 3,
+    connection_distance = 3.7,
+    joint_distance = 3.7,
     energy_per_hit_point = 5,
     resistances =
     {

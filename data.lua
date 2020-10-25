@@ -78,6 +78,7 @@ require("prototypes/buildings/particle-accelerator-mk03")
 require("prototypes/buildings/particle-accelerator-mk04")
 
 require("prototypes/buildings/ht-locomotive/ht-locomotive")
+require("prototypes/buildings/ht-locomotive/ht-generic-wagon")
 --[[
 require("prototypes/buildings/clay-pit-mk02")
 require("prototypes/buildings/moondrop-greenhouse-mk02")
