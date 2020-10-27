@@ -45,7 +45,7 @@ ITEM {
     selection_box = {{-1, -2.703125}, {1, 3.296875}},
     --damaged_trigger_effect = hit_effects.entity(),
     vertical_selection_shift = -0.5,
-    weight = 500,
+    weight = 400,
     max_speed = 1.7,
     braking_force = 25,
     friction_force = 0.40,
@@ -110,7 +110,7 @@ ITEM {
           },
           line_length = 4,
           lines_per_file = 4,
-          shift = util.by_pixel(0, -36),
+          shift = util.by_pixel(0, -5),
           hr_version =
           {
             priority = "very-low",
@@ -133,7 +133,7 @@ ITEM {
             },
             line_length = 4,
             lines_per_file = 4,
-            shift = util.by_pixel(0, -36),
+            shift = util.by_pixel(0, -5),
             scale = 0.52
             }
         },

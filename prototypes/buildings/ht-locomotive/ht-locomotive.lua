@@ -48,7 +48,7 @@ ITEM {
     --damaged_trigger_effect = hit_effects.entity(),
     drawing_box = {{-1, -4}, {1, 3}},
     alert_icon_shift = util.by_pixel(0, -24),
-    weight = 1200,
+    weight = 1000,
     max_speed = 1.7,
     max_power = "800kW",
     reversing_power_modifier = 0.5,
@@ -165,7 +165,7 @@ ITEM {
           },
           line_length = 4,
           lines_per_file = 4,
-          shift = util.by_pixel(0, -36),
+          shift = util.by_pixel(0, -5),
           hr_version =
           {
             priority = "very-low",
@@ -195,7 +195,7 @@ ITEM {
             },
             line_length = 4,
             lines_per_file = 4,
-            shift = util.by_pixel(0, -36),
+            shift = util.by_pixel(0, -5),
             scale = 0.52
             }
         },
