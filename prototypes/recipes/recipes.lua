@@ -3539,3 +3539,17 @@ RECIPE {
         {type = 'item', name = 'nexelit-battery', amount = 1}
     }
 }:add_unlock('ht-trains')
+
+RECIPE {
+    type = 'recipe',
+    name = 'nexelit-battery-recharge',
+    category = 'pa',
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = 'item', name = 'used-nexelit-battery', amount = 1},
+    },
+    results = {
+        {type = 'item', name = 'nexelit-battery', amount = 1}
+    }
+}:add_unlock('ht-trains')

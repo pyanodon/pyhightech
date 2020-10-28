@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/ht-trains.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"basic-electronics"},
+    prerequisites = {"basic-electronics","nucleo"},
     effects = {},
     unit = {
         count = 150,
