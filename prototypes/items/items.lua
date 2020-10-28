@@ -1424,13 +1424,25 @@ ITEM {
     name = "nexelit-battery",
     icon = "__pyhightechgraphics__/graphics/icons/nexelit-battery.png",
     icon_size = 64,
-    fuel_value = "400MJ",
+    fuel_value = "500MJ",
     fuel_category = "nexelit",
     flags = {},
     subgroup = "py-hightech-misc",
     order = "h",
     stack_size = 20
 }
+
+ITEM {
+    type = "item",
+    name = "used-nexelit-battery",
+    icon = "__pyhightechgraphics__/graphics/icons/used-nexelit-battery.png",
+    icon_size = 64,
+    flags = {},
+    subgroup = "py-hightech-misc",
+    order = "h",
+    stack_size = 20
+}
+
 ITEM {
     type = "item",
     name = "crystallographic-substrate",
