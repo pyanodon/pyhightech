@@ -109,7 +109,7 @@ ITEM {
             "__pyhightechgraphics__/graphics/entity/ht-generic-fluid-wagon/generic-fluid-wagon-9.png",
             "__pyhightechgraphics__/graphics/entity/ht-generic-fluid-wagon/generic-fluid-wagon-10.png",
             "__pyhightechgraphics__/graphics/entity/ht-generic-fluid-wagon/generic-fluid-wagon-11.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-fluid-wagon/generic-fluid-wagon-12png",
+            "__pyhightechgraphics__/graphics/entity/ht-generic-fluid-wagon/generic-fluid-wagon-12.png",
             "__pyhightechgraphics__/graphics/entity/ht-generic-fluid-wagon/generic-fluid-wagon-13.png",
             "__pyhightechgraphics__/graphics/entity/ht-generic-fluid-wagon/generic-fluid-wagon-14.png",
             "__pyhightechgraphics__/graphics/entity/ht-generic-fluid-wagon/generic-fluid-wagon-15.png",
