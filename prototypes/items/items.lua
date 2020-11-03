@@ -1426,6 +1426,8 @@ ITEM {
     icon_size = 64,
     fuel_value = "500MJ",
     fuel_category = "nexelit",
+    fuel_acceleration_multiplier = 2,
+    fuel_top_speed_multiplier = 1.5,
     flags = {},
     subgroup = "py-hightech-misc",
     order = "h",
