@@ -282,7 +282,7 @@ ITEM {
         sound =
         {
           filename = "__pyhightechgraphics__/sounds/ht-locomotive-break.ogg",
-          volume = 0.5
+          volume = 0.4
         },
       },
       {
@@ -307,7 +307,7 @@ ITEM {
       deactivate_sound =
       {
         filename = "__pyhightechgraphics__/sounds/ht-locomotive-end-engine.ogg",
-        volume = 0.50
+        volume = 0.40
       },
       match_speed_to_activity = true,
       max_sounds_per_type = 2,
