@@ -51,7 +51,7 @@ ITEM {
     friction_force = 0.40,
     air_resistance = 0.0050,
     connection_distance = 3,
-    joint_distance = 3,
+    joint_distance = 4,
     energy_per_hit_point = 5,
     inventory_size = 50,
     resistances =
