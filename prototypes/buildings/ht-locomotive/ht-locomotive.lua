@@ -92,6 +92,7 @@ ITEM {
       fuel_category = "nexelit",
       effectivity = 1,
       fuel_inventory_size = 5,
+      burnt_inventory_size = 5,
     },
     front_light =
     {
@@ -317,5 +318,5 @@ ITEM {
     close_sound = { filename = "__pyhightechgraphics__/sounds/ht-locomotive-close.ogg", volume = 0.4 },
     sound_minimum_speed = 0.5,
     sound_scaling_ratio = 0.35,
-    water_reflection = locomotive_reflection(),
+    water_reflection = _ENV.locomotive_reflection(),
   }

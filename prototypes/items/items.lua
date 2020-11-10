@@ -1428,6 +1428,7 @@ ITEM {
     fuel_category = "nexelit",
     fuel_acceleration_multiplier = 2,
     fuel_top_speed_multiplier = 1.5,
+    burnt_result = "used-nexelit-battery",
     flags = {},
     subgroup = "py-hightech-misc",
     order = "h",
