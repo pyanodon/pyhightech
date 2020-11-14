@@ -1432,7 +1432,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-misc",
     order = "h",
-    stack_size = 20
+    stack_size = 50
 }
 
 ITEM {
@@ -1443,7 +1443,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-misc",
     order = "h",
-    stack_size = 20
+    stack_size = 50
 }
 
 ITEM {

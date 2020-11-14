@@ -2,6 +2,7 @@
 Version: 1.6.10
 Date: ????
   Changes:
+    - Changed slots and stack size of batteries in Ht-locomotive to be more concise.
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.9
 Date: 2020-11-10
