@@ -378,3 +378,5 @@ local recipes_list =
 
 --adding to module limitation list
 FUN.productivity(recipes_list)
+
+data.raw['assembling-machine']['centrifuge'].working_visualisations = nil
