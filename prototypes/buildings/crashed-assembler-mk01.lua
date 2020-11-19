@@ -133,7 +133,7 @@ ENTITY{
       emissions_per_minute = 4
     },
     energy_usage = "90kW",
-    ingredient_count = 2,
+    --ingredient_count = 2,
     open_sound = _ENV.sounds.machine_open,
     close_sound = _ENV.sounds.machine_close,
     vehicle_impact_sound = _ENV.sounds.generic_impact,
