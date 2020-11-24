@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.10
-Date: ????
+Date: 2020-11-24
   Changes:
     - Changed slots and stack size of batteries in Ht-locomotive to be more concise.
     - Updated to factorio version 1.1.
