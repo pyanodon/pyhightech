@@ -14,6 +14,16 @@ ENTITY{
     resistances = {{type = 'fire', percent = 70}},
     collision_box = {{-1.2, -0.7}, {1.2, 0.7}},
     selection_box = {{-1.5, -1}, {1.5, 1}},
+    minable =
+    {
+        mining_time = 0.5,
+        results =
+        {
+            {'electronic-circuit', 100},
+            {'iron-plate', 50},
+            {'duralumin', 50}
+        }
+    },
     alert_icon_shift = util.by_pixel(-3, -12),
     integration_patch_render_layer = 'decals',
     integration_patch = {
