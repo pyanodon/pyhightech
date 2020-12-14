@@ -2,6 +2,11 @@
 Version: 1.6.11
 Date: ????
   Changes:
+    - Removed all the recipes and buildings needed for circuit 1 from being unlocked at start and added them to electronics tech.
+    - made the crashed assemblers minable and they return some materials but still cant be remade once removed.
+    - Added epoxy to and Neodimium-iron-boron alloy to magnetic core.
+    - Added nexelit plate to coil core.
+    - Added Tin-rare-earth alloy to Superconductor Coils
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.10
 Date: 2020-11-24

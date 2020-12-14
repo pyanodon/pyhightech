@@ -11,7 +11,7 @@ RECIPE {
     type = "recipe",
     name = "pcb-factory-mk01",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"steam-engine", 2},
         {"fbreactor-mk01", 2},
@@ -23,7 +23,7 @@ RECIPE {
     results = {
         {"pcb-factory-mk01", 1}
     }
-}
+}:add_unlock('electronics')
 
 ITEM {
     type = "item",

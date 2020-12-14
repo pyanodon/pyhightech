@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "fbreactor-mk01",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"boiler", 2},
         {"pipe", 15},
@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {"fbreactor-mk01", 1}
     }
-}
+}:add_unlock('electronics')
 
 ITEM {
     type = "item",

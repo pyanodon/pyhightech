@@ -157,7 +157,7 @@ RECIPE {
     type = 'recipe',
     name = 'melamine-resin',
     category = 'fbreactor',
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'fluid', name = 'methanal', amount = 50},
@@ -168,7 +168,7 @@ RECIPE {
         {type = 'item', name = 'melamine-resin', amount = 10}
     },
     main_product = 'melamine-resin'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
@@ -205,7 +205,7 @@ RECIPE {
     type = 'recipe',
     name = 'urea-decomposition',
     category = 'distilator',
-    enabled = true,
+    enabled = false,
     energy_required = 8,
     ingredients = {
         {type = 'item', name = 'urea', amount = 20}
@@ -215,13 +215,13 @@ RECIPE {
         {type = 'fluid', name = 'cyanic-acid', amount = 30}
     },
     main_product = 'cyanic-acid'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'melamine',
     category = 'fbreactor',
-    enabled = true,
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = 'fluid', name = 'water', amount = 200},
@@ -234,7 +234,7 @@ RECIPE {
         {type = 'fluid', name = 'dirty-water', amount = 50}
     },
     main_product = 'melamine'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
@@ -250,13 +250,13 @@ RECIPE {
         {type = 'item', name = 'ceramic', amount = 5}
     },
     main_product = 'ceramic'
-}:add_unlock('coal-processing-1')
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'inductor1',
     category = 'electronic',
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'ceramic', amount = 2},
@@ -266,13 +266,13 @@ RECIPE {
         {type = 'item', name = 'inductor1', amount = 5}
     },
     main_product = 'inductor1'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'capacitor1',
     category = 'electronic',
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'ceramic', amount = 1},
@@ -282,13 +282,13 @@ RECIPE {
         {type = 'item', name = 'capacitor1', amount = 3}
     },
     main_product = 'capacitor1'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'resistor1',
     category = 'electronic',
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'iron-plate', amount = 1},
@@ -298,7 +298,7 @@ RECIPE {
         {type = 'item', name = 'resistor1', amount = 3}
     },
     main_product = 'resistor1'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
@@ -313,13 +313,13 @@ RECIPE {
         {type = 'item', name = 'graphite', amount = 2}
     },
     main_product = 'graphite'
-}:add_unlock('coal-processing-1')
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'valve',
     category = 'electronic',
-    enabled = true,
+    enabled = false,
     energy_required = 7,
     ingredients = {
         {type = 'item', name = 'iron-plate', amount = 5},
@@ -330,13 +330,13 @@ RECIPE {
         {type = 'item', name = 'valve', amount = 2}
     },
     main_product = 'valve'
-}:add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
+}:add_ingredient({type = 'fluid', name = 'vacuum', amount = 50}):add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'fiberboard',
     category = 'pulp',
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'treated-wood', amount = 3},
@@ -350,13 +350,13 @@ RECIPE {
         {type = 'fluid', name = 'black-liquor', amount = 10}
     },
     main_product = 'fiberboard'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'formica',
     category = 'wpu',
-    enabled = true,
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'fiberboard', amount = 2},
@@ -366,13 +366,13 @@ RECIPE {
         {type = 'item', name = 'formica', amount = 5}
     },
     main_product = 'formica'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'pcb1',
     category = 'pcb',
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'formica', amount = 2},
@@ -382,13 +382,13 @@ RECIPE {
         {type = 'item', name = 'pcb1', amount = 1}
     },
     main_product = 'pcb1'
-}:add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
+}:add_ingredient({type = 'fluid', name = 'vacuum', amount = 50}):add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',
     name = 'electronic-circuit',
     category = 'chip',
-    enabled = true,
+    enabled = false,
     energy_required = 6,
     ingredients = {
         {type = 'item', name = 'pcb1', amount = 1},
@@ -403,7 +403,7 @@ RECIPE {
     main_product = 'electronic-circuit',
     subgroup = 'py-hightech-tier-1',
     order = 'aab'
-}
+}:add_unlock('electronics')
 
 RECIPE {
     type = 'recipe',

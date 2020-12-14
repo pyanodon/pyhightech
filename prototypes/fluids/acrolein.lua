@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "acrolein",
     category = "advanced-foundry",
-    enabled = true,
+    enabled = false,
     energy_required = 15,
     ingredients = {
         {type = "fluid", name = "glycerol", amount = 80},
@@ -10,7 +10,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "acrolein", amount = 50}
     },
-}
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = "recipe",

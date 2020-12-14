@@ -19,9 +19,9 @@ ENTITY{
         mining_time = 0.5,
         results =
         {
-            {'electronic-circuit', 100},
-            {'iron-plate', 50},
-            {'duralumin', 50}
+            {name = 'electronic-circuit', amount = 100},
+            {name = 'iron-plate', amount = 50},
+            {name = 'duralumin', amount = 50}
         }
     },
     alert_icon_shift = util.by_pixel(-3, -12),

@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "chipshooter-mk01",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"distilator", 2},
         {"iron-plate", 60},
@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"chipshooter-mk01", 1}
     }
-}
+}:add_unlock('electronics')
 
 ITEM {
     type = "item",
