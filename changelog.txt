@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.7.0
-Date: ????
+Date: 2020-12-14
   Changes:
     - Removed all the recipes and buildings needed for circuit 1 from being unlocked at start and added them to electronics tech.
     - made the crashed assemblers minable and they return some materials but still cant be remade once removed.
