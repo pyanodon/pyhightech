@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.6.11
+Version: 1.7.0
 Date: ????
   Changes:
     - Removed all the recipes and buildings needed for circuit 1 from being unlocked at start and added them to electronics tech.
