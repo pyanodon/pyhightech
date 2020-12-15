@@ -2,6 +2,7 @@
 Version: 1.7.1
 Date: ????
   Changes:
+    - Removed electronics tech lock from the fluid bed reactor as its needed for latex to make science to unlock it. should be avaible at game start again.
 ---------------------------------------------------------------------------------------------------
 Version: 1.7.0
 Date: 2020-12-14
