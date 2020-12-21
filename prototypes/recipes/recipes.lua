@@ -3120,6 +3120,21 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
+    name = 'gravel-saline-water',
+    category = 'washer',
+    enabled = false,
+    energy_required = 3,
+    ingredients = {
+        {type = 'item', name = 'gravel', amount = 15},
+        {type = 'fluid', name = 'water', amount = 100}
+    },
+    results = {
+        {type = 'fluid', name = 'water-saline', amount = 50}
+    }
+}:add_unlock('coal-processing-1')
+
+RECIPE {
+    type = 'recipe',
     name = 'crystallographic-substrate',
     category = 'fbreactor',
     enabled = false,
