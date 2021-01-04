@@ -2,6 +2,7 @@
 Version: 1.7.4
 Date: ????
   Changes:
+    - Added equipment grid to hightech wagon.
 ---------------------------------------------------------------------------------------------------
 Version: 1.7.3
 Date: 2021-01-03
