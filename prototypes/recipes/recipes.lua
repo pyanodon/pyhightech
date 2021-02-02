@@ -2524,7 +2524,9 @@ RECIPE {
     },
     results = {
         {type = 'fluid', name = 'water', amount = 200}
-    }
+    },
+    subgroup = 'py-hightech-fluids',
+    order = 'b1',
 }:add_unlock('basic-electronics'):replace_result('water', 'water-saline')
 
 RECIPE {
@@ -2753,7 +2755,9 @@ RECIPE {
         {type = 'fluid', name = 'tall-oil', amount = 50},
         {type = 'fluid', name = 'aromatics', amount = 20}
     },
-    main_product = 'light-oil'
+    main_product = 'light-oil',
+    subgroup = 'py-hightech-fluids',
+    order = 'b1',
 }:add_unlock('basic-electronics')
 
 RECIPE {
@@ -3305,7 +3309,9 @@ RECIPE {
     },
     results = {
         {type = 'fluid', name = 'petroleum-gas', amount = 100}
-    }
+    },
+    subgroup = 'py-hightech-fluids',
+    order = 'b1',
 }:add_unlock('nano-tech')
 
 RECIPE {
