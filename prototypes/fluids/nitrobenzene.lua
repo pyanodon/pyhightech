@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "nitrobenzene",
     category = "fbreactor",
-    enabled = false,
+    enabled = true,
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "benzene", amount = 50},
