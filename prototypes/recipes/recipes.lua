@@ -3569,6 +3569,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'used-nexelit-battery', amount = 1},
+        {type = 'item', name = 'nexelit-plate', amount = 3},
     },
     results = {
         {type = 'item', name = 'nexelit-battery', amount = 1}
