@@ -12,7 +12,7 @@ ENTITY{
     corpse = 'big-remnants',
     dying_explosion = 'medium-explosion',
     resistances = {{type = 'fire', percent = 70}},
-    collision_box = {{-1.2, -0.7}, {1.2, 0.7}},
+    collision_box = {{ -1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1}, {1.5, 1}},
     minable =
     {
@@ -127,6 +127,18 @@ ENTITY{
     -- ingredient_count = 2,
     open_sound = {filename = '__base__/sound/machine-open.ogg', volume = 0.85},
     close_sound = {filename = '__base__/sound/machine-close.ogg', volume = 0.75},
+    fluid_boxes =
+    {
+        {
+            production_type = "output",
+            pipe_picture = DATA.Pipes.pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_covers = DATA.Pipes.covers(false, true, true, true),
+            base_area = 10,
+            base_level = -1,
+            pipe_connections = {{type = "output", position = {-1, 2}}}
+        },
+      off_when_no_fluid_recipe = true
+    },
     vehicle_impact_sound = {filename = '__base__/sound/car-metal-impact.ogg', volume = 0.65},
     working_sound = {
         sound = {{filename = '__pyhightechgraphics__/sounds/assembling-machine-repaired-1.ogg', volume = 0.8}}
