@@ -78,7 +78,7 @@ RECIPE {
         {type = 'fluid', name = 'cyanic-acid', amount = 50}
     },
     results = {
-        {type = 'item', name = 'chromium', amount = 10},
+        {type = 'item', name = 'chromite-sand', amount = 10},
         {type = 'item', name = 'ree-concentrate', amount = 20}
     },
     main_product = 'ree-concentrate'
@@ -95,7 +95,7 @@ RECIPE {
         {type = 'fluid', name = 'sulfuric-acid', amount = 150}
     },
     results = {
-        {type = 'item', name = 'copper-plate', amount = 2},
+        {type = 'item', name = 'copper-ore', amount = 5},
         {type = 'item', name = 'ree-concentrate', amount = 20}
     },
     main_product = 'ree-concentrate'
