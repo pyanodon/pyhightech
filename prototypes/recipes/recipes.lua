@@ -238,6 +238,22 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
+    name = 'melamine-2',
+    category = 'fbreactor',
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = 'fluid', name = 'methanal', amount = 40},
+        {type = 'item', name = 'phenol', amount = 10}
+    },
+    results = {
+        {type = 'item', name = 'melamine', amount = 20},
+    },
+    main_product = 'melamine'
+}:add_unlock('advanced-electronics')
+
+RECIPE {
+    type = 'recipe',
     name = 'ceramic',
     category = 'hpf',
     enabled = false,
