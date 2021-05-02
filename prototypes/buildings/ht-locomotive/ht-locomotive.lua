@@ -200,6 +200,72 @@ ITEM {
             scale = 0.52
             }
         },
+          {
+          dice = 4,
+          priority = "very-low",
+          width = 240,
+          height = 224,
+          direction_count = 256,
+          draw_as_glow = true,
+          blend_mode = "additive",
+          allow_low_quality_rotation = true,
+          filenames =
+          {
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-1.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-2.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-3.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-4.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-5.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-6.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-7.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-8.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-9.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-10.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-11.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-12.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-13.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-14.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-15.png",
+            "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/pyloco-16.png",
+          },
+          line_length = 4,
+          lines_per_file = 4,
+          shift = util.by_pixel(0, -5),
+          hr_version =
+          {
+            priority = "very-low",
+            dice = 4,
+            width = 480,
+            height = 448,
+            direction_count = 256,
+            draw_as_glow = true,
+            blend_mode = "additive",
+            allow_low_quality_rotation = true,
+            filenames =
+            {
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-1.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-2.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-3.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-4.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-5.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-6.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-7.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-8.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-9.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-10.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-11.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-12.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-13.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-14.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-15.png",
+                "__pyhightechgraphics__/graphics/entity/ht-locomotive/light/hr-pyloco-16.png",
+            },
+            line_length = 4,
+            lines_per_file = 4,
+            shift = util.by_pixel(0, -5),
+            scale = 0.52
+            }
+        },
 
         {
           priority = "very-low",
