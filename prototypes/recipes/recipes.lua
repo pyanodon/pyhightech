@@ -3303,7 +3303,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'dried-meat', amount = 10},
-        {type = 'item', name = 'coal-dust', amount = 10},
+        {type = 'item', name = 'coal-dust', amount = 15},
         {type = 'item', name = 'iron-plate', amount = 1},
         {type = 'fluid', name = 'sulfuric-acid', amount = 50}
     },
@@ -3340,7 +3340,7 @@ RECIPE {
         {type = 'item', name = 'raw-fiber', amount = 10}
     },
     results = {
-        {type = 'item', name = 'coal-dust', amount = 10}
+        {type = 'item', name = 'coal-dust', amount = 20}
     }
 }:add_unlock('coal-processing-1')
 
