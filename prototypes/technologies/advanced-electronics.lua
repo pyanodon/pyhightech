@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"basic-electronics","fuel-production","methanol-processing-2"},
+    prerequisites = {"basic-electronics"},
     effects = {},
     unit = {
         count = 150,

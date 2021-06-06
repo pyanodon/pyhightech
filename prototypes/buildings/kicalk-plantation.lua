@@ -21,7 +21,7 @@ RECIPE {
     results = {
         {"kicalk-plantation", 1}
     }
-}:add_unlock("coal-processing-1")
+}:add_unlock("kicalk")
 
 ITEM {
     type = "item",

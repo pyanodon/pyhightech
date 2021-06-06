@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "clay-pit-mk01",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"burner-mining-drill", 2},
         {"pipe", 10},
@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {"clay-pit-mk01", 1}
     }
-}
+}:add_unlock('kicalk')
 
 ITEM {
     type = "item",

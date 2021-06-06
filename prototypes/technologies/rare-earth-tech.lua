@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/rare-earth-tech.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"basic-electronics"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 50,

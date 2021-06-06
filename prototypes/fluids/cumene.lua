@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "cumene", amount = 100}
     },
     main_product = "cumene",
-}:add_unlock("basic-electronics")
+}:add_unlock("placeholder")
 
 FLUID {
     type = "fluid",

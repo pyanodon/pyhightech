@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "auog-paddock",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"stone", 100},
         {"soil", 300},
@@ -11,7 +11,7 @@ RECIPE {
     results = {
         {"auog-paddock", 1}
     }
-}
+}:add_unlock('auog')
 
 ITEM {
     type = "item",
