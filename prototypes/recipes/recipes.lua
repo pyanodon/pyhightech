@@ -2712,14 +2712,14 @@ RECIPE {
     name = 'syngas-methane',
     category = 'chemistry',
     enabled = false,
-    energy_required = 10,
+    energy_required = 8,
     ingredients = {
-        {type = 'fluid', name = 'syngas', amount = 150},
+        {type = 'fluid', name = 'syngas', amount = 200},
         {type = 'item', name = 'niobium-plate', amount = 1}
     },
     results = {
-        {type = 'fluid', name = 'methane', amount = 100},
-        {type = 'fluid', name = 'flue-gas', amount = 50}
+        {type = 'fluid', name = 'methane', amount = 200},
+        {type = 'fluid', name = 'flue-gas', amount = 75}
     },
     main_product = 'methane'
 }:add_unlock('coal-processing-3'):change_category('gas-separator')

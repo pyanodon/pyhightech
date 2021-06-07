@@ -24,6 +24,7 @@ require("prototypes/technologies/penrose")
 require("prototypes/technologies/ht-trains")
 require("prototypes/technologies/kicalk")
 require("prototypes/technologies/auog")
+require("prototypes/technologies/moondrop")
 
 require("prototypes/ore/phosphate-rock")
 require("prototypes/ore/rare-earth-bolide")
