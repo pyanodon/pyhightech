@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "etching", amount = 150}
     },
-}:add_unlock("basic-electronics")
+}:add_unlock("semiconductor-doping")
 
 FLUID {
     type = "fluid",

@@ -5,7 +5,7 @@ TECHNOLOGY {
     icon_size = 256,
     icon_mipmaps = 4,
     order = "c-a",
-    prerequisites = {},
+    prerequisites = {"semiconductor-doping", "lubricant"},
     effects = {},
     unit = {
         count = 55,

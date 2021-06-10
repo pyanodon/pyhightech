@@ -4,7 +4,14 @@ local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 require('prototypes/updates/pycoalprocessing-updates')
 
 --TECH CHANGES
-TECHNOLOGY('electronics'):add_prereq('wood-processing'):add_prereq('auog'):add_prereq('kicalk'):set_fields{icon = "__pyhightechgraphics__/graphics/technology/vacuum-tube-electronics.png"}:set_fields{icon_size = 128}
+TECHNOLOGY('automation-2'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('fast-inserter'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('solar-energy'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('electric-energy-distribution-1'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('circuit-network'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('advanced-electronics'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics'):add_pack('chemical-science-pack'):set_field{icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics.png"}:set_field{ icon_size = 128}
+data.raw.technology['electronics'].hidden = true
+
 TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('production-science-pack'):remove_pack('chemical-science-pack')
 TECHNOLOGY('electric-engine'):remove_prereq('chemical-science-pack'):remove_pack('chemical-science-pack')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
@@ -17,6 +24,7 @@ TECHNOLOGY('fusion-reactor-equipment'):remove_prereq('utility-science-pack'):add
 TECHNOLOGY('personal-roboport-mk2-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
 
 --RECIPE CHANGES
+RECIPE('centrifugal-pan-mk01'):remove_unlock('diamond-mining'):add_unlock('rare-earth-tech')
 RECIPE('rich-re'):remove_unlock('coal-processing-2')
 RECIPE('eva-ree-dust'):remove_unlock('coal-processing-2')
 --RECIPE('remud-dirty-water'):remove_unlock('coal-processing-2')
@@ -34,16 +42,14 @@ if not mods['pyrawores'] then
 RECIPE('cool-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 end
 RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
-RECIPE('anthraquinone'):remove_unlock('fuel-production'):add_unlock('placeholder')
-RECIPE('hydrogen-peroxide'):remove_unlock('coal-processing-3'):add_unlock('placeholder')
-RECIPE('agitator-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
-RECIPE('agitator-mk01'):replace_ingredient('plastic-bar', 'melamine')
+
+RECIPE('agitator-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('rare-earth-tech'):replace_ingredient('plastic-bar', 'melamine')
 RECIPE('mixer-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
 RECIPE('science-coating'):add_ingredient({type = 'item', name = 'nylon', amount = 5}):add_ingredient({type = 'item', name = 'zinc-acetate', amount = 15})
 RECIPE('bio-reactor'):add_ingredient({type = 'item', name = 'advanced-circuit', amount = 5})
 RECIPE('bio-reactor'):remove_unlock('helium-processing'):add_unlock('nano-tech')
 RECIPE('compressor-mk01'):remove_unlock('regolite-mining'):add_unlock('placeholder')
-RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('rare-earth-tech')
+RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('intergrated-circuits-1')
 RECIPE('kevlar'):add_ingredient({type = 'item', name = 'nylon', amount = 5})
 RECIPE('explosives'):add_ingredient({type = 'item', name = 'collagen', amount = 5})
 RECIPE('ferrite'):remove_unlock('fusion-mk01'):add_unlock('placeholder')

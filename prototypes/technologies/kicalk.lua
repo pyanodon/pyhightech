@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/kicalk.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {},
+    prerequisites = {"wood-processing", "separation"},
     effects = {},
     unit = {
         count = 100,

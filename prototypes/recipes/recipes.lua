@@ -479,7 +479,7 @@ RECIPE {
         {type = 'item', name = 'silicon', amount = 10}
     },
     main_product = 'silicon'
-}:add_unlock('placeholder')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
@@ -636,7 +636,7 @@ RECIPE {
         {type = 'item', name = 'phenolicboard', amount = 5}
     },
     main_product = 'phenolicboard'
-}:add_unlock('placeholder')
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1431,7 +1431,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'raw-fiber', amount = 30}
     }
-}:add_unlock('placeholder')
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2738,7 +2738,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'methanal', amount = 100}
     }
-}:add_unlock('coal-processing-2')
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -2759,7 +2759,7 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
-    name = 'tar-lightoil',
+    name = 'tar-talloil',
     category = 'distilator',
     enabled = false,
     energy_required = 5,
@@ -2771,7 +2771,7 @@ RECIPE {
         {type = 'fluid', name = 'tall-oil', amount = 50},
         {type = 'fluid', name = 'aromatics', amount = 20}
     },
-    main_product = 'light-oil',
+    main_product = 'tall-oil',
     subgroup = 'py-hightech-fluids',
     order = 'b1',
 }:add_unlock('placeholder')
@@ -3248,7 +3248,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'ammonia', amount = 100}
     }
-}:add_unlock('oil-processing')
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
