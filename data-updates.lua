@@ -70,7 +70,7 @@ RECIPE('fawogae-plantation-mk03'):replace_ingredient('treated-wood', 'fiberboard
 RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
 RECIPE('kmauts-ration'):remove_ingredient("ralesia"):add_ingredient({type = "item", name = "blood-meal", amount = 5})
 
-RECIPE("accumulator-mk02"):remove_ingredient("battery"):add_ingredient({type = 'item', name = 'supercapacitor', amount = 10}):remove_unlock('coal-processing-3'):remove_unlock('electric-energy-accumulators'):add_unlock('nano-tech')
+RECIPE("accumulator-mk02"):remove_ingredient("battery"):add_ingredient({type = 'item', name = 're-magnet', amount = 10}):add_ingredient({type = 'item', name = 'sc-coil', amount = 10}):remove_unlock('coal-processing-3'):remove_unlock('electric-energy-accumulators'):add_unlock('advanced-electronics')
 
 RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 
