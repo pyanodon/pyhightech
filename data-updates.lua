@@ -2,6 +2,7 @@ require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
 require('prototypes/updates/pycoalprocessing-updates')
+require('prototypes/updates/pyfusionenergy-updates')
 
 --TECH CHANGES
 TECHNOLOGY('automation-2'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
@@ -395,7 +396,14 @@ FUN.productivity(recipes_list)
 data.raw['assembling-machine']['centrifuge'].working_visualisations = nil
 
 if data.data_crawler then
-  data.script_enabled = {
-    {type = "entity", name = "crash-site-assembling-machine-1-repaired"}
-  }
+  if mods['pypetroleumhandling'] then
+    data.script_enabled = {
+      {type = "entity", name = "crash-site-assembling-machine-1-repaired"},
+      {type = "entity", name = "tar-patch"}
+    }
+  else
+    data.script_enabled = {
+      {type = "entity", name = "crash-site-assembling-machine-1-repaired"}
+    }
+  end
 end

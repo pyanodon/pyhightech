@@ -11,7 +11,7 @@
     "stdlib >= 1.4.1",
     "pycoalprocessing >= 1.0.16",
     "pyfusionenergy >= 1.1.4",
-    "pyhightechgraphics >= 1.0.0"
+    "~ pyhightechgraphics >= 1.0.0"
   ],
   "package": {
     "ignore": [],
