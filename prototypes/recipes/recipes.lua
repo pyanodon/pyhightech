@@ -3227,7 +3227,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'fluid', name = 'coal-slurry', amount = 100}
+        {type = 'fluid', name = 'coal-slurry', amount = 200}
     },
     results = {
         {type = 'fluid', name = 'aromatics', amount = 50},
