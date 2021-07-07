@@ -1,9 +1,5 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 
---adding effects to electronics since std cant manage to do it itself.
-table.insert(data.raw.technology['electronics'], effects)
-data.raw.technology['electronics'].effects = {}
-
 require("prototypes/item-groups")
 require("prototypes/recipe-categories")
 
