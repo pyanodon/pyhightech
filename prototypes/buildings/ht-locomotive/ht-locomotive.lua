@@ -26,8 +26,8 @@ ITEM {
     icon = "__pyhightechgraphics__/graphics/icons/ht-locomotive.png",
     icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-misc",
-    order = "b",
+    subgroup = "py-trains",
+    order = "za",
     place_result = "ht-locomotive",
     stack_size = 10
 }

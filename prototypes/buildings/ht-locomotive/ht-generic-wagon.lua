@@ -24,8 +24,8 @@ ITEM {
     icon = "__pyhightechgraphics__/graphics/icons/ht-generic-wagon.png",
     icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-misc",
-    order = "c",
+    subgroup = "py-trains",
+    order = "zb",
     place_result = "ht-generic-wagon",
     stack_size = 10
 }
