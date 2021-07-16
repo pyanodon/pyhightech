@@ -141,7 +141,7 @@ ITEM {
 }
 ITEM {
     type = "item",
-    name = "valve",
+    name = "vacuum-tube",
     icon = "__pyhightechgraphics__/graphics/icons/valve.png",
 	icon_size = 32,
     flags = {},

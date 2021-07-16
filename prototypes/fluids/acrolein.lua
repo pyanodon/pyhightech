@@ -27,7 +27,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 30},
     },
     main_product = "acrolein",
-}:add_unlock("advanced-electronics")
+}:add_unlock('placeholder')
 
 FLUID {
     type = "fluid",

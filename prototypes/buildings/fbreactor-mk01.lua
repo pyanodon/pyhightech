@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {"fbreactor-mk01", 1}
     }
-}--:add_unlock('electronics')
+}:add_unlock('vacuum-tube-electronics')
 
 ITEM {
     type = "item",

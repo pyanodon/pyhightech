@@ -1,16 +1,15 @@
 TECHNOLOGY {
     type = "technology",
-    name = "basic-electronics",
-    icon = "__pyhightechgraphics__/graphics/technology/basic-electronics.png",
+    name = "vacuum-tube-electronics",
+    icon = "__pyhightechgraphics__/graphics/technology/vacuum-tube-electronics.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"vacuum-tube-electronics", "intergrated-circuits-1"},
+    prerequisites = {"wood-processing", "auog", "kicalk", "moondrop", "automation"},
     effects = {},
     unit = {
         count = 55,
         ingredients = {
             {"automation-science-pack", 1},
-            {"logistic-science-pack", 1}
         },
         time = 45
     }

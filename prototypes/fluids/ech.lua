@@ -14,7 +14,7 @@ RECIPE {
     main_product = "ech",
     icon = "__pyhightechgraphics__/graphics/icons/mix-ech.png",
 	icon_size = 32
-}:add_unlock("advanced-electronics")
+}:add_unlock('placeholder')
 
 FLUID {
     type = "fluid",

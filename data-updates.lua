@@ -1,15 +1,40 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
+require('prototypes/updates/pycoalprocessing-updates')
+require('prototypes/updates/pyfusionenergy-updates')
+
+--TECH CHANGES
+TECHNOLOGY('automation-2'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('fast-inserter'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('solar-energy'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('electric-energy-distribution-1'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('circuit-network'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('advanced-electronics'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics'):add_pack('chemical-science-pack'):set_field{icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics.png"}:set_field{ icon_size = 128}
+data.raw.technology['electronics'].hidden = true
+
+TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('production-science-pack'):remove_pack('chemical-science-pack')
+TECHNOLOGY('electric-engine'):remove_prereq('chemical-science-pack'):remove_pack('chemical-science-pack')
+TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
+TECHNOLOGY('modules'):remove_prereq('advanced-electronics'):add_prereq('methanol-processing-2')
+TECHNOLOGY('utility-science-pack'):remove_prereq('robotics'):remove_prereq('advanced-electronics-2'):remove_prereq('low-density-structure')
+TECHNOLOGY('military-4'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+TECHNOLOGY('rocket-control-unit'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+TECHNOLOGY('logistic-system'):remove_prereq('utility-science-pack')
+TECHNOLOGY('fusion-reactor-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+TECHNOLOGY('personal-roboport-mk2-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+
+--RECIPE CHANGES
+RECIPE('centrifugal-pan-mk01'):remove_unlock('diamond-mining'):add_unlock('rare-earth-tech')
 RECIPE('rich-re'):remove_unlock('coal-processing-2')
 RECIPE('eva-ree-dust'):remove_unlock('coal-processing-2')
 --RECIPE('remud-dirty-water'):remove_unlock('coal-processing-2')
-RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
+RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('placeholder')
 RECIPE('vacuum-pump-mk01'):remove_unlock('coal-processing-1'):set_enabled(true)
-RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
+RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
 RECIPE('vacuum'):remove_unlock('diamond-mining'):set_enabled(true)
 --RECIPE('tar-processing-unit'):remove_unlock('coal-processing-1'):set_enabled(true)
-RECIPE('creosote'):remove_unlock('coal-processing-1'):set_enabled(true)
+--RECIPE('creosote'):remove_unlock('coal-processing-1'):set_enabled(true)
 RECIPE('gas-separator-mk01'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 --RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 --RECIPE('pressured-air'):add_ingredient({type = 'fluid', name = 'liquid-air', amount = 100})
@@ -18,36 +43,31 @@ if not mods['pyrawores'] then
 RECIPE('cool-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
 end
 RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping')
-RECIPE('anthraquinone'):remove_unlock('fuel-production'):add_unlock('basic-electronics')
-RECIPE('hydrogen-peroxide'):remove_unlock('coal-processing-3'):add_unlock('basic-electronics')
-RECIPE('agitator-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
-RECIPE('agitator-mk01'):replace_ingredient('plastic-bar', 'melamine')
-RECIPE('mixer-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
+
+RECIPE('agitator-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('rare-earth-tech'):replace_ingredient('plastic-bar', 'melamine')
+RECIPE('mixer-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
 RECIPE('science-coating'):add_ingredient({type = 'item', name = 'nylon', amount = 5}):add_ingredient({type = 'item', name = 'zinc-acetate', amount = 15})
 RECIPE('bio-reactor'):add_ingredient({type = 'item', name = 'advanced-circuit', amount = 5})
 RECIPE('bio-reactor'):remove_unlock('helium-processing'):add_unlock('nano-tech')
-RECIPE('compressor-mk01'):remove_unlock('regolite-mining'):add_unlock('advanced-electronics')
-RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('rare-earth-tech')
+RECIPE('compressor-mk01'):remove_unlock('regolite-mining'):add_unlock('placeholder')
+RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('intergrated-circuits-1')
 RECIPE('kevlar'):add_ingredient({type = 'item', name = 'nylon', amount = 5})
 RECIPE('explosives'):add_ingredient({type = 'item', name = 'collagen', amount = 5})
-RECIPE('ferrite'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
-RECIPE('boron-carbide'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics')
-RECIPE('sc-coil'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 're-tin', amount = 1})
-RECIPE('sc-wire'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics')
-RECIPE('coil-core'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'nexelit-plate', amount = 2})
-RECIPE('magnetic-core'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics'):add_ingredient({type = 'item', name = 'ndfeb-alloy', amount = 1}):add_ingredient({type = 'item', name = 'epoxy', amount = 1})
-RECIPE('deposited-core'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics'):change_category('nano')
-RECIPE('sc-unit'):remove_unlock('fusion-mk01'):add_unlock('advanced-electronics')
-RECIPE('boron'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
-RECIPE('boron-mixture'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics'):replace_ingredient('helium', 'acetylene')
-RECIPE('b2o3-milling'):remove_unlock('fusion-mk01'):add_unlock('basic-electronics')
+RECIPE('ferrite'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+RECIPE('boron-carbide'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+RECIPE('sc-coil'):remove_unlock('fusion-mk01'):add_unlock('placeholder'):add_ingredient({type = 'item', name = 're-tin', amount = 1})
+RECIPE('sc-wire'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+RECIPE('coil-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder'):add_ingredient({type = 'item', name = 'nexelit-plate', amount = 2})
+RECIPE('magnetic-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder'):add_ingredient({type = 'item', name = 'ndfeb-alloy', amount = 1}):add_ingredient({type = 'item', name = 'epoxy', amount = 1})
+RECIPE('deposited-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder'):change_category('nano')
+RECIPE('sc-unit'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+RECIPE('boron'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+RECIPE('boron-mixture'):remove_unlock('fusion-mk01'):add_unlock('placeholder'):replace_ingredient('helium', 'acetylene')
+RECIPE('b2o3-milling'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
 RECIPE('genlab-mk01'):remove_unlock('fusion-mk01'):add_unlock('nano-tech')
 RECIPE('fusion-reactor-mk01'):replace_ingredient('advanced-circuit', 'processing-unit')
 RECIPE('fusion-reactor-mk02'):replace_ingredient('advanced-circuit', 'intelligent-unit')
 RECIPE('small-lamp'):replace_ingredient('electronic-circuit', 'copper-plate')
-RECIPE('electronic-circuit'):change_category('chip')
-RECIPE('advanced-circuit'):change_category('chip')
-RECIPE('processing-unit'):change_category('chip')
 RECIPE('phosporic-acid2'):change_category('bio-reactor')
 RECIPE('nexelit-matrix'):replace_ingredient('resin', 'epoxy')
 RECIPE('nexelit-matrix'):replace_ingredient('wood', 'epoxy')
@@ -59,15 +79,15 @@ RECIPE('explosives'):add_ingredient({type = 'item', name = 'urea', amount = 5})
 RECIPE('biofilm'):add_ingredient({type = 'item', name = 'rayon', amount = 2})
 RECIPE('cladding'):add_ingredient({type = 'fluid', name = 'nitrobenzene', amount = 50})
 RECIPE('nas-battery'):add_ingredient({type = 'item', name = 'rayon', amount = 2})
-RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('basic-electronics'):replace_ingredient('advanced-circuit','engine-unit')
-RECIPE('hydrocyclone-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
-RECIPE('thickener-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('basic-electronics')
+RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('placeholder'):replace_ingredient('advanced-circuit','engine-unit')
+RECIPE('hydrocyclone-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
+RECIPE('thickener-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
 RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
 RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-circuit')
 RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
 RECIPE('kmauts-ration'):remove_ingredient("organics"):add_ingredient({type = "item", name = "skin", amount = 25})
 RECIPE('fawogae-plantation-mk03'):replace_ingredient('treated-wood', 'fiberboard')
-RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('basic-electronics')
+RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('placeholder')
 RECIPE('kmauts-ration'):remove_ingredient("ralesia"):add_ingredient({type = "item", name = "blood-meal", amount = 5})
 
 RECIPE("accumulator-mk02"):remove_ingredient("battery"):add_ingredient({type = 'item', name = 're-magnet', amount = 10}):add_ingredient({type = 'item', name = 'sc-coil', amount = 10}):remove_unlock('coal-processing-3'):remove_unlock('electric-energy-accumulators'):add_unlock('advanced-electronics')
@@ -78,20 +98,7 @@ RECIPE('quantum-computer'):replace_ingredient('pipe', 'niobium-pipe')
 RECIPE('pulp-mill-mk03'):replace_ingredient('pipe', 'niobium-pipe')
 RECIPE('construction-robot-ht'):replace_ingredient('construction-robot', 'py-construction-robot-01')
 RECIPE('logistic-robot-ht'):replace_ingredient('logistic-robot', 'py-logistic-robot-01')
-
-TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('production-science-pack'):remove_pack('chemical-science-pack')
-TECHNOLOGY('electric-engine'):remove_prereq('advanced-electronics')
-TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
-TECHNOLOGY('modules'):remove_prereq('advanced-electronics'):add_prereq('methanol-processing-2')
-
-
 RECIPE("utility-science-pack"):remove_unlock('utility-science-pack')
-TECHNOLOGY('utility-science-pack'):remove_prereq('robotics'):remove_prereq('advanced-electronics-2'):remove_prereq('low-density-structure')
-TECHNOLOGY('military-4'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
-TECHNOLOGY('rocket-control-unit'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
-TECHNOLOGY('logistic-system'):remove_prereq('utility-science-pack')
-TECHNOLOGY('fusion-reactor-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
-TECHNOLOGY('personal-roboport-mk2-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
 
 ITEM('utility-science-pack', 'tool'):set('icon', '__pyhightechgraphics__/graphics/icons/high-tech-science-pack.png')
 ITEM('utility-science-pack', 'tool'):set('icon_size', 32)
@@ -387,3 +394,16 @@ local recipes_list =
 FUN.productivity(recipes_list)
 
 data.raw['assembling-machine']['centrifuge'].working_visualisations = nil
+
+if data.data_crawler then
+  if mods['pypetroleumhandling'] then
+    data.script_enabled = {
+      {type = "entity", name = "crash-site-assembling-machine-1-repaired"},
+      {type = "entity", name = "tar-patch"}
+    }
+  else
+    data.script_enabled = {
+      {type = "entity", name = "crash-site-assembling-machine-1-repaired"}
+    }
+  end
+end

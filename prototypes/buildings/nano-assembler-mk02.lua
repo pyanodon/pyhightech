@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {"nano-assembler-mk02", 1}
     }
-}:add_unlock("advanced-electronics")
+}:add_unlock('placeholder')
 
 ITEM {
     type = "item",

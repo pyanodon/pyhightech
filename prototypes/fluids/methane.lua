@@ -1,49 +1,34 @@
 RECIPE {
     type = "recipe",
-    name = "methane",
+    name = "methane-co2",
     category = "moon",
-    enabled = true,
-    energy_required = 20,
+    enabled = false,
+    energy_required = 15,
     ingredients = {
-        {type = "fluid", name = "water", amount = 100}
+        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "carbon-dioxide", amount = 100},
     },
     results = {
-        {type = "fluid", name = "methane", amount = 30}
+        {type = "fluid", name = "methane", amount = 40}
     },
     main_product = "methane",
-}
+}:add_unlock('moondrop')
 
 RECIPE {
     type = "recipe",
     name = "methane-py-fertilizer",
     category = "moon",
-    enabled = true,
+    enabled = false,
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "water", amount = 100},
         {type = "item", name = "py-fertilizer", amount = 1},
     },
     results = {
-        {type = "fluid", name = "methane", amount = 50}
+        {type = "fluid", name = "methane", amount = 80}
     },
     main_product = "methane",
-}
-
-RECIPE {
-    type = "recipe",
-    name = "methane-co2",
-    category = "moon",
-    enabled = true,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "water", amount = 100},
-        {type = "fluid", name = "carbon-dioxide", amount = 100},
-    },
-    results = {
-        {type = "fluid", name = "methane", amount = 30}
-    },
-    main_product = "methane",
-}
+}:add_unlock('placeholder')
 
 FLUID {
     type = "fluid",

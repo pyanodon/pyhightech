@@ -14,7 +14,7 @@ RECIPE {
 		{type = "fluid", name = "phosphine-gas", amount = 10},
     },
     main_product = "phosphine-gas",
-}:add_unlock("basic-electronics")
+}:add_unlock("placeholder")
 
 
 FLUID {

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/rare-earth-tech.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"basic-electronics"},
+    prerequisites = {"crusher", "separation", "coal-processing-2"},
     effects = {},
     unit = {
         count = 50,

@@ -20,7 +20,7 @@ RECIPE {
     type = "recipe",
     name = "pulp-mill-mk01",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"fbreactor-mk01", 1},
         {"pipe", 10},
@@ -31,7 +31,7 @@ RECIPE {
     results = {
         {"pulp-mill-mk01", 1}
     }
-}
+}:add_unlock('vacuum-tube-electronics')
 
 ITEM {
     type = "item",

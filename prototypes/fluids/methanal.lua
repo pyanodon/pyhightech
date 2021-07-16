@@ -12,7 +12,7 @@ RECIPE {
         {type = "fluid", name = "methanal", amount = 50}
     },
     main_product = "methanal",
-}:add_unlock('coal-processing-1')
+}:add_unlock('vacuum-tube-electronics')
 
 FLUID {
     type = "fluid",

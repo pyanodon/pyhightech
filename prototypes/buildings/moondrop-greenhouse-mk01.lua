@@ -2,7 +2,7 @@ RECIPE {
     type = "recipe",
     name = "moondrop-greenhouse-mk01",
     energy_required = 0.5,
-    enabled = true,
+    enabled = false,
     ingredients = {
         {"steam-engine", 1},
         {"pipe", 15},
@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {"moondrop-greenhouse-mk01", 1}
     }
-}
+}:add_unlock('moondrop')
 
 ITEM {
     type = "item",

@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "msa", amount = 100}
     },
     main_product = "msa",
-}:add_unlock("advanced-electronics")
+}:add_unlock('placeholder')
 
 FLUID {
     type = "fluid",

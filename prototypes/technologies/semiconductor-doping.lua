@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"rare-earth-tech"},
+    prerequisites = {"rare-earth-tech", "methanol-processing-1", "sulfur-processing", "mukmoux"},
     effects = {},
     unit = {
         count = 45,

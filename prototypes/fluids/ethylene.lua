@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 50}
     },
     main_product = "ethylene",
-}:add_unlock("basic-electronics"):replace_ingredient('steam', 'pressured-air')
+}:add_unlock("placeholder"):replace_ingredient('steam', 'pressured-air')
 
 FLUID {
     type = "fluid",

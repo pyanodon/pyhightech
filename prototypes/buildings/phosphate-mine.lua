@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"soil-extractormk01", 2},
-        {"automated-factory-mk01", 1},
+        --{"automated-factory-mk01", 1},
         {"iron-plate", 60},
         {"jaw-crusher", 1},
         {"electronic-circuit", 40}
@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"phosphate-mine", 1}
     }
-}:add_unlock("basic-electronics")
+}:add_unlock("placeholder")
 
 ITEM {
     type = "item",
