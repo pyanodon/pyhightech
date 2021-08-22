@@ -1994,6 +1994,7 @@ RECIPE {
         {type = 'item', name = 'sc-substrate', amount = 1},
         {type = 'item', name = 're-magnet', amount = 1},
         {type = 'item', name = 'agzn-alloy', amount = 1},
+        {type = 'item', name = 'nbti-alloy', amount = 5},
         {type = 'fluid', name = 'liquid-helium', amount = 50}
     },
     results = {
