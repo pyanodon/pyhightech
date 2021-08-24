@@ -120,6 +120,8 @@ require("prototypes/fluids/carbon-sulfide")
 require("prototypes/fluids/etching")
 require("prototypes/fluids/nitrobenzene")
 
+require('__pycoalprocessing__/prototypes/fluids/rare-earth-mud')
+
 --(( FUEL VALUES ))--
 data.raw.fluid["benzene"].fuel_value = "1MJ"
 data.raw.fluid["ethylene"].fuel_value = "1MJ"

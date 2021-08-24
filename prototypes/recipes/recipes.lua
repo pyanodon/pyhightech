@@ -1307,7 +1307,6 @@ RECIPE {
         {type = 'item', name = 'urea', amount = 10},
         {type = 'item', name = 'collagen', amount = 5},
         {type = 'fluid', name = 'bacteria-2', amount = 25},
-        {type = 'fluid', name = 'diesel', amount = 150}
     },
     results = {
         {type = 'item', name = 'biopolymer', amount = 7}

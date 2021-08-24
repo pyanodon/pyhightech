@@ -31,6 +31,17 @@ ITEM {
 
 ITEM {
     type = "item",
+    name = "rare-earth-dust",
+    icon = "__pyhightechgraphics__/graphics/icons/rare-earth-dust.png",
+    icon_size = 32,
+    flags = {},
+    subgroup = "py-items",
+    order = "a2",
+    stack_size = 400
+}
+
+ITEM {
+    type = "item",
     name = "clay",
     icon = "__pyhightechgraphics__/graphics/icons/clay.png",
 	icon_size = 32,
