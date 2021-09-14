@@ -2185,7 +2185,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'plastic2',
-    category = 'rectisol',
+    category = 'chemistry',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2196,7 +2196,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'plastic-bar', amount = 20}
     }
-}:add_unlock('placeholder'):change_category('mixer')
+}:add_unlock('placeholder')
 
 RECIPE {
     type = 'recipe',
@@ -2358,7 +2358,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'glycerol', amount = 50}
     }
-}:add_unlock('placeholder'):change_category('mixer')
+}:add_unlock('placeholder')
 
 RECIPE {
     type = 'recipe',

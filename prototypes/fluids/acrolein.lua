@@ -15,7 +15,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "acrolein2",
-    category = "mixer",
+    category = "chemistry",
     enabled = false,
     energy_required = 10,
     ingredients = {
