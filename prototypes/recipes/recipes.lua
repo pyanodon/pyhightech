@@ -855,6 +855,7 @@ RECIPE {
     energy_required = 15,
     ingredients = {
         {type = 'item', name = 'bisphenol-a', amount = 6},
+        {type = 'item', name = 'iron-plate', amount = 1},
         {type = 'fluid', name = 'ech', amount = 30}
     },
     results = {
@@ -2467,6 +2468,7 @@ RECIPE {
         {type = 'item', name = 'collagen', amount = 10},
         {type = 'item', name = 'nexelit-plate', amount = 2},
         {type = 'item', name = 'resorcinol', amount = 2},
+        {type = 'item', name = 'iron-plate', amount = 1},
         {type = 'fluid', name = 'methanal', amount = 50},
         {type = 'fluid', name = 'ech', amount = 50}
     },
