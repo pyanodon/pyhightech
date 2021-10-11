@@ -145,7 +145,7 @@ RECIPE {
     enabled = true,
     energy_required = 4,
     ingredients = {
-        {type = 'fluid', name = 'steam', amount = 100, temperature = 165}
+        {type = 'fluid', name = 'steam', amount = 100}
     },
     results = {
         {type = 'item', name = 'clay', amount = 3}
@@ -514,7 +514,7 @@ RECIPE {
     main_product = 'powdered-phosphate-rock',
     icon = '__pyhightechgraphics__/graphics/icons/crush-phosphate-rock.png',
     icon_size = 32
-}:add_unlock('placeholder')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
@@ -619,7 +619,7 @@ RECIPE {
         {type = 'item', name = 'bakelite', amount = 5}
     },
     main_product = 'bakelite'
-}:add_unlock('placeholder')
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -3373,7 +3373,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'phosphoric-acid', amount = 40}
     }
-}:add_unlock('placeholder')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',

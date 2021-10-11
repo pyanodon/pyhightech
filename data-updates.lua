@@ -1,6 +1,9 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
+--TODO:remove placeholder when done
+TECHNOLOGY("placeholder"):set_fields{enabled = true}
+
 require('prototypes/updates/pycoalprocessing-updates')
 require('prototypes/updates/pyfusionenergy-updates')
 
@@ -81,7 +84,7 @@ RECIPE('cladding'):add_ingredient({type = 'fluid', name = 'nitrobenzene', amount
 RECIPE('nas-battery'):add_ingredient({type = 'item', name = 'rayon', amount = 2})
 RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('placeholder'):replace_ingredient('advanced-circuit','engine-unit')
 RECIPE('hydrocyclone-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
-RECIPE('thickener-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
+RECIPE('thickener-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('rare-earth-tech')
 RECIPE('kicalk-plantation'):replace_ingredient('storage-tank', 'py-tank-5000')
 RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-circuit')
 RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
