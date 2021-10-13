@@ -2695,14 +2695,14 @@ RECIPE {
     enabled = false,
     energy_required = 20,
     ingredients = {
-        {type = 'item', name = 'intelligent-unit', amount = 1},
+        {type = 'item', name = 'intelligent-unit', amount = 3},
         {type = 'item', name = 'parametric-oscilator', amount = 1},
         {type = 'item', name = 'kevlar', amount = 10},
-        {type = 'item', name = 'volumetric-capacitor', amount = 1},
-        {type = 'item', name = 'nems', amount = 1},
-        {type = 'item', name = 'superconductor-servomechanims', amount = 1},
-        {type = 'item', name = 'hyperelastic-material', amount = 1},
-        {type = 'item', name = 'nano-wires', amount = 3}
+        {type = 'item', name = 'volumetric-capacitor', amount = 3},
+        {type = 'item', name = 'nems', amount = 2},
+        {type = 'item', name = 'superconductor-servomechanims', amount = 2},
+        {type = 'item', name = 'hyperelastic-material', amount = 3},
+        {type = 'item', name = 'nano-wires', amount = 5}
     },
     results = {
         {type = 'item', name = 'utility-science-pack', amount = 3}
