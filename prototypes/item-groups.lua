@@ -142,3 +142,14 @@ data:extend {
         order = "c"
     },
 }
+
+if not mods['pyindustry'] then
+    data:extend{
+        {
+            type = "item-subgroup",
+            name = "py-trains",
+            group = "py-hightech",
+            order = "u"
+        }
+    }
+end
