@@ -3,7 +3,7 @@ TECHNOLOGY {
     name = "intergrated-circuits-1",
     icon = "__base__/graphics/technology/electronics.png",
     icon_size = 256,
-    icon_mipmaps = 4,
+
     order = "c-a",
     prerequisites = {"semiconductor-doping", "lubricant"},
     effects = {},
@@ -22,7 +22,7 @@ TECHNOLOGY {
     name = "intergrated-circuits-2",
     icon = "__base__/graphics/technology/advanced-electronics.png",
     icon_size = 256,
-    icon_mipmaps = 4,
+
     order = "c-a",
     prerequisites = {"intergrated-circuits-1"},
     effects = {},
@@ -42,7 +42,7 @@ TECHNOLOGY {
     name = "intergrated-circuits-3",
     icon = "__base__/graphics/technology/advanced-electronics-2.png",
     icon_size = 256,
-    icon_mipmaps = 4,
+
     order = "c-a",
     prerequisites = {"intergrated-circuits-2"},
     effects = {},

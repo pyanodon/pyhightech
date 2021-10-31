@@ -14,14 +14,14 @@ ITEM {
     name = "rare-earth-ore",
     icon = "__pyhightechgraphics__/graphics/icons/mip/re-01.png",
     icon_size = 64,
-    icon_mipmaps = 5,
+
     pictures =
     {
-      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-01.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-02.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-03.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-04.png",   scale = 0.25, mipmap_count = 1 },
-      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-05.png",   scale = 0.25, mipmap_count = 1 },
+      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-01.png",   scale = 0.25},
+      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-02.png",   scale = 0.25},
+      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-03.png",   scale = 0.25},
+      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-04.png",   scale = 0.25},
+      { size = 64, filename = "__pyhightechgraphics__/graphics/icons/mip/re-05.png",   scale = 0.25},
     },
     flags = {},
     subgroup = "py-hightech-ores",
