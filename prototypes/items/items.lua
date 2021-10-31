@@ -744,6 +744,7 @@ ITEM {
     order = "b",
     stack_size = 300
 }
+
 ITEM {
     type = "item",
     name = "raw-fiber",
@@ -768,6 +769,7 @@ ITEM {
     order = "h",
     stack_size = 200
 }
+
 ITEM {
     type = "item",
     name = "micro-fiber",
