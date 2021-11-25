@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "acrolein",
-    category = "advanced-foundry",
+    category = "evaporator",
     enabled = false,
     energy_required = 15,
     ingredients = {
