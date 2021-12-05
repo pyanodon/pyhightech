@@ -3295,7 +3295,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'dried-meat', amount = 5}
     }
-}:add_unlock('placeholder')
+}:add_unlock('placeholder')--update pyal to hide this version
 
 RECIPE {
     type = 'recipe',
