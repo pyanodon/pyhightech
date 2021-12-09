@@ -7,7 +7,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"steel-plate", 60},
-        {"gasturbinemk01", 1},
+        {"evaporator", 1},
         {"plastic-bar", 100},
         {"advanced-circuit", 20},
         {"nbfe-alloy", 50},
