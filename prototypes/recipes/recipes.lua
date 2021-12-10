@@ -142,7 +142,7 @@ RECIPE {
     name = 'clay',
     category = 'clay',
     hidden = true,
-    enabled = true,
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = 'fluid', name = 'steam', amount = 100}
@@ -3474,7 +3474,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'phosporic-acid2',
-    category = 'chemistry',
+    category = 'bio-reactor',
     enabled = false,
     energy_required = 5,
     ingredients = {
