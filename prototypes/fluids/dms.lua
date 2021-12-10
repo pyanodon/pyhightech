@@ -28,8 +28,6 @@ FLUID {
     flow_color = {r = 0.913, g = 0.878, b = 0.0},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-hightech-fluids",
     order = "z"
 }

@@ -23,8 +23,6 @@ FLUID {
     flow_color = {r = 0.317, g = 0.6, b = 0.764},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-hightech-aerogel",
     order = "c"
 }

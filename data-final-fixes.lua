@@ -32,7 +32,7 @@ for i, item in pairs(data.raw.item) do
             },
             main_product = 'blackhole-fuel',
             hidden = true,
-            hidden_from_flow_stats = false
+            hide_from_stats = false
         }
     end
 end
