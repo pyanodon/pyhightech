@@ -5,6 +5,8 @@ require("prototypes/recipe-categories")
 
 require("prototypes/pipes/ht-pipes")
 
+require("prototypes/tmp")
+
 --(( Technology ))--
 require("prototypes/technologies/vacuum-tube-electronics")
 require("prototypes/technologies/basic-electronics")

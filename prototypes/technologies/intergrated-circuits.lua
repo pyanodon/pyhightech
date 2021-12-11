@@ -5,7 +5,7 @@ TECHNOLOGY {
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"semiconductor-doping", "lubricant"},
+    prerequisites = {"semiconductor-doping", "nylon"},
     effects = {},
     unit = {
         count = 55,
@@ -24,7 +24,7 @@ TECHNOLOGY {
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"intergrated-circuits-1"},
+    prerequisites = {"semiconductor-doping-2", "graphene", "phosphate-glass", "msa", "battery"},
     effects = {},
     unit = {
         count = 55,
@@ -44,7 +44,7 @@ TECHNOLOGY {
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"intergrated-circuits-2"},
+    prerequisites = {"production-science-pack"},
     effects = {},
     unit = {
         count = 55,

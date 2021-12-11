@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"clay-pit-mk03", 1}
     }
-}:add_unlock("graphene")
+}:add_unlock("placeholder")
 
 ITEM {
     type = "item",

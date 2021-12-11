@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "carbon-sulfide", amount = 60}
     },
-}:add_unlock("placeholder")
+}
 
 FLUID {
     type = "fluid",

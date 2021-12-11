@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "syngas", amount = 60},
-        {type = "fluid", name = "steam", amount = 200, temperature = 165},
+        {type = "fluid", name = "steam", amount = 200},
         {type = "item", name = "iron-plate", amount = 4}
     },
     results = {
@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 50}
     },
     main_product = "propene",
-}:add_unlock("placeholder")
+}
 
 FLUID {
     type = "fluid",

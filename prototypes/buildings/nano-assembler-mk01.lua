@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"nano-assembler-mk01", 1}
     }
-}:add_unlock("placeholder")
+}:add_unlock("graphene")
 
 ITEM {
     type = "item",

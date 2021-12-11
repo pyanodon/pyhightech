@@ -16,7 +16,7 @@ RECIPE {
         {type = "fluid", name = "dms", amount = 25}
     },
     main_product = "dms",
-}:add_unlock("placeholder")
+}
 
 FLUID {
     type = "fluid",

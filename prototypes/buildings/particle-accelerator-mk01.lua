@@ -4,11 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"stone-brick", 100},
-        {"advanced-circuit", 50},
+        {"concrete", 100},
         {"gasturbinemk02", 2},
         {"agitator-mk01", 1},
-        {"engine-unit", 20},
+        {"niobium-plate", 15},
+        {"superconductor", 10},
+        {"electric-engine-unit", 2},
+        {"processing-unit", 10},
+        {"plastic-bar", 100},
+        {"graphene-roll", 40},
     },
     results = {
         {"particle-accelerator-mk01", 1}

@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "nitrobenzene", amount = 100}
     },
-}:add_unlock("sulfur-processing")
+}
 
 FLUID {
     type = "fluid",

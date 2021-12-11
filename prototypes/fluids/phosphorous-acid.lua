@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "phosphorous-acid", amount = 50}
     },
     main_product = "phosphorous-acid",
-}:add_unlock("semiconductor-doping")
+}
 
 FLUID {
     type = "fluid",
