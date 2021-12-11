@@ -23,7 +23,7 @@ RECIPE {
     results = {
         {"pcb-factory-mk02", 1}
     }
-}:add_unlock("basic-electronics")
+}:add_unlock("placeholder")
 
 ITEM {
     type = "item",

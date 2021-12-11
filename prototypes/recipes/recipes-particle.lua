@@ -221,7 +221,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("molybdenum-processing")
+}:add_unlock("nucleo")
 
 RECIPE {
     type = "recipe",
@@ -246,7 +246,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("vanadium-processing")
+}:add_unlock("nucleo")
 
 RECIPE {
     type = "recipe",
@@ -321,7 +321,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("diamond-mining")
+}:add_unlock("nucleo")
 
 RECIPE {
     type = "recipe",
@@ -344,4 +344,4 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("fusion-mk02")
+}:add_unlock("nucleo")

@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"nano-assembler-mk04", 1}
     }
-}:add_unlock("penrose")
+}:add_unlock("placeholder")
 
 ITEM {
     type = "item",

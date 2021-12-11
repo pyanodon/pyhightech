@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/vacuum-tube-electronics.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"wood-processing", "auog", "kicalk", "moondrop", "automation"},
+    prerequisites = {"auog", "kicalk", "moondrop"},
     effects = {},
     unit = {
         count = 55,

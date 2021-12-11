@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"particle-accelerator-mk04", 1}
     }
-}:add_unlock("penrose")
+}--:add_unlock("penrose")
 
 ITEM {
     type = "item",

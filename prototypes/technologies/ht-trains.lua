@@ -4,13 +4,15 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/ht-trains.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"basic-electronics","nucleo","semiconductor-doping"},
+    prerequisites = {"nucleo"},
     effects = {},
     unit = {
         count = 150,
         ingredients = {
             {"automation-science-pack", 1},
-            {"logistic-science-pack", 1}
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"production-science-pack", 1}
         },
         time = 45
     }

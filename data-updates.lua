@@ -16,24 +16,26 @@ if mods['pyrawores'] then
     require('prototypes/updates/pyrawores-updates')
 end
 
+require('prototypes/tmp-update')
+
 --RECIPE CHANGES
-RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('placeholder')
-RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('mixer-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
-RECIPE('compressor-mk01'):remove_unlock('regolite-mining'):add_unlock('placeholder')
-RECIPE('ferrite'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('boron-carbide'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('sc-coil'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('sc-wire'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('coil-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('magnetic-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('deposited-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('sc-unit'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('boron'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('boron-mixture'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('b2o3-milling'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
-RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('placeholder')
-RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('placeholder')
+-- RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('placeholder')
+-- RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('mixer-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
+-- RECIPE('compressor-mk01'):remove_unlock('regolite-mining'):add_unlock('placeholder')
+-- RECIPE('ferrite'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('boron-carbide'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('sc-coil'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('sc-wire'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('coil-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('magnetic-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('deposited-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('sc-unit'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('boron'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('boron-mixture'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('b2o3-milling'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
+-- RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('placeholder')
+-- RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('placeholder')
 
 
 for _, player in DATA:pairs('character') do

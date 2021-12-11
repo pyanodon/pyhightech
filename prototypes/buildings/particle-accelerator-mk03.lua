@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"particle-accelerator-mk03", 1}
     }
-}:add_unlock("nano-tech")
+}--:add_unlock("nano-tech")
 
 ITEM {
     type = "item",

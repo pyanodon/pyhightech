@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"phosphate-mine", 1}
     }
-}:add_unlock("placeholder")
+}
 
 ITEM {
     type = "item",
