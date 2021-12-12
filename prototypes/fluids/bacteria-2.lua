@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "bacteria-2", amount = 100}
     },
     main_product = "bacteria-2",
-}:add_unlock("nano-tech")
+}
 
 FLUID {
     type = "fluid",

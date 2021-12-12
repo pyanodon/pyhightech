@@ -1234,7 +1234,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'capacitor-termination',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1245,7 +1245,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor-termination', amount = 2}
     }
-}:add_unlock('placeholder'):change_category('gas-separator')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1296,7 +1296,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'carbon-dust', amount = 10}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1313,7 +1313,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'biopolymer', amount = 7}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1331,7 +1331,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'carbon-nanotube', amount = 2}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1574,7 +1574,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'micro-fiber', amount = 2}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1669,7 +1669,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'sub-denier-microfiber', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1797,7 +1797,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'paradiamatic-resistor', amount = 1}
     }
-}:add_unlock('placeholder')
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -1826,7 +1826,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'dry-ralesia', amount = 5}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1842,7 +1842,7 @@ RECIPE {
     },
     icon = '__pyhightechgraphics__/graphics/icons/recrush-dry-ralesia.png',
     icon_size = 32
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1858,7 +1858,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zinc-nanocompound', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1879,7 +1879,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b7'
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1894,7 +1894,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zno-nanoparticles', amount = 5}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1983,7 +1983,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'sc-substrate', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2001,7 +2001,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'superconductor', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2055,7 +2055,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'supercapacitor-core', amount = 1}
     }
-}:add_unlock('aerogel')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2073,7 +2073,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'supercapacitor-shell', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2088,7 +2088,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'supercapacitor', amount = 2}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2457,7 +2457,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'collagen', amount = 4}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2494,7 +2494,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'resilin', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2512,7 +2512,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'hyperelastic-material', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2528,7 +2528,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nano-wires', amount = 5}
     }
-}:add_unlock('nano-tech'):change_category('gas-separator')
+}:change_category('gas-separator')
 
 RECIPE {
     type = 'recipe',
@@ -2582,7 +2582,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nems', amount = 5}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2598,7 +2598,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'lithium-chloride', amount = 3}
     }
-}:add_unlock('placeholder'):change_category('mixer')
+}:add_unlock('earnshaw-theorem'):change_category('mixer')
 
 RECIPE {
     type = 'recipe',
@@ -2616,7 +2616,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'volumetric-capacitor', amount = 1}
     }
-}:add_unlock('aerogel'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 150})
+}:add_unlock('earnshaw-theorem'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 150})
 
 RECIPE {
     type = 'recipe',
@@ -2708,7 +2708,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'utility-science-pack', amount = 3}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2813,7 +2813,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-zipir',
     order = 'h'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2831,7 +2831,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'paramagnetic-material', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',

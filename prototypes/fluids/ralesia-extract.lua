@@ -11,7 +11,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "ralesia-extract", amount = 100}
     },
-}:add_unlock("nano-tech")
+}
 
 FLUID {
     type = "fluid",

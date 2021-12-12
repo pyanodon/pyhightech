@@ -10,7 +10,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "acrolein", amount = 50}
     },
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = "recipe",
@@ -27,7 +27,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 30},
     },
     main_product = "acrolein",
-}:add_unlock('placeholder')
+}
 
 FLUID {
     type = "fluid",

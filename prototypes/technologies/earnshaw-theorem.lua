@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/earnshaw-theorem.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"nucleo"},
+    prerequisites = {"sub-denier-microfiber", "nems"},
     effects = {},
     unit = {
         count = 150,
