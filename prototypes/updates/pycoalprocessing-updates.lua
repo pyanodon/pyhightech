@@ -2,6 +2,9 @@
 TECHNOLOGY('mukmoux'):remove_prereq('advanced-electronics')
 TECHNOLOGY('fluid-separation'):remove_prereq('mukmoux')
 TECHNOLOGY('fuel-production'):remove_prereq('lubricant')
+TECHNOLOGY('energy-2'):remove_prereq('advanced-electronics'):remove_prereq('coal-processing-2'):add_prereq('basic-electronics')
+TECHNOLOGY('energy-3'):remove_prereq('fuel-production'):remove_prereq('advanced-material-processing-2'):add_prereq('advanced-electronics')
+
 
 -- RECIPE UNLOCKS
 RECIPE('automated-factory-mk01'):remove_unlock('advanced-electronics'):add_unlock('basic-electronics')

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/nucleosyntesis.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"production-science-pack", "rayon", "boron-2", "energy-2"},
+    prerequisites = {"advanced-electronics", "superconductor"},
     effects = {},
     unit = {
         count = 200,

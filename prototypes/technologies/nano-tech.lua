@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = '__pyhightechgraphics__/graphics/technology/nano-tech.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"production-science-pack"},
+    prerequisites = {"sub-denier-microfiber", "carbon-nanotube", "zno-nanoparticles", "supercapacitor", "paramagnetic-material", "crco-alloy"},
     effects = {},
     unit = {
         count = 100,

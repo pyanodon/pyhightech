@@ -1,4 +1,3 @@
-TECHNOLOGY("niobium"):add_prereq("vacuum-tube-electronics")
 TECHNOLOGY("battery"):add_prereq("rayon"):remove_prereq("sulfur-processing")
 TECHNOLOGY("fine-electronics"):remove_prereq("sulfur-processing"):remove_prereq("niobium"):remove_prereq("plastics"):add_prereq("nitrobenzene"):add_prereq("nylon")
 TECHNOLOGY("sulfur-processing"):add_prereq("advanced-fluid-processing")
