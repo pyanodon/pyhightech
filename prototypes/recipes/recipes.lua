@@ -1273,7 +1273,7 @@ RECIPE {
         {type = 'item', name = 'resistor3', amount = 3},
         {type = 'item', name = 'inductor3', amount = 3},
         {type = 'item', name = 'capacitor3', amount = 3},
-        {type = 'item', name = 'microchip', amount = 3},
+        {type = 'item', name = 'microchip', amount = 10},
         {type = 'item', name = 'optical-fiber', amount = 3},
         {type = 'item', name = 'processor', amount = 1},
         {type = 'item', name = 'diode3', amount = 5}
@@ -2123,7 +2123,7 @@ RECIPE {
         {type = 'item', name = 'optical-fiber', amount = 8},
         {type = 'item', name = 'supercapacitor', amount = 1},
         {type = 'item', name = 'paradiamatic-resistor', amount = 1},
-        {type = 'item', name = 'nanochip', amount = 1},
+        {type = 'item', name = 'nanochip', amount = 2},
         {type = 'item', name = 'fault-current-inductor', amount = 1}
     },
     results = {
