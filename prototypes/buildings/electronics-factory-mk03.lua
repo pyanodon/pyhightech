@@ -8,13 +8,13 @@ RECIPE {
         {"processing-unit", 20},
         {"concrete", 20},
         {"engine-unit", 10},
-        {"biopolymer", 15},
+        {"low-density-structure", 15},
         {"graphene-roll", 40},
     },
     results = {
         {"electronics-factory-mk03", 1}
     }
-}:add_unlock("placeholder")
+}:add_unlock("electronics-machines-2")
 
 ITEM {
     type = "item",

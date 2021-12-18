@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "methane", amount = 50},
-        {type = "fluid", name = "steam", amount = 200, temperature = 165},
+        {type = "fluid", name = "pressured-air", amount = 200},
         {type = "item", name = "iron-oxide", amount = 2}
     },
     results = {
@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 50}
     },
     main_product = "ethylene",
-}:add_unlock("placeholder"):replace_ingredient('steam', 'pressured-air')
+}
 
 FLUID {
     type = "fluid",

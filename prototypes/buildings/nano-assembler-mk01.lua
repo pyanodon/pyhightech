@@ -5,10 +5,13 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"automated-factory-mk01", 1},
-        {"advanced-circuit", 15},
-        {"niobium-plate", 20},
+        {"nexelit-plate", 20},
+        {"concrete", 60},
+        {"steel-plate", 40},
+        {"plastic-bar", 10},
+        {"advanced-circuit", 10},
         {"iron-gear-wheel", 30},
-        {"iron-plate", 40}
+        
     },
     results = {
         {"nano-assembler-mk01", 1}

@@ -28,7 +28,7 @@ RECIPE {
         {type = "fluid", name = "methane", amount = 80}
     },
     main_product = "methane",
-}:add_unlock('placeholder')
+}
 
 FLUID {
     type = "fluid",

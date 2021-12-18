@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"fbreactor-mk02", 1},
-        {"niobium-plate", 15},
+        {"low-density-structure", 15},
         {"electric-engine-unit", 2},
         {"processing-unit", 10},
         {"plastic-bar", 100},
@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"fbreactor-mk03", 1}
     }
-}:add_unlock("placeholder")
+}:add_unlock("electronics-machines-2")
 
 ITEM {
     type = "item",

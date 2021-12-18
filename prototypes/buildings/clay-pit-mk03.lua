@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"clay-pit-mk02", 1},
-        {"niobium-plate", 10},
+        {"low-density-structure", 10},
         {"processing-unit", 15},
         {"concrete", 40},
         {"engine-unit", 10},
@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"clay-pit-mk03", 1}
     }
-}:add_unlock("placeholder")
+}:add_unlock("electronics-machines-2")
 
 ITEM {
     type = "item",

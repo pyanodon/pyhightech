@@ -27,14 +27,14 @@ RECIPE {
         {"heavy-fermion", 50},
         {"volumetric-capacitor", 20},
         {"intelligent-unit", 20},
-        {"low-density-structure", 50},
+        {"biopolymer", 50},
         {"electric-engine-unit", 50},
-        {"nbfe-alloy", 50},
+        {"super-alloy", 50},
     },
     results = {
         {"pulp-mill-mk04", 1}
     }
-}:add_unlock("placeholder")
+}:add_unlock("electronics-machines-3")
 
 ITEM {
     type = "item",

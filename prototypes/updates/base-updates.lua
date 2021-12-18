@@ -2,10 +2,10 @@
 TECHNOLOGY('automation-2'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
 TECHNOLOGY('fast-inserter'):remove_prereq('electronics'):remove_prereq('automation'):add_prereq('vacuum-tube-electronics')
 TECHNOLOGY('solar-energy'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
--- TECHNOLOGY('electric-energy-distribution-1'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
--- TECHNOLOGY('circuit-network'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+--TECHNOLOGY('electric-energy-distribution-1'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
+TECHNOLOGY('circuit-network'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
 TECHNOLOGY('advanced-electronics'):remove_prereq('electronics'):remove_prereq('plastics'):remove_prereq('fast-inserter'):add_pack('chemical-science-pack')
-TECHNOLOGY('advanced-electronics'):add_prereq('magnetic-core'):add_prereq("intergrated-circuits-2")
+TECHNOLOGY('advanced-electronics'):add_prereq('magnetic-core'):add_prereq("integrated-circuits-2")
 TECHNOLOGY('advanced-electronics'):set_field{icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics.png"}:set_field{ icon_size = 128}
 TECHNOLOGY('electronics'):set_field{hidden = true}:set_field{enabled=false}
 TECHNOLOGY('chemical-science-pack'):remove_prereq('advanced-electronics'):add_prereq('basic-electronics')
@@ -13,13 +13,12 @@ TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('p
 TECHNOLOGY('electric-engine'):remove_prereq('chemical-science-pack'):remove_pack('chemical-science-pack')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
 TECHNOLOGY('modules'):remove_prereq('advanced-electronics'):add_prereq('basic-electronics')
---TECHNOLOGY('utility-science-pack'):remove_prereq('robotics'):remove_prereq('advanced-electronics-2'):remove_prereq('low-density-structure')
-TECHNOLOGY('utility-science-pack'):remove_prereq('automation-3'):add_prereq('nano-tech'):add_prereq('earnshaw-theorem')
--- TECHNOLOGY('military-4'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
--- TECHNOLOGY('rocket-control-unit'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
--- TECHNOLOGY('logistic-system'):remove_prereq('utility-science-pack')
--- TECHNOLOGY('fusion-reactor-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
--- TECHNOLOGY('personal-roboport-mk2-equipment'):remove_prereq('utility-science-pack'):add_prereq('nano-tech')
+TECHNOLOGY('utility-science-pack'):remove_prereq('automation-3'):remove_prereq('destroyer'):remove_prereq('kovarex-enrichment-process')
+TECHNOLOGY('utility-science-pack'):add_prereq('nano-tech'):add_prereq('earnshaw-theorem'):add_prereq('parametric-oscilator')
+TECHNOLOGY('military-4'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack'):add_prereq('production-science-pack'):add_prereq('military-3')
+TECHNOLOGY('rocket-control-unit'):add_prereq('speed-module')
+TECHNOLOGY('personal-roboport-mk2-equipment'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack')
+TECHNOLOGY('personal-roboport-mk2-equipment'):add_prereq('production-science-pack'):add_prereq('military-science-pack'):add_prereq('low-density-structure'):add_prereq('advanced-electronics')
 TECHNOLOGY('logistics-2'):remove_prereq('advanced-electronics'):remove_prereq('niobium'):remove_prereq('lubricant'):add_prereq('basic-electronics')
 TECHNOLOGY('explosives'):remove_prereq('mukmoux')
 TECHNOLOGY('robotics'):remove_prereq('electric-engine'):add_prereq('chemical-science-pack')
@@ -35,11 +34,16 @@ TECHNOLOGY('productivity-module-2'):add_prereq('advanced-electronics')
 TECHNOLOGY('speed-module-3'):remove_prereq('production-science-pack'):add_prereq('nano-tech')
 TECHNOLOGY('effectivity-module-3'):remove_prereq('production-science-pack'):add_prereq('nano-tech')
 TECHNOLOGY('productivity-module-3'):remove_prereq('production-science-pack'):add_prereq('nano-tech')
-TECHNOLOGY('rocket-silo'):remove_prereq('super-alloy')
+TECHNOLOGY('rocket-silo'):remove_prereq('super-alloy'):add_prereq('rocket-fuel')
+TECHNOLOGY('power-armor-mk2'):add_prereq('utility-science-pack')
+TECHNOLOGY('artillery'):add_prereq('utility-science-pack')
+TECHNOLOGY('uranium-ammo'):add_prereq('utility-science-pack')
+TECHNOLOGY('plastics'):remove_prereq('logistic-science-pack'):add_prereq('melamine')
 
 
 -- RECIPE UNLOCKS
 -- RECIPE("utility-science-pack"):remove_unlock('utility-science-pack')
+RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('kicalk-2')
 
 
 -- RECIPE CHANGES
