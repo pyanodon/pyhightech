@@ -26,7 +26,7 @@ TECHNOLOGY {
     icon = "__pycoalprocessinggraphics__/graphics/icons/biofilm.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"chemical-science-pack"},
+    prerequisites = {"chemical-science-pack", "rayon"},
     effects = {
         {type = "unlock-recipe", recipe = "biofilm"}
     },
