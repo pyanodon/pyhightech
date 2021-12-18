@@ -961,9 +961,9 @@ RECIPE {
     enabled = false,
     energy_required = 8,
     ingredients = {
-        {type = 'item', name = 'heavy-p-type', amount = 3},
-        {type = 'item', name = 'light-n', amount = 3},
-        {type = 'item', name = 'heavy-n', amount = 3}
+        {type = 'item', name = 'heavy-p-type', amount = 5},
+        {type = 'item', name = 'light-n', amount = 5},
+        {type = 'item', name = 'heavy-n', amount = 5}
     },
     results = {
         {type = 'item', name = 'processor-core', amount = 1}
@@ -984,7 +984,7 @@ RECIPE {
         {type = 'item', name = 'nexelit-plate', amount = 5}
     },
     results = {
-        {type = 'item', name = 'heavy-p-type', amount = 10}
+        {type = 'item', name = 'heavy-p-type', amount = 5}
     },
     main_product = 'heavy-p-type'
 }:add_unlock('semiconductor-doping-2')
@@ -1274,7 +1274,7 @@ RECIPE {
         {type = 'item', name = 'resistor3', amount = 3},
         {type = 'item', name = 'inductor3', amount = 3},
         {type = 'item', name = 'capacitor3', amount = 3},
-        {type = 'item', name = 'microchip', amount = 3},
+        {type = 'item', name = 'microchip', amount = 10},
         {type = 'item', name = 'optical-fiber', amount = 3},
         {type = 'item', name = 'processor', amount = 1},
         {type = 'item', name = 'diode3', amount = 5}
@@ -1388,8 +1388,8 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'carbon-nanotube', amount = 1},
-        {type = 'item', name = 'heavy-p-type', amount = 2},
-        {type = 'item', name = 'light-n', amount = 2},
+        {type = 'item', name = 'heavy-p-type', amount = 5},
+        {type = 'item', name = 'light-n', amount = 20},
         {type = 'item', name = 'graphene-roll', amount = 4},
         {type = 'fluid', name = 'helium', amount = 20},
         {type = 'item', name = 'optical-fiber', amount = 2}
@@ -2124,7 +2124,7 @@ RECIPE {
         {type = 'item', name = 'optical-fiber', amount = 8},
         {type = 'item', name = 'supercapacitor', amount = 1},
         {type = 'item', name = 'paradiamatic-resistor', amount = 1},
-        {type = 'item', name = 'nanochip', amount = 1},
+        {type = 'item', name = 'nanochip', amount = 2},
         {type = 'item', name = 'fault-current-inductor', amount = 1}
     },
     results = {
