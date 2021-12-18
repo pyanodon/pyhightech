@@ -1,4 +1,5 @@
 -- TECH CHANGES
+TECHNOLOGY("rayon"):remove_prereq("kicalk-2")
 
 
 -- RECIPE UNLOCKS
