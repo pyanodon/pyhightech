@@ -46,7 +46,7 @@ ENTITY {
   max_health = 100,
   collision_box = {{0, 0}, {0, 0}},
   selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
-  max_payload_size = 5,
+  max_payload_size = 6,
   speed = 0.13,
   transfer_distance = 0.5,
   max_energy = "1.8MJ",
