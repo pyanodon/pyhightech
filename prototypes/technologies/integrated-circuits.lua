@@ -1,6 +1,6 @@
 TECHNOLOGY {
     type = "technology",
-    name = "intergrated-circuits-1",
+    name = "integrated-circuits-1",
     icon = "__base__/graphics/technology/electronics.png",
     icon_size = 256,
 
@@ -19,7 +19,7 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = "technology",
-    name = "intergrated-circuits-2",
+    name = "integrated-circuits-2",
     icon = "__base__/graphics/technology/advanced-electronics.png",
     icon_size = 256,
 
@@ -39,12 +39,12 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = "technology",
-    name = "intergrated-circuits-3",
+    name = "integrated-circuits-3",
     icon = "__base__/graphics/technology/advanced-electronics-2.png",
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"production-science-pack"},
+    prerequisites = {"integrated-circuits-2", "sub-denier-microfiber", "heavy-fermion", "sc-unit", "colloidal-silica", "biopolymer", "zno-nanoparticles"},
     effects = {},
     unit = {
         count = 55,

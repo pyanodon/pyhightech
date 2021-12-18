@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"electronics-factory-mk03", 1},
-        {"low-density-structure", 30},
+        {"biopolymer", 30},
         {"electric-engine-unit", 5},
-        {"nbfe-alloy", 30},
+        {"super-alloy", 30},
         {"intelligent-unit", 10},
         {"superconductor-servomechanims", 10},
         {"hyperelastic-material", 15},
@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {"electronics-factory-mk04", 1}
     }
-}:add_unlock("placeholder")
+}:add_unlock("electronics-machines-3")
 
 ITEM {
     type = "item",

@@ -5,16 +5,16 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"particle-accelerator-mk02", 1},
-        {"low-density-structure", 50},
-        {"electric-engine-unit", 50},
-        {"nbfe-alloy", 50},
         {"intelligent-unit", 20},
         {"hyperelastic-material", 25},
+        {"superconductor-servomechanims", 20},
+        {"heavy-fermion", 50},
+        {"volumetric-capacitor", 20},
     },
     results = {
         {"particle-accelerator-mk03", 1}
     }
-}--:add_unlock("nano-tech")
+}:add_unlock("electronics-machines-3")
 
 ITEM {
     type = "item",

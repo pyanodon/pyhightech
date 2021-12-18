@@ -5,6 +5,7 @@ TECHNOLOGY('helium-processing'):remove_prereq('fuel-production'):add_prereq('sem
 TECHNOLOGY('sc-unit'):add_prereq('re-tin'):add_prereq('ndfeb-alloy'):add_prereq('graphene')
 TECHNOLOGY('ethanolamine'):remove_prereq('energy-2'):remove_prereq('super-alloy'):add_prereq('bio-machines')
 TECHNOLOGY('fusion-mk01'):remove_prereq('boron-2')
+TECHNOLOGY('filtration'):add_prereq('zipir')
 
 
 -- RECIPE UNLOCKS
@@ -12,13 +13,13 @@ RECIPE('vacuum'):remove_unlock('advanced-mining-facilities'):add_unlock('vacuum-
 RECIPE('vacuum-pump-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('vacuum-tube-electronics')
 RECIPE('centrifugal-pan-mk01'):remove_unlock('diamond-mining')
 RECIPE('gas-separator-mk01'):remove_unlock('sc-unit'):remove_unlock('helium-processing-2')
-RECIPE('pressured-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
+RECIPE('pressured-air'):remove_unlock('helium-processing')
 RECIPE('purified-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
 RECIPE('cool-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
 RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
 RECIPE('liquid-pure-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
 RECIPE('agitator-mk01'):remove_unlock('advanced-mining-facilities')
-RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('intergrated-circuits-1')
+RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('integrated-circuits-1')
 RECIPE('thickener-mk01'):remove_unlock('advanced-mining-facilities')
 RECIPE('pressured-water'):remove_unlock('xyhiphoe')
 RECIPE('nenbit-matrix'):remove_unlock('production-science-pack')
@@ -30,6 +31,7 @@ RECIPE('agzn-alloy'):remove_unlock('fusion-mk03')
 RECIPE('sodium-chlorate'):remove_unlock('vanadium-processing'):add_unlock('filtration-2')
 RECIPE('bio-reactor'):remove_unlock('ethanolamine')
 RECIPE('genlab-mk01'):remove_unlock('ethanolamine')
+RECIPE('calcinate-separation'):remove_unlock('regolite-mining'):add_unlock('fluid-separation')
 
 
 -- RECIPE CHANGES

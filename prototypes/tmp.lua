@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/rayon.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"sulfur-processing", "propene", "fiber"},
+    prerequisites = {"sulfur-processing", "propene", "kicalk-2"},
     effects = {
         {type = "unlock-recipe", recipe = "carbon-sulfide"},
         {type = "unlock-recipe", recipe = "rayon"}
@@ -26,7 +26,7 @@ TECHNOLOGY {
     icon = "__pycoalprocessinggraphics__/graphics/icons/biofilm.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"rayon", },
+    prerequisites = {"chemical-science-pack"},
     effects = {
         {type = "unlock-recipe", recipe = "biofilm"}
     },
@@ -34,33 +34,34 @@ TECHNOLOGY {
         count = 50,
         ingredients = {
             {"automation-science-pack", 1},
-            {"logistic-science-pack", 1}
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
         },
         time = 30
     }
 }
 
 
-TECHNOLOGY {
-    type = "technology",
-    name = "fiber",
-    icon = "__pyhightechgraphics__/graphics/icons/fiber.png",
-    icon_size = 32,
-    order = "c-a",
-    prerequisites = {"engine", "concrete", "kicalk"},
-    effects = {
-        {type = "unlock-recipe", recipe = "centrifuge"},
-        {type = "unlock-recipe", recipe = "fiber"}
-    },
-    unit = {
-        count = 50,
-        ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack", 1}
-        },
-        time = 30
-    }
-}
+-- TECHNOLOGY {
+--     type = "technology",
+--     name = "fiber",
+--     icon = "__pyhightechgraphics__/graphics/icons/fiber.png",
+--     icon_size = 32,
+--     order = "c-a",
+--     prerequisites = {"engine", "concrete", "kicalk"},
+--     effects = {
+--         {type = "unlock-recipe", recipe = "centrifuge"},
+--         {type = "unlock-recipe", recipe = "fiber"}
+--     },
+--     unit = {
+--         count = 50,
+--         ingredients = {
+--             {"automation-science-pack", 1},
+--             {"logistic-science-pack", 1}
+--         },
+--         time = 30
+--     }
+-- }
 
 
 TECHNOLOGY {
@@ -72,6 +73,7 @@ TECHNOLOGY {
     prerequisites = {"fluid-separation"},
     effects = {
         {type = "unlock-recipe", recipe = "nitrobenzene"},
+        {type = "unlock-recipe", recipe = "iron-oxide-breakdown"},
     },
     unit = {
         count = 50,
@@ -90,9 +92,11 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/propene.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"logistic-science-pack"},
+    prerequisites = {"chromium", "vacuum-tube-electronics"},
     effects = {
+        {type = "unlock-recipe", recipe = "pressured-air"},
         {type = "unlock-recipe", recipe = "propene"},
+        {type = "unlock-recipe", recipe = "propene-to-acetone"},
     },
     unit = {
         count = 50,
@@ -137,10 +141,11 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/nylon.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"phenol", "zipir"},
+    prerequisites = {"phenol"},
     effects = {
         {type = "unlock-recipe", recipe = "blood-meal"},
         {type = "unlock-recipe", recipe = "nylon"},
+        {type = "unlock-recipe", recipe = "nylon2"},
         {type = "unlock-recipe", recipe = "nylon-parts"},
     },
     unit = {
@@ -210,11 +215,13 @@ TECHNOLOGY {
     prerequisites = {"logistic-science-pack", "vacuum-tube-electronics"},
     effects = {
         {type = "unlock-recipe", recipe = "pressured-water"},
+        {type = "unlock-recipe", recipe = "saline-water"},
+        {type = "unlock-recipe", recipe = "gravel-saline-water"},
         {type = "unlock-recipe", recipe = "stone-wool"},
         {type = "unlock-recipe", recipe = "stone-wool2"},
         {type = "unlock-recipe", recipe = "zipir"},
         {type = "unlock-recipe", recipe = "zipir-carcass"},
-        {type = "unlock-recipe", recipe = "rendering"},
+        {type = "unlock-recipe", recipe = "rendering"}
     },
     unit = {
         count = 50,
@@ -237,6 +244,7 @@ TECHNOLOGY {
     effects = {
         {type = "unlock-recipe", recipe = "bisphenol-a"},
         {type = "unlock-recipe", recipe = "ech"},
+        {type = "unlock-recipe", recipe = "resorcinol"},
         {type = "unlock-recipe", recipe = "epoxy"},
     },
     unit = {
@@ -279,7 +287,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/phosphate-glass.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"filtration-2", "epoxy", "rayon"},
+    prerequisites = {"filtration-2", "epoxy"},
     effects = {
         {type = "unlock-recipe", recipe = "glass-fiber"},
         {type = "unlock-recipe", recipe = "phosphate-glass"},
@@ -447,6 +455,10 @@ TECHNOLOGY {
     prerequisites = {"chemical-science-pack"},
     effects = {
         {type = "unlock-recipe", recipe = "fertilizer"},
+        {type = "unlock-recipe", recipe = "fawogae2"},
+        {type = "unlock-recipe", recipe = "methane-py-fertilizer"},
+        {type = "unlock-recipe", recipe = "raw-fiber"},
+        {type = "unlock-recipe", recipe = "log7-2"},
     },
     unit = {
         count = 50,
@@ -494,6 +506,8 @@ TECHNOLOGY {
     prerequisites = {"production-science-pack"},
     effects = {
         {type = "unlock-recipe", recipe = "collagen"},
+        {type = "unlock-recipe", recipe = "epoxy2"},
+        {type = "unlock-recipe", recipe = "phosphoric-acid3"},
     },
     unit = {
         count = 50,
@@ -559,7 +573,7 @@ TECHNOLOGY {
     type = "technology",
     name = "bio-machines",
     icon = "__pyfusionenergygraphics__/graphics/icons/bio-reactor.png",
-    icon_size = 32,
+    icon_size = 64,
     order = "c-a",
     prerequisites = {"super-alloy", "energy-2", "automation-3"},
     effects = {
@@ -585,7 +599,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/sub-denier-microfiber.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"production-science-pack", "aerogel"},
+    prerequisites = {"aerogel"},
     effects = {
         {type = "unlock-recipe", recipe = "acrolein"},
         {type = "unlock-recipe", recipe = "acrolein2"},
@@ -611,7 +625,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/construction-robot-ht.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"construction-robotics", "logistic-robotics", "nano-tech", "earnshaw-theorem"},
+    prerequisites = {"construction-robotics", "logistic-robotics", "nano-tech", "earnshaw-theorem", "paramagnetic-material"},
     effects = {
         {type = "unlock-recipe", recipe = "construction-robot-ht"},
         {type = "unlock-recipe", recipe = "logistic-robot-ht"},
@@ -659,7 +673,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/nems.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"carbon-nanotube", "hyperelastic-material"},
+    prerequisites = {"carbon-nanotube", "hyperelastic-material", "magnetic-core"},
     effects = {
         {type = "unlock-recipe", recipe = "nano-wires"},
         {type = "unlock-recipe", recipe = "nems"},
@@ -683,7 +697,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/hyperelastic-material.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"zno-nanoparticles"},
+    prerequisites = {"zno-nanoparticles", "ethanolamine", "biopolymer"},
     effects = {
         {type = "unlock-recipe", recipe = "resilin"},
         {type = "unlock-recipe", recipe = "hyperelastic-material"},
@@ -761,7 +775,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/paramagnetic-material.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"nucleo"},
+    prerequisites = {"production-science-pack", "nucleo"},
     effects = {
         {type = "unlock-recipe", recipe = "myoglobin"},
         {type = "unlock-recipe", recipe = "paramagnetic-material"},
@@ -785,9 +799,8 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/crco-alloy.png",
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"helium-processing-2", "boron-2"},
+    prerequisites = {"production-science-pack"},
     effects = {
-        {type = "unlock-recipe", recipe = "lithium-niobate"},
         {type = "unlock-recipe", recipe = "crco-alloy"},
     },
     unit = {
@@ -797,6 +810,264 @@ TECHNOLOGY {
             {"logistic-science-pack", 1},
             {"chemical-science-pack", 1},
             {"production-science-pack", 1}
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "heavy-fermion",
+    icon = "__pyhightechgraphics__/graphics/icons/heavy-fermion.png",
+    icon_size = 32,
+    order = "c-a",
+    prerequisites = {"production-science-pack"},
+    effects = {
+        {type = "unlock-recipe", recipe = "heavy-fermion"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"production-science-pack", 1}
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "heavy-fermion",
+    icon = "__pyhightechgraphics__/graphics/icons/heavy-fermion.png",
+    icon_size = 32,
+    order = "c-a",
+    prerequisites = {"production-science-pack"},
+    effects = {
+        {type = "unlock-recipe", recipe = "heavy-fermion"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"production-science-pack", 1}
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "colloidal-silica",
+    icon = "__pyhightechgraphics__/graphics/icons/colloidal-silica.png",
+    icon_size = 32,
+    order = "c-a",
+    prerequisites = {"production-science-pack"},
+    effects = {
+        {type = "unlock-recipe", recipe = "sodium-silicate"},
+        {type = "unlock-recipe", recipe = "silica-powder"},
+        {type = "unlock-recipe", recipe = "colloidal-silica"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"production-science-pack", 1}
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "parametric-oscilator",
+    icon = "__pyhightechgraphics__/graphics/icons/parametric-oscilator.png",
+    icon_size = 32,
+    order = "c-a",
+    prerequisites = {"re-magnet", "integrated-circuits-3", "paramagnetic-material"},
+    effects = {
+        {type = "unlock-recipe", recipe = "lithium-niobate"},
+        {type = "unlock-recipe", recipe = "laser-module-alt"},
+        {type = "unlock-recipe", recipe = "yag-laser-module"},
+        {type = "unlock-recipe", recipe = "parametric-oscilator"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"production-science-pack", 1}
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "fiberboard",
+    icon = "__pyhightechgraphics__/graphics/icons/fiberboard.png",
+    icon_size = 32,
+    order = "c-a",
+    prerequisites = {"melamine"},
+    effects = {
+        {type = "unlock-recipe", recipe = "fiberboard"},
+        {type = "unlock-recipe", recipe = "formica-2"},
+        {type = "unlock-recipe", recipe = "black-liquor"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "melamine",
+    icon = "__pyhightechgraphics__/graphics/icons/melamine.png",
+    icon_size = 32,
+    order = "c-a",
+    prerequisites = {"auog", "vacuum-tube-electronics"},
+    effects = {
+        {type = "unlock-recipe", recipe = "urea-decomposition"},
+        {type = "unlock-recipe", recipe = "melamine"},
+        {type = "unlock-recipe", recipe = "melamine-resin"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "plastics-2",
+    icon = "__base__/graphics/technology/plastics.png",
+    icon_size = 256,
+    order = "c-a",
+    prerequisites = {"chemical-science-pack"},
+    effects = {
+        {type = "unlock-recipe", recipe = "plastic3"},
+        {type = "unlock-recipe", recipe = "nylon-plastic"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "plastics-3",
+    icon = "__base__/graphics/technology/plastics.png",
+    icon_size = 256,
+    order = "c-a",
+    prerequisites = {"production-science-pack", "plastics-2"},
+    effects = {
+        {type = "unlock-recipe", recipe = "ethylene"},
+        {type = "unlock-recipe", recipe = "plastics-3"},
+        {type = "unlock-recipe", recipe = "plastic2"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"production-science-pack", 1},
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "electronics-machines-1",
+    icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk01.png",
+    icon_size = 64,
+    order = "c-a",
+    prerequisites = {"chemical-science-pack"},
+    effects = {
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "electronics-machines-2",
+    icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk01.png",
+    icon_size = 64,
+    order = "c-a",
+    prerequisites = {"electronics-machines-1", "production-science-pack", "low-density-structure", "advanced-electronics", "nucleo"},
+    effects = {
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"production-science-pack", 1},
+        },
+        time = 30
+    }
+}
+
+
+TECHNOLOGY {
+    type = "technology",
+    name = "electronics-machines-3",
+    icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk01.png",
+    icon_size = 64,
+    order = "c-a",
+    prerequisites = {"utility-science-pack", "electronics-machines-2"},
+    effects = {
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack", 1},
+            {"chemical-science-pack", 1},
+            {"military-science-pack", 1},
+            {"production-science-pack", 1},
+            {"utility-science-pack", 1},
         },
         time = 30
     }

@@ -16,6 +16,10 @@ if mods['pyrawores'] then
     require('prototypes/updates/pyrawores-updates')
 end
 
+if mods['pyalienlife'] then
+    require('prototypes/updates/pyalienlife-updates')
+end
+
 require('prototypes/tmp-update')
 
 --RECIPE CHANGES

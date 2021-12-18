@@ -17,14 +17,14 @@ RECIPE {
         {"graphene-roll", 10},
         {"processing-unit", 30},
         {"niobium-plate", 50},
-        {"biopolymer", 15},
+        {"low-density-structure", 15},
         {"concrete", 50},
         {"engine-unit", 10},
     },
     results = {
         {"pcb-factory-mk03", 1}
     }
-}:add_unlock("placeholder")
+}:add_unlock("electronics-machines-2")
 
 ITEM {
     type = "item",

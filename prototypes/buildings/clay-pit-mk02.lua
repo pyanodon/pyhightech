@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"clay-pit-mk02", 1}
     }
-}:add_unlock("placeholder")
+}:add_unlock("electronics-machines-1")
 
 ITEM {
     type = "item",
