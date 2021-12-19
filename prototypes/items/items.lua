@@ -1174,7 +1174,7 @@ ITEM {
     type = "item",
     name = "nylon",
     icon = "__pyhightechgraphics__/graphics/icons/nylon.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "m",
