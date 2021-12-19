@@ -39,6 +39,8 @@ TECHNOLOGY('power-armor-mk2'):add_prereq('utility-science-pack')
 TECHNOLOGY('artillery'):add_prereq('utility-science-pack')
 TECHNOLOGY('uranium-ammo'):add_prereq('utility-science-pack')
 TECHNOLOGY('plastics'):remove_prereq('logistic-science-pack'):add_prereq('melamine')
+TECHNOLOGY("battery"):add_prereq("rayon"):remove_prereq("sulfur-processing")
+TECHNOLOGY("sulfur-processing"):add_prereq("fluid-processing-machines-1"):add_prereq("fiberboard")
 
 
 -- RECIPE UNLOCKS

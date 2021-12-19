@@ -1,9 +1,6 @@
 require("__stdlib__/stdlib/data/data").Util.create_data_globals()
 local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 
---TODO:remove placeholder when done
-TECHNOLOGY("placeholder"):set_fields{enabled = true}
-
 require('prototypes/updates/base-updates')
 require('prototypes/updates/pycoalprocessing-updates')
 require('prototypes/updates/pyfusionenergy-updates')
@@ -19,28 +16,6 @@ end
 if mods['pyalienlife'] then
     require('prototypes/updates/pyalienlife-updates')
 end
-
-require('prototypes/tmp-update')
-
---RECIPE CHANGES
--- RECIPE('log8'):remove_unlock('vanadium-processing'):add_unlock('placeholder')
--- RECIPE('pressured-water'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('mixer-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('placeholder')
--- RECIPE('compressor-mk01'):remove_unlock('regolite-mining'):add_unlock('placeholder')
--- RECIPE('ferrite'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('boron-carbide'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('sc-coil'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('sc-wire'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('coil-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('magnetic-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('deposited-core'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('sc-unit'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('boron'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('boron-mixture'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('b2o3-milling'):remove_unlock('fusion-mk01'):add_unlock('placeholder')
--- RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('placeholder')
--- RECIPE('log7'):remove_unlock('vanadium-processing'):add_unlock('placeholder')
-
 
 for _, player in DATA:pairs('character') do
     player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'

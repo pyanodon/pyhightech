@@ -24,7 +24,7 @@ TECHNOLOGY {
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"semiconductor-doping-2", "graphene", "phosphate-glass", "msa", "battery"},
+    prerequisites = {"semiconductor-doping-2", "graphene", "fiberglass", "cadaveric-arum", "battery"},
     effects = {},
     unit = {
         count = 55,
@@ -44,7 +44,7 @@ TECHNOLOGY {
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"integrated-circuits-2", "sub-denier-microfiber", "heavy-fermion", "sc-unit", "colloidal-silica", "biopolymer", "zno-nanoparticles"},
+    prerequisites = {"integrated-circuits-2", "microfibers", "sc-unit", "colloidal-silica", "biopolymer", "zno-nanoparticles"},
     effects = {},
     unit = {
         count = 55,

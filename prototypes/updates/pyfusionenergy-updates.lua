@@ -2,8 +2,8 @@
 TECHNOLOGY("advanced-mining-facilities"):remove_prereq("electric-engine")
 TECHNOLOGY('boron-2'):remove_prereq('helium-processing'):remove_pack('production-science-pack'):add_prereq("filtration-2")
 TECHNOLOGY('helium-processing'):remove_prereq('fuel-production'):add_prereq('semiconductor-doping-2')
-TECHNOLOGY('sc-unit'):add_prereq('re-tin'):add_prereq('ndfeb-alloy'):add_prereq('graphene')
-TECHNOLOGY('ethanolamine'):remove_prereq('energy-2'):remove_prereq('super-alloy'):add_prereq('bio-machines')
+TECHNOLOGY('sc-unit'):add_prereq('magnetic-core'):add_prereq('graphene')
+TECHNOLOGY('ethanolamine'):remove_prereq('energy-2'):remove_prereq('super-alloy'):add_prereq('biotech')
 TECHNOLOGY('fusion-mk01'):remove_prereq('boron-2')
 TECHNOLOGY('filtration'):add_prereq('zipir')
 
@@ -32,6 +32,12 @@ RECIPE('sodium-chlorate'):remove_unlock('vanadium-processing'):add_unlock('filtr
 RECIPE('bio-reactor'):remove_unlock('ethanolamine')
 RECIPE('genlab-mk01'):remove_unlock('ethanolamine')
 RECIPE('calcinate-separation'):remove_unlock('regolite-mining'):add_unlock('fluid-separation')
+RECIPE('sc-wire'):remove_unlock('sc-unit')
+RECIPE('coil-core'):remove_unlock('sc-unit')
+RECIPE('sc-coil'):remove_unlock('sc-unit')
+RECIPE('magnetic-core'):remove_unlock('sc-unit')
+RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities")
+RECIPE("ferrite"):remove_unlock("sc-unit"):add_unlock("basic-electronics")
 
 
 -- RECIPE CHANGES
@@ -49,3 +55,4 @@ RECIPE('mixer-mk01'):add_ingredient({type = 'item', name = 'electronic-circuit',
 RECIPE('kmauts-ration'):remove_ingredient("organics"):add_ingredient({type = "item", name = "skin", amount = 25})
 RECIPE('kmauts-ration'):remove_ingredient("ralesia"):add_ingredient({type = "item", name = "blood-meal", amount = 5})
 RECIPE('agitator-mk01'):replace_ingredient('plastic-bar', 'melamine')
+RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
