@@ -1,7 +1,5 @@
 require('__stdlib__/stdlib/data/data').Util.create_data_globals()
 
-RECIPE('ball-mill-mk01'):remove_ingredient('py-asphalt'):add_ingredient({type = 'item', name = 'electronic-circuit', amount = 10})
-
 local blackholemods = {
     --{item name, amount of fuel in x*100KJ}
     {'soil', 1},
@@ -34,7 +32,7 @@ for i, item in pairs(data.raw.item) do
             },
             main_product = 'blackhole-fuel',
             hidden = true,
-            hidden_from_flow_stats = false
+            hide_from_stats = false
         }
     end
 end

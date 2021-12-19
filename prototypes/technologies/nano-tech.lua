@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = '__pyhightechgraphics__/graphics/technology/nano-tech.png',
     icon_size = 128,
     order = 'c-a',
-    prerequisites = {"graphene"},
+    prerequisites = {"advanced-electronics", "integrated-circuits-3", "carbon-nanotube", "superconductor", "supercapacitor"},
     effects = {},
     unit = {
         count = 100,

@@ -5,15 +5,16 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"nano-assembler-mk02", 1},
-        {"graphene-roll", 20},
-        {"processing-unit", 15},
-        {"niobium-plate", 10},
-        {"biopolymer", 15},
+        {"biopolymer", 10},
+        {"super-alloy", 5},
+        {"intelligent-unit", 10},
+        {"superconductor-servomechanims", 10},
+        {"hyperelastic-material", 15},
     },
     results = {
         {"nano-assembler-mk03", 1}
     }
-}:add_unlock("graphene")
+}:add_unlock("electronics-machines-3")
 
 ITEM {
     type = "item",

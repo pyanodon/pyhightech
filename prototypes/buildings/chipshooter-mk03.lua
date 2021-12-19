@@ -7,13 +7,13 @@ RECIPE {
         {"graphene-roll", 20},
         {"processing-unit", 15},
         {"niobium-plate", 10},
-        {"biopolymer", 15},
+        {"low-density-structure", 15},
         {"chipshooter-mk02", 1}
     },
     results = {
         {"chipshooter-mk03", 1}
     }
-}:add_unlock("graphene")
+}:add_unlock("electronics-machines-2")
 
 ITEM {
     type = "item",

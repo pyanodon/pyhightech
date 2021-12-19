@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "fluid", name = "methane", amount = 50},
-        {type = "fluid", name = "steam", amount = 200, temperature = 165},
+        {type = "fluid", name = "pressured-air", amount = 200},
         {type = "item", name = "iron-oxide", amount = 2}
     },
     results = {
@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 50}
     },
     main_product = "ethylene",
-}:add_unlock("placeholder"):replace_ingredient('steam', 'pressured-air')
+}
 
 FLUID {
     type = "fluid",
@@ -26,8 +26,6 @@ FLUID {
     flow_color = {r = 0.896, g = 0.805, b = 0.762},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-hightech-fluids",
     order = "b"
 }

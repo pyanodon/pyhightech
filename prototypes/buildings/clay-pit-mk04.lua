@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"clay-pit-mk03", 1},
-        {"low-density-structure", 25},
-        {"nbfe-alloy", 10},
+        {"biopolymer", 25},
+        {"super-alloy", 10},
         {"electric-engine-unit", 5},
         {"intelligent-unit", 10},
         {"superconductor-servomechanims", 10},
@@ -15,7 +15,7 @@ RECIPE {
     results = {
         {"clay-pit-mk04", 1}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("electronics-machines-3")
 
 ITEM {
     type = "item",

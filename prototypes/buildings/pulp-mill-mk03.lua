@@ -26,13 +26,13 @@ RECIPE {
         {"graphene-roll", 20},
         {"processing-unit", 10},
         {"pipe", 20},
-        {"biopolymer", 15},
+        {"low-density-structure", 15},
         {"engine-unit", 10},
     },
     results = {
         {"pulp-mill-mk03", 1}
     }
-}:add_unlock("graphene")
+}:add_unlock("electronics-machines-2")
 
 ITEM {
     type = "item",

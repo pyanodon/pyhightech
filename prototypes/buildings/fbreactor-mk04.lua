@@ -5,16 +5,16 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"fbreactor-mk03", 1},
-        {"low-density-structure", 30},
+        {"biopolymer", 30},
         {"electric-engine-unit", 5},
-        {"nbfe-alloy", 30},
+        {"super-alloy", 30},
         {"intelligent-unit", 10},
         {"hyperelastic-material", 15},
     },
     results = {
         {"fbreactor-mk04", 1}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("electronics-machines-3")
 
 ITEM {
     type = "item",

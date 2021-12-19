@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "phosphorous-acid", amount = 40},
-        {type = "fluid", name = "steam", amount = 120, temperature = 165},
+        {type = "fluid", name = "steam", amount = 120},
         {type = "item", name = "wood", amount = 10},
     },
     results = {
@@ -14,7 +14,7 @@ RECIPE {
 		{type = "fluid", name = "phosphine-gas", amount = 10},
     },
     main_product = "phosphine-gas",
-}:add_unlock("semiconductor-doping")
+}
 
 
 FLUID {
@@ -27,8 +27,6 @@ FLUID {
     flow_color = {r = 0.780, g = 0.011, b = 0.352},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-hightech-fluids",
     order = "c"
 }

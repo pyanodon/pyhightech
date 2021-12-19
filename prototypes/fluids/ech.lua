@@ -14,7 +14,7 @@ RECIPE {
     main_product = "ech",
     icon = "__pyhightechgraphics__/graphics/icons/mix-ech.png",
 	icon_size = 32
-}:add_unlock('placeholder')
+}
 
 FLUID {
     type = "fluid",
@@ -26,8 +26,6 @@ FLUID {
     flow_color = {r = 0.02, g = 0.956, b = 0.172},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-hightech-fluids",
     order = "c"
 }

@@ -142,7 +142,7 @@ RECIPE {
     name = 'clay',
     category = 'clay',
     hidden = true,
-    enabled = true,
+    enabled = false,
     energy_required = 4,
     ingredients = {
         {type = 'fluid', name = 'steam', amount = 100}
@@ -151,7 +151,7 @@ RECIPE {
         {type = 'item', name = 'clay', amount = 3}
     },
     main_product = 'clay'
-}
+}:add_unlock('kicalk')
 
 RECIPE {
     type = 'recipe',
@@ -168,7 +168,7 @@ RECIPE {
         {type = 'item', name = 'melamine-resin', amount = 10}
     },
     main_product = 'melamine-resin'
-}:add_unlock('vacuum-tube-electronics')
+}
 
 RECIPE {
     type = 'recipe',
@@ -199,7 +199,7 @@ RECIPE {
         {type = 'item', name = 'urea', amount = 25}
     },
     main_product = 'urea'
-}:add_unlock('placeholder')
+}:add_unlock('auog-2')
 
 RECIPE {
     type = 'recipe',
@@ -215,7 +215,7 @@ RECIPE {
         {type = 'fluid', name = 'cyanic-acid', amount = 30}
     },
     main_product = 'cyanic-acid'
-}:add_unlock('vacuum-tube-electronics')
+}
 
 RECIPE {
     type = 'recipe',
@@ -234,7 +234,7 @@ RECIPE {
         {type = 'fluid', name = 'dirty-water-light', amount = 50}
     },
     main_product = 'melamine'
-}:add_unlock('vacuum-tube-electronics')
+}
 
 RECIPE {
     type = 'recipe',
@@ -250,7 +250,7 @@ RECIPE {
         {type = 'item', name = 'melamine', amount = 20},
     },
     main_product = 'melamine'
-}:add_unlock('placeholder')
+}:add_unlock('phenol')
 
 RECIPE {
     type = 'recipe',
@@ -340,13 +340,14 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'iron-plate', amount = 5},
         {type = 'item', name = 'copper-plate', amount = 2},
-        {type = 'item', name = 'graphite', amount = 2}
+        {type = 'item', name = 'graphite', amount = 2},
+        {type = 'fluid', name = 'vacuum', amount = 50}
     },
     results = {
         {type = 'item', name = 'vacuum-tube', amount = 2}
     },
     main_product = 'vacuum-tube'
-}:add_ingredient({type = 'fluid', name = 'vacuum', amount = 50}):add_unlock('vacuum-tube-electronics')
+}:add_unlock('vacuum-tube-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -357,7 +358,7 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'treated-wood', amount = 3},
         {type = 'item', name = 'raw-fiber', amount = 5},
-        {type = 'fluid', name = 'steam', amount = 500, temperature = 165}
+        {type = 'fluid', name = 'steam', amount = 500}
     },
     results = {
         {type = 'item', name = 'fiberboard', amount = 4},
@@ -366,11 +367,29 @@ RECIPE {
         {type = 'fluid', name = 'black-liquor', amount = 10}
     },
     main_product = 'fiberboard'
-}:add_unlock('vacuum-tube-electronics')
+}
 
 RECIPE {
     type = 'recipe',
     name = 'formica',
+    category = 'pulp',
+    enabled = false,
+    energy_required = 10,
+    ingredients = {
+        {type = 'item', name = 'treated-wood', amount = 2},
+        {type = 'item', name = 'raw-fiber', amount = 3},
+        {type = 'fluid', name = 'creosote', amount = 20},
+        {type = 'fluid', name = 'methanal', amount = 30}
+    },
+    results = {
+        {type = 'item', name = 'formica', amount = 1}
+    },
+    main_product = 'formica'
+}:add_unlock('vacuum-tube-electronics'):replace_ingredient('creosote', {type='item', name='sap', amount='5'})
+
+RECIPE {
+    type = 'recipe',
+    name = 'formica-2',
     category = 'wpu',
     enabled = false,
     energy_required = 10,
@@ -382,7 +401,7 @@ RECIPE {
         {type = 'item', name = 'formica', amount = 5}
     },
     main_product = 'formica'
-}:add_unlock('vacuum-tube-electronics')
+}
 
 RECIPE {
     type = 'recipe',
@@ -392,13 +411,14 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = 'item', name = 'formica', amount = 2},
-        {type = 'item', name = 'copper-plate', amount = 5}
+        {type = 'item', name = 'copper-plate', amount = 5},
+        {type = 'fluid', name = 'vacuum', amount = 50}
     },
     results = {
         {type = 'item', name = 'pcb1', amount = 1}
     },
     main_product = 'pcb1'
-}:add_ingredient({type = 'fluid', name = 'vacuum', amount = 50}):add_unlock('vacuum-tube-electronics')
+}:add_unlock('vacuum-tube-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -441,7 +461,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b1'
-}:add_unlock('placeholder')
+}:add_unlock('fluid-separation')
 
 RECIPE {
     type = 'recipe',
@@ -454,7 +474,7 @@ RECIPE {
         {type = 'fluid', name = 'light-oil', amount = 20}
     },
     results = {
-        {type = 'fluid', name = 'light-oil', amount = 30},
+        --{type = 'fluid', name = 'light-oil', amount = 30},
         {type = 'fluid', name = 'benzene', amount = 10},
         {type = 'fluid', name = 'aromatics', amount = 10}
     },
@@ -463,7 +483,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b2'
-}:add_unlock('placeholder')
+}:add_unlock('fluid-separation')
 
 RECIPE {
     type = 'recipe',
@@ -496,7 +516,7 @@ RECIPE {
         {type = 'item', name = 'silicon-wafer', amount = 5}
     },
     main_product = 'silicon-wafer'
-}:add_unlock('placeholder')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
@@ -514,12 +534,12 @@ RECIPE {
     main_product = 'powdered-phosphate-rock',
     icon = '__pyhightechgraphics__/graphics/icons/crush-phosphate-rock.png',
     icon_size = 32
-}:add_unlock('semiconductor-doping')
+}
 
 RECIPE {
     type = 'recipe',
     name = 'light-n',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -531,12 +551,12 @@ RECIPE {
         {type = 'item', name = 'light-n', amount = 10}
     },
     main_product = 'light-n'
-}:add_unlock('semiconductor-doping'):change_category('gas-separator')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
     name = 'heavy-n',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -548,12 +568,12 @@ RECIPE {
         {type = 'item', name = 'heavy-n', amount = 10}
     },
     main_product = 'heavy-n'
-}:add_unlock('semiconductor-doping'):change_category('gas-separator')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
     name = 'p-dope',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -566,7 +586,7 @@ RECIPE {
         {type = 'item', name = 'p-dope', amount = 10}
     },
     main_product = 'p-dope'
-}:add_unlock('semiconductor-doping'):change_category('gas-separator')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
@@ -579,13 +599,14 @@ RECIPE {
         {type = 'item', name = 'heavy-n', amount = 5},
         {type = 'item', name = 'p-dope', amount = 5},
         {type = 'item', name = 'melamine-resin', amount = 5},
-        {type = 'item', name = 'nylon', amount = 1}
+        {type = 'item', name = 'nylon', amount = 1},
+        {type = 'fluid', name = 'vacuum', amount = 100}
     },
     results = {
         {type = 'item', name = 'transistor', amount = 5}
     },
     main_product = 'transistor'
-}:add_unlock('intergrated-circuits-1'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
+}:add_unlock('integrated-circuits-1')
 
 RECIPE {
     type = 'recipe',
@@ -601,7 +622,7 @@ RECIPE {
         {type = 'fluid', name = 'acetone', amount = 100}
     },
     main_product = 'phenol'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -667,13 +688,14 @@ RECIPE {
         {type = 'item', name = 'p-dope', amount = 10},
         {type = 'item', name = 'plastic-bar', amount = 6},
         {type = 'item', name = 'cermet', amount = 5},
-        {type = 'item', name = 'copper-cable', amount = 10}
+        {type = 'item', name = 'copper-cable', amount = 10},
+        {type = 'fluid', name = 'vacuum', amount = 50}
     },
     results = {
         {type = 'item', name = 'microchip', amount = 3}
     },
     main_product = 'microchip'
-}:add_unlock('intergrated-circuits-1'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
+}:add_unlock('integrated-circuits-1')
 
 RECIPE {
     type = 'recipe',
@@ -682,12 +704,13 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'item', name = 'ceramic', amount = 5}
+        {type = 'item', name = 'ceramic', amount = 5},
+        {type = 'item', name = 'molybdenum-ore', amount = 3}
     },
     results = {
         {type = 'item', name = 'crude-cermet', amount = 5}
     }
-}:add_unlock('intergrated-circuits-1'):add_ingredient({type = 'item', name = 'molybdenum-ore', amount = 3})
+}:add_unlock('integrated-circuits-1')
 
 RECIPE {
     type = 'recipe',
@@ -703,7 +726,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'cermet', amount = 5}
     }
-}:add_unlock('intergrated-circuits-1')
+}:add_unlock('integrated-circuits-1')
 
 RECIPE {
     type = 'recipe',
@@ -718,7 +741,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'fecr-alloy', amount = 2}
     }
-}:add_unlock('placeholder')
+}:add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -748,12 +771,13 @@ RECIPE {
         {type = 'item', name = 'reo', amount = 4},
         {type = 'item', name = 'cermet', amount = 4},
         {type = 'item', name = 'p-dope', amount = 4},
-        {type = 'item', name = 'nylon', amount = 3}
+        {type = 'item', name = 'nylon', amount = 3},
+        {type = 'fluid', name = 'vacuum', amount = 50}
     },
     results = {
         {type = 'item', name = 'diode', amount = 4}
     }
-}:add_unlock('intergrated-circuits-1'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 50})
+}:add_unlock('integrated-circuits-1')
 
 RECIPE {
     type = 'recipe',
@@ -829,7 +853,7 @@ RECIPE {
         {type = 'item', name = 'glass-fiber', amount = 3}
     },
     main_product = 'glass-fiber'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -845,7 +869,7 @@ RECIPE {
         {type = 'item', name = 'bisphenol-a', amount = 3}
     },
     main_product = 'bisphenol-a'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -862,12 +886,12 @@ RECIPE {
         {type = 'item', name = 'epoxy', amount = 4}
     },
     main_product = 'epoxy'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
     name = 'pdms',
-    category = 'chemistry',
+    category = 'mixer',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -882,12 +906,12 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b1'
-}:add_unlock('graphene'):change_category('mixer')
+}:add_unlock('graphene')
 
 RECIPE {
     type = 'recipe',
     name = 'nic-core',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -898,7 +922,7 @@ RECIPE {
         {type = 'item', name = 'nic-core', amount = 2}
     },
     main_product = 'nic-core'
-}:add_unlock('graphene'):change_category('gas-separator')
+}:add_unlock('graphene')
 
 RECIPE {
     type = 'recipe',
@@ -968,12 +992,12 @@ RECIPE {
         {type = 'item', name = 'processor-core', amount = 1}
     },
     main_product = 'processor-core'
-}:add_unlock('intergrated-circuits-2')
+}:add_unlock('integrated-circuits-2')
 
 RECIPE {
     type = 'recipe',
     name = 'heavy-p-type',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -986,7 +1010,7 @@ RECIPE {
         {type = 'item', name = 'heavy-p-type', amount = 5}
     },
     main_product = 'heavy-p-type'
-}:add_unlock('placeholder'):change_category('gas-separator')
+}:add_unlock('semiconductor-doping-2')
 
 RECIPE {
     type = 'recipe',
@@ -998,13 +1022,14 @@ RECIPE {
         {type = 'item', name = 'processor-core', amount = 1},
         {type = 'item', name = 'graphene-roll', amount = 4},
         {type = 'item', name = 'epoxy', amount = 5},
-        {type = 'fluid', name = 'industrial-solvent', amount = 50}
+        {type = 'fluid', name = 'industrial-solvent', amount = 50},
+        {type = 'fluid', name = 'vacuum', amount = 100}
     },
     results = {
         {type = 'item', name = 'processor', amount = 1}
     },
     main_product = 'processor'
-}:add_unlock('intergrated-circuits-2'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
+}:add_unlock('integrated-circuits-2')
 
 RECIPE {
     type = 'recipe',
@@ -1022,7 +1047,7 @@ RECIPE {
         {type = 'item', name = 'phosphate-glass', amount = 1}
     },
     main_product = 'phosphate-glass'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1042,7 +1067,7 @@ RECIPE {
         {type = 'item', name = 'fiberglass', amount = 1}
     },
     main_product = 'fiberglass'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1053,13 +1078,14 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'phosphate-glass', amount = 2},
         {type = 'item', name = 'nichrome', amount = 1},
-        {type = 'item', name = 'epoxy', amount = 5}
+        {type = 'item', name = 'epoxy', amount = 5},
+        {type = 'fluid', name = 'vacuum', amount = 100}
     },
     results = {
         {type = 'item', name = 'resistor3', amount = 3}
     },
     main_product = 'resistor3'
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1070,13 +1096,13 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'stone', amount = 10},
         {type = 'item', name = 'coke', amount = 3},
-        {type = 'fluid', name = 'steam', amount = 120, temperature = 165}
+        {type = 'fluid', name = 'steam', amount = 120}
     },
     results = {
         {type = 'item', name = 'stone-wool', amount = 1}
     },
     main_product = 'stone-wool'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1093,7 +1119,7 @@ RECIPE {
         {type = 'item', name = 'stone-wool', amount = 1}
     },
     main_product = 'stone-wool'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1111,7 +1137,7 @@ RECIPE {
         {type = 'item', name = 'pcb3', amount = 2}
     },
     main_product = 'pcb3'
-}:add_unlock('intergrated-circuits-2')
+}:add_unlock('integrated-circuits-2')
 
 RECIPE {
     type = 'recipe',
@@ -1128,7 +1154,7 @@ RECIPE {
         {type = 'item', name = 'pcb3-2', amount = 1}
     },
     main_product = 'pcb3-2'
-}:add_unlock('intergrated-circuits-2')
+}:add_unlock('integrated-circuits-2')
 
 RECIPE {
     type = 'recipe',
@@ -1178,7 +1204,7 @@ RECIPE {
     results = {
         {type = 'item', name = 're-tin', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1233,7 +1259,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'capacitor-termination',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1244,7 +1270,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor-termination', amount = 2}
     }
-}:add_unlock('placeholder'):change_category('gas-separator')
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1255,11 +1281,12 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'capacitor-core', amount = 1},
         {type = 'item', name = 'capacitor-termination', amount = 1},
+        {type = 'fluid', name = 'vacuum', amount = 100},
     },
     results = {
         {type = 'item', name = 'capacitor3', amount = 2}
     }
-}:add_unlock('advanced-electronics'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
+}:add_unlock('advanced-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1295,7 +1322,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'carbon-dust', amount = 10}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1312,7 +1339,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'biopolymer', amount = 7}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1330,7 +1357,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'carbon-nanotube', amount = 2}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1346,7 +1373,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'sodium-silicate', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1360,7 +1387,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'silica-powder', amount = 10}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1373,11 +1400,12 @@ RECIPE {
         {type = 'item', name = 'sulfur', amount = 3},
         {type = 'item', name = 'niobium-plate', amount = 2},
         {type = 'item', name = 'plastic-bar', amount = 20},
+        {type = 'fluid', name = 'vacuum', amount = 200}
     },
     results = {
         {type = 'item', name = 'colloidal-silica', amount = 2}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 200})
+}
 
 RECIPE {
     type = 'recipe',
@@ -1415,7 +1443,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'raw-fiber', amount = 45}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1449,7 +1477,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'raw-fiber', amount = 30}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1480,7 +1508,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'bonemeal', amount = 10}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1496,7 +1524,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'bonemeal', amount = 13}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1512,7 +1540,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'mukmoux-fat', amount = 25}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1529,7 +1557,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'mukmoux-fat', amount = 30}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1543,7 +1571,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'ash', amount = 15}
     }
-}:add_unlock('placeholder')
+}:add_unlock('filtration')
 
 RECIPE {
     type = 'recipe',
@@ -1559,7 +1587,7 @@ RECIPE {
         {type = 'item', name = 'organics', amount = 3}
     },
     main_product = 'fiber'
-}:add_unlock('placeholder')
+}:add_unlock('kicalk-2')
 
 RECIPE {
     type = 'recipe',
@@ -1573,7 +1601,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'micro-fiber', amount = 2}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1588,12 +1616,12 @@ RECIPE {
     results = {
         {type = 'item', name = 'resorcinol', amount = 2}
     }
-}:add_unlock('aerogel')
+}
 
 RECIPE {
     type = 'recipe',
     name = 'rf-gel',
-    category = 'chemistry',
+    category = 'mixer',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1604,7 +1632,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'rf-gel', amount = 1}
     }
-}:add_unlock('aerogel'):change_category('mixer')
+}:add_unlock('aerogel')
 
 RECIPE {
     type = 'recipe',
@@ -1668,7 +1696,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'sub-denier-microfiber', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1687,7 +1715,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'kondo-substrate', amount = 1}
     }
-}:add_unlock('nano-tech')
+}:add_unlock('integrated-circuits-3')
 
 RECIPE {
     type = 'recipe',
@@ -1705,7 +1733,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'heavy-fermion', amount = 1}
     }
-}:add_unlock('nano-tech')
+}:add_unlock('integrated-circuits-3')
 
 RECIPE {
     type = 'recipe',
@@ -1719,12 +1747,13 @@ RECIPE {
         {type = 'item', name = 'diamond', amount = 2},
         {type = 'item', name = 'colloidal-silica', amount = 4},
         {type = 'item', name = 'molybdenum-sulfide', amount = 10},
-        {type = 'item', name = 'optical-fiber', amount = 15}
+        {type = 'item', name = 'optical-fiber', amount = 15},
+        {type = 'fluid', name = 'vacuum', amount = 120}
     },
     results = {
         {type = 'item', name = 'kondo-core', amount = 1}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 120})
+}:add_unlock('integrated-circuits-3')
 
 RECIPE {
     type = 'recipe',
@@ -1737,12 +1766,13 @@ RECIPE {
         {type = 'item', name = 'kondo-core', amount = 1},
         {type = 'item', name = 'biopolymer', amount = 5},
         {type = 'item', name = 'aerogel', amount = 1},
-        {type = 'item', name = 'zno-nanoparticles', amount = 1}
+        {type = 'item', name = 'zno-nanoparticles', amount = 1},
+        {type = 'fluid', name = 'vacuum', amount = 150}
     },
     results = {
         {type = 'item', name = 'kondo-processor', amount = 1}
     }
-}:add_unlock('nano-tech'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 150})
+}:add_unlock('integrated-circuits-3')
 
 RECIPE {
     type = 'recipe',
@@ -1761,7 +1791,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'crco-alloy', amount = 1}
     }
-}:add_unlock('placeholder')
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
@@ -1773,11 +1803,12 @@ RECIPE {
         {type = 'item', name = 'nexelit-matrix', amount = 4},
         {type = 'item', name = 'super-alloy', amount = 1},
         {type = 'fluid', name = 'boric-acid', amount = 100},
+        {type = 'fluid', name = 'vacuum', amount = 100},
     },
     results = {
         {type = 'item', name = 'nxag-matrix', amount = 1}
     }
-}:add_unlock('helium-processing'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 100})
+}:add_unlock('super-alloy')
 
 RECIPE {
     type = 'recipe',
@@ -1796,12 +1827,12 @@ RECIPE {
     results = {
         {type = 'item', name = 'paradiamatic-resistor', amount = 1}
     }
-}:add_unlock('placeholder')
+}:add_unlock('nano-tech')
 
 RECIPE {
     type = 'recipe',
     name = 'zinc-acetate',
-    category = 'chemistry',
+    category = 'mixer',
     enabled = false,
     energy_required = 3.5,
     ingredients = {
@@ -1811,7 +1842,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zinc-acetate', amount = 1}
     }
-}:add_unlock('semiconductor-doping'):change_category('mixer')
+}:add_unlock('semiconductor-doping')
 
 RECIPE {
     type = 'recipe',
@@ -1825,7 +1856,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'dry-ralesia', amount = 5}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1841,7 +1872,7 @@ RECIPE {
     },
     icon = '__pyhightechgraphics__/graphics/icons/recrush-dry-ralesia.png',
     icon_size = 32
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1857,7 +1888,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zinc-nanocompound', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1878,7 +1909,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-fluids',
     order = 'b7'
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1893,7 +1924,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'zno-nanoparticles', amount = 5}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1932,7 +1963,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'ndfeb-alloy', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1946,7 +1977,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'ndfeb-powder', amount = 10}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1963,7 +1994,7 @@ RECIPE {
     results = {
         {type = 'item', name = 're-magnet', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -1982,7 +2013,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'sc-substrate', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2000,7 +2031,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'superconductor', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2054,7 +2085,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'supercapacitor-core', amount = 1}
     }
-}:add_unlock('aerogel')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2072,7 +2103,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'supercapacitor-shell', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2087,7 +2118,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'supercapacitor', amount = 2}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2107,7 +2138,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'pcb4', amount = 1}
     }
-}:add_unlock('nano-tech')
+}:add_unlock('integrated-circuits-3')
 
 RECIPE {
     type = 'recipe',
@@ -2139,7 +2170,7 @@ RECIPE {
     energy_required = 60,
     ingredients = {
         {type = 'item', name = 'stone-wool', amount = 3},
-        {type = 'fluid', name = 'water', amount = 200},
+        {type = 'fluid', name = 'water-saline', amount = 200},
         {type = 'item', name = 'fawogae-substrate', amount = 10},
         {type = 'fluid', name = 'pressured-water', amount = 300}
     },
@@ -2148,7 +2179,7 @@ RECIPE {
         {type = 'fluid', name = 'waste-water', amount = 200}
     },
     main_product = 'zipir-carcass'
-}:add_unlock('placeholder'):replace_ingredient('water', 'water-saline')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2159,7 +2190,7 @@ RECIPE {
     ingredients = {
         {type = 'fluid', name = 'aromatics', amount = 200},
         {type = 'item', name = 'nexelit-plate', amount = 2},
-        {type = 'fluid', name = 'steam', amount = 300, temperature = 165}
+        {type = 'fluid', name = 'steam', amount = 300}
     },
     results = {
         {type = 'fluid', name = 'benzene', amount = 150}
@@ -2186,7 +2217,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'plastic2',
-    category = 'chemistry',
+    category = 'mixer',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2197,7 +2228,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'plastic-bar', amount = 20}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2218,7 +2249,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-zipir',
     order = 'b'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2233,7 +2264,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'bonemeal', amount = 4}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2247,7 +2278,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'ash', amount = 4}
     }
-}:add_unlock('placeholder')
+}:add_unlock('filtration')
 
 RECIPE {
     type = 'recipe',
@@ -2261,7 +2292,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'calcinates', amount = 3}
     }
-}:add_unlock('placeholder')
+}:add_unlock('fluid-separation')
 
 RECIPE {
     type = 'recipe',
@@ -2277,7 +2308,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'coal-briquette', amount = 2}
     }
-}:add_unlock('placeholder')
+}:add_unlock('energy-3')
 
 RECIPE {
     type = 'recipe',
@@ -2287,12 +2318,12 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'bones', amount = 2},
-        {type = 'fluid', name = 'steam', amount = 200, temperature = 165}
+        {type = 'fluid', name = 'steam', amount = 200}
     },
     results = {
         {type = 'item', name = 'mukmoux-fat', amount = 2}
     }
-}:add_unlock('placeholder')
+}:add_unlock('mukmoux')
 
 RECIPE {
     type = 'recipe',
@@ -2307,7 +2338,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'fawogae', amount = 20}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2326,7 +2357,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-items',
     order = 'd'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2344,7 +2375,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'py-fertilizer', amount = 10}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2353,13 +2384,13 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = 'fluid', name = 'steam', amount = 300, temperature = 165},
+        {type = 'fluid', name = 'steam', amount = 300},
         {type = 'item', name = 'skin', amount = 5}
     },
     results = {
         {type = 'fluid', name = 'glycerol', amount = 50}
     }
-}:add_unlock('placeholder')
+}:add_unlock('mukmoux')
 
 RECIPE {
     type = 'recipe',
@@ -2377,7 +2408,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'rayon', amount = 5}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2392,12 +2423,12 @@ RECIPE {
     results = {
         {type = 'item', name = 'blood-meal', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
     name = 'nylon',
-    category = 'chemistry',
+    category = 'mixer',
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -2405,12 +2436,12 @@ RECIPE {
         {type = 'item', name = 'blood-meal', amount = 3},
         {type = 'item', name = 'phenol', amount = 5},
         {type = 'item', name = 'chromium', amount = 1},
-        {type = 'fluid', name = 'steam', amount = 300, temperature = 165}
+        {type = 'fluid', name = 'steam', amount = 300}
     },
     results = {
         {type = 'item', name = 'nylon', amount = 5}
     }
-}:add_unlock('placeholder'):change_category('mixer')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2425,7 +2456,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'plastic-bar', amount = 15}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2439,7 +2470,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nylon-parts', amount = 5}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2451,12 +2482,12 @@ RECIPE {
         {type = 'item', name = 'skin', amount = 10},
         {type = 'item', name = 'urea', amount = 5},
         {type = 'fluid', name = 'acetic-acid', amount = 50},
-        {type = 'fluid', name = 'steam', amount = 500, temperature = 165}
+        {type = 'fluid', name = 'steam', amount = 500}
     },
     results = {
         {type = 'item', name = 'collagen', amount = 4}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2475,7 +2506,7 @@ RECIPE {
     results = {
         {type = "item", name = "epoxy", amount = 6},
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2493,7 +2524,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'resilin', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2511,12 +2542,12 @@ RECIPE {
     results = {
         {type = 'item', name = 'hyperelastic-material', amount = 1}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
     name = 'nano-wires',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2527,7 +2558,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nano-wires', amount = 5}
     }
-}:add_unlock('nano-tech'):change_category('gas-separator')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2541,11 +2572,11 @@ RECIPE {
         {type = 'fluid', name = 'waste-water', amount = 200}
     },
     results = {
-        {type = 'fluid', name = 'water', amount = 200}
+        {type = 'fluid', name = 'water-saline', amount = 200}
     },
     subgroup = 'py-hightech-fluids',
     order = 'b1',
-}:add_unlock('placeholder'):replace_result('water', 'water-saline')
+}:add_unlock('filtration-2')
 
 RECIPE {
     type = 'recipe',
@@ -2559,7 +2590,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'urea', amount = 10}
     }
-}:add_unlock('placeholder')
+}:add_unlock('fluid-separation')
 
 RECIPE {
     type = 'recipe',
@@ -2581,12 +2612,12 @@ RECIPE {
     results = {
         {type = 'item', name = 'nems', amount = 5}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
     name = 'lithium-chloride',
-    category = 'chemistry',
+    category = 'mixer',
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2597,7 +2628,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'lithium-chloride', amount = 3}
     }
-}:add_unlock('placeholder'):change_category('mixer')
+}:add_unlock('earnshaw-theorem')
 
 RECIPE {
     type = 'recipe',
@@ -2611,11 +2642,12 @@ RECIPE {
         {type = 'item', name = 'aerogel', amount = 3},
         {type = 'item', name = 'graphene-roll', amount = 2},
         {type = 'item', name = 'vanadium-oxide', amount = 3},
+        {type = 'fluid', name = 'vacuum', amount = 150},
     },
     results = {
         {type = 'item', name = 'volumetric-capacitor', amount = 1}
     }
-}:add_unlock('aerogel'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 150})
+}:add_unlock('earnshaw-theorem')
 
 RECIPE {
     type = 'recipe',
@@ -2633,7 +2665,7 @@ RECIPE {
         {type = 'item', name = 'laser-module', amount = 1}
     },
     main_product = 'laser-module'
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2649,7 +2681,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'yag-laser-module', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2666,7 +2698,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'lithium-niobate', amount = 2}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2686,7 +2718,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'parametric-oscilator', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2702,17 +2734,18 @@ RECIPE {
         {type = 'item', name = 'nems', amount = 2},
         {type = 'item', name = 'superconductor-servomechanims', amount = 2},
         {type = 'item', name = 'hyperelastic-material', amount = 3},
-        {type = 'item', name = 'nano-wires', amount = 5}
+        {type = 'item', name = 'nano-wires', amount = 5},
+        {type = 'item', name = 'fusion-reactor-equipment', amount = 1}
     },
     results = {
         {type = 'item', name = 'utility-science-pack', amount = 3}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
     name = 'syngas-methane',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -2724,7 +2757,7 @@ RECIPE {
         {type = 'fluid', name = 'flue-gas', amount = 75}
     },
     main_product = 'methane'
-}:add_unlock('coal-processing-3'):change_category('gas-separator')
+}:add_unlock('coal-processing-3')
 
 RECIPE {
     type = 'recipe',
@@ -2757,7 +2790,7 @@ RECIPE {
         {type = 'item', name = 'phenol', amount = 5}
     },
     main_product = 'phenol'
-}:add_unlock('placeholder')
+}:add_unlock('filtration-2')
 
 RECIPE {
     type = 'recipe',
@@ -2776,7 +2809,7 @@ RECIPE {
     main_product = 'tall-oil',
     subgroup = 'py-hightech-fluids',
     order = 'b1',
-}:add_unlock('placeholder')
+}:add_unlock('fluid-separation')
 
 RECIPE {
     type = 'recipe',
@@ -2791,7 +2824,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'tar', amount = 60}
     }
-}:add_unlock('placeholder')
+}:add_unlock('coal-processing-2')
 
 RECIPE {
     type = 'recipe',
@@ -2812,7 +2845,7 @@ RECIPE {
     icon_size = 32,
     subgroup = 'py-hightech-zipir',
     order = 'h'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2830,7 +2863,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'paramagnetic-material', amount = 1}
     }
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -2896,12 +2929,13 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'graphene-roll', amount = 2},
         {type = 'item', name = 'carbon-nanotube', amount = 1},
-        {type = 'item', name = 'coke', amount = 7}
+        {type = 'item', name = 'coke', amount = 7},
+        {type = 'fluid', name = 'vacuum', amount = 150}
     },
     results = {
         {type = 'item', name = 'pyrolytic-carbon', amount = 1}
     }
-}:add_unlock('earnshaw-theorem'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 150})
+}:add_unlock('earnshaw-theorem')
 
 RECIPE {
     type = 'recipe',
@@ -3024,13 +3058,14 @@ RECIPE {
         {type = 'item', name = 'var-josephson-junction', amount = 1},
         {type = 'item', name = 'quantum-vortex-storage-system', amount = 1},
         {type = 'fluid', name = 'liquid-helium', amount = 30},
+        {type = 'fluid', name = 'vacuum', amount = 500},
     },
     results = {
         {type = 'item', name = 'space-science-pack', amount = 3}
     },
     subgroup = "py-hightech-quantum",
     order = "a"
-}:add_unlock('quantum'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 500})
+}:add_unlock('quantum')
 
 RECIPE {
     type = 'recipe',
@@ -3045,6 +3080,7 @@ RECIPE {
         {type = 'item', name = 'var-josephson-junction', amount = 1},
         {type = 'item', name = 'quantum-vortex-storage-system', amount = 1},
         {type = 'fluid', name = 'liquid-helium', amount = 30},
+        {type = 'fluid', name = 'vacuum', amount = 500},
     },
     results = {
         {type = 'item', name = 'production-science-pack', amount = 5},
@@ -3058,7 +3094,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-quantum",
     order = "a"
-}:add_unlock('quantum'):add_ingredient({type = 'fluid', name = 'vacuum', amount = 500})
+}:add_unlock('quantum')
 
 RECIPE {
     type = 'recipe',
@@ -3129,7 +3165,7 @@ RECIPE {
     type = 'recipe',
     name = 'saline-water',
     category = 'washer',
-    enabled = true,
+    enabled = false,
     energy_required = 3,
     ingredients = {
         {type = 'item', name = 'stone', amount = 10},
@@ -3153,7 +3189,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'water-saline', amount = 50}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3220,7 +3256,7 @@ RECIPE {
         {type = 'fluid', name = 'acetone', amount = 50}
     },
     main_product = 'aromatics'
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3236,7 +3272,7 @@ RECIPE {
         {type = 'fluid', name = 'benzene', amount = 50}
     },
     main_product = 'benzene'
-}:add_unlock('placeholder')
+}:add_unlock('fluid-separation')
 
 RECIPE {
     type = 'recipe',
@@ -3266,7 +3302,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'plastic-bar', amount = 10}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3281,7 +3317,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'iron-oxide', amount = 10}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3295,7 +3331,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'dried-meat', amount = 5}
     }
-}:add_unlock('placeholder')--update pyal to hide this version
+}:add_unlock('fuel-production')--update pyal to hide this version
 
 RECIPE {
     type = 'recipe',
@@ -3330,7 +3366,7 @@ RECIPE {
     },
     subgroup = 'py-hightech-fluids',
     order = 'b1',
-}:add_unlock('nano-tech')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3344,12 +3380,12 @@ RECIPE {
     results = {
         {type = 'item', name = 'coal-dust', amount = 20}
     }
-}:add_unlock('placeholder')
+}:add_unlock('kicalk')
 
 RECIPE {
     type = 'recipe',
     name = 'acidgas',
-    category = 'chemistry',
+    category = 'gas-separator',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3359,7 +3395,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'acidgas', amount = 150}
     }
-}:add_unlock('coal-processing-2'):change_category('gas-separator')
+}:add_unlock('sulfur-processing')
 
 RECIPE {
     type = 'recipe',
@@ -3373,7 +3409,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'phosphoric-acid', amount = 40}
     }
-}:add_unlock('semiconductor-doping')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3424,13 +3460,13 @@ RECIPE {
     ingredients = {
         {type = 'fluid', name = 'benzene', amount = 100},
         {type = 'fluid', name = 'ethylene', amount = 80},
-        {type = "fluid", name = "steam", amount = 200, temperature = 165},
+        {type = "fluid", name = "steam", amount = 200},
         {type = 'item', name = 'iron-oxide', amount = 2},
     },
     results = {
         {type = 'item', name = 'plastic-bar', amount = 20}
     }
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3457,7 +3493,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'nylon2',
-    category = 'rectisol',
+    category = 'mixer',
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3469,11 +3505,11 @@ RECIPE {
     results = {
         {type = 'item', name = 'nylon', amount = 6}
     }
-}:add_unlock('placeholder'):change_category('mixer')
+}
 
 RECIPE {
     type = 'recipe',
-    name = 'phosporic-acid2',
+    name = 'phosphoric-acid3',
     category = 'chemistry',
     enabled = false,
     energy_required = 5,
@@ -3487,7 +3523,7 @@ RECIPE {
         {type = 'fluid', name = 'phosphoric-acid', amount = 10},
     },
     main_product = 'phosphoric-acid',
-}:add_unlock('placeholder')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3523,7 +3559,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'plastic-bar', amount = 5}
     }
-}:add_unlock('intergrated-circuits-1')
+}:add_unlock('plastics')
 
 RECIPE {
     type = 'recipe',
@@ -3535,11 +3571,12 @@ RECIPE {
         {type = 'fluid', name = 'propene', amount = 50},
         {type = 'item', name = 'copper-plate', amount = 2},
         {type = 'item', name = 'chromite-sand', amount = 5},
+        {type = 'fluid', name = 'pressured-air', amount = 100}
     },
     results = {
         {type = 'fluid', name = 'acetone', amount = 50}
     }
-}:add_unlock('placeholder'):add_ingredient({type = 'fluid', name = 'pressured-air', amount = 100}):change_category("wet-scrubber")
+}:change_category("wet-scrubber")
 
 RECIPE {
     type = "recipe",
@@ -3559,7 +3596,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-items",
     order = "j"
-}:add_unlock("coal-processing-1")
+}:add_unlock("kicalk")
 
 RECIPE {
     type = 'recipe',

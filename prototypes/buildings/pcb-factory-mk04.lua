@@ -14,8 +14,8 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"pcb-factory-mk03", 1},
-        {"low-density-structure", 10},
-        {"nbfe-alloy", 5},
+        {"biopolymer", 10},
+        {"super-alloy", 5},
         {"intelligent-unit", 10},
         {"superconductor-servomechanims", 10},
         {"hyperelastic-material", 15},
@@ -23,7 +23,7 @@ RECIPE {
     results = {
         {"pcb-factory-mk04", 1}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("electronics-machines-3")
 
 ITEM {
     type = "item",

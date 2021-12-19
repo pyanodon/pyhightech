@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"chipshooter-mk04", 1}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("electronics-machines-3")
 
 ITEM {
     type = "item",

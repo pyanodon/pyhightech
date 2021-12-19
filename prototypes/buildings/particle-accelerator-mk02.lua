@@ -5,17 +5,16 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"particle-accelerator-mk01", 1},
-        {"niobium-plate", 15},
-        {"superconductor", 10},
-        {"electric-engine-unit", 2},
-        {"processing-unit", 10},
-        {"plastic-bar", 100},
+        {"low-density-structure", 50},
+        {"electric-engine-unit", 50},
+        {"nbfe-alloy", 50},
+        {"processing-unit", 20},
         {"graphene-roll", 40},
     },
     results = {
         {"particle-accelerator-mk02", 1}
     }
-}:add_unlock("graphene")
+}:add_unlock("electronics-machines-2")
 
 ITEM {
     type = "item",

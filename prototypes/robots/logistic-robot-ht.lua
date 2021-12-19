@@ -18,7 +18,7 @@ RECIPE {
   results = {
     {"logistic-robot-ht", 1}
   }
-}:add_unlock("earnshaw-theorem")
+}
 
 ITEM {
   type = "item",

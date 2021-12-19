@@ -1,11 +1,11 @@
 TECHNOLOGY {
     type = "technology",
-    name = "intergrated-circuits-1",
+    name = "integrated-circuits-1",
     icon = "__base__/graphics/technology/electronics.png",
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"semiconductor-doping", "lubricant"},
+    prerequisites = {"semiconductor-doping", "nylon"},
     effects = {},
     unit = {
         count = 55,
@@ -19,12 +19,12 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = "technology",
-    name = "intergrated-circuits-2",
+    name = "integrated-circuits-2",
     icon = "__base__/graphics/technology/advanced-electronics.png",
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"intergrated-circuits-1"},
+    prerequisites = {"semiconductor-doping-2", "graphene", "fiberglass", "cadaveric-arum", "battery"},
     effects = {},
     unit = {
         count = 55,
@@ -39,12 +39,12 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = "technology",
-    name = "intergrated-circuits-3",
+    name = "integrated-circuits-3",
     icon = "__base__/graphics/technology/advanced-electronics-2.png",
     icon_size = 256,
 
     order = "c-a",
-    prerequisites = {"intergrated-circuits-2"},
+    prerequisites = {"integrated-circuits-2", "microfibers", "sc-unit", "colloidal-silica", "biopolymer", "zno-nanoparticles"},
     effects = {},
     unit = {
         count = 55,

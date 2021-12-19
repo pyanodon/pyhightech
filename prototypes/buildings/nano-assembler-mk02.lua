@@ -5,17 +5,15 @@ RECIPE {
     enabled = false,
     ingredients = {
         {"nano-assembler-mk01", 1},
-        {"nexelit-plate", 20},
-        {"concrete", 60},
-        {"steel-plate", 40},
-        {"plastic-bar", 10},
-        {"advanced-circuit", 10},
-        {"iron-gear-wheel", 30},
+        {"graphene-roll", 20},
+        {"processing-unit", 15},
+        {"niobium-plate", 10},
+        {"low-density-structure", 15},
     },
     results = {
         {"nano-assembler-mk02", 1}
     }
-}:add_unlock('placeholder')
+}:add_unlock('electronics-machines-2')
 
 ITEM {
     type = "item",

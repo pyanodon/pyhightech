@@ -5,7 +5,7 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "fluid", name = "steam", amount = 300, temperature = 165},
+        {type = "fluid", name = "steam", amount = 300},
         {type = "item", name = "ralesia-powder", amount = 10},
     },
     results = {
@@ -13,7 +13,7 @@ RECIPE {
     },
     icon = "__pyhightechgraphics__/graphics/icons/hydro-ralesia-extract.png",
 	icon_size = 32
-}:add_unlock("nano-tech")
+}
 
 FLUID {
     type = "fluid",
@@ -25,8 +25,6 @@ FLUID {
     flow_color = {r = 0.803, g = 0.564, b = 0.08},
     max_temperature = 100,
     gas_temperature = 15,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
     subgroup = "py-hightech-fluids",
     order = "b"
 }
