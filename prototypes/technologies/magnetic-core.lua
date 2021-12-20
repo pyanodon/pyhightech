@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "magnetic-core",
-    icon = "__pyfusionenergygraphics__/graphics/icons/magnetic-core.png",
-    icon_size = 32,
+    icon = "__pyfusionenergygraphics__/graphics/technology/magnetic-core.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"nenbit-matrix", "advanced-material-processing-2", "boron-2"},
     effects = {
