@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "melamine",
-    icon = "__pyhightechgraphics__/graphics/icons/melamine.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/melamine.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"auog", "vacuum-tube-electronics"},
     effects = {

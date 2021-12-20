@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "fiberboard",
-    icon = "__pyhightechgraphics__/graphics/icons/fiberboard.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/fiberboard.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"melamine"},
     effects = {

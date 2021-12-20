@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "epoxy",
-    icon = "__pyhightechgraphics__/graphics/icons/epoxy.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/epoxy.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"chemical-science-pack"},
     effects = {

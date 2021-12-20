@@ -1,4 +1,5 @@
 -- TECH CHANGES
+TECHNOLOGY('advanced-electronics-2'):set_field{hidden = true}:set_field{enabled=false}
 TECHNOLOGY('automation-2'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
 TECHNOLOGY('fast-inserter'):remove_prereq('electronics'):remove_prereq('automation'):add_prereq('vacuum-tube-electronics')
 TECHNOLOGY('solar-energy'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
@@ -40,7 +41,7 @@ TECHNOLOGY('artillery'):add_prereq('utility-science-pack')
 TECHNOLOGY('uranium-ammo'):add_prereq('utility-science-pack')
 TECHNOLOGY('plastics'):remove_prereq('logistic-science-pack'):add_prereq('melamine')
 TECHNOLOGY("battery"):add_prereq("rayon"):remove_prereq("sulfur-processing")
-TECHNOLOGY("sulfur-processing"):add_prereq("fluid-processing-machines-1"):add_prereq("fiberboard")
+TECHNOLOGY("sulfur-processing"):add_prereq("fiberboard")
 
 
 -- RECIPE UNLOCKS

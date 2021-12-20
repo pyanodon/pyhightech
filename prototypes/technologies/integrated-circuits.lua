@@ -1,9 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "integrated-circuits-1",
-    icon = "__base__/graphics/technology/electronics.png",
-    icon_size = 256,
-
+    icon = "__pyhightechgraphics__/graphics/technology/small-scale-integrated-circuits.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"semiconductor-doping", "nylon"},
     effects = {},
@@ -20,9 +19,8 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = "technology",
     name = "integrated-circuits-2",
-    icon = "__base__/graphics/technology/advanced-electronics.png",
-    icon_size = 256,
-
+    icon = "__pyhightechgraphics__/graphics/technology/medium-scale-integrated-circuits.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"semiconductor-doping-2", "graphene", "fiberglass", "cadaveric-arum", "battery"},
     effects = {},
@@ -40,9 +38,8 @@ TECHNOLOGY {
 TECHNOLOGY {
     type = "technology",
     name = "integrated-circuits-3",
-    icon = "__base__/graphics/technology/advanced-electronics-2.png",
-    icon_size = 256,
-
+    icon = "__pyhightechgraphics__/graphics/technology/large-scale-integrated-circuits.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"integrated-circuits-2", "microfibers", "sc-unit", "colloidal-silica", "biopolymer", "zno-nanoparticles"},
     effects = {},

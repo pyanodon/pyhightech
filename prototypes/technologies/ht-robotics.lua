@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "ht-robotics",
-    icon = "__pyhightechgraphics__/graphics/icons/construction-robot-ht.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/high-tech-robotics.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"construction-robotics", "logistic-robotics", "nano-tech", "earnshaw-theorem", "paramagnetic-material"},
     effects = {

@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "nitrobenzene",
-    icon = "__pyhightechgraphics__/graphics/icons/nitrobenzene.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/nitrobenzene.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"fluid-separation"},
     effects = {

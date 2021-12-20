@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "nems",
-    icon = "__pyhightechgraphics__/graphics/icons/nems.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/nems.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"carbon-nanotube", "magnetic-core", "zno-nanoparticles", "ethanolamine"},
     effects = {

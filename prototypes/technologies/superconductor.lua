@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "superconductor",
-    icon = "__pyhightechgraphics__/graphics/icons/superconductor.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/superconductor.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"biopolymer", "sc-unit", "re-magnet", "cadaveric-arum", "helium-processing-2"},
     effects = {

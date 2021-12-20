@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "fiberglass",
-    icon = "__pyhightechgraphics__/graphics/icons/fiberglass.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/fiberglass.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"filtration-2", "epoxy"},
     effects = {

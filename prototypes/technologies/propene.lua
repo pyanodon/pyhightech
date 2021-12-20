@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "propene",
-    icon = "__pyhightechgraphics__/graphics/icons/propene.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/propene.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"chromium", "vacuum-tube-electronics"},
     effects = {

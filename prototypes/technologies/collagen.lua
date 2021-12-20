@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "collagen",
-    icon = "__pyhightechgraphics__/graphics/icons/collagen.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/collagen.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"production-science-pack"},
     effects = {
