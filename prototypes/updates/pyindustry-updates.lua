@@ -1,8 +1,11 @@
 -- TECH CHANGES
-
+TECHNOLOGY("kicalk"):add_prereq("py-storage-tanks")
+TECHNOLOGY("railway-mk02"):remove_prereq("niobium"):add_prereq("basic-electronics")
+TECHNOLOGY("py-accumulator-mk01"):add_prereq("ht-trains")
+TECHNOLOGY("advanced-mining-facilities"):remove_prereq("py-storage-tanks")
+TECHNOLOGY("ht-robotics"):remove_prereq("construction-robotics")
 
 -- RECIPE UNLOCKS
-RECIPE("accumulator-mk02"):remove_unlock('coal-processing-3'):remove_unlock('electric-energy-accumulators'):add_unlock('advanced-electronics')
 
 
 -- RECIPE CHANGES
@@ -14,3 +17,4 @@ RECIPE('quantum-computer'):replace_ingredient('pipe', 'niobium-pipe')
 RECIPE('pulp-mill-mk03'):replace_ingredient('pipe', 'niobium-pipe')
 RECIPE('construction-robot-ht'):replace_ingredient('construction-robot', 'py-construction-robot-01')
 RECIPE('logistic-robot-ht'):replace_ingredient('logistic-robot', 'py-logistic-robot-01')
+RECIPE('mk02-locomotive'):replace_ingredient('engine-unit', 'electric-engine-unit')

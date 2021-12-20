@@ -9,7 +9,8 @@
   "description": "Improves and raise difficult of electronics in the game",
   "dependencies": [
     "pyfusionenergy >= 1.1.4",
-    "~ pyhightechgraphics >= 1.0.0"
+    "~ pyhightechgraphics >= 1.0.0",
+    "? pyindustry"
   ],
   "package": {
     "ignore": [],
