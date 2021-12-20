@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
-    name = "phosphates",
-    icon = "__pyhightechgraphics__/graphics/icons/phosphoric-acid.png",
-    icon_size = 32,
+    name = "phosphorous-processing",
+    icon = "__pyhightechgraphics__/graphics/technology/phosphorous-processing.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"niobium"},
     effects = {

@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "rayon",
-    icon = "__pyhightechgraphics__/graphics/icons/rayon.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/rayon.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"sulfur-processing", "propene", "kicalk-2"},
     effects = {

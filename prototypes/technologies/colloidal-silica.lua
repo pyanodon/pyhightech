@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "colloidal-silica",
-    icon = "__pyhightechgraphics__/graphics/icons/colloidal-silica.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/colloidal-silica.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"production-science-pack"},
     effects = {

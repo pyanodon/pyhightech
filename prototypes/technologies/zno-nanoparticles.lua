@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "zno-nanoparticles",
-    icon = "__pyhightechgraphics__/graphics/icons/zno-nanoparticles.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/zno-nanoparticles.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"aerogel", "nucleo"},
     effects = {

@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "re-magnet",
-    icon = "__pyhightechgraphics__/graphics/icons/re-magnet.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/nd-magnet.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"production-science-pack", "magnetic-core"},
     effects = {

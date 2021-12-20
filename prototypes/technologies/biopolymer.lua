@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "biopolymer",
-    icon = "__pyhightechgraphics__/graphics/icons/biopolymer.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/biopolymer.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"collagen", "biotech"},
     effects = {

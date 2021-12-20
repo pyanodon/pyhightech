@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "supercapacitor",
-    icon = "__pyhightechgraphics__/graphics/icons/supercapacitor.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/supercapacitor.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"aerogel", "nucleo"},
     effects = {

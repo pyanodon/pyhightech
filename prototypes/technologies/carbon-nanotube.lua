@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "carbon-nanotube",
-    icon = "__pyhightechgraphics__/graphics/icons/carbon-nanotube.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/carbon-nanotube.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"biopolymer", "graphene"},
     effects = {

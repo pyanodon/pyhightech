@@ -1,4 +1,5 @@
 -- TECH CHANGES
+TECHNOLOGY('advanced-electronics-2'):set_field{hidden = true}:set_field{enabled=false}
 TECHNOLOGY('automation-2'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')
 TECHNOLOGY('fast-inserter'):remove_prereq('electronics'):remove_prereq('automation'):add_prereq('vacuum-tube-electronics')
 TECHNOLOGY('solar-energy'):remove_prereq('electronics'):add_prereq('vacuum-tube-electronics')

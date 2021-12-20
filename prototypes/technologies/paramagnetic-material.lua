@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "paramagnetic-material",
-    icon = "__pyhightechgraphics__/graphics/icons/paramagnetic-material.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/paramagnetic-material.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"production-science-pack", "nucleo"},
     effects = {

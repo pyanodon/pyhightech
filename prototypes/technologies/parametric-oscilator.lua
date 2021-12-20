@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
     name = "parametric-oscilator",
-    icon = "__pyhightechgraphics__/graphics/icons/parametric-oscilator.png",
-    icon_size = 32,
+    icon = "__pyhightechgraphics__/graphics/technology/optical-parametric.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"re-magnet", "integrated-circuits-3", "paramagnetic-material"},
     effects = {
