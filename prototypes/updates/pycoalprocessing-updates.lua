@@ -7,11 +7,11 @@ TECHNOLOGY('energy-3'):remove_prereq('fuel-production'):remove_prereq('advanced-
 TECHNOLOGY('niobium'):add_prereq('melamine')
 TECHNOLOGY("fine-electronics"):remove_prereq("sulfur-processing"):remove_prereq("niobium"):remove_prereq("plastics"):add_prereq("nitrobenzene"):add_prereq("nylon")
 TECHNOLOGY("biofilm"):add_prereq("rayon")
+TECHNOLOGY("fluid-processing-machines-1"):remove_prereq("coal-processing-2"):add_prereq("electric-engine")
 
 
 -- RECIPE UNLOCKS
 RECIPE('automated-factory-mk01'):remove_unlock('advanced-electronics'):add_unlock('basic-electronics')
-RECIPE("evaporator"):remove_unlock("sulfur-processing")
 
 
 -- RECIPE CHANGES
