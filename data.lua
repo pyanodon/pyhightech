@@ -113,6 +113,7 @@ require("prototypes/buildings/particle-accelerator-mk02")
 require("prototypes/buildings/particle-accelerator-mk03")
 require("prototypes/buildings/particle-accelerator-mk04")
 require("prototypes/buildings/crashed-assembler-mk01")
+require("prototypes/buildings/py-roboport-mk03")
 
 --(( TRAINS ))--
 require("prototypes/buildings/ht-locomotive/ht-locomotive")
