@@ -2738,7 +2738,7 @@ RECIPE {
         {type = 'item', name = 'fusion-reactor-equipment', amount = 1}
     },
     results = {
-        {type = 'item', name = 'utility-science-pack', amount = 3}
+        {type = 'item', name = 'utility-science-pack', amount = 5}
     }
 }
 
