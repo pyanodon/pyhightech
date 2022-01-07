@@ -10,7 +10,7 @@
   "dependencies": [
     "pyfusionenergy >= 1.1.4",
     "~ pyhightechgraphics >= 1.0.0",
-    "? pyindustry"
+    "pyindustry >= 1.5.3"
   ],
   "package": {
     "ignore": [],

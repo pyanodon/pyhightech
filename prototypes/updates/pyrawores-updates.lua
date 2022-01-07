@@ -1,5 +1,5 @@
 -- TECH CHANGES
-
+TECHNOLOGY("propene"):remove_prereq('chromium'):add_prereq('chromium-mk01')
 
 -- RECIPE UNLOCKS
 
