@@ -3034,9 +3034,9 @@ RECIPE {
     enabled = false,
     energy_required = 20,
     ingredients = {
-        {type = 'item', name = 'diamond', amount = 1},
-        {type = 'item', name = 'paramagnetic-material', amount = 2},
-        {type = 'item', name = 'diamagnetic-material', amount = 2},
+        {type = 'item', name = 'diamond', amount = 5},
+        {type = 'item', name = 'paramagnetic-material', amount = 4},
+        {type = 'item', name = 'diamagnetic-material', amount = 4},
         {type = 'item', name = 'parametric-oscilator', amount = 1},
         {type = 'item', name = 'harmonic-absorber', amount = 1}
     },
