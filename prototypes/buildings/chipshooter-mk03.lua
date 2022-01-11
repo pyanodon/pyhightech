@@ -8,6 +8,7 @@ RECIPE {
         {"processing-unit", 15},
         {"niobium-plate", 10},
         {"low-density-structure", 15},
+        {"electric-engine-unit", 30},
         {"chipshooter-mk02", 1}
     },
     results = {

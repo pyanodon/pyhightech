@@ -6,6 +6,7 @@ RECIPE {
     ingredients = {
         {"fbreactor-mk01", 1},
         {"pipe", 15},
+        {"steam-engine", 4},
         {"electric-mining-drill", 2},
         {"iron-plate", 40}
     },

@@ -10,7 +10,7 @@ RECIPE {
         {"plastic-bar", 100},
         {"niobium-plate", 20},
         {"biopolymer", 10},
-        {"engine-unit", 10},
+        {"electric-engine-unit", 15},
     },
     results = {
         {"moondrop-greenhouse-mk03", 1}

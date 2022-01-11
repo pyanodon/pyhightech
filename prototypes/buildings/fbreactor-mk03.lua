@@ -6,7 +6,7 @@ RECIPE {
     ingredients = {
         {"fbreactor-mk02", 1},
         {"low-density-structure", 15},
-        {"electric-engine-unit", 2},
+        {"electric-engine-unit", 5},
         {"processing-unit", 10},
         {"plastic-bar", 100},
         {"graphene-roll", 40},

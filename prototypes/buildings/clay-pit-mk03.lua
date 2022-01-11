@@ -8,7 +8,7 @@ RECIPE {
         {"low-density-structure", 10},
         {"processing-unit", 15},
         {"concrete", 40},
-        {"engine-unit", 10},
+        {"electric-engine-unit", 10},
         {"graphene-roll", 30},
     },
     results = {

@@ -7,6 +7,7 @@ RECIPE {
         {"moondrop-greenhouse-mk01", 1},
         {"advanced-circuit", 10},
         {"pipe", 40},
+        {"engine-unit", 1},
         {"niobium-plate", 10},
     },
     results = {

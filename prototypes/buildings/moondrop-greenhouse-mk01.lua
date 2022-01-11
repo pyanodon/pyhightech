@@ -7,7 +7,8 @@ RECIPE {
         {"steam-engine", 1},
         {"pipe", 15},
         {"iron-plate", 100},
-        {"iron-gear-wheel", 40}
+        {"iron-gear-wheel", 40},
+        {"steam-engine", 1},
     },
     results = {
         {"moondrop-greenhouse-mk01", 1}

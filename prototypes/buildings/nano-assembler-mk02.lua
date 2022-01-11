@@ -7,6 +7,7 @@ RECIPE {
         {"nano-assembler-mk01", 1},
         {"graphene-roll", 20},
         {"processing-unit", 15},
+        {"engine-unit", 4},
         {"niobium-plate", 10},
         {"low-density-structure", 15},
     },

@@ -24,7 +24,7 @@ RECIPE {
     ingredients = {
         {"fbreactor-mk01", 1},
         {"pipe", 10},
-        {"electric-mining-drill", 1},
+        {"steam-engine", 3},
         {"stone-brick", 30},
         {"wood", 30}
     },
