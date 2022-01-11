@@ -19,7 +19,7 @@ RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semicond
 RECIPE('liquid-pure-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
 RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('integrated-circuits-1')
 RECIPE('pressured-water'):remove_unlock('xyhiphoe')
-RECIPE('compressor-mk01'):remove_unlock('helium-processing')
+RECIPE('compressor-mk01'):remove_unlock('helium-processing'):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing")
 RECIPE('silver-foam'):remove_unlock('fusion-mk03')
 RECIPE('agzn-alloy'):remove_unlock('fusion-mk03')
 RECIPE('sodium-chlorate'):remove_unlock('vanadium-processing'):add_unlock('filtration-2')

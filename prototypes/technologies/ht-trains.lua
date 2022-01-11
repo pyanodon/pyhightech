@@ -5,6 +5,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nucleo", "railway"},
+    dependencies = {"railway-mk02"},
     effects = {},
     unit = {
         count = 150,

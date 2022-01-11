@@ -23,6 +23,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"fuel-production"},
+    dependencies = {"semiconductor-doping"},
     effects = {
         {type = "unlock-recipe", recipe = "compressor-mk01"},
     },

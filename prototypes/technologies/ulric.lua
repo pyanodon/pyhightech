@@ -6,6 +6,7 @@ if not mods["pyalienlife"] then
         icon_size = 128,
         order = "c-a",
         prerequisites = {"zipir", "crusher"},
+        dependencies = {"ulric"},
         effects = {
             {type = "unlock-recipe", recipe = "bonemeal2"},
             {type = "unlock-recipe", recipe = "bonemeal3"},
@@ -27,6 +28,7 @@ if not mods["pyalienlife"] then
         icon_size = 128,
         order = "c-a",
         prerequisites = {"chemical-science-pack", "ulric-2"},
+        dependencies = {"ulric-2"},
         effects = {
             {type = "unlock-recipe", recipe = "bonemeal4"},
         },

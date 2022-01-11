@@ -24,6 +24,7 @@ if not mods["pyalienlife"] then
         icon_size = 128,
         order = "c-a",
         prerequisites = {"chemical-science-pack"},
+        dependencies = {"auog"},
         effects = {},
         unit = {
             count = 100,
