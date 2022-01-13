@@ -28,7 +28,6 @@ RECIPE {
         {"volumetric-capacitor", 20},
         {"intelligent-unit", 20},
         {"biopolymer", 50},
-        {"electric-engine-unit", 50},
         {"super-alloy", 50},
     },
     results = {

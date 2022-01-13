@@ -7,6 +7,7 @@ RECIPE {
         {"burner-mining-drill", 2},
         {"pipe", 10},
         {"iron-plate", 40},
+        {"steam-engine", 2},
         {"stone-brick", 20}
     },
     results = {

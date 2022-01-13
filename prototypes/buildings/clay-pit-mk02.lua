@@ -8,6 +8,7 @@ RECIPE {
         {"nexelit-plate", 10},
         {"plastic-bar", 10},
         {"advanced-circuit", 10},
+        {"engine-unit", 4},
         {"stone-brick", 40},
         {"steel-plate", 50},
     },

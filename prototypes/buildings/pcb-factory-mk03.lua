@@ -19,7 +19,7 @@ RECIPE {
         {"niobium-plate", 50},
         {"low-density-structure", 15},
         {"concrete", 50},
-        {"engine-unit", 10},
+        {"electric-engine-unit", 10},
     },
     results = {
         {"pcb-factory-mk03", 1}

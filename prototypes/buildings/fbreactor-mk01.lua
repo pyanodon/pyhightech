@@ -6,6 +6,7 @@ RECIPE {
     ingredients = {
         {"boiler", 2},
         {"pipe", 15},
+        {"steam-engine", 1},
         {"stone-furnace", 4},
         {"iron-plate", 40}
     },

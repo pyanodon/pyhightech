@@ -7,6 +7,7 @@ RECIPE {
         {"nano-assembler-mk02", 1},
         {"biopolymer", 10},
         {"super-alloy", 5},
+        {"electric-engine-unit", 10},
         {"intelligent-unit", 10},
         {"superconductor-servomechanims", 10},
         {"hyperelastic-material", 15},

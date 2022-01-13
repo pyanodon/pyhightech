@@ -7,7 +7,7 @@ RECIPE {
         {"electronics-factory-mk02", 1},
         {"processing-unit", 20},
         {"concrete", 20},
-        {"engine-unit", 10},
+        {"electric-engine-unit", 10},
         {"low-density-structure", 15},
         {"graphene-roll", 40},
     },

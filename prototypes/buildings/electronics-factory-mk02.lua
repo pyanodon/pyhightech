@@ -8,6 +8,7 @@ RECIPE {
         {"advanced-circuit", 10},
         {"plastic-bar", 40},
         {"niobium-plate", 20},
+        {"engine-unit", 10},
         {"steel-plate", 40}
     },
     results = {

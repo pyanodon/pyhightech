@@ -11,7 +11,7 @@ RECIPE {
         {"plastic-bar", 10},
         {"advanced-circuit", 10},
         {"iron-gear-wheel", 30},
-        
+        {"steam-engine", 3},
     },
     results = {
         {"nano-assembler-mk01", 1}

@@ -24,6 +24,7 @@ RECIPE {
     ingredients = {
         {"pulp-mill-mk01", 1},
         {"advanced-circuit", 10},
+        {"engine-unit", 5},
         {"pipe", 40},
         {"niobium-plate", 10},
         {"treated-wood", 30}

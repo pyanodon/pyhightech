@@ -6,7 +6,6 @@ RECIPE {
     ingredients = {
         {"electronics-factory-mk03", 1},
         {"biopolymer", 30},
-        {"electric-engine-unit", 5},
         {"super-alloy", 30},
         {"intelligent-unit", 10},
         {"superconductor-servomechanims", 10},

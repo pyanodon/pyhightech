@@ -6,7 +6,6 @@ RECIPE {
     ingredients = {
         {"moondrop-greenhouse-mk03", 1},
         {"nbfe-alloy", 10},
-        {"electric-engine-unit", 5},
         {"intelligent-unit", 10},
         {"superconductor-servomechanims", 10},
         {"hyperelastic-material", 15},

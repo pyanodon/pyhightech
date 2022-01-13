@@ -27,7 +27,7 @@ RECIPE {
         {"processing-unit", 10},
         {"pipe", 20},
         {"low-density-structure", 15},
-        {"engine-unit", 10},
+        {"electric-engine-unit", 10},
     },
     results = {
         {"pulp-mill-mk03", 1}

@@ -6,6 +6,7 @@ RECIPE {
     ingredients = {
         {"distilator", 2},
         {"iron-plate", 60},
+        {"steam-engine", 2},
         {"iron-gear-wheel", 100},
         {"inserter", 2},
         {"pcb1", 20}
