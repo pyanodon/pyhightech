@@ -23,6 +23,7 @@ if not mods["pyalienlife"] then
         icon_size = 128,
         order = "c-a",
         prerequisites = {"kicalk", "engine", "concrete"},
+        dependencies = {"kicalk"},
         effects = {
             {type = "unlock-recipe", recipe = "raw-fiber3"},
         },

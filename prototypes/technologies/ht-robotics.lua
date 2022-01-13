@@ -5,6 +5,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"construction-robotics", "logistic-robotics", "nano-tech", "earnshaw-theorem", "paramagnetic-material"},
+    dependencies = {"construction-robotics", "logistic-robotics"},
     effects = {
         {type = "unlock-recipe", recipe = "construction-robot-ht"},
         {type = "unlock-recipe", recipe = "logistic-robot-ht"},

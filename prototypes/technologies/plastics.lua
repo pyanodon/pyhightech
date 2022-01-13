@@ -5,6 +5,7 @@ TECHNOLOGY {
     icon_size = 256,
     order = "c-a",
     prerequisites = {"chemical-science-pack"},
+    dependencies = {"plastics"},
     effects = {
         {type = "unlock-recipe", recipe = "plastic3"},
         {type = "unlock-recipe", recipe = "nylon-plastic"},
@@ -28,6 +29,7 @@ TECHNOLOGY {
     icon_size = 256,
     order = "c-a",
     prerequisites = {"production-science-pack", "plastics-2"},
+    dependencies = {"plastics-2"},
     effects = {
         {type = "unlock-recipe", recipe = "ethylene"},
         {type = "unlock-recipe", recipe = "plastics-3"},

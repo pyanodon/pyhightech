@@ -46,7 +46,7 @@ TECHNOLOGY("sulfur-processing"):add_prereq("fiberboard")
 
 -- RECIPE UNLOCKS
 -- RECIPE("utility-science-pack"):remove_unlock('utility-science-pack')
-RECIPE('centrifuge'):remove_unlock('nuclear-power'):add_unlock('kicalk-2')
+RECIPE('centrifuge'):remove_unlock('uranium-processing'):remove_unlock('nuclear-power'):add_unlock('kicalk-2')
 
 
 -- RECIPE CHANGES

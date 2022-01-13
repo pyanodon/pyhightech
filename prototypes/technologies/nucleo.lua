@@ -5,6 +5,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"energy-2", "boron-2", "uranium-processing"},
+    dependencies = {"boron-2", "uranium-processing"},
     effects = {},
     unit = {
         count = 200,
