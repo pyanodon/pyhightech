@@ -246,7 +246,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-2")
 
 RECIPE {
     type = "recipe",
@@ -271,7 +271,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -296,7 +296,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-3")
 
 RECIPE {
     type = "recipe",
@@ -321,7 +321,7 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-2")
 
 RECIPE {
     type = "recipe",
@@ -344,4 +344,4 @@ RECIPE {
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
     order = "f"
-}:add_unlock("nucleo")
+}:add_unlock("nucleo-3")
