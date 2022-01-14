@@ -11,12 +11,11 @@ TECHNOLOGY('nenbit-matrix'):add_prereq('epoxy')
 -- RECIPE UNLOCKS
 RECIPE('vacuum'):remove_unlock('advanced-mining-facilities'):add_unlock('vacuum-tube-electronics')
 RECIPE('vacuum-pump-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('vacuum-tube-electronics')
-RECIPE('centrifugal-pan-mk01'):remove_unlock('diamond-mining'):add_unlock("fluid-processing-machines-1")
 RECIPE('pressured-air'):remove_unlock('helium-processing')
 RECIPE('purified-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
 RECIPE('cool-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
 RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
-RECIPE('liquid-pure-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
+--RECIPE('liquid-pure-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-2')
 RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('integrated-circuits-1')
 RECIPE('pressured-water'):remove_unlock('xyhiphoe')
 RECIPE('compressor-mk01'):remove_unlock('helium-processing'):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing")
@@ -31,7 +30,11 @@ RECIPE('coil-core'):remove_unlock('sc-unit')
 RECIPE('sc-coil'):remove_unlock('sc-unit')
 RECIPE('magnetic-core'):remove_unlock('sc-unit')
 RECIPE("ferrite"):remove_unlock("sc-unit"):add_unlock("basic-electronics")
-RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("fluid-processing-machines-1")
+
+if not mods['pyrawores'] then
+    RECIPE('centrifugal-pan-mk01'):remove_unlock('diamond-mining'):add_unlock("fluid-processing-machines-1")
+    RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("fluid-processing-machines-1")
+end
 
 
 -- RECIPE CHANGES
