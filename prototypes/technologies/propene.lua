@@ -8,7 +8,6 @@ TECHNOLOGY {
     effects = {
         {type = "unlock-recipe", recipe = "pressured-air"},
         {type = "unlock-recipe", recipe = "propene"},
-        {type = "unlock-recipe", recipe = "propene-to-acetone"},
     },
     unit = {
         count = 50,

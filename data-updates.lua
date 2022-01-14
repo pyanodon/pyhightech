@@ -4,10 +4,7 @@ local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
 require('prototypes/updates/base-updates')
 require('prototypes/updates/pycoalprocessing-updates')
 require('prototypes/updates/pyfusionenergy-updates')
-
-if mods['pyindustry'] then
-    require('prototypes/updates/pyindustry-updates')
-end
+require('prototypes/updates/pyindustry-updates')
 
 if mods['pyrawores'] then
     require('prototypes/updates/pyrawores-updates')

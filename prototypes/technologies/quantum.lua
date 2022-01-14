@@ -5,6 +5,7 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"utility-science-pack", "energy-3"},
+    dependencies = {"logistic-science-pack", "military-science-pack", "chemical-science-pack", "production-science-pack", "utility-science-pack"},
     effects = {},
     unit = {
         count = 100,
