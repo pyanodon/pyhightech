@@ -10,6 +10,7 @@ TECHNOLOGY {
         {type = "unlock-recipe", recipe = "ech"},
         {type = "unlock-recipe", recipe = "resorcinol"},
         {type = "unlock-recipe", recipe = "epoxy"},
+        {type = "unlock-recipe", recipe = "propene-to-acetone"},
     },
     unit = {
         count = 50,

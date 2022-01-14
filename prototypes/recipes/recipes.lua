@@ -151,7 +151,7 @@ RECIPE {
         {type = 'item', name = 'clay', amount = 3}
     },
     main_product = 'clay'
-}:add_unlock('kicalk')
+}:add_unlock('coal-processing-1')
 
 RECIPE {
     type = 'recipe',
@@ -3348,7 +3348,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'coal-briquette', amount = 1}
     }
-}:add_unlock('fuel-production')
+}:add_unlock('fuel-production-2')
 
 RECIPE {
     type = 'recipe',
