@@ -23,7 +23,7 @@ TECHNOLOGY {
 if mods['pyrawores'] then
     TECHNOLOGY {
         type = "technology",
-        name = "fiberboard-2",
+        name = "fiberboard-mk02",
         icon = "__pyhightechgraphics__/graphics/technology/fiberboard-mk02.png",
         icon_size = 128,
         order = "c-a",

@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "semiconductor-doping",
-    icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping.png",
+    icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping-mk01.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"rare-earth-tech", "phosphorous-processing"},
@@ -18,8 +18,8 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = "technology",
-    name = "semiconductor-doping-2",
-    icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping.png",
+    name = "semiconductor-doping-mk02",
+    icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping-mk02.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"fuel-production"},

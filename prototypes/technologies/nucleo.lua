@@ -1,10 +1,10 @@
 TECHNOLOGY {
     type = "technology",
     name = "nucleo",
-    icon = "__pyhightechgraphics__/graphics/technology/nucleosyntesis.png",
+    icon = "__pyhightechgraphics__/graphics/technology/nucleosyntesis-mk01.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"energy-2", "boron-2", "uranium-processing"},
+    prerequisites = {"energy-2", "boron-mk02", "uranium-processing"},
     effects = {},
     unit = {
         count = 200,
@@ -19,8 +19,8 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = "technology",
-    name = "nucleo-2",
-    icon = "__pyhightechgraphics__/graphics/technology/nucleosyntesis.png",
+    name = "nucleo-mk02",
+    icon = "__pyhightechgraphics__/graphics/technology/nucleosyntesis-mk02.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nucleo"},
@@ -40,12 +40,12 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = "technology",
-    name = "nucleo-3",
-    icon = "__pyhightechgraphics__/graphics/technology/nucleosyntesis.png",
+    name = "nucleo-mk03",
+    icon = "__pyhightechgraphics__/graphics/technology/nucleosyntesis-mk03.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"nucleo-2"},
-    dependencies = {"nucleo-2"},
+    prerequisites = {"nucleo-mk02"},
+    dependencies = {"nucleo-mk02"},
     effects = {},
     unit = {
         count = 200,

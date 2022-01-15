@@ -215,7 +215,7 @@ local recipes_list =
     "phosphoric-acid2",
     --"methane-combustion",
     "electronic-circuit-initial",
-    "plastics-3",
+    "plastics-mk03",
     --"benzene-combustion",
     "nylon2",
     "phosporic-acid2",
