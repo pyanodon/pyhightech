@@ -13,7 +13,7 @@ RECIPE {
         {type = "fluid", name = "msa", amount = 100}
     },
     main_product = "msa",
-}
+}:add_unlock('integrated-circuits-2')
 
 FLUID {
     type = "fluid",

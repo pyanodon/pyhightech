@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "fiberboard",
-    icon = "__pyhightechgraphics__/graphics/technology/fiberboard.png",
+    icon = "__pyhightechgraphics__/graphics/technology/fiberboard-mk01.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {"melamine"},
@@ -24,7 +24,7 @@ if mods['pyrawores'] then
     TECHNOLOGY {
         type = "technology",
         name = "fiberboard-2",
-        icon = "__pyhightechgraphics__/graphics/technology/fiberboard.png",
+        icon = "__pyhightechgraphics__/graphics/technology/fiberboard-mk02.png",
         icon_size = 128,
         order = "c-a",
         prerequisites = {"fiberboard"},
