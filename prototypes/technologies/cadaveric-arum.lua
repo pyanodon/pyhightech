@@ -8,7 +8,6 @@ TECHNOLOGY {
     effects = {
         {type = "unlock-recipe", recipe = "cadaveric-arum-mk01"},
         {type = "unlock-recipe", recipe = "dms"},
-        {type = "unlock-recipe", recipe = "msa"},
     },
     unit = {
         count = 50,
