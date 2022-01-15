@@ -12,7 +12,7 @@ RECIPE('vacuum-pump-mk01'):remove_unlock('vacuum-tube-electronics')
 RECIPE('pressured-air'):remove_unlock('propene')
 RECIPE("nmf-mk01"):remove_unlock("fine-electronics")
 RECIPE('automated-factory-mk01'):remove_unlock('basic-electronics')
-RECIPE('compressor-mk01'):remove_unlock('semiconductor-doping-2')
+RECIPE('compressor-mk01'):remove_unlock('semiconductor-doping-mk02')
 RECIPE("centrifuge"):remove_unlock('nuclear-fuel-reprocessing')
 
 

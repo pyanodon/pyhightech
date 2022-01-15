@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "zipir",
-    icon = "__pyhightechgraphics__/graphics/icons/zipir-carcass.png",
+    icon = "__pyhightechgraphics__/graphics/icons/zipir-carcass.png", --TODO
     icon_size = 32,
     order = "c-a",
     prerequisites = {"logistic-science-pack", "vacuum-tube-electronics"},

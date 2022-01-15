@@ -1,8 +1,8 @@
 TECHNOLOGY {
     type = "technology",
-    name = "plastics-2",
-    icon = "__base__/graphics/technology/plastics.png",
-    icon_size = 256,
+    name = "plastics-mk02",
+    icon = "__pyhightechgraphics__/graphics/technology/plastics-mk02.png",
+    icon_size = 128,
     order = "c-a",
     prerequisites = {"chemical-science-pack"},
     dependencies = {"plastics"},
@@ -24,15 +24,15 @@ TECHNOLOGY {
 
 TECHNOLOGY {
     type = "technology",
-    name = "plastics-3",
-    icon = "__base__/graphics/technology/plastics.png",
-    icon_size = 256,
+    name = "plastics-mk03",
+    icon = "__pyhightechgraphics__/graphics/technology/plastics-mk03.png",
+    icon_size = 128,
     order = "c-a",
-    prerequisites = {"production-science-pack", "plastics-2"},
-    dependencies = {"plastics-2"},
+    prerequisites = {"production-science-pack", "plastics-mk02"},
+    dependencies = {"plastics-mk02"},
     effects = {
         {type = "unlock-recipe", recipe = "ethylene"},
-        {type = "unlock-recipe", recipe = "plastics-3"},
+        {type = "unlock-recipe", recipe = "plastics-mk03"},
         {type = "unlock-recipe", recipe = "plastic2"},
     },
     unit = {

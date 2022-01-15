@@ -1010,7 +1010,7 @@ RECIPE {
         {type = 'item', name = 'heavy-p-type', amount = 5}
     },
     main_product = 'heavy-p-type'
-}:add_unlock('semiconductor-doping-2')
+}:add_unlock('semiconductor-doping-mk02')
 
 RECIPE {
     type = 'recipe',
@@ -2576,7 +2576,7 @@ RECIPE {
     },
     subgroup = 'py-hightech-fluids',
     order = 'b1',
-}:add_unlock('filtration-2')
+}:add_unlock('filtration-mk02')
 
 RECIPE {
     type = 'recipe',
@@ -2790,7 +2790,7 @@ RECIPE {
         {type = 'item', name = 'phenol', amount = 5}
     },
     main_product = 'phenol'
-}:add_unlock('filtration-2')
+}:add_unlock('filtration-mk02')
 
 RECIPE {
     type = 'recipe',
@@ -3348,7 +3348,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'coal-briquette', amount = 1}
     }
-}:add_unlock('fuel-production-2')
+}:add_unlock('fuel-production-mk02')
 
 RECIPE {
     type = 'recipe',
@@ -3453,7 +3453,7 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
-    name = 'plastics-3',
+    name = 'plastics-mk03',
     category = 'distilator',
     enabled = false,
     energy_required = 3,

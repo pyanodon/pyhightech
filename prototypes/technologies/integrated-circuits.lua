@@ -22,7 +22,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/medium-scale-integrated-circuits.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"semiconductor-doping-2", "graphene", "fiberglass", "cadaveric-arum", "battery"},
+    prerequisites = {"semiconductor-doping-mk02", "graphene", "fiberglass", "cadaveric-arum", "battery"},
     dependencies = {"integrated-circuits-1"},
     effects = {},
     unit = {

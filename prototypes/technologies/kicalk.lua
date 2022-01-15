@@ -19,7 +19,7 @@ if not mods["pyalienlife"] then
     TECHNOLOGY {
         type = "technology",
         name = "kicalk-2",
-        icon = "__pyhightechgraphics__/graphics/technology/kicalk.png",
+        icon = "__pyhightechgraphics__/graphics/technology/kicalk.png", --TODO
         icon_size = 128,
         order = "c-a",
         prerequisites = {"kicalk", "engine", "concrete"},

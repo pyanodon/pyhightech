@@ -2,7 +2,7 @@ if not mods["pyalienlife"] then
     TECHNOLOGY {
         type = "technology",
         name = "ulric-2",
-        icon = "__pycoalprocessinggraphics__/graphics/technology/ulric.png",
+        icon = "__pycoalprocessinggraphics__/graphics/technology/ulric.png", --TODO
         icon_size = 128,
         order = "c-a",
         prerequisites = {"zipir", "crusher"},
@@ -24,7 +24,7 @@ if not mods["pyalienlife"] then
     TECHNOLOGY {
         type = "technology",
         name = "ulric-3",
-        icon = "__pycoalprocessinggraphics__/graphics/technology/ulric.png",
+        icon = "__pycoalprocessinggraphics__/graphics/technology/ulric.png", --TODO
         icon_size = 128,
         order = "c-a",
         prerequisites = {"chemical-science-pack", "ulric-2"},
