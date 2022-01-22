@@ -14,6 +14,7 @@ RECIPE("nmf-mk01"):remove_unlock("fine-electronics")
 RECIPE('automated-factory-mk01'):remove_unlock('basic-electronics')
 RECIPE('compressor-mk01'):remove_unlock('semiconductor-doping-mk02')
 RECIPE("centrifuge"):remove_unlock('nuclear-fuel-reprocessing')
+RECIPE("sodium-chlorate"):remove_unlock("filtration-mk02")
 
 
 -- RECIPE CHANGES
