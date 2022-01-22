@@ -12,6 +12,9 @@ end
 
 if mods['pyalienlife'] then
     require('prototypes/updates/pyalienlife-updates')
+else
+    -- Override crashed building resistances since we won't have the means to repair them immediately
+    data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].resistances = {{type = 'fire', percent = 100}}
 end
 
 for _, player in DATA:pairs('character') do
