@@ -45,8 +45,9 @@ TECHNOLOGY("battery"):add_prereq("rayon"):remove_prereq("sulfur-processing")
 TECHNOLOGY("sulfur-processing"):add_prereq("fiberboard")
 
 
-data.raw.technology['plastics'].icon = "__pyhightechgraphics__/graphics/technology/plastics-mk01.png"
-data.raw.technology['plastics'].icon_size = 128
+TECHNOLOGY("plastics"):set("icon", "__pyhightechgraphics__/graphics/technology/plastics-mk01.png")
+TECHNOLOGY("plastics"):set("icon_size", 128)
+TECHNOLOGY("plastics"):set("icon_mipmaps", nil)
 
 
 -- RECIPE UNLOCKS
@@ -76,5 +77,4 @@ RECIPE("productivity-module-3"):replace_ingredient("processing-unit", "intellige
 -- ITEM CHANGES
 ITEM('utility-science-pack', 'tool'):set('icon', '__pyhightechgraphics__/graphics/icons/high-tech-science-pack.png')
 ITEM('utility-science-pack', 'tool'):set('icon_size', 32)
-
-
+ITEM('utility-science-pack', 'tool'):set('icon_mipmaps', nil)
