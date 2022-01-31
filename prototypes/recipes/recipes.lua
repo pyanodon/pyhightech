@@ -3306,7 +3306,7 @@ RECIPE {
 
 RECIPE {
     type = 'recipe',
-    name = 'iron-oxide-breakdown',
+    name = 'iron-oxide',
     category = 'hpf',
     enabled = false,
     energy_required = 5,

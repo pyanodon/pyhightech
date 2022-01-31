@@ -209,7 +209,7 @@ local recipes_list =
     "coal-slurry-fuel",
     "ammonia-urea",
     "plastic3",
-    "iron-oxide-breakdown",
+    "iron-oxide",
     "dried-meat",
     "coal-briquette3",
     "petroleum-gas2",
