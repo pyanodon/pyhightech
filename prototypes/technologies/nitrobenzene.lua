@@ -7,7 +7,7 @@ TECHNOLOGY {
     prerequisites = {"fluid-separation"},
     effects = {
         {type = "unlock-recipe", recipe = "nitrobenzene"},
-        {type = "unlock-recipe", recipe = "iron-oxide-breakdown"},
+        {type = "unlock-recipe", recipe = "iron-oxide"},
     },
     unit = {
         count = 50,
