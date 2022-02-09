@@ -177,8 +177,8 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-1",
-    fuel_value = "5MJ",
-    fuel_category = "chemical",
+    --fuel_value = "5MJ",
+    --fuel_category = "biomass",
     order = "g",
     stack_size = 100
 }
@@ -189,8 +189,8 @@ ITEM {
 	icon_size = 32,
     flags = {},
     subgroup = "py-hightech-tier-1",
-    fuel_value = "8MJ",
-    fuel_category = "chemical",
+    --fuel_value = "8MJ",
+    --fuel_category = "biomass",
     order = "g",
     stack_size = 100
 }
@@ -748,8 +748,8 @@ ITEM {
 ITEM {
     type = "item",
     name = "raw-fiber",
-    fuel_category = "chemical",
-    fuel_value = "6MJ",
+    --fuel_category = "biomass",
+    --fuel_value = "6MJ",
     icon = "__pyhightechgraphics__/graphics/icons/raw-fiber.png",
 	icon_size = 32,
     flags = {},
@@ -760,8 +760,8 @@ ITEM {
 ITEM {
     type = "item",
     name = "fiber",
-    fuel_category = "chemical",
-    fuel_value = "8MJ",
+    --fuel_category = "biomass",
+    --fuel_value = "8MJ",
     icon = "__pyhightechgraphics__/graphics/icons/fiber.png",
 	icon_size = 32,
     flags = {},
