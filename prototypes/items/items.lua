@@ -1445,7 +1445,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-misc",
     order = "h",
-    stack_size = 50
+    stack_size = 10
 }
 
 ITEM {
@@ -1456,7 +1456,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-misc",
     order = "h",
-    stack_size = 50
+    stack_size = 10
 }
 
 ITEM {
