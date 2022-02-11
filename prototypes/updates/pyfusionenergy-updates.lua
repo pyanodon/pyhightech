@@ -22,7 +22,7 @@ RECIPE('compressor-mk01'):remove_unlock('helium-processing'):remove_unlock("liqu
 RECIPE('silver-foam'):remove_unlock('fusion-mk03')
 RECIPE('agzn-alloy'):remove_unlock('fusion-mk03')
 RECIPE('sodium-chlorate'):remove_unlock('vanadium-processing'):add_unlock('filtration-mk02')
-RECIPE('bio-reactor'):remove_unlock('ethanolamine')
+RECIPE('bio-reactor-mk01'):remove_unlock('ethanolamine')
 RECIPE('genlab-mk01'):remove_unlock('ethanolamine')
 RECIPE('calcinate-separation'):remove_unlock('regolite-mining'):add_unlock('fluid-separation')
 RECIPE('sc-wire'):remove_unlock('sc-unit')
@@ -39,7 +39,7 @@ end
 
 -- RECIPE CHANGES
 RECIPE('science-coating'):add_ingredient({type = 'item', name = 'nylon', amount = 5}):add_ingredient({type = 'item', name = 'zinc-acetate', amount = 15})
-RECIPE('bio-reactor'):add_ingredient({type = 'item', name = 'advanced-circuit', amount = 5})
+RECIPE('bio-reactor-mk01'):add_ingredient({type = 'item', name = 'advanced-circuit', amount = 5})
 RECIPE('sc-coil'):add_ingredient({type = 'item', name = 're-tin', amount = 1})
 RECIPE('coil-core'):add_ingredient({type = 'item', name = 'nexelit-plate', amount = 2})
 RECIPE('magnetic-core'):add_ingredient({type = 'item', name = 'ndfeb-alloy', amount = 1}):add_ingredient({type = 'item', name = 'epoxy', amount = 1})

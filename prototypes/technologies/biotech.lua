@@ -7,7 +7,7 @@ if not mods["pyalienlife"] then
         order = "c-a",
         prerequisites = {"super-alloy", "energy-2", "automation-3"},
         effects = {
-            {type = "unlock-recipe", recipe = "bio-reactor"},
+            {type = "unlock-recipe", recipe = "bio-reactor-mk01"},
             {type = "unlock-recipe", recipe = "genlab-mk01"},
         },
         unit = {
