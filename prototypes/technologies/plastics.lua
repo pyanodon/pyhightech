@@ -47,3 +47,29 @@ TECHNOLOGY {
     }
 }
 
+if mods['pyrawores'] then
+    TECHNOLOGY {
+        type = "technology",
+        name = "plastics-mk04",
+        icon = "__pycoalprocessinggraphics__/graphics/missing_icon.png",
+        icon_size = 128,
+        order = "c-a",
+        prerequisites = {"production-science-pack", "plastics-mk03"},
+        dependencies = {"plastics-mk03"},
+        effects = {
+            {type = "unlock-recipe", recipe = "ethylene"},
+            {type = "unlock-recipe", recipe = "plastics-mk03"},
+            {type = "unlock-recipe", recipe = "plastic2"},
+        },
+        unit = {
+            count = 50,
+            ingredients = {
+                {"automation-science-pack", 1},
+                {"logistic-science-pack", 1},
+                {"chemical-science-pack", 1},
+                {"production-science-pack", 1},
+            },
+            time = 30
+        }
+    }
+end
