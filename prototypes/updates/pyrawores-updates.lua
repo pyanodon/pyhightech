@@ -2,7 +2,8 @@
 TECHNOLOGY("propene"):remove_prereq('chromium'):add_prereq('chromium-mk01')
 TECHNOLOGY('salts'):remove_pack('chemical-science-pack')
 TECHNOLOGY('collagen'):remove_pack('production-science-pack')
-
+TECHNOLOGY('plastics-mk02'):remove_pack('chemical-science-pack')
+TECHNOLOGY('plastics-mk03'):remove_pack('production-science-pack')
 
 -- RECIPE UNLOCKS
 RECIPE("saline-water"):remove_unlock("zipir"):add_unlock("electrolysis")
@@ -15,7 +16,12 @@ RECIPE('automated-factory-mk01'):remove_unlock('basic-electronics')
 RECIPE('compressor-mk01'):remove_unlock('semiconductor-doping-mk02')
 RECIPE("centrifuge"):remove_unlock('nuclear-fuel-reprocessing')
 RECIPE("sodium-chlorate"):remove_unlock("filtration-mk02")
-
+RECIPE("plastic-from-melamine"):remove_unlock("plastics"):add_unlock("plastics-mk02")
+RECIPE("plastic3"):remove_unlock("plastics-mk02"):add_unlock("plastics-mk03")
+RECIPE("nylon-plastic"):remove_unlock("plastics-mk02"):add_unlock("plastics-mk03")
+RECIPE("ethylene"):remove_unlock("plastics-mk03")
+RECIPE("plastics-mk03"):remove_unlock("plastics-mk03")
+RECIPE("plastic2"):remove_unlock("plastics-mk03")
 
 -- RECIPE CHANGES
 RECIPE('fawogae-plantation-mk03'):replace_ingredient('treated-wood', 'fiberboard')
