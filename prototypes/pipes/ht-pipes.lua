@@ -233,7 +233,7 @@ RECIPE {
     results = {
         {"ht-pipes", 3}
     }
-}:add_unlock("coal-processing-3"):replace_ingredient("copper-plate", "niobium-plate")
+}:add_unlock("coal-processing-3"):replace_ingredient("copper-plate", "niobium-plate"):add_ingredient({type = 'item', name = 'titanium-plate', amount = 1})
 
 ITEM {
     type = "item",

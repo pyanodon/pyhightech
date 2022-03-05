@@ -24,7 +24,7 @@ ITEM {
     order = 'a',
     place_result = 'py-roboport-mk03',
     stack_size = 10
-}:subgroup_order('py-robots', 'a')
+}:subgroup_order('py-stations', 'a')
 
 ENTITY {
     type = 'roboport',

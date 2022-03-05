@@ -27,10 +27,10 @@ ITEM {
   icon_size = 32,
   flags = {},
   subgroup = "py-hightech-items",
-  order = "b",
+  order = "d",
   place_result = "construction-robot-ht",
   stack_size = 50
-}
+}:subgroup_order('py-robots', 'h')
 
 ENTITY {
   type = "construction-robot",
