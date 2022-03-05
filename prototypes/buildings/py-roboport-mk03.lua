@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {'py-roboport-mk03', 1}
     }
-}:add_unlock('ht-robotics')
+}
 
 ITEM {
     type = 'item',
