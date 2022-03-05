@@ -2909,7 +2909,7 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = 'item', name = 'super-alloy', amount = 2},
+        {type = 'item', name = 'super-alloy', amount = 5},
         {type = 'item', name = 'hyperelastic-material', amount = 2},
         {type = 'item', name = 'rayon', amount = 3},
         {type = 'item', name = 'zno-nanoparticles', amount = 4},
