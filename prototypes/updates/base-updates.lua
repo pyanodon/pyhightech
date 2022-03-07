@@ -76,5 +76,5 @@ RECIPE("productivity-module-3"):replace_ingredient("processing-unit", "intellige
 
 -- ITEM CHANGES
 ITEM('utility-science-pack', 'tool'):set('icon', '__pyhightechgraphics__/graphics/icons/high-tech-science-pack.png')
-ITEM('utility-science-pack', 'tool'):set('icon_size', 32)
+ITEM('utility-science-pack', 'tool'):set('icon_size', 64)
 ITEM('utility-science-pack', 'tool'):set('icon_mipmaps', nil)
