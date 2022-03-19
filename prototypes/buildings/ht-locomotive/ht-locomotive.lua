@@ -27,7 +27,7 @@ ITEM {
     icon_size = 64,
     flags = {},
     subgroup = "py-trains",
-    order = "za",
+    order = "ca",
     place_result = "ht-locomotive",
     stack_size = 10
 }
