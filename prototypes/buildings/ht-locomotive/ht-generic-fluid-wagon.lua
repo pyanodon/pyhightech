@@ -25,7 +25,7 @@ ITEM {
     icon_size = 64,
     flags = {},
     subgroup = "py-trains",
-    order = "zc",
+    order = "cc",
     place_result = "ht-generic-fluid-wagon",
     stack_size = 10
 }
