@@ -31,7 +31,6 @@ TECHNOLOGY {
     prerequisites = {"production-science-pack", "plastics-mk02"},
     dependencies = {"plastics-mk02"},
     effects = {
-        {type = "unlock-recipe", recipe = "ethylene"},
         {type = "unlock-recipe", recipe = "plastics-mk03"},
         {type = "unlock-recipe", recipe = "plastic2"},
     },
@@ -57,7 +56,6 @@ if mods['pyrawores'] then
         prerequisites = {"production-science-pack", "plastics-mk03"},
         dependencies = {"plastics-mk03"},
         effects = {
-            {type = "unlock-recipe", recipe = "ethylene"},
             {type = "unlock-recipe", recipe = "plastics-mk03"},
             {type = "unlock-recipe", recipe = "plastic2"},
         },

@@ -11,7 +11,6 @@ TECHNOLOGY("fluid-processing-machines-1"):remove_prereq("coal-processing-2"):rem
 TECHNOLOGY("kevlar"):remove_prereq("filtration"):add_prereq("nylon")
 
 -- RECIPE UNLOCKS
-RECIPE('automated-factory-mk01'):remove_unlock('advanced-electronics'):add_unlock('basic-electronics')
 
 
 -- RECIPE CHANGES

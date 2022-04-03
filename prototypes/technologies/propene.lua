@@ -6,7 +6,6 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {"chromium", "vacuum-tube-electronics"},
     effects = {
-        {type = "unlock-recipe", recipe = "pressured-air"},
         {type = "unlock-recipe", recipe = "propene"},
     },
     unit = {

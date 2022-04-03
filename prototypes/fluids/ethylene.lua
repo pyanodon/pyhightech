@@ -14,7 +14,7 @@ RECIPE {
         {type = "fluid", name = "water", amount = 50}
     },
     main_product = "ethylene",
-}
+}:add_unlock("ethylene")
 
 FLUID {
     type = "fluid",
