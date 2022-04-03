@@ -7,17 +7,15 @@ TECHNOLOGY('ethanolamine'):remove_prereq('energy-2'):remove_prereq('super-alloy'
 TECHNOLOGY('fusion-mk01'):remove_prereq('boron-mk02')
 TECHNOLOGY('filtration'):add_prereq('zipir')
 TECHNOLOGY('nenbit-matrix'):add_prereq('epoxy')
+TECHNOLOGY("fluid-pressurization"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
+
 
 -- RECIPE UNLOCKS
-RECIPE('vacuum'):remove_unlock('advanced-mining-facilities'):add_unlock('vacuum-tube-electronics')
-RECIPE('vacuum-pump-mk01'):remove_unlock('advanced-mining-facilities'):add_unlock('vacuum-tube-electronics')
-RECIPE('pressured-air'):remove_unlock('helium-processing')
 RECIPE('purified-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-mk02')
 RECIPE('cool-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-mk02')
 RECIPE('cold-clean-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-mk02')
 RECIPE('liquid-pure-air'):remove_unlock('helium-processing'):add_unlock('semiconductor-doping-mk02')
 RECIPE('mo-mine'):remove_unlock('molybdenum-processing'):add_unlock('integrated-circuits-1')
-RECIPE('pressured-water'):remove_unlock('xyhiphoe')
 RECIPE('compressor-mk01'):remove_unlock('helium-processing'):remove_unlock("liquid-petroleum-processing"):remove_unlock("advanced-oil-processing")
 RECIPE('silver-foam'):remove_unlock('fusion-mk03')
 RECIPE('agzn-alloy'):remove_unlock('fusion-mk03')
