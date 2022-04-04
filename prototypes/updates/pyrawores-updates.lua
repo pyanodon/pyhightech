@@ -2,6 +2,7 @@
 TECHNOLOGY("propene"):remove_prereq('chromium'):add_prereq('chromium-mk01')
 TECHNOLOGY('salts'):remove_pack('chemical-science-pack')
 TECHNOLOGY('collagen'):remove_pack('production-science-pack')
+TECHNOLOGY("plastics"):remove_prereq("melamine")
 TECHNOLOGY('plastics-mk02'):remove_pack('chemical-science-pack')
 TECHNOLOGY('plastics-mk03'):remove_pack('production-science-pack')
 
