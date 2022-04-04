@@ -50,7 +50,7 @@ if mods['pyrawores'] then
     TECHNOLOGY {
         type = "technology",
         name = "plastics-mk04",
-        icon = "__pycoalprocessinggraphics__/graphics/missing_icon.png",
+        icon = "__pyhightechgraphics__/graphics/technology/plastics-mk04.png",
         icon_size = 128,
         order = "c-a",
         prerequisites = {"production-science-pack", "plastics-mk03"},

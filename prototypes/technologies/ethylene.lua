@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "ethylene",
-    icon = "__pycoalprocessinggraphics__/graphics/missing_icon.png",
+    icon = "__pyhightechgraphics__/graphics/technology/ethylene.png",
     icon_size = 128,
     order = "c-a",
     effects = {},
