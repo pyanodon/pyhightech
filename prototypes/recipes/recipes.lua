@@ -385,7 +385,7 @@ RECIPE {
         {type = 'item', name = 'formica', amount = 1}
     },
     main_product = 'formica'
-}:add_unlock('vacuum-tube-electronics'):replace_ingredient('creosote', {type='item', name='sap', amount='5'})
+}:add_unlock('vacuum-tube-electronics')
 
 RECIPE {
     type = 'recipe',
