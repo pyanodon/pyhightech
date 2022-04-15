@@ -3614,7 +3614,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nexelit-battery', amount = 1}
     }
-}:add_unlock('ht-trains')
+}:add_unlock('railway-mk03')
 
 RECIPE {
     type = 'recipe',
@@ -3629,4 +3629,4 @@ RECIPE {
     results = {
         {type = 'item', name = 'nexelit-battery', amount = 1}
     }
-}:add_unlock('ht-trains')
+}:add_unlock('railway-mk03')

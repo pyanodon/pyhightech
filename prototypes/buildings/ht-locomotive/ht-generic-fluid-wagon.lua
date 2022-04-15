@@ -16,7 +16,7 @@ RECIPE {
     results = {
         {"ht-generic-fluid-wagon", 1}
     }
-}:add_unlock("ht-trains")
+}:add_unlock("railway-mk03")
 
 ITEM {
     type = "item",
