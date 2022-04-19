@@ -244,7 +244,7 @@ ITEM {
     subgroup = "pyht-pipes",
     order = "pipe[niobium]c",
     place_result = "ht-pipes",
-    stack_size = 100
+    stack_size = 500
 }
 
 --NIOBIUM PIPES TO GROUND
@@ -270,7 +270,7 @@ ITEM {
     subgroup = "pyht-pipes",
     order = "pipe[niobium]d",
     place_result = "ht-pipes-to-ground",
-    stack_size = 100
+    stack_size = 500
 }
 
 ENTITY {
