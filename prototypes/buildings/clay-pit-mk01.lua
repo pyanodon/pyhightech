@@ -13,7 +13,7 @@ RECIPE {
     results = {
         {"clay-pit-mk01", 1}
     }
-}:add_unlock('coal-processing-1')
+}:add_unlock('ceramic')
 
 ITEM {
     type = "item",
