@@ -29,7 +29,7 @@ ITEM {
   subgroup = "py-hightech-items",
   order = "d",
   place_result = "logistic-robot-ht",
-  stack_size = 500
+  stack_size = 200
 }:subgroup_order('py-robots', 'i')
 
 ENTITY {
