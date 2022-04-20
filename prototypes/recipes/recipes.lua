@@ -151,7 +151,7 @@ RECIPE {
         {type = 'item', name = 'clay', amount = 3}
     },
     main_product = 'clay'
-}:add_unlock('coal-processing-1')
+}:add_unlock('ceramic')
 
 RECIPE {
     type = 'recipe',
@@ -266,7 +266,7 @@ RECIPE {
         {type = 'item', name = 'ceramic', amount = 5}
     },
     main_product = 'ceramic'
-}:add_unlock('vacuum-tube-electronics')
+}:add_unlock('ceramic')
 
 RECIPE {
     type = 'recipe',
@@ -3161,20 +3161,20 @@ RECIPE {
     order = 'e'
 }:add_unlock('fusion-mk04')
 
-RECIPE {
-    type = 'recipe',
-    name = 'saline-water',
-    category = 'washer',
-    enabled = false,
-    energy_required = 3,
-    ingredients = {
-        {type = 'item', name = 'stone', amount = 10},
-        {type = 'fluid', name = 'water', amount = 100}
-    },
-    results = {
-        {type = 'fluid', name = 'water-saline', amount = 50}
-    }
-}
+-- RECIPE {
+--     type = 'recipe',
+--     name = 'saline-water',
+--     category = 'washer',
+--     enabled = false,
+--     energy_required = 3,
+--     ingredients = {
+--         {type = 'item', name = 'stone', amount = 10},
+--         {type = 'fluid', name = 'water', amount = 100}
+--     },
+--     results = {
+--         {type = 'fluid', name = 'water-saline', amount = 50}
+--     }
+-- }
 
 RECIPE {
     type = 'recipe',
@@ -3433,23 +3433,25 @@ RECIPE {
     order = 'a'
 }:add_unlock('energy-2')
 
-RECIPE {
-    type = 'recipe',
-    name = 'electronic-circuit-initial',
-    category = 'handcrafting',
-    enabled = true,
-    energy_required = 2,
-    ingredients = {
-        {type = 'item', name = 'copper-plate', amount = 10},
-        {type = 'item', name = 'copper-cable', amount = 10},
-        {type = 'item', name = 'wood', amount = 1},
-    },
-    results = {
-        {type = 'item', name = 'electronic-circuit', amount = 3}
-    },
-    subgroup = 'py-hightech-tier-1',
-    order = 'aaa'
-}
+if not mods["pyalienlife"] then
+    RECIPE {
+        type = 'recipe',
+        name = 'electronic-circuit-initial',
+        category = 'handcrafting',
+        enabled = true,
+        energy_required = 2,
+        ingredients = {
+            {type = 'item', name = 'copper-plate', amount = 10},
+            {type = 'item', name = 'copper-cable', amount = 10},
+            {type = 'item', name = 'wood', amount = 1},
+        },
+        results = {
+            {type = 'item', name = 'electronic-circuit', amount = 3}
+        },
+        subgroup = 'py-hightech-tier-1',
+        order = 'aaa'
+    }
+end
 
 RECIPE {
     type = 'recipe',

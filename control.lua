@@ -8,16 +8,18 @@ script.on_init(function()
 end)
 
 script.on_event(defines.events.on_cutscene_cancelled, function(event)
-    game.surfaces['nauvis'].create_entity{
-        name = 'crash-site-assembling-machine-1-repaired',
-        position = {-20, -7},
-        force = game.players[event.player_index].force
-	}
-	game.surfaces['nauvis'].create_entity{
-        name = 'crash-site-assembling-machine-1-repaired',
-        position = {-12, 2},
-        force = game.players[event.player_index].force
-    }
+    if not game.active_mods["pyalienlife"] then
+        game.surfaces['nauvis'].create_entity{
+            name = 'crash-site-assembling-machine-1-repaired',
+            position = {-20, -7},
+            force = game.players[event.player_index].force
+        }
+        game.surfaces['nauvis'].create_entity{
+            name = 'crash-site-assembling-machine-1-repaired',
+            position = {-12, 2},
+            force = game.players[event.player_index].force
+        }
+    end
 end)
 
 script.on_event({defines.events.on_built_entity, defines.events.on_robot_built_entity}, function(event)

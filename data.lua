@@ -13,6 +13,7 @@ require("prototypes/technologies/biopolymer")
 require("prototypes/technologies/biotech")
 require("prototypes/technologies/cadaveric-arum")
 require("prototypes/technologies/carbon-nanotube")
+require("prototypes/technologies/ceramic")
 require("prototypes/technologies/collagen")
 require("prototypes/technologies/colloidal-silica")
 require("prototypes/technologies/earnshaw-theorem")
@@ -24,7 +25,6 @@ require("prototypes/technologies/fiberboard")
 require("prototypes/technologies/fiberglass")
 require("prototypes/technologies/graphene")
 require("prototypes/technologies/ht-robotics")
--- require("prototypes/technologies/ht-trains")
 require("prototypes/technologies/integrated-circuits")
 require("prototypes/technologies/kicalk")
 require("prototypes/technologies/magnetic-core")
@@ -113,8 +113,11 @@ require("prototypes/buildings/particle-accelerator-mk01")
 require("prototypes/buildings/particle-accelerator-mk02")
 require("prototypes/buildings/particle-accelerator-mk03")
 --require("prototypes/buildings/particle-accelerator-mk04")
-require("prototypes/buildings/crashed-assembler-mk01")
 require("prototypes/buildings/py-roboport-mk03")
+
+if not mods["pyalienlife"] then
+    require("prototypes/buildings/crashed-assembler-mk01")
+end
 
 --(( TRAINS ))--
 require("prototypes/buildings/ht-locomotive/ht-locomotive")

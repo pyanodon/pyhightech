@@ -7,7 +7,6 @@ TECHNOLOGY('plastics-mk02'):remove_pack('chemical-science-pack')
 TECHNOLOGY('plastics-mk03'):remove_pack('production-science-pack')
 
 -- RECIPE UNLOCKS
-RECIPE("saline-water"):remove_unlock("zipir"):add_unlock("electrolysis")
 RECIPE("gravel-saline-water"):remove_unlock("zipir"):add_unlock("electrolysis")
 RECIPE('mo-mine'):remove_unlock('integrated-circuits-1'):add_unlock('molybdenum-processing')
 RECIPE("nmf-mk01"):remove_unlock("fine-electronics")
