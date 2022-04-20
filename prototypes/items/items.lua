@@ -1138,7 +1138,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 800
+    stack_size = 500
 }
 ITEM {
     type = "item",
