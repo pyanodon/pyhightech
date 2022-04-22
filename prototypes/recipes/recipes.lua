@@ -121,7 +121,7 @@ RECIPE {
     type = 'recipe',
     name = 'rare-earth-beneficiation',
     category = 'fts-reactor',
-    enabled = 'false',
+    enabled = false,
     energy_required = 8,
     ingredients = {
         {type = 'fluid', name = 'sulfuric-acid', amount = 200},
@@ -1499,7 +1499,7 @@ RECIPE {
     type = 'recipe',
     name = 'bonemeal2',
     category = 'ulric',
-    enabled = 'false',
+    enabled = false,
     energy_required = 30,
     ingredients = {
         {type = 'item', name = 'ralesia', amount = 8},
@@ -1514,7 +1514,7 @@ RECIPE {
     type = 'recipe',
     name = 'bonemeal4',
     category = 'ulric',
-    enabled = 'false',
+    enabled = false,
     energy_required = 25,
     ingredients = {
         {type = 'item', name = 'ralesia', amount = 8},
@@ -1530,7 +1530,7 @@ RECIPE {
     type = 'recipe',
     name = 'mukmoux-fat2',
     category = 'mukmoux',
-    enabled = 'false',
+    enabled = false,
     energy_required = 50,
     ingredients = {
         {type = 'item', name = 'fawogae', amount = 5},
@@ -1546,7 +1546,7 @@ RECIPE {
     type = 'recipe',
     name = 'mukmoux-fat3',
     category = 'mukmoux',
-    enabled = 'false',
+    enabled = false,
     energy_required = 40,
     ingredients = {
         {type = 'item', name = 'fawogae', amount = 5},
@@ -1563,7 +1563,7 @@ RECIPE {
     type = 'recipe',
     name = 'ash3',
     category = 'hpf',
-    enabled = 'false',
+    enabled = false,
     energy_required = 2,
     ingredients = {
         {type = 'item', name = 'raw-fiber', amount = 5}
@@ -3117,7 +3117,7 @@ RECIPE {
     type = 'recipe',
     name = 'antimatter-fusion',
     category = 'fusion-02',
-    enabled = 'false',
+    enabled = false,
     energy_required = 30,
     ingredients = {
         {type = 'fluid', name = 'pressured-water', amount = 20000},
@@ -3144,7 +3144,7 @@ RECIPE {
     type = 'recipe',
     name = 'steam-exchange5',
     category = 'heat-exchanger',
-    enabled = 'false',
+    enabled = false,
     energy_required = 10,
     ingredients = {
         {type = 'fluid', name = 'critical-steam', amount = 500, temperature = 5000},
@@ -3415,7 +3415,7 @@ RECIPE {
     type = 'recipe',
     name = 'methane-combustion',
     category = 'combustion',
-    enabled = 'false',
+    enabled = false,
     energy_required = 3,
     ingredients = {
         {type = 'fluid', name = 'methane', amount = 100},
@@ -3474,7 +3474,7 @@ RECIPE {
     type = 'recipe',
     name = 'benzene-combustion',
     category = 'combustion',
-    enabled = 'false',
+    enabled = false,
     energy_required = 3,
     ingredients = {
         {type = 'fluid', name = 'benzene', amount = 100},
@@ -3531,7 +3531,7 @@ RECIPE {
     type = 'recipe',
     name = 'tall-oil-combustion',
     category = 'combustion',
-    enabled = 'false',
+    enabled = false,
     energy_required = 3,
     ingredients = {
         {type = 'fluid', name = 'tall-oil', amount = 100},
