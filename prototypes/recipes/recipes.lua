@@ -3578,7 +3578,7 @@ RECIPE {
     results = {
         {type = 'fluid', name = 'acetone', amount = 50}
     }
-}:change_category("wet-scrubber")
+}
 
 RECIPE {
     type = "recipe",
