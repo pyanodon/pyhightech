@@ -199,7 +199,7 @@ RECIPE {
         {type = 'item', name = 'urea', amount = 25}
     },
     main_product = 'urea'
-}:add_unlock('auog-2')
+}
 
 RECIPE {
     type = 'recipe',
@@ -3161,27 +3161,27 @@ RECIPE {
     order = 'e'
 }:add_unlock('fusion-mk04')
 
--- RECIPE {
---     type = 'recipe',
---     name = 'saline-water',
---     category = 'washer',
---     enabled = false,
---     energy_required = 3,
---     ingredients = {
---         {type = 'item', name = 'stone', amount = 10},
---         {type = 'fluid', name = 'water', amount = 100}
---     },
---     results = {
---         {type = 'fluid', name = 'water-saline', amount = 50}
---     }
--- }
+RECIPE {
+    type = 'recipe',
+    name = 'saline-water',
+    category = 'washer',
+    enabled = false,
+    energy_required = 20,
+    ingredients = {
+        {type = 'item', name = 'stone', amount = 10},
+        {type = 'fluid', name = 'water', amount = 100}
+    },
+    results = {
+        {type = 'fluid', name = 'water-saline', amount = 50}
+    }
+}
 
 RECIPE {
     type = 'recipe',
     name = 'gravel-saline-water',
     category = 'washer',
     enabled = false,
-    energy_required = 3,
+    energy_required = 20,
     ingredients = {
         {type = 'item', name = 'gravel', amount = 15},
         {type = 'fluid', name = 'water', amount = 100}

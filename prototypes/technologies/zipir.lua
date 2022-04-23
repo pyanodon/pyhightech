@@ -6,6 +6,7 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {"logistic-science-pack", "vacuum-tube-electronics"},
     effects = {
+        {type = "unlock-recipe", recipe = "saline-water"},
         {type = "unlock-recipe", recipe = "gravel-saline-water"},
         {type = "unlock-recipe", recipe = "stone-wool"},
         {type = "unlock-recipe", recipe = "stone-wool2"},
