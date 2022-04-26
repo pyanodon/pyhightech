@@ -1,7 +1,7 @@
 TECHNOLOGY {
     type = "technology",
     name = "ceramic",
-    icon = "__pycoalprocessinggraphics__/graphics/technology/missing_icon.png",
+    icon = "__pyhightechgraphics__/graphics/technology/ceramics.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {},
