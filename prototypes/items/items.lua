@@ -6,7 +6,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-ores",
     order = "a",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -26,7 +26,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-ores",
     order = "a",
-    stack_size = 500
+    stack_size = 50
 }
 
 ITEM {
@@ -37,7 +37,7 @@ ITEM {
     flags = {},
     subgroup = "py-items",
     order = "a2",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -48,7 +48,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "a",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -58,7 +58,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -68,7 +68,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -88,7 +88,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -98,7 +98,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-1",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -108,7 +108,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -118,7 +118,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-1",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -128,7 +128,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -138,7 +138,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-1",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -148,7 +148,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "f",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -158,7 +158,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-1",
     order = "f",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -168,7 +168,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-1",
     order = "f",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -180,7 +180,7 @@ ITEM {
     --fuel_value = "5MJ",
     --fuel_category = "biomass",
     order = "g",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -192,7 +192,7 @@ ITEM {
     --fuel_value = "8MJ",
     --fuel_category = "biomass",
     order = "g",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -202,7 +202,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-1",
     order = "a",
-    stack_size = 500
+    stack_size = 200
 }
 ITEM {
     type = "item",
@@ -212,7 +212,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "a",
-    stack_size = 500
+    stack_size = 200
 }
 ITEM {
     type = "item",
@@ -222,7 +222,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -232,7 +232,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "i",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -242,7 +242,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "j",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -252,7 +252,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "j",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -262,7 +262,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "cc",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -272,7 +272,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "ca",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -282,7 +282,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "cb",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -292,7 +292,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "j",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -302,7 +302,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -312,7 +312,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -322,7 +322,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -332,7 +332,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -342,7 +342,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -352,7 +352,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "k",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -362,7 +362,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "k",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -372,7 +372,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -382,7 +382,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -392,7 +392,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -402,7 +402,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-2",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -412,7 +412,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -422,7 +422,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -432,7 +432,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -442,7 +442,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -452,7 +452,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -462,7 +462,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -472,7 +472,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -482,7 +482,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -492,7 +492,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -502,7 +502,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "e",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -512,7 +512,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "j",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -522,7 +522,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -532,7 +532,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -542,7 +542,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -552,7 +552,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -562,7 +562,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -572,7 +572,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "d",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -582,7 +582,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -592,7 +592,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -602,7 +602,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -612,7 +612,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -622,7 +622,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -632,7 +632,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -642,7 +642,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -652,7 +652,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "l",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -662,7 +662,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -672,7 +672,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "a",
-    stack_size = 500
+    stack_size = 200
 }
 ITEM {
     type = "item",
@@ -682,7 +682,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -692,7 +692,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -702,7 +702,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -712,7 +712,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -722,7 +722,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -732,7 +732,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -742,7 +742,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -755,7 +755,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-kicalk",
     order = "a",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -767,7 +767,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-kicalk",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 
 ITEM {
@@ -778,7 +778,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-kicalk",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -788,7 +788,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-kicalk",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -798,7 +798,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-aerogel",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -808,7 +808,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-aerogel",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -818,7 +818,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-aerogel",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -828,7 +828,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-aerogel",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -838,7 +838,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-aerogel",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -848,7 +848,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -858,7 +858,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -868,7 +868,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -878,7 +878,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -888,7 +888,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -898,7 +898,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -908,7 +908,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -918,7 +918,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -928,7 +928,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "r",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -938,7 +938,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "r",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -948,7 +948,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -958,7 +958,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -968,7 +968,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -978,7 +978,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -988,7 +988,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -998,7 +998,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1008,7 +1008,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "cd",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1018,7 +1018,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1028,7 +1028,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1038,7 +1038,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1048,7 +1048,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1058,7 +1058,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-aerogel",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1068,7 +1068,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1078,7 +1078,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1088,7 +1088,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "b",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1098,7 +1098,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "a",
-    stack_size = 500
+    stack_size = 200
 }
 ITEM {
     type = "item",
@@ -1108,7 +1108,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "a",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1118,7 +1118,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1128,7 +1128,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1138,7 +1138,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1148,7 +1148,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1158,7 +1158,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-kicalk",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1168,7 +1168,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1178,7 +1178,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "m",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1188,7 +1188,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "ma",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1198,7 +1198,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1208,7 +1208,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1218,7 +1218,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-3",
     order = "m",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1228,7 +1228,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1238,7 +1238,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1248,7 +1248,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-aerogel",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1258,7 +1258,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1268,7 +1268,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1278,7 +1278,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1288,7 +1288,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1298,7 +1298,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1308,7 +1308,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1318,7 +1318,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-4",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1328,7 +1328,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-earnshaw",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1338,7 +1338,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-earnshaw",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1348,7 +1348,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-earnshaw",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1358,7 +1358,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-earnshaw",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1368,7 +1368,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-quantum",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1378,7 +1378,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-quantum",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1388,7 +1388,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-quantum",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1398,7 +1398,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-quantum",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1408,7 +1408,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-quantum",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1418,7 +1418,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-quantum",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1430,7 +1430,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-earnshaw",
     order = "h",
-    stack_size = 10
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1467,7 +1467,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1477,7 +1477,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1487,7 +1487,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-items",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }
 ITEM {
     type = "item",
@@ -1497,5 +1497,5 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-zipir",
     order = "h",
-    stack_size = 500
+    stack_size = 100
 }

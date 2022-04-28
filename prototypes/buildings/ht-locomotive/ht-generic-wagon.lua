@@ -27,7 +27,7 @@ ITEM {
     subgroup = "py-trains",
     order = "cb",
     place_result = "ht-generic-wagon",
-    stack_size = 10
+    stack_size = 5
 }
 
 {

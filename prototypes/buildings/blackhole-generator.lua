@@ -147,7 +147,7 @@ ITEM {
     fuel_value = "1.12MJ",
     subgroup = "raw-resource",
     order = "b[coal]",
-    stack_size = 500
+    stack_size = 50
 }
 
 data:extend(

@@ -29,7 +29,7 @@ ITEM {
     subgroup = "py-trains",
     order = "ca",
     place_result = "ht-locomotive",
-    stack_size = 10
+    stack_size = 5
 }
 
 {
