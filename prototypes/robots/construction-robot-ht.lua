@@ -52,7 +52,7 @@ ENTITY {
   max_energy = "4MJ",
   energy_per_tick = "0.07kJ",
   speed_multiplier_when_out_of_energy = 0.2,
-  energy_per_move = "2.8kJ",
+  energy_per_move = "2kJ",
   min_to_charge = 0.2,
   max_to_charge = 0.95,
   working_light = {intensity = 0.8, size = 3, color = {r = 0.8, g = 0.8, b = 0.9}},

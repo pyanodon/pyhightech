@@ -52,7 +52,7 @@ ENTITY {
   max_energy = "4MJ",
   energy_per_tick = "0.07kJ",
   speed_multiplier_when_out_of_energy = 0.2,
-  energy_per_move = "2.8kJ",
+  energy_per_move = "2kJ",
   min_to_charge = 0.2,
   max_to_charge = 0.95,
   idle = {
