@@ -3321,20 +3321,6 @@ RECIPE {
     }
 }
 
-RECIPE {
-    type = 'recipe',
-    name = 'dried-meat',
-    category = 'evaporator',
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = 'item', name = 'meat', amount = 10}
-    },
-    results = {
-        {type = 'item', name = 'dried-meat', amount = 5}
-    }
-}:add_unlock('fuel-production')--update pyal to hide this version
-
 --[[
 RECIPE {
     type = 'recipe',

@@ -1489,13 +1489,3 @@ ITEM {
     order = "h",
     stack_size = 100
 }
-ITEM {
-    type = "item",
-    name = "dried-meat",
-    icon = "__pyhightechgraphics__/graphics/icons/dried-meat.png",
-    icon_size = 32,
-    flags = {},
-    subgroup = "py-hightech-zipir",
-    order = "h",
-    stack_size = 100
-}

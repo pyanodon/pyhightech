@@ -210,7 +210,6 @@ local recipes_list =
     "ammonia-urea",
     "plastic3",
     "iron-oxide",
-    "dried-meat",
     "coal-briquette3",
     "petroleum-gas2",
     "coal-dust3",
