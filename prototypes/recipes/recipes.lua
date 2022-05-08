@@ -2294,6 +2294,7 @@ RECIPE {
     }
 }:add_unlock('fluid-separation')
 
+--[[
 RECIPE {
     type = 'recipe',
     name = 'bone-briquette',
@@ -2309,6 +2310,7 @@ RECIPE {
         {type = 'item', name = 'coal-briquette', amount = 2}
     }
 }:add_unlock('energy-3')
+]]--
 
 RECIPE {
     type = 'recipe',
@@ -3333,6 +3335,7 @@ RECIPE {
     }
 }:add_unlock('fuel-production')--update pyal to hide this version
 
+--[[
 RECIPE {
     type = 'recipe',
     name = 'coal-briquette3',
@@ -3349,6 +3352,7 @@ RECIPE {
         {type = 'item', name = 'coal-briquette', amount = 1}
     }
 }:add_unlock('fuel-production-mk02')
+]]--
 
 RECIPE {
     type = 'recipe',
