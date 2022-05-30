@@ -57,7 +57,6 @@ RECIPE('centrifuge'):remove_unlock('uranium-processing'):remove_unlock('nuclear-
 
 -- RECIPE CHANGES
 RECIPE('explosives'):add_ingredient({type = 'item', name = 'collagen', amount = 5})
-RECIPE('small-lamp'):replace_ingredient('electronic-circuit', 'copper-plate')
 RECIPE('battery'):add_ingredient({type = 'item', name = 'rayon', amount = 2})
 RECIPE('explosives'):add_ingredient({type = 'item', name = 'urea', amount = 5})
 RECIPE('centrifuge'):replace_ingredient('advanced-circuit','engine-unit')
