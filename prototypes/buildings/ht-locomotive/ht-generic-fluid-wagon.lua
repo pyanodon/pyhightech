@@ -53,7 +53,7 @@ ITEM {
     connection_distance = 3,
     joint_distance = 4,
     energy_per_hit_point = 5,
-    capacity = 40000,
+    capacity = 75000,
     resistances =
     {
       {
