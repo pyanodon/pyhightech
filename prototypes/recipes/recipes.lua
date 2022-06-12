@@ -640,7 +640,7 @@ RECIPE {
         {type = 'item', name = 'bakelite', amount = 5}
     },
     main_product = 'bakelite'
-}:add_unlock('basic-electronics')
+}:add_unlock('integrated-circuits-1')
 
 RECIPE {
     type = 'recipe',
@@ -657,7 +657,7 @@ RECIPE {
         {type = 'item', name = 'phenolicboard', amount = 5}
     },
     main_product = 'phenolicboard'
-}:add_unlock('basic-electronics')
+}:add_unlock('integrated-circuits-1')
 
 RECIPE {
     type = 'recipe',
@@ -675,7 +675,7 @@ RECIPE {
         {type = 'item', name = 'pcb2', amount = 3}
     },
     main_product = 'pcb2'
-}:add_unlock('basic-electronics')
+}:add_unlock('integrated-circuits-1')
 
 RECIPE {
     type = 'recipe',
