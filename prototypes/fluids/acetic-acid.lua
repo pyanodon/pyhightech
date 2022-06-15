@@ -12,7 +12,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "acetic-acid", amount = 50}
     },
-}:add_unlock("semiconductor-doping")
+}:add_unlock("methanol-processing-1")
 
 FLUID {
     type = "fluid",
