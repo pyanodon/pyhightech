@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/auog.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"logistic-science-pack"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -23,7 +23,7 @@ if not mods["pyalienlife"] then
         icon = "__pyhightechgraphics__/graphics/technology/auog.png",
         icon_size = 128,
         order = "c-a",
-        prerequisites = {"chemical-science-pack"},
+        prerequisites = {},
         dependencies = {"auog"},
         effects = {},
         unit = {

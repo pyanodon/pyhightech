@@ -5,7 +5,7 @@ if not mods["pyalienlife"] then
         icon = "__pyfusionenergygraphics__/graphics/icons/bio-reactor.png", --TODO: get it from PyAl
         icon_size = 64,
         order = "c-a",
-        prerequisites = {"super-alloy", "energy-2", "automation-3"},
+        prerequisites = {},
         effects = {
             {type = "unlock-recipe", recipe = "bio-reactor-mk01"},
             {type = "unlock-recipe", recipe = "genlab-mk01"},

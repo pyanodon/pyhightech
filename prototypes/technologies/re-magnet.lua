@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/nd-magnet.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"production-science-pack", "magnetic-core"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "ndfeb-powder"},
         {type = "unlock-recipe", recipe = "re-magnet"},

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/penrose.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"nano-tech","earnshaw-theorem"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 150,

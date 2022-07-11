@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/kicalk.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"wood-processing", "separation"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
@@ -22,7 +22,7 @@ if not mods["pyalienlife"] then
         icon = "__pyhightechgraphics__/graphics/technology/kicalk.png", --TODO
         icon_size = 128,
         order = "c-a",
-        prerequisites = {"kicalk", "engine", "concrete"},
+        prerequisites = {"kicalk"},
         dependencies = {"kicalk"},
         effects = {
             {type = "unlock-recipe", recipe = "raw-fiber3"},

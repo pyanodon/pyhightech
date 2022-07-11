@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/nylon.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"phenol"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "blood-meal"},
         {type = "unlock-recipe", recipe = "nylon"},

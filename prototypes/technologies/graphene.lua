@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/graphene.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"advanced-mining-facilities", "biofilm"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 55,

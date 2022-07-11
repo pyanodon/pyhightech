@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/biopolymer.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"collagen", "biotech"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "bacteria-2"},
         {type = "unlock-recipe", recipe = "petroleum-gas2"},

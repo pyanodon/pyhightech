@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/collagen.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"production-science-pack"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "collagen"},
         {type = "unlock-recipe", recipe = "epoxy2"},

@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/nems.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"carbon-nanotube", "magnetic-core", "zno-nanoparticles", "ethanolamine"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "resilin"},
         {type = "unlock-recipe", recipe = "hyperelastic-material"},

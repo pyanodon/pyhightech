@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/paramagnetic-material.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"production-science-pack", "nucleo"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "myoglobin"},
         {type = "unlock-recipe", recipe = "paramagnetic-material"},

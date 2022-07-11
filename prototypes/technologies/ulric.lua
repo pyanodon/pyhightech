@@ -5,7 +5,7 @@ if not mods["pyalienlife"] then
         icon = "__pycoalprocessinggraphics__/graphics/technology/ulric.png", --TODO
         icon_size = 128,
         order = "c-a",
-        prerequisites = {"zipir", "crusher"},
+        prerequisites = {},
         dependencies = {"ulric"},
         effects = {
             {type = "unlock-recipe", recipe = "bonemeal2"},
@@ -27,7 +27,7 @@ if not mods["pyalienlife"] then
         icon = "__pycoalprocessinggraphics__/graphics/technology/ulric.png", --TODO
         icon_size = 128,
         order = "c-a",
-        prerequisites = {"chemical-science-pack", "ulric-2"},
+        prerequisites = {"ulric-2"},
         dependencies = {"ulric-2"},
         effects = {
             {type = "unlock-recipe", recipe = "bonemeal4"},
