@@ -1,5 +1,5 @@
 -- TECH CHANGES
-TECHNOLOGY("propene"):remove_prereq('chromium'):add_prereq('chromium-mk01')
+TECHNOLOGY("propene"):remove_prereq('chromium')
 TECHNOLOGY('salts'):remove_pack('chemical-science-pack')
 TECHNOLOGY('collagen'):remove_pack('production-science-pack')
 TECHNOLOGY("plastics"):remove_prereq("melamine")

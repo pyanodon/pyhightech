@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/cadaveric-arum-mk01.png",
     icon_size = 64,
     order = "c-a",
-    prerequisites = {"fertilizer", "advanced-mining-facilities"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "cadaveric-arum-mk01"},
         {type = "unlock-recipe", recipe = "dms"},

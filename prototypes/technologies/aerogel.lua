@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/aerogel.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"production-science-pack"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 85,

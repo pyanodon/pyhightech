@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/fiberglass.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"filtration-mk02", "epoxy"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "glass-fiber"},
         {type = "unlock-recipe", recipe = "phosphate-glass"},

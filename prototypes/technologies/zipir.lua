@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/icons/zipir-carcass.png", --TODO
     icon_size = 32,
     order = "c-a",
-    prerequisites = {"logistic-science-pack", "vacuum-tube-electronics"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "saline-water"},
         {type = "unlock-recipe", recipe = "gravel-saline-water"},

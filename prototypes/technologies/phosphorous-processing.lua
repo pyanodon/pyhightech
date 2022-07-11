@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/phosphorous-processing.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"niobium"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "phosphate-mine"},
         {type = "unlock-recipe", recipe = "powdered-phosphate-rock"},

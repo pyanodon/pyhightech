@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/fiberboard-mk01.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"melamine"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "fiberboard"},
         {type = "unlock-recipe", recipe = "formica-2"},

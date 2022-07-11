@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/epoxy.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"chemical-science-pack"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "bisphenol-a"},
         {type = "unlock-recipe", recipe = "ech"},

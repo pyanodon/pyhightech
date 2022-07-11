@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics-machines-mk01.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"chemical-science-pack"},
+    prerequisites = {},
     effects = {
     },
     unit = {
@@ -25,7 +25,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics-machines-mk02.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"electronics-machines-1", "production-science-pack", "low-density-structure", "advanced-electronics", "nucleo"},
+    prerequisites = {"electronics-machines-1"},
     dependencies = {"electronics-machines-1"},
     effects = {
     },
@@ -48,7 +48,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics-machines-mk03.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"utility-science-pack", "electronics-machines-2"},
+    prerequisites = {"electronics-machines-2"},
     dependencies = {"electronics-machines-2"},
     effects = {
     },

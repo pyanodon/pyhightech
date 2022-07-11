@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/microfibers.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"aerogel"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "acrolein"},
         {type = "unlock-recipe", recipe = "acrolein2"},

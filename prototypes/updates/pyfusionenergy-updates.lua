@@ -1,12 +1,9 @@
 -- TECH CHANGES
 TECHNOLOGY("advanced-mining-facilities"):remove_prereq("electric-engine")
-TECHNOLOGY('boron-mk02'):remove_prereq('helium-processing'):remove_pack('production-science-pack'):add_prereq("filtration-mk02")
-TECHNOLOGY('helium-processing'):remove_prereq('fuel-production'):add_prereq('semiconductor-doping-mk02')
-TECHNOLOGY('sc-unit'):add_prereq('magnetic-core'):add_prereq('graphene')
-TECHNOLOGY('ethanolamine'):remove_prereq('energy-2'):remove_prereq('super-alloy'):add_prereq('biotech')
+TECHNOLOGY('boron-mk02'):remove_prereq('helium-processing'):remove_pack('production-science-pack')
+TECHNOLOGY('helium-processing'):remove_prereq('fuel-production')
+TECHNOLOGY('ethanolamine'):remove_prereq('energy-2'):remove_prereq('super-alloy')
 TECHNOLOGY('fusion-mk01'):remove_prereq('boron-mk02')
-TECHNOLOGY('filtration'):add_prereq('zipir')
-TECHNOLOGY('nenbit-matrix'):add_prereq('epoxy')
 TECHNOLOGY("fluid-pressurization"):remove_pack("chemical-science-pack"):remove_pack("logistic-science-pack")
 
 

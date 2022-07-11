@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/melamine.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"auog", "vacuum-tube-electronics"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "urea-decomposition"},
         {type = "unlock-recipe", recipe = "melamine"},

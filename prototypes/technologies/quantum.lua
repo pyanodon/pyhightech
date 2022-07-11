@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/quantum-computing.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"utility-science-pack", "energy-3"},
+    prerequisites = {},
     dependencies = {"logistic-science-pack", "military-science-pack", "chemical-science-pack", "production-science-pack", "utility-science-pack"},
     effects = {},
     unit = {

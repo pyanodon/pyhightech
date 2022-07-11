@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/carbon-nanotube.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"biopolymer", "graphene"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "carbon-dust"},
         {type = "unlock-recipe", recipe = "carbon-nanotube"},

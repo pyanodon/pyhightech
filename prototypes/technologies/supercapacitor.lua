@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/supercapacitor.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"aerogel", "nucleo"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "supercapacitor-core"},
         {type = "unlock-recipe", recipe = "supercapacitor-shell"},

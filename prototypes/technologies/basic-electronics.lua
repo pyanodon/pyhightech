@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/basic-electronics.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"integrated-circuits-1"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 55,

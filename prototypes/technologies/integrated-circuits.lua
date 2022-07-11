@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/small-scale-integrated-circuits.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"semiconductor-doping", "nylon"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 55,
@@ -22,7 +22,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/medium-scale-integrated-circuits.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"semiconductor-doping-mk02", "graphene", "fiberglass", "cadaveric-arum", "battery"},
+    prerequisites = {"integrated-circuits-1"},
     dependencies = {"integrated-circuits-1"},
     effects = {},
     unit = {
@@ -42,7 +42,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/large-scale-integrated-circuits.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"integrated-circuits-2", "microfibers", "sc-unit", "colloidal-silica", "biopolymer", "zno-nanoparticles"},
+    prerequisites = {"integrated-circuits-2"},
     dependencies = {"integrated-circuits-2"},
     effects = {},
     unit = {

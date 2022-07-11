@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping-mk01.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"rare-earth-tech", "phosphorous-processing"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 45,
@@ -22,7 +22,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping-mk02.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"fuel-production"},
+    prerequisites = {},
     dependencies = {"semiconductor-doping"},
     effects = {
         {type = "unlock-recipe", recipe = "compressor-mk01"},

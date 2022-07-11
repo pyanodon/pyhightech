@@ -1,7 +1,5 @@
 -- TECH CHANGES
-TECHNOLOGY("kicalk"):add_prereq("py-storage-tanks")
-TECHNOLOGY("railway-mk02"):remove_prereq("niobium"):add_prereq("basic-electronics")
-TECHNOLOGY("py-accumulator-mk01"):add_prereq("ht-trains")
+TECHNOLOGY("railway-mk02"):remove_prereq("niobium")
 TECHNOLOGY("advanced-mining-facilities"):remove_prereq("py-storage-tanks")
 TECHNOLOGY("ht-robotics"):remove_prereq("construction-robotics")
 

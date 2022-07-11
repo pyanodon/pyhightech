@@ -5,7 +5,7 @@ if not mods["pyalienlife"] then
         icon = "__pycoalprocessinggraphics__/graphics/technology/mukmoux.png",
         icon_size = 128,
         order = "c-a",
-        prerequisites = {"chemical-science-pack"},
+        prerequisites = {},
         effects = {
             {type = "unlock-recipe", recipe = "mukmoux-fat2"},
             {type = "unlock-recipe", recipe = "mukmoux-fat3"},

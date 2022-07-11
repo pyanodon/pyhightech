@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyfusionenergygraphics__/graphics/technology/magnetic-core.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"boron-mk02"},
+    prerequisites = {},
     effects = {
         {type = "unlock-recipe", recipe = "re-tin"},
         {type = "unlock-recipe", recipe = "ndfeb-alloy"},

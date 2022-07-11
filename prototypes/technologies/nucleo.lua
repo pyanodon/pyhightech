@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/nucleosyntesis-mk01.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"energy-2", "boron-mk02", "uranium-processing"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 200,

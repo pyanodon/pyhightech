@@ -4,7 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/moondrop.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"coal-processing-1"},
+    prerequisites = {},
     effects = {},
     unit = {
         count = 100,
