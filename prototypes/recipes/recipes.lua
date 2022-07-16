@@ -377,9 +377,9 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'treated-wood', amount = 2},
-        {type = 'item', name = 'raw-fiber', amount = 3},
-        {type = 'fluid', name = 'creosote', amount = 20},
-        {type = 'fluid', name = 'methanal', amount = 30}
+        {type = 'item', name = 'raw-fiber', amount = 5},
+        {type = 'fluid', name = 'creosote', amount = 200},
+        {type = 'fluid', name = 'methanal', amount = 50}
     },
     results = {
         {type = 'item', name = 'formica', amount = 1}
@@ -395,7 +395,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = 'item', name = 'fiberboard', amount = 2},
-        {type = 'item', name = 'melamine-resin', amount = 20}
+        {type = 'item', name = 'melamine-resin', amount = 10}
     },
     results = {
         {type = 'item', name = 'formica', amount = 5}
