@@ -8,11 +8,9 @@ TECHNOLOGY('circuit-network'):remove_prereq('electronics'):add_prereq('vacuum-tu
 TECHNOLOGY('advanced-electronics'):remove_prereq('electronics'):remove_prereq('plastics'):remove_prereq('fast-inserter'):add_pack('chemical-science-pack')
 TECHNOLOGY('advanced-electronics'):set_field{icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics.png"}:set_field{ icon_size = 128}
 TECHNOLOGY('electronics'):set_field{hidden = true}:set_field{enabled=false}
-TECHNOLOGY('chemical-science-pack'):remove_prereq('advanced-electronics')
 TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('production-science-pack'):remove_pack('military-science-pack'):remove_prereq('utility-science-pack')
 TECHNOLOGY('electric-engine'):remove_prereq('chemical-science-pack'):remove_pack('chemical-science-pack')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
-TECHNOLOGY('utility-science-pack'):remove_prereq('automation-3'):remove_prereq('destroyer'):remove_prereq('kovarex-enrichment-process')
 TECHNOLOGY('military-4'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack'):add_prereq('military-3')
 TECHNOLOGY('personal-roboport-mk2-equipment'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack')
 TECHNOLOGY('personal-roboport-mk2-equipment'):add_prereq('production-science-pack')
