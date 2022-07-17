@@ -17,6 +17,8 @@ else
     data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].resistances = {{type = 'fire', percent = 100}}
 end
 
+require("prototypes/updates/compatibility-updates")
+
 for _, player in DATA:pairs('character') do
     player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'
 end
