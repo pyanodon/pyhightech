@@ -3606,7 +3606,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'nexelit-battery', amount = 1}
     }
-}:add_unlock('railway-mk03')
+}:add_unlock('py-accumulator-mk01')
 
 RECIPE {
     type = 'recipe',
