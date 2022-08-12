@@ -1041,7 +1041,7 @@ RECIPE {
         {type = 'item', name = 'iron-oxide', amount = 12},
         {type = 'item', name = 'glass-fiber', amount = 6},
         {type = 'item', name = 'phosphate-rock', amount = 5},
-        {type = 'fluid', name = 'acetylene', amount = 50}
+        {type = 'fluid', name = 'acetylene', amount = 50, fluidbox_index = 1}
     },
     results = {
         {type = 'item', name = 'phosphate-glass', amount = 1}
@@ -1061,7 +1061,7 @@ RECIPE {
         {type = 'item', name = 'rayon', amount = 2},
         {type = 'item', name = 'nylon', amount = 3},
         {type = 'item', name = 'fiberboard', amount = 2},
-        {type = 'fluid', name = 'boric-acid', amount = 300},
+        {type = 'fluid', name = 'boric-acid', amount = 300, fluidbox_index = 1},
     },
     results = {
         {type = 'item', name = 'fiberglass', amount = 1}
