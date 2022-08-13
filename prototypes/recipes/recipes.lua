@@ -839,7 +839,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'glass-fiber',
-    category = 'glassworks',
+    category = "glassworks",
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -847,7 +847,7 @@ RECIPE {
         {type = 'item', name = 'limestone', amount = 5},
         {type = 'item', name = 'clay', amount = 5},
         {type = 'item', name = 'boron-trioxide', amount = 3},
-        {type = 'fluid', name = 'refsyngas', amount = 50}
+        {type = 'fluid', name = 'refsyngas', amount = 50, fluidbox_index = 1}
     },
     results = {
         {type = 'item', name = 'glass-fiber', amount = 3}
@@ -1034,7 +1034,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'phosphate-glass',
-    category = 'glassworks',
+    category = "glassworks",
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1052,7 +1052,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'fiberglass',
-    category = 'glassworks',
+    category = "glassworks",
     enabled = false,
     energy_required = 8,
     ingredients = {
