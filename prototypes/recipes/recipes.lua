@@ -492,7 +492,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = 'item', name = 'pure-sand', amount = 40},
+        {type = 'item', name = 'pure-sand', amount = 20},
         {type = 'item', name = 'coal-dust', amount = 20}
     },
     results = {
