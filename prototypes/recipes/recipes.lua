@@ -1578,13 +1578,13 @@ RECIPE {
     name = 'fiber',
     category = 'centrifuging',
     enabled = false,
-    energy_required = 5,
+    energy_required = 2,
     ingredients = {
-        {type = 'item', name = 'raw-fiber', amount = 5}
+        {type = 'item', name = 'raw-fiber', amount = 10}
     },
     results = {
-        {type = 'item', name = 'fiber', amount = 2},
-        {type = 'item', name = 'organics', amount = 3}
+        {type = 'item', name = 'fiber', amount = 5},
+        {type = 'item', name = 'organics', amount = 6}
     },
     main_product = 'fiber'
 }:add_unlock('kicalk-2')
