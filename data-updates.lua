@@ -45,6 +45,7 @@ local recipes_list =
     "inductor1",
     "capacitor1",
     "resistor1",
+    "vacuum-tube",
     "graphite",
     "valve",
     "fiberboard",
