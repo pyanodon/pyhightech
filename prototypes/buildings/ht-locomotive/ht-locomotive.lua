@@ -22,6 +22,7 @@ RECIPE {
         {"nexelit-plate", 20},
         {"iron-gear-wheel", 100},
         {"nichrome", 10},
+        {"electric-engine-unit", 6},
     },
     results = {
         {"ht-locomotive", 1}
