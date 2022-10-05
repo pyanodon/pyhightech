@@ -1,6 +1,17 @@
 -- TECH CHANGES
 data.raw.technology['advanced-electronics-2'].hidden = true
 data.raw.technology['advanced-electronics-2'].enabled = false
+
+TECHNOLOGY("exoskeleton-equipment"):remove_prereq("advanced-electronics-2")
+TECHNOLOGY("power-armor"):remove_prereq("advanced-electronics-2")
+TECHNOLOGY("effect-transmission"):remove_prereq("advanced-electronics-2")
+TECHNOLOGY("speed-module-2"):remove_prereq("advanced-electronics-2"):remove_prereq("modules")
+TECHNOLOGY("productivity-module-2"):remove_prereq("advanced-electronics-2"):remove_prereq("modules")
+TECHNOLOGY("effectivity-module-2"):remove_prereq("advanced-electronics-2"):remove_prereq("modules")
+TECHNOLOGY("speed-module"):remove_prereq("modules")
+TECHNOLOGY("productivity-module"):remove_prereq("modules")
+TECHNOLOGY("effectivity-module"):remove_prereq("modules")
+
 TECHNOLOGY('automation-2'):remove_prereq('electronics')
 TECHNOLOGY('fast-inserter'):remove_prereq('electronics'):remove_prereq('automation')
 TECHNOLOGY('solar-energy'):remove_prereq('electronics')
