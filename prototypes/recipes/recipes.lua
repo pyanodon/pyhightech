@@ -3613,7 +3613,7 @@ RECIPE {
     name = 'nexelit-battery-recharge',
     category = 'pa',
     enabled = false,
-    energy_required = 5,
+    energy_required = 0.8,
     ingredients = {
         {type = 'item', name = 'used-nexelit-battery', amount = 1},
         {type = 'item', name = 'nexelit-plate', amount = 3},
