@@ -121,3 +121,5 @@ ENTITY {
         apparent_volume = 2.5
     }
 }
+data.raw.recipe["clay"].hidden = false
+data.raw.recipe["clay"].hide_from_player_crafting = true
