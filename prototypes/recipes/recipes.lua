@@ -1198,7 +1198,7 @@ RECIPE {
         {type = 'item', name = 'iron-plate', amount = 5},
         {type = 'item', name = 'reo', amount = 4},
         {type = 'item', name = 'sand-casting', amount = 1},
-        {type = 'fluid', name = 'heavy-oil', amount = 100}
+        {type = 'fluid', name = "heavy-oil", amount = 100}
     },
     results = {
         {type = 'item', name = 're-tin', amount = 1}
@@ -2303,7 +2303,7 @@ RECIPE {
     ingredients = {
         {type = 'item', name = 'bones', amount = 4},
         {type = 'item', name = 'coal-dust', amount = 10},
-        {type = 'fluid', name = 'heavy-oil', amount = 50}
+        {type = 'fluid', name = "heavy-oil", amount = 50}
     },
     results = {
         {type = 'item', name = 'coal-briquette', amount = 2}
