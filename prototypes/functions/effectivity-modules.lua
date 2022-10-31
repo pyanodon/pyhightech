@@ -22,7 +22,7 @@ function modules.effectivityblacklist(cat)
 			--table.insert(effectlimitaionlist, recipe.name)
 			table.insert(data.raw.module["effectivity-module"].limitation_blacklist, recipe.name)
 			table.insert(data.raw.module["effectivity-module-2"].limitation_blacklist, recipe.name)
-			table.insert(data.raw.module["effectivity-module-2"].limitation_blacklist, recipe.name)
+			table.insert(data.raw.module["effectivity-module-3"].limitation_blacklist, recipe.name)
 		end
 	end
 	--log(serpent.block(set))
