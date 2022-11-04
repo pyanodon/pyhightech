@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2022-11-03
+  Changes:
+    - Fixed error in code that allowed effectivity module 3 in recipes when module 1 and 2 were disallowed.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2022-10-20
   Changes:
