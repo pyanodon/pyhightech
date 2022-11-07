@@ -20,3 +20,5 @@ RECIPE('mukmoux-pasture'):replace_ingredient('advanced-circuit', 'electronic-cir
 RECIPE('niobium-oxide'):replace_ingredient('water', 'ammonia')
 RECIPE('ball-mill-mk01'):remove_ingredient('py-asphalt'):add_ingredient({type = 'item', name = 'electronic-circuit', amount = 10})
 RECIPE("olefin-plant"):replace_ingredient("advanced-circuit", "electronic-circuit")
+RECIPE("evaporator"):remove_ingredient("electronic-circuit")
+RECIPE("jaw-crusher"):remove_ingredient("electronic-circuit")
