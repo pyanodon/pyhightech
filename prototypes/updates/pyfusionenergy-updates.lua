@@ -27,8 +27,8 @@ RECIPE('magnetic-core'):remove_unlock('sc-unit')
 RECIPE("ferrite"):remove_unlock("sc-unit"):add_unlock("basic-electronics")
 
 if not mods['pyrawores'] then
-    RECIPE('centrifugal-pan-mk01'):remove_unlock('diamond-mining'):add_unlock("fluid-processing-machines-1")
-    RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("fluid-processing-machines-1")
+    RECIPE('centrifugal-pan-mk01'):remove_unlock('diamond-mining'):add_unlock("rare-earth-tech")
+    RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("rare-earth-tech")
 end
 
 
@@ -43,8 +43,9 @@ RECIPE('boron-mixture'):replace_ingredient('helium', 'acetylene')
 RECIPE('fusion-reactor-mk01'):replace_ingredient('advanced-circuit', 'processing-unit')
 RECIPE('fusion-reactor-mk02'):replace_ingredient('advanced-circuit', 'intelligent-unit')
 RECIPE('nexelit-matrix'):replace_ingredient('treated-wood', 'epoxy')
-RECIPE('mixer-mk01'):add_ingredient({type = 'item', name = 'electronic-circuit', amount = 10})
+RECIPE('mixer-mk01'):add_ingredient({type = 'item', name = 'electronic-circuit', amount = 10}):remove_unlock("advanced-mining-facilities"):add_unlock("nylon")
 RECIPE('kmauts-ration'):remove_ingredient("organics"):add_ingredient({type = "item", name = "skin", amount = 25})
 RECIPE('kmauts-ration'):remove_ingredient("ralesia"):add_ingredient({type = "item", name = "blood-meal", amount = 5})
-RECIPE('agitator-mk01'):replace_ingredient('plastic-bar', 'melamine')
+RECIPE('agitator-mk01'):replace_ingredient('plastic-bar', 'melamine'):remove_unlock("advanced-mining-facilities"):add_unlock("rare-earth-tech")
 RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
+RECIPE("gas-separator-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("sulfur-processing")
