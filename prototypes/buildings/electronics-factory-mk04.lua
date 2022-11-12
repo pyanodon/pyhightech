@@ -57,28 +57,40 @@ ENTITY {
     animation = {
         layers = {
             {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/off.png",
-                width = 160,
-                height = 202,
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/bottom.png",
                 frame_count = 1,
-                shift = util.by_pixel(0, -22)
+                width = 160,
+                height = 32,
+                repeat_count = 50,
+                animation_speed = 0.4,
+                shift = util.by_pixel(0, 64),
             },
             {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/off-mask.png",
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory.png",
                 width = 160,
-                height = 202,
-                frame_count = 1,
-                shift = util.by_pixel(0, -22),
+                height = 192,
+                line_length = 10,
+                frame_count = 50,
+                animation_speed = 0.4,
+                shift = util.by_pixel(0, -48),
+            },
+            {
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory-mask.png",
+                width = 160,
+                height = 192,
+                line_length = 10,
+                frame_count = 50,
+                animation_speed = 0.4,
+                shift = util.by_pixel(0, -48),
                 tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
             },
             {
                 filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/shadow.png",
-                --priority = "high",
                 width = 180,
                 height = 130,
-                --line_length = 10,
                 frame_count = 1,
-                --animation_speed = 0.4,
+                repeat_count = 50,
+                animation_speed = 0.4,
                 draw_as_shadow = true,
                 shift = util.by_pixel(12, 15)
             }
@@ -86,34 +98,19 @@ ENTITY {
     },
     working_visualisations = {
         {
-            north_position = util.by_pixel(0, -36.6),
-            west_position = util.by_pixel(0, -36.6),
-            south_position = util.by_pixel(0, -36.6),
-            east_position = util.by_pixel(0, -36.6),
+            north_position = util.by_pixel(0, -48),
+            west_position = util.by_pixel(0, -48),
+            south_position = util.by_pixel(0, -48),
+            east_position = util.by_pixel(0, -48),
             animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory.png",
-                --priority = "low",
+                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/g.png",
+                draw_as_glow = true,
                 frame_count = 50,
                 line_length = 10,
+                tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0},
                 width = 160,
-                height = 173,
-                animation_speed = 0.4
-            }
-        },
-        {
-            north_position = util.by_pixel(0, -36.6),
-            west_position = util.by_pixel(0, -36.6),
-            south_position = util.by_pixel(0, -36.6),
-            east_position = util.by_pixel(0, -36.6),
-            animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory-mask.png",
-                --priority = "low",
-                frame_count = 50,
-                line_length = 10,
-                width = 160,
-                height = 173,
+                height = 192,
                 animation_speed = 0.4,
-                tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
             }
         },
     },
