@@ -35,6 +35,9 @@ if not (mods['pyrawores'] or mods["pypetroleumhandling"]) then
 elseif mods["pyrawores"] then
     RECIPE('centrifugal-pan-mk01'):remove_unlock('machines-mk03'):add_unlock("rare-earth-tech")
     RECIPE("gas-separator-mk01"):remove_unlock("coke-mk02"):add_unlock("sulfur-processing")
+end
+
+if mods["pyrawores"] and not mods["pypetroleumhandling"] then
     RECIPE('mixer-mk01'):remove_unlock("advanced-mining-facilities"):add_unlock("mibc")
 end
 
