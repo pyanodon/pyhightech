@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: 2022-12-19
+  Changes:
+    - increased energy usage on electronics factory mk01, fluid bed reactor mk01, moondrop greenhouse mk01, pcb factory mk01, quantum computer, and rare earth mine.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.4
 Date: 2022-11-29
   Changes:
