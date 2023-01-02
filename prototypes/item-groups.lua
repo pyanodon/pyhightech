@@ -102,8 +102,8 @@ data:extend {
     {
         type = "item-subgroup",
         name = "py-hightech-quantum",
-        group = "py-hightech",
-        order = "gf"
+        group = "production",
+        order = "z"
     },
     {
         type = "item-subgroup",
