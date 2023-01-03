@@ -2741,7 +2741,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'utility-science-pack', amount = 5}
     }
-}
+}:replace_ingredient('fusion-reactor-equipment', 'personal-fusion-cell')
 
 RECIPE {
     type = 'recipe',
