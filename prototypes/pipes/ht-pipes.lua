@@ -241,7 +241,7 @@ ITEM {
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes.png",
     icon_size = 64,
     flags = {},
-    subgroup = "pyht-pipes",
+    subgroup = "py-pipes",
     order = "pipe[niobium]c",
     place_result = "ht-pipes",
     stack_size = 100
@@ -267,7 +267,7 @@ ITEM {
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes-to-ground.png",
     icon_size = 64,
     flags = {},
-    subgroup = "pyht-pipes",
+    subgroup = "py-pipes",
     order = "pipe[niobium]d",
     place_result = "ht-pipes-to-ground",
     stack_size = 50

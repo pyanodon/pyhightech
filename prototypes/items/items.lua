@@ -1432,6 +1432,26 @@ ITEM {
     order = "h",
     stack_size = 100
 }
+
+data:extend{{
+    type = 'battery-equipment',
+    categories = {'armor'},
+    shape = {width = 1, height = 1, type = 'full'},
+    name = 'nexelit-battery',
+    sprite = {
+        width = 64,
+        height = 64,
+        filename = '__pyhightechgraphics__/graphics/icons/nexelit-battery.png'
+    },
+    energy_source = {
+        type = 'electric',
+        buffer_capacity = '20MJ',
+        usage_priority = 'tertiary'
+    },
+    localised_name = {'item-name.nexelit-battery'},
+    localised_description = {'item-description.nexelit-battery'}
+}}
+
 ITEM {
     type = "item",
     name = "nexelit-battery",
@@ -1443,9 +1463,12 @@ ITEM {
     fuel_top_speed_multiplier = 1.5,
     burnt_result = "used-nexelit-battery",
     flags = {},
-    subgroup = "py-hightech-misc",
-    order = "h",
-    stack_size = 10
+    subgroup = "py-battery-equipment",
+    order = "b",
+    stack_size = 10,
+    placed_as_equipment_result = 'nexelit-battery',
+    localised_name = {'item-name.nexelit-battery'},
+    localised_description = {'item-description.nexelit-battery'}
 }
 
 ITEM {
@@ -1454,8 +1477,8 @@ ITEM {
     icon = "__pyhightechgraphics__/graphics/icons/used-nexelit-battery.png",
     icon_size = 64,
     flags = {},
-    subgroup = "py-hightech-misc",
-    order = "h",
+    subgroup = "py-battery-equipment",
+    order = "bb",
     stack_size = 10
 }
 

@@ -135,12 +135,6 @@ data:extend {
         group = "py-hightech",
         order = "ed"
     },
-    {
-        type = "item-subgroup",
-        name = "pyht-pipes",
-        group = "py-hightech",
-        order = "c"
-    },
 }
 
 if not mods['pyindustry'] then
