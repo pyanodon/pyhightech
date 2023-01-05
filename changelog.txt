@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.6
+Date: 2023-1-5
+  Changes:
+    - Crafting menu organization
+    - added nexelit battery as armor equipment
+    - Removed fusion reactor from utility science pack recipe and added personal fusion cell
+    - increased energy usage of rare earth mine from 3000KiloWhats to 30MegaWhys
+---------------------------------------------------------------------------------------------------
 Version: 2.0.5
 Date: 2022-12-19
   Changes:
