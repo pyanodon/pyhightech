@@ -1449,7 +1449,8 @@ data:extend{{
         usage_priority = 'tertiary'
     },
     localised_name = {'item-name.nexelit-battery'},
-    localised_description = {'item-description.nexelit-battery'}
+    localised_description = {'item-description.nexelit-battery'},
+    take_result = 'used-nexelit-battery'
 }}
 
 ITEM {
@@ -1466,7 +1467,6 @@ ITEM {
     subgroup = "py-battery-equipment",
     order = "b",
     stack_size = 10,
-    placed_as_equipment_result = 'nexelit-battery',
     localised_name = {'item-name.nexelit-battery'},
     localised_description = {'item-description.nexelit-battery'}
 }
@@ -1479,7 +1479,9 @@ ITEM {
     flags = {},
     subgroup = "py-battery-equipment",
     order = "bb",
-    stack_size = 10
+    stack_size = 10,
+    placed_as_equipment_result = 'nexelit-battery',
+    localised_name = {'item-name.used-nexelit-battery'},
 }
 
 ITEM {
