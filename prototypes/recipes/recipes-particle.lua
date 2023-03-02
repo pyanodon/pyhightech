@@ -16,7 +16,7 @@ RECIPE {
     icons =
 		{
 			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", scale = 2},
-			{icon = "__base__/graphics/icons/sulfur.png", scale = 0.5}
+			{icon = "__base__/graphics/icons/sulfur.png", scale = 0.5, icon_size = 64, icon_mipmaps = 4}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -41,7 +41,7 @@ RECIPE {
 	icons =
 		{
 			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pycoalprocessinggraphics__/graphics/icons/aromatics.png", scale = 0.5, icon_size = 64}
+			{icon = "__pycoalprocessinggraphics__/graphics/icons/aromatics.png", scale = 0.25, icon_size = 64}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -91,7 +91,7 @@ RECIPE {
     icons =
 		{
 			{icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png"},
-			{icon = "__pyhightechgraphics__/graphics/icons/propene.png", scale = 0.5, icon_size = 64}
+			{icon = "__pyhightechgraphics__/graphics/icons/propene.png", scale = 0.25, icon_size = 64}
 		},
 	icon_size = 32,
     subgroup = "py-hightech-recipes",
