@@ -1,8 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.8
+Date: 2023-3-28
+  Changes:
+    - unfixed yag laser module to have the wrong spelling of aluminium for the heathens
+    - updated russian and chinese translation
+    - remove equipment grid from hightech wagon
+    - fixed several icons being the wrong size
+---------------------------------------------------------------------------------------------------
 Version: 2.0.7
 Date: 2023-1-31
   Changes:
-    - Fixed train batteries could be inserted into grids. 
+    - Fixed train batteries could be inserted into grids.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.6
 Date: 2023-1-5
