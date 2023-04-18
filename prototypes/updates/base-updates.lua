@@ -21,6 +21,7 @@ TECHNOLOGY('advanced-electronics'):set_field{icon = "__pyhightechgraphics__/grap
 TECHNOLOGY('electronics'):set_field{hidden = true}:set_field{enabled=false}
 TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('production-science-pack'):remove_pack('military-science-pack'):remove_prereq('utility-science-pack')
 TECHNOLOGY('electric-engine'):remove_prereq('chemical-science-pack'):remove_pack('chemical-science-pack')
+TECHNOLOGY("diet-beacon"):remove_prereq('chemical-science-pack')
 TECHNOLOGY('laser'):remove_prereq('advanced-electronics')
 TECHNOLOGY('military-4'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack'):add_prereq('military-3')
 TECHNOLOGY('personal-roboport-mk2-equipment'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack')
