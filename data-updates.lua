@@ -49,7 +49,6 @@ local recipes_list =
     "graphite",
     "valve",
     "pcb1",
-    "fluidize-coke",
     "tall-oil-separation",
     "silicon",
     "silicon-wafer",
