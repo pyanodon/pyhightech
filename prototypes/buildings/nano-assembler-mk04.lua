@@ -14,7 +14,7 @@ RECIPE {
     results = {
         {"nano-assembler-mk04", 1}
     }
-}
+}:add_unlock("electronics-machines-4")
 
 ITEM {
     type = "item",
@@ -53,7 +53,7 @@ ENTITY {
         usage_priority = "secondary-input",
         emissions_per_minute = 0.06,
     },
-    energy_usage = "1050kW",
+    energy_usage = "3MW",
     animation = {
         layers = {
             {
