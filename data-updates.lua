@@ -213,3 +213,8 @@ if data.data_crawler then
       }
     end
 end
+
+if register_cache_file ~= nil then
+    register_cache_file({"pycoalprocessing","pyfusionenergy","pyindustry","pyhightech"}, "__pyhightech__/cached-configs/pycoalprocessing+pyfusionenergy+pyhightech+pyindustry.lua")
+    register_cache_file({"pycoalprocessing","pyfusionenergy","pyindustry","pyrawores","pyhightech"}, "__pyhightech__/cached-configs/pycoalprocessing+pyfusionenergy+pyhightech+pyindustry+pyrawores")
+end
