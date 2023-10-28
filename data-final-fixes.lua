@@ -44,17 +44,19 @@ require('__stdlib__/stdlib/data/data').Util.create_data_globals()
 --     end
 -- end
 
-local ell = require('prototypes/functions/effectivity-modules')
+if data.raw["module"]["effectivity-module"] then
+    local ell = require('prototypes/functions/effectivity-modules')
 
-local catlist = {
-    'pa',
-    'arum',
-    'chip',
-    'clay',
-    'electronic',
-    'fbreactor',
-    'moon',
-    'pcb'
-}
+    local catlist = {
+        'pa',
+        'arum',
+        'chip',
+        'clay',
+        'electronic',
+        'fbreactor',
+        'moon',
+        'pcb'
+    }
 
-ell.effectivityblacklist(catlist)
+    ell.effectivityblacklist(catlist)
+end
