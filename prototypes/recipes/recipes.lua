@@ -3138,7 +3138,8 @@ RECIPE {
     icon = '__pyhightechgraphics__/graphics/icons/fusion-antimatter.png',
     icon_size = 32,
     subgroup = 'py-fusion-items',
-    order = 'e'
+    order = 'e',
+    show_details_in_recipe_tooltip = false
 }:add_unlock('fusion-mk04')
 
 RECIPE {
