@@ -116,7 +116,7 @@ local recipes_list =
     "mukmoux-fat3",
     "nano-wires",
     "nic-core",
-    "nitrobenzene"
+    "nitrobenzene",
     "nxag-matrix",
     "nylon-plastic",
     "nylon",
