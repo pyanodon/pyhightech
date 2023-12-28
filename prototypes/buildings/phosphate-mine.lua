@@ -84,6 +84,9 @@ ENTITY {
         width = 12,
         height = 12
     },
+    circuit_wire_connection_points = circuit_connector_definitions["phosphate-mine"].points,
+    circuit_connector_sprites = circuit_connector_definitions["phosphate-mine"].sprites,
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
     animations = {
         layers = {
             {

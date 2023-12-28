@@ -5,6 +5,10 @@ require("prototypes/recipe-categories")
 
 require("prototypes/pipes/ht-pipes")
 
+-- (( Circuit Connector Definitions )) --
+require('prototypes/circuit-connector-definitions')
+-- ))
+
 --(( Technology ))--
 require("prototypes/technologies/aerogel")
 require("prototypes/technologies/auog")
