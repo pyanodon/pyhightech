@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.12
-Date: When it's done
+Date: 2024-1-8
   Changes:
     - Added circuit connectivity to Phosphate Mine and Rare-Earth Extractor (credit: JStMorgan)
 ---------------------------------------------------------------------------------------------------
