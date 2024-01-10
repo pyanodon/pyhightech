@@ -35,9 +35,9 @@ elseif mods["pyrawores"] then
     RECIPE('centrifugal-pan-mk01'):remove_unlock('machines-mk03'):add_unlock("rare-earth-tech")
 end
 if mods['pyrawores'] then
-    RECIPE("gas-separator-mk01"):remove_unlock("helium-processing-mk02"):add_unlock("sulfur-processing")
-else
     RECIPE("gas-separator-mk01"):remove_unlock("coke-mk02"):add_unlock("sulfur-processing")
+else
+    RECIPE("gas-separator-mk01"):remove_unlock("helium-processing-mk02"):add_unlock("sulfur-processing")
 end
 
 if mods["pyrawores"] and not mods["pypetroleumhandling"] then
