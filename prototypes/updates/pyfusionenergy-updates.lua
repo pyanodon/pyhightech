@@ -31,9 +31,12 @@ if not (mods['pyrawores'] or mods["pypetroleumhandling"]) then
     RECIPE("thickener-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("rare-earth-tech")
     RECIPE('agitator-mk01'):remove_unlock("advanced-mining-facilities"):add_unlock("rare-earth-tech")
     RECIPE('mixer-mk01'):remove_unlock("advanced-mining-facilities"):add_unlock("nylon")
-    RECIPE("gas-separator-mk01"):remove_unlock("helium-processing-mk02"):add_unlock("sulfur-processing")
 elseif mods["pyrawores"] then
     RECIPE('centrifugal-pan-mk01'):remove_unlock('machines-mk03'):add_unlock("rare-earth-tech")
+end
+if mods['pyrawores'] then
+    RECIPE("gas-separator-mk01"):remove_unlock("helium-processing-mk02"):add_unlock("sulfur-processing")
+else
     RECIPE("gas-separator-mk01"):remove_unlock("coke-mk02"):add_unlock("sulfur-processing")
 end
 

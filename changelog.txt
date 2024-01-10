@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.13
+Date: ?
+  Changes:
+    - Fixed sulfur processing tech unlocking the gas processing unit twice (https://github.com/pyanodon/pybugreports/issues/366)
+---------------------------------------------------------------------------------------------------
 Version: 2.0.12
 Date: 2024-1-8
   Changes:
