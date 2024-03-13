@@ -1445,7 +1445,7 @@ data:extend{{
     },
     energy_source = {
         type = 'electric',
-        buffer_capacity = '20MJ',
+        buffer_capacity = '1000MJ',
         usage_priority = 'tertiary'
     },
     localised_name = {'item-name.nexelit-battery'},
