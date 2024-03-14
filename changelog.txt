@@ -4,6 +4,16 @@ Date: ?
   Changes:
     - Improved the description for phosphate deposits. (https://github.com/pyanodon/pybugreports/issues/411)
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.16
+Date: 2024-3-14
+  Changes:
+    - Fixed typo in nexelit battery charge level. should be 100MJ not 1GJ
+---------------------------------------------------------------------------------------------------
+Version: 2.0.15
+Date: 2024-3-13
+  Changes:
+    - Adjusted that armor battery levels were far to low to be useful
+---------------------------------------------------------------------------------------------------
 Version: 2.0.14
 Date: 2024-1-31
   Changes:
