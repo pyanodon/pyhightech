@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.17
+Date: ?
+  Changes:
+    - Improved the description for phosphate deposits. (https://github.com/pyanodon/pybugreports/issues/411)
+---------------------------------------------------------------------------------------------------
 Version: 2.0.16
 Date: 2024-3-14
   Changes:
