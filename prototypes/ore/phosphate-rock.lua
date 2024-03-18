@@ -40,6 +40,7 @@ DATA {
     autoplace = {
         name = "phosphate-rock",
         order = "b-phosphate-rock",
+        control = "phosphate-rock",
         -- We return the chance of spawning on any given tile here
         probability_expression = noise.define_noise_function( function(x, y, tile, map)
             -- This is the user's map setting for the frequency of this ore
