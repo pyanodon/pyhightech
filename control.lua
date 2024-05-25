@@ -1,4 +1,4 @@
-require('__core__/lualib/util')
+require '__core__/lualib/util'
 
 script.on_event(defines.events.on_cutscene_cancelled, function(event)
     if not game.active_mods['pyalienlife'] then

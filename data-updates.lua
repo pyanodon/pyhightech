@@ -1,17 +1,14 @@
-require("__stdlib__/stdlib/data/data").Util.create_data_globals()
-local FUN = require("__pycoalprocessing__/prototypes/functions/functions")
-
-require('prototypes/updates/base-updates')
-require('prototypes/updates/pycoalprocessing-updates')
-require('prototypes/updates/pyfusionenergy-updates')
-require('prototypes/updates/pyindustry-updates')
+require 'prototypes/updates/base-updates'
+require 'prototypes/updates/pycoalprocessing-updates'
+require 'prototypes/updates/pyfusionenergy-updates'
+require 'prototypes/updates/pyindustry-updates'
 
 if mods['pyrawores'] then
-    require('prototypes/updates/pyrawores-updates')
+    require 'prototypes/updates/pyrawores-updates'
 end
 
 if mods['pyalienlife'] then
-    require('prototypes/updates/pyalienlife-updates')
+    require 'prototypes/updates/pyalienlife-updates'
 else
     -- Override crashed building resistances since we won't have the means to repair them immediately
     data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].resistances = {{type = 'fire', percent = 100}}
@@ -197,7 +194,7 @@ local recipes_list =
 }
 
 --adding to module limitation list
-FUN.productivity(recipes_list)
+py.allow_productivity(recipes_list)
 
 data.raw['assembling-machine']['centrifuge'].working_visualisations = nil
 
