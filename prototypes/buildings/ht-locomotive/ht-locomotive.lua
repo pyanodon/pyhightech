@@ -41,7 +41,7 @@ ITEM {
     stack_size = 5
 }
 
-{
+ENTITY {
     type = "locomotive",
     name = "ht-locomotive",
     icon = "__pyhightechgraphics__/graphics/icons/ht-locomotive.png",
