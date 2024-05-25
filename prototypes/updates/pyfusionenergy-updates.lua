@@ -51,7 +51,7 @@ RECIPE('bio-reactor-mk01'):add_ingredient({type = 'item', name = 'advanced-circu
 RECIPE('sc-coil'):add_ingredient({type = 'item', name = 're-tin', amount = 1})
 RECIPE('coil-core'):add_ingredient({type = 'item', name = 'nexelit-plate', amount = 2})
 RECIPE('magnetic-core'):add_ingredient({type = 'item', name = 'ndfeb-alloy', amount = 1}):add_ingredient({type = 'item', name = 'epoxy', amount = 1})
-RECIPE('deposited-core'):change_category('nano')
+RECIPE('deposited-core').category = 'nano'
 RECIPE('boron-mixture'):replace_ingredient('helium', 'acetylene')
 RECIPE('fusion-reactor-mk01'):replace_ingredient('advanced-circuit', 'processing-unit')
 RECIPE('fusion-reactor-mk02'):replace_ingredient('advanced-circuit', 'intelligent-unit')
