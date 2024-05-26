@@ -1,5 +1,5 @@
 if data.raw['module']['effectivity-module'] then
-    py.effectivity_blacklist{
+    py.disallow_effectivity{
         'pa',
         'arum',
         'chip',
