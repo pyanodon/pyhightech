@@ -97,7 +97,6 @@ local recipes_list =
     "methane-co2",
     "methane-methanal",
     "methane-py-fertilizer",
-    "methane",
     "microchip",
     "milling-ree",
     "msa",
