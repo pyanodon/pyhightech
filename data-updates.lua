@@ -14,14 +14,6 @@ else
     data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].resistances = {{type = 'fire', percent = 100}}
 end
 
-for _, player in DATA:pairs('character') do
-    player.crafting_categories = player.String_Array(player.crafting_categories or {}) + 'handcrafting'
-end
-
-for _, controller in DATA:pairs('god-controller') do
-    controller.crafting_categories = controller.String_Array(controller.crafting_categories or {}) + 'handcrafting'
-end
-
 local recipes_list =
 {
     -- "nanochip",
