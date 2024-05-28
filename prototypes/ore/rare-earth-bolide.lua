@@ -1,19 +1,19 @@
-local noise = require("noise")
+local noise = require 'noise'
 
-DATA {
+data:extend{{
     type = "autoplace-control",
     category = "resource",
     name = "rare-earth-bolide",
     richness = true,
     order = "r-ra"
-}
+}}
 
-DATA {
+data:extend{{
     type = "noise-layer",
     name = "rare-earth-bolide"
-}
+}}
 
-DATA {
+data:extend{{
     type = "resource",
     name = "rare-earth-bolide",
     category = "rare-earth",
@@ -76,4 +76,4 @@ DATA {
             shift = util.by_pixel(0, -2)
         }
     }
-}
+}}

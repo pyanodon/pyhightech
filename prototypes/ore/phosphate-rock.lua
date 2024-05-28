@@ -1,19 +1,19 @@
-local noise = require("noise")
+local noise = require 'noise'
 
-DATA {
+data:extend{{
     type = "autoplace-control",
     category = "resource",
     name = "phosphate-rock",
     richness = true,
     order = "r-pho"
-}
+}}
 
-DATA {
+data:extend{{
     type = "noise-layer",
     name = "phosphate-rock"
-}
+}}
 
-DATA {
+data:extend{{
     type = "resource",
     name = "phosphate-rock",
     category = "phosphate",
@@ -88,4 +88,4 @@ DATA {
             }
         }
     }
-}
+}}

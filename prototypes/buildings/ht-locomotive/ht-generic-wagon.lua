@@ -1,4 +1,4 @@
-local sounds = require("__base__/prototypes/entity/sounds")
+local sounds = require '__base__/prototypes/entity/sounds'
 
 RECIPE {
     type = "recipe",
@@ -30,7 +30,7 @@ ITEM {
     stack_size = 5
 }
 
-{
+ENTITY {
     type = "cargo-wagon",
     name = "ht-generic-wagon",
     icon = "__pyhightechgraphics__/graphics/icons/ht-generic-wagon.png",
