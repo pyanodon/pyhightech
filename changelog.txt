@@ -3,6 +3,7 @@ Version: 2.0.18
 Date: ?
   Changes:
     - Resprited & upscaled icons for DMS, phosphine gas, phosphoric acid, and phosphorus acid (https://github.com/pyanodon/pybugreports/issues/427) (https://github.com/pyanodon/pybugreports/issues/419)
+    - Fixed that mining a locomotive would wipe its equipment grid. (https://github.com/pyanodon/pybugreports/issues/514)
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.17
 Date: 2024-3-24
