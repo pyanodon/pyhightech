@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"soil-extractormk01", 2},
+        {"soil-extractor-mk01", 2},
         --{"automated-factory-mk01", 1},
         {"iron-plate", 60},
         {"jaw-crusher", 1},

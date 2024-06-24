@@ -4,7 +4,7 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"soil-extractormk01", 2},
+        {"soil-extractor-mk01", 2},
         {"distilator", 1},
         {"steel-plate", 60},
         {"engine-unit", 10},
