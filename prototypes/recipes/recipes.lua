@@ -131,7 +131,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'rich-dust', amount = 5},
         {type = 'fluid', name = 'rare-earth-mud', amount = 250},
-        {type = 'fluid', name = 'steam', amount = 2000, temperature = 150},
+        {type = 'fluid', name = 'steam', amount = 2000, temperature = 150, catalyst_amount = 2000},
         {type = 'item', name = 'sand', amount = 10}
     },
     main_product = 'rare-earth-mud',
