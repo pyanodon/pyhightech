@@ -1,4 +1,4 @@
-if data.raw['module']['effectivity-module'] then
+if data.raw['module']['efficiency-module'] then
     py.disallow_effectivity{
         'pa',
         'arum',

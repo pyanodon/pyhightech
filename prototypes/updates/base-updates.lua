@@ -7,10 +7,10 @@ TECHNOLOGY("power-armor"):remove_prereq("advanced-electronics-2")
 TECHNOLOGY("effect-transmission"):remove_prereq("advanced-electronics-2")
 TECHNOLOGY("speed-module-2"):remove_prereq("advanced-electronics-2"):remove_prereq("modules")
 TECHNOLOGY("productivity-module-2"):remove_prereq("advanced-electronics-2"):remove_prereq("modules")
-TECHNOLOGY("effectivity-module-2"):remove_prereq("advanced-electronics-2"):remove_prereq("modules")
+TECHNOLOGY("efficiency-module-2"):remove_prereq("advanced-electronics-2"):remove_prereq("modules")
 TECHNOLOGY("speed-module"):remove_prereq("modules")
 TECHNOLOGY("productivity-module"):remove_prereq("modules")
-TECHNOLOGY("effectivity-module"):remove_prereq("modules")
+TECHNOLOGY("efficiency-module"):remove_prereq("modules")
 
 TECHNOLOGY('automation-2'):remove_prereq('electronics')
 TECHNOLOGY('fast-inserter'):remove_prereq('electronics'):remove_prereq('automation')
@@ -35,7 +35,7 @@ TECHNOLOGY('modular-armor'):remove_prereq('advanced-electronics')
 TECHNOLOGY('power-armor'):remove_prereq('electric-engine')
 TECHNOLOGY('exoskeleton-equipment'):remove_prereq('electric-engine')
 TECHNOLOGY('speed-module-3'):remove_prereq('production-science-pack')
-TECHNOLOGY('effectivity-module-3'):remove_prereq('production-science-pack')
+TECHNOLOGY('efficiency-module-3'):remove_prereq('production-science-pack')
 TECHNOLOGY('productivity-module-3'):remove_prereq('production-science-pack')
 TECHNOLOGY('rocket-silo'):remove_prereq('super-alloy')
 TECHNOLOGY('plastics'):remove_prereq('logistic-science-pack')
@@ -63,9 +63,9 @@ RECIPE('flying-robot-frame'):replace_ingredient('steel-plate', 'niobium-plate')
 RECIPE('speed-module').category = 'pcb'
 RECIPE('speed-module-2').category = 'pcb'
 RECIPE("speed-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = 'pcb'
-RECIPE('effectivity-module').category = 'pcb'
-RECIPE('effectivity-module-2').category = 'pcb'
-RECIPE("effectivity-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = 'pcb'
+RECIPE('efficiency-module').category = 'pcb'
+RECIPE('efficiency-module-2').category = 'pcb'
+RECIPE("efficiency-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = 'pcb'
 RECIPE('productivity-module').category = 'pcb'
 RECIPE('productivity-module-2').category = 'pcb'
 RECIPE("productivity-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = 'pcb'
