@@ -147,7 +147,7 @@ ENTITY {
         },
         off_when_no_fluid_recipe = true
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
+    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 1.0},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 0.3},
