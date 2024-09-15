@@ -121,7 +121,13 @@ ENTITY{
     },
     crafting_categories = {'crafting', 'basic-crafting', 'advanced-crafting', 'handcrafting'},
     crafting_speed = 0.3,
-    energy_source = {type = 'electric', usage_priority = 'secondary-input', emissions_per_minute = 4},
+    energy_source = {
+        type = 'electric',
+        usage_priority = 'secondary-input',
+        emissions_per_minute = {
+            pollution = 4
+        }
+    },
     energy_usage = '90kW',
     -- ingredient_count = 2,
     open_sound = {filename = '__base__/sound/machine-open.ogg', volume = 0.85},
