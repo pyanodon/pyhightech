@@ -20,6 +20,7 @@ FLUID {
     icon = "__pyhightechgraphics__/graphics/icons/chloromethane.png",
 	icon_size = 32,
     default_temperature = 15,
+    base_flow_rate = 100,
     base_color = {r = 0.321, g = 0.549, b = 0.321},
     flow_color = {r = 1, g = 1, b = 1},
     max_temperature = 100,
