@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"moondrop-greenhouse-mk03", 1},
-        {"nbfe-alloy", 10},
-        {"intelligent-unit", 10},
-        {"superconductor-servomechanims", 10},
-        {"hyperelastic-material", 15},
+        {type = "item", name = "moondrop-greenhouse-mk03", amount = 1},
+        {type = "item", name = "nbfe-alloy", amount = 10},
+        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "superconductor-servomechanims", amount = 10},
+        {type = "item", name = "hyperelastic-material", amount = 15},
     },
     results = {
-        {"moondrop-greenhouse-mk04", 1}
+        {type = "item", name = "moondrop-greenhouse-mk04", amount = 1}
     }
 }
 

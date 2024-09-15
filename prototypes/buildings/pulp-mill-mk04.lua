@@ -22,16 +22,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"pulp-mill-mk03", 1},
-        {"superconductor-servomechanims", 20},
-        {"heavy-fermion", 50},
-        {"volumetric-capacitor", 20},
-        {"intelligent-unit", 20},
-        {"biopolymer", 50},
-        {"super-alloy", 50},
+        {type = "item", name = "pulp-mill-mk03", amount = 1},
+        {type = "item", name = "superconductor-servomechanims", amount = 20},
+        {type = "item", name = "heavy-fermion", amount = 50},
+        {type = "item", name = "volumetric-capacitor", amount = 20},
+        {type = "item", name = "intelligent-unit", amount = 20},
+        {type = "item", name = "biopolymer", amount = 50},
+        {type = "item", name = "super-alloy", amount = 50},
     },
     results = {
-        {"pulp-mill-mk04", 1}
+        {type = "item", name = "pulp-mill-mk04", amount = 1}
     }
 }:add_unlock("electronics-machines-3")
 

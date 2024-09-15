@@ -22,15 +22,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"pulp-mill-mk01", 1},
-        {"advanced-circuit", 10},
-        {"engine-unit", 5},
-        {"pipe", 40},
-        {"niobium-plate", 10},
-        {"treated-wood", 30}
+        {type = "item", name = "pulp-mill-mk01", amount = 1},
+        {type = "item", name = "advanced-circuit", amount = 10},
+        {type = "item", name = "engine-unit", amount = 5},
+        {type = "item", name = "pipe", amount = 40},
+        {type = "item", name = "niobium-plate", amount = 10},
+        {type = "item", name = "treated-wood", amount = 30}
     },
     results = {
-        {"pulp-mill-mk02", 1}
+        {type = "item", name = "pulp-mill-mk02", amount = 1}
     }
 }:add_unlock("electronics-machines-1")
 

@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"nano-assembler-mk01", 1},
-        {"graphene-roll", 20},
-        {"processing-unit", 15},
-        {"engine-unit", 4},
-        {"niobium-plate", 10},
-        {"low-density-structure", 15},
+        {type = "item", name = "nano-assembler-mk01", amount = 1},
+        {type = "item", name = "graphene-roll", amount = 20},
+        {type = "item", name = "processing-unit", amount = 15},
+        {type = "item", name = "engine-unit", amount = 4},
+        {type = "item", name = "niobium-plate", amount = 10},
+        {type = "item", name = "low-density-structure", amount = 15},
     },
     results = {
-        {"nano-assembler-mk02", 1}
+        {type = "item", name = "nano-assembler-mk02", amount = 1}
     }
 }:add_unlock('electronics-machines-2')
 

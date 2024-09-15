@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"fbreactor-mk03", 1},
-        {"biopolymer", 30},
-        {"super-alloy", 30},
-        {"intelligent-unit", 10},
-        {"hyperelastic-material", 15},
+        {type = "item", name = "fbreactor-mk03", amount = 1},
+        {type = "item", name = "biopolymer", amount = 30},
+        {type = "item", name = "super-alloy", amount = 30},
+        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "hyperelastic-material", amount = 15},
     },
     results = {
-        {"fbreactor-mk04", 1}
+        {type = "item", name = "fbreactor-mk04", amount = 1}
     }
 }:add_unlock("electronics-machines-3")
 

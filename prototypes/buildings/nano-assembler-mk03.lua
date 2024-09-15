@@ -4,16 +4,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"nano-assembler-mk02", 1},
-        {"biopolymer", 10},
-        {"super-alloy", 5},
-        {"electric-engine-unit", 10},
-        {"intelligent-unit", 10},
-        {"superconductor-servomechanims", 10},
-        {"hyperelastic-material", 15},
+        {type = "item", name = "nano-assembler-mk02", amount = 1},
+        {type = "item", name = "biopolymer", amount = 10},
+        {type = "item", name = "super-alloy", amount = 5},
+        {type = "item", name = "electric-engine-unit", amount = 10},
+        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "superconductor-servomechanims", amount = 10},
+        {type = "item", name = "hyperelastic-material", amount = 15},
     },
     results = {
-        {"nano-assembler-mk03", 1}
+        {type = "item", name = "nano-assembler-mk03", amount = 1}
     }
 }:add_unlock("electronics-machines-3")
 

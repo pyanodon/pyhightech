@@ -4,13 +4,13 @@ RECIPE {
     energy_required = 1,
     enabled = false,
     ingredients = {
-        {'py-roboport-mk02', 1},
-        {'electric-engine-unit', 1},
-        {'super-alloy', 50},
-        {'processing-unit', 10}
+        {type = "item", name = 'py-roboport-mk02', amount = 1},
+        {type = "item", name = 'electric-engine-unit', amount = 1},
+        {type = "item", name = 'super-alloy', amount = 50},
+        {type = "item", name = 'processing-unit', amount = 10}
     },
     results = {
-        {'py-roboport-mk03', 1}
+        {type = "item", name = 'py-roboport-mk03', amount = 1}
     }
 }
 

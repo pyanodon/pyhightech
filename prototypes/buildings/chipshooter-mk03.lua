@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"graphene-roll", 20},
-        {"processing-unit", 15},
-        {"niobium-plate", 10},
-        {"low-density-structure", 15},
-        {"electric-engine-unit", 30},
-        {"chipshooter-mk02", 1}
+        {type = "item", name = "graphene-roll", amount = 20},
+        {type = "item", name = "processing-unit", amount = 15},
+        {type = "item", name = "niobium-plate", amount = 10},
+        {type = "item", name = "low-density-structure", amount = 15},
+        {type = "item", name = "electric-engine-unit", amount = 30},
+        {type = "item", name = "chipshooter-mk02", amount = 1}
     },
     results = {
-        {"chipshooter-mk03", 1}
+        {type = "item", name = "chipshooter-mk03", amount = 1}
     }
 }:add_unlock("electronics-machines-2")
 

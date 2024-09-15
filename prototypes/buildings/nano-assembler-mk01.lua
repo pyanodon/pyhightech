@@ -4,17 +4,17 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"automated-factory-mk01", 1},
-        {"nexelit-plate", 20},
-        {"concrete", 60},
-        {"steel-plate", 40},
-        {"plastic-bar", 10},
-        {"advanced-circuit", 10},
-        {"iron-gear-wheel", 30},
-        {"steam-engine", 3},
+        {type = "item", name = "automated-factory-mk01", amount = 1},
+        {type = "item", name = "nexelit-plate", amount = 20},
+        {type = "item", name = "concrete", amount = 60},
+        {type = "item", name = "steel-plate", amount = 40},
+        {type = "item", name = "plastic-bar", amount = 10},
+        {type = "item", name = "advanced-circuit", amount = 10},
+        {type = "item", name = "iron-gear-wheel", amount = 30},
+        {type = "item", name = "steam-engine", amount = 3},
     },
     results = {
-        {"nano-assembler-mk01", 1}
+        {type = "item", name = "nano-assembler-mk01", amount = 1}
     }
 }:add_unlock("graphene")
 

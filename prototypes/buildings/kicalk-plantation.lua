@@ -13,13 +13,13 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"botanical-nursery", 2},
-        {"storage-tank", 1}, --replace py-tank-5000
-        {"classifier", 1},
+        {type = "item", name = "botanical-nursery", amount = 2},
+        {type = "item", name = "storage-tank", amount = 1}, --replace py-tank-5000
+        {type = "item", name = "classifier", amount = 1},
 
     },
     results = {
-        {"kicalk-plantation", 1}
+        {type = "item", name = "kicalk-plantation", amount = 1}
     }
 }:add_unlock("kicalk")
 

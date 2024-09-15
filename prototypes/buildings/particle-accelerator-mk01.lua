@@ -4,16 +4,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"concrete", 100},
-        {"advanced-circuit", 50},
-        {"gasturbinemk02", 2},
-        {"agitator-mk01", 1},
-        {"niobium-plate", 15},
-        {"electric-engine-unit", 2},
-        {"plastic-bar", 100},
+        {type = "item", name = "concrete", amount = 100},
+        {type = "item", name = "advanced-circuit", amount = 50},
+        {type = "item", name = "gasturbinemk02", amount = 2},
+        {type = "item", name = "agitator-mk01", amount = 1},
+        {type = "item", name = "niobium-plate", amount = 15},
+        {type = "item", name = "electric-engine-unit", amount = 2},
+        {type = "item", name = "plastic-bar", amount = 100},
     },
     results = {
-        {"particle-accelerator-mk01", 1}
+        {type = "item", name = "particle-accelerator-mk01", amount = 1}
     }
 }:add_unlock("nucleo")
 

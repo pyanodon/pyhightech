@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"fbreactor-mk02", 1},
-        {"low-density-structure", 15},
-        {"electric-engine-unit", 5},
-        {"processing-unit", 10},
-        {"plastic-bar", 100},
-        {"graphene-roll", 40},
+        {type = "item", name = "fbreactor-mk02", amount = 1},
+        {type = "item", name = "low-density-structure", amount = 15},
+        {type = "item", name = "electric-engine-unit", amount = 5},
+        {type = "item", name = "processing-unit", amount = 10},
+        {type = "item", name = "plastic-bar", amount = 100},
+        {type = "item", name = "graphene-roll", amount = 40},
     },
     results = {
-        {"fbreactor-mk03", 1}
+        {type = "item", name = "fbreactor-mk03", amount = 1}
     }
 }:add_unlock("electronics-machines-2")
 

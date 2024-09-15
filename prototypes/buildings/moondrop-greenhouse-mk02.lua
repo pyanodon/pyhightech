@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"moondrop-greenhouse-mk01", 1},
-        {"advanced-circuit", 10},
-        {"pipe", 40},
-        {"engine-unit", 1},
-        {"niobium-plate", 10},
+        {type = "item", name = "moondrop-greenhouse-mk01", amount = 1},
+        {type = "item", name = "advanced-circuit", amount = 10},
+        {type = "item", name = "pipe", amount = 40},
+        {type = "item", name = "engine-unit", amount = 1},
+        {type = "item", name = "niobium-plate", amount = 10},
     },
     results = {
-        {"moondrop-greenhouse-mk02", 1}
+        {type = "item", name = "moondrop-greenhouse-mk02", amount = 1}
     }
 }
 

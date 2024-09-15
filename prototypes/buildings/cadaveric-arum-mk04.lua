@@ -13,15 +13,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"cadaveric-arum-mk03", 1},
-        {"low-density-structure", 20},
-        {"nbfe-alloy", 20},
-        {"intelligent-unit", 10},
-        {"superconductor-servomechanims", 10},
-        {"hyperelastic-material", 15},
+        {type = "item", name = "cadaveric-arum-mk03", amount = 1},
+        {type = "item", name = "low-density-structure", amount = 20},
+        {type = "item", name = "nbfe-alloy", amount = 20},
+        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "superconductor-servomechanims", amount = 10},
+        {type = "item", name = "hyperelastic-material", amount = 15},
     },
     results = {
-        {"cadaveric-arum-mk04", 1}
+        {type = "item", name = "cadaveric-arum-mk04", amount = 1}
     }
 }
 

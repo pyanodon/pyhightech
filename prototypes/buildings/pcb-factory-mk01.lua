@@ -13,15 +13,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"steam-engine", 2},
-        {"fbreactor-mk01", 2},
-        {"distilator", 2},
-        {"iron-plate", 80},
-        {"copper-plate", 60},
-        {"iron-gear-wheel", 100},
+        {type = "item", name = "steam-engine", amount = 2},
+        {type = "item", name = "fbreactor-mk01", amount = 2},
+        {type = "item", name = "distilator", amount = 2},
+        {type = "item", name = "iron-plate", amount = 80},
+        {type = "item", name = "copper-plate", amount = 60},
+        {type = "item", name = "iron-gear-wheel", amount = 100},
     },
     results = {
-        {"pcb-factory-mk01", 1}
+        {type = "item", name = "pcb-factory-mk01", amount = 1}
     }
 }:add_unlock('vacuum-tube-electronics')
 

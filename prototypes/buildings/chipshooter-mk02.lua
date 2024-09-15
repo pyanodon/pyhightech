@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"plastic-bar", 20},
-        {"engine-unit", 4},
-        {"nexelit-plate", 20},
-        {"advanced-circuit", 15},
-        {"chipshooter-mk01", 1}
+        {type = "item", name = "plastic-bar", amount = 20},
+        {type = "item", name = "engine-unit", amount = 4},
+        {type = "item", name = "nexelit-plate", amount = 20},
+        {type = "item", name = "advanced-circuit", amount = 15},
+        {type = "item", name = "chipshooter-mk01", amount = 1}
     },
     results = {
-        {"chipshooter-mk02", 1}
+        {type = "item", name = "chipshooter-mk02", amount = 1}
     }
 }:add_unlock("electronics-machines-1")
 

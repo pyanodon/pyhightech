@@ -13,14 +13,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"cadaveric-arum-mk01", 1},
-        {"plastic-bar", 100},
-        {"advanced-circuit", 15},
-        {"nexelit-plate", 60},
-        {"engine-unit", 15},
+        {type = "item", name = "cadaveric-arum-mk01", amount = 1},
+        {type = "item", name = "plastic-bar", amount = 100},
+        {type = "item", name = "advanced-circuit", amount = 15},
+        {type = "item", name = "nexelit-plate", amount = 60},
+        {type = "item", name = "engine-unit", amount = 15},
     },
     results = {
-        {"cadaveric-arum-mk02", 1}
+        {type = "item", name = "cadaveric-arum-mk02", amount = 1}
     }
 }
 

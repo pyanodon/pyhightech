@@ -13,15 +13,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"cadaveric-arum-mk02", 1},
-        {"plastic-bar", 100},
-        {"processing-unit", 25},
-        {"phosphate-glass", 30},
-        {"biopolymer", 15},
-        {"aerogel", 15}
+        {type = "item", name = "cadaveric-arum-mk02", amount = 1},
+        {type = "item", name = "plastic-bar", amount = 100},
+        {type = "item", name = "processing-unit", amount = 25},
+        {type = "item", name = "phosphate-glass", amount = 30},
+        {type = "item", name = "biopolymer", amount = 15},
+        {type = "item", name = "aerogel", amount = 15}
     },
     results = {
-        {"cadaveric-arum-mk03", 1}
+        {type = "item", name = "cadaveric-arum-mk03", amount = 1}
     }
 }
 

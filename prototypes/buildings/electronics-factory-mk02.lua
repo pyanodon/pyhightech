@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"electronics-factory-mk01", 1},
-        {"advanced-circuit", 10},
-        {"plastic-bar", 40},
-        {"niobium-plate", 20},
-        {"engine-unit", 10},
-        {"steel-plate", 40}
+        {type = "item", name = "electronics-factory-mk01", amount = 1},
+        {type = "item", name = "advanced-circuit", amount = 10},
+        {type = "item", name = "plastic-bar", amount = 40},
+        {type = "item", name = "niobium-plate", amount = 20},
+        {type = "item", name = "engine-unit", amount = 10},
+        {type = "item", name = "steel-plate", amount = 40}
     },
     results = {
-        {"electronics-factory-mk02", 1}
+        {type = "item", name = "electronics-factory-mk02", amount = 1}
     }
 }:add_unlock("electronics-machines-1")
 

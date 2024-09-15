@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"particle-accelerator-mk02", 1},
-        {"intelligent-unit", 20},
-        {"hyperelastic-material", 25},
-        {"superconductor-servomechanims", 20},
-        {"heavy-fermion", 50},
-        {"volumetric-capacitor", 20},
+        {type = "item", name = "particle-accelerator-mk02", amount = 1},
+        {type = "item", name = "intelligent-unit", amount = 20},
+        {type = "item", name = "hyperelastic-material", amount = 25},
+        {type = "item", name = "superconductor-servomechanims", amount = 20},
+        {type = "item", name = "heavy-fermion", amount = 50},
+        {type = "item", name = "volumetric-capacitor", amount = 20},
     },
     results = {
-        {"particle-accelerator-mk03", 1}
+        {type = "item", name = "particle-accelerator-mk03", amount = 1}
     }
 }:add_unlock("electronics-machines-3")
 

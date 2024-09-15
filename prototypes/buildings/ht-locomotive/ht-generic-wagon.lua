@@ -6,15 +6,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"steel-plate", 50},
-        {"plastic-bar", 50},
-        {"nbfe-alloy", 20},
-        {"nexelit-plate", 30},
-        {"iron-gear-wheel", 100},
-        {"nichrome", 15},
+        {type = "item", name = "steel-plate", amount = 50},
+        {type = "item", name = "plastic-bar", amount = 50},
+        {type = "item", name = "nbfe-alloy", amount = 20},
+        {type = "item", name = "nexelit-plate", amount = 30},
+        {type = "item", name = "iron-gear-wheel", amount = 100},
+        {type = "item", name = "nichrome", amount = 15},
     },
     results = {
-        {"ht-generic-wagon", 1}
+        {type = "item", name = "ht-generic-wagon", amount = 1}
     }
 }:add_unlock("railway-mk03")
 
