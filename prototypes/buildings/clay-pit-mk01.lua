@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"burner-mining-drill", 2},
-        {"pipe", 10},
-        {"iron-plate", 40},
-        {"steam-engine", 2},
-        {"stone-brick", 20}
+        {type = "item", name = "burner-mining-drill", amount = 2},
+        {type = "item", name = "pipe", amount = 10},
+        {type = "item", name = "iron-plate", amount = 40},
+        {type = "item", name = "steam-engine", amount = 2},
+        {type = "item", name = "stone-brick", amount = 20}
     },
     results = {
-        {"clay-pit-mk01", 1}
+        {type = "item", name = "clay-pit-mk01", amount = 1}
     }
 }:add_unlock('ceramic')
 

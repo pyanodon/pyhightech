@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"clay-pit-mk02", 1},
-        {"low-density-structure", 10},
-        {"processing-unit", 15},
-        {"concrete", 40},
-        {"electric-engine-unit", 10},
-        {"graphene-roll", 30},
+        {type = "item", name = "clay-pit-mk02", amount = 1},
+        {type = "item", name = "low-density-structure", amount = 10},
+        {type = "item", name = "processing-unit", amount = 15},
+        {type = "item", name = "concrete", amount = 40},
+        {type = "item", name = "electric-engine-unit", amount = 10},
+        {type = "item", name = "graphene-roll", amount = 30},
     },
     results = {
-        {"clay-pit-mk03", 1}
+        {type = "item", name = "clay-pit-mk03", amount = 1}
     }
 }:add_unlock("electronics-machines-2")
 

@@ -13,16 +13,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"pcb-factory-mk02", 1},
-        {"graphene-roll", 10},
-        {"processing-unit", 30},
-        {"niobium-plate", 50},
-        {"low-density-structure", 15},
-        {"concrete", 50},
-        {"electric-engine-unit", 10},
+        {type = "item", name = "pcb-factory-mk02", amount = 1},
+        {type = "item", name = "graphene-roll", amount = 10},
+        {type = "item", name = "processing-unit", amount = 30},
+        {type = "item", name = "niobium-plate", amount = 50},
+        {type = "item", name = "low-density-structure", amount = 15},
+        {type = "item", name = "concrete", amount = 50},
+        {type = "item", name = "electric-engine-unit", amount = 10},
     },
     results = {
-        {"pcb-factory-mk03", 1}
+        {type = "item", name = "pcb-factory-mk03", amount = 1}
     }
 }:add_unlock("electronics-machines-2")
 

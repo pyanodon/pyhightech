@@ -4,16 +4,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"moondrop-greenhouse-mk02", 1},
-        {"graphene-roll", 15},
-        {"processing-unit", 10},
-        {"plastic-bar", 100},
-        {"niobium-plate", 20},
-        {"biopolymer", 10},
-        {"electric-engine-unit", 15},
+        {type = "item", name = "moondrop-greenhouse-mk02", amount = 1},
+        {type = "item", name = "graphene-roll", amount = 15},
+        {type = "item", name = "processing-unit", amount = 10},
+        {type = "item", name = "plastic-bar", amount = 100},
+        {type = "item", name = "niobium-plate", amount = 20},
+        {type = "item", name = "biopolymer", amount = 10},
+        {type = "item", name = "electric-engine-unit", amount = 15},
     },
     results = {
-        {"moondrop-greenhouse-mk03", 1}
+        {type = "item", name = "moondrop-greenhouse-mk03", amount = 1}
     }
 }
 

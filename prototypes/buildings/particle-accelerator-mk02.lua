@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"particle-accelerator-mk01", 1},
-        {"low-density-structure", 50},
-        {"electric-engine-unit", 50},
-        {"nbfe-alloy", 50},
-        {"processing-unit", 20},
-        {"graphene-roll", 40},
+        {type = "item", name = "particle-accelerator-mk01", amount = 1},
+        {type = "item", name = "low-density-structure", amount = 50},
+        {type = "item", name = "electric-engine-unit", amount = 50},
+        {type = "item", name = "nbfe-alloy", amount = 50},
+        {type = "item", name = "processing-unit", amount = 20},
+        {type = "item", name = "graphene-roll", amount = 40},
     },
     results = {
-        {"particle-accelerator-mk02", 1}
+        {type = "item", name = "particle-accelerator-mk02", amount = 1}
     }
 }:add_unlock("electronics-machines-2")
 

@@ -7,16 +7,16 @@ RECIPE {
   category = "crafting-with-fluid",
   enabled = false,
   ingredients = {
-    {"harmonic-absorber", 2},
-    {"superconductor-servomechanims", 2},
-    {"diamagnetic-material", 1},
-    {"paramagnetic-material", 1},
-    {"intelligent-unit", 1},
-    {"construction-robot", 1},
+    {type = "item", name = "harmonic-absorber", amount = 2},
+    {type = "item", name = "superconductor-servomechanims", amount = 2},
+    {type = "item", name = "diamagnetic-material", amount = 1},
+    {type = "item", name = "paramagnetic-material", amount = 1},
+    {type = "item", name = "intelligent-unit", amount = 1},
+    {type = "item", name = "construction-robot", amount = 1},
     {type = "fluid", name = "grease", amount = 300}
   },
   results = {
-    {"construction-robot-ht", 1}
+    {type = "item", name = "construction-robot-ht", amount = 1}
   }
 }
 

@@ -22,15 +22,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"pulp-mill-mk02", 1},
-        {"graphene-roll", 20},
-        {"processing-unit", 10},
-        {"pipe", 20},
-        {"low-density-structure", 15},
-        {"electric-engine-unit", 10},
+        {type = "item", name = "pulp-mill-mk02", amount = 1},
+        {type = "item", name = "graphene-roll", amount = 20},
+        {type = "item", name = "processing-unit", amount = 10},
+        {type = "item", name = "pipe", amount = 20},
+        {type = "item", name = "low-density-structure", amount = 15},
+        {type = "item", name = "electric-engine-unit", amount = 10},
     },
     results = {
-        {"pulp-mill-mk03", 1}
+        {type = "item", name = "pulp-mill-mk03", amount = 1}
     }
 }:add_unlock("electronics-machines-2")
 

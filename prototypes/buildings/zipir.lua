@@ -13,14 +13,14 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"clay-pit-mk01", 1},
-        {"fbreactor-mk01", 2},
-        {"steel-plate", 100},
-        {"electronic-circuit", 20},
-        {"pipe", 15}
+        {type = "item", name = "clay-pit-mk01", amount = 1},
+        {type = "item", name = "fbreactor-mk01", amount = 2},
+        {type = "item", name = "steel-plate", amount = 100},
+        {type = "item", name = "electronic-circuit", amount = 20},
+        {type = "item", name = "pipe", amount = 15}
     },
     results = {
-        {"zipir", 1}
+        {type = "item", name = "zipir", amount = 1}
     }
 }
 

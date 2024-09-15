@@ -22,14 +22,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"fbreactor-mk01", 1},
-        {"pipe", 10},
-        {"steam-engine", 3},
-        {"stone-brick", 30},
-        {"wood", 30}
+        {type = "item", name = "fbreactor-mk01", amount = 1},
+        {type = "item", name = "pipe", amount = 10},
+        {type = "item", name = "steam-engine", amount = 3},
+        {type = "item", name = "stone-brick", amount = 30},
+        {type = "item", name = "wood", amount = 30}
     },
     results = {
-        {"pulp-mill-mk01", 1}
+        {type = "item", name = "pulp-mill-mk01", amount = 1}
     }
 }:add_unlock('vacuum-tube-electronics')
 

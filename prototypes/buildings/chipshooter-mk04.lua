@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"carbon-aerogel", 20},
-        {"intelligent-unit", 10},
-        {"paramagnetic-material", 20},
-        {"harmonic-absorber", 15},
-        {"superconductor", 5},
-        {"chipshooter-mk03", 1}
+        {type = "item", name = "carbon-aerogel", amount = 20},
+        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "paramagnetic-material", amount = 20},
+        {type = "item", name = "harmonic-absorber", amount = 15},
+        {type = "item", name = "superconductor", amount = 5},
+        {type = "item", name = "chipshooter-mk03", amount = 1}
     },
     results = {
-        {"chipshooter-mk04", 1}
+        {type = "item", name = "chipshooter-mk04", amount = 1}
     }
 }:add_unlock("electronics-machines-3")
 

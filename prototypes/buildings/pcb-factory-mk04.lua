@@ -13,15 +13,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"pcb-factory-mk03", 1},
-        {"biopolymer", 10},
-        {"super-alloy", 5},
-        {"intelligent-unit", 10},
-        {"superconductor-servomechanims", 10},
-        {"hyperelastic-material", 15},
+        {type = "item", name = "pcb-factory-mk03", amount = 1},
+        {type = "item", name = "biopolymer", amount = 10},
+        {type = "item", name = "super-alloy", amount = 5},
+        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "superconductor-servomechanims", amount = 10},
+        {type = "item", name = "hyperelastic-material", amount = 15},
     },
     results = {
-        {"pcb-factory-mk04", 1}
+        {type = "item", name = "pcb-factory-mk04", amount = 1}
     }
 }:add_unlock("electronics-machines-3")
 

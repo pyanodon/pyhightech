@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"distilator", 2},
-        {"iron-plate", 60},
-        {"steam-engine", 2},
-        {"iron-gear-wheel", 100},
-        {"inserter", 2},
-        {"pcb1", 20}
+        {type = "item", name = "distilator", amount = 2},
+        {type = "item", name = "iron-plate", amount = 60},
+        {type = "item", name = "steam-engine", amount = 2},
+        {type = "item", name = "iron-gear-wheel", amount = 100},
+        {type = "item", name = "inserter", amount = 2},
+        {type = "item", name = "pcb1", amount = 20}
     },
     results = {
-        {"chipshooter-mk01", 1}
+        {type = "item", name = "chipshooter-mk01", amount = 1}
     }
 }:add_unlock('vacuum-tube-electronics')
 

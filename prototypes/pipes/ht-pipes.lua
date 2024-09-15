@@ -227,11 +227,11 @@ RECIPE {
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {"copper-plate", 1},
-        {"plastic-bar", 1}
+        {type = "item", name = "copper-plate", amount = 1},
+        {type = "item", name = "plastic-bar", amount = 1}
     },
     results = {
-        {"ht-pipes", 3}
+        {type = "item", name = "ht-pipes", amount = 3}
     }
 }:add_unlock("coal-processing-3"):replace_ingredient("copper-plate", "niobium-plate"):add_ingredient({type = 'item', name = 'titanium-plate', amount = 1})
 

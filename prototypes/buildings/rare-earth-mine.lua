@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {"soil-extractor-mk01", 2},
-        {"distilator", 1},
-        {"steel-plate", 60},
-        {"engine-unit", 10},
-		{"fast-inserter", 4},
-        {"electronic-circuit", 20}
+        {type = "item", name = "soil-extractor-mk01", amount = 2},
+        {type = "item", name = "distilator", amount = 1},
+        {type = "item", name = "steel-plate", amount = 60},
+        {type = "item", name = "engine-unit", amount = 10},
+		{type = "item", name = "fast-inserter", amount = 4},
+        {type = "item", name = "electronic-circuit", amount = 20}
     },
     results = {
-        {"rare-earth-mine", 1}
+        {type = "item", name = "rare-earth-mine", amount = 1}
     }
 }:add_unlock("rare-earth-tech")
 

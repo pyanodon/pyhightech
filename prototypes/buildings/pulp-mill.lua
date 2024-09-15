@@ -22,14 +22,14 @@ RECIPE {
     energy_required = 2,
     enabled = true,
     ingredients = {
-        {"fbreactor", 1},
-        {"pipe", 10},
-        {"electric-mining-drill", 1},
-        {"stone-brick", 30},
-        {"wood", 30}
+        {type = "item", name = "fbreactor", amount = 1},
+        {type = "item", name = "pipe", amount = 10},
+        {type = "item", name = "electric-mining-drill", amount = 1},
+        {type = "item", name = "stone-brick", amount = 30},
+        {type = "item", name = "wood", amount = 30}
     },
     results = {
-        {"pulp-mill", 1}
+        {type = "item", name = "pulp-mill", amount = 1}
     }
 }
 

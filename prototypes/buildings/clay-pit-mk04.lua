@@ -4,16 +4,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"clay-pit-mk03", 1},
-        {"biopolymer", 25},
-        {"super-alloy", 10},
-        {"electric-engine-unit", 5},
-        {"intelligent-unit", 10},
-        {"superconductor-servomechanims", 10},
-        {"hyperelastic-material", 15},
+        {type = "item", name = "clay-pit-mk03", amount = 1},
+        {type = "item", name = "biopolymer", amount = 25},
+        {type = "item", name = "super-alloy", amount = 10},
+        {type = "item", name = "electric-engine-unit", amount = 5},
+        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "superconductor-servomechanims", amount = 10},
+        {type = "item", name = "hyperelastic-material", amount = 15},
     },
     results = {
-        {"clay-pit-mk04", 1}
+        {type = "item", name = "clay-pit-mk04", amount = 1}
     }
 }:add_unlock("electronics-machines-3")
 

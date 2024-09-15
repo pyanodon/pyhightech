@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"fbreactor-mk01", 1},
-        {"evaporator", 1},
-        {"advanced-circuit", 15},
-        {"engine-unit", 4},
-        {"pipe", 10},
-        {"steel-plate", 30},
+        {type = "item", name = "fbreactor-mk01", amount = 1},
+        {type = "item", name = "evaporator", amount = 1},
+        {type = "item", name = "advanced-circuit", amount = 15},
+        {type = "item", name = "engine-unit", amount = 4},
+        {type = "item", name = "pipe", amount = 10},
+        {type = "item", name = "steel-plate", amount = 30},
     },
     results = {
-        {"fbreactor-mk02", 1}
+        {type = "item", name = "fbreactor-mk02", amount = 1}
     }
 }:add_unlock("electronics-machines-1")
 

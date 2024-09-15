@@ -4,17 +4,17 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"gasturbinemk03", 2},
-        {"pipe", 20},
-        {"intelligent-unit", 5},
-        {"niobium-plate", 20},
-        {"refined-concrete", 100},
-        {"supercapacitor", 10},
-        {"superconductor-servomechanims", 5},
-        {"control-unit", 6},
+        {type = "item", name = "gasturbinemk03", amount = 2},
+        {type = "item", name = "pipe", amount = 20},
+        {type = "item", name = "intelligent-unit", amount = 5},
+        {type = "item", name = "niobium-plate", amount = 20},
+        {type = "item", name = "refined-concrete", amount = 100},
+        {type = "item", name = "supercapacitor", amount = 10},
+        {type = "item", name = "superconductor-servomechanims", amount = 5},
+        {type = "item", name = "control-unit", amount = 6},
     },
     results = {
-        {"quantum-computer", 1}
+        {type = "item", name = "quantum-computer", amount = 1}
     }
 }:add_unlock("quantum")
 

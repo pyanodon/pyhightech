@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = true,
     ingredients = {
-        {"boiler", 2},
-        {"pipe", 15},
-        {"steam-engine", 1},
-        {"stone-furnace", 4},
-        {"iron-plate", 40}
+        {type = "item", name = "boiler", amount = 2},
+        {type = "item", name = "pipe", amount = 15},
+        {type = "item", name = "steam-engine", amount = 1},
+        {type = "item", name = "stone-furnace", amount = 4},
+        {type = "item", name = "iron-plate", amount = 40}
     },
     results = {
-        {"fbreactor-mk01", 1}
+        {type = "item", name = "fbreactor-mk01", amount = 1}
     }
 }:add_unlock('vacuum-tube-electronics')
 

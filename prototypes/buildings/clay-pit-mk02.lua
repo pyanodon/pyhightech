@@ -4,16 +4,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {"clay-pit-mk01", 1},
-        {"nexelit-plate", 10},
-        {"plastic-bar", 10},
-        {"advanced-circuit", 10},
-        {"engine-unit", 4},
-        {"stone-brick", 40},
-        {"steel-plate", 50},
+        {type = "item", name = "clay-pit-mk01", amount = 1},
+        {type = "item", name = "nexelit-plate", amount = 10},
+        {type = "item", name = "plastic-bar", amount = 10},
+        {type = "item", name = "advanced-circuit", amount = 10},
+        {type = "item", name = "engine-unit", amount = 4},
+        {type = "item", name = "stone-brick", amount = 40},
+        {type = "item", name = "steel-plate", amount = 50},
     },
     results = {
-        {"clay-pit-mk02", 1}
+        {type = "item", name = "clay-pit-mk02", amount = 1}
     }
 }:add_unlock("electronics-machines-1")
 
