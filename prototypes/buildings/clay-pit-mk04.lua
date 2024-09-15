@@ -104,8 +104,7 @@ ENTITY {
             production_type = "input",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, nil, nil, nil),
             pipe_covers = py.pipe_covers(true, true, false, false),
-            base_area = 1,
-            height = 2,
+            volume = 200,
             base_level = -1,
             pipe_connections = {
                 {position = {-4.0, 0.0}},
