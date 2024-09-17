@@ -58,41 +58,43 @@ ENTITY {
         },
     },
     energy_usage = "6000kW",
-    animation = {
-        layers = {
+    graphics_set = {
+        working_visualisations = {
             {
-                filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/off.png",
-                width = 384,
-                height = 384,
-                frame_count = 1,
-                shift = util.by_pixel(0, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/shadow.png",
-                width = 384,
-                height = 384,
-                frame_count = 1,
-                draw_as_shadow = true,
-                shift = util.by_pixel(15, 0)
+                north_position = util.by_pixel(0, 0),
+                west_position = util.by_pixel(0, 0),
+                south_position = util.by_pixel(0, 0),
+                east_position = util.by_pixel(0, 0),
+                animation = {
+                    filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/on.png",
+                    --priority = "low",
+                    frame_count = 20,
+                    line_length = 5,
+                    width = 384,
+                    height = 384,
+                    animation_speed = 0.4
+                }
             }
-        }
-    },
-    working_visualisations = {
-        {
-            north_position = util.by_pixel(0, 0),
-            west_position = util.by_pixel(0, 0),
-            south_position = util.by_pixel(0, 0),
-            east_position = util.by_pixel(0, 0),
-            animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/on.png",
-                --priority = "low",
-                frame_count = 20,
-                line_length = 5,
-                width = 384,
-                height = 384,
-                animation_speed = 0.4
+        },
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/off.png",
+                    width = 384,
+                    height = 384,
+                    frame_count = 1,
+                    shift = util.by_pixel(0, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/quantum-computer/shadow.png",
+                    width = 384,
+                    height = 384,
+                    frame_count = 1,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(15, 0)
+                }
             }
-        }
+        },
     },
     fluid_boxes = {
         --1

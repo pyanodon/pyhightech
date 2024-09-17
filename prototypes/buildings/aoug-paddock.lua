@@ -53,27 +53,29 @@ ENTITY {
         },
     },
     energy_usage = "50kW",
-    animation = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/auog-paddock/left.png",
-                width = 128,
-                height = 256,
-                line_length = 16,
-                frame_count = 128,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-64, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/auog-paddock/right.png",
-                width = 128,
-                height = 256,
-                line_length = 16,
-                frame_count = 128,
-                animation_speed = 0.3,
-                shift = util.by_pixel(64, 0)
+    graphics_set = {
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/auog-paddock/left.png",
+                    width = 128,
+                    height = 256,
+                    line_length = 16,
+                    frame_count = 128,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-64, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/auog-paddock/right.png",
+                    width = 128,
+                    height = 256,
+                    line_length = 16,
+                    frame_count = 128,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(64, 0)
+                }
             }
-        }
+        },
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
     working_sound = {

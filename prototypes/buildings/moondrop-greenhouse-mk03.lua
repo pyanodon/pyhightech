@@ -57,67 +57,69 @@ ENTITY {
         },
     },
     energy_usage = "550kW",
-    animation = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-left.png",
-                width = 144,
-                height = 288,
-                line_length = 10,
-                frame_count = 60,
-                animation_speed = 0.4,
-                shift = util.by_pixel(-72, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-left-mask.png",
-                width = 144,
-                height = 288,
-                line_length = 10,
-                frame_count = 60,
-                animation_speed = 0.4,
-                shift = util.by_pixel(-72, 0),
-                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-right.png",
-                width = 144,
-                height = 288,
-                line_length = 10,
-                frame_count = 60,
-                animation_speed = 0.4,
-                shift = util.by_pixel(72, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-right-mask.png",
-                width = 144,
-                height = 288,
-                line_length = 10,
-                frame_count = 60,
-                animation_speed = 0.4,
-                shift = util.by_pixel(72, 0),
-                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/s-left.png",
-                width = 160,
-                height = 299,
-                line_length = 10,
-                frame_count = 60,
-                animation_speed = 0.4,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-60, 20)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/s-right.png",
-                width = 160,
-                height = 299,
-                line_length = 10,
-                frame_count = 60,
-                animation_speed = 0.4,
-                draw_as_shadow = true,
-                shift = util.by_pixel(100, 20)
+    graphics_set = {
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-left.png",
+                    width = 144,
+                    height = 288,
+                    line_length = 10,
+                    frame_count = 60,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(-72, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-left-mask.png",
+                    width = 144,
+                    height = 288,
+                    line_length = 10,
+                    frame_count = 60,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(-72, 0),
+                    tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-right.png",
+                    width = 144,
+                    height = 288,
+                    line_length = 10,
+                    frame_count = 60,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(72, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-right-mask.png",
+                    width = 144,
+                    height = 288,
+                    line_length = 10,
+                    frame_count = 60,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(72, 0),
+                    tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/s-left.png",
+                    width = 160,
+                    height = 299,
+                    line_length = 10,
+                    frame_count = 60,
+                    animation_speed = 0.4,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-60, 20)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/s-right.png",
+                    width = 160,
+                    height = 299,
+                    line_length = 10,
+                    frame_count = 60,
+                    animation_speed = 0.4,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(100, 20)
+                }
             }
-        }
+        },
     },
     fluid_boxes = {
         --1

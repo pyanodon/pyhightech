@@ -55,48 +55,50 @@ ENTITY {
         },
     },
     energy_usage = "800kW",
-    animation = {
-        layers = {
+    graphics_set = {
+        working_visualisations = {
             {
-                filename = "__pyhightechgraphics__/graphics/entity/fbreactor/fbreactor.png",
-                width = 160,
-                height = 220,
-                frame_count = 1,
-                shift = util.by_pixel(0, -23)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/fbreactor/fbreactor-mask.png",
-                width = 160,
-                height = 220,
-                frame_count = 1,
-                shift = util.by_pixel(0, -23),
-                tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/fbreactor/shadow.png",
-                width = 182,
-                height = 220,
-                frame_count = 1,
-                draw_as_shadow = true,
-                shift = util.by_pixel(12, -26)
+                north_position = util.by_pixel(16, 11),
+                west_position = util.by_pixel(16, 11),
+                south_position = util.by_pixel(16, 11),
+                east_position = util.by_pixel(16, 11),
+                animation = {
+                    filename = "__pyhightechgraphics__/graphics/entity/fbreactor/anim.png",
+                    frame_count = 40,
+                    line_length = 10,
+                    width = 128,
+                    height = 96,
+                    animation_speed = 0.8
+                }
             }
-        }
-    },
-    working_visualisations = {
-        {
-            north_position = util.by_pixel(16, 11),
-            west_position = util.by_pixel(16, 11),
-            south_position = util.by_pixel(16, 11),
-            east_position = util.by_pixel(16, 11),
-            animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/fbreactor/anim.png",
-                frame_count = 40,
-                line_length = 10,
-                width = 128,
-                height = 96,
-                animation_speed = 0.8
+        },
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/fbreactor/fbreactor.png",
+                    width = 160,
+                    height = 220,
+                    frame_count = 1,
+                    shift = util.by_pixel(0, -23)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/fbreactor/fbreactor-mask.png",
+                    width = 160,
+                    height = 220,
+                    frame_count = 1,
+                    shift = util.by_pixel(0, -23),
+                    tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/fbreactor/shadow.png",
+                    width = 182,
+                    height = 220,
+                    frame_count = 1,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(12, -26)
+                }
             }
-        }
+        },
     },
     fluid_boxes = {
         --1

@@ -67,36 +67,38 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions["rare-earth-extractor"].points,
     circuit_connector_sprites = circuit_connector_definitions["rare-earth-extractor"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-left.png",
-                width = 96,
-                height = 261,
-                line_length = 21,
-                frame_count = 126,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-82, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-mid.png",
-                width = 96,
-                height = 261,
-                line_length = 21,
-                frame_count = 126,
-                animation_speed = 0.2,
-                shift = util.by_pixel(14, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-right.png",
-                priority = "extra-high",
-                width = 80,
-                height = 261,
-                line_length = 21,
-                frame_count = 126,
-                shift = util.by_pixel(100, 0)
-            },
-        }
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-left.png",
+                    width = 96,
+                    height = 261,
+                    line_length = 21,
+                    frame_count = 126,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-82, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-mid.png",
+                    width = 96,
+                    height = 261,
+                    line_length = 21,
+                    frame_count = 126,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(14, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-right.png",
+                    priority = "extra-high",
+                    width = 80,
+                    height = 261,
+                    line_length = 21,
+                    frame_count = 126,
+                    shift = util.by_pixel(100, 0)
+                },
+            }
+        },
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
     working_sound = {

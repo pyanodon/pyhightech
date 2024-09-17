@@ -55,63 +55,65 @@ ENTITY {
         },
     },
     energy_usage = "500kW",
-    animation = {
-        layers = {
+    graphics_set = {
+        working_visualisations = {
             {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/bottom.png",
-                frame_count = 1,
-                width = 160,
-                height = 32,
-                repeat_count = 50,
-                animation_speed = 0.4,
-                shift = util.by_pixel(0, 64),
+                north_position = util.by_pixel(0, -48),
+                west_position = util.by_pixel(0, -48),
+                south_position = util.by_pixel(0, -48),
+                east_position = util.by_pixel(0, -48),
+                animation = {
+                    filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/g.png",
+                    draw_as_glow = true,
+                    frame_count = 50,
+                    line_length = 10,
+                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0},
+                    width = 160,
+                    height = 192,
+                    animation_speed = 0.4,
+                }
             },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory.png",
-                width = 160,
-                height = 192,
-                line_length = 10,
-                frame_count = 50,
-                animation_speed = 0.4,
-                shift = util.by_pixel(0, -48),
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory-mask.png",
-                width = 160,
-                height = 192,
-                line_length = 10,
-                frame_count = 50,
-                animation_speed = 0.4,
-                shift = util.by_pixel(0, -48),
-                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/shadow.png",
-                width = 180,
-                height = 130,
-                frame_count = 1,
-                repeat_count = 50,
-                animation_speed = 0.4,
-                draw_as_shadow = true,
-                shift = util.by_pixel(12, 15)
-            }
-        }
-    },
-    working_visualisations = {
-        {
-            north_position = util.by_pixel(0, -48),
-            west_position = util.by_pixel(0, -48),
-            south_position = util.by_pixel(0, -48),
-            east_position = util.by_pixel(0, -48),
-            animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/g.png",
-                draw_as_glow = true,
-                frame_count = 50,
-                line_length = 10,
-                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0},
-                width = 160,
-                height = 192,
-                animation_speed = 0.4,
+        },
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/bottom.png",
+                    frame_count = 1,
+                    width = 160,
+                    height = 32,
+                    repeat_count = 50,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(0, 64),
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory.png",
+                    width = 160,
+                    height = 192,
+                    line_length = 10,
+                    frame_count = 50,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(0, -48),
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory-mask.png",
+                    width = 160,
+                    height = 192,
+                    line_length = 10,
+                    frame_count = 50,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(0, -48),
+                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/shadow.png",
+                    width = 180,
+                    height = 130,
+                    frame_count = 1,
+                    repeat_count = 50,
+                    animation_speed = 0.4,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(12, 15)
+                }
             }
         },
     },

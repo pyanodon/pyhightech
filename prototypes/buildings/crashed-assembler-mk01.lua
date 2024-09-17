@@ -45,79 +45,81 @@ ENTITY{
         }
     },
 
-    animation = {
-        layers = {
+    graphics_set = {
+        working_visualisations = {
             {
-                filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired.png',
-                priority = 'very-low',
-                width = 142,
-                height = 92,
-                frame_count = 20,
-                line_length = 5,
-                shift = util.by_pixel(-12, 2),
-                animation_speed = 2,
-                hr_version = {
-                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired.png',
+                animation = {
+                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired-light.png',
                     priority = 'very-low',
-                    width = 282,
-                    height = 182,
+                    width = 78,
+                    height = 64,
                     frame_count = 20,
                     line_length = 5,
-                    shift = util.by_pixel(-12, 3),
+                    shift = util.by_pixel(10, -10),
+                    blend_mode = 'additive',
                     animation_speed = 2,
-                    scale = 0.5
+                    hr_version = {
+                        filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-light.png',
+                        priority = 'very-low',
+                        width = 162,
+                        height = 120,
+                        frame_count = 20,
+                        line_length = 5,
+                        shift = util.by_pixel(12, -8),
+                        blend_mode = 'additive',
+                        animation_speed = 2,
+                        scale = 0.5
+                    }
                 }
-            }, {
-                filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired-shadow.png',
-                priority = 'very-low',
-                width = 140,
-                height = 84,
-                frame_count = 20,
-                line_length = 5,
-                draw_as_shadow = true,
-                shift = util.by_pixel(4, 6),
-                animation_speed = 2,
-                hr_version = {
-                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-shadow.png',
+            }
+        },
+        animation = {
+            layers = {
+                {
+                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired.png',
                     priority = 'very-low',
-                    width = 278,
-                    height = 168,
+                    width = 142,
+                    height = 92,
+                    frame_count = 20,
+                    line_length = 5,
+                    shift = util.by_pixel(-12, 2),
+                    animation_speed = 2,
+                    hr_version = {
+                        filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired.png',
+                        priority = 'very-low',
+                        width = 282,
+                        height = 182,
+                        frame_count = 20,
+                        line_length = 5,
+                        shift = util.by_pixel(-12, 3),
+                        animation_speed = 2,
+                        scale = 0.5
+                    }
+                }, {
+                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired-shadow.png',
+                    priority = 'very-low',
+                    width = 140,
+                    height = 84,
                     frame_count = 20,
                     line_length = 5,
                     draw_as_shadow = true,
                     shift = util.by_pixel(4, 6),
                     animation_speed = 2,
-                    scale = 0.5
+                    hr_version = {
+                        filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-shadow.png',
+                        priority = 'very-low',
+                        width = 278,
+                        height = 168,
+                        frame_count = 20,
+                        line_length = 5,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(4, 6),
+                        animation_speed = 2,
+                        scale = 0.5
+                    }
                 }
             }
-        }
-    },
-    working_visualisations = {
-        {
-            animation = {
-                filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired-light.png',
-                priority = 'very-low',
-                width = 78,
-                height = 64,
-                frame_count = 20,
-                line_length = 5,
-                shift = util.by_pixel(10, -10),
-                blend_mode = 'additive',
-                animation_speed = 2,
-                hr_version = {
-                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-light.png',
-                    priority = 'very-low',
-                    width = 162,
-                    height = 120,
-                    frame_count = 20,
-                    line_length = 5,
-                    shift = util.by_pixel(12, -8),
-                    blend_mode = 'additive',
-                    animation_speed = 2,
-                    scale = 0.5
-                }
-            }
-        }
+        },
     },
     crafting_categories = {'crafting', 'basic-crafting', 'advanced-crafting', 'handcrafting'},
     crafting_speed = 0.3,
