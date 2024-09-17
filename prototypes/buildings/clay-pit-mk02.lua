@@ -58,47 +58,49 @@ ENTITY {
         },
     },
     energy_usage = "400kW",
-    animation = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-left.png",
-                width = 112,
-                height = 229,
-                line_length = 10,
-                frame_count = 80,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-56, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-left-mask.png",
-                width = 112,
-                height = 229,
-                line_length = 10,
-                frame_count = 80,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-56, 0),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-right.png",
-                width = 112,
-                height = 229,
-                line_length = 10,
-                frame_count = 80,
-                animation_speed = 0.3,
-                shift = util.by_pixel(56, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-right-mask.png",
-                width = 112,
-                height = 229,
-                line_length = 10,
-                frame_count = 80,
-                animation_speed = 0.3,
-                shift = util.by_pixel(56, 0),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+    graphics_set = {
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-left.png",
+                    width = 112,
+                    height = 229,
+                    line_length = 10,
+                    frame_count = 80,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-56, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-left-mask.png",
+                    width = 112,
+                    height = 229,
+                    line_length = 10,
+                    frame_count = 80,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-56, 0),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-right.png",
+                    width = 112,
+                    height = 229,
+                    line_length = 10,
+                    frame_count = 80,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(56, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-right-mask.png",
+                    width = 112,
+                    height = 229,
+                    line_length = 10,
+                    frame_count = 80,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(56, 0),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                }
             }
-        }
+        },
     },
     fluid_boxes = {
         --1

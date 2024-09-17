@@ -88,47 +88,49 @@ ENTITY {
     circuit_wire_connection_points = circuit_connector_definitions["phosphate-mine"].points,
     circuit_connector_sprites = circuit_connector_definitions["phosphate-mine"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    animations = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/phosphate-left.png",
-                width = 144,
-                height = 288,
-                line_length = 14,
-                frame_count = 70,
-                animation_speed = 0.2,
-                shift = util.by_pixel(-72, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/phosphate-right.png",
-                width = 144,
-                height = 288,
-                line_length = 14,
-                frame_count = 70,
-                animation_speed = 0.2,
-                shift = util.by_pixel(72, 0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/shadow-left.png",
-                priority = "extra-high",
-                width = 160,
-                height = 284,
-                line_length = 12,
-                frame_count = 70,
-                draw_as_shadow = true,
-                shift = util.by_pixel(-70, 6)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/shadow-right.png",
-                priority = "extra-high",
-                width = 142,
-                height = 284,
-                line_length = 12,
-                frame_count = 70,
-                draw_as_shadow = true,
-                shift = util.by_pixel(80, 6)
+    graphics_set = {
+        animations = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/phosphate-left.png",
+                    width = 144,
+                    height = 288,
+                    line_length = 14,
+                    frame_count = 70,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(-72, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/phosphate-right.png",
+                    width = 144,
+                    height = 288,
+                    line_length = 14,
+                    frame_count = 70,
+                    animation_speed = 0.2,
+                    shift = util.by_pixel(72, 0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/shadow-left.png",
+                    priority = "extra-high",
+                    width = 160,
+                    height = 284,
+                    line_length = 12,
+                    frame_count = 70,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(-70, 6)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/shadow-right.png",
+                    priority = "extra-high",
+                    width = 142,
+                    height = 284,
+                    line_length = 12,
+                    frame_count = 70,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(80, 6)
+                }
             }
-        }
+        },
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
     working_sound = {

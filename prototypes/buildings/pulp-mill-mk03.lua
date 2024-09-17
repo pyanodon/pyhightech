@@ -74,38 +74,40 @@ ENTITY {
         },
     },
     energy_usage = "550kW",
-    animation = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/pulp-mill.png",
-                width = 160,
-                height = 248,
-                line_length = 12,
-                frame_count = 61,
-                animation_speed = 0.4,
-                shift = util.by_pixel(0, -36)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/pulp-mill-mask.png",
-                width = 160,
-                height = 248,
-                line_length = 12,
-                frame_count = 61,
-                animation_speed = 0.4,
-                shift = util.by_pixel(0, -36),
-                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/shadow.png",
-                width = 173,
-                height = 168,
-                line_length = 11,
-                frame_count = 61,
-                animation_speed = 0.4,
-                draw_as_shadow = true,
-                shift = util.by_pixel(12, 8)
+    graphics_set = {
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/pulp-mill.png",
+                    width = 160,
+                    height = 248,
+                    line_length = 12,
+                    frame_count = 61,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(0, -36)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/pulp-mill-mask.png",
+                    width = 160,
+                    height = 248,
+                    line_length = 12,
+                    frame_count = 61,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(0, -36),
+                    tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pulp-mill/shadow.png",
+                    width = 173,
+                    height = 168,
+                    line_length = 11,
+                    frame_count = 61,
+                    animation_speed = 0.4,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(12, 8)
+                }
             }
-        }
+        },
     },
     fluid_boxes = {
         --1

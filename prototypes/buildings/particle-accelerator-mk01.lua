@@ -57,98 +57,100 @@ ENTITY {
         },
     },
     energy_usage = "1000MW",
-    animation = {
-        layers = {
+    graphics_set = {
+        working_visualisations = {
             {
-                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/off.png",
-                width = 384,
-                height = 415,
-                frame_count = 1,
-                shift = util.by_pixel(-1, -16)
+                north_position = util.by_pixel(0, 0),
+                west_position = util.by_pixel(0, 0),
+                south_position = util.by_pixel(0, 0),
+                east_position = util.by_pixel(0, 0),
+                animation = {
+                    filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/left.png",
+                    --priority = "low",
+                    frame_count = 30,
+                    line_length = 10,
+                    width = 160,
+                    height = 352,
+                    animation_speed = 0.5,
+                    shift = util.by_pixel(-81, -16)
+                }
             },
             {
-                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/off-mask.png",
-                width = 384,
-                height = 415,
-                frame_count = 1,
-                shift = util.by_pixel(-1, -16),
-                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                north_position = util.by_pixel(0, 0),
+                west_position = util.by_pixel(0, 0),
+                south_position = util.by_pixel(0, 0),
+                east_position = util.by_pixel(0, 0),
+                animation = {
+                    filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/left-mask.png",
+                    --priority = "low",
+                    frame_count = 30,
+                    line_length = 10,
+                    width = 160,
+                    height = 352,
+                    animation_speed = 0.5,
+                    shift = util.by_pixel(-81, -16),
+                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                }
             },
             {
-                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/shadow.png",
-                width = 426,
-                height = 366,
-                frame_count = 1,
-                draw_as_shadow = true,
-                shift = util.by_pixel(17, 16)
-            }
-        }
-    },
-    working_visualisations = {
-        {
-            north_position = util.by_pixel(0, 0),
-            west_position = util.by_pixel(0, 0),
-            south_position = util.by_pixel(0, 0),
-            east_position = util.by_pixel(0, 0),
-            animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/left.png",
-                --priority = "low",
-                frame_count = 30,
-                line_length = 10,
-                width = 160,
-                height = 352,
-                animation_speed = 0.5,
-                shift = util.by_pixel(-81, -16)
-            }
+                north_position = util.by_pixel(0, 0),
+                west_position = util.by_pixel(0, 0),
+                south_position = util.by_pixel(0, 0),
+                east_position = util.by_pixel(0, 0),
+                animation = {
+                    filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/right.png",
+                    --priority = "low",
+                    frame_count = 30,
+                    line_length = 10,
+                    width = 160,
+                    height = 352,
+                    animation_speed = 0.5,
+                    shift = util.by_pixel(79, -16)
+                }
+            },
+            {
+                north_position = util.by_pixel(0, 0),
+                west_position = util.by_pixel(0, 0),
+                south_position = util.by_pixel(0, 0),
+                east_position = util.by_pixel(0, 0),
+                animation = {
+                    filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/right-mask.png",
+                    --priority = "low",
+                    frame_count = 30,
+                    line_length = 10,
+                    width = 160,
+                    height = 352,
+                    animation_speed = 0.5,
+                    shift = util.by_pixel(79, -16),
+                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                }
+            },
         },
-        {
-            north_position = util.by_pixel(0, 0),
-            west_position = util.by_pixel(0, 0),
-            south_position = util.by_pixel(0, 0),
-            east_position = util.by_pixel(0, 0),
-            animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/left-mask.png",
-                --priority = "low",
-                frame_count = 30,
-                line_length = 10,
-                width = 160,
-                height = 352,
-                animation_speed = 0.5,
-                shift = util.by_pixel(-81, -16),
-                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
-            }
-        },
-        {
-            north_position = util.by_pixel(0, 0),
-            west_position = util.by_pixel(0, 0),
-            south_position = util.by_pixel(0, 0),
-            east_position = util.by_pixel(0, 0),
-            animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/right.png",
-                --priority = "low",
-                frame_count = 30,
-                line_length = 10,
-                width = 160,
-                height = 352,
-                animation_speed = 0.5,
-                shift = util.by_pixel(79, -16)
-            }
-        },
-        {
-            north_position = util.by_pixel(0, 0),
-            west_position = util.by_pixel(0, 0),
-            south_position = util.by_pixel(0, 0),
-            east_position = util.by_pixel(0, 0),
-            animation = {
-                filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/right-mask.png",
-                --priority = "low",
-                frame_count = 30,
-                line_length = 10,
-                width = 160,
-                height = 352,
-                animation_speed = 0.5,
-                shift = util.by_pixel(79, -16),
-                tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/off.png",
+                    width = 384,
+                    height = 415,
+                    frame_count = 1,
+                    shift = util.by_pixel(-1, -16)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/off-mask.png",
+                    width = 384,
+                    height = 415,
+                    frame_count = 1,
+                    shift = util.by_pixel(-1, -16),
+                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/shadow.png",
+                    width = 426,
+                    height = 366,
+                    frame_count = 1,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(17, 16)
+                }
             }
         },
     },

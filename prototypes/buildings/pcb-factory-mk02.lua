@@ -66,154 +66,156 @@ ENTITY {
         },
     },
     energy_usage = "400kW",
-    animation = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/1.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-96, -5)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/1-mask.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-96, -5),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/2.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-64, -5)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/2-mask.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-64, -5),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/3.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-32, -5)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/3-mask.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(-32, -5),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/4.png",
-                width = 32,
-                height = 256,
-                priority = "low",
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(0, -5)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/4-mask.png",
-                width = 32,
-                height = 256,
-                priority = "low",
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(0, -5),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/5.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(32, -5)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/5-mask.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(32, -5),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/6.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(64, -5)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/6-mask.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(64, -5),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/7.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(96, -5)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/7-mask.png",
-                width = 32,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                shift = util.by_pixel(96, -5),
-                tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/8.png",
-                width = 16,
-                height = 256,
-                line_length = 64,
-                frame_count = 255,
-                animation_speed = 0.3,
-                draw_as_shadow = true,
-                shift = util.by_pixel(112, -5)
+    graphics_set = {
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/1.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-96, -5)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/1-mask.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-96, -5),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/2.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-64, -5)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/2-mask.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-64, -5),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/3.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-32, -5)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/3-mask.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(-32, -5),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/4.png",
+                    width = 32,
+                    height = 256,
+                    priority = "low",
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(0, -5)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/4-mask.png",
+                    width = 32,
+                    height = 256,
+                    priority = "low",
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(0, -5),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/5.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(32, -5)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/5-mask.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(32, -5),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/6.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(64, -5)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/6-mask.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(64, -5),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/7.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(96, -5)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/7-mask.png",
+                    width = 32,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    shift = util.by_pixel(96, -5),
+                    tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/8.png",
+                    width = 16,
+                    height = 256,
+                    line_length = 64,
+                    frame_count = 255,
+                    animation_speed = 0.3,
+                    draw_as_shadow = true,
+                    shift = util.by_pixel(112, -5)
+                }
             }
-        }
+        },
     },
     fluid_boxes = {
         --1

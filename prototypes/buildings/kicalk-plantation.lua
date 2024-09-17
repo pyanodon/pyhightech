@@ -63,30 +63,32 @@ ENTITY {
         },
     },
     energy_usage = "450kW",
-    animation = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/kicalk-plantation.png",
-				priority = "extra-high",
-                width = 229,
-                height = 235,
-                line_length = 8,
-                frame_count = 50,
-                animation_speed = 0.4,
-                shift = util.by_pixel(0, -5),
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/shadow.png",
-				priority = "extra-high",
-                width = 253,
-                height = 242,
-                line_length = 8,
-                frame_count = 50,
-                animation_speed = 0.4,
-                shift = util.by_pixel(18, -1),
-                draw_as_shadow = true,
+    graphics_set = {
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/kicalk-plantation.png",
+    				priority = "extra-high",
+                    width = 229,
+                    height = 235,
+                    line_length = 8,
+                    frame_count = 50,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(0, -5),
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/shadow.png",
+    				priority = "extra-high",
+                    width = 253,
+                    height = 242,
+                    line_length = 8,
+                    frame_count = 50,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(18, -1),
+                    draw_as_shadow = true,
+                }
             }
-        }
+        },
     },
     fluid_boxes = {
         --1

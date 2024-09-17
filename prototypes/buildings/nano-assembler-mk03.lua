@@ -57,28 +57,30 @@ ENTITY {
         },
     },
     energy_usage = "850kW",
-    animation = {
-        layers = {
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler.png",
-                width = 236,
-                height = 224,
-                line_length = 6,
-                frame_count = 30,
-                animation_speed = 0.4,
-                shift = util.by_pixel(5,0)
-            },
-            {
-                filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler-mask.png",
-                width = 236,
-                height = 224,
-                line_length = 6,
-                frame_count = 30,
-                animation_speed = 0.4,
-                shift = util.by_pixel(5,0),
-                tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
-            },
-        }
+    graphics_set = {
+        animation = {
+            layers = {
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler.png",
+                    width = 236,
+                    height = 224,
+                    line_length = 6,
+                    frame_count = 30,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(5,0)
+                },
+                {
+                    filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler-mask.png",
+                    width = 236,
+                    height = 224,
+                    line_length = 6,
+                    frame_count = 30,
+                    animation_speed = 0.4,
+                    shift = util.by_pixel(5,0),
+                    tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
+                },
+            }
+        },
     },
     fluid_boxes = {
         --1
