@@ -26,97 +26,46 @@ ENTITY{
     alert_icon_shift = util.by_pixel(-3, -12),
     integration_patch_render_layer = 'decals',
     integration_patch = {
-        filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-ground.png',
+        filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-ground.png',
         priority = 'very-low',
-        width = 208,
-        height = 116,
-        shift = util.by_pixel(-24, 12),
+        width = 446,
+        height = 234,
+        shift = util.by_pixel(-31, 12),
         frame_count = 1,
         line_length = 1,
-        hr_version = {
-            filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-ground.png',
-            priority = 'very-low',
-            width = 446,
-            height = 234,
-            shift = util.by_pixel(-31, 12),
-            frame_count = 1,
-            line_length = 1,
-            scale = 0.5
-        }
+        scale = 0.5
     },
 
     graphics_set = {
         working_visualisations = {
             {
                 animation = {
-                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired-light.png',
+                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-light.png',
                     priority = 'very-low',
-                    width = 78,
-                    height = 64,
+                    width = 162,
+                    height = 120,
                     frame_count = 20,
                     line_length = 5,
-                    shift = util.by_pixel(10, -10),
+                    shift = util.by_pixel(12, -8),
                     blend_mode = 'additive',
                     animation_speed = 2,
-                    hr_version = {
-                        filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-light.png',
-                        priority = 'very-low',
-                        width = 162,
-                        height = 120,
-                        frame_count = 20,
-                        line_length = 5,
-                        shift = util.by_pixel(12, -8),
-                        blend_mode = 'additive',
-                        animation_speed = 2,
-                        scale = 0.5
-                    }
+                    scale = 0.5
                 }
             }
         },
         animation = {
             layers = {
                 {
-                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired.png',
+                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-shadow.png',
                     priority = 'very-low',
-                    width = 142,
-                    height = 92,
-                    frame_count = 20,
-                    line_length = 5,
-                    shift = util.by_pixel(-12, 2),
-                    animation_speed = 2,
-                    hr_version = {
-                        filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired.png',
-                        priority = 'very-low',
-                        width = 282,
-                        height = 182,
-                        frame_count = 20,
-                        line_length = 5,
-                        shift = util.by_pixel(-12, 3),
-                        animation_speed = 2,
-                        scale = 0.5
-                    }
-                }, {
-                    filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired-shadow.png',
-                    priority = 'very-low',
-                    width = 140,
-                    height = 84,
+                    width = 278,
+                    height = 168,
                     frame_count = 20,
                     line_length = 5,
                     draw_as_shadow = true,
                     shift = util.by_pixel(4, 6),
                     animation_speed = 2,
-                    hr_version = {
-                        filename = '__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-shadow.png',
-                        priority = 'very-low',
-                        width = 278,
-                        height = 168,
-                        frame_count = 20,
-                        line_length = 5,
-                        draw_as_shadow = true,
-                        shift = util.by_pixel(4, 6),
-                        animation_speed = 2,
-                        scale = 0.5
-                    }
+                    scale = 0.5
                 }
             }
         },
