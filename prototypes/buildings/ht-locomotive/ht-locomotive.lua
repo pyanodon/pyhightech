@@ -98,7 +98,7 @@ ENTITY {
     },
     burner =
     {
-      fuel_category = "nexelit",
+      fuel_categories = {"nexelit"},
       effectivity = 1,
       fuel_inventory_size = 1,
       burnt_inventory_size = 1,
