@@ -30,7 +30,7 @@ TECHNOLOGY('logistics-2'):remove_prereq('advanced-circuit'):remove_prereq('niobi
 TECHNOLOGY('explosives'):remove_prereq('mukmoux')
 TECHNOLOGY('robotics'):remove_prereq('electric-engine')
 TECHNOLOGY('mining-productivity-1'):remove_prereq('advanced-circuit')
-TECHNOLOGY('stack-inserter'):remove_prereq('advanced-circuit')
+TECHNOLOGY('bulk-inserter'):remove_prereq('advanced-circuit')
 TECHNOLOGY('modular-armor'):remove_prereq('advanced-circuit')
 TECHNOLOGY('power-armor'):remove_prereq('electric-engine')
 TECHNOLOGY('exoskeleton-equipment'):remove_prereq('electric-engine')
