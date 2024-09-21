@@ -43,9 +43,7 @@ ENTITY {
     collision_box = {{-4.2, -4.2}, {4.2, 4.2}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     match_animation_speed_to_activity = false,
-    module_specification = {
-        module_slots = 3
-    },
+    module_slots = 3,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"moon"},
     crafting_speed = 3,
