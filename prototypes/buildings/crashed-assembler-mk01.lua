@@ -6,7 +6,8 @@ ENTITY{
     icon = '__pyhightechgraphics__/graphics/icons/crash-site-assembling-machine-1-repaired.png',
     icon_size = 64,
 
-    flags = {'not-deconstructable', 'hidden', 'not-rotatable'},
+    flags = {'not-deconstructable', 'not-rotatable'},
+    hidden = true,
     map_color = {r = 0, g = 0.365, b = 0.58, a = 1},
     max_health = 300,
     corpse = 'big-remnants',
@@ -14,13 +15,11 @@ ENTITY{
     resistances = {{type = 'fire', percent = 70}},
     collision_box = {{ -1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1}, {1.5, 1}},
-    minable =
-    {
+    minable = {
         mining_time = 0.5,
-        results =
-        {
-            {name = 'electronic-circuit', amount = 100},
-            {name = 'iron-plate', amount = 50}
+        results = {
+            {type = "item", name = 'electronic-circuit', amount = 100},
+            {type = "item", name = 'iron-plate', amount = 50}
         }
     },
     alert_icon_shift = util.by_pixel(-3, -12),
@@ -90,7 +89,7 @@ ENTITY{
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "output", position = {-1, 2}, direction = defines.direction.south}}
+            pipe_connections = {{flow_direction = "output", position = {-1, 1.2}, direction = defines.direction.south}}
         },
       off_when_no_fluid_recipe = true
     },
