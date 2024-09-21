@@ -28,7 +28,7 @@ data:extend{{
         -- mining_particle = "phosphate-rock-particle",
         mining_time = 2,
         results = {
-            {"phosphate-rock", 1}
+            {type = "item", name = "phosphate-rock", amount = 1}
         },
         fluid_amount = 50,
         required_fluid = "syngas"
