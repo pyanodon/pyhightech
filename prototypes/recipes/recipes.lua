@@ -833,7 +833,7 @@ RECIPE {
         {type = 'item', name = 'advanced-circuit', amount = 5}
     },
     main_product = 'advanced-circuit'
-}:remove_unlock('advanced-electronics'):add_unlock('basic-electronics')
+}:remove_unlock('advanced-circuit'):add_unlock('basic-electronics')
 
 RECIPE {
     type = 'recipe',
@@ -1084,7 +1084,7 @@ RECIPE {
         {type = 'item', name = 'resistor3', amount = 3}
     },
     main_product = 'resistor3'
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
@@ -1170,7 +1170,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'high-flux-core', amount = 1}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
@@ -1186,7 +1186,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'inductor3', amount = 3}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
@@ -1221,7 +1221,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'diode-core', amount = 3}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
@@ -1237,7 +1237,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'diode3', amount = 1}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
@@ -1253,7 +1253,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor-core', amount = 2}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
@@ -1269,7 +1269,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor-termination', amount = 2}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
@@ -1285,7 +1285,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'capacitor3', amount = 2}
     }
-}:add_unlock('advanced-electronics')
+}:add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
@@ -1307,7 +1307,7 @@ RECIPE {
     results = {
         {type = 'item', name = 'processing-unit', amount = 5}
     }
-}:remove_unlock('advanced-electronics-2'):add_unlock('advanced-electronics')
+}:remove_unlock('processing-unit'):add_unlock('advanced-circuit')
 
 RECIPE {
     type = 'recipe',
