@@ -28,7 +28,7 @@ data:extend{{
         -- mining_particle = "rare-earth-bolide-particle",
         mining_time = 2,
         results = {
-            {"rare-earth-ore", 1}
+            {type = "item", name = "rare-earth-ore", amount = 1}
         }
     },
     collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
