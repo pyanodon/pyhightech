@@ -104,86 +104,63 @@ ENTITY {
     color = {r = 0.333, g = 0.768, b = 0.913},
     pictures =
     {
-      layers =
+      rotated = 
       {
+        layers =
         {
-          dice = 4,
-          priority = "very-low",
-          width = 240,
-          height = 224,
-          back_equals_front = true,
-          direction_count = 128,
-          allow_low_quality_rotation = true,
-          filenames =
           {
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-1.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-2.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-3.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-4.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-5.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-6.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-7.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-8.png",
-          },
-          line_length = 4,
-          lines_per_file = 4,
-          shift = util.by_pixel(0, -5),
-          hr_version =
-          {
-            priority = "very-low",
             dice = 4,
-            width = 480,
-            height = 448,
+            priority = "very-low",
+            width = 240,
+            height = 224,
             back_equals_front = true,
             direction_count = 128,
             allow_low_quality_rotation = true,
             filenames =
             {
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-1.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-2.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-3.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-4.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-5.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-6.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-7.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-8.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-1.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-2.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-3.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-4.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-5.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-6.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-7.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/generic-wagon-8.png",
             },
             line_length = 4,
             lines_per_file = 4,
             shift = util.by_pixel(0, -5),
-            scale = 0.52
-            }
-        },
-        {
-          dice = 4,
-          priority = "very-low",
-          width = 240,
-          height = 224,
-          back_equals_front = true,
-          direction_count = 128,
-          draw_as_glow = true,
-          blend_mode = "additive",
-          allow_low_quality_rotation = true,
-          filenames =
-          {
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-1.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-2.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-3.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-4.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-5.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-6.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-7.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-8.png",
+            hr_version =
+            {
+              priority = "very-low",
+              dice = 4,
+              width = 480,
+              height = 448,
+              back_equals_front = true,
+              direction_count = 128,
+              allow_low_quality_rotation = true,
+              filenames =
+              {
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-1.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-2.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-3.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-4.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-5.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-6.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-7.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/hr-generic-wagon-8.png",
+              },
+              line_length = 4,
+              lines_per_file = 4,
+              shift = util.by_pixel(0, -5),
+              scale = 0.52
+              }
           },
-          line_length = 4,
-          lines_per_file = 4,
-          shift = util.by_pixel(0, -5),
-          hr_version =
           {
-            priority = "very-low",
             dice = 4,
-            width = 480,
-            height = 448,
+            priority = "very-low",
+            width = 240,
+            height = 224,
             back_equals_front = true,
             direction_count = 128,
             draw_as_glow = true,
@@ -191,45 +168,71 @@ ENTITY {
             allow_low_quality_rotation = true,
             filenames =
             {
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-1.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-2.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-3.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-4.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-5.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-6.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-7.png",
-                "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-8.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-1.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-2.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-3.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-4.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-5.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-6.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-7.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/generic-wagon-8.png",
             },
             line_length = 4,
             lines_per_file = 4,
             shift = util.by_pixel(0, -5),
-            scale = 0.52
-            }
-        },
-        {
-          priority = "very-low",
-          dice = 4,
-          flags = { "shadow" },
-          width = 240,
-          height = 224,
-          back_equals_front = true,
-          direction_count = 128,
-          draw_as_shadow = true,
-          allow_low_quality_rotation = true,
-          filenames =
-          {
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-1.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-2.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-3.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-4.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-5.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-6.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-7.png",
-            "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-8.png",
+            hr_version =
+            {
+              priority = "very-low",
+              dice = 4,
+              width = 480,
+              height = 448,
+              back_equals_front = true,
+              direction_count = 128,
+              draw_as_glow = true,
+              blend_mode = "additive",
+              allow_low_quality_rotation = true,
+              filenames =
+              {
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-1.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-2.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-3.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-4.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-5.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-6.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-7.png",
+                  "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/light/hr-generic-wagon-8.png",
+              },
+              line_length = 4,
+              lines_per_file = 4,
+              shift = util.by_pixel(0, -5),
+              scale = 0.52
+              }
           },
-          line_length = 4,
-          lines_per_file = 4,
-          shift = util.by_pixel(48, 12),
+          {
+            priority = "very-low",
+            dice = 4,
+            flags = { "shadow" },
+            width = 240,
+            height = 224,
+            back_equals_front = true,
+            direction_count = 128,
+            draw_as_shadow = true,
+            allow_low_quality_rotation = true,
+            filenames =
+            {
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-1.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-2.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-3.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-4.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-5.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-6.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-7.png",
+              "__pyhightechgraphics__/graphics/entity/ht-generic-wagon/sh-generic-wagon-8.png",
+            },
+            line_length = 4,
+            lines_per_file = 4,
+            shift = util.by_pixel(48, 12),
+          }
         }
       }
     },
