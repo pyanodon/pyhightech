@@ -1,5 +1,7 @@
 local noise = require 'noise'
 
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["phosphate-rock"] = {}
+
 data:extend{{
     type = "autoplace-control",
     category = "resource",
@@ -8,10 +10,41 @@ data:extend{{
     order = "r-pho"
 }}
 
-data:extend{{
-    type = "noise-layer",
-    name = "phosphate-rock"
-}}
+-- data:extend{{
+--     type = "noise-layer",
+--     name = "phosphate-rock"
+-- }}
+
+data:extend{
+    {
+        type = "noise-expression",
+        name = "py_phosphate_rock_starting_area",
+        -- 0% chance of spawning in starting area (tier == 0)
+        -- Using this is equivalent to has_starting_area_placement = false
+        expression = "clamp(var('tier_from_start'), 0, 1)"
+    },
+    {
+        type = "noise-expression",
+        name = "py_phosphate_rock_desired_frequency",
+        -- 1 in 48 chunks (each chunk is 64x64 tiles)
+        expression = "1 / (64 * 64^2)"
+    },
+    {
+        -- We return the chance of spawning on any given tile here
+        type = "noise-expression",
+        name = "py_phosphate_rock",
+        -- Our final chance, likely a very, very small decimal
+        expression = [[
+            py_phosphate_rock_starting_area * py_phosphate_rock_desired_frequency * var("control-setting:phosphate-rock:frequency:multiplier")
+        ]]
+    },
+    {
+        -- We return the richness here, which is just the quantity the resource tile yields
+        type = "noise-expression",
+        name = "py_phosphate_rock_richness",
+        expression = "2^16 * var('distance') * var('control-setting:phosphate-rock:richness:multiplier')"
+    }
+}
 
 data:extend{{
     type = "resource",
@@ -42,29 +75,9 @@ data:extend{{
         order = "b-phosphate-rock",
         control = "phosphate-rock",
         -- We return the chance of spawning on any given tile here
-        probability_expression = noise.define_noise_function( function(x, y, tile, map)
-            -- This is the user's map setting for the frequency of this ore
-            local frequency_multiplier = noise.var("control-setting:phosphate-rock:frequency:multiplier")
-            -- 0% chance of spawning in starting area (tier == 0)
-            -- Using this is equivalent to has_starting_area_placement = false
-            local tier = noise.clamp(noise.var("tier"), 0, 1)
-            -- 1 in 64 chunks (each chunk is 64x64 tiles)
-            local desired_frequency = 1 / (64 * 64^2)
-            -- Our final chance, likely a very, very small decimal
-            return tier * desired_frequency * frequency_multiplier
-          end),
+        probability_expression = "py_phosphate_rock",
         -- We return the richness here, which is just the quantity the resource tile yields
-        richness_expression = noise.define_noise_function( function(x, y, tile, map)
-            -- This is the user's map setting for richness of this ore
-            -- We ignore size here because we're always a single tile resource
-            local richness_multiplier = noise.var("control-setting:phosphate-rock:richness:multiplier")
-            -- This is the distance from the starting position, which is how vanilla scales ore yield
-            local distance_value = noise.var("distance")
-            -- This is our multiplier for the above, determining the yield gains over distance
-            local scalar = 2^16
-            -- Add it all together or what is likely a pretty big number
-            return distance_value * scalar * richness_multiplier
-        end)
+        richness_expression = "py_phosphate_rock_richness"
     },
     stage_counts = {0},
     stages = {
