@@ -33,14 +33,14 @@ data:extend{
         name = "py_rare_earth",
         -- Our final chance, likely a very, very small decimal
         expression = [[
-            py_rare_earth_starting_area * py_rare_earth_desired_frequency * var("control-setting:rare-earth:frequency:multiplier")
+            py_rare_earth_starting_area * py_rare_earth_desired_frequency * var("control-setting:rare-earth-bolide:frequency:multiplier")
         ]]
     },
     {
         -- We return the richness here, which is just the quantity the resource tile yields
         type = "noise-expression",
         name = "py_rare_earth_richness",
-        expression = "2^16 * var('distance') * var('control-setting:rare-earth:richness:multiplier')"
+        expression = "2^16 * var('distance') * var('control-setting:rare-earth-bolide:richness:multiplier')"
     }
 }
 
