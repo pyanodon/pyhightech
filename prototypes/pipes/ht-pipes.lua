@@ -301,10 +301,10 @@ ENTITY {
     fluid_box = {
         volume = 100,
         pipe_connections = {
-            {position = {0, -1}},
-            {position = {1, 0}},
-            {position = {0, 1}},
-            {position = {-1, 0}}
+            {position = {0, -0.29}, direction = defines.direction.north},
+            {position = {0.29, 0}, direction = defines.direction.east},
+            {position = {0, 0.29}, direction = defines.direction.south},
+            {position = {-0.29, 0}, direction = defines.direction.west}
         }
     },
     pictures = py_pipepictures(),
@@ -351,11 +351,8 @@ ENTITY {
         volume = 100,
         pipe_covers = py_pipecoverspictures(),
         pipe_connections = {
-            {position = {0, -1}},
-            {
-                position = {0, 1},
-                max_underground_distance = 48
-            }
+            {position = {0, -0.29}, direction = defines.direction.north},
+            {connection_type = "underground", position = {0, 0.2}, direction = defines.direction.south, max_underground_distance = 48}
         }
     },
     underground_sprite = {
@@ -366,28 +363,28 @@ ENTITY {
         scale = 1.0
     },
     pictures = {
-        up = {
+        north = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-to-ground-up.png",
             priority = "high",
             width = 128,
             height = 128,
             scale = 0.5
         },
-        down = {
+        south = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-to-ground-down.png",
             priority = "high",
             width = 128,
             height = 128,
             scale = 0.5
         },
-        left = {
+        west = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-to-ground-left.png",
             priority = "high",
             width = 128,
             height = 128,
             scale = 0.5
         },
-        right = {
+        east = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-to-ground-right.png",
             priority = "high",
             width = 128,

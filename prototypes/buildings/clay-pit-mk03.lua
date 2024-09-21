@@ -106,12 +106,11 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, nil, nil, nil),
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 200,
-            base_level = -1,
             pipe_connections = {
-                {position = {-4.0, 0.0}},
-                {position = {4.0, 0.0}},
-                {position = {0.0, -4.0}},
-                {position = {0.0, 4.0}}
+                {position = {-3.2, 0.0}, direction = defines.direction.west},
+                {position = {3.2, 0.0}, direction = defines.direction.east},
+                {position = {0.0, -3.2}, direction = defines.direction.north},
+                {position = {0.0, 3.2}, direction = defines.direction.south}
             }
         },
         off_when_no_fluid_recipe = false
