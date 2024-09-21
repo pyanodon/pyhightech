@@ -23,7 +23,7 @@ TECHNOLOGY('logistic-system'):remove_pack('utility-science-pack'):remove_pack('p
 TECHNOLOGY('electric-engine'):remove_prereq('chemical-science-pack'):remove_pack('chemical-science-pack')
 TECHNOLOGY("diet-beacon"):remove_prereq('chemical-science-pack')
 TECHNOLOGY('laser'):remove_prereq('advanced-circuit')
-TECHNOLOGY('military-4'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack'):add_prereq('military-3')
+TECHNOLOGY('military-4'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack')
 TECHNOLOGY('personal-roboport-mk2-equipment'):remove_pack('utility-science-pack'):remove_prereq('utility-science-pack')
 TECHNOLOGY('personal-roboport-mk2-equipment'):add_prereq('production-science-pack')
 TECHNOLOGY('logistics-2'):remove_prereq('advanced-circuit'):remove_prereq('niobium')
