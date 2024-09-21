@@ -46,11 +46,10 @@ ENTITY {
         pipe_picture = _G.assembler2pipepictures(),
         pipe_covers = _G.pipecoverspictures(),
         volume = 200,
-        base_level = -1,
         pipe_connections = {
-            {position = {-5, 0}},
-            {position = {5, 0}},
-            {position = {0, 5}}
+            {position = {-4.3, 0}, direction = defines.direction.west},
+            {position = {4.3, 0}, direction = defines.direction.east},
+            {position = {0, 4.3}, direction = defines.direction.south}
         }
     },
     module_slots = 4,
