@@ -2736,12 +2736,12 @@ RECIPE {
         {type = 'item', name = 'superconductor-servomechanims', amount = 2},
         {type = 'item', name = 'hyperelastic-material', amount = 3},
         {type = 'item', name = 'nano-wires', amount = 5},
-        {type = 'item', name = 'fusion-reactor-equipment', amount = 1}
+        {type = 'item', name = 'fission-reactor-equipment', amount = 1}
     },
     results = {
         {type = 'item', name = 'utility-science-pack', amount = 5}
     }
-}:replace_ingredient('fusion-reactor-equipment', 'personal-fusion-cell')
+}:replace_ingredient('fission-reactor-equipment', 'personal-fusion-cell')
 
 RECIPE {
     type = 'recipe',
