@@ -49,7 +49,7 @@ TECHNOLOGY("plastics"):set("icon_mipmaps", nil)
 
 -- RECIPE UNLOCKS
 -- RECIPE("utility-science-pack"):remove_unlock('utility-science-pack')
-RECIPE('centrifuge'):remove_unlock('uranium-processing'):remove_unlock('nuclear-power'):add_unlock('kicalk-2')
+RECIPE('centrifuge'):remove_unlock('uranium-mining'):remove_unlock('nuclear-power'):add_unlock('kicalk-2')
 
 
 -- RECIPE CHANGES
