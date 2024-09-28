@@ -80,23 +80,14 @@ data:extend{{
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyhightechgraphics__/graphics/entity/ores/ancient-remains.png",
+            filename = "__pyhightechgraphics__/graphics/entity/ores/hr-ancient-remains.png",
             priority = "extra-high",
-            width = 288,
-            height = 288,
+            width = 576,
+            height = 576,
             frame_count = 3,
             variation_count = 1,
-            shift = {0.0, -0.0},
-            hr_version = {
-                filename = "__pyhightechgraphics__/graphics/entity/ores/hr-ancient-remains.png",
-                priority = "extra-high",
-                width = 576,
-                height = 576,
-                frame_count = 3,
-                variation_count = 1,
-                shift = util.by_pixel(0, 0),
-                scale = 0.5
-            }
+            shift = util.by_pixel(0, 0),
+            scale = 0.5
         }
     }
 }}
