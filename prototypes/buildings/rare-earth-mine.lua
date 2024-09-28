@@ -66,7 +66,7 @@ ENTITY {
     circuit_connector_sprites = circuit_connector_definitions["rare-earth-extractor"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
     graphics_set = {
-        animations = {
+        animation = {
             layers = {
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/rare-earth-mine/rare-earth-left.png",

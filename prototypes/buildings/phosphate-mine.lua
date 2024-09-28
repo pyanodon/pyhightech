@@ -86,7 +86,7 @@ ENTITY {
     circuit_connector_sprites = circuit_connector_definitions["phosphate-mine"].sprites,
     circuit_wire_max_distance = default_circuit_wire_max_distance,
     graphics_set = {
-        animations = {
+        animation = {
             layers = {
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/phosphate-mine/phosphate-left.png",
