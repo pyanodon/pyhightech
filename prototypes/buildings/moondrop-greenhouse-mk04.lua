@@ -117,6 +117,7 @@ ENTITY {
             }
         },
     },
+    fluid_boxes_off_when_no_fluid_recipe = false,
     fluid_boxes = {
         --1
         {
@@ -149,7 +150,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_connections = {{flow_direction = "output", position = {0.0, -4.2}, direction = defines.direction.north}}
         },
-        off_when_no_fluid_recipe = false
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
     working_sound = {
