@@ -3,7 +3,7 @@ require '__pypostprocessing__.lib'
 require '__core__/lualib/util'
 
 py.on_event(defines.events.on_cutscene_cancelled, function(event)
-    if game.active_mods['pyalienlife'] then return end
+    if script.active_mods['pyalienlife'] then return end
 
     game.surfaces['nauvis'].create_entity{
         name = 'crash-site-assembling-machine-1-repaired',
