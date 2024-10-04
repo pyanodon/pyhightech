@@ -103,7 +103,7 @@ ENTITY {
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
             base_level = -1,
-            pipe_connections = {{flow_direction = "input", position = {2.5, 5.7}, direction = defines.direction.south}}
+            pipe_connections = {{flow_direction = "input", position = {2.5, 5.5}, direction = defines.direction.south}}
         },
         {
             production_type = "input",
@@ -111,7 +111,7 @@ ENTITY {
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
             base_level = -1,
-            pipe_connections = {{flow_direction = "input", position = {-2.5, 5.7}, direction = defines.direction.south}}
+            pipe_connections = {{flow_direction = "input", position = {-2.5, 5.5}, direction = defines.direction.south}}
         },
     },
     vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
