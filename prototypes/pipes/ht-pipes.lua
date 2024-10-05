@@ -1,3 +1,16 @@
+--- @param i integer
+local function make_visualization(i)
+  return
+  {
+    filename = "__base__/graphics/entity/pipe/visualization.png",
+    priority = "extra-high",
+    x = i * 64,
+    size = 64,
+    scale = 0.5,
+    flags = {"icon"},
+  }
+end
+
 local function py_pipepictures()
     return {
         straight_vertical_single = {
@@ -167,7 +180,25 @@ local function py_pipepictures()
             priority = "extra-high",
             width = 32,
             height = 32
-        }
+        },
+        straight_vertical_single_visualization = make_visualization(0),
+        straight_vertical_visualization = make_visualization(5),
+        straight_vertical_window_visualization = make_visualization(5),
+        straight_horizontal_window_visualization = make_visualization(10),
+        straight_horizontal_visualization = make_visualization(10),
+        corner_up_right_visualization = make_visualization(3),
+        corner_up_left_visualization = make_visualization(9),
+        corner_down_right_visualization = make_visualization(6),
+        corner_down_left_visualization = make_visualization(12),
+        t_up_visualization = make_visualization(11),
+        t_down_visualization = make_visualization(14),
+        t_right_visualization = make_visualization(7),
+        t_left_visualization = make_visualization(13),
+        cross_visualization = make_visualization(15),
+        ending_up_visualization = make_visualization(1),
+        ending_down_visualization = make_visualization(4),
+        ending_right_visualization = make_visualization(2),
+        ending_left_visualization = make_visualization(8),
     }
 end
 
@@ -301,11 +332,12 @@ ENTITY {
     fluid_box = {
         volume = 100,
         pipe_connections = {
-            {position = {0, -0.29}, direction = defines.direction.north},
-            {position = {0.29, 0}, direction = defines.direction.east},
-            {position = {0, 0.29}, direction = defines.direction.south},
-            {position = {-0.29, 0}, direction = defines.direction.west}
-        }
+            {position = {0, 0}, direction = defines.direction.north},
+            {position = {0, 0}, direction = defines.direction.east},
+            {position = {0, 0}, direction = defines.direction.south},
+            {position = {0, 0}, direction = defines.direction.west}
+        },
+        hide_connection_info = true
     },
     pictures = py_pipepictures(),
     working_sound = {
@@ -351,9 +383,10 @@ ENTITY {
         volume = 100,
         pipe_covers = py_pipecoverspictures(),
         pipe_connections = {
-            {position = {0, -0.29}, direction = defines.direction.north},
-            {connection_type = "underground", position = {0, 0.2}, direction = defines.direction.south, max_underground_distance = 48}
-        }
+            {position = {0, 0}, direction = defines.direction.north},
+            {connection_type = "underground", position = {0, 0}, direction = defines.direction.south, max_underground_distance = 48}
+        },
+        hide_connection_info = true
     },
     underground_sprite = {
         filename = "__core__/graphics/arrows/underground-lines.png",
@@ -391,5 +424,43 @@ ENTITY {
             height = 128,
             scale = 0.5
         }
-    }
+    },
+    visualization = {
+      north =
+      {
+        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+        priority = "extra-high",
+        x = 64,
+        size = 64,
+        scale = 0.5,
+        flags = {"icon"}
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+        priority = "extra-high",
+        x = 192,
+        size = 64,
+        scale = 0.5,
+        flags = {"icon"}
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+        priority = "extra-high",
+        x = 256,
+        size = 64,
+        scale = 0.5,
+        flags = {"icon"}
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+        priority = "extra-high",
+        x = 128,
+        size = 64,
+        scale = 0.5,
+        flags = {"icon"}
+      },
+    },
 }
