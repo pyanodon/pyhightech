@@ -17,4 +17,11 @@ py.on_event(defines.events.on_cutscene_cancelled, function(event)
     }
 end)
 
+remote.add_interface("pyht", {
+    ---@param func string
+    execute_on_nth_tick = function(func)
+        py.mod_nth_tick_funcs[func]()
+    end
+})
+
 py.finalize_events()
