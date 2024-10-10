@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "methanol", amount = 100},
-		{type = "fluid", name = "sulfuric-acid", amount = 50},
+        {type = "fluid", name = "methanol",      amount = 100},
+        {type = "fluid", name = "sulfuric-acid", amount = 50},
     },
     results = {
         {type = "fluid", name = "chloromethane", amount = 30}
@@ -18,7 +18,7 @@ FLUID {
     type = "fluid",
     name = "chloromethane",
     icon = "__pyhightechgraphics__/graphics/icons/chloromethane.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 15,
     base_flow_rate = 100,
     base_color = {r = 0.321, g = 0.549, b = 0.321},

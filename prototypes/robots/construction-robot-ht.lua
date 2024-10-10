@@ -1,4 +1,4 @@
-local sounds = require '__base__/prototypes/entity/sounds'
+local sounds = require "__base__/prototypes/entity/sounds"
 
 RECIPE {
   type = "recipe",
@@ -7,13 +7,13 @@ RECIPE {
   category = "crafting-with-fluid",
   enabled = false,
   ingredients = {
-    {type = "item", name = "harmonic-absorber", amount = 2},
-    {type = "item", name = "superconductor-servomechanims", amount = 2},
-    {type = "item", name = "diamagnetic-material", amount = 1},
-    {type = "item", name = "paramagnetic-material", amount = 1},
-    {type = "item", name = "intelligent-unit", amount = 1},
-    {type = "item", name = "construction-robot", amount = 1},
-    {type = "fluid", name = "grease", amount = 300}
+    {type = "item",  name = "harmonic-absorber",             amount = 2},
+    {type = "item",  name = "superconductor-servomechanims", amount = 2},
+    {type = "item",  name = "diamagnetic-material",          amount = 1},
+    {type = "item",  name = "paramagnetic-material",         amount = 1},
+    {type = "item",  name = "intelligent-unit",              amount = 1},
+    {type = "item",  name = "construction-robot",            amount = 1},
+    {type = "fluid", name = "grease",                        amount = 300}
   },
   results = {
     {type = "item", name = "construction-robot-ht", amount = 1}
@@ -30,7 +30,7 @@ ITEM {
   order = "d",
   place_result = "construction-robot-ht",
   stack_size = 50
-}:subgroup_order('py-robots', 'h')
+}:subgroup_order("py-robots", "h")
 
 ENTITY {
   type = "construction-robot",

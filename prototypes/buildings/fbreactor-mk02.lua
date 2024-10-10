@@ -4,12 +4,12 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "fbreactor-mk01", amount = 1},
-        {type = "item", name = "evaporator", amount = 1},
+        {type = "item", name = "fbreactor-mk01",   amount = 1},
+        {type = "item", name = "evaporator",       amount = 1},
         {type = "item", name = "advanced-circuit", amount = 15},
-        {type = "item", name = "engine-unit", amount = 4},
-        {type = "item", name = "pipe", amount = 10},
-        {type = "item", name = "steel-plate", amount = 30},
+        {type = "item", name = "engine-unit",      amount = 4},
+        {type = "item", name = "pipe",             amount = 10},
+        {type = "item", name = "steel-plate",      amount = 30},
     },
     results = {
         {type = "item", name = "fbreactor-mk02", amount = 1}
@@ -32,7 +32,7 @@ ENTITY {
     type = "assembling-machine",
     name = "fbreactor-mk02",
     icon = "__pyhightechgraphics__/graphics/icons/fbreactor-mk02.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "fbreactor-mk02"},
     fast_replaceable_group = "fbreactor",

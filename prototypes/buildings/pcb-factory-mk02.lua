@@ -14,11 +14,11 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "pcb-factory-mk01", amount = 1},
-        {type = "item", name = "nexelit-plate", amount = 20},
-        {type = "item", name = "concrete", amount = 60},
-        {type = "item", name = "engine-unit", amount = 7},
-        {type = "item", name = "steel-plate", amount = 40},
-        {type = "item", name = "plastic-bar", amount = 10},
+        {type = "item", name = "nexelit-plate",    amount = 20},
+        {type = "item", name = "concrete",         amount = 60},
+        {type = "item", name = "engine-unit",      amount = 7},
+        {type = "item", name = "steel-plate",      amount = 40},
+        {type = "item", name = "plastic-bar",      amount = 10},
         {type = "item", name = "advanced-circuit", amount = 10}
     },
     results = {
@@ -42,7 +42,7 @@ ENTITY {
     type = "assembling-machine",
     name = "pcb-factory-mk02",
     icon = "__pyhightechgraphics__/graphics/icons/pcb-factory-mk02.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "pcb-factory-mk02"},
     fast_replaceable_group = "pcb-factory",

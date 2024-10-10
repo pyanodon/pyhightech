@@ -2,7 +2,7 @@ FLUID {
     type = "fluid",
     name = "black-liquor",
     icon = "__pyhightechgraphics__/graphics/icons/black-liquor.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.129, g = 0.0, b = 0.0},

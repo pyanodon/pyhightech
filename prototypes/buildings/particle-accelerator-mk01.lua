@@ -4,13 +4,13 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "concrete", amount = 100},
-        {type = "item", name = "advanced-circuit", amount = 50},
-        {type = "item", name = "gasturbinemk02", amount = 2},
-        {type = "item", name = "agitator-mk01", amount = 1},
-        {type = "item", name = "niobium-plate", amount = 15},
+        {type = "item", name = "concrete",             amount = 100},
+        {type = "item", name = "advanced-circuit",     amount = 50},
+        {type = "item", name = "gasturbinemk02",       amount = 2},
+        {type = "item", name = "agitator-mk01",        amount = 1},
+        {type = "item", name = "niobium-plate",        amount = 15},
         {type = "item", name = "electric-engine-unit", amount = 2},
-        {type = "item", name = "plastic-bar", amount = 100},
+        {type = "item", name = "plastic-bar",          amount = 100},
     },
     results = {
         {type = "item", name = "particle-accelerator-mk01", amount = 1}
@@ -33,7 +33,7 @@ ENTITY {
     type = "assembling-machine",
     name = "particle-accelerator-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/particle-accelerator-mk01.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "particle-accelerator-mk01"},
     fast_replaceable_group = "particle-accelerator",

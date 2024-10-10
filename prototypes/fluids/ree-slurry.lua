@@ -6,10 +6,10 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "rare-earth-mud", amount = 100},
-        {type = "fluid", name = "sulfuric-acid", amount = 200}
+        {type = "fluid", name = "sulfuric-acid",  amount = 200}
     },
     results = {
-        {type = "fluid", name = "ree-slurry", amount = 100},
+        {type = "fluid", name = "ree-slurry",        amount = 100},
         {type = "fluid", name = "dirty-water-heavy", amount = 100}
     },
     main_product = "ree-slurry",
@@ -19,7 +19,7 @@ FLUID {
     type = "fluid",
     name = "ree-slurry",
     icon = "__pyhightechgraphics__/graphics/icons/rare-earth-slurry.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.027, g = 0.396, b = 0.384},

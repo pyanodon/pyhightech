@@ -13,17 +13,17 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "steam-engine", amount = 2},
-        {type = "item", name = "fbreactor-mk01", amount = 2},
-        {type = "item", name = "distilator", amount = 2},
-        {type = "item", name = "iron-plate", amount = 80},
-        {type = "item", name = "copper-plate", amount = 60},
+        {type = "item", name = "steam-engine",    amount = 2},
+        {type = "item", name = "fbreactor-mk01",  amount = 2},
+        {type = "item", name = "distilator",      amount = 2},
+        {type = "item", name = "iron-plate",      amount = 80},
+        {type = "item", name = "copper-plate",    amount = 60},
         {type = "item", name = "iron-gear-wheel", amount = 100},
     },
     results = {
         {type = "item", name = "pcb-factory-mk01", amount = 1}
     }
-}:add_unlock('vacuum-tube-electronics')
+}:add_unlock("vacuum-tube-electronics")
 
 ITEM {
     type = "item",
@@ -41,7 +41,7 @@ ENTITY {
     type = "assembling-machine",
     name = "pcb-factory-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/pcb-factory-mk01.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "pcb-factory-mk01"},
     fast_replaceable_group = "pcb-factory",

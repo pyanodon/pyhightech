@@ -23,15 +23,15 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "fbreactor-mk01", amount = 1},
-        {type = "item", name = "pipe", amount = 10},
-        {type = "item", name = "steam-engine", amount = 3},
-        {type = "item", name = "stone-brick", amount = 30},
-        {type = "item", name = "wood", amount = 30}
+        {type = "item", name = "pipe",           amount = 10},
+        {type = "item", name = "steam-engine",   amount = 3},
+        {type = "item", name = "stone-brick",    amount = 30},
+        {type = "item", name = "wood",           amount = 30}
     },
     results = {
         {type = "item", name = "pulp-mill-mk01", amount = 1}
     }
-}:add_unlock('vacuum-tube-electronics')
+}:add_unlock("vacuum-tube-electronics")
 
 ITEM {
     type = "item",
@@ -49,7 +49,7 @@ ENTITY {
     type = "assembling-machine",
     name = "pulp-mill-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/pulp-mill-mk01.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pulp-mill-mk01"},
     fast_replaceable_group = "pulp-mill",

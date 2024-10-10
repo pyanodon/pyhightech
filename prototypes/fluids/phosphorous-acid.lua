@@ -5,10 +5,10 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "syngas", amount = 80},
-        {type = "item", name = "powdered-phosphate-rock", amount = 5},
-        {type = "item", name = "pure-sand", amount = 20},
-        {type = "item", name = "ash", amount = 4}
+        {type = "fluid", name = "syngas",                  amount = 80},
+        {type = "item",  name = "powdered-phosphate-rock", amount = 5},
+        {type = "item",  name = "pure-sand",               amount = 20},
+        {type = "item",  name = "ash",                     amount = 4}
     },
     results = {
         {type = "fluid", name = "phosphorous-acid", amount = 50}
@@ -20,7 +20,7 @@ FLUID {
     type = "fluid",
     name = "phosphorous-acid",
     icon = "__pyhightechgraphics__/graphics/icons/phosphorous-acid.png",
-	icon_size = 64,
+    icon_size = 64,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.847, g = 0.05, b = 0.98},

@@ -137,8 +137,8 @@ data:extend {
     },
 }
 
-if not mods['pyindustry'] then
-    data:extend{
+if not mods["pyindustry"] then
+    data:extend {
         {
             type = "item-subgroup",
             name = "py-trains",

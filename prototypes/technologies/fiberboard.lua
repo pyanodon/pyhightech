@@ -14,13 +14,13 @@ TECHNOLOGY {
         count = 50,
         ingredients = {
             {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
+            {"logistic-science-pack",   1},
         },
         time = 30
     }
 }
 
-if mods['pyrawores'] then
+if mods["pyrawores"] then
     TECHNOLOGY {
         type = "technology",
         name = "fiberboard-mk02",
@@ -35,8 +35,8 @@ if mods['pyrawores'] then
             count = 50,
             ingredients = {
                 {"automation-science-pack", 1},
-                {"logistic-science-pack", 1},
-                {"chemical-science-pack", 1},
+                {"logistic-science-pack",   1},
+                {"chemical-science-pack",   1},
             },
             time = 30
         }

@@ -6,21 +6,21 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "oleochemicals", amount = 10},
-		{type = "fluid", name = "glycerol", amount = 30},
+        {type = "fluid", name = "glycerol",      amount = 30},
     },
     results = {
         {type = "fluid", name = "ech", amount = 30}
     },
     main_product = "ech",
     icon = "__pyhightechgraphics__/graphics/icons/mix-ech.png",
-	icon_size = 32
+    icon_size = 32
 }
 
 FLUID {
     type = "fluid",
     name = "ech",
     icon = "__pyhightechgraphics__/graphics/icons/ech.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.02, g = 0.956, b = 0.172},

@@ -6,9 +6,9 @@ RECIPE {
     ingredients = {
         {type = "item", name = "soil-extractor-mk01", amount = 2},
         --{type = "item", name = "automated-factory-mk01", amount = 1},
-        {type = "item", name = "iron-plate", amount = 60},
-        {type = "item", name = "jaw-crusher", amount = 1},
-        {type = "item", name = "electronic-circuit", amount = 40}
+        {type = "item", name = "iron-plate",          amount = 60},
+        {type = "item", name = "jaw-crusher",         amount = 1},
+        {type = "item", name = "electronic-circuit",  amount = 40}
     },
     results = {
         {type = "item", name = "phosphate-mine", amount = 1}
@@ -19,7 +19,7 @@ ITEM {
     type = "item",
     name = "phosphate-mine",
     icon = "__pyhightechgraphics__/graphics/icons/phosphate-mine.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "a",
@@ -31,7 +31,7 @@ ENTITY {
     type = "mining-drill",
     name = "phosphate-mine",
     icon = "__pyhightechgraphics__/graphics/icons/phosphate-mine.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "phosphate-mine"},
     fast_replaceable_group = "phosphate-mine",
@@ -48,8 +48,8 @@ ENTITY {
         volume = 200,
         pipe_connections = {
             {position = {-4.3, 0}, direction = defines.direction.west},
-            {position = {4.3, 0}, direction = defines.direction.east},
-            {position = {0, 4.3}, direction = defines.direction.south}
+            {position = {4.3, 0},  direction = defines.direction.east},
+            {position = {0, 4.3},  direction = defines.direction.south}
         }
     },
     module_slots = 4,
@@ -57,21 +57,21 @@ ENTITY {
     mining_speed = 8,
     energy_source =
     {
-      type = "burner",
-      fuel_categories = {"drill"},
-      effectivity = 3,
-      fuel_inventory_size = 1,
-      emissions_per_minute = {
-          pollution = 0.06
-      },
-      smoke =
-      {
+        type = "burner",
+        fuel_categories = {"drill"},
+        effectivity = 3,
+        fuel_inventory_size = 1,
+        emissions_per_minute = {
+            pollution = 0.06
+        },
+        smoke =
         {
-          name = "smoke",
-          deviation = {0.1, 0.1},
-          frequency = 3
+            {
+                name = "smoke",
+                deviation = {0.1, 0.1},
+                frequency = 3
+            }
         }
-      }
     },
     energy_usage = "500kW",
     mining_power = 2,

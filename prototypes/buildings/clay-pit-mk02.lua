@@ -4,13 +4,13 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "clay-pit-mk01", amount = 1},
-        {type = "item", name = "nexelit-plate", amount = 10},
-        {type = "item", name = "plastic-bar", amount = 10},
+        {type = "item", name = "clay-pit-mk01",    amount = 1},
+        {type = "item", name = "nexelit-plate",    amount = 10},
+        {type = "item", name = "plastic-bar",      amount = 10},
         {type = "item", name = "advanced-circuit", amount = 10},
-        {type = "item", name = "engine-unit", amount = 4},
-        {type = "item", name = "stone-brick", amount = 40},
-        {type = "item", name = "steel-plate", amount = 50},
+        {type = "item", name = "engine-unit",      amount = 4},
+        {type = "item", name = "stone-brick",      amount = 40},
+        {type = "item", name = "steel-plate",      amount = 50},
     },
     results = {
         {type = "item", name = "clay-pit-mk02", amount = 1}
@@ -33,7 +33,7 @@ ENTITY {
     type = "assembling-machine",
     name = "clay-pit-mk02",
     icon = "__pyhightechgraphics__/graphics/icons/clay-pit-mk02.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "clay-pit-mk02"},
     fast_replaceable_group = "clay-pit",
@@ -110,9 +110,9 @@ ENTITY {
             volume = 200,
             pipe_connections = {
                 {position = {-3.2, 0.0}, direction = defines.direction.west},
-                {position = {3.2, 0.0}, direction = defines.direction.east},
+                {position = {3.2, 0.0},  direction = defines.direction.east},
                 {position = {0.0, -3.2}, direction = defines.direction.north},
-                {position = {0.0, 3.2}, direction = defines.direction.south}
+                {position = {0.0, 3.2},  direction = defines.direction.south}
             }
         },
     },

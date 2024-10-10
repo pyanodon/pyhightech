@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "methanol", amount = 50},
+        {type = "fluid", name = "methanol",       amount = 50},
         {type = "fluid", name = "carbon-dioxide", amount = 80},
-        {type = "item", name = "chromium", amount = 1}
+        {type = "item",  name = "chromium",       amount = 1}
     },
     results = {
         {type = "fluid", name = "acetic-acid", amount = 50}
@@ -18,7 +18,7 @@ FLUID {
     type = "fluid",
     name = "acetic-acid",
     icon = "__pyhightechgraphics__/graphics/icons/acetic-acid.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.588, g = 0.274, b = 0.423},

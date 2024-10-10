@@ -14,10 +14,10 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "cadaveric-arum-mk01", amount = 1},
-        {type = "item", name = "plastic-bar", amount = 100},
-        {type = "item", name = "advanced-circuit", amount = 15},
-        {type = "item", name = "nexelit-plate", amount = 60},
-        {type = "item", name = "engine-unit", amount = 15},
+        {type = "item", name = "plastic-bar",         amount = 100},
+        {type = "item", name = "advanced-circuit",    amount = 15},
+        {type = "item", name = "nexelit-plate",       amount = 60},
+        {type = "item", name = "engine-unit",         amount = 15},
     },
     results = {
         {type = "item", name = "cadaveric-arum-mk02", amount = 1}
@@ -40,7 +40,7 @@ ENTITY {
     type = "assembling-machine",
     name = "cadaveric-arum-mk02",
     icon = "__pyhightechgraphics__/graphics/icons/cadaveric-arum-mk02.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "cadaveric-arum-mk02"},
     fast_replaceable_group = "cadaveric-arum",
@@ -67,7 +67,7 @@ ENTITY {
             layers = {
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/cadaveric-arum/cadaveric-arum.png",
-    				priority = "extra-high",
+                    priority = "extra-high",
                     width = 288,
                     height = 295,
                     line_length = 5,
@@ -77,7 +77,7 @@ ENTITY {
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/cadaveric-arum/cadaveric-arum-mask.png",
-    				priority = "extra-high",
+                    priority = "extra-high",
                     width = 288,
                     height = 295,
                     line_length = 5,
@@ -88,7 +88,7 @@ ENTITY {
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/cadaveric-arum/shadow.png",
-    				priority = "extra-high",
+                    priority = "extra-high",
                     width = 298,
                     height = 295,
                     line_length = 5,

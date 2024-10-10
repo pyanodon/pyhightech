@@ -1,6 +1,6 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["rare-earth-bolide"] = {}
 
-data:extend{{
+data:extend {{
     type = "autoplace-control",
     category = "resource",
     name = "rare-earth-bolide",
@@ -13,7 +13,7 @@ data:extend{{
 --     name = "rare-earth-bolide"
 -- }}
 
-data:extend{
+data:extend {
     {
         type = "noise-expression",
         name = "py_rare_earth_starting_area",
@@ -44,12 +44,12 @@ data:extend{
     }
 }
 
-data:extend{{
+data:extend {{
     type = "resource",
     name = "rare-earth-bolide",
     category = "rare-earth",
     icon = "__pyhightechgraphics__/graphics/icons/ores/rare-earth-bolide.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
     map_color = {r = 0.627, g = 0.490, b = 0.070},

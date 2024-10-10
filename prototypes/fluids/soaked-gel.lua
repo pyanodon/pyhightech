@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "clean-rf-gel", amount = 1},
-        {type = "fluid", name = "acetone", amount = 40},
+        {type = "item",  name = "clean-rf-gel", amount = 1},
+        {type = "fluid", name = "acetone",      amount = 40},
     },
     results = {
         {type = "fluid", name = "soaked-gel", amount = 50},
@@ -17,7 +17,7 @@ FLUID {
     type = "fluid",
     name = "soaked-gel",
     icon = "__pyhightechgraphics__/graphics/icons/soaked-gel.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.317, g = 0.6, b = 0.764},

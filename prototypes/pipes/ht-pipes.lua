@@ -1,14 +1,14 @@
 --- @param i integer
 local function make_visualization(i)
-  return
-  {
-    filename = "__base__/graphics/entity/pipe/visualization.png",
-    priority = "extra-high",
-    x = i * 64,
-    size = 64,
-    scale = 0.5,
-    flags = {"icon"},
-  }
+    return
+    {
+        filename = "__base__/graphics/entity/pipe/visualization.png",
+        priority = "extra-high",
+        x = i * 64,
+        size = 64,
+        scale = 0.5,
+        flags = {"icon"},
+    }
 end
 
 local function py_pipepictures()
@@ -259,12 +259,12 @@ RECIPE {
     energy_required = 3,
     ingredients = {
         {type = "item", name = "copper-plate", amount = 1},
-        {type = "item", name = "plastic-bar", amount = 1}
+        {type = "item", name = "plastic-bar",  amount = 1}
     },
     results = {
         {type = "item", name = "ht-pipes", amount = 3}
     }
-}:add_unlock("coal-processing-3"):replace_ingredient("copper-plate", "niobium-plate"):add_ingredient({type = 'item', name = 'titanium-plate', amount = 1})
+}:add_unlock("coal-processing-3"):replace_ingredient("copper-plate", "niobium-plate"):add_ingredient {type = "item", name = "titanium-plate", amount = 1}
 
 ITEM {
     type = "item",
@@ -383,8 +383,8 @@ ENTITY {
         volume = 100,
         pipe_covers = py_pipecoverspictures(),
         pipe_connections = {
-            {position = {0, 0}, direction = defines.direction.north},
-            {connection_type = "underground", position = {0, 0}, direction = defines.direction.south, max_underground_distance = 48}
+            {position = {0, 0},               direction = defines.direction.north},
+            {connection_type = "underground", position = {0, 0},                  direction = defines.direction.south, max_underground_distance = 48}
         },
         hide_connection_info = true
     },
@@ -426,41 +426,41 @@ ENTITY {
         }
     },
     visualization = {
-      north =
-      {
-        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
-        priority = "extra-high",
-        x = 64,
-        size = 64,
-        scale = 0.5,
-        flags = {"icon"}
-      },
-      south =
-      {
-        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
-        priority = "extra-high",
-        x = 192,
-        size = 64,
-        scale = 0.5,
-        flags = {"icon"}
-      },
-      west =
-      {
-        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
-        priority = "extra-high",
-        x = 256,
-        size = 64,
-        scale = 0.5,
-        flags = {"icon"}
-      },
-      east =
-      {
-        filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
-        priority = "extra-high",
-        x = 128,
-        size = 64,
-        scale = 0.5,
-        flags = {"icon"}
-      },
+        north =
+        {
+            filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+            priority = "extra-high",
+            x = 64,
+            size = 64,
+            scale = 0.5,
+            flags = {"icon"}
+        },
+        south =
+        {
+            filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+            priority = "extra-high",
+            x = 192,
+            size = 64,
+            scale = 0.5,
+            flags = {"icon"}
+        },
+        west =
+        {
+            filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+            priority = "extra-high",
+            x = 256,
+            size = 64,
+            scale = 0.5,
+            flags = {"icon"}
+        },
+        east =
+        {
+            filename = "__base__/graphics/entity/pipe-to-ground/visualization.png",
+            priority = "extra-high",
+            x = 128,
+            size = 64,
+            scale = 0.5,
+            flags = {"icon"}
+        },
     },
 }

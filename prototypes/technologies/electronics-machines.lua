@@ -11,8 +11,8 @@ TECHNOLOGY {
         count = 50,
         ingredients = {
             {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
+            {"logistic-science-pack",   1},
+            {"chemical-science-pack",   1},
         },
         time = 30
     }
@@ -33,8 +33,8 @@ TECHNOLOGY {
         count = 50,
         ingredients = {
             {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
+            {"logistic-science-pack",   1},
+            {"chemical-science-pack",   1},
             {"production-science-pack", 1},
         },
         time = 30
@@ -56,11 +56,11 @@ TECHNOLOGY {
         count = 50,
         ingredients = {
             {"automation-science-pack", 1},
-            {"logistic-science-pack", 1},
-            {"chemical-science-pack", 1},
-            {"military-science-pack", 1},
+            {"logistic-science-pack",   1},
+            {"chemical-science-pack",   1},
+            {"military-science-pack",   1},
             {"production-science-pack", 1},
-            {"utility-science-pack", 1},
+            {"utility-science-pack",    1},
         },
         time = 30
     }
@@ -79,25 +79,25 @@ TECHNOLOGY {
     unit = {
         count = 700,
         ingredients = mods.pyalienlife and {
-            {'automation-science-pack', 200},
-            {"py-science-pack-1", 100},
-            {"logistic-science-pack", 60},
-            {"py-science-pack-2", 30},
-            {'military-science-pack', 30},
-            {'chemical-science-pack', 20},
-            {"py-science-pack-3", 10},
-            {'production-science-pack', 6},
-            {"py-science-pack-4", 3},
-            {'utility-science-pack', 2},
-            {'space-science-pack', 1},
+            {"automation-science-pack", 200},
+            {"py-science-pack-1",       100},
+            {"logistic-science-pack",   60},
+            {"py-science-pack-2",       30},
+            {"military-science-pack",   30},
+            {"chemical-science-pack",   20},
+            {"py-science-pack-3",       10},
+            {"production-science-pack", 6},
+            {"py-science-pack-4",       3},
+            {"utility-science-pack",    2},
+            {"space-science-pack",      1},
         } or {
-            {'automation-science-pack', 30},
-            {"logistic-science-pack", 20},
-            {'military-science-pack', 10},
-            {'chemical-science-pack', 6},
-            {'production-science-pack', 3},
-            {'utility-science-pack', 2},
-            {'space-science-pack', 1},
+            {"automation-science-pack", 30},
+            {"logistic-science-pack",   20},
+            {"military-science-pack",   10},
+            {"chemical-science-pack",   6},
+            {"production-science-pack", 3},
+            {"utility-science-pack",    2},
+            {"space-science-pack",      1},
         },
         time = 1200
     }

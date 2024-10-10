@@ -4,16 +4,16 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "fbreactor-mk01", amount = 1},
-        {type = "item", name = "pipe", amount = 15},
-        {type = "item", name = "steam-engine", amount = 4},
+        {type = "item", name = "fbreactor-mk01",        amount = 1},
+        {type = "item", name = "pipe",                  amount = 15},
+        {type = "item", name = "steam-engine",          amount = 4},
         {type = "item", name = "electric-mining-drill", amount = 2},
-        {type = "item", name = "iron-plate", amount = 40}
+        {type = "item", name = "iron-plate",            amount = 40}
     },
     results = {
         {type = "item", name = "electronics-factory-mk01", amount = 1}
     }
-}:add_unlock('vacuum-tube-electronics')
+}:add_unlock("vacuum-tube-electronics")
 
 ITEM {
     type = "item",
@@ -31,7 +31,7 @@ ENTITY {
     type = "assembling-machine",
     name = "electronics-factory-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk01.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "electronics-factory-mk01"},
     fast_replaceable_group = "electronics-factory",

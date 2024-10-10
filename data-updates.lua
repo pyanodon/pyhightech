@@ -1,17 +1,17 @@
-require 'prototypes/updates/base-updates'
-require 'prototypes/updates/pycoalprocessing-updates'
-require 'prototypes/updates/pyfusionenergy-updates'
-require 'prototypes/updates/pyindustry-updates'
+require "prototypes/updates/base-updates"
+require "prototypes/updates/pycoalprocessing-updates"
+require "prototypes/updates/pyfusionenergy-updates"
+require "prototypes/updates/pyindustry-updates"
 
-if mods['pyrawores'] then
-    require 'prototypes/updates/pyrawores-updates'
+if mods["pyrawores"] then
+    require "prototypes/updates/pyrawores-updates"
 end
 
-if mods['pyalienlife'] then
-    require 'prototypes/updates/pyalienlife-updates'
+if mods["pyalienlife"] then
+    require "prototypes/updates/pyalienlife-updates"
 else
     -- Override crashed building resistances since we won't have the means to repair them immediately
-    data.raw['assembling-machine']['crash-site-assembling-machine-1-repaired'].resistances = {{type = 'fire', percent = 100}}
+    data.raw["assembling-machine"]["crash-site-assembling-machine-1-repaired"].resistances = {{type = "fire", percent = 100}}
 end
 
 local recipes_list =
@@ -187,22 +187,22 @@ local recipes_list =
 --adding to module limitation list
 py.allow_productivity(recipes_list)
 
-data.raw['assembling-machine']['centrifuge'].working_visualisations = nil
+data.raw["assembling-machine"]["centrifuge"].working_visualisations = nil
 
 if data.data_crawler then
-    if mods['pypetroleumhandling'] then
+    if mods["pypetroleumhandling"] then
         data.script_enabled = {
             {type = "entity", name = "crash-site-assembling-machine-1-repaired"},
             {type = "entity", name = "tar-patch"}
         }
     else
-      data.script_enabled = {
-          {type = "entity", name = "crash-site-assembling-machine-1-repaired"}
-      }
+        data.script_enabled = {
+            {type = "entity", name = "crash-site-assembling-machine-1-repaired"}
+        }
     end
 end
 
 if register_cache_file ~= nil then
-    register_cache_file({"pycoalprocessing","pyfusionenergy","pyindustry","pyhightech"}, "__pyhightech__/cached-configs/pycoalprocessing+pyfusionenergy+pyhightech+pyindustry.lua")
-    register_cache_file({"pycoalprocessing","pyfusionenergy","pyindustry","pyrawores","pyhightech"}, "__pyhightech__/cached-configs/pycoalprocessing+pyfusionenergy+pyhightech+pyindustry+pyrawores")
+    register_cache_file({"pycoalprocessing", "pyfusionenergy", "pyindustry", "pyhightech"}, "__pyhightech__/cached-configs/pycoalprocessing+pyfusionenergy+pyhightech+pyindustry.lua")
+    register_cache_file({"pycoalprocessing", "pyfusionenergy", "pyindustry", "pyrawores", "pyhightech"}, "__pyhightech__/cached-configs/pycoalprocessing+pyfusionenergy+pyhightech+pyindustry+pyrawores")
 end

@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "raw-ralesia-extract", amount = 100},
-		{type = "item", name = "biofilm", amount = 1},
+        {type = "item",  name = "biofilm",             amount = 1},
     },
     results = {
         {type = "fluid", name = "ralesia-extract", amount = 100}
@@ -17,7 +17,7 @@ FLUID {
     type = "fluid",
     name = "ralesia-extract",
     icon = "__pyhightechgraphics__/graphics/icons/ralesia-extract.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.903, g = 0.664, b = 0.18},

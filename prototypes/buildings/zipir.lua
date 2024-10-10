@@ -13,11 +13,11 @@ RECIPE {
     energy_required = 2,
     enabled = false,
     ingredients = {
-        {type = "item", name = "clay-pit-mk01", amount = 1},
-        {type = "item", name = "fbreactor-mk01", amount = 2},
-        {type = "item", name = "steel-plate", amount = 100},
+        {type = "item", name = "clay-pit-mk01",      amount = 1},
+        {type = "item", name = "fbreactor-mk01",     amount = 2},
+        {type = "item", name = "steel-plate",        amount = 100},
         {type = "item", name = "electronic-circuit", amount = 20},
-        {type = "item", name = "pipe", amount = 15}
+        {type = "item", name = "pipe",               amount = 15}
     },
     results = {
         {type = "item", name = "zipir", amount = 1}
@@ -40,7 +40,7 @@ ENTITY {
     type = "assembling-machine",
     name = "zipir",
     icon = "__pyhightechgraphics__/graphics/icons/zipir.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "zipir"},
     fast_replaceable_group = "zipir",
@@ -76,7 +76,7 @@ ENTITY {
                     width = 64,
                     height = 192,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(0,0)
+                    shift = util.by_pixel(0, 0)
                 }
             },
             {
@@ -91,7 +91,7 @@ ENTITY {
                     width = 64,
                     height = 192,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(64,0)
+                    shift = util.by_pixel(64, 0)
                 }
             },
             {
@@ -106,7 +106,7 @@ ENTITY {
                     width = 64,
                     height = 192,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(128,0)
+                    shift = util.by_pixel(128, 0)
                 }
             },
             {
@@ -121,7 +121,7 @@ ENTITY {
                     width = 64,
                     height = 192,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(192,0)
+                    shift = util.by_pixel(192, 0)
                 }
             },
             {
@@ -136,7 +136,7 @@ ENTITY {
                     width = 13,
                     height = 192,
                     animation_speed = 0.5,
-                    shift = util.by_pixel(230,0)
+                    shift = util.by_pixel(230, 0)
                 }
             },
         },
@@ -146,7 +146,7 @@ ENTITY {
             height = 290,
             frame_count = 1,
             line_length = 1,
-            shift = util.by_pixel(8,-1)
+            shift = util.by_pixel(8, -1)
         },
     },
     fluid_boxes_off_when_no_fluid_recipe = true,

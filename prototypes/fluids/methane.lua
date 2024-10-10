@@ -5,14 +5,14 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "fluid", name = "water", amount = 100},
+        {type = "fluid", name = "water",          amount = 100},
         {type = "fluid", name = "carbon-dioxide", amount = 100},
     },
     results = {
         {type = "fluid", name = "methane", amount = 40}
     },
     main_product = "methane",
-}:add_unlock('moondrop')
+}:add_unlock("moondrop")
 
 RECIPE {
     type = "recipe",
@@ -21,8 +21,8 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "water", amount = 100},
-        {type = "item", name = "py-fertilizer", amount = 1},
+        {type = "fluid", name = "water",         amount = 100},
+        {type = "item",  name = "py-fertilizer", amount = 1},
     },
     results = {
         {type = "fluid", name = "methane", amount = 80}
@@ -34,7 +34,7 @@ FLUID {
     type = "fluid",
     name = "methane",
     icon = "__pyhightechgraphics__/graphics/icons/methane.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 15,
     base_flow_rate = 100,
     base_color = {r = 0.458, g = 0.772, b = 0.619},

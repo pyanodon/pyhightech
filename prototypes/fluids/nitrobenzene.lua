@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "fluid", name = "benzene", amount = 50},
+        {type = "fluid", name = "benzene",       amount = 50},
         {type = "fluid", name = "sulfuric-acid", amount = 100},
-        {type = "fluid", name = "ammonia", amount = 30}
+        {type = "fluid", name = "ammonia",       amount = 30}
     },
     results = {
         {type = "fluid", name = "nitrobenzene", amount = 100}
@@ -18,7 +18,7 @@ FLUID {
     type = "fluid",
     name = "nitrobenzene",
     icon = "__pyhightechgraphics__/graphics/icons/nitrobenzene.png",
-	icon_size = 64,
+    icon_size = 64,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.549, g = 0.384, b = 0.223},

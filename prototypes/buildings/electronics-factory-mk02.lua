@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "electronics-factory-mk01", amount = 1},
-        {type = "item", name = "advanced-circuit", amount = 10},
-        {type = "item", name = "plastic-bar", amount = 40},
-        {type = "item", name = "niobium-plate", amount = 20},
-        {type = "item", name = "engine-unit", amount = 10},
-        {type = "item", name = "steel-plate", amount = 40}
+        {type = "item", name = "advanced-circuit",         amount = 10},
+        {type = "item", name = "plastic-bar",              amount = 40},
+        {type = "item", name = "niobium-plate",            amount = 20},
+        {type = "item", name = "engine-unit",              amount = 10},
+        {type = "item", name = "steel-plate",              amount = 40}
     },
     results = {
         {type = "item", name = "electronics-factory-mk02", amount = 1}
@@ -32,7 +32,7 @@ ENTITY {
     type = "assembling-machine",
     name = "electronics-factory-mk02",
     icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk02.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "electronics-factory-mk02"},
     fast_replaceable_group = "electronics-factory",
