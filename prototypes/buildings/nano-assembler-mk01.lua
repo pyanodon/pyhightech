@@ -5,13 +5,13 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "automated-factory-mk01", amount = 1},
-        {type = "item", name = "nexelit-plate", amount = 20},
-        {type = "item", name = "concrete", amount = 60},
-        {type = "item", name = "steel-plate", amount = 40},
-        {type = "item", name = "plastic-bar", amount = 10},
-        {type = "item", name = "advanced-circuit", amount = 10},
-        {type = "item", name = "iron-gear-wheel", amount = 30},
-        {type = "item", name = "steam-engine", amount = 3},
+        {type = "item", name = "nexelit-plate",          amount = 20},
+        {type = "item", name = "concrete",               amount = 60},
+        {type = "item", name = "steel-plate",            amount = 40},
+        {type = "item", name = "plastic-bar",            amount = 10},
+        {type = "item", name = "advanced-circuit",       amount = 10},
+        {type = "item", name = "iron-gear-wheel",        amount = 30},
+        {type = "item", name = "steam-engine",           amount = 3},
     },
     results = {
         {type = "item", name = "nano-assembler-mk01", amount = 1}
@@ -34,7 +34,7 @@ ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk01.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "nano-assembler-mk01"},
     fast_replaceable_group = "nano-assembler",
@@ -66,7 +66,7 @@ ENTITY {
                     line_length = 6,
                     frame_count = 30,
                     animation_speed = 0.4,
-                    shift = util.by_pixel(5,0)
+                    shift = util.by_pixel(5, 0)
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler-mask.png",
@@ -75,7 +75,7 @@ ENTITY {
                     line_length = 6,
                     frame_count = 30,
                     animation_speed = 0.4,
-                    shift = util.by_pixel(5,0),
+                    shift = util.by_pixel(5, 0),
                     tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
                 },
             }

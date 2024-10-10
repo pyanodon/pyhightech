@@ -6,8 +6,8 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "propene", amount = 30},
-        {type = "item", name = "sulfur", amount = 10},
-        {type = "item", name = "coal", amount = 5},
+        {type = "item",  name = "sulfur",  amount = 10},
+        {type = "item",  name = "coal",    amount = 5},
     },
     results = {
         {type = "fluid", name = "carbon-sulfide", amount = 60}
@@ -18,7 +18,7 @@ FLUID {
     type = "fluid",
     name = "carbon-sulfide",
     icon = "__pyhightechgraphics__/graphics/icons/carbon-sulfide.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 15,
     base_flow_rate = 100,
     base_color = {r = 0.705, g = 0.705, b = 0},

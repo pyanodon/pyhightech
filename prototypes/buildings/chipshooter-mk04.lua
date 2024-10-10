@@ -4,12 +4,12 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "carbon-aerogel", amount = 20},
-        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "carbon-aerogel",        amount = 20},
+        {type = "item", name = "intelligent-unit",      amount = 10},
         {type = "item", name = "paramagnetic-material", amount = 20},
-        {type = "item", name = "harmonic-absorber", amount = 15},
-        {type = "item", name = "superconductor", amount = 5},
-        {type = "item", name = "chipshooter-mk03", amount = 1}
+        {type = "item", name = "harmonic-absorber",     amount = 15},
+        {type = "item", name = "superconductor",        amount = 5},
+        {type = "item", name = "chipshooter-mk03",      amount = 1}
     },
     results = {
         {type = "item", name = "chipshooter-mk04", amount = 1}
@@ -32,7 +32,7 @@ ENTITY {
     type = "assembling-machine",
     name = "chipshooter-mk04",
     icon = "__pyhightechgraphics__/graphics/icons/chipshooter-mk04.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "chipshooter-mk04"},
     fast_replaceable_group = "chipshooter",

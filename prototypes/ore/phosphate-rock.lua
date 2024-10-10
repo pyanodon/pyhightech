@@ -1,6 +1,6 @@
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["phosphate-rock"] = {}
 
-data:extend{{
+data:extend {{
     type = "autoplace-control",
     category = "resource",
     name = "phosphate-rock",
@@ -13,7 +13,7 @@ data:extend{{
 --     name = "phosphate-rock"
 -- }}
 
-data:extend{
+data:extend {
     {
         type = "noise-expression",
         name = "py_phosphate_rock_starting_area",
@@ -44,12 +44,12 @@ data:extend{
     }
 }
 
-data:extend{{
+data:extend {{
     type = "resource",
     name = "phosphate-rock",
     category = "phosphate",
     icon = "__pyhightechgraphics__/graphics/icons/ores/ancient-remains.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
     map_color = {r = 0.998, g = 0.998, b = 0.998},

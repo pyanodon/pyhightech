@@ -5,10 +5,10 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "phosphoric-acid", amount = 100},
-        {type = "fluid", name = "sulfuric-acid", amount = 100},
+        {type = "fluid", name = "phosphoric-acid",   amount = 100},
+        {type = "fluid", name = "sulfuric-acid",     amount = 100},
         {type = "fluid", name = "hydrogen-peroxide", amount = 50},
-        {type = "item", name = "mukmoux-fat", amount = 10},
+        {type = "item",  name = "mukmoux-fat",       amount = 10},
     },
     results = {
         {type = "fluid", name = "etching", amount = 150}
@@ -19,7 +19,7 @@ FLUID {
     type = "fluid",
     name = "etching",
     icon = "__pyhightechgraphics__/graphics/icons/etching.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0, g = 0.286, b = 0},

@@ -14,8 +14,8 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "botanical-nursery", amount = 2},
-        {type = "item", name = "storage-tank", amount = 1}, --replace py-tank-5000
-        {type = "item", name = "classifier", amount = 1},
+        {type = "item", name = "storage-tank",      amount = 1}, --replace py-tank-5000
+        {type = "item", name = "classifier",        amount = 1},
 
     },
     results = {
@@ -39,7 +39,7 @@ ENTITY {
     type = "assembling-machine",
     name = "kicalk-plantation",
     icon = "__pyhightechgraphics__/graphics/icons/kicalk-plantation.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "kicalk-plantation"},
     fast_replaceable_group = "kicalk-plantation",
@@ -66,7 +66,7 @@ ENTITY {
             layers = {
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/kicalk-plantation.png",
-    				priority = "extra-high",
+                    priority = "extra-high",
                     width = 229,
                     height = 235,
                     line_length = 8,
@@ -76,7 +76,7 @@ ENTITY {
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/kicalk-plantation/shadow.png",
-    				priority = "extra-high",
+                    priority = "extra-high",
                     width = 253,
                     height = 242,
                     line_length = 8,

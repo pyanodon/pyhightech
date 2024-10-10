@@ -5,12 +5,12 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "moondrop-greenhouse-mk02", amount = 1},
-        {type = "item", name = "graphene-roll", amount = 15},
-        {type = "item", name = "processing-unit", amount = 10},
-        {type = "item", name = "plastic-bar", amount = 100},
-        {type = "item", name = "niobium-plate", amount = 20},
-        {type = "item", name = "biopolymer", amount = 10},
-        {type = "item", name = "electric-engine-unit", amount = 15},
+        {type = "item", name = "graphene-roll",            amount = 15},
+        {type = "item", name = "processing-unit",          amount = 10},
+        {type = "item", name = "plastic-bar",              amount = 100},
+        {type = "item", name = "niobium-plate",            amount = 20},
+        {type = "item", name = "biopolymer",               amount = 10},
+        {type = "item", name = "electric-engine-unit",     amount = 15},
     },
     results = {
         {type = "item", name = "moondrop-greenhouse-mk03", amount = 1}
@@ -33,7 +33,7 @@ ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk03",
     icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk03.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "moondrop-greenhouse-mk03"},
     fast_replaceable_group = "moondrop-greenhouse",
@@ -128,7 +128,7 @@ ENTITY {
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 1000,
             base_level = -1,
-            pipe_connections ={{flow_direction = "input", position = {-4.0, 0.0}, direction = defines.direction.west}}
+            pipe_connections = {{flow_direction = "input", position = {-4.0, 0.0}, direction = defines.direction.west}}
         },
         {
             production_type = "input",
@@ -136,7 +136,7 @@ ENTITY {
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 1000,
             base_level = -1,
-            pipe_connections ={{flow_direction = "input", position = {0.0, 4.0}, direction = defines.direction.south}}
+            pipe_connections = {{flow_direction = "input", position = {0.0, 4.0}, direction = defines.direction.south}}
         },
         {
             production_type = "output",

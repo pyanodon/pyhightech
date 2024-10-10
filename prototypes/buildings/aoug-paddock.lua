@@ -4,14 +4,14 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "stone", amount = 100},
-        {type = "item", name = "soil", amount = 300},
+        {type = "item", name = "stone",      amount = 100},
+        {type = "item", name = "soil",       amount = 300},
         {type = "item", name = "iron-plate", amount = 80}
     },
     results = {
         {type = "item", name = "auog-paddock", amount = 1}
     }
-}:add_unlock('auog')
+}:add_unlock("auog")
 
 ITEM {
     type = "item",
@@ -29,7 +29,7 @@ ENTITY {
     type = "assembling-machine",
     name = "auog-paddock",
     icon = "__pyhightechgraphics__/graphics/icons/auog-paddock.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "auog-paddock"},
     fast_replaceable_group = "auog-paddock",

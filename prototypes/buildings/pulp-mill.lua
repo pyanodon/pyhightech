@@ -22,11 +22,11 @@ RECIPE {
     energy_required = 2,
     enabled = true,
     ingredients = {
-        {type = "item", name = "fbreactor", amount = 1},
-        {type = "item", name = "pipe", amount = 10},
+        {type = "item", name = "fbreactor",             amount = 1},
+        {type = "item", name = "pipe",                  amount = 10},
         {type = "item", name = "electric-mining-drill", amount = 1},
-        {type = "item", name = "stone-brick", amount = 30},
-        {type = "item", name = "wood", amount = 30}
+        {type = "item", name = "stone-brick",           amount = 30},
+        {type = "item", name = "wood",                  amount = 30}
     },
     results = {
         {type = "item", name = "pulp-mill", amount = 1}
@@ -49,7 +49,7 @@ ENTITY {
     type = "assembling-machine",
     name = "pulp-mill",
     icon = "__pyhightechgraphics__/graphics/icons/pulp-mill.png",
-	icon_size = 32,
+    icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pulp-mill"},
     fast_replaceable_group = "pulp-mill",

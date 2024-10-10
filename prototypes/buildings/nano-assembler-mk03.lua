@@ -4,13 +4,13 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "nano-assembler-mk02", amount = 1},
-        {type = "item", name = "biopolymer", amount = 10},
-        {type = "item", name = "super-alloy", amount = 5},
-        {type = "item", name = "electric-engine-unit", amount = 10},
-        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "nano-assembler-mk02",           amount = 1},
+        {type = "item", name = "biopolymer",                    amount = 10},
+        {type = "item", name = "super-alloy",                   amount = 5},
+        {type = "item", name = "electric-engine-unit",          amount = 10},
+        {type = "item", name = "intelligent-unit",              amount = 10},
         {type = "item", name = "superconductor-servomechanims", amount = 10},
-        {type = "item", name = "hyperelastic-material", amount = 15},
+        {type = "item", name = "hyperelastic-material",         amount = 15},
     },
     results = {
         {type = "item", name = "nano-assembler-mk03", amount = 1}
@@ -33,7 +33,7 @@ ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk03",
     icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk03.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "nano-assembler-mk03"},
     fast_replaceable_group = "nano-assembler",
@@ -65,7 +65,7 @@ ENTITY {
                     line_length = 6,
                     frame_count = 30,
                     animation_speed = 0.4,
-                    shift = util.by_pixel(5,0)
+                    shift = util.by_pixel(5, 0)
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler-mask.png",
@@ -74,7 +74,7 @@ ENTITY {
                     line_length = 6,
                     frame_count = 30,
                     animation_speed = 0.4,
-                    shift = util.by_pixel(5,0),
+                    shift = util.by_pixel(5, 0),
                     tint = {r = 0.223, g = 0.490, b = 0.858, a = 1.0}
                 },
             }

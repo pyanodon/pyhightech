@@ -4,17 +4,17 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "nano-assembler-mk01", amount = 1},
-        {type = "item", name = "graphene-roll", amount = 20},
-        {type = "item", name = "processing-unit", amount = 15},
-        {type = "item", name = "engine-unit", amount = 4},
-        {type = "item", name = "niobium-plate", amount = 10},
+        {type = "item", name = "nano-assembler-mk01",   amount = 1},
+        {type = "item", name = "graphene-roll",         amount = 20},
+        {type = "item", name = "processing-unit",       amount = 15},
+        {type = "item", name = "engine-unit",           amount = 4},
+        {type = "item", name = "niobium-plate",         amount = 10},
         {type = "item", name = "low-density-structure", amount = 15},
     },
     results = {
         {type = "item", name = "nano-assembler-mk02", amount = 1}
     }
-}:add_unlock('electronics-machines-2')
+}:add_unlock("electronics-machines-2")
 
 ITEM {
     type = "item",
@@ -32,7 +32,7 @@ ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk02",
     icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk02.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "nano-assembler-mk02"},
     fast_replaceable_group = "nano-assembler",
@@ -64,7 +64,7 @@ ENTITY {
                     line_length = 6,
                     frame_count = 30,
                     animation_speed = 0.4,
-                    shift = util.by_pixel(5,0)
+                    shift = util.by_pixel(5, 0)
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/nano-assembler/nano-assembler-mask.png",
@@ -73,7 +73,7 @@ ENTITY {
                     line_length = 6,
                     frame_count = 30,
                     animation_speed = 0.4,
-                    shift = util.by_pixel(5,0),
+                    shift = util.by_pixel(5, 0),
                     tint = {r = 1.0, g = 0.0, b = 0.0, a = 1.0}
                 },
             }

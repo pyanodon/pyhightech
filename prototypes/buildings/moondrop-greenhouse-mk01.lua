@@ -4,15 +4,15 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "steam-engine", amount = 1},
-        {type = "item", name = "pipe", amount = 15},
-        {type = "item", name = "iron-plate", amount = 100},
+        {type = "item", name = "steam-engine",    amount = 1},
+        {type = "item", name = "pipe",            amount = 15},
+        {type = "item", name = "iron-plate",      amount = 100},
         {type = "item", name = "iron-gear-wheel", amount = 40},
     },
     results = {
         {type = "item", name = "moondrop-greenhouse-mk01", amount = 1}
     }
-}:add_unlock('moondrop')
+}:add_unlock("moondrop")
 
 ITEM {
     type = "item",
@@ -30,7 +30,7 @@ ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk01.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "moondrop-greenhouse-mk01"},
     fast_replaceable_group = "moondrop-greenhouse",
@@ -125,7 +125,7 @@ ENTITY {
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 1000,
             base_level = -1,
-            pipe_connections ={{flow_direction = "input", position = {-4.0, 0.0}, direction = defines.direction.west}}
+            pipe_connections = {{flow_direction = "input", position = {-4.0, 0.0}, direction = defines.direction.west}}
         },
         {
             production_type = "input",
@@ -133,7 +133,7 @@ ENTITY {
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 1000,
             base_level = -1,
-            pipe_connections ={{flow_direction = "input", position = {0.0, 4.0}, direction = defines.direction.south}}
+            pipe_connections = {{flow_direction = "input", position = {0.0, 4.0}, direction = defines.direction.south}}
         },
         {
             production_type = "output",

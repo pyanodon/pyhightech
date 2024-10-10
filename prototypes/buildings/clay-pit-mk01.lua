@@ -5,15 +5,15 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "burner-mining-drill", amount = 2},
-        {type = "item", name = "pipe", amount = 10},
-        {type = "item", name = "iron-plate", amount = 40},
-        {type = "item", name = "steam-engine", amount = 2},
-        {type = "item", name = "stone-brick", amount = 20}
+        {type = "item", name = "pipe",                amount = 10},
+        {type = "item", name = "iron-plate",          amount = 40},
+        {type = "item", name = "steam-engine",        amount = 2},
+        {type = "item", name = "stone-brick",         amount = 20}
     },
     results = {
         {type = "item", name = "clay-pit-mk01", amount = 1}
     }
-}:add_unlock('ceramic')
+}:add_unlock("ceramic")
 
 ITEM {
     type = "item",
@@ -31,7 +31,7 @@ ENTITY {
     type = "assembling-machine",
     name = "clay-pit-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/clay-pit-mk01.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "clay-pit-mk01"},
     fast_replaceable_group = "clay-pit",
@@ -108,9 +108,9 @@ ENTITY {
             volume = 200,
             pipe_connections = {
                 {position = {-3.2, 0.0}, direction = defines.direction.west},
-                {position = {3.2, 0.0}, direction = defines.direction.east},
+                {position = {3.2, 0.0},  direction = defines.direction.east},
                 {position = {0.0, -3.2}, direction = defines.direction.north},
-                {position = {0.0, 3.2}, direction = defines.direction.south}
+                {position = {0.0, 3.2},  direction = defines.direction.south}
             }
         },
     },

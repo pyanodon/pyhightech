@@ -5,10 +5,10 @@ RECIPE {
     enabled = false,
     energy_required = 8,
     ingredients = {
-        {type = "fluid", name = "benzene", amount = 50},
+        {type = "fluid", name = "benzene",         amount = 50},
         {type = "fluid", name = "phosphoric-acid", amount = 50},
-        {type = "fluid", name = "propene", amount = 50},
-        {type = "item", name = "ceramic", amount = 5}
+        {type = "fluid", name = "propene",         amount = 50},
+        {type = "item",  name = "ceramic",         amount = 5}
     },
     results = {
         {type = "fluid", name = "cumene", amount = 100}
@@ -20,7 +20,7 @@ FLUID {
     type = "fluid",
     name = "cumene",
     icon = "__pyhightechgraphics__/graphics/icons/cumene.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.00, g = 0.0, b = 0.0},

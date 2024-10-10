@@ -5,11 +5,11 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "soil-extractor-mk01", amount = 2},
-        {type = "item", name = "distilator", amount = 1},
-        {type = "item", name = "steel-plate", amount = 60},
-        {type = "item", name = "engine-unit", amount = 10},
-		{type = "item", name = "fast-inserter", amount = 4},
-        {type = "item", name = "electronic-circuit", amount = 20}
+        {type = "item", name = "distilator",          amount = 1},
+        {type = "item", name = "steel-plate",         amount = 60},
+        {type = "item", name = "engine-unit",         amount = 10},
+        {type = "item", name = "fast-inserter",       amount = 4},
+        {type = "item", name = "electronic-circuit",  amount = 20}
     },
     results = {
         {type = "item", name = "rare-earth-mine", amount = 1}
@@ -20,7 +20,7 @@ ITEM {
     type = "item",
     name = "rare-earth-mine",
     icon = "__pyhightechgraphics__/graphics/icons/rare-earth-mine.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {},
     subgroup = "py-hightech-buildings",
     order = "a",
@@ -32,7 +32,7 @@ ENTITY {
     type = "mining-drill",
     name = "rare-earth-mine",
     icon = "__pyhightechgraphics__/graphics/icons/rare-earth-mine.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "rare-earth-mine"},
     fast_replaceable_group = "rare-earth-mine",

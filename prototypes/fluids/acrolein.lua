@@ -19,12 +19,12 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "propene", amount = 100},
-        {type = "item", name = "chromium", amount = 2},
+        {type = "fluid", name = "propene",  amount = 100},
+        {type = "item",  name = "chromium", amount = 2},
     },
     results = {
         {type = "fluid", name = "acrolein", amount = 80},
-        {type = "fluid", name = "water", amount = 30},
+        {type = "fluid", name = "water",    amount = 30},
     },
     main_product = "acrolein",
 }
@@ -33,7 +33,7 @@ FLUID {
     type = "fluid",
     name = "acrolein",
     icon = "__pyhightechgraphics__/graphics/icons/acrolein.png",
-	icon_size = 32,
+    icon_size = 32,
     default_temperature = 10,
     base_flow_rate = 100,
     base_color = {r = 0.517, g = 0.250, b = 0},

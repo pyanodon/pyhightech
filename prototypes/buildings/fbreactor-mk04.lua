@@ -4,10 +4,10 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "fbreactor-mk03", amount = 1},
-        {type = "item", name = "biopolymer", amount = 30},
-        {type = "item", name = "super-alloy", amount = 30},
-        {type = "item", name = "intelligent-unit", amount = 10},
+        {type = "item", name = "fbreactor-mk03",        amount = 1},
+        {type = "item", name = "biopolymer",            amount = 30},
+        {type = "item", name = "super-alloy",           amount = 30},
+        {type = "item", name = "intelligent-unit",      amount = 10},
         {type = "item", name = "hyperelastic-material", amount = 15},
     },
     results = {
@@ -31,7 +31,7 @@ ENTITY {
     type = "assembling-machine",
     name = "fbreactor-mk04",
     icon = "__pyhightechgraphics__/graphics/icons/fbreactor-mk04.png",
-	icon_size = 64,
+    icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "fbreactor-mk04"},
     fast_replaceable_group = "fbreactor",
