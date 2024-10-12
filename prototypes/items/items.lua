@@ -1480,7 +1480,7 @@ ITEM {
     subgroup = "py-battery-equipment",
     order = "bb",
     stack_size = 10,
-    placed_as_equipment_result = "nexelit-battery",
+    place_as_equipment_result = "nexelit-battery",
     localised_name = {"item-name.used-nexelit-battery"},
 }
 
