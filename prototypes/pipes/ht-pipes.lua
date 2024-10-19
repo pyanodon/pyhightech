@@ -1,3 +1,5 @@
+local MULTIPURPOSE_CONNECTION_CATEGORY = settings.startup["py-braided-pipes"].value and {"ht-pipes"} or nil
+
 --- @param i integer
 local function make_visualization(i)
     return
@@ -337,22 +339,22 @@ ENTITY {
             {
                 position = {0, 0},
                 direction = defines.direction.north,
-                connection_category = {"ht-pipes"} 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
             },
             {
                 position = {0, 0},
                 direction = defines.direction.east, 
-                connection_category = {"ht-pipes"} 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
             },
             {
                 position = {0, 0},
                 direction = defines.direction.south,
-                connection_category = {"ht-pipes"} 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
             },
             {
                 position = {0, 0},
                 direction = defines.direction.west,
-                connection_category = {"ht-pipes"} 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
             }
         },
         hide_connection_info = true,
@@ -405,14 +407,14 @@ ENTITY {
             {
                 position = {0, 0},
                 direction = defines.direction.north,
-                connection_category = {"ht-pipes"}
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
                 connection_type = "underground",
                 position = {0, 0},
                 direction = defines.direction.south,
                 max_underground_distance = 48,
-                connection_category = {"ht-pipes"}
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             }
         },
         hide_connection_info = true,
