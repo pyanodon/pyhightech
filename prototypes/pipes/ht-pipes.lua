@@ -337,7 +337,8 @@ ENTITY {
             {position = {0, 0}, direction = defines.direction.south},
             {position = {0, 0}, direction = defines.direction.west}
         },
-        hide_connection_info = true
+        hide_connection_info = true,
+        max_pipeline_extent = (data.raw.pipe.pipe.fluid_box.max_pipeline_extent or data.raw["utility-constants"].default.default_pipeline_extent) * 4
     },
     pictures = py_pipepictures(),
     working_sound = {
@@ -386,7 +387,8 @@ ENTITY {
             {position = {0, 0},               direction = defines.direction.north},
             {connection_type = "underground", position = {0, 0},                  direction = defines.direction.south, max_underground_distance = 48}
         },
-        hide_connection_info = true
+        hide_connection_info = true,
+        max_pipeline_extent = (data.raw.pipe.pipe.fluid_box.max_pipeline_extent or data.raw["utility-constants"].default.default_pipeline_extent) * 4
     },
     underground_sprite = {
         filename = "__core__/graphics/arrows/underground-lines.png",
