@@ -330,12 +330,28 @@ ENTITY {
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     fluid_box = {
-        volume = 100,
+        volume = 400,
         pipe_connections = {
-            {position = {0, 0}, direction = defines.direction.north},
-            {position = {0, 0}, direction = defines.direction.east},
-            {position = {0, 0}, direction = defines.direction.south},
-            {position = {0, 0}, direction = defines.direction.west}
+            {
+                position = {0, 0},
+                direction = defines.direction.north,
+                connection_category = {"ht-pipes"} 
+            },
+            {
+                position = {0, 0},
+                direction = defines.direction.east, 
+                connection_category = {"ht-pipes"} 
+            },
+            {
+                position = {0, 0},
+                direction = defines.direction.south,
+                connection_category = {"ht-pipes"} 
+            },
+            {
+                position = {0, 0},
+                direction = defines.direction.west,
+                connection_category = {"ht-pipes"} 
+            }
         },
         hide_connection_info = true,
         max_pipeline_extent = (data.raw.pipe.pipe.fluid_box.max_pipeline_extent or data.raw["utility-constants"].default.default_pipeline_extent) * 4
@@ -381,11 +397,21 @@ ENTITY {
     collision_box = {{-0.29, -0.29}, {0.29, 0.2}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     fluid_box = {
-        volume = 100,
+        volume = 400,
         pipe_covers = py_pipecoverspictures(),
         pipe_connections = {
-            {position = {0, 0},               direction = defines.direction.north},
-            {connection_type = "underground", position = {0, 0},                  direction = defines.direction.south, max_underground_distance = 48}
+            {
+                position = {0, 0},
+                direction = defines.direction.north,
+                connection_category = {"ht-pipes"}
+            },
+            {
+                connection_type = "underground",
+                position = {0, 0},
+                direction = defines.direction.south,
+                max_underground_distance = 48,
+                connection_category = {"ht-pipes"}
+            }
         },
         hide_connection_info = true,
         max_pipeline_extent = (data.raw.pipe.pipe.fluid_box.max_pipeline_extent or data.raw["utility-constants"].default.default_pipeline_extent) * 4
