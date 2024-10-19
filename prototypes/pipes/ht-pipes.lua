@@ -304,6 +304,8 @@ ITEM {
     stack_size = 50
 }
 
+data.raw["utility-constants"].default.default_pipeline_extent = 1280
+
 ENTITY {
     type = "pipe",
     name = "ht-pipes",
@@ -354,7 +356,7 @@ ENTITY {
             }
         },
         hide_connection_info = true,
-        max_pipeline_extent = (data.raw.pipe.pipe.fluid_box.max_pipeline_extent or data.raw["utility-constants"].default.default_pipeline_extent) * 4
+        max_pipeline_extent = 1280
     },
     pictures = py_pipepictures(),
     working_sound = {
@@ -414,7 +416,7 @@ ENTITY {
             }
         },
         hide_connection_info = true,
-        max_pipeline_extent = (data.raw.pipe.pipe.fluid_box.max_pipeline_extent or data.raw["utility-constants"].default.default_pipeline_extent) * 4
+        max_pipeline_extent = 1280
     },
     underground_sprite = {
         filename = "__core__/graphics/arrows/underground-lines.png",
