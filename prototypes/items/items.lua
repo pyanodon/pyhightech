@@ -1142,7 +1142,7 @@ ITEM {
 }
 ITEM {
     type = "item",
-    name = "py-fertilizer",
+    name = "fertilizer",
     icon = "__pyhightechgraphics__/graphics/icons/fertilizer.png",
     icon_size = 64,
     flags = {},

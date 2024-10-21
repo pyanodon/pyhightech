@@ -22,7 +22,7 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "fluid", name = "water",         amount = 100},
-        {type = "item",  name = "py-fertilizer", amount = 1},
+        {type = "item",  name = "fertilizer", amount = 1},
     },
     results = {
         {type = "fluid", name = "methane", amount = 80}

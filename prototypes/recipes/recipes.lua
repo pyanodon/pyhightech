@@ -1434,7 +1434,7 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "clay",           amount = 15},
         {type = "item",  name = "sand",           amount = 30},
-        {type = "item",  name = "py-fertilizer",  amount = 6},
+        {type = "item",  name = "fertilizer",  amount = 6},
         {type = "item",  name = "small-lamp",     amount = 1},
         {type = "fluid", name = "water",          amount = 60},
         {type = "fluid", name = "carbon-dioxide", amount = 600}
@@ -2334,7 +2334,7 @@ RECIPE {
     energy_required = 3.0,
     ingredients = {
         {type = "fluid", name = "water",         amount = 900},
-        {type = "item",  name = "py-fertilizer", amount = 4}
+        {type = "item",  name = "fertilizer", amount = 4}
     },
     results = {
         {type = "item", name = "fawogae", amount = 20}
@@ -2348,7 +2348,7 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item",  name = "py-fertilizer", amount = 2},
+        {type = "item",  name = "fertilizer", amount = 2},
         {type = "fluid", name = "water",         amount = 300}
     },
     results = {
@@ -2374,7 +2374,7 @@ RECIPE {
         {type = "item",  name = "organics", amount = 20}
     },
     results = {
-        {type = "item", name = "py-fertilizer", amount = 10}
+        {type = "item", name = "fertilizer", amount = 10}
     }
 }
 
