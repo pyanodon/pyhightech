@@ -47,9 +47,9 @@ ENTITY {
         pipe_covers = _G.pipecoverspictures(),
         volume = 200,
         pipe_connections = {
-            {position = {-4.3, 0}, direction = defines.direction.west},
-            {position = {4.3, 0},  direction = defines.direction.east},
-            {position = {0, 4.3},  direction = defines.direction.south}
+            {position = {-4.0, 0}, direction = defines.direction.west},
+            {position = {4.0, 0},  direction = defines.direction.east},
+            {position = {0, 4.0},  direction = defines.direction.south}
         }
     },
     module_slots = 4,

@@ -107,10 +107,10 @@ ENTITY {
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 200,
             pipe_connections = {
-                {position = {-3.2, 0.0}, direction = defines.direction.west},
-                {position = {3.2, 0.0},  direction = defines.direction.east},
-                {position = {0.0, -3.2}, direction = defines.direction.north},
-                {position = {0.0, 3.2},  direction = defines.direction.south}
+                {position = {-3.0, 0.0}, direction = defines.direction.west},
+                {position = {3.0, 0.0},  direction = defines.direction.east},
+                {position = {0.0, -3.0}, direction = defines.direction.north},
+                {position = {0.0, 3.0},  direction = defines.direction.south}
             }
         },
     },

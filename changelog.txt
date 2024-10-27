@@ -4,6 +4,7 @@ Date: soontm
   Changes:
     - Changed multipurpose pipe volume back to 100.
     - Fixed nuclear research technology.
+    - Fix certain pipe connections disconnecting with squeak through installed.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.1
 Date: 2024-10-21
