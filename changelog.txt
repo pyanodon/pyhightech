@@ -1,10 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.2
-Date: soontm
+Date: 2024-10-29
   Changes:
-    - Changed multipurpose pipe volume back to 100.
-    - Fixed nuclear research technology.
-    - Fix certain pipe connections disconnecting with squeak through installed.
+    - Changed multipurpose pipe volume back to 100. WARNING: If you have expensive fluids sitting in multipurpose pipes, they will be lost.
+    - Fixed nuclear research technology unlocking incorrect recipes.
+    - Fix certain pipe connections disconnecting with squeak through 2 installed.
+    - Removed ash
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.1
 Date: 2024-10-21
