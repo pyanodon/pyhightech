@@ -190,16 +190,9 @@ py.allow_productivity(recipes_list)
 data.raw["assembling-machine"]["centrifuge"].working_visualisations = nil
 
 if data.data_crawler then
-    if mods["pypetroleumhandling"] then
-        data.script_enabled = {
-            {type = "entity", name = "crash-site-assembling-machine-1-repaired"},
-            {type = "entity", name = "tar-patch"}
-        }
-    else
-        data.script_enabled = {
-            {type = "entity", name = "crash-site-assembling-machine-1-repaired"}
-        }
-    end
+    data.script_enabled = data.script_enabled or {}
+    table.insert(data.script_enabled, "crash-site-assembling-machine-1-repaired")
+    if mods["pypetroleumhandling"] then table.insert(data.script_enabled, "tar-patch") end
 end
 
 if register_cache_file ~= nil then
