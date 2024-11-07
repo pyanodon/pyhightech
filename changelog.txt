@@ -4,6 +4,7 @@ Date: 2024-11-7
   Changes:
     - Made most crafting machines flippable
     - Fixed unfriendly usage of YAFC's script_enabled table. Resolves https://github.com/pyanodon/pybugreports/issues/672
+    - Updated Uk translation
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.3
 Date: 2024-10-29
