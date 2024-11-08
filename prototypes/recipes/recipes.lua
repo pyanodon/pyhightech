@@ -3441,6 +3441,7 @@ if not mods["pyalienlife"] then
         subgroup = "py-hightech-tier-1",
         order = "aaa"
     }
+    RECIPE("inserter").enabled = true
 end
 
 RECIPE {
