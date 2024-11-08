@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.5
-Date: ?
+Date: 2024-11-8
   Changes:
     - Fixed a deadlock in MediumPy where the inserter recipe was not enabled or researchable, yet required to make progress.
 ---------------------------------------------------------------------------------------------------
