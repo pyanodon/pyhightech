@@ -131,7 +131,7 @@ RECIPE {
     results = {
         {type = "item",  name = "rich-dust",      amount = 5},
         {type = "fluid", name = "rare-earth-mud", amount = 250},
-        {type = "fluid", name = "steam",          amount = 2000, temperature = 150, catalyst_amount = 2000},
+        {type = "fluid", name = "steam",          amount = 2000, temperature = 150, ignored_by_productivity = 2000, ignored_by_stats = 2000},
         {type = "item",  name = "sand",           amount = 10}
     },
     main_product = "rare-earth-mud",
@@ -3132,7 +3132,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "critical-steam", amount = 20000, temperature = 5000},
         {type = "fluid", name = "helium",         amount = 500},
-        {type = "fluid", name = "steam",          amount = 5000,  temperature = 150, catalyst_amount = 5000}
+        {type = "fluid", name = "steam",          amount = 5000,  temperature = 150, ignored_by_productivity = 5000, ignored_by_stats = 5000}
     },
     --main_product= "blanket",
     icon = "__pyhightechgraphics__/graphics/icons/fusion-antimatter.png",
@@ -3154,7 +3154,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "pressured-steam", amount = 1000, temperature = 5000},
-        {type = "fluid", name = "steam",           amount = 400,  temperature = 150, catalyst_amount = 400}
+        {type = "fluid", name = "steam",           amount = 400,  temperature = 150, ignored_by_productivity = 400, ignored_by_stats = 400}
     },
     --main_product= "blanket",
     icon = "__pyhightechgraphics__/graphics/icons/steam-exchange5.png",
@@ -3414,7 +3414,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 550},
-        {type = "fluid", name = "steam",               amount = 500, temperature = 150, catalyst_amount = 500}
+        {type = "fluid", name = "steam",               amount = 500, temperature = 150, ignored_by_productivity = 500, ignored_by_stats = 500}
     },
     icon = "__pyhightechgraphics__/graphics/icons/combustion-methane.png",
     icon_size = 32,
@@ -3474,7 +3474,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 520},
-        {type = "fluid", name = "steam",               amount = 500, temperature = 150, catalyst_amount = 500}
+        {type = "fluid", name = "steam",               amount = 500, temperature = 150, ignored_by_productivity = 500, ignored_by_stats = 500}
     },
     icon = "__pyhightechgraphics__/graphics/icons/combustion-benzene.png",
     icon_size = 32,
@@ -3531,7 +3531,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 600},
-        {type = "fluid", name = "steam",               amount = 500, temperature = 150, catalyst_amount = 500}
+        {type = "fluid", name = "steam",               amount = 500, temperature = 150, ignored_by_productivity = 500, ignored_by_stats = 500}
     },
     icon = "__pyhightechgraphics__/graphics/icons/combustion-tall-oil.png",
     icon_size = 32,
