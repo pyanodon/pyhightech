@@ -210,7 +210,7 @@ ENTITY {
   open_sound = sounds.cargo_wagon_open,
   close_sound = sounds.cargo_wagon_close,
   sound_minimum_speed = 1,
-  vehicle_impact_sound = sounds.generic_impact,
+  impact_category = "default",
   --equipment_grid = "mk03-train-equipment-grid",
   water_reflection = {
     pictures =
