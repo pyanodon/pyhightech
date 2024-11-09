@@ -16,7 +16,7 @@ RECIPE {
     icons =
     {
         {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32, scale = 2},
-        {icon = "__base__/graphics/icons/sulfur.png",                   scale = 0.5,    icon_size = 64, icon_mipmaps = 4}
+        {icon = "__base__/graphics/icons/sulfur.png",                   scale = 0.5,    icon_size = 64}
     },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -141,7 +141,7 @@ RECIPE {
     icons =
     {
         {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-        {icon = "__base__/graphics/icons/coal.png",                     icon_size = 64, scale = 0.25, icon_mipmaps = 4}
+        {icon = "__base__/graphics/icons/coal.png",                     icon_size = 64, scale = 0.25}
     },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
@@ -266,7 +266,7 @@ RECIPE {
     icons =
     {
         {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
-        {icon = "__base__/graphics/icons/uranium-ore.png",              icon_size = 64, scale = 0.25, icon_mipmaps = 4}
+        {icon = "__base__/graphics/icons/uranium-ore.png",              icon_size = 64, scale = 0.25}
     },
     icon_size = 32,
     subgroup = "py-hightech-recipes",
