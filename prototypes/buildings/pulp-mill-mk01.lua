@@ -59,7 +59,6 @@ ENTITY {
     collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
     forced_symmetry = "diagonal-pos",
-    match_animation_speed_to_activity = false,
     module_slots = 1,
     allowed_effects = {"consumption", "speed", "pollution", "productivity"},
     crafting_categories = {"pulp"},
