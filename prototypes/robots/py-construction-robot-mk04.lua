@@ -2,7 +2,7 @@ local sounds = require "__base__/prototypes/entity/sounds"
 
 RECIPE {
   type = "recipe",
-  name = "construction-robot-ht",
+  name = "py-construction-robot-mk04",
   energy_required = 15,
   category = "crafting-with-fluid",
   enabled = false,
@@ -16,31 +16,31 @@ RECIPE {
     {type = "fluid", name = "grease",                        amount = 300}
   },
   results = {
-    {type = "item", name = "construction-robot-ht", amount = 1}
+    {type = "item", name = "py-construction-robot-mk04", amount = 1}
   }
 }
 
 ITEM {
   type = "item",
-  name = "construction-robot-ht",
+  name = "py-construction-robot-mk04",
   icon = "__pyhightechgraphics__/graphics/icons/construction-robot-ht.png",
   icon_size = 32,
   flags = {},
   subgroup = "py-hightech-items",
   order = "d",
-  place_result = "construction-robot-ht",
+  place_result = "py-construction-robot-mk04",
   stack_size = 50
 }:subgroup_order("py-robots", "h")
 
 ENTITY {
   type = "construction-robot",
-  name = "construction-robot-ht",
+  name = "py-construction-robot-mk04",
   icon = "__pyhightechgraphics__/graphics/icons/construction-robot-ht.png",
   icon_size = 32,
   flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
   minable = {
     mining_time = 0.1,
-    result = "construction-robot-ht"
+    result = "py-construction-robot-mk04"
   },
   resistances = {{type = "fire", percent = 85}},
   max_health = 20,

@@ -69,8 +69,8 @@ require "prototypes/recipes/recipes-particle"
 require "prototypes/items/items"
 
 --(( ROBOTS ))--
-require "prototypes/robots/construction-robot-ht"
-require "prototypes/robots/logistic-robot-ht"
+require "prototypes/robots/py-construction-robot-mk04"
+require "prototypes/robots/py-logistic-robot-mk04"
 
 --(( BUILDINGS ))--
 require "prototypes/buildings/phosphate-mine"
