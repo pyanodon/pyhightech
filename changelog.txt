@@ -3,6 +3,7 @@ Version: 3.0.8
 Date: 2024-11-18
   Locale:
     - Swapped resistor1 and resistor3's description to be accurate to the name
+    - Removed black liquor canisters since it no longer has a fuel value
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.7
 Date: 2024-11-14
