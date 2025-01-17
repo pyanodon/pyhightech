@@ -56,7 +56,7 @@ ENTITY {
   min_to_charge = 0.2,
   max_to_charge = 0.95,
   idle = {
-    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/hr-i.png",
+    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/i.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -68,7 +68,7 @@ ENTITY {
     scale = 0.5
   },
   idle_with_cargo = {
-    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/hr-ic.png",
+    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/ic.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -79,7 +79,7 @@ ENTITY {
     scale = 0.5
   },
   in_motion = {
-    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/hr-r.png",
+    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/r.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -90,7 +90,7 @@ ENTITY {
     scale = 0.5
   },
   in_motion_with_cargo = {
-    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/hr-rc.png",
+    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/rc.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -101,7 +101,7 @@ ENTITY {
     scale = 0.5
   },
   shadow_idle = {
-    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/hr-sh.png",
+    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/sh.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -113,7 +113,7 @@ ENTITY {
     scale = 0.5
   },
   shadow_idle_with_cargo = {
-    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/hr-sh.png",
+    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/sh.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -125,7 +125,7 @@ ENTITY {
     scale = 0.5
   },
   shadow_in_motion = {
-    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/hr-sh.png",
+    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/sh.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -137,7 +137,7 @@ ENTITY {
     scale = 0.5
   },
   shadow_in_motion_with_cargo = {
-    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/hr-sh.png",
+    filename = "__pyhightechgraphics__/graphics/entity/logistic-robot-ht/sh.png",
     priority = "high",
     line_length = 8,
     width = 192,

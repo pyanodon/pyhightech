@@ -57,7 +57,7 @@ ENTITY {
   max_to_charge = 0.95,
   working_light = {intensity = 0.8, size = 3, color = {r = 0.8, g = 0.8, b = 0.9}},
   idle = {
-    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-i.png",
+    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/i.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -68,7 +68,7 @@ ENTITY {
     scale = 0.5
   },
   in_motion = {
-    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-r.png",
+    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/r.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -79,7 +79,7 @@ ENTITY {
     scale = 0.5
   },
   shadow_idle = {
-    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-s.png",
+    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/s.png",
     priority = "high",
     line_length = 8,
     width = 160,
@@ -91,7 +91,7 @@ ENTITY {
     scale = 0.5
   },
   shadow_in_motion = {
-    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-s.png",
+    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/s.png",
     priority = "high",
     line_length = 8,
     width = 160,
@@ -103,7 +103,7 @@ ENTITY {
     scale = 0.5
   },
   working = {
-    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-w.png",
+    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/w.png",
     priority = "high",
     line_length = 8,
     width = 192,
@@ -114,7 +114,7 @@ ENTITY {
     scale = 0.5
   },
   shadow_working = {
-    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/hr-s.png",
+    filename = "__pyhightechgraphics__/graphics/entity/construction-robot-ht/s.png",
     priority = "high",
     line_length = 8,
     width = 160,

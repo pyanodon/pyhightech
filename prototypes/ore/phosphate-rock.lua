@@ -81,7 +81,7 @@ data:extend {{
     stage_counts = {0},
     stages = {
         sheet = {
-            filename = "__pyhightechgraphics__/graphics/entity/ores/hr-ancient-remains.png",
+            filename = "__pyhightechgraphics__/graphics/entity/ores/ancient-remains.png",
             priority = "extra-high",
             width = 576,
             height = 576,
