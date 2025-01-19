@@ -339,22 +339,22 @@ ENTITY {
             {
                 position = {0, 0},
                 direction = defines.direction.north,
-                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
                 position = {0, 0},
-                direction = defines.direction.east, 
-                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
+                direction = defines.direction.east,
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
                 position = {0, 0},
                 direction = defines.direction.south,
-                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
                 position = {0, 0},
                 direction = defines.direction.west,
-                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             }
         },
         hide_connection_info = true,

@@ -21,7 +21,7 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "water",         amount = 100},
+        {type = "fluid", name = "water",      amount = 100},
         {type = "item",  name = "fertilizer", amount = 1},
     },
     results = {
