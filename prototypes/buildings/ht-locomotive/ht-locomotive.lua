@@ -243,7 +243,7 @@ ENTITY {
                     },
                     line_length = 4,
                     lines_per_file = 4,
-                    shift = util.by_pixel(0, -5),
+                    shift = util.by_pixel(48, 12),
                     scale = 0.52
                 }
             }
