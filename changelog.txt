@@ -3,6 +3,7 @@ Version: 3.0.11
 Date: ?
   Changes:
     - Renamed all 4 stages of electronics technology to use "Stage - N" pattern.
+    - Fixed incorrect locale keys for the Electronics - Stage 3 technology.
     - Fixed wrong graphics for locomotive MK03 shadow. Resolves https://github.com/pyanodon/pybugreports/issues/827
     - Migrated the internal name of the "vacuum-tube-electronics" technology to "electronics". Resolves https://github.com/pyanodon/pybugreports/issues/453
     - Migrated the internal name of the "railway-mk01" technology to "railway". Resolves https://github.com/pyanodon/pybugreports/issues/453
