@@ -281,7 +281,7 @@ RECIPE {
         {type = "item", name = "inductor1", amount = 5}
     },
     main_product = "inductor1"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -297,7 +297,7 @@ RECIPE {
         {type = "item", name = "capacitor1", amount = 3}
     },
     main_product = "capacitor1"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -313,7 +313,7 @@ RECIPE {
         {type = "item", name = "resistor1", amount = 3}
     },
     main_product = "resistor1"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -328,7 +328,7 @@ RECIPE {
         {type = "item", name = "graphite", amount = 2}
     },
     main_product = "graphite"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -346,7 +346,7 @@ RECIPE {
         {type = "item", name = "vacuum-tube", amount = 2}
     },
     main_product = "vacuum-tube"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -384,7 +384,7 @@ RECIPE {
         {type = "item", name = "formica", amount = 1}
     },
     main_product = "formica"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -417,7 +417,7 @@ RECIPE {
         {type = "item", name = "pcb1", amount = 1}
     },
     main_product = "pcb1"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -438,7 +438,7 @@ RECIPE {
     main_product = "electronic-circuit",
     subgroup = "py-hightech-tier-1",
     order = "aab"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",

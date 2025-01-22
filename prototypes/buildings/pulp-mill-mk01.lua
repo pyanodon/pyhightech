@@ -31,7 +31,7 @@ RECIPE {
     results = {
         {type = "item", name = "pulp-mill-mk01", amount = 1}
     }
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 ITEM {
     type = "item",

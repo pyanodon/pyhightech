@@ -53,7 +53,7 @@ require "prototypes/technologies/semiconductor-doping"
 require "prototypes/technologies/supercapacitor"
 require "prototypes/technologies/superconductor"
 require "prototypes/technologies/ulric"
-require "prototypes/technologies/vacuum-tube-electronics"
+require "prototypes/technologies/electronics"
 require "prototypes/technologies/zipir"
 require "prototypes/technologies/zno-nanoparticles"
 
