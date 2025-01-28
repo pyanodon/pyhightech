@@ -320,7 +320,7 @@ ENTITY {
             volume = 0.40
         },
         match_speed_to_activity = true,
-        max_sounds_per_type = 2,
+        max_sounds_per_prototype = 2,
         -- use_doppler_shift = false
     },
     open_sound = {filename = "__pyhightechgraphics__/sounds/ht-locomotive-open.ogg", volume = 0.5},
