@@ -25,7 +25,7 @@ ENTITY {
     alert_icon_shift = util.by_pixel(-3, -12),
     integration_patch_render_layer = "decals",
     integration_patch = {
-        filename = "__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-ground.png",
+        filename = "__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-ground.png",
         priority = "very-low",
         width = 446,
         height = 234,
@@ -39,7 +39,7 @@ ENTITY {
         working_visualisations = {
             {
                 animation = {
-                    filename = "__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-light.png",
+                    filename = "__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired-light.png",
                     priority = "very-low",
                     width = 162,
                     height = 120,
@@ -55,7 +55,7 @@ ENTITY {
         animation = {
             layers = {
                 {
-                    filename = "__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/hr-crash-site-assembling-machine-1-repaired-shadow.png",
+                    filename = "__pyhightechgraphics__/graphics/entity/crash-site-assembling-machine/crash-site-assembling-machine-1-repaired-shadow.png",
                     priority = "very-low",
                     width = 278,
                     height = 168,
@@ -93,10 +93,10 @@ ENTITY {
             pipe_connections = {{flow_direction = "output", position = {-1, 1.0}, direction = defines.direction.south}}
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {{filename = "__pyhightechgraphics__/sounds/assembling-machine-repaired-1.ogg", volume = 0.8}}
         -- idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.3 },
-        -- max_sounds_per_type = 2,
+        -- max_sounds_per_prototype = 2,
     }
 }

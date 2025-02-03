@@ -53,7 +53,7 @@ require "prototypes/technologies/semiconductor-doping"
 require "prototypes/technologies/supercapacitor"
 require "prototypes/technologies/superconductor"
 require "prototypes/technologies/ulric"
-require "prototypes/technologies/vacuum-tube-electronics"
+require "prototypes/technologies/electronics"
 require "prototypes/technologies/zipir"
 require "prototypes/technologies/zno-nanoparticles"
 
@@ -69,8 +69,8 @@ require "prototypes/recipes/recipes-particle"
 require "prototypes/items/items"
 
 --(( ROBOTS ))--
-require "prototypes/robots/construction-robot-ht"
-require "prototypes/robots/logistic-robot-ht"
+require "prototypes/robots/py-construction-robot-mk04"
+require "prototypes/robots/py-logistic-robot-mk04"
 
 --(( BUILDINGS ))--
 require "prototypes/buildings/phosphate-mine"
@@ -165,4 +165,3 @@ data.raw.fluid["ethylene"].fuel_value = "1MJ"
 data.raw.fluid["methane"].fuel_value = "0.8MJ"
 data.raw.fluid["propene"].fuel_value = "1MJ"
 data.raw.fluid["tall-oil"].fuel_value = "1MJ"
-data.raw.fluid["black-liquor"].fuel_value = "500kJ"

@@ -40,7 +40,6 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-2.2, -2.2}, {2.2, 2.2}},
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
-    match_animation_speed_to_activity = false,
     module_slots = 2,
     allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
     crafting_categories = {"chip"},
@@ -126,7 +125,7 @@ ENTITY {
             }
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/chipshooter.ogg", volume = 0.9},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/chipshooter.ogg", volume = 0.3},

@@ -41,7 +41,6 @@ ENTITY {
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     forced_symmetry = "diagonal-pos",
     forced_symmetry = "diagonal-pos",
-    match_animation_speed_to_activity = false,
     module_slots = 1,
     allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
     crafting_categories = {"moon"},
@@ -126,7 +125,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {-4.0, 0.0}, direction = defines.direction.west}}
         },
         {
@@ -134,7 +132,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {0.0, 4.0}, direction = defines.direction.south}}
         },
         {
@@ -152,7 +149,7 @@ ENTITY {
             pipe_connections = {{flow_direction = "output", position = {0.0, -4.0}, direction = defines.direction.north}}
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 1.5},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 0.3},

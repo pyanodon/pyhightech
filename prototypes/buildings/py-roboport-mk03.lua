@@ -159,11 +159,10 @@ ENTITY {
         shift = util.by_pixel(-0, -0),
         animation_speed = 0.5
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
-        sound = {filename = "__base__/sound/roboport-working.ogg", volume = 0.6},
-        max_sounds_per_type = 3,
-        audible_distance_modifier = 0.5,
+        sound = {filename = "__base__/sound/roboport-working.ogg", volume = 0.6, audible_distance_modifier = 0.5,},
+        max_sounds_per_prototype = 3,
         probability = 1 / (5 * 60) -- average pause between the sound is 5 seconds
     },
     recharging_light = {intensity = 0.4, size = 5, color = {r = 1.0, g = 1.0, b = 1.0}},
@@ -183,8 +182,10 @@ ENTITY {
             sound = {filename = "__base__/sound/roboport-door.ogg", volume = 0.4}
         }
     },
-    circuit_wire_connection_point = _G.circuit_connector_definitions["roboport"].points,
-    circuit_connector_sprites = _G.circuit_connector_definitions["roboport"].sprites,
+    circuit_connector = {
+        sprites = _G.circuit_connector_definitions["roboport"].sprites,
+        points = _G.circuit_connector_definitions["roboport"].points
+    },
     circuit_wire_max_distance = _G.default_circuit_wire_max_distance,
     default_available_logistic_output_signal = {type = "virtual", name = "signal-X"},
     default_total_logistic_output_signal = {type = "virtual", name = "signal-Y"},

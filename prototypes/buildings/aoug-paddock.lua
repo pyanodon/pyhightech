@@ -38,7 +38,6 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-3.6, -3.6}, {3.6, 3.6}},
     selection_box = {{-4.0, -4.0}, {4.0, 4.0}},
-    match_animation_speed_to_activity = false,
     module_slots = 1,
     allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
     crafting_categories = {"auog"},
@@ -75,7 +74,7 @@ ENTITY {
             }
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/auog-paddock.ogg", volume = 1.5},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/auog-paddock.ogg", volume = 0.3},

@@ -1,4 +1,45 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.0.11
+Date: ?
+  Changes:
+    - Renamed all 4 stages of electronics technology to use "Stage - N" pattern.
+    - Fixed incorrect locale keys for the Electronics - Stage 3 technology.
+    - Fixed wrong graphics for locomotive MK03 shadow. Resolves https://github.com/pyanodon/pybugreports/issues/827
+    - Migrated the internal name of the "vacuum-tube-electronics" technology to "electronics". Resolves https://github.com/pyanodon/pybugreports/issues/453
+    - Migrated the internal name of the "railway-mk01" technology to "railway". Resolves https://github.com/pyanodon/pybugreports/issues/453
+---------------------------------------------------------------------------------------------------
+Version: 3.0.10
+Date: 2025-1-20
+  Changes:
+    - Removed all legacy low-res graphic files from pyanodon.
+    - Removed hyphens from most item, fluid, entity, and recipe names in order to aid in itemsearch.
+---------------------------------------------------------------------------------------------------
+Version: 3.0.9
+Date: 2025-1-2
+  Changes:
+    - Zinc acetate and rayon now admit prod modules, just like in 1.1
+---------------------------------------------------------------------------------------------------
+Version: 3.0.8
+Date: 2024-11-18
+  Locale:
+    - Swapped resistor1 and resistor3's description to be accurate to the name
+    - Removed black liquor canisters since it no longer has a fuel value
+---------------------------------------------------------------------------------------------------
+Version: 3.0.7
+Date: 2024-11-14
+  Changes:
+    - Fixed vechicle impact sounds were missing due to 2.0 migration.
+---------------------------------------------------------------------------------------------------
+Version: 3.0.6
+Date: 2024-11-9
+  Changes:
+    - Fixed particle accelerators accepting efficiency modules.
+---------------------------------------------------------------------------------------------------
+Version: 3.0.5
+Date: 2024-11-8
+  Changes:
+    - Fixed a deadlock in MediumPy where the inserter recipe was not enabled or researchable, yet required to make progress.
+---------------------------------------------------------------------------------------------------
 Version: 3.0.4
 Date: 2024-11-7
   Changes:

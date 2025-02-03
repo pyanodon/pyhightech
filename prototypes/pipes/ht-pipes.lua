@@ -339,22 +339,22 @@ ENTITY {
             {
                 position = {0, 0},
                 direction = defines.direction.north,
-                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
                 position = {0, 0},
-                direction = defines.direction.east, 
-                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
+                direction = defines.direction.east,
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
                 position = {0, 0},
                 direction = defines.direction.south,
-                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
                 position = {0, 0},
                 direction = defines.direction.west,
-                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY 
+                connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             }
         },
         hide_connection_info = true,
@@ -369,7 +369,7 @@ ENTITY {
             }
         },
         match_volume_to_activity = true,
-        max_sounds_per_type = 3
+        max_sounds_per_prototype = 3
     },
     horizontal_window_bounding_box = {{-0.0001, -0.0001}, {0.0001, 0.0001}},
     vertical_window_bounding_box = {{-0.0001, -0.0001}, {0.0001, 0.0001}}

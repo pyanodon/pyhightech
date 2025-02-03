@@ -131,7 +131,7 @@ RECIPE {
     results = {
         {type = "item",  name = "rich-dust",      amount = 5},
         {type = "fluid", name = "rare-earth-mud", amount = 250},
-        {type = "fluid", name = "steam",          amount = 2000, temperature = 150, catalyst_amount = 2000},
+        {type = "fluid", name = "steam",          amount = 2000, temperature = 150, ignored_by_productivity = 2000, ignored_by_stats = 2000},
         {type = "item",  name = "sand",           amount = 10}
     },
     main_product = "rare-earth-mud",
@@ -281,7 +281,7 @@ RECIPE {
         {type = "item", name = "inductor1", amount = 5}
     },
     main_product = "inductor1"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -297,7 +297,7 @@ RECIPE {
         {type = "item", name = "capacitor1", amount = 3}
     },
     main_product = "capacitor1"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -313,7 +313,7 @@ RECIPE {
         {type = "item", name = "resistor1", amount = 3}
     },
     main_product = "resistor1"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -328,7 +328,7 @@ RECIPE {
         {type = "item", name = "graphite", amount = 2}
     },
     main_product = "graphite"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -346,7 +346,7 @@ RECIPE {
         {type = "item", name = "vacuum-tube", amount = 2}
     },
     main_product = "vacuum-tube"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -384,7 +384,7 @@ RECIPE {
         {type = "item", name = "formica", amount = 1}
     },
     main_product = "formica"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -417,7 +417,7 @@ RECIPE {
         {type = "item", name = "pcb1", amount = 1}
     },
     main_product = "pcb1"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -438,7 +438,7 @@ RECIPE {
     main_product = "electronic-circuit",
     subgroup = "py-hightech-tier-1",
     order = "aab"
-}:add_unlock("vacuum-tube-electronics")
+}:add_unlock("electronics")
 
 RECIPE {
     type = "recipe",
@@ -1434,7 +1434,7 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "clay",           amount = 15},
         {type = "item",  name = "sand",           amount = 30},
-        {type = "item",  name = "fertilizer",  amount = 6},
+        {type = "item",  name = "fertilizer",     amount = 6},
         {type = "item",  name = "small-lamp",     amount = 1},
         {type = "fluid", name = "water",          amount = 60},
         {type = "fluid", name = "carbon-dioxide", amount = 600}
@@ -2333,7 +2333,7 @@ RECIPE {
     enabled = false,
     energy_required = 3.0,
     ingredients = {
-        {type = "fluid", name = "water",         amount = 900},
+        {type = "fluid", name = "water",      amount = 900},
         {type = "item",  name = "fertilizer", amount = 4}
     },
     results = {
@@ -2349,7 +2349,7 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "item",  name = "fertilizer", amount = 2},
-        {type = "fluid", name = "water",         amount = 300}
+        {type = "fluid", name = "water",      amount = 300}
     },
     results = {
         {type = "item", name = "log", amount = 3}
@@ -3132,7 +3132,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "critical-steam", amount = 20000, temperature = 5000},
         {type = "fluid", name = "helium",         amount = 500},
-        {type = "fluid", name = "steam",          amount = 5000,  temperature = 150, catalyst_amount = 5000}
+        {type = "fluid", name = "steam",          amount = 5000,  temperature = 150, ignored_by_productivity = 5000, ignored_by_stats = 5000}
     },
     --main_product= "blanket",
     icon = "__pyhightechgraphics__/graphics/icons/fusion-antimatter.png",
@@ -3154,7 +3154,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "pressured-steam", amount = 1000, temperature = 5000},
-        {type = "fluid", name = "steam",           amount = 400,  temperature = 150, catalyst_amount = 400}
+        {type = "fluid", name = "steam",           amount = 400,  temperature = 150, ignored_by_productivity = 400, ignored_by_stats = 400}
     },
     --main_product= "blanket",
     icon = "__pyhightechgraphics__/graphics/icons/steam-exchange5.png",
@@ -3414,7 +3414,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 550},
-        {type = "fluid", name = "steam",               amount = 500, temperature = 150, catalyst_amount = 500}
+        {type = "fluid", name = "steam",               amount = 500, temperature = 150, ignored_by_productivity = 500, ignored_by_stats = 500}
     },
     icon = "__pyhightechgraphics__/graphics/icons/combustion-methane.png",
     icon_size = 32,
@@ -3441,6 +3441,7 @@ if not mods["pyalienlife"] then
         subgroup = "py-hightech-tier-1",
         order = "aaa"
     }
+    RECIPE("inserter").enabled = true
 end
 
 RECIPE {
@@ -3473,7 +3474,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 520},
-        {type = "fluid", name = "steam",               amount = 500, temperature = 150, catalyst_amount = 500}
+        {type = "fluid", name = "steam",               amount = 500, temperature = 150, ignored_by_productivity = 500, ignored_by_stats = 500}
     },
     icon = "__pyhightechgraphics__/graphics/icons/combustion-benzene.png",
     icon_size = 32,
@@ -3530,7 +3531,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "combustion-mixture1", amount = 150, temperature = 600},
-        {type = "fluid", name = "steam",               amount = 500, temperature = 150, catalyst_amount = 500}
+        {type = "fluid", name = "steam",               amount = 500, temperature = 150, ignored_by_productivity = 500, ignored_by_stats = 500}
     },
     icon = "__pyhightechgraphics__/graphics/icons/combustion-tall-oil.png",
     icon_size = 32,

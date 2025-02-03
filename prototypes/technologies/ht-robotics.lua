@@ -7,8 +7,8 @@ TECHNOLOGY {
     prerequisites = {"construction-robotics", "logistic-robotics"},
     dependencies = {"construction-robotics", "logistic-robotics"},
     effects = {
-        {type = "unlock-recipe", recipe = "construction-robot-ht"},
-        {type = "unlock-recipe", recipe = "logistic-robot-ht"},
+        {type = "unlock-recipe", recipe = "py-construction-robot-mk04"},
+        {type = "unlock-recipe", recipe = "py-logistic-robot-mk04"},
     },
     unit = {
         count = 250,

@@ -59,7 +59,6 @@ ENTITY {
     collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
     forced_symmetry = "diagonal-pos",
-    match_animation_speed_to_activity = false,
     module_slots = 4,
     allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
     crafting_categories = {"pulp"},
@@ -105,7 +104,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {-1.0, -4.04}, nil, nil, pipe_right),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {1.0, 2.0}, direction = defines.direction.south}}
         },
         {
@@ -113,7 +111,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {-1.0, -4.04}, nil, nil, pipe_right),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {-1.0, -2.0}, direction = defines.direction.north}}
         },
         {
@@ -121,7 +118,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {-1.0, -4.04}, nil, nil, pipe_right),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {2.0, -1.0}, direction = defines.direction.east}}
         },
         {
@@ -129,7 +125,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {-1.0, -4.04}, nil, nil, pipe_right),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {-2.0, 1.0}, direction = defines.direction.west}}
         },
         {
@@ -161,7 +156,7 @@ ENTITY {
             pipe_connections = {{flow_direction = "output", position = {2.0, 1.0}, direction = defines.direction.east}}
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/pulp-mill.ogg", volume = 0.8},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/pulp-mill.ogg", volume = 0.3},

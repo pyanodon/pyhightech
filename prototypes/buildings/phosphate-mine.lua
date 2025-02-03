@@ -82,9 +82,8 @@ ENTITY {
         width = 12,
         height = 12
     },
-    circuit_wire_connection_points = circuit_connector_definitions["phosphate-mine"].points,
-    circuit_connector_sprites = circuit_connector_definitions["phosphate-mine"].sprites,
-    circuit_wire_max_distance = default_circuit_wire_max_distance,
+    circuit_connector = circuit_connector_definitions["phosphate-mine"],
+    circuit_wire_max_distance = _G.default_circuit_wire_max_distance,
     graphics_set = {
         animation = {
             layers = {
@@ -129,7 +128,7 @@ ENTITY {
             }
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/phosphate-mine.ogg", volume = 1.0},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/phosphate-mine.ogg", volume = 0.3},

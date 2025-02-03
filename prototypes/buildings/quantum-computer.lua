@@ -44,7 +44,6 @@ ENTITY {
     collision_box = {{-5.7, -5.7}, {5.7, 5.7}},
     selection_box = {{-6, -6}, {6, 6}},
     forced_symmetry = "diagonal-pos",
-    match_animation_speed_to_activity = false,
     module_slots = 1,
     allowed_effects = {"consumption", "speed", "pollution", "productivity"},
     crafting_categories = {"quantum"},
@@ -103,7 +102,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {2.5, 5.5}, direction = defines.direction.south}}
         },
         {
@@ -111,11 +109,10 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {-2.5, 5.5}, direction = defines.direction.south}}
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/quantum-computer.ogg", volume = 1.4},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/quantum-computer.ogg", volume = 1.0},

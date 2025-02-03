@@ -49,7 +49,6 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-4.2, -4.2}, {4.2, 4.2}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
-    match_animation_speed_to_activity = false,
     module_slots = 1,
     allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
     crafting_categories = {"zipir"},
@@ -157,7 +156,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {0.0, 4.0}, direction = defines.direction.south}}
         },
         {
@@ -165,7 +163,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {4.0, 0.0}, direction = defines.direction.east}}
         },
         {
@@ -183,7 +180,7 @@ ENTITY {
             pipe_connections = {{flow_direction = "output", position = {-4.0, 0.0}, direction = defines.direction.west}}
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/zipir.ogg", volume = 1.5},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/zipir.ogg", volume = 0.3},

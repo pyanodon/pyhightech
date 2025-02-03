@@ -43,9 +43,9 @@ ENTITY {
     collision_box = {{-5.6, -5.6}, {5.6, 5.6}},
     selection_box = {{-6.0, -6.0}, {6.0, 6.0}},
     forced_symmetry = "diagonal-pos",
-    match_animation_speed_to_activity = false,
     module_slots = 1,
     allowed_effects = {"consumption", "speed", "pollution", "productivity"},
+    allowed_module_categories = {"productivity", "speed", "quality"},
     crafting_categories = {"pa"},
     crafting_speed = 1,
     energy_source = {
@@ -161,7 +161,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {3.5, 5.5}, direction = defines.direction.south}}
         },
         {
@@ -169,7 +168,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {0.5, 5.5}, direction = defines.direction.south}}
         },
         {
@@ -177,7 +175,6 @@ ENTITY {
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            base_level = -1,
             pipe_connections = {{flow_direction = "input", position = {-3.5, 5.5}, direction = defines.direction.south}}
         },
         {
@@ -195,7 +192,7 @@ ENTITY {
             pipe_connections = {{flow_direction = "output", position = {-2.5, -5.5}, direction = defines.direction.north}}
         },
     },
-    vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact-1.ogg", volume = 0.65},
+    impact_category = "metal-large",
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 1.5},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 0.3},
