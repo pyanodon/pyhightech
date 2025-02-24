@@ -7,6 +7,7 @@ Date: ?
     - Fixed wrong graphics for locomotive MK03 shadow. Resolves https://github.com/pyanodon/pybugreports/issues/827
     - Migrated the internal name of the "vacuum-tube-electronics" technology to "electronics". Resolves https://github.com/pyanodon/pybugreports/issues/453
     - Migrated the internal name of the "railway-mk01" technology to "railway". Resolves https://github.com/pyanodon/pybugreports/issues/453
+    - Updated Ukrainian translation.
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.10
 Date: 2025-1-20
