@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.11
-Date: ?
+Date: 2025-2-26
   Changes:
     - Renamed all 4 stages of electronics technology to use "Stage - N" pattern.
     - Fixed incorrect locale keys for the Electronics - Stage 3 technology.
