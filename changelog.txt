@@ -8,6 +8,7 @@ Date: ?
     - Migrated the internal name of the "vacuum-tube-electronics" technology to "electronics". Resolves https://github.com/pyanodon/pybugreports/issues/453
     - Migrated the internal name of the "railway-mk01" technology to "railway". Resolves https://github.com/pyanodon/pybugreports/issues/453
     - Updated Ukrainian translation.
+    - Added vector_to_place_result for clay pits. Resolves https://github.com/pyanodon/pybugreports/issues/866
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.10
 Date: 2025-1-20
