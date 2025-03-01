@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.0.12
+Date: ???
+  Changes:
+    - Fixed fluid mining drills not working when connected to pipelines with low fluid level
+---------------------------------------------------------------------------------------------------
 Version: 3.0.11
 Date: 2025-2-26
   Changes:

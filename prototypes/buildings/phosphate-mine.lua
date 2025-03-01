@@ -42,7 +42,6 @@ ENTITY {
     collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     input_fluid_box = {
-        production_type = "input-output",
         pipe_picture = _G.assembler2pipepictures(),
         pipe_covers = _G.pipecoverspictures(),
         volume = 200,
