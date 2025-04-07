@@ -287,10 +287,10 @@ RECIPE {
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {"ht-pipes", 10}
+        {type = "item", name = "ht-pipes", amount = 10}
     },
     results = {
-        {"ht-pipes-to-ground", 2}
+        {type = "item", name = "ht-pipes-to-ground", amount = 2}
     }
 }:add_unlock("coal-processing-3")
 
