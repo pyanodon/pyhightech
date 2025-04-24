@@ -1,6 +1,6 @@
 TECHNOLOGY {
     type = "technology",
-    name = "nano-tech",
+    name = "quantum-processor",
     icon = "__pyhightechgraphics__/graphics/technology/nano-tech.png",
     icon_size = 128,
     order = "c-a",

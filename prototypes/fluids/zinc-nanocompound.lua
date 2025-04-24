@@ -11,7 +11,7 @@ RECIPE {
     results = {
         {type = "fluid", name = "zinc-nanocompound", amount = 50},
     },
-}:add_unlock("nano-tech"):add_ingredient {type = "item", name = "sodium-hydroxide", amount = 5}
+}:add_unlock("quantum-processor"):add_ingredient {type = "item", name = "sodium-hydroxide", amount = 5}
 
 FLUID {
     type = "fluid",

@@ -1423,7 +1423,7 @@ RECIPE {
     results = {
         {type = "item", name = "nanochip", amount = 2}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("quantum-processor")
 
 RECIPE {
     type = "recipe",
@@ -1790,7 +1790,7 @@ RECIPE {
     results = {
         {type = "item", name = "crco-alloy", amount = 1}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("quantum-processor")
 
 RECIPE {
     type = "recipe",
@@ -1826,7 +1826,7 @@ RECIPE {
     results = {
         {type = "item", name = "paradiamatic-resistor", amount = 1}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("quantum-processor")
 
 RECIPE {
     type = "recipe",
@@ -1942,7 +1942,7 @@ RECIPE {
     results = {
         {type = "item", name = "csle-diode", amount = 3}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("quantum-processor")
 
 RECIPE {
     type = "recipe",
@@ -2048,7 +2048,7 @@ RECIPE {
     results = {
         {type = "item", name = "nanocrystaline-core", amount = 1}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("quantum-processor")
 
 RECIPE {
     type = "recipe",
@@ -2066,7 +2066,7 @@ RECIPE {
     results = {
         {type = "item", name = "fault-current-inductor", amount = 1}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("quantum-processor")
 
 RECIPE {
     type = "recipe",
@@ -2159,7 +2159,7 @@ RECIPE {
     results = {
         {type = "item", name = "intelligent-unit", amount = 2}
     }
-}:add_unlock("nano-tech")
+}:add_unlock("quantum-processor")
 
 RECIPE {
     type = "recipe",

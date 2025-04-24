@@ -19,7 +19,7 @@ RECIPE("plastic3"):remove_unlock("plastics-mk02"):add_unlock("plastics-mk03")
 RECIPE("nylon-plastic"):remove_unlock("plastics-mk02"):add_unlock("plastics-mk03")
 RECIPE("plastics-mk03"):remove_unlock("plastics-mk03")
 RECIPE("plastic2"):remove_unlock("plastics-mk03")
-RECIPE("crco-alloy"):remove_unlock("nano-tech"):add_unlock("alloys-mk04")
+RECIPE("crco-alloy"):remove_unlock("quantum-processor"):add_unlock("alloys-mk04")
 
 -- RECIPE CHANGES
 RECIPE("fawogae-plantation-mk03"):replace_ingredient("treated-wood", "fiberboard")
