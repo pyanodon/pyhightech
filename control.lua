@@ -1,6 +1,6 @@
 require "__pypostprocessing__.lib"
 
-require "__core__/lualib/util"
+require "util"
 
 py.on_event(defines.events.on_cutscene_cancelled, function(event)
     if script.active_mods["pyalienlife"] then return end

@@ -41,7 +41,6 @@ ENTITY {
     collision_box = {{-4.2, -4.2}, {4.2, 4.2}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     forced_symmetry = "diagonal-pos",
-    forced_symmetry = "diagonal-pos",
     module_slots = 4,
     allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
     crafting_categories = {"moon"},
