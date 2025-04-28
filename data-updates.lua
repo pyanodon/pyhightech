@@ -202,6 +202,6 @@ if register_cache_file ~= nil then
     register_cache_file({"pycoalprocessing", "pyfusionenergy", "pyindustry", "pyrawores", "pyhightech"}, "__pyhightech__/cached-configs/pycoalprocessing+pyfusionenergy+pyhightech+pyindustry+pyrawores")
 end
 
-if mods["autotech"] and not mods["pyalienlife"] then
+if mods["dependency-graph-lib"] and not mods["pyalienlife"] then
     data.raw["assembling-machine"]["crash-site-assembling-machine-1-repaired"].autotech_startup = true
 end
