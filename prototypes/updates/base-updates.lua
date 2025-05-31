@@ -2,6 +2,10 @@
 data.raw.technology["processing-unit"].hidden = true
 data.raw.technology["processing-unit"].enabled = false
 
+if mods.quality then
+    TECHNOLOGY("recycling"):remove_prereq("processing-unit")
+end
+
 TECHNOLOGY("exoskeleton-equipment"):remove_prereq("processing-unit")
 TECHNOLOGY("power-armor"):remove_prereq("processing-unit")
 TECHNOLOGY("effect-transmission"):remove_prereq("processing-unit")
