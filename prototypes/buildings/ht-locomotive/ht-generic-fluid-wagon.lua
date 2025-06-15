@@ -49,7 +49,7 @@ ENTITY {
   max_speed = 1.7,
   braking_force = 25,
   friction_force = 0.40,
-  air_resistance = 0.0050,
+  air_resistance = 0.0060,
   connection_distance = 3,
   joint_distance = 4,
   energy_per_hit_point = 5,

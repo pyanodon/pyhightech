@@ -2,6 +2,7 @@
 Version: 3.0.8
 Date: ?
   Locale:
+    - Made mk02 cargo wagon equal to the mk02 fluid wagon
     - Swapped resistor1 and resistor3's description to be accurate to the name
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.7
