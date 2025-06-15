@@ -39,6 +39,7 @@ Date: 2025-1-2
 Version: 3.0.8
 Date: 2024-11-18
   Locale:
+    - Made mk02 cargo wagon equal to the mk02 fluid wagon
     - Swapped resistor1 and resistor3's description to be accurate to the name
     - Removed black liquor canisters since it no longer has a fuel value
 ---------------------------------------------------------------------------------------------------
