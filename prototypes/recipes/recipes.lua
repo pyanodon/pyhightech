@@ -3605,7 +3605,7 @@ RECIPE {
         {type = "item",  name = "nylon",         amount = 2},
     },
     results = {
-        {type = "item", name = "nexelit-battery", amount = 1}
+        {type = "item", name = "used-nexelit-battery", amount = 1}
     }
 }:add_unlock("py-accumulator-mk01")
 

@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.0.15
+Date: ???
+  Changes:
+    - Nexelit battery recipe now produces un-charged battery. (WARNING: BREAKING CHANGE)
+    - Nexelit-powered accumulator MK 01 now uses un-charged batteries. (WARNING: BREAKING CHANGE)
+---------------------------------------------------------------------------------------------------
 Version: 3.0.14
 Date: 2025-06-03
   Changes:
