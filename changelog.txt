@@ -2,6 +2,7 @@
 Version: 3.0.15
 Date: ???
   Changes:
+    - Increased ht-pipe-to-ground health to match vanilla pipe-to-ground's health
     - Nexelit battery recipe now produces un-charged battery. (WARNING: BREAKING CHANGE)
     - Nexelit-powered accumulator MK 01 now uses un-charged batteries. (WARNING: BREAKING CHANGE)
 ---------------------------------------------------------------------------------------------------

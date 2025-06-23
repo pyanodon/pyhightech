@@ -385,7 +385,7 @@ ENTITY {
         mining_time = 0.1,
         result = "ht-pipes-to-ground"
     },
-    max_health = 100,
+    max_health = 150,
     corpse = "small-remnants",
     resistances = {
         {
