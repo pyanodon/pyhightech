@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.15
-Date: ???
+Date: 2025-06-28
   Changes:
     - Increased ht-pipe-to-ground health to match vanilla pipe-to-ground's health
     - Nexelit battery recipe now produces un-charged battery. (WARNING: BREAKING CHANGE)
