@@ -230,7 +230,7 @@ RECIPE {
     results = {
         {type = "item",  name = "melamine",          amount = 20},
         {type = "fluid", name = "carbon-dioxide",    amount = 30},
-        {type = "fluid", name = "dirty-water-light", amount = 50}
+        {type = "fluid", name = "muddy-sludge", amount = 50}
     },
     main_product = "melamine"
 }
@@ -971,7 +971,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "graphene-roll",     amount = 5},
-        {type = "fluid", name = "dirty-water-light", amount = 50}
+        {type = "fluid", name = "muddy-sludge", amount = 50}
     },
     main_product = "graphene-roll"
 }:add_unlock("graphene")
@@ -1645,7 +1645,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "clean-rf-gel",      amount = 1},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100}
+        {type = "fluid", name = "tailings", amount = 100}
     },
     main_product = "clean-rf-gel"
 }:add_unlock("aerogel")
@@ -1901,7 +1901,7 @@ RECIPE {
     },
     results = {
         {type = "item",  name = "zinc-nanocomplex",  amount = 1},
-        {type = "fluid", name = "dirty-water-heavy", amount = 100}
+        {type = "fluid", name = "tailings", amount = 100}
     },
     main_product = "zinc-nanocomplex",
     icon = "__pyhightechgraphics__/graphics/icons/wash-zincnano.png",
@@ -3579,7 +3579,7 @@ RECIPE {
     energy_required = 6,
     ingredients = {
         {type = "item",  name = "clay",              amount = 20},
-        {type = "fluid", name = "dirty-water-light", amount = 100}
+        {type = "fluid", name = "muddy-sludge", amount = 100}
     },
     results = {
         {type = "item", name = "rich-clay", amount = 10}
