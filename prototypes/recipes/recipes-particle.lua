@@ -288,7 +288,7 @@ RECIPE {
         {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
     },
     main_product = "uranium-235",
-    icnos =
+    icons =
     {
         {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over"},
         {icon = "__base__/graphics/icons/uranium-235.png",         icon_size = 64, scale = 0.5}
