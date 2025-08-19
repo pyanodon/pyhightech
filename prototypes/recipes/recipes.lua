@@ -3130,16 +3130,15 @@ RECIPE {
         {type = "fluid", name = "water",           amount = 5000}
     },
     results = {
-        {type = "fluid", name = "critical-steam", amount = 20000, temperature = 5000},
-        {type = "fluid", name = "helium",         amount = 500},
-        {type = "fluid", name = "steam",          amount = 5000,  temperature = 150, ignored_by_productivity = 5000, ignored_by_stats = 5000}
+        {type = "fluid", name = "critical-steam", amount = 20000, temperature = 5000, show_details_in_recipe_tooltip = false},
+        {type = "fluid", name = "helium",         amount = 500, show_details_in_recipe_tooltip  = false},
+        {type = "fluid", name = "steam",          amount = 5000,  temperature = 150, ignored_by_productivity = 5000, ignored_by_stats = 5000, show_details_in_recipe_tooltip  = false}
     },
     --main_product= "blanket",
     icon = "__pyhightechgraphics__/graphics/icons/fusion-antimatter.png",
     icon_size = 32,
     subgroup = "py-fusion-items",
-    order = "e",
-    show_details_in_recipe_tooltip = false
+    order = "e"
 }:add_unlock("fusion-mk04")
 
 RECIPE {
