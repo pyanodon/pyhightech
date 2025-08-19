@@ -290,7 +290,7 @@ RECIPE {
     main_product = "uranium-235",
     icons =
     {
-        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over"},
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
         {icon = "__base__/graphics/icons/uranium-235.png",         icon_size = 64, scale = 0.5}
     },
     icon_size = 32,
