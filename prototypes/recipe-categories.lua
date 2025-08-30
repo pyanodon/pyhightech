@@ -1,4 +1,4 @@
-data:extend {
+data:extend({
     {
         type = "resource-category",
         name = "phosphate"
@@ -71,4 +71,4 @@ data:extend {
         type = "fuel-category",
         name = "nexelit"
     },
-}
+})

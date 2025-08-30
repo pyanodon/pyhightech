@@ -1,6 +1,6 @@
 -- TECH CHANGES
-data.raw.technology["processing-unit"].hidden = true
-data.raw.technology["processing-unit"].enabled = false
+data.raw.technology[ "processing-unit" ].hidden = true
+data.raw.technology[ "processing-unit" ].enabled = false
 
 if mods.quality then
     TECHNOLOGY("recycling"):remove_prereq("processing-unit")
@@ -20,7 +20,7 @@ TECHNOLOGY("automation-2"):remove_prereq("electronics")
 TECHNOLOGY("fast-inserter"):remove_prereq("electronics"):remove_prereq("automation")
 TECHNOLOGY("solar-energy"):remove_prereq("electronics")
 TECHNOLOGY("advanced-circuit"):remove_prereq("electronics"):remove_prereq("plastics"):remove_prereq("fast-inserter"):add_pack("chemical-science-pack")
-TECHNOLOGY("advanced-circuit"):set_fields {icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics.png", icon_size = 128}
+TECHNOLOGY("advanced-circuit"):set_fields({ icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics.png", icon_size = 128 })
 TECHNOLOGY("logistic-system"):remove_pack("utility-science-pack"):remove_pack("production-science-pack"):remove_pack("military-science-pack"):remove_prereq("utility-science-pack")
 TECHNOLOGY("electric-engine"):remove_prereq("chemical-science-pack"):remove_pack("chemical-science-pack")
 TECHNOLOGY("diet-beacon"):remove_prereq("chemical-science-pack")
@@ -54,12 +54,12 @@ RECIPE("centrifuge"):remove_unlock("uranium-processing"):remove_unlock("nuclear-
 
 
 -- RECIPE CHANGES
-RECIPE("explosives"):add_ingredient {type = "item", name = "collagen", amount = 5}
+RECIPE("explosives"):add_ingredient({ type = "item", name = "collagen", amount = 5 })
 RECIPE("small-lamp"):replace_ingredient("electronic-circuit", "copper-plate")
-RECIPE("battery"):add_ingredient {type = "item", name = "rayon", amount = 2}
-RECIPE("explosives"):add_ingredient {type = "item", name = "urea", amount = 5}
+RECIPE("battery"):add_ingredient({ type = "item", name = "rayon", amount = 2 })
+RECIPE("explosives"):add_ingredient({ type = "item", name = "urea", amount = 5 })
 RECIPE("centrifuge"):replace_ingredient("advanced-circuit", "engine-unit")
-RECIPE("low-density-structure"):add_ingredient {type = "item", name = "ceramic", amount = 10}
+RECIPE("low-density-structure"):add_ingredient({ type = "item", name = "ceramic", amount = 10 })
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
 RECIPE("speed-module").category = "pcb"
 RECIPE("speed-module-2").category = "pcb"

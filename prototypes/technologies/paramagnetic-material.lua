@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "paramagnetic-material",
     icon = "__pyhightechgraphics__/graphics/technology/paramagnetic-material.png",
@@ -6,17 +6,17 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {},
     effects = {
-        {type = "unlock-recipe", recipe = "myoglobin"},
-        {type = "unlock-recipe", recipe = "paramagnetic-material"},
+        { type = "unlock-recipe", recipe = "myoglobin" },
+        { type = "unlock-recipe", recipe = "paramagnetic-material" },
     },
     unit = {
         count = 50,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1},
-            {"chemical-science-pack",   1},
-            {"production-science-pack", 1}
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 },
+            { "chemical-science-pack",   1 },
+            { "production-science-pack", 1 }
         },
         time = 30
     }
-}
+})

@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "moondrop",
     icon = "__pyhightechgraphics__/graphics/technology/moondrop.png",
@@ -9,8 +9,8 @@ TECHNOLOGY {
     unit = {
         count = 100,
         ingredients = {
-            {"automation-science-pack", 1},
+            { "automation-science-pack", 1 },
         },
         time = 50
     }
-}
+})

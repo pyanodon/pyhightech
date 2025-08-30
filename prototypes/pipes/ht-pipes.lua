@@ -1,4 +1,4 @@
-local MULTIPURPOSE_CONNECTION_CATEGORY = settings.startup["py-braided-pipes"].value and {"ht-pipes"} or nil
+local MULTIPURPOSE_CONNECTION_CATEGORY = settings.startup[ "py-braided-pipes" ].value and { "ht-pipes" } or nil
 
 --- @param i integer
 local function make_visualization(i)
@@ -9,7 +9,7 @@ local function make_visualization(i)
         x = i * 64,
         size = 64,
         scale = 0.5,
-        flags = {"icon"},
+        flags = { "icon" },
     }
 end
 
@@ -254,21 +254,21 @@ local function py_pipecoverspictures()
 end
 
 --NIOBIUM PIPES
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "ht-pipes",
     enabled = false,
     energy_required = 3,
     ingredients = {
-        {type = "item", name = "copper-plate", amount = 1},
-        {type = "item", name = "plastic-bar",  amount = 1}
+        { type = "item", name = "copper-plate", amount = 1 },
+        { type = "item", name = "plastic-bar",  amount = 1 }
     },
     results = {
-        {type = "item", name = "ht-pipes", amount = 3}
+        { type = "item", name = "ht-pipes", amount = 3 }
     }
-}:add_unlock("coal-processing-3"):replace_ingredient("copper-plate", "niobium-plate"):add_ingredient {type = "item", name = "titanium-plate", amount = 1}
+}):add_unlock("coal-processing-3"):replace_ingredient("copper-plate", "niobium-plate"):add_ingredient({ type = "item", name = "titanium-plate", amount = 1 })
 
-ITEM {
+ITEM({
     type = "item",
     name = "ht-pipes",
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes.png",
@@ -278,23 +278,23 @@ ITEM {
     order = "pipe[niobium]c",
     place_result = "ht-pipes",
     stack_size = 100
-}
+})
 
 --NIOBIUM PIPES TO GROUND
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "ht-pipes-to-ground",
     enabled = false,
     energy_required = 2,
     ingredients = {
-        {type = "item", name = "ht-pipes", amount = 10}
+        { type = "item", name = "ht-pipes", amount = 10 }
     },
     results = {
-        {type = "item", name = "ht-pipes-to-ground", amount = 2}
+        { type = "item", name = "ht-pipes-to-ground", amount = 2 }
     }
-}:add_unlock("coal-processing-3")
+}):add_unlock("coal-processing-3")
 
-ITEM {
+ITEM({
     type = "item",
     name = "ht-pipes-to-ground",
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes-to-ground.png",
@@ -304,16 +304,16 @@ ITEM {
     order = "pipe[niobium]d",
     place_result = "ht-pipes-to-ground",
     stack_size = 50
-}
+})
 
-data.raw["utility-constants"].default.default_pipeline_extent = 1280
+data.raw[ "utility-constants" ].default.default_pipeline_extent = 1280
 
-ENTITY {
+ENTITY({
     type = "pipe",
     name = "ht-pipes",
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes.png",
     icon_size = 64,
-    flags = {"placeable-neutral", "player-creation"},
+    flags = { "placeable-neutral", "player-creation" },
     minable = {
         mining_time = 0.1,
         result = "ht-pipes"
@@ -331,28 +331,28 @@ ENTITY {
         }
     },
     fast_replaceable_group = "pipe",
-    collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
-    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    collision_box = { { -0.29, -0.29 }, { 0.29, 0.29 } },
+    selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
     fluid_box = {
         volume = 100,
         pipe_connections = {
             {
-                position = {0, 0},
+                position = { 0, 0 },
                 direction = defines.direction.north,
                 connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
-                position = {0, 0},
+                position = { 0, 0 },
                 direction = defines.direction.east,
                 connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
-                position = {0, 0},
+                position = { 0, 0 },
                 direction = defines.direction.south,
                 connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
-                position = {0, 0},
+                position = { 0, 0 },
                 direction = defines.direction.west,
                 connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             }
@@ -371,16 +371,16 @@ ENTITY {
         match_volume_to_activity = true,
         max_sounds_per_prototype = 3
     },
-    horizontal_window_bounding_box = {{-0.0001, -0.0001}, {0.0001, 0.0001}},
-    vertical_window_bounding_box = {{-0.0001, -0.0001}, {0.0001, 0.0001}}
-}
+    horizontal_window_bounding_box = { { -0.0001, -0.0001 }, { 0.0001, 0.0001 } },
+    vertical_window_bounding_box = { { -0.0001, -0.0001 }, { 0.0001, 0.0001 } }
+})
 
-ENTITY {
+ENTITY({
     type = "pipe-to-ground",
     name = "ht-pipes-to-ground",
     icon = "__pyhightechgraphics__/graphics/icons/ht-pipes-to-ground.png",
     icon_size = 64,
-    flags = {"placeable-neutral", "player-creation"},
+    flags = { "placeable-neutral", "player-creation" },
     minable = {
         mining_time = 0.1,
         result = "ht-pipes-to-ground"
@@ -398,20 +398,20 @@ ENTITY {
         }
     },
     fast_replaceable_group = "pipe",
-    collision_box = {{-0.29, -0.29}, {0.29, 0.2}},
-    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+    collision_box = { { -0.29, -0.29 }, { 0.29, 0.2 } },
+    selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
     fluid_box = {
         volume = 100,
         pipe_covers = py_pipecoverspictures(),
         pipe_connections = {
             {
-                position = {0, 0},
+                position = { 0, 0 },
                 direction = defines.direction.north,
                 connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
             },
             {
                 connection_type = "underground",
-                position = {0, 0},
+                position = { 0, 0 },
                 direction = defines.direction.south,
                 max_underground_distance = 48,
                 connection_category = MULTIPURPOSE_CONNECTION_CATEGORY
@@ -465,7 +465,7 @@ ENTITY {
             x = 64,
             size = 64,
             scale = 0.5,
-            flags = {"icon"}
+            flags = { "icon" }
         },
         south =
         {
@@ -474,7 +474,7 @@ ENTITY {
             x = 192,
             size = 64,
             scale = 0.5,
-            flags = {"icon"}
+            flags = { "icon" }
         },
         west =
         {
@@ -483,7 +483,7 @@ ENTITY {
             x = 256,
             size = 64,
             scale = 0.5,
-            flags = {"icon"}
+            flags = { "icon" }
         },
         east =
         {
@@ -492,7 +492,7 @@ ENTITY {
             x = 128,
             size = 64,
             scale = 0.5,
-            flags = {"icon"}
+            flags = { "icon" }
         },
     },
-}
+})

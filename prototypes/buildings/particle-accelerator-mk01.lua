@@ -1,23 +1,23 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "particle-accelerator-mk01",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "concrete",             amount = 100},
-        {type = "item", name = "advanced-circuit",     amount = 50},
-        {type = "item", name = "gasturbinemk02",       amount = 2},
-        {type = "item", name = "agitator-mk01",        amount = 1},
-        {type = "item", name = "niobium-plate",        amount = 15},
-        {type = "item", name = "electric-engine-unit", amount = 2},
-        {type = "item", name = "plastic-bar",          amount = 100},
+        { type = "item", name = "concrete",             amount = 100 },
+        { type = "item", name = "advanced-circuit",     amount = 50 },
+        { type = "item", name = "gasturbinemk02",       amount = 2 },
+        { type = "item", name = "agitator-mk01",        amount = 1 },
+        { type = "item", name = "niobium-plate",        amount = 15 },
+        { type = "item", name = "electric-engine-unit", amount = 2 },
+        { type = "item", name = "plastic-bar",          amount = 100 },
     },
     results = {
-        {type = "item", name = "particle-accelerator-mk01", amount = 1}
+        { type = "item", name = "particle-accelerator-mk01", amount = 1 }
     }
-}:add_unlock("nucleo")
+}):add_unlock("nucleo")
 
-ITEM {
+ITEM({
     type = "item",
     name = "particle-accelerator-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/particle-accelerator-mk01.png",
@@ -27,26 +27,26 @@ ITEM {
     order = "c",
     place_result = "particle-accelerator-mk01",
     stack_size = 10
-}
+})
 
-ENTITY {
+ENTITY({
     type = "assembling-machine",
     name = "particle-accelerator-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/particle-accelerator-mk01.png",
     icon_size = 64,
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.5, result = "particle-accelerator-mk01"},
+    flags = { "placeable-neutral", "player-creation" },
+    minable = { mining_time = 0.5, result = "particle-accelerator-mk01" },
     fast_replaceable_group = "particle-accelerator",
     max_health = 100,
     corpse = "big-remnants",
     dying_explosion = "big-explosion",
-    collision_box = {{-5.6, -5.6}, {5.6, 5.6}},
-    selection_box = {{-6.0, -6.0}, {6.0, 6.0}},
+    collision_box = { { -5.6, -5.6 }, { 5.6, 5.6 } },
+    selection_box = { { -6.0, -6.0 }, { 6.0, 6.0 } },
     forced_symmetry = "diagonal-pos",
     module_slots = 1,
-    allowed_effects = {"consumption", "speed", "pollution", "productivity"},
-    allowed_module_categories = {"productivity", "speed", "quality"},
-    crafting_categories = {"pa"},
+    allowed_effects = { "consumption", "speed", "pollution", "productivity" },
+    allowed_module_categories = { "productivity", "speed", "quality" },
+    crafting_categories = { "pa" },
     crafting_speed = 1,
     energy_source = {
         type = "electric",
@@ -88,7 +88,7 @@ ENTITY {
                     height = 352,
                     animation_speed = 0.5,
                     shift = util.by_pixel(-81, -16),
-                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                    tint = { r = 1.0, g = 1.0, b = 0.0, a = 1.0 }
                 }
             },
             {
@@ -121,7 +121,7 @@ ENTITY {
                     height = 352,
                     animation_speed = 0.5,
                     shift = util.by_pixel(79, -16),
-                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                    tint = { r = 1.0, g = 1.0, b = 0.0, a = 1.0 }
                 }
             },
         },
@@ -140,7 +140,7 @@ ENTITY {
                     height = 415,
                     frame_count = 1,
                     shift = util.by_pixel(-1, -16),
-                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                    tint = { r = 1.0, g = 1.0, b = 0.0, a = 1.0 }
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/particle-accelerator/shadow.png",
@@ -158,44 +158,44 @@ ENTITY {
         --1
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {3.5, 5.5}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "input", position = { 3.5, 5.5 }, direction = defines.direction.south } }
         },
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {0.5, 5.5}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "input", position = { 0.5, 5.5 }, direction = defines.direction.south } }
         },
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {-3.5, 5.5}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "input", position = { -3.5, 5.5 }, direction = defines.direction.south } }
         },
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 100,
-            pipe_connections = {{flow_direction = "output", position = {2.5, -5.5}, direction = defines.direction.north}}
+            pipe_connections = { { flow_direction = "output", position = { 2.5, -5.5 }, direction = defines.direction.north } }
         },
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 100,
-            pipe_connections = {{flow_direction = "output", position = {-2.5, -5.5}, direction = defines.direction.north}}
+            pipe_connections = { { flow_direction = "output", position = { -2.5, -5.5 }, direction = defines.direction.north } }
         },
     },
     impact_category = "metal-large",
     working_sound = {
-        sound = {filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 0.3},
+        sound = { filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 1.5 },
+        idle_sound = { filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 0.3 },
         apparent_volume = 2.5
     }
-}
+})

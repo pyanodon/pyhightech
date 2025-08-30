@@ -1,4 +1,4 @@
-data:extend {
+data:extend({
     {
         type = "item-group",
         name = "py-hightech",
@@ -135,15 +135,15 @@ data:extend {
         group = "py-hightech",
         order = "ed"
     },
-}
+})
 
-if not mods["pyindustry"] then
-    data:extend {
+if not mods[ "pyindustry" ] then
+    data:extend({
         {
             type = "item-subgroup",
             name = "py-trains",
             group = "py-hightech",
             order = "u"
         }
-    }
+    })
 end

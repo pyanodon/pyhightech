@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "phenol",
     icon = "__pyhightechgraphics__/graphics/technology/phenol.png",
@@ -6,15 +6,15 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {},
     effects = {
-        {type = "unlock-recipe", recipe = "cumene"},
-        {type = "unlock-recipe", recipe = "cumene-distilation"},
+        { type = "unlock-recipe", recipe = "cumene" },
+        { type = "unlock-recipe", recipe = "cumene-distilation" },
     },
     unit = {
         count = 50,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1}
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 }
         },
         time = 30
     }
-}
+})

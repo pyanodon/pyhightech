@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "graphene",
     icon = "__pyhightechgraphics__/graphics/technology/graphene.png",
@@ -9,10 +9,10 @@ TECHNOLOGY {
     unit = {
         count = 55,
         ingredients = {
-            {"automation-science-pack", 3},
-            {"logistic-science-pack",   1},
-            {"chemical-science-pack",   2},
+            { "automation-science-pack", 3 },
+            { "logistic-science-pack",   1 },
+            { "chemical-science-pack",   2 },
         },
         time = 45
     }
-}
+})

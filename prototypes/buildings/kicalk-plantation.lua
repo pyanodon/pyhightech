@@ -7,23 +7,23 @@ local pipe = {
     }
 }
 
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "kicalk-plantation",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "botanical-nursery", amount = 2},
-        {type = "item", name = "storage-tank",      amount = 1}, --replace py-tank-5000
-        {type = "item", name = "classifier",        amount = 1},
+        { type = "item", name = "botanical-nursery", amount = 2 },
+        { type = "item", name = "storage-tank",      amount = 1 }, --replace py-tank-5000
+        { type = "item", name = "classifier",        amount = 1 },
 
     },
     results = {
-        {type = "item", name = "kicalk-plantation", amount = 1}
+        { type = "item", name = "kicalk-plantation", amount = 1 }
     }
-}:add_unlock("kicalk")
+}):add_unlock("kicalk")
 
-ITEM {
+ITEM({
     type = "item",
     name = "kicalk-plantation",
     icon = "__pyhightechgraphics__/graphics/icons/kicalk-plantation.png",
@@ -33,25 +33,25 @@ ITEM {
     order = "b",
     place_result = "kicalk-plantation",
     stack_size = 10
-}
+})
 
-ENTITY {
+ENTITY({
     type = "assembling-machine",
     name = "kicalk-plantation",
     icon = "__pyhightechgraphics__/graphics/icons/kicalk-plantation.png",
     icon_size = 64,
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.5, result = "kicalk-plantation"},
+    flags = { "placeable-neutral", "player-creation" },
+    minable = { mining_time = 0.5, result = "kicalk-plantation" },
     fast_replaceable_group = "kicalk-plantation",
     max_health = 100,
     corpse = "big-remnants",
     dying_explosion = "big-explosion",
-    collision_box = {{-3.2, -3.2}, {3.2, 3.2}},
-    selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
+    collision_box = { { -3.2, -3.2 }, { 3.2, 3.2 } },
+    selection_box = { { -3.5, -3.5 }, { 3.5, 3.5 } },
     forced_symmetry = "diagonal-pos",
     module_slots = 1,
-    allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
-    crafting_categories = {"kicalk"},
+    allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
+    crafting_categories = { "kicalk" },
     crafting_speed = 2,
     energy_source = {
         type = "electric",
@@ -93,37 +93,37 @@ ENTITY {
         --1
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.1, -4.1}, nil, nil, pipe),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.1, -4.1 }, nil, nil, pipe),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {0.0, 3.0}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "input", position = { 0.0, 3.0 }, direction = defines.direction.south } }
         },
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.1, -4.1}, nil, nil, pipe),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.1, -4.1 }, nil, nil, pipe),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {0.0, -3.0}, direction = defines.direction.north}}
+            pipe_connections = { { flow_direction = "input", position = { 0.0, -3.0 }, direction = defines.direction.north } }
         },
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.1, -4.1}, nil, nil, pipe),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.1, -4.1 }, nil, nil, pipe),
             pipe_covers = py.pipe_covers(false, false, true, true),
             volume = 100,
-            pipe_connections = {{flow_direction = "output", position = {-3.0, 0.0}, direction = defines.direction.west}}
+            pipe_connections = { { flow_direction = "output", position = { -3.0, 0.0 }, direction = defines.direction.west } }
         },
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.1, -4.1}, nil, nil, pipe),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.1, -4.1 }, nil, nil, pipe),
             pipe_covers = py.pipe_covers(false, false, true, true),
             volume = 100,
-            pipe_connections = {{flow_direction = "output", position = {3.0, 0.0}, direction = defines.direction.east}}
+            pipe_connections = { { flow_direction = "output", position = { 3.0, 0.0 }, direction = defines.direction.east } }
         },
     },
     impact_category = "metal-large",
     working_sound = {
-        sound = {filename = "__pyhightechgraphics__/sounds/kicalk-plantation.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightechgraphics__/sounds/kicalk-plantation.ogg", volume = 0.3},
+        sound = { filename = "__pyhightechgraphics__/sounds/kicalk-plantation.ogg", volume = 1.5 },
+        idle_sound = { filename = "__pyhightechgraphics__/sounds/kicalk-plantation.ogg", volume = 0.3 },
         apparent_volume = 2.5
     }
-}
+})

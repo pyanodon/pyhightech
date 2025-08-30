@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "melamine",
     icon = "__pyhightechgraphics__/graphics/technology/melamine.png",
@@ -6,16 +6,16 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {},
     effects = {
-        {type = "unlock-recipe", recipe = "urea-decomposition"},
-        {type = "unlock-recipe", recipe = "melamine"},
-        {type = "unlock-recipe", recipe = "melamine-resin"},
+        { type = "unlock-recipe", recipe = "urea-decomposition" },
+        { type = "unlock-recipe", recipe = "melamine" },
+        { type = "unlock-recipe", recipe = "melamine-resin" },
     },
     unit = {
         count = 50,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1},
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 },
         },
         time = 30
     }
-}
+})

@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "phosphorous-processing",
     icon = "__pyhightechgraphics__/graphics/technology/phosphorous-processing.png",
@@ -6,18 +6,18 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {},
     effects = {
-        {type = "unlock-recipe", recipe = "phosphate-mine"},
-        {type = "unlock-recipe", recipe = "powdered-phosphate-rock"},
-        {type = "unlock-recipe", recipe = "phosphorous-acid"},
-        {type = "unlock-recipe", recipe = "phosphoric-acid"},
-        {type = "unlock-recipe", recipe = "phosphoric-acid2"},
+        { type = "unlock-recipe", recipe = "phosphate-mine" },
+        { type = "unlock-recipe", recipe = "powdered-phosphate-rock" },
+        { type = "unlock-recipe", recipe = "phosphorous-acid" },
+        { type = "unlock-recipe", recipe = "phosphoric-acid" },
+        { type = "unlock-recipe", recipe = "phosphoric-acid2" },
     },
     unit = {
         count = 50,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1}
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 }
         },
         time = 30
     }
-}
+})

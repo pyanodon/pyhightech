@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "nitrobenzene",
     icon = "__pyhightechgraphics__/graphics/technology/nitrobenzene.png",
@@ -6,15 +6,15 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {},
     effects = {
-        {type = "unlock-recipe", recipe = "nitrobenzene"},
-        {type = "unlock-recipe", recipe = "iron-oxide"},
+        { type = "unlock-recipe", recipe = "nitrobenzene" },
+        { type = "unlock-recipe", recipe = "iron-oxide" },
     },
     unit = {
         count = 50,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1}
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 }
         },
         time = 30
     }
-}
+})

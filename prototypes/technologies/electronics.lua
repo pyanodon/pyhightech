@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "electronics",
     icon = "__pyhightechgraphics__/graphics/technology/vacuum-tube-electronics.png",
@@ -9,8 +9,8 @@ TECHNOLOGY {
     unit = {
         count = 55,
         ingredients = {
-            {"automation-science-pack", 1},
+            { "automation-science-pack", 1 },
         },
         time = 45
     }
-}
+})

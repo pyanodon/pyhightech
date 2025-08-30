@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "epoxy",
     icon = "__pyhightechgraphics__/graphics/technology/epoxy.png",
@@ -6,19 +6,19 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {},
     effects = {
-        {type = "unlock-recipe", recipe = "bisphenol-a"},
-        {type = "unlock-recipe", recipe = "ech"},
-        {type = "unlock-recipe", recipe = "resorcinol"},
-        {type = "unlock-recipe", recipe = "epoxy"},
-        {type = "unlock-recipe", recipe = "propene-to-acetone"},
+        { type = "unlock-recipe", recipe = "bisphenol-a" },
+        { type = "unlock-recipe", recipe = "ech" },
+        { type = "unlock-recipe", recipe = "resorcinol" },
+        { type = "unlock-recipe", recipe = "epoxy" },
+        { type = "unlock-recipe", recipe = "propene-to-acetone" },
     },
     unit = {
         count = 50,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1},
-            {"chemical-science-pack",   1}
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 },
+            { "chemical-science-pack",   1 }
         },
         time = 30
     }
-}
+})

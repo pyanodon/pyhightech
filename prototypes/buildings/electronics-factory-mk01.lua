@@ -1,21 +1,21 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "electronics-factory-mk01",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "fbreactor-mk01",        amount = 1},
-        {type = "item", name = "pipe",                  amount = 15},
-        {type = "item", name = "steam-engine",          amount = 4},
-        {type = "item", name = "electric-mining-drill", amount = 2},
-        {type = "item", name = "iron-plate",            amount = 40}
+        { type = "item", name = "fbreactor-mk01",        amount = 1 },
+        { type = "item", name = "pipe",                  amount = 15 },
+        { type = "item", name = "steam-engine",          amount = 4 },
+        { type = "item", name = "electric-mining-drill", amount = 2 },
+        { type = "item", name = "iron-plate",            amount = 40 }
     },
     results = {
-        {type = "item", name = "electronics-factory-mk01", amount = 1}
+        { type = "item", name = "electronics-factory-mk01", amount = 1 }
     }
-}:add_unlock("electronics")
+}):add_unlock("electronics")
 
-ITEM {
+ITEM({
     type = "item",
     name = "electronics-factory-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk01.png",
@@ -25,25 +25,25 @@ ITEM {
     order = "d",
     place_result = "electronics-factory-mk01",
     stack_size = 10
-}
+})
 
-ENTITY {
+ENTITY({
     type = "assembling-machine",
     name = "electronics-factory-mk01",
     icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk01.png",
     icon_size = 64,
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.5, result = "electronics-factory-mk01"},
+    flags = { "placeable-neutral", "player-creation" },
+    minable = { mining_time = 0.5, result = "electronics-factory-mk01" },
     fast_replaceable_group = "electronics-factory",
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
-    collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
-    selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
+    collision_box = { { -2.4, -2.4 }, { 2.4, 2.4 } },
+    selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
     forced_symmetry = "diagonal-pos",
     module_slots = 1,
-    allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
-    crafting_categories = {"electronic"},
+    allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
+    crafting_categories = { "electronic" },
     crafting_speed = 1,
     energy_source = {
         type = "electric",
@@ -65,7 +65,7 @@ ENTITY {
                     draw_as_glow = true,
                     frame_count = 50,
                     line_length = 10,
-                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0},
+                    tint = { r = 1.0, g = 1.0, b = 0.0, a = 1.0 },
                     width = 160,
                     height = 192,
                     animation_speed = 0.4,
@@ -100,7 +100,7 @@ ENTITY {
                     frame_count = 50,
                     animation_speed = 0.4,
                     shift = util.by_pixel(0, -48),
-                    tint = {r = 1.0, g = 1.0, b = 0.0, a = 1.0}
+                    tint = { r = 1.0, g = 1.0, b = 0.0, a = 1.0 }
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/shadow.png",
@@ -120,37 +120,37 @@ ENTITY {
         --1
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {0.0, -2.0}, direction = defines.direction.north}}
+            pipe_connections = { { flow_direction = "input", position = { 0.0, -2.0 }, direction = defines.direction.north } }
         },
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {0.0, 2.0}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "input", position = { 0.0, 2.0 }, direction = defines.direction.south } }
         },
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 100,
-            pipe_connections = {{flow_direction = "output", position = {-2.0, 0.0}, direction = defines.direction.west}}
+            pipe_connections = { { flow_direction = "output", position = { -2.0, 0.0 }, direction = defines.direction.west } }
         },
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 100,
-            pipe_connections = {{flow_direction = "output", position = {2.0, 0.0}, direction = defines.direction.east}}
+            pipe_connections = { { flow_direction = "output", position = { 2.0, 0.0 }, direction = defines.direction.east } }
         },
     },
     impact_category = "metal-large",
     working_sound = {
-        sound = {filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 1.0},
-        idle_sound = {filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 0.3},
+        sound = { filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 1.0 },
+        idle_sound = { filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 0.3 },
         apparent_volume = 2.5
     }
-}
+})

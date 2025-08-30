@@ -1,25 +1,25 @@
-local sounds = require "__base__.prototypes.entity.sounds"
+local sounds = require("__base__.prototypes.entity.sounds")
 
-ENTITY {
+ENTITY({
     type = "assembling-machine",
     name = "crash-site-assembling-machine-1-repaired",
     icon = "__pyhightechgraphics__/graphics/icons/crash-site-assembling-machine-1-repaired.png",
     icon_size = 64,
 
-    flags = {"not-deconstructable", "not-rotatable"},
+    flags = { "not-deconstructable", "not-rotatable" },
     hidden = true,
-    map_color = {r = 0, g = 0.365, b = 0.58, a = 1},
+    map_color = { r = 0, g = 0.365, b = 0.58, a = 1 },
     max_health = 300,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
-    resistances = {{type = "fire", percent = 70}},
-    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
-    selection_box = {{-1.5, -1}, {1.5, 1}},
+    resistances = { { type = "fire", percent = 70 } },
+    collision_box = { { -1.2, -1.2 }, { 1.2, 1.2 } },
+    selection_box = { { -1.5, -1 }, { 1.5, 1 } },
     minable = {
         mining_time = 0.5,
         results = {
-            {type = "item", name = "electronic-circuit", amount = 100},
-            {type = "item", name = "iron-plate",         amount = 50}
+            { type = "item", name = "electronic-circuit", amount = 100 },
+            { type = "item", name = "iron-plate",         amount = 50 }
         }
     },
     alert_icon_shift = util.by_pixel(-3, -12),
@@ -69,7 +69,7 @@ ENTITY {
             }
         },
     },
-    crafting_categories = {"crafting", "basic-crafting", "advanced-crafting", "handcrafting"},
+    crafting_categories = { "crafting", "basic-crafting", "advanced-crafting", "handcrafting" },
     crafting_speed = 0.3,
     energy_source = {
         type = "electric",
@@ -80,23 +80,23 @@ ENTITY {
     },
     energy_usage = "90kW",
     -- ingredient_count = 2,
-    open_sound = {filename = "__base__/sound/machine-open.ogg", volume = 0.85},
-    close_sound = {filename = "__base__/sound/machine-close.ogg", volume = 0.75},
+    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
+    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     fluid_boxes_off_when_no_fluid_recipe = true,
     fluid_boxes =
     {
         {
             production_type = "output",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "output", position = {-1, 1.0}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "output", position = { -1, 1.0 }, direction = defines.direction.south } }
         },
     },
     impact_category = "metal-large",
     working_sound = {
-        sound = {{filename = "__pyhightechgraphics__/sounds/assembling-machine-repaired-1.ogg", volume = 0.8}}
+        sound = { { filename = "__pyhightechgraphics__/sounds/assembling-machine-repaired-1.ogg", volume = 0.8 } }
         -- idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.3 },
         -- max_sounds_per_prototype = 2,
     }
-}
+})

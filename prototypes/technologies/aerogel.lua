@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "aerogel",
     icon = "__pyhightechgraphics__/graphics/technology/aerogel.png",
@@ -9,11 +9,11 @@ TECHNOLOGY {
     unit = {
         count = 85,
         ingredients = {
-            {"automation-science-pack", 3},
-            {"logistic-science-pack",   2},
-            {"chemical-science-pack",   2},
-            {"production-science-pack", 1},
+            { "automation-science-pack", 3 },
+            { "logistic-science-pack",   2 },
+            { "chemical-science-pack",   2 },
+            { "production-science-pack", 1 },
         },
         time = 45
     }
-}
+})

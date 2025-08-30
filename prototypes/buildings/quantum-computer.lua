@@ -1,24 +1,24 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "quantum-computer",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "gasturbinemk03",                amount = 2},
-        {type = "item", name = "pipe",                          amount = 20},
-        {type = "item", name = "intelligent-unit",              amount = 5},
-        {type = "item", name = "niobium-plate",                 amount = 20},
-        {type = "item", name = "refined-concrete",              amount = 100},
-        {type = "item", name = "supercapacitor",                amount = 10},
-        {type = "item", name = "superconductor-servomechanims", amount = 5},
-        {type = "item", name = "control-unit",                  amount = 6},
+        { type = "item", name = "gasturbinemk03",                amount = 2 },
+        { type = "item", name = "pipe",                          amount = 20 },
+        { type = "item", name = "intelligent-unit",              amount = 5 },
+        { type = "item", name = "niobium-plate",                 amount = 20 },
+        { type = "item", name = "refined-concrete",              amount = 100 },
+        { type = "item", name = "supercapacitor",                amount = 10 },
+        { type = "item", name = "superconductor-servomechanims", amount = 5 },
+        { type = "item", name = "control-unit",                  amount = 6 },
     },
     results = {
-        {type = "item", name = "quantum-computer", amount = 1}
+        { type = "item", name = "quantum-computer", amount = 1 }
     }
-}:add_unlock("quantum")
+}):add_unlock("quantum")
 
-ITEM {
+ITEM({
     type = "item",
     name = "quantum-computer",
     icon = "__pyhightechgraphics__/graphics/icons/quantum-computer.png",
@@ -28,25 +28,25 @@ ITEM {
     order = "d",
     place_result = "quantum-computer",
     stack_size = 10
-}
+})
 
-ENTITY {
+ENTITY({
     type = "assembling-machine",
     name = "quantum-computer",
     icon = "__pyhightechgraphics__/graphics/icons/quantum-computer.png",
     icon_size = 64,
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.5, result = "quantum-computer"},
+    flags = { "placeable-neutral", "player-creation" },
+    minable = { mining_time = 0.5, result = "quantum-computer" },
     fast_replaceable_group = "quantum-computer",
     max_health = 100,
     corpse = "medium-remnants",
     dying_explosion = "big-explosion",
-    collision_box = {{-5.7, -5.7}, {5.7, 5.7}},
-    selection_box = {{-6, -6}, {6, 6}},
+    collision_box = { { -5.7, -5.7 }, { 5.7, 5.7 } },
+    selection_box = { { -6, -6 }, { 6, 6 } },
     forced_symmetry = "diagonal-pos",
     module_slots = 1,
-    allowed_effects = {"consumption", "speed", "pollution", "productivity"},
-    crafting_categories = {"quantum"},
+    allowed_effects = { "consumption", "speed", "pollution", "productivity" },
+    crafting_categories = { "quantum" },
     crafting_speed = 1,
     energy_source = {
         type = "electric",
@@ -99,23 +99,23 @@ ENTITY {
         --1
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {2.5, 5.5}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "input", position = { 2.5, 5.5 }, direction = defines.direction.south } }
         },
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {-2.5, 5.5}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "input", position = { -2.5, 5.5 }, direction = defines.direction.south } }
         },
     },
     impact_category = "metal-large",
     working_sound = {
-        sound = {filename = "__pyhightechgraphics__/sounds/quantum-computer.ogg", volume = 1.4},
-        idle_sound = {filename = "__pyhightechgraphics__/sounds/quantum-computer.ogg", volume = 1.0},
+        sound = { filename = "__pyhightechgraphics__/sounds/quantum-computer.ogg", volume = 1.4 },
+        idle_sound = { filename = "__pyhightechgraphics__/sounds/quantum-computer.ogg", volume = 1.0 },
         apparent_volume = 2.5
     }
-}
+})

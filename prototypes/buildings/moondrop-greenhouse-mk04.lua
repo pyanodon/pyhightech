@@ -1,21 +1,21 @@
-RECIPE {
+RECIPE({
     type = "recipe",
     name = "moondrop-greenhouse-mk04",
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "moondrop-greenhouse-mk03",      amount = 1},
-        {type = "item", name = "nbfe-alloy",                    amount = 10},
-        {type = "item", name = "intelligent-unit",              amount = 10},
-        {type = "item", name = "superconductor-servomechanims", amount = 10},
-        {type = "item", name = "hyperelastic-material",         amount = 15},
+        { type = "item", name = "moondrop-greenhouse-mk03",      amount = 1 },
+        { type = "item", name = "nbfe-alloy",                    amount = 10 },
+        { type = "item", name = "intelligent-unit",              amount = 10 },
+        { type = "item", name = "superconductor-servomechanims", amount = 10 },
+        { type = "item", name = "hyperelastic-material",         amount = 15 },
     },
     results = {
-        {type = "item", name = "moondrop-greenhouse-mk04", amount = 1}
+        { type = "item", name = "moondrop-greenhouse-mk04", amount = 1 }
     }
-}
+})
 
-ITEM {
+ITEM({
     type = "item",
     name = "moondrop-greenhouse-mk04",
     icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk04.png",
@@ -25,25 +25,25 @@ ITEM {
     order = "b",
     place_result = "moondrop-greenhouse-mk04",
     stack_size = 10
-}
+})
 
-ENTITY {
+ENTITY({
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk04",
     icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk04.png",
     icon_size = 64,
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.5, result = "moondrop-greenhouse-mk04"},
+    flags = { "placeable-neutral", "player-creation" },
+    minable = { mining_time = 0.5, result = "moondrop-greenhouse-mk04" },
     fast_replaceable_group = "moondrop-greenhouse",
     max_health = 100,
     corpse = "big-remnants",
     dying_explosion = "big-explosion",
-    collision_box = {{-4.2, -4.2}, {4.2, 4.2}},
-    selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
+    collision_box = { { -4.2, -4.2 }, { 4.2, 4.2 } },
+    selection_box = { { -4.5, -4.5 }, { 4.5, 4.5 } },
     forced_symmetry = "diagonal-pos",
     module_slots = 4,
-    allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
-    crafting_categories = {"moon"},
+    allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
+    crafting_categories = { "moon" },
     crafting_speed = 4,
     energy_source = {
         type = "electric",
@@ -73,7 +73,7 @@ ENTITY {
                     frame_count = 60,
                     animation_speed = 0.4,
                     shift = util.by_pixel(-72, 0),
-                    tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
+                    tint = { r = 1.0, g = 0.0, b = 1.0, a = 1.0 }
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/moon-right.png",
@@ -92,7 +92,7 @@ ENTITY {
                     frame_count = 60,
                     animation_speed = 0.4,
                     shift = util.by_pixel(72, 0),
-                    tint = {r = 1.0, g = 0.0, b = 1.0, a = 1.0}
+                    tint = { r = 1.0, g = 0.0, b = 1.0, a = 1.0 }
                 },
                 {
                     filename = "__pyhightechgraphics__/graphics/entity/moondrop-greenhouse/s-left.png",
@@ -122,37 +122,37 @@ ENTITY {
         --1
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", { 0.05, 0.49 }, nil, nil, nil),
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {-4.0, 0.0}, direction = defines.direction.west}}
+            pipe_connections = { { flow_direction = "input", position = { -4.0, 0.0 }, direction = defines.direction.west } }
         },
         {
             production_type = "input",
-            pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
+            pipe_picture = py.pipe_pictures("assembling-machine-2", { 0.05, 0.49 }, nil, nil, nil),
             pipe_covers = py.pipe_covers(true, true, false, false),
             volume = 1000,
-            pipe_connections = {{flow_direction = "input", position = {0.0, 4.0}, direction = defines.direction.south}}
+            pipe_connections = { { flow_direction = "input", position = { 0.0, 4.0 }, direction = defines.direction.south } }
         },
         {
             production_type = "output",
             pipe_covers = py.pipe_covers(true, true, true, true),
             volume = 100,
-            pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
-            pipe_connections = {{flow_direction = "output", position = {4.0, 0.0}, direction = defines.direction.east}}
+            pipe_picture = py.pipe_pictures("assembling-machine-2", { 0.05, 0.49 }, nil, nil, nil),
+            pipe_connections = { { flow_direction = "output", position = { 4.0, 0.0 }, direction = defines.direction.east } }
         },
         {
             production_type = "output",
             pipe_covers = py.pipe_covers(true, true, true, true),
             volume = 100,
-            pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
-            pipe_connections = {{flow_direction = "output", position = {0.0, -4.0}, direction = defines.direction.north}}
+            pipe_picture = py.pipe_pictures("assembling-machine-2", { 0.05, 0.49 }, nil, nil, nil),
+            pipe_connections = { { flow_direction = "output", position = { 0.0, -4.0 }, direction = defines.direction.north } }
         },
     },
     impact_category = "metal-large",
     working_sound = {
-        sound = {filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 1.5},
-        idle_sound = {filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 0.3},
+        sound = { filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 1.5 },
+        idle_sound = { filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 0.3 },
         apparent_volume = 2.5
     }
-}
+})

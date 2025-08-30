@@ -1,4 +1,4 @@
-TECHNOLOGY {
+TECHNOLOGY({
     type = "technology",
     name = "zipir",
     icon = "__pyhightechgraphics__/graphics/icons/zipir-carcass.png", --TODO
@@ -6,20 +6,20 @@ TECHNOLOGY {
     order = "c-a",
     prerequisites = {},
     effects = {
-        {type = "unlock-recipe", recipe = "saline-water"},
-        {type = "unlock-recipe", recipe = "gravel-saline-water"},
-        {type = "unlock-recipe", recipe = "stone-wool"},
-        {type = "unlock-recipe", recipe = "stone-wool2"},
-        {type = "unlock-recipe", recipe = "zipir"},
-        {type = "unlock-recipe", recipe = "zipir-carcass"},
-        {type = "unlock-recipe", recipe = "rendering"}
+        { type = "unlock-recipe", recipe = "saline-water" },
+        { type = "unlock-recipe", recipe = "gravel-saline-water" },
+        { type = "unlock-recipe", recipe = "stone-wool" },
+        { type = "unlock-recipe", recipe = "stone-wool2" },
+        { type = "unlock-recipe", recipe = "zipir" },
+        { type = "unlock-recipe", recipe = "zipir-carcass" },
+        { type = "unlock-recipe", recipe = "rendering" }
     },
     unit = {
         count = 50,
         ingredients = {
-            {"automation-science-pack", 1},
-            {"logistic-science-pack",   1}
+            { "automation-science-pack", 1 },
+            { "logistic-science-pack",   1 }
         },
         time = 30
     }
-}
+})

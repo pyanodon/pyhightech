@@ -1,20 +1,20 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls["rare-earth-bolide"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["rare-earth-bolide"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "rare-earth-bolide" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "rare-earth-bolide" ] = {}
 
-data:extend {{
+data:extend({ {
     type = "autoplace-control",
     category = "resource",
     name = "rare-earth-bolide",
     richness = true,
     order = "r-ra"
-}}
+} })
 
 -- data:extend{{
 --     type = "noise-layer",
 --     name = "rare-earth-bolide"
 -- }}
 
-data:extend {
+data:extend({
     {
         type = "noise-expression",
         name = "py_rare_earth_starting_area",
@@ -43,28 +43,28 @@ data:extend {
         name = "py_rare_earth_richness",
         expression = "2^16 * var('distance') * var('control:rare-earth-bolide:richness')"
     }
-}
+})
 
-data:extend {{
+data:extend({ {
     type = "resource",
     name = "rare-earth-bolide",
     category = "rare-earth",
     icon = "__pyhightechgraphics__/graphics/icons/ores/rare-earth-bolide.png",
     icon_size = 32,
-    flags = {"placeable-neutral"},
+    flags = { "placeable-neutral" },
     order = "a-b-a",
-    map_color = {r = 0.627, g = 0.490, b = 0.070},
+    map_color = { r = 0.627, g = 0.490, b = 0.070 },
     highlight = true,
     map_grid = false,
     minable = {
         -- mining_particle = "rare-earth-bolide-particle",
         mining_time = 2,
         results = {
-            {type = "item", name = "rare-earth-ore", amount = 1}
+            { type = "item", name = "rare-earth-ore", amount = 1 }
         }
     },
-    collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
-    selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
+    collision_box = { { -4.3, -4.3 }, { 4.3, 4.3 } },
+    selection_box = { { -4.5, -4.5 }, { 4.5, 4.5 } },
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = {
@@ -76,7 +76,7 @@ data:extend {{
         -- We return the richness here, which is just the quantity the resource tile yields
         richness_expression = "py_rare_earth_richness"
     },
-    stage_counts = {0},
+    stage_counts = { 0 },
     stages = {
         sheet = {
             filename = "__pyhightechgraphics__/graphics/entity/ores/rare-earth-bolide.png",
@@ -88,4 +88,4 @@ data:extend {{
             shift = util.by_pixel(0, -2)
         }
     }
-}}
+} })

@@ -30,6 +30,6 @@ RECIPE("pa-niobium"):replace_ingredient("chromium", "nickel-plate")
 RECIPE("pa-uranium"):replace_ingredient("iron-plate", "gold-plate")
 RECIPE("propene"):replace_ingredient("iron-plate", "lead-plate")
 RECIPE("msa"):replace_ingredient("industrial-solvent", "chlorine")
-RECIPE("acrolein"):add_ingredient {type = "fluid", name = "oxygen", amount = 80}
+RECIPE("acrolein"):add_ingredient({ type = "fluid", name = "oxygen", amount = 80 })
 RECIPE("pa-niobium"):replace_ingredient("chromium", "nickel-plate")
 RECIPE("propene-to-acetone").category = "wet-scrubber"
