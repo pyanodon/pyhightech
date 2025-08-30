@@ -136,7 +136,7 @@ for i = 1, 4 do
                         frame_count = 80,
                         animation_speed = 0.3,
                         shift = util.by_pixel(-56, 0),
-                        tint = py.tints[ i ]
+                        tint = py.tints[i]
                     },
                     {
                         filename = "__pyhightechgraphics__/graphics/entity/clay-pit/clay-right.png",
@@ -155,7 +155,7 @@ for i = 1, 4 do
                         frame_count = 80,
                         animation_speed = 0.3,
                         shift = util.by_pixel(56, 0),
-                        tint = py.tints[ i ]
+                        tint = py.tints[i]
                     }
                 }
             },
@@ -170,9 +170,9 @@ for i = 1, 4 do
                 volume = 200,
                 pipe_connections = {
                     { position = { -3.0, 0.0 }, direction = defines.direction.west },
-                    { position = { 3.0, 0.0 }, direction = defines.direction.east },
+                    { position = { 3.0, 0.0 },  direction = defines.direction.east },
                     { position = { 0.0, -3.0 }, direction = defines.direction.north },
-                    { position = { 0.0, 3.0 }, direction = defines.direction.south }
+                    { position = { 0.0, 3.0 },  direction = defines.direction.south }
                 }
             },
         },

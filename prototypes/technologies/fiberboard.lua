@@ -20,7 +20,7 @@ TECHNOLOGY({
     }
 })
 
-if mods[ "pyrawores" ] then
+if mods["pyrawores"] then
     TECHNOLOGY({
         type = "technology",
         name = "fiberboard-mk02",

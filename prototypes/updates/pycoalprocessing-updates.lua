@@ -16,7 +16,7 @@ RECIPE("kevlar"):add_ingredient({ type = "item", name = "nylon", amount = 5 })
 RECIPE("biofilm"):add_ingredient({ type = "item", name = "rayon", amount = 2 })
 RECIPE("cladding"):add_ingredient({ type = "fluid", name = "nitrobenzene", amount = 50 })
 RECIPE("nas-battery"):add_ingredient({ type = "item", name = "rayon", amount = 2 })
-if RECIPE[ "mukmoux-pasture" ] then RECIPE("mukmoux-pasture"):replace_ingredient("advanced-circuit", "electronic-circuit") end
+if RECIPE["mukmoux-pasture"] then RECIPE("mukmoux-pasture"):replace_ingredient("advanced-circuit", "electronic-circuit") end
 RECIPE("niobium-oxide"):replace_ingredient("water", "ammonia")
 RECIPE("ball-mill-mk01"):remove_ingredient("py-asphalt"):add_ingredient({ type = "item", name = "electronic-circuit", amount = 10 })
 RECIPE("olefin-plant"):replace_ingredient("advanced-circuit", "electronic-circuit")

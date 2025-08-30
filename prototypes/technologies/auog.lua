@@ -16,7 +16,7 @@ TECHNOLOGY({
     }
 })
 
-if not mods[ "pyalienlife" ] then
+if not mods["pyalienlife"] then
     TECHNOLOGY({
         type = "technology",
         name = "auog-2",

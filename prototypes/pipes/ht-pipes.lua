@@ -1,4 +1,4 @@
-local MULTIPURPOSE_CONNECTION_CATEGORY = settings.startup[ "py-braided-pipes" ].value and { "ht-pipes" } or nil
+local MULTIPURPOSE_CONNECTION_CATEGORY = settings.startup["py-braided-pipes"].value and { "ht-pipes" } or nil
 
 --- @param i integer
 local function make_visualization(i)
@@ -306,7 +306,7 @@ ITEM({
     stack_size = 50
 })
 
-data.raw[ "utility-constants" ].default.default_pipeline_extent = 1280
+data.raw["utility-constants"].default.default_pipeline_extent = 1280
 
 ENTITY({
     type = "pipe",

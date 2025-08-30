@@ -112,7 +112,7 @@ require("prototypes/buildings/particle-accelerator-mk03")
 require("prototypes/buildings/particle-accelerator-mk04")
 require("prototypes/buildings/py-roboport-mk03")
 
-if not mods[ "pyalienlife" ] then
+if not mods["pyalienlife"] then
     require("prototypes/buildings/crashed-assembler-mk01")
 end
 
@@ -157,8 +157,8 @@ require("prototypes/fluids/nitrobenzene")
 require("__pycoalprocessing__/prototypes/fluids/rare-earth-mud")
 
 --(( FUEL VALUES ))--
-data.raw.fluid[ "benzene" ].fuel_value = "1MJ"
-data.raw.fluid[ "ethylene" ].fuel_value = "1MJ"
-data.raw.fluid[ "methane" ].fuel_value = "0.8MJ"
-data.raw.fluid[ "propene" ].fuel_value = "1MJ"
-data.raw.fluid[ "tall-oil" ].fuel_value = "1MJ"
+data.raw.fluid["benzene"].fuel_value = "1MJ"
+data.raw.fluid["ethylene"].fuel_value = "1MJ"
+data.raw.fluid["methane"].fuel_value = "0.8MJ"
+data.raw.fluid["propene"].fuel_value = "1MJ"
+data.raw.fluid["tall-oil"].fuel_value = "1MJ"

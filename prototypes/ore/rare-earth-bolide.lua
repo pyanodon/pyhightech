@@ -1,5 +1,5 @@
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls[ "rare-earth-bolide" ] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings[ "rare-earth-bolide" ] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["rare-earth-bolide"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["rare-earth-bolide"] = {}
 
 data:extend({ {
     type = "autoplace-control",

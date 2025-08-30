@@ -3423,7 +3423,7 @@ RECIPE({
     order = "a"
 }):add_unlock("energy-2")
 
-if not mods[ "pyalienlife" ] then
+if not mods["pyalienlife"] then
     RECIPE({
         type = "recipe",
         name = "electronic-circuit-initial",

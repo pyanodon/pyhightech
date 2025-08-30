@@ -137,7 +137,7 @@ data:extend({
     },
 })
 
-if not mods[ "pyindustry" ] then
+if not mods["pyindustry"] then
     data:extend({
         {
             type = "item-subgroup",

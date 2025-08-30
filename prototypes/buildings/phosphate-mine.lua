@@ -47,8 +47,8 @@ ENTITY({
         volume = 200,
         pipe_connections = {
             { position = { -4.0, 0 }, direction = defines.direction.west },
-            { position = { 4.0, 0 }, direction = defines.direction.east },
-            { position = { 0, 4.0 }, direction = defines.direction.south }
+            { position = { 4.0, 0 },  direction = defines.direction.east },
+            { position = { 0, 4.0 },  direction = defines.direction.south }
         }
     },
     module_slots = 4,
@@ -81,7 +81,7 @@ ENTITY({
         width = 12,
         height = 12
     },
-    circuit_connector = circuit_connector_definitions[ "phosphate-mine" ],
+    circuit_connector = circuit_connector_definitions["phosphate-mine"],
     circuit_wire_max_distance = _G.default_circuit_wire_max_distance,
     graphics_set = {
         animation = {

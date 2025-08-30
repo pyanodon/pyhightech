@@ -1,6 +1,6 @@
 -- TECH CHANGES
-data.raw.technology[ "processing-unit" ].hidden = true
-data.raw.technology[ "processing-unit" ].enabled = false
+data.raw.technology["processing-unit"].hidden = true
+data.raw.technology["processing-unit"].enabled = false
 
 if mods.quality then
     TECHNOLOGY("recycling"):remove_prereq("processing-unit")
