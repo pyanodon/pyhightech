@@ -24,7 +24,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nucleo"},
-    dependencies = {"nucleo"},
     effects = {},
     unit = {
         count = 200,
@@ -45,7 +44,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"nucleo-mk02"},
-    dependencies = {"nucleo-mk02"},
     effects = {},
     unit = {
         count = 200,

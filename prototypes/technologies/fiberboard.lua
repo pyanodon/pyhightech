@@ -28,7 +28,6 @@ if mods["pyrawores"] then
         icon_size = 128,
         order = "c-a",
         prerequisites = {"fiberboard"},
-        dependencies = {"fiberboard"},
         effects = {
         },
         unit = {

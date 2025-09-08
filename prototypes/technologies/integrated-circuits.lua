@@ -23,7 +23,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"integrated-circuits-1"},
-    dependencies = {"integrated-circuits-1"},
     effects = {},
     unit = {
         count = 55,
@@ -43,7 +42,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"integrated-circuits-2"},
-    dependencies = {"integrated-circuits-2"},
     effects = {},
     unit = {
         count = 55,

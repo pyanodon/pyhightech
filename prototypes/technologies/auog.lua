@@ -23,8 +23,7 @@ if not mods["pyalienlife"] then
         icon = "__pyhightechgraphics__/graphics/technology/auog.png",
         icon_size = 128,
         order = "c-a",
-        prerequisites = {},
-        dependencies = {"auog"},
+        prerequisites = {"auog"},
         effects = {},
         unit = {
             count = 100,

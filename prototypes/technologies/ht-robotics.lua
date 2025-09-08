@@ -5,7 +5,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"construction-robotics", "logistic-robotics"},
-    dependencies = {"construction-robotics", "logistic-robotics"},
     effects = {
         {type = "unlock-recipe", recipe = "py-construction-robot-mk04"},
         {type = "unlock-recipe", recipe = "py-logistic-robot-mk04"},
