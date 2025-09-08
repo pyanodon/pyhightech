@@ -70,7 +70,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics-machines-mk04.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"electronics-machines-3", "quantum"},
+    prerequisites = {"electronics-machines-3"},
     effects = {
     },
     unit = {

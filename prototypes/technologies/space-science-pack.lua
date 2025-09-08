@@ -1,6 +1,6 @@
 TECHNOLOGY {
     type = "technology",
-    name = "quantum",
+    name = "space-science-pack",
     icon = "__pyhightechgraphics__/graphics/technology/quantum-computing.png",
     icon_size = 128,
     order = "c-a",

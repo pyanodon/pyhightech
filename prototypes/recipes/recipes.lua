@@ -2954,7 +2954,7 @@ RECIPE {
     results = {
         {type = "item", name = "quantum-dots", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -2973,7 +2973,7 @@ RECIPE {
     results = {
         {type = "item", name = "pi-josephson-junction", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -2992,7 +2992,7 @@ RECIPE {
     results = {
         {type = "item", name = "var-josephson-junction", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3010,7 +3010,7 @@ RECIPE {
     results = {
         {type = "item", name = "bose-einstein-superfluid", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3026,7 +3026,7 @@ RECIPE {
     results = {
         {type = "item", name = "quantum-vortex-storage-system", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3044,7 +3044,7 @@ RECIPE {
     results = {
         {type = "item", name = "nv-center", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3066,7 +3066,7 @@ RECIPE {
     },
     subgroup = "py-hightech-quantum",
     order = "a"
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3095,7 +3095,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-quantum",
     order = "a"
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
