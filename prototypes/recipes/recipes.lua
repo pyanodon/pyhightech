@@ -2210,7 +2210,8 @@ RECIPE {
         {type = "fluid", name = "organic-solvent", amount = 100},
         {type = "fluid", name = "ammonia",         amount = 50}
     },
-    main_product = "organic-solvent"
+    main_product = "organic-solvent",
+    autotech_is_not_primary_recipe = true
 }:add_unlock("oil-processing")
 
 RECIPE {
