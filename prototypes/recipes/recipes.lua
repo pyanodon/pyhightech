@@ -451,7 +451,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 3}
     },
     results = {
-        {type = "fluid", name = "ammonia",  amount = 20},
+        {type = "fluid", name = "ammonia",  amount = 20, autotech_ignore = true},
         {type = "fluid", name = "tar",      amount = 30},
         {type = "fluid", name = "tall-oil", amount = 20}
     },
