@@ -2207,11 +2207,10 @@ RECIPE {
         {type = "fluid", name = "syngas",  amount = 100}
     },
     results = {
-        {type = "fluid", name = "organic-solvent", amount = 100},
-        {type = "fluid", name = "ammonia",         amount = 50}
+        {type = "fluid", name = "organic-solvent", amount = 100, autotech_ignore = true},
+        {type = "fluid", name = "ammonia",         amount = 50,  autotech_ignore = true}
     },
     main_product = "organic-solvent",
-    autotech_is_not_primary_recipe = true
 }:add_unlock("oil-processing")
 
 RECIPE {
