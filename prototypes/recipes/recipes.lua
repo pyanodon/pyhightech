@@ -451,7 +451,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 3}
     },
     results = {
-        {type = "fluid", name = "ammonia",  amount = 20, autotech_ignore = true},
+        {type = "fluid", name = "ammonia",  amount = 20, autotech_is_not_primary_source = true},
         {type = "fluid", name = "tar",      amount = 30},
         {type = "fluid", name = "tall-oil", amount = 20}
     },
@@ -2207,8 +2207,8 @@ RECIPE {
         {type = "fluid", name = "syngas",  amount = 100}
     },
     results = {
-        {type = "fluid", name = "organic-solvent", amount = 100, autotech_ignore = true},
-        {type = "fluid", name = "ammonia",         amount = 50,  autotech_ignore = true}
+        {type = "fluid", name = "organic-solvent", amount = 100, autotech_is_not_primary_source = true},
+        {type = "fluid", name = "ammonia",         amount = 50,  autotech_is_not_primary_source = true}
     },
     main_product = "organic-solvent",
 }:add_unlock("oil-processing")
