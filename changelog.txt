@@ -15,6 +15,7 @@ Date: ???
     - space: 1000 -> 4500
     - phyrric: 3000 -> 10000
     - Migrated the internal name of the "quantum" technology to "space-science-pack".
+    - Added Dutch locale
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.16
 Date: 2025-08-12
