@@ -1,11 +1,10 @@
 TECHNOLOGY {
     type = "technology",
-    name = "quantum",
+    name = "space-science-pack",
     icon = "__pyhightechgraphics__/graphics/technology/quantum-computing.png",
     icon_size = 128,
     order = "c-a",
     prerequisites = {},
-    dependencies = {"logistic-science-pack", "military-science-pack", "chemical-science-pack", "production-science-pack", "utility-science-pack"},
     effects = {},
     unit = {
         count = 100,

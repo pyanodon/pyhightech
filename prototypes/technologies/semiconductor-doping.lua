@@ -22,8 +22,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/semiconductor-doping-mk02.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {},
-    dependencies = {"semiconductor-doping"},
+    prerequisites = {"semiconductor-doping"},
     effects = {
         {type = "unlock-recipe", recipe = "compressor-mk01"},
     },

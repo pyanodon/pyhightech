@@ -16,7 +16,7 @@ RECIPE {
     results = {
         {type = "item", name = "quantum-computer", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 ITEM {
     type = "item",
