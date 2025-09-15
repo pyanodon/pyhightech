@@ -71,4 +71,8 @@ data:extend {
         type = "fuel-category",
         name = "nexelit"
     },
+    {
+        type = "recipe-category",
+        name = "fbreactor"
+    },
 }

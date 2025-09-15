@@ -4,8 +4,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/plastics-mk02.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {},
-    dependencies = {"plastics"},
+    prerequisites = {"plastics"},
     effects = {
         {type = "unlock-recipe", recipe = "plastic3"},
         {type = "unlock-recipe", recipe = "nylon-plastic"},
@@ -29,7 +28,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"plastics-mk02"},
-    dependencies = {"plastics-mk02"},
     effects = {
         {type = "unlock-recipe", recipe = "plastics-mk03"},
         {type = "unlock-recipe", recipe = "plastic2"},
@@ -54,7 +52,6 @@ if mods["pyrawores"] then
         icon_size = 128,
         order = "c-a",
         prerequisites = {"plastics-mk03"},
-        dependencies = {"plastics-mk03"},
         effects = {
             {type = "unlock-recipe", recipe = "plastics-mk03"},
             {type = "unlock-recipe", recipe = "plastic2"},

@@ -451,7 +451,7 @@ RECIPE {
         {type = "item", name = "copper-plate", amount = 3}
     },
     results = {
-        {type = "fluid", name = "ammonia",  amount = 20},
+        {type = "fluid", name = "ammonia",  amount = 20, autotech_is_not_primary_source = true},
         {type = "fluid", name = "tar",      amount = 30},
         {type = "fluid", name = "tall-oil", amount = 20}
     },
@@ -2207,10 +2207,10 @@ RECIPE {
         {type = "fluid", name = "syngas",  amount = 100}
     },
     results = {
-        {type = "fluid", name = "organic-solvent", amount = 100},
-        {type = "fluid", name = "ammonia",         amount = 50}
+        {type = "fluid", name = "organic-solvent", amount = 100, autotech_is_not_primary_source = true},
+        {type = "fluid", name = "ammonia",         amount = 50,  autotech_is_not_primary_source = true}
     },
-    main_product = "organic-solvent"
+    main_product = "organic-solvent",
 }:add_unlock("oil-processing")
 
 RECIPE {
@@ -2954,7 +2954,7 @@ RECIPE {
     results = {
         {type = "item", name = "quantum-dots", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -2973,7 +2973,7 @@ RECIPE {
     results = {
         {type = "item", name = "pi-josephson-junction", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -2992,7 +2992,7 @@ RECIPE {
     results = {
         {type = "item", name = "var-josephson-junction", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3010,7 +3010,7 @@ RECIPE {
     results = {
         {type = "item", name = "bose-einstein-superfluid", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3026,7 +3026,7 @@ RECIPE {
     results = {
         {type = "item", name = "quantum-vortex-storage-system", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3044,7 +3044,7 @@ RECIPE {
     results = {
         {type = "item", name = "nv-center", amount = 1}
     }
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3066,7 +3066,7 @@ RECIPE {
     },
     subgroup = "py-hightech-quantum",
     order = "a"
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",
@@ -3095,7 +3095,7 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-hightech-quantum",
     order = "a"
-}:add_unlock("quantum")
+}:add_unlock("space-science-pack")
 
 RECIPE {
     type = "recipe",

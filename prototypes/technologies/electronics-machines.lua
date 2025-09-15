@@ -26,7 +26,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"electronics-machines-1"},
-    dependencies = {"electronics-machines-1"},
     effects = {
     },
     unit = {
@@ -49,7 +48,6 @@ TECHNOLOGY {
     icon_size = 128,
     order = "c-a",
     prerequisites = {"electronics-machines-2"},
-    dependencies = {"electronics-machines-2"},
     effects = {
     },
     unit = {
@@ -72,8 +70,7 @@ TECHNOLOGY {
     icon = "__pyhightechgraphics__/graphics/technology/advanced-electronics-machines-mk04.png",
     icon_size = 128,
     order = "c-a",
-    prerequisites = {"electronics-machines-3", "quantum"},
-    dependencies = {"electronics-machines-3", "quantum"},
+    prerequisites = {"electronics-machines-3"},
     effects = {
     },
     unit = {
