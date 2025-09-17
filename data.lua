@@ -64,7 +64,9 @@ require "prototypes/ore/rare-earth-bolide"
 --(( RECIPES ))--
 require "prototypes/recipes/recipes"
 require "prototypes/recipes/recipes-particle"
+require "prototypes/recipes/buildings"
 require "prototypes/recipes/fluids"
+require "prototypes/recipes/trains"
 
 --(( ITEMS ))--
 require "prototypes/items/items"

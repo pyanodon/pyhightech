@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "electronics-factory-mk04",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "electronics-factory-mk03",      amount = 1},
-        {type = "item", name = "biopolymer",                    amount = 30},
-        {type = "item", name = "super-alloy",                   amount = 30},
-        {type = "item", name = "intelligent-unit",              amount = 10},
-        {type = "item", name = "superconductor-servomechanims", amount = 10},
-        {type = "item", name = "hyperelastic-material",         amount = 15},
-    },
-    results = {
-        {type = "item", name = "electronics-factory-mk04", amount = 1}
-    }
-}:add_unlock("electronics-machines-3")
-
 ENTITY {
     type = "assembling-machine",
     name = "electronics-factory-mk04",

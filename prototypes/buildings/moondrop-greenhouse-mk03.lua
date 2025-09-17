@@ -1,22 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "moondrop-greenhouse-mk03",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "moondrop-greenhouse-mk02", amount = 1},
-        {type = "item", name = "graphene-roll",            amount = 15},
-        {type = "item", name = "processing-unit",          amount = 10},
-        {type = "item", name = "plastic-bar",              amount = 100},
-        {type = "item", name = "niobium-plate",            amount = 20},
-        {type = "item", name = "biopolymer",               amount = 10},
-        {type = "item", name = "electric-engine-unit",     amount = 15},
-    },
-    results = {
-        {type = "item", name = "moondrop-greenhouse-mk03", amount = 1}
-    }
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk03",

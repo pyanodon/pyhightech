@@ -1,18 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "auog-paddock",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "stone",      amount = 100},
-        {type = "item", name = "soil",       amount = 300},
-        {type = "item", name = "iron-plate", amount = 80}
-    },
-    results = {
-        {type = "item", name = "auog-paddock", amount = 1}
-    }
-}:add_unlock("auog")
-
 ENTITY {
     type = "assembling-machine",
     name = "auog-paddock",

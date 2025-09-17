@@ -7,25 +7,6 @@ local pipe = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "pcb-factory-mk02",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "pcb-factory-mk01", amount = 1},
-        {type = "item", name = "nexelit-plate",    amount = 20},
-        {type = "item", name = "concrete",         amount = 60},
-        {type = "item", name = "engine-unit",      amount = 7},
-        {type = "item", name = "steel-plate",      amount = 40},
-        {type = "item", name = "plastic-bar",      amount = 10},
-        {type = "item", name = "advanced-circuit", amount = 10}
-    },
-    results = {
-        {type = "item", name = "pcb-factory-mk02", amount = 1}
-    }
-}:add_unlock("electronics-machines-1")
-
 ENTITY {
     type = "assembling-machine",
     name = "pcb-factory-mk02",

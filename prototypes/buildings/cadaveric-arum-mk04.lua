@@ -7,24 +7,6 @@ local pipe = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "cadaveric-arum-mk04",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "cadaveric-arum-mk03",           amount = 1},
-        {type = "item", name = "low-density-structure",         amount = 20},
-        {type = "item", name = "nbfe-alloy",                    amount = 20},
-        {type = "item", name = "intelligent-unit",              amount = 10},
-        {type = "item", name = "superconductor-servomechanims", amount = 10},
-        {type = "item", name = "hyperelastic-material",         amount = 15},
-    },
-    results = {
-        {type = "item", name = "cadaveric-arum-mk04", amount = 1}
-    }
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "cadaveric-arum-mk04",

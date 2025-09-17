@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "nano-assembler-mk04",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "nano-assembler-mk03",           amount = 1},
-        {type = "item", name = "low-density-structure",         amount = 10},
-        {type = "item", name = "nbfe-alloy",                    amount = 5},
-        {type = "item", name = "intelligent-unit",              amount = 10},
-        {type = "item", name = "superconductor-servomechanims", amount = 10},
-        {type = "item", name = "hyperelastic-material",         amount = 15},
-    },
-    results = {
-        {type = "item", name = "nano-assembler-mk04", amount = 1}
-    }
-}:add_unlock("electronics-machines-4")
-
 ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk04",

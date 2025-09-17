@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "chipshooter-mk01",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "distilator",      amount = 2},
-        {type = "item", name = "iron-plate",      amount = 60},
-        {type = "item", name = "steam-engine",    amount = 2},
-        {type = "item", name = "iron-gear-wheel", amount = 100},
-        {type = "item", name = "inserter",        amount = 2},
-        {type = "item", name = "pcb1",            amount = 20}
-    },
-    results = {
-        {type = "item", name = "chipshooter-mk01", amount = 1}
-    }
-}:add_unlock("electronics")
-
 ENTITY {
     type = "assembling-machine",
     name = "chipshooter-mk01",

@@ -16,24 +16,6 @@ local pipe_right = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "pulp-mill-mk02",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "pulp-mill-mk01",   amount = 1},
-        {type = "item", name = "advanced-circuit", amount = 10},
-        {type = "item", name = "engine-unit",      amount = 5},
-        {type = "item", name = "pipe",             amount = 40},
-        {type = "item", name = "niobium-plate",    amount = 10},
-        {type = "item", name = "treated-wood",     amount = 30}
-    },
-    results = {
-        {type = "item", name = "pulp-mill-mk02", amount = 1}
-    }
-}:add_unlock("electronics-machines-1")
-
 ENTITY {
     type = "assembling-machine",
     name = "pulp-mill-mk02",

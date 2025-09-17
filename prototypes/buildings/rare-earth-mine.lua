@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "rare-earth-mine",
-    energy_required = 2,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "soil-extractor-mk01", amount = 2},
-        {type = "item", name = "distilator",          amount = 1},
-        {type = "item", name = "steel-plate",         amount = 60},
-        {type = "item", name = "engine-unit",         amount = 10},
-        {type = "item", name = "fast-inserter",       amount = 4},
-        {type = "item", name = "electronic-circuit",  amount = 20}
-    },
-    results = {
-        {type = "item", name = "rare-earth-mine", amount = 1}
-    }
-}:add_unlock("rare-earth-tech")
-
 ENTITY {
     type = "mining-drill",
     name = "rare-earth-mine",

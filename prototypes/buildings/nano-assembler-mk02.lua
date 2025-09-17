@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "nano-assembler-mk02",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "nano-assembler-mk01",   amount = 1},
-        {type = "item", name = "graphene-roll",         amount = 20},
-        {type = "item", name = "processing-unit",       amount = 15},
-        {type = "item", name = "engine-unit",           amount = 4},
-        {type = "item", name = "niobium-plate",         amount = 10},
-        {type = "item", name = "low-density-structure", amount = 15},
-    },
-    results = {
-        {type = "item", name = "nano-assembler-mk02", amount = 1}
-    }
-}:add_unlock("electronics-machines-2")
-
 ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk02",

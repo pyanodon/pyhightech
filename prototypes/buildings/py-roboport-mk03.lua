@@ -1,19 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "py-roboport-mk03",
-    energy_required = 1,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "py-roboport-mk02",     amount = 1},
-        {type = "item", name = "electric-engine-unit", amount = 1},
-        {type = "item", name = "super-alloy",          amount = 50},
-        {type = "item", name = "processing-unit",      amount = 10}
-    },
-    results = {
-        {type = "item", name = "py-roboport-mk03", amount = 1}
-    }
-}
-
 ENTITY {
     type = "roboport",
     name = "py-roboport-mk03",

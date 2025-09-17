@@ -7,22 +7,6 @@ local pipe = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "kicalk-plantation",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "botanical-nursery", amount = 2},
-        {type = "item", name = "storage-tank",      amount = 1}, --replace py-tank-5000
-        {type = "item", name = "classifier",        amount = 1},
-
-    },
-    results = {
-        {type = "item", name = "kicalk-plantation", amount = 1}
-    }
-}:add_unlock("kicalk")
-
 ENTITY {
     type = "assembling-machine",
     name = "kicalk-plantation",

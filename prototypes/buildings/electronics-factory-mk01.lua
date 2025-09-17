@@ -1,20 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "electronics-factory-mk01",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "fbreactor-mk01",        amount = 1},
-        {type = "item", name = "pipe",                  amount = 15},
-        {type = "item", name = "steam-engine",          amount = 4},
-        {type = "item", name = "electric-mining-drill", amount = 2},
-        {type = "item", name = "iron-plate",            amount = 40}
-    },
-    results = {
-        {type = "item", name = "electronics-factory-mk01", amount = 1}
-    }
-}:add_unlock("electronics")
-
 ENTITY {
     type = "assembling-machine",
     name = "electronics-factory-mk01",

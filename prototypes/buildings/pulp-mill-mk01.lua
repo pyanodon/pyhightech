@@ -16,23 +16,6 @@ local pipe_right = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "pulp-mill-mk01",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "fbreactor-mk01", amount = 1},
-        {type = "item", name = "pipe",           amount = 10},
-        {type = "item", name = "steam-engine",   amount = 3},
-        {type = "item", name = "stone-brick",    amount = 30},
-        {type = "item", name = "wood",           amount = 30}
-    },
-    results = {
-        {type = "item", name = "pulp-mill-mk01", amount = 1}
-    }
-}:add_unlock("electronics")
-
 ENTITY {
     type = "assembling-machine",
     name = "pulp-mill-mk01",

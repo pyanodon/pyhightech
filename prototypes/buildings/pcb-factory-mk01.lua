@@ -7,24 +7,6 @@ local pipe = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "pcb-factory-mk01",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "steam-engine",    amount = 2},
-        {type = "item", name = "fbreactor-mk01",  amount = 2},
-        {type = "item", name = "distilator",      amount = 2},
-        {type = "item", name = "iron-plate",      amount = 80},
-        {type = "item", name = "copper-plate",    amount = 60},
-        {type = "item", name = "iron-gear-wheel", amount = 100},
-    },
-    results = {
-        {type = "item", name = "pcb-factory-mk01", amount = 1}
-    }
-}:add_unlock("electronics")
-
 ENTITY {
     type = "assembling-machine",
     name = "pcb-factory-mk01",

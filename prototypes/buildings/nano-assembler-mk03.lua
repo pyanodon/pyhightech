@@ -1,22 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "nano-assembler-mk03",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "nano-assembler-mk02",           amount = 1},
-        {type = "item", name = "biopolymer",                    amount = 10},
-        {type = "item", name = "super-alloy",                   amount = 5},
-        {type = "item", name = "electric-engine-unit",          amount = 10},
-        {type = "item", name = "intelligent-unit",              amount = 10},
-        {type = "item", name = "superconductor-servomechanims", amount = 10},
-        {type = "item", name = "hyperelastic-material",         amount = 15},
-    },
-    results = {
-        {type = "item", name = "nano-assembler-mk03", amount = 1}
-    }
-}:add_unlock("electronics-machines-3")
-
 ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk03",

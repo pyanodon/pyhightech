@@ -1,19 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "moondrop-greenhouse-mk01",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "steam-engine",    amount = 1},
-        {type = "item", name = "pipe",            amount = 15},
-        {type = "item", name = "iron-plate",      amount = 100},
-        {type = "item", name = "iron-gear-wheel", amount = 40},
-    },
-    results = {
-        {type = "item", name = "moondrop-greenhouse-mk01", amount = 1}
-    }
-}:add_unlock("moondrop")
-
 ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk01",

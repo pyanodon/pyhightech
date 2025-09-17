@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "particle-accelerator-mk02",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "particle-accelerator-mk01", amount = 1},
-        {type = "item", name = "low-density-structure",     amount = 50},
-        {type = "item", name = "electric-engine-unit",      amount = 50},
-        {type = "item", name = "nbfe-alloy",                amount = 50},
-        {type = "item", name = "processing-unit",           amount = 20},
-        {type = "item", name = "graphene-roll",             amount = 40},
-    },
-    results = {
-        {type = "item", name = "particle-accelerator-mk02", amount = 1}
-    }
-}:add_unlock("electronics-machines-2")
-
 ENTITY {
     type = "assembling-machine",
     name = "particle-accelerator-mk02",
