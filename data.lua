@@ -7,6 +7,14 @@ require "prototypes/pipes/ht-pipes"
 require "prototypes/circuit-connector-definitions"
 -- ))
 
+--(( FLUIDS ))--
+require "prototypes/fluids/fluids"
+
+--(( ITEMS ))--
+require "prototypes/items/items"
+require "prototypes/items/buildings"
+require "prototypes/items/trains"
+
 --(( Technology ))--
 require "prototypes/technologies/aerogel"
 require "prototypes/technologies/auog"
@@ -68,11 +76,6 @@ require "prototypes/recipes/buildings"
 require "prototypes/recipes/fluids"
 require "prototypes/recipes/trains"
 
---(( ITEMS ))--
-require "prototypes/items/items"
-require "prototypes/items/buildings"
-require "prototypes/items/trains"
-
 --(( ROBOTS ))--
 require "prototypes/robots/py-construction-robot-mk04"
 require "prototypes/robots/py-logistic-robot-mk04"
@@ -125,9 +128,6 @@ end
 require "prototypes/buildings/ht-locomotive/ht-locomotive"
 require "prototypes/buildings/ht-locomotive/ht-generic-wagon"
 require "prototypes/buildings/ht-locomotive/ht-generic-fluid-wagon"
-
---(( FLUIDS ))--
-require "prototypes/fluids/fluids"
 
 require "__pycoalprocessing__/prototypes/fluids/rare-earth-mud"
 

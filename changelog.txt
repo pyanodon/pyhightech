@@ -8,6 +8,7 @@ Date: ????
     - Code cleanup: Moved FLUID entry prototypes into a single file for easier code-base navigation
     - Code cleanup: Moved ITEM entries from the "buildings" prototype folder into "items"
     - Code cleanup: Moved RECIPE entries from the "buildings" prototype folder into "recipes"
+    - Code cleanup: Change load order of FLUID and ITEM prototypes
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.17
 Date: 2025-09-15
