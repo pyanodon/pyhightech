@@ -16,18 +16,6 @@ RECIPE {
     }
 }:add_unlock("rare-earth-tech")
 
-ITEM {
-    type = "item",
-    name = "rare-earth-mine",
-    icon = "__pyhightechgraphics__/graphics/icons/rare-earth-mine.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "a",
-    place_result = "rare-earth-mine",
-    stack_size = 10
-}
-
 ENTITY {
     type = "mining-drill",
     name = "rare-earth-mine",

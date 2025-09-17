@@ -15,18 +15,6 @@ RECIPE {
     }
 }:add_unlock("electronics")
 
-ITEM {
-    type = "item",
-    name = "fbreactor-mk01",
-    icon = "__pyhightechgraphics__/graphics/icons/fbreactor-mk01.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk01",
-    order = "c",
-    place_result = "fbreactor-mk01",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "fbreactor-mk01",

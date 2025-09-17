@@ -16,18 +16,6 @@ RECIPE {
     }
 }:add_unlock("electronics-machines-3")
 
-ITEM {
-    type = "item",
-    name = "particle-accelerator-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/particle-accelerator-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk03",
-    order = "c",
-    place_result = "particle-accelerator-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "particle-accelerator-mk03",

@@ -6,6 +6,7 @@ Date: ????
     - Fixed all techs added by "enable all feature flags" not being seen by autotech.
     - Code cleanup: Moved RECIPE entries from the "fluid" prototype folder into "recipes"
     - Code cleanup: Moved FLUID entry prototypes into a single file for easier code-base navigation
+    - Code cleanup: Moved ITEM entries from the "buildings" prototype folder into "items"
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.17
 Date: 2025-09-15

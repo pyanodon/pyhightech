@@ -14,18 +14,6 @@ RECIPE {
     }
 }
 
-ITEM {
-    type = "item",
-    name = "py-roboport-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/py-roboport-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "a",
-    place_result = "py-roboport-mk03",
-    stack_size = 10
-}:subgroup_order("py-stations", "a")
-
 ENTITY {
     type = "roboport",
     name = "py-roboport-mk03",

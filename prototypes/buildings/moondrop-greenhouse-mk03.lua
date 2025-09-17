@@ -17,18 +17,6 @@ RECIPE {
     }
 }
 
-ITEM {
-    type = "item",
-    name = "moondrop-greenhouse-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "b",
-    place_result = "moondrop-greenhouse-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk03",

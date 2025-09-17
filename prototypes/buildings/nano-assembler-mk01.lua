@@ -18,18 +18,6 @@ RECIPE {
     }
 }:add_unlock("graphene")
 
-ITEM {
-    type = "item",
-    name = "nano-assembler-mk01",
-    icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk01.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk01",
-    order = "f",
-    place_result = "nano-assembler-mk01",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk01",

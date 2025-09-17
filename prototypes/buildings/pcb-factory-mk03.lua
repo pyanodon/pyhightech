@@ -26,18 +26,6 @@ RECIPE {
     }
 }:add_unlock("electronics-machines-2")
 
-ITEM {
-    type = "item",
-    name = "pcb-factory-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/pcb-factory-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk03",
-    order = "b",
-    place_result = "pcb-factory-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "pcb-factory-mk03",

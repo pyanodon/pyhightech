@@ -16,18 +16,6 @@ RECIPE {
     }
 }:add_unlock("electronics-machines-3")
 
-ITEM {
-    type = "item",
-    name = "electronics-factory-mk04",
-    icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk04.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk04",
-    order = "d",
-    place_result = "electronics-factory-mk04",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "electronics-factory-mk04",

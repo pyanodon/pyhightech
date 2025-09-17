@@ -21,18 +21,6 @@ RECIPE {
     }
 }:add_unlock("railway-mk03")
 
-ITEM {
-    type = "item-with-entity-data",
-    name = "ht-locomotive",
-    icon = "__pyhightechgraphics__/graphics/icons/ht-locomotive.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-trains",
-    order = "ca",
-    place_result = "ht-locomotive",
-    stack_size = 5
-}
-
 ENTITY {
     type = "locomotive",
     name = "ht-locomotive",

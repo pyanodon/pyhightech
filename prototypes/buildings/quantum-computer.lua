@@ -18,18 +18,6 @@ RECIPE {
     }
 }:add_unlock("space-science-pack")
 
-ITEM {
-    type = "item",
-    name = "quantum-computer",
-    icon = "__pyhightechgraphics__/graphics/icons/quantum-computer.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "d",
-    place_result = "quantum-computer",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "quantum-computer",

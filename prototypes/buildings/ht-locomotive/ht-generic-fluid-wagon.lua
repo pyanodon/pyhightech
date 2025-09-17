@@ -18,18 +18,6 @@ RECIPE {
   }
 }:add_unlock("railway-mk03")
 
-ITEM {
-  type = "item",
-  name = "ht-generic-fluid-wagon",
-  icon = "__pyhightechgraphics__/graphics/icons/ht-generic-fluid-wagon.png",
-  icon_size = 64,
-  flags = {},
-  subgroup = "py-trains",
-  order = "cc",
-  place_result = "ht-generic-fluid-wagon",
-  stack_size = 5
-}
-
 ENTITY {
   type = "fluid-wagon",
   name = "ht-generic-fluid-wagon",

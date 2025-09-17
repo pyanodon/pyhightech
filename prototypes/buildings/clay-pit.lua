@@ -76,18 +76,6 @@ for i = 1, 4 do
     local icon = "__pyhightechgraphics__/graphics/icons/clay-pit-mk0" .. i .. ".png"
     local icon_size = 64
 
-    ITEM {
-        type = "item",
-        name = name,
-        icon = icon,
-        icon_size = icon_size,
-        flags = {},
-        subgroup = "py-hightech-buildings-mk0" .. i,
-        order = "a",
-        place_result = name,
-        stack_size = 10
-    }
-
     ENTITY {
         type = "assembling-machine",
         name = name,

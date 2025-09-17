@@ -16,18 +16,6 @@ RECIPE {
     }
 }:add_unlock("electronics-machines-2")
 
-ITEM {
-    type = "item",
-    name = "chipshooter-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/chipshooter-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk03",
-    order = "b",
-    place_result = "chipshooter-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "chipshooter-mk03",

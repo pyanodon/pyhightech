@@ -14,18 +14,6 @@ RECIPE {
     }
 }:add_unlock("moondrop")
 
-ITEM {
-    type = "item",
-    name = "moondrop-greenhouse-mk01",
-    icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk01.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "b",
-    place_result = "moondrop-greenhouse-mk01",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "moondrop-greenhouse-mk01",

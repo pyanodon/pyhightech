@@ -35,18 +35,6 @@ RECIPE {
     }
 }:add_unlock("electronics-machines-3")
 
-ITEM {
-    type = "item",
-    name = "pulp-mill-mk04",
-    icon = "__pyhightechgraphics__/graphics/icons/pulp-mill-mk04.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk04",
-    order = "d",
-    place_result = "pulp-mill-mk04",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "pulp-mill-mk04",

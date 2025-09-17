@@ -17,18 +17,6 @@ RECIPE {
     }
 }:add_unlock("electronics-machines-3")
 
-ITEM {
-    type = "item",
-    name = "nano-assembler-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk03",
-    order = "f",
-    place_result = "nano-assembler-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk03",

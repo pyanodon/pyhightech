@@ -68,6 +68,8 @@ require "prototypes/recipes/fluids"
 
 --(( ITEMS ))--
 require "prototypes/items/items"
+require "prototypes/items/buildings"
+require "prototypes/items/trains"
 
 --(( ROBOTS ))--
 require "prototypes/robots/py-construction-robot-mk04"

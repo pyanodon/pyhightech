@@ -17,18 +17,6 @@ RECIPE {
     }
 }:add_unlock("nucleo")
 
-ITEM {
-    type = "item",
-    name = "particle-accelerator-mk01",
-    icon = "__pyhightechgraphics__/graphics/icons/particle-accelerator-mk01.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk01",
-    order = "c",
-    place_result = "particle-accelerator-mk01",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "particle-accelerator-mk01",

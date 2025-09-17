@@ -15,18 +15,6 @@ RECIPE {
     }
 }
 
-ITEM {
-    type = "item",
-    name = "phosphate-mine",
-    icon = "__pyhightechgraphics__/graphics/icons/phosphate-mine.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "a",
-    place_result = "phosphate-mine",
-    stack_size = 10
-}
-
 ENTITY {
     type = "mining-drill",
     name = "phosphate-mine",

@@ -24,18 +24,6 @@ RECIPE {
     }
 }
 
-ITEM {
-    type = "item",
-    name = "cadaveric-arum-mk02",
-    icon = "__pyhightechgraphics__/graphics/icons/cadaveric-arum-mk02.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "b",
-    place_result = "cadaveric-arum-mk02",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "cadaveric-arum-mk02",
