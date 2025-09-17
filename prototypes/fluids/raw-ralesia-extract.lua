@@ -1,20 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "raw-ralesia-extract",
-    category = "hydrocyclone",
-    enabled = false,
-    energy_required = 6,
-    ingredients = {
-        {type = "fluid", name = "steam",          amount = 300},
-        {type = "item",  name = "ralesia-powder", amount = 10},
-    },
-    results = {
-        {type = "fluid", name = "raw-ralesia-extract", amount = 50},
-    },
-    icon = "__pyhightechgraphics__/graphics/icons/hydro-ralesia-extract.png",
-    icon_size = 32
-}
-
 FLUID {
     type = "fluid",
     name = "raw-ralesia-extract",

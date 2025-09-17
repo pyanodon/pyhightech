@@ -1,19 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "chloromethane",
-    category = "methanol",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "methanol",      amount = 100},
-        {type = "fluid", name = "sulfuric-acid", amount = 50},
-    },
-    results = {
-        {type = "fluid", name = "chloromethane", amount = 30}
-    },
-    main_product = "chloromethane",
-}:add_unlock("graphene")
-
 FLUID {
     type = "fluid",
     name = "chloromethane",

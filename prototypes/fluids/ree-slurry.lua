@@ -1,20 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "ree-slurry",
-    category = "thickener",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "rare-earth-mud", amount = 100},
-        {type = "fluid", name = "sulfuric-acid",  amount = 200}
-    },
-    results = {
-        {type = "fluid", name = "ree-slurry",        amount = 100},
-        {type = "fluid", name = "tailings", amount = 100}
-    },
-    main_product = "ree-slurry",
-}:add_unlock("rare-earth-tech")
-
 FLUID {
     type = "fluid",
     name = "ree-slurry",

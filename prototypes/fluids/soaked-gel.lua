@@ -1,18 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "soaked-gel",
-    category = "washer",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-        {type = "item",  name = "clean-rf-gel", amount = 1},
-        {type = "fluid", name = "acetone",      amount = 40},
-    },
-    results = {
-        {type = "fluid", name = "soaked-gel", amount = 50},
-    },
-}:add_unlock("aerogel")
-
 FLUID {
     type = "fluid",
     name = "soaked-gel",

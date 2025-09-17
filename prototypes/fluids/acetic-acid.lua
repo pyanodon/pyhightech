@@ -1,19 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "acetic-acid",
-    category = "methanol",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-        {type = "fluid", name = "methanol",       amount = 50},
-        {type = "fluid", name = "carbon-dioxide", amount = 80},
-        {type = "item",  name = "chromium",       amount = 1}
-    },
-    results = {
-        {type = "fluid", name = "acetic-acid", amount = 50}
-    },
-}:add_unlock("methanol-processing-1")
-
 FLUID {
     type = "fluid",
     name = "acetic-acid",

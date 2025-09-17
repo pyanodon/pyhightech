@@ -1,19 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "methanal",
-    category = "hpf",
-    enabled = false,
-    energy_required = 4,
-    ingredients = {
-        {type = "fluid", name = "methane",      amount = 60},
-        {type = "item",  name = "copper-plate", amount = 5}
-    },
-    results = {
-        {type = "fluid", name = "methanal", amount = 50}
-    },
-    main_product = "methanal",
-}:add_unlock("electronics")
-
 FLUID {
     type = "fluid",
     name = "methanal",

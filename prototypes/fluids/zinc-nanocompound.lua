@@ -1,18 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "zinc-nanocompound",
-    category = "nmf",
-    enabled = false,
-    energy_required = 8,
-    ingredients = {
-        {type = "item",  name = "zinc-acetate",    amount = 1},
-        {type = "fluid", name = "ralesia-extract", amount = 50},
-    },
-    results = {
-        {type = "fluid", name = "zinc-nanocompound", amount = 50},
-    },
-}:add_unlock("quantum-processor"):add_ingredient {type = "item", name = "sodium-hydroxide", amount = 5}
-
 FLUID {
     type = "fluid",
     name = "zinc-nanocompound",

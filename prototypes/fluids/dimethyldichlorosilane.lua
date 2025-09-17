@@ -1,20 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "dimethyldichlorosilane",
-    category = "fbreactor",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "chloromethane",  amount = 100},
-        {type = "item",  name = "silicon",        amount = 5},
-        {type = "item",  name = "crushed-copper", amount = 10},
-    },
-    results = {
-        {type = "fluid", name = "dimethyldichlorosilane", amount = 50}
-    },
-    main_product = "dimethyldichlorosilane",
-}:add_unlock("graphene")
-
 FLUID {
     type = "fluid",
     name = "dimethyldichlorosilane",

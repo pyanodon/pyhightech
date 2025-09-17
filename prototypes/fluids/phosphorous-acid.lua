@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "phosphorous-acid",
-    category = "hpf",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "fluid", name = "syngas",                  amount = 80},
-        {type = "item",  name = "powdered-phosphate-rock", amount = 5},
-        {type = "item",  name = "pure-sand",               amount = 20},
-        {type = "item",  name = "ash",                     amount = 4}
-    },
-    results = {
-        {type = "fluid", name = "phosphorous-acid", amount = 50}
-    },
-    main_product = "phosphorous-acid",
-}
-
 FLUID {
     type = "fluid",
     name = "phosphorous-acid",

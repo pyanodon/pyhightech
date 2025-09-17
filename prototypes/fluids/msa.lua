@@ -1,20 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "msa",
-    category = "chemistry",
-    enabled = false,
-    energy_required = 6,
-    ingredients = {
-        {type = "fluid", name = "dms",                amount = 50},
-        {type = "fluid", name = "hydrogen-peroxide",  amount = 100},
-        {type = "fluid", name = "industrial-solvent", amount = 100},
-    },
-    results = {
-        {type = "fluid", name = "msa", amount = 100}
-    },
-    main_product = "msa",
-}:add_unlock("integrated-circuits-2")
-
 FLUID {
     type = "fluid",
     name = "msa",

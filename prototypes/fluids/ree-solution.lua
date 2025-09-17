@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "ree-solution",
-    category = "fluid-separator",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "ree-slurry", amount = 100},
-        {type = "fluid", name = "ammonia",    amount = 50},
-    },
-    results = {
-        {type = "fluid", name = "ree-solution", amount = 100},
-        {type = "item",  name = "uranium-ore",  amount = 1,  probability = 0.1},
-    },
-    main_product = "ree-solution",
-}:add_unlock("rare-earth-tech")
-
-
 FLUID {
     type = "fluid",
     name = "ree-solution",

@@ -1,35 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "methane-co2",
-    category = "moon",
-    enabled = false,
-    energy_required = 15,
-    ingredients = {
-        {type = "fluid", name = "water",          amount = 100},
-        {type = "fluid", name = "carbon-dioxide", amount = 100},
-    },
-    results = {
-        {type = "fluid", name = "methane", amount = 40}
-    },
-    main_product = "methane",
-}:add_unlock("moondrop")
-
-RECIPE {
-    type = "recipe",
-    name = "methane-py-fertilizer",
-    category = "moon",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "fluid", name = "water",      amount = 100},
-        {type = "item",  name = "fertilizer", amount = 1},
-    },
-    results = {
-        {type = "fluid", name = "methane", amount = 80}
-    },
-    main_product = "methane",
-}
-
 FLUID {
     type = "fluid",
     name = "methane",

@@ -1,18 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "ralesia-extract",
-    category = "carbonfilter",
-    enabled = false,
-    energy_required = 5,
-    ingredients = {
-        {type = "fluid", name = "raw-ralesia-extract", amount = 100},
-        {type = "item",  name = "biofilm",             amount = 1},
-    },
-    results = {
-        {type = "fluid", name = "ralesia-extract", amount = 100}
-    },
-}
-
 FLUID {
     type = "fluid",
     name = "ralesia-extract",

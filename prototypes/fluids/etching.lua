@@ -1,20 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "etching",
-    category = "chemistry",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "phosphoric-acid",   amount = 100},
-        {type = "fluid", name = "sulfuric-acid",     amount = 100},
-        {type = "fluid", name = "hydrogen-peroxide", amount = 50},
-        {type = "item",  name = "mukmoux-fat",       amount = 10},
-    },
-    results = {
-        {type = "fluid", name = "etching", amount = 150}
-    },
-}:add_unlock("semiconductor-doping")
-
 FLUID {
     type = "fluid",
     name = "etching",

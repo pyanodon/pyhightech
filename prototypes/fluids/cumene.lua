@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "cumene",
-    category = "fbreactor",
-    enabled = false,
-    energy_required = 8,
-    ingredients = {
-        {type = "fluid", name = "benzene",         amount = 50},
-        {type = "fluid", name = "phosphoric-acid", amount = 50},
-        {type = "fluid", name = "propene",         amount = 50},
-        {type = "item",  name = "ceramic",         amount = 5}
-    },
-    results = {
-        {type = "fluid", name = "cumene", amount = 100}
-    },
-    main_product = "cumene",
-}
-
 FLUID {
     type = "fluid",
     name = "cumene",

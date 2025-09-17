@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "ech",
-    category = "mixer",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "oleochemicals", amount = 10},
-        {type = "fluid", name = "glycerol",      amount = 30},
-    },
-    results = {
-        {type = "fluid", name = "ech", amount = 30}
-    },
-    main_product = "ech",
-    icon = "__pyhightechgraphics__/graphics/icons/mix-ech.png",
-    icon_size = 32
-}
-
 FLUID {
     type = "fluid",
     name = "ech",

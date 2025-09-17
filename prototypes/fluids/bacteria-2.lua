@@ -1,20 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "bacteria-2",
-    category = "genlab",
-    enabled = false,
-    energy_required = 8,
-    ingredients = {
-        {type = "item",  name = "bonemeal",        amount = 5},
-        {type = "fluid", name = "oleochemicals",   amount = 100},
-        {type = "item",  name = "ground-sample01", amount = 8},
-    },
-    results = {
-        {type = "fluid", name = "bacteria-2", amount = 100}
-    },
-    main_product = "bacteria-2",
-}
-
 FLUID {
     type = "fluid",
     name = "bacteria-2",

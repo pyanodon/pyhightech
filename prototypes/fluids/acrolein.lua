@@ -1,34 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "acrolein",
-    category = "evaporator",
-    enabled = false,
-    energy_required = 15,
-    ingredients = {
-        {type = "fluid", name = "glycerol", amount = 80},
-    },
-    results = {
-        {type = "fluid", name = "acrolein", amount = 50}
-    },
-}
-
-RECIPE {
-    type = "recipe",
-    name = "acrolein2",
-    category = "chemistry",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "propene",  amount = 100},
-        {type = "item",  name = "chromium", amount = 2},
-    },
-    results = {
-        {type = "fluid", name = "acrolein", amount = 80},
-        {type = "fluid", name = "water",    amount = 30},
-    },
-    main_product = "acrolein",
-}
-
 FLUID {
     type = "fluid",
     name = "acrolein",

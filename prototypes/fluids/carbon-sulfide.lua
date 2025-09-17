@@ -1,19 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "carbon-sulfide",
-    category = "hpf",
-    enabled = false,
-    energy_required = 10,
-    ingredients = {
-        {type = "fluid", name = "propene", amount = 30},
-        {type = "item",  name = "sulfur",  amount = 10},
-        {type = "item",  name = "coal",    amount = 5},
-    },
-    results = {
-        {type = "fluid", name = "carbon-sulfide", amount = 60}
-    },
-}
-
 FLUID {
     type = "fluid",
     name = "carbon-sulfide",

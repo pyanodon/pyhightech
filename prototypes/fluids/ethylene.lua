@@ -1,21 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "ethylene",
-    category = "gasifier",
-    enabled = false,
-    energy_required = 6,
-    ingredients = {
-        {type = "fluid", name = "methane",       amount = 50},
-        {type = "fluid", name = "pressured-air", amount = 200},
-        {type = "item",  name = "iron-oxide",    amount = 2}
-    },
-    results = {
-        {type = "fluid", name = "ethylene", amount = 60},
-        {type = "fluid", name = "water",    amount = 50}
-    },
-    main_product = "ethylene",
-}:add_unlock("ethylene")
-
 FLUID {
     type = "fluid",
     name = "ethylene",

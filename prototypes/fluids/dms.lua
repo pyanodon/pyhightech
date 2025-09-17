@@ -1,23 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "dms",
-    category = "arum",
-    enabled = false,
-    energy_required = 8,
-    ingredients = {
-        {type = "fluid", name = "coal-gas",   amount = 60},
-        {type = "fluid", name = "water",      amount = 300},
-        {type = "fluid", name = "acidgas",    amount = 100},
-        {type = "item",  name = "sand",       amount = 15},
-        {type = "item",  name = "fertilizer", amount = 4},
-        {type = "item",  name = "stone-wool", amount = 4},
-    },
-    results = {
-        {type = "fluid", name = "dms", amount = 25}
-    },
-    main_product = "dms",
-}
-
 FLUID {
     type = "fluid",
     name = "dms",
