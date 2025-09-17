@@ -61,10 +61,6 @@ require "prototypes/technologies/zno-nanoparticles"
 require "prototypes/ore/phosphate-rock"
 require "prototypes/ore/rare-earth-bolide"
 
---(( RECIPES ))--
-require "prototypes/recipes/recipes"
-require "prototypes/recipes/recipes-particle"
-
 --(( ITEMS ))--
 require "prototypes/items/items"
 
@@ -155,6 +151,10 @@ require "prototypes/fluids/etching"
 require "prototypes/fluids/nitrobenzene"
 
 require "__pycoalprocessing__/prototypes/fluids/rare-earth-mud"
+
+--(( RECIPES ))--
+require "prototypes/recipes/recipes"
+require "prototypes/recipes/recipes-particle"
 
 --(( FUEL VALUES ))--
 data.raw.fluid["benzene"].fuel_value = "1MJ"

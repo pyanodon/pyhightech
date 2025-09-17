@@ -4,6 +4,7 @@ Date: ????
   Changes:
     - Fixed some techs having a too-fast cycle time
     - Fixed all techs added by "enable all feature flags" not being seen by autotech.
+    - Load RECIPE prototypes after all other prototypes
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.17
 Date: 2025-09-15
