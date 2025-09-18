@@ -1,33 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "particle-accelerator-mk03",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "particle-accelerator-mk02",     amount = 1},
-        {type = "item", name = "intelligent-unit",              amount = 20},
-        {type = "item", name = "hyperelastic-material",         amount = 25},
-        {type = "item", name = "superconductor-servomechanims", amount = 20},
-        {type = "item", name = "heavy-fermion",                 amount = 50},
-        {type = "item", name = "volumetric-capacitor",          amount = 20},
-    },
-    results = {
-        {type = "item", name = "particle-accelerator-mk03", amount = 1}
-    }
-}:add_unlock("electronics-machines-3")
-
-ITEM {
-    type = "item",
-    name = "particle-accelerator-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/particle-accelerator-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk03",
-    order = "c",
-    place_result = "particle-accelerator-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "particle-accelerator-mk03",

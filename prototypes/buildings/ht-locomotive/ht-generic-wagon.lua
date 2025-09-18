@@ -1,35 +1,5 @@
 local sounds = require "__base__/prototypes/entity/sounds"
 
-RECIPE {
-  type = "recipe",
-  name = "ht-generic-wagon",
-  energy_required = 0.5,
-  enabled = false,
-  ingredients = {
-    {type = "item", name = "steel-plate",     amount = 50},
-    {type = "item", name = "plastic-bar",     amount = 50},
-    {type = "item", name = "nbfe-alloy",      amount = 20},
-    {type = "item", name = "nexelit-plate",   amount = 30},
-    {type = "item", name = "iron-gear-wheel", amount = 100},
-    {type = "item", name = "nichrome",        amount = 15},
-  },
-  results = {
-    {type = "item", name = "ht-generic-wagon", amount = 1}
-  }
-}:add_unlock("railway-mk03")
-
-ITEM {
-  type = "item",
-  name = "ht-generic-wagon",
-  icon = "__pyhightechgraphics__/graphics/icons/ht-generic-wagon.png",
-  icon_size = 64,
-  flags = {},
-  subgroup = "py-trains",
-  order = "cb",
-  place_result = "ht-generic-wagon",
-  stack_size = 5
-}
-
 ENTITY {
   type = "cargo-wagon",
   name = "ht-generic-wagon",

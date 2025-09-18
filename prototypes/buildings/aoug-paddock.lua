@@ -1,30 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "auog-paddock",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "stone",      amount = 100},
-        {type = "item", name = "soil",       amount = 300},
-        {type = "item", name = "iron-plate", amount = 80}
-    },
-    results = {
-        {type = "item", name = "auog-paddock", amount = 1}
-    }
-}:add_unlock("auog")
-
-ITEM {
-    type = "item",
-    name = "auog-paddock",
-    icon = "__pyhightechgraphics__/graphics/icons/auog-paddock.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "c",
-    place_result = "auog-paddock",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "auog-paddock",

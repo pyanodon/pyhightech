@@ -1,33 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "chipshooter-mk03",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "graphene-roll",         amount = 20},
-        {type = "item", name = "processing-unit",       amount = 15},
-        {type = "item", name = "niobium-plate",         amount = 10},
-        {type = "item", name = "low-density-structure", amount = 15},
-        {type = "item", name = "electric-engine-unit",  amount = 30},
-        {type = "item", name = "chipshooter-mk02",      amount = 1}
-    },
-    results = {
-        {type = "item", name = "chipshooter-mk03", amount = 1}
-    }
-}:add_unlock("electronics-machines-2")
-
-ITEM {
-    type = "item",
-    name = "chipshooter-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/chipshooter-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk03",
-    order = "b",
-    place_result = "chipshooter-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "chipshooter-mk03",

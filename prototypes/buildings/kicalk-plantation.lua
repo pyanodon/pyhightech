@@ -7,34 +7,6 @@ local pipe = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "kicalk-plantation",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "botanical-nursery", amount = 2},
-        {type = "item", name = "storage-tank",      amount = 1}, --replace py-tank-5000
-        {type = "item", name = "classifier",        amount = 1},
-
-    },
-    results = {
-        {type = "item", name = "kicalk-plantation", amount = 1}
-    }
-}:add_unlock("kicalk")
-
-ITEM {
-    type = "item",
-    name = "kicalk-plantation",
-    icon = "__pyhightechgraphics__/graphics/icons/kicalk-plantation.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "b",
-    place_result = "kicalk-plantation",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "kicalk-plantation",

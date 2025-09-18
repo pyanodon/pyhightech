@@ -1,33 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "fbreactor-mk03",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "fbreactor-mk02",        amount = 1},
-        {type = "item", name = "low-density-structure", amount = 15},
-        {type = "item", name = "electric-engine-unit",  amount = 5},
-        {type = "item", name = "processing-unit",       amount = 10},
-        {type = "item", name = "plastic-bar",           amount = 100},
-        {type = "item", name = "graphene-roll",         amount = 40},
-    },
-    results = {
-        {type = "item", name = "fbreactor-mk03", amount = 1}
-    }
-}:add_unlock("electronics-machines-2")
-
-ITEM {
-    type = "item",
-    name = "fbreactor-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/fbreactor-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk03",
-    order = "c",
-    place_result = "fbreactor-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "fbreactor-mk03",

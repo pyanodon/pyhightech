@@ -1,31 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "moondrop-greenhouse-mk04",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "moondrop-greenhouse-mk03",      amount = 1},
-        {type = "item", name = "nbfe-alloy",                    amount = 10},
-        {type = "item", name = "intelligent-unit",              amount = 10},
-        {type = "item", name = "superconductor-servomechanims", amount = 10},
-        {type = "item", name = "hyperelastic-material",         amount = 15},
-    },
-    results = {
-        {type = "item", name = "moondrop-greenhouse-mk04", amount = 1}
-    }
-}
-
-ITEM {
-    type = "item",
-    name = "moondrop-greenhouse-mk04",
-    icon = "__pyhightechgraphics__/graphics/icons/moondrop-greenhouse-mk04.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "b",
-    place_result = "moondrop-greenhouse-mk04",
-    stack_size = 10
-}
 
 ENTITY {
     type = "assembling-machine",

@@ -7,36 +7,6 @@ local pipe = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "cadaveric-arum-mk03",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "cadaveric-arum-mk02", amount = 1},
-        {type = "item", name = "plastic-bar",         amount = 100},
-        {type = "item", name = "processing-unit",     amount = 25},
-        {type = "item", name = "phosphate-glass",     amount = 30},
-        {type = "item", name = "biopolymer",          amount = 15},
-        {type = "item", name = "aerogel",             amount = 15}
-    },
-    results = {
-        {type = "item", name = "cadaveric-arum-mk03", amount = 1}
-    }
-}
-
-ITEM {
-    type = "item",
-    name = "cadaveric-arum-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/cadaveric-arum-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "b",
-    place_result = "cadaveric-arum-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "cadaveric-arum-mk03",

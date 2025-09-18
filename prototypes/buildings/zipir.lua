@@ -7,35 +7,6 @@
 --     }
 -- }
 
-RECIPE {
-    type = "recipe",
-    name = "zipir",
-    energy_required = 2,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "clay-pit-mk01",      amount = 1},
-        {type = "item", name = "fbreactor-mk01",     amount = 2},
-        {type = "item", name = "steel-plate",        amount = 100},
-        {type = "item", name = "electronic-circuit", amount = 20},
-        {type = "item", name = "pipe",               amount = 15}
-    },
-    results = {
-        {type = "item", name = "zipir", amount = 1}
-    }
-}
-
-ITEM {
-    type = "item",
-    name = "zipir",
-    icon = "__pyhightechgraphics__/graphics/icons/zipir.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "b",
-    place_result = "zipir",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "zipir",

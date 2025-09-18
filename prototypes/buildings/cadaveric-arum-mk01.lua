@@ -7,35 +7,6 @@ local pipe = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "cadaveric-arum-mk01",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "botanical-nursery",  amount = 1},
-        {type = "item", name = "plastic-bar",        amount = 100},
-        {type = "item", name = "electronic-circuit", amount = 25},
-        {type = "item", name = "steel-plate",        amount = 60},
-        {type = "item", name = "hydrocyclone-mk01",  amount = 1}
-    },
-    results = {
-        {type = "item", name = "cadaveric-arum-mk01", amount = 1}
-    }
-}
-
-ITEM {
-    type = "item",
-    name = "cadaveric-arum-mk01",
-    icon = "__pyhightechgraphics__/graphics/icons/cadaveric-arum-mk01.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "b",
-    place_result = "cadaveric-arum-mk01",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "cadaveric-arum-mk01",

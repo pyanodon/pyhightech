@@ -1,32 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "chipshooter-mk02",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "plastic-bar",      amount = 20},
-        {type = "item", name = "engine-unit",      amount = 4},
-        {type = "item", name = "nexelit-plate",    amount = 20},
-        {type = "item", name = "advanced-circuit", amount = 15},
-        {type = "item", name = "chipshooter-mk01", amount = 1}
-    },
-    results = {
-        {type = "item", name = "chipshooter-mk02", amount = 1}
-    }
-}:add_unlock("electronics-machines-1")
-
-ITEM {
-    type = "item",
-    name = "chipshooter-mk02",
-    icon = "__pyhightechgraphics__/graphics/icons/chipshooter-mk02.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk02",
-    order = "b",
-    place_result = "chipshooter-mk02",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "chipshooter-mk02",

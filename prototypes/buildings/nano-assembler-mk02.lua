@@ -1,33 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "nano-assembler-mk02",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "nano-assembler-mk01",   amount = 1},
-        {type = "item", name = "graphene-roll",         amount = 20},
-        {type = "item", name = "processing-unit",       amount = 15},
-        {type = "item", name = "engine-unit",           amount = 4},
-        {type = "item", name = "niobium-plate",         amount = 10},
-        {type = "item", name = "low-density-structure", amount = 15},
-    },
-    results = {
-        {type = "item", name = "nano-assembler-mk02", amount = 1}
-    }
-}:add_unlock("electronics-machines-2")
-
-ITEM {
-    type = "item",
-    name = "nano-assembler-mk02",
-    icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk02.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk02",
-    order = "f",
-    place_result = "nano-assembler-mk02",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk02",

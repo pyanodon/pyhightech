@@ -1,33 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "chipshooter-mk04",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "carbon-aerogel",        amount = 20},
-        {type = "item", name = "intelligent-unit",      amount = 10},
-        {type = "item", name = "paramagnetic-material", amount = 20},
-        {type = "item", name = "harmonic-absorber",     amount = 15},
-        {type = "item", name = "superconductor",        amount = 5},
-        {type = "item", name = "chipshooter-mk03",      amount = 1}
-    },
-    results = {
-        {type = "item", name = "chipshooter-mk04", amount = 1}
-    }
-}:add_unlock("electronics-machines-3")
-
-ITEM {
-    type = "item",
-    name = "chipshooter-mk04",
-    icon = "__pyhightechgraphics__/graphics/icons/chipshooter-mk04.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk04",
-    order = "b",
-    place_result = "chipshooter-mk04",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "chipshooter-mk04",

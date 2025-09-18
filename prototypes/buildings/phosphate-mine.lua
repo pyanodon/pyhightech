@@ -1,32 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "phosphate-mine",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "soil-extractor-mk01", amount = 2},
-        --{type = "item", name = "automated-factory-mk01", amount = 1},
-        {type = "item", name = "iron-plate",          amount = 60},
-        {type = "item", name = "jaw-crusher",         amount = 1},
-        {type = "item", name = "electronic-circuit",  amount = 40}
-    },
-    results = {
-        {type = "item", name = "phosphate-mine", amount = 1}
-    }
-}
-
-ITEM {
-    type = "item",
-    name = "phosphate-mine",
-    icon = "__pyhightechgraphics__/graphics/icons/phosphate-mine.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "a",
-    place_result = "phosphate-mine",
-    stack_size = 10
-}
-
 ENTITY {
     type = "mining-drill",
     name = "phosphate-mine",

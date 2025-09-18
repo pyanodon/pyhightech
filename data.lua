@@ -7,6 +7,14 @@ require "prototypes/pipes/ht-pipes"
 require "prototypes/circuit-connector-definitions"
 -- ))
 
+--(( FLUIDS ))--
+require "prototypes/fluids/fluids"
+
+--(( ITEMS ))--
+require "prototypes/items/items"
+require "prototypes/items/buildings"
+require "prototypes/items/trains"
+
 --(( Technology ))--
 require "prototypes/technologies/aerogel"
 require "prototypes/technologies/auog"
@@ -64,9 +72,9 @@ require "prototypes/ore/rare-earth-bolide"
 --(( RECIPES ))--
 require "prototypes/recipes/recipes"
 require "prototypes/recipes/recipes-particle"
-
---(( ITEMS ))--
-require "prototypes/items/items"
+require "prototypes/recipes/buildings"
+require "prototypes/recipes/fluids"
+require "prototypes/recipes/trains"
 
 --(( ROBOTS ))--
 require "prototypes/robots/py-construction-robot-mk04"
@@ -80,6 +88,9 @@ require "prototypes/buildings/kicalk-plantation"
 require "prototypes/buildings/zipir"
 require "prototypes/buildings/clay-pit"
 require "prototypes/buildings/moondrop-greenhouse-mk01"
+require "prototypes/buildings/moondrop-greenhouse-mk02"
+require "prototypes/buildings/moondrop-greenhouse-mk03"
+require "prototypes/buildings/moondrop-greenhouse-mk04"
 require "prototypes/buildings/fbreactor-mk01"
 require "prototypes/buildings/fbreactor-mk02"
 require "prototypes/buildings/fbreactor-mk03"
@@ -105,6 +116,9 @@ require "prototypes/buildings/nano-assembler-mk02"
 require "prototypes/buildings/nano-assembler-mk03"
 require "prototypes/buildings/nano-assembler-mk04"
 require "prototypes/buildings/cadaveric-arum-mk01"
+require "prototypes/buildings/cadaveric-arum-mk02"
+require "prototypes/buildings/cadaveric-arum-mk03"
+require "prototypes/buildings/cadaveric-arum-mk04"
 require "prototypes/buildings/quantum-computer"
 require "prototypes/buildings/particle-accelerator-mk01"
 require "prototypes/buildings/particle-accelerator-mk02"
@@ -120,39 +134,6 @@ end
 require "prototypes/buildings/ht-locomotive/ht-locomotive"
 require "prototypes/buildings/ht-locomotive/ht-generic-wagon"
 require "prototypes/buildings/ht-locomotive/ht-generic-fluid-wagon"
-
---(( FLUIDS ))--
-require "prototypes/fluids/methane"
-require "prototypes/fluids/methanal"
-require "prototypes/fluids/ammonia"
-require "prototypes/fluids/cyanic-acid"
-require "prototypes/fluids/black-liquor"
-require "prototypes/fluids/tall-oil"
-require "prototypes/fluids/benzene"
-require "prototypes/fluids/phosphoric-acid"
-require "prototypes/fluids/phosphorous-acid"
-require "prototypes/fluids/phosphine-gas"
-require "prototypes/fluids/propene"
-require "prototypes/fluids/ethylene"
-require "prototypes/fluids/ree-slurry"
-require "prototypes/fluids/ree-solution"
-require "prototypes/fluids/acetone"
-require "prototypes/fluids/cumene"
-require "prototypes/fluids/ech"
-require "prototypes/fluids/dms"
-require "prototypes/fluids/msa"
-require "prototypes/fluids/chloromethane"
-require "prototypes/fluids/dimethyldichlorosilane"
-require "prototypes/fluids/bacteria-2"
-require "prototypes/fluids/soaked-gel"
-require "prototypes/fluids/acrolein"
-require "prototypes/fluids/acetic-acid"
-require "prototypes/fluids/raw-ralesia-extract"
-require "prototypes/fluids/ralesia-extract"
-require "prototypes/fluids/blood"
-require "prototypes/fluids/carbon-sulfide"
-require "prototypes/fluids/etching"
-require "prototypes/fluids/nitrobenzene"
 
 require "__pycoalprocessing__/prototypes/fluids/rare-earth-mud"
 

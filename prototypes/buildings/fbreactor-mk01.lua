@@ -1,32 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "fbreactor-mk01",
-    energy_required = 0.5,
-    enabled = true,
-    ingredients = {
-        {type = "item", name = "boiler",        amount = 2},
-        {type = "item", name = "pipe",          amount = 15},
-        {type = "item", name = "steam-engine",  amount = 1},
-        {type = "item", name = "stone-furnace", amount = 4},
-        {type = "item", name = "iron-plate",    amount = 40}
-    },
-    results = {
-        {type = "item", name = "fbreactor-mk01", amount = 1}
-    }
-}:add_unlock("electronics")
-
-ITEM {
-    type = "item",
-    name = "fbreactor-mk01",
-    icon = "__pyhightechgraphics__/graphics/icons/fbreactor-mk01.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk01",
-    order = "c",
-    place_result = "fbreactor-mk01",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "fbreactor-mk01",

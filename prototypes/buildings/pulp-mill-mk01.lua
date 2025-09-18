@@ -16,35 +16,6 @@ local pipe_right = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "pulp-mill-mk01",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "fbreactor-mk01", amount = 1},
-        {type = "item", name = "pipe",           amount = 10},
-        {type = "item", name = "steam-engine",   amount = 3},
-        {type = "item", name = "stone-brick",    amount = 30},
-        {type = "item", name = "wood",           amount = 30}
-    },
-    results = {
-        {type = "item", name = "pulp-mill-mk01", amount = 1}
-    }
-}:add_unlock("electronics")
-
-ITEM {
-    type = "item",
-    name = "pulp-mill-mk01",
-    icon = "__pyhightechgraphics__/graphics/icons/pulp-mill-mk01.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk01",
-    order = "d",
-    place_result = "pulp-mill-mk01",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "pulp-mill-mk01",

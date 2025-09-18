@@ -16,37 +16,6 @@ local pipe_right = {
     }
 }
 
-RECIPE {
-    type = "recipe",
-    name = "pulp-mill-mk04",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "pulp-mill-mk03",                amount = 1},
-        {type = "item", name = "superconductor-servomechanims", amount = 20},
-        {type = "item", name = "heavy-fermion",                 amount = 50},
-        {type = "item", name = "volumetric-capacitor",          amount = 20},
-        {type = "item", name = "intelligent-unit",              amount = 20},
-        {type = "item", name = "biopolymer",                    amount = 50},
-        {type = "item", name = "super-alloy",                   amount = 50},
-    },
-    results = {
-        {type = "item", name = "pulp-mill-mk04", amount = 1}
-    }
-}:add_unlock("electronics-machines-3")
-
-ITEM {
-    type = "item",
-    name = "pulp-mill-mk04",
-    icon = "__pyhightechgraphics__/graphics/icons/pulp-mill-mk04.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk04",
-    order = "d",
-    place_result = "pulp-mill-mk04",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "pulp-mill-mk04",

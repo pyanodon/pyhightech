@@ -1,34 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "nano-assembler-mk03",
-    energy_required = 0.5,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "nano-assembler-mk02",           amount = 1},
-        {type = "item", name = "biopolymer",                    amount = 10},
-        {type = "item", name = "super-alloy",                   amount = 5},
-        {type = "item", name = "electric-engine-unit",          amount = 10},
-        {type = "item", name = "intelligent-unit",              amount = 10},
-        {type = "item", name = "superconductor-servomechanims", amount = 10},
-        {type = "item", name = "hyperelastic-material",         amount = 15},
-    },
-    results = {
-        {type = "item", name = "nano-assembler-mk03", amount = 1}
-    }
-}:add_unlock("electronics-machines-3")
-
-ITEM {
-    type = "item",
-    name = "nano-assembler-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/nano-assembler-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings-mk03",
-    order = "f",
-    place_result = "nano-assembler-mk03",
-    stack_size = 10
-}
-
 ENTITY {
     type = "assembling-machine",
     name = "nano-assembler-mk03",

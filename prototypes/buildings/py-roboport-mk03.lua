@@ -1,31 +1,3 @@
-RECIPE {
-    type = "recipe",
-    name = "py-roboport-mk03",
-    energy_required = 1,
-    enabled = false,
-    ingredients = {
-        {type = "item", name = "py-roboport-mk02",     amount = 1},
-        {type = "item", name = "electric-engine-unit", amount = 1},
-        {type = "item", name = "super-alloy",          amount = 50},
-        {type = "item", name = "processing-unit",      amount = 10}
-    },
-    results = {
-        {type = "item", name = "py-roboport-mk03", amount = 1}
-    }
-}
-
-ITEM {
-    type = "item",
-    name = "py-roboport-mk03",
-    icon = "__pyhightechgraphics__/graphics/icons/py-roboport-mk03.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "py-hightech-buildings",
-    order = "a",
-    place_result = "py-roboport-mk03",
-    stack_size = 10
-}:subgroup_order("py-stations", "a")
-
 ENTITY {
     type = "roboport",
     name = "py-roboport-mk03",
