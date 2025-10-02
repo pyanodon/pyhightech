@@ -14,7 +14,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "botanical-nursery", amount = 2},
-        {type = "item", name = "storage-tank",      amount = 1}, --replace py-tank-65000
+        {type = "item", name = "storage-tank",      amount = 1}, --replace py-tank-5
         {type = "item", name = "classifier",        amount = 1},
 
     },
