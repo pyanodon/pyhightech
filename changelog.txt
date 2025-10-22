@@ -3,6 +3,7 @@ Version: 3.0.18
 Date: ????
   Changes:
     - Fixed some techs having a too-fast cycle time
+    - Increased the output fluidbox size of all buildings from 100->1000. Allows fluid transfer at even higher rates before hitting engine limitations. Resolves https://github.com/pyanodon/pybugreports/issues/1203
     - Fixed all techs added by "enable all feature flags" not being seen by autotech.
     - Added es-ES locale
 ---------------------------------------------------------------------------------------------------
