@@ -3568,7 +3568,8 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "acetone", amount = 50}
-    }
+    },
+    allow_productivity = true,
 }
 
 RECIPE {
