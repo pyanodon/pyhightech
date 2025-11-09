@@ -5,8 +5,8 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "methanol",      amount = 100},
-        {type = "fluid", name = "sulfuric-acid", amount = 50},
+        {type = "fluid", name = "methanol",          amount = 100},
+        {type = "fluid", name = "hydrogen-chloride", amount = 50},
     },
     results = {
         {type = "fluid", name = "chloromethane", amount = 30}

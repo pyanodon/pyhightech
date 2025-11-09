@@ -13,7 +13,8 @@ RECIPE {
         {type = "item",  name = "paramagnetic-material",         amount = 1},
         {type = "item",  name = "intelligent-unit",              amount = 1},
         {type = "item",  name = "construction-robot",            amount = 1},
-        {type = "fluid", name = "grease",                        amount = 300}
+        {type = "fluid", name = "grease",                        amount = 300},
+        {type = "item",  name = "super-alloy",                   amount = 4}
     },
     results = {
         {type = "item", name = "py-construction-robot-mk04", amount = 1}
