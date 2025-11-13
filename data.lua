@@ -120,6 +120,7 @@ end
 require "prototypes/buildings/ht-locomotive/ht-locomotive"
 require "prototypes/buildings/ht-locomotive/ht-generic-wagon"
 require "prototypes/buildings/ht-locomotive/ht-generic-fluid-wagon"
+require "prototypes/buildings/ht-locomotive/ht-train-sloped"
 
 --(( FLUIDS ))--
 require "prototypes/fluids/methane"
