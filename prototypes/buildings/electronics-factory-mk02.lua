@@ -9,7 +9,8 @@ RECIPE {
         {type = "item", name = "plastic-bar",              amount = 40},
         {type = "item", name = "niobium-plate",            amount = 20},
         {type = "item", name = "engine-unit",              amount = 10},
-        {type = "item", name = "steel-plate",              amount = 40}
+        {type = "item", name = "steel-plate",              amount = 40},
+        {type = "item", name = "glass",                    amount = 40}
     },
     results = {
         {type = "item", name = "electronics-factory-mk02", amount = 1}

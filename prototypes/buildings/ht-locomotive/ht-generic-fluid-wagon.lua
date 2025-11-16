@@ -6,12 +6,14 @@ RECIPE {
   energy_required = 0.5,
   enabled = false,
   ingredients = {
-    {type = "item", name = "steel-plate",     amount = 50},
+    {type = "item", name = "aluminium-plate", amount = 50},
     {type = "item", name = "plastic-bar",     amount = 50},
     {type = "item", name = "nbfe-alloy",      amount = 20},
     {type = "item", name = "nexelit-plate",   amount = 30},
     {type = "item", name = "iron-gear-wheel", amount = 100},
     {type = "item", name = "nichrome",        amount = 15},
+    {type = "item", name = "glass",           amount = 20},
+    {type = "item", name = "nickel-plate",    amount = 10}
   },
   results = {
     {type = "item", name = "ht-generic-fluid-wagon", amount = 1}
