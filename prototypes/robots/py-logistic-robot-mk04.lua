@@ -12,7 +12,7 @@ RECIPE {
         {type = "item",  name = "diamagnetic-material",          amount = 2},
         {type = "item",  name = "paramagnetic-material",         amount = 2},
         {type = "item",  name = "intelligent-unit",              amount = 1},
-        {type = "item",  name = "logistic-robot",                amount = 1},
+        {type = "item",  name = "py-logistic-robot-mk01",        amount = 1},
         {type = "fluid", name = "grease",                        amount = 300},
         {type = "item",  name = "super-alloy",                   amount = 4}
     },

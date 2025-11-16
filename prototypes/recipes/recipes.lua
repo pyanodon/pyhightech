@@ -45,7 +45,7 @@ RECIPE {
         {type = "fluid", name = "organic-solvent", amount = 100}
     },
     results = {
-        {type = "item",  name = "iron-ore",       amount = 5},
+        {type = "item",  name = "zinc-plate",     amount = 5},
         {type = "fluid", name = "rare-earth-mud", amount = 100}
     },
     main_product = "rare-earth-mud"
@@ -95,7 +95,7 @@ RECIPE {
         {type = "fluid", name = "sulfuric-acid", amount = 150}
     },
     results = {
-        {type = "item", name = "copper-ore",      amount = 5},
+        {type = "item", name = "nickel-plate",    amount = 5},
         {type = "item", name = "ree-concentrate", amount = 20}
     },
     main_product = "ree-concentrate"
@@ -2801,8 +2801,8 @@ RECIPE {
         {type = "item",  name = "nickel-plate", amount = 1}
     },
     results = {
-        {type = "fluid", name = "methane",  amount = 200},
-        {type = "fluid", name = "flue-gas", amount = 75}
+        {type = "fluid", name = "methane", amount = 200},
+        {type = "fluid", name = "oxygen",  amount = 75}
     },
     main_product = "methane"
 }:add_unlock("coal-processing-3")
@@ -3607,7 +3607,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "propene-to-acetone",
-    category = "fbreactor",
+    category = "wet-scrubber",
     enabled = false,
     energy_required = 5,
     ingredients = {

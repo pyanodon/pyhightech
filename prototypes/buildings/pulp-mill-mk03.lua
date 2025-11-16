@@ -25,7 +25,7 @@ RECIPE {
         {type = "item", name = "pulp-mill-mk02",        amount = 1},
         {type = "item", name = "graphene-roll",         amount = 20},
         {type = "item", name = "processing-unit",       amount = 10},
-        {type = "item", name = "pipe",                  amount = 20},
+        {type = "item", name = "niobium-pipe",          amount = 20},
         {type = "item", name = "low-density-structure", amount = 15},
         {type = "item", name = "electric-engine-unit",  amount = 10},
     },

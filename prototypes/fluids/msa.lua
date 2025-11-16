@@ -5,9 +5,9 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "fluid", name = "dms",                amount = 50},
-        {type = "fluid", name = "hydrogen-peroxide",  amount = 100},
-        {type = "fluid", name = "industrial-solvent", amount = 100},
+        {type = "fluid", name = "dms",               amount = 50},
+        {type = "fluid", name = "hydrogen-peroxide", amount = 100},
+        {type = "fluid", name = "chlorine",          amount = 100},
     },
     results = {
         {type = "fluid", name = "msa", amount = 100}
