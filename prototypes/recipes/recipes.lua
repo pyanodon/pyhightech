@@ -95,7 +95,7 @@ RECIPE {
         {type = "fluid", name = "sulfuric-acid", amount = 150}
     },
     results = {
-        {type = "item", name = "nickel-plate",    amount = 5},
+        {type = "item", name = "copper-ore",      amount = 5},
         {type = "item", name = "ree-concentrate", amount = 20}
     },
     main_product = "ree-concentrate"
@@ -662,6 +662,10 @@ RECIPE {
     },
     main_product = "phenolicboard"
 }:add_unlock("integrated-circuits-1")
+
+if mods.pyhightech then
+    RECIPE("phenolicboard"):add_ingredient_unsafe {type = "item", name = "sodium-hydroxide", amount = 3}
+end
 
 RECIPE {
     type = "recipe",
@@ -1286,10 +1290,10 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "nickel-plate", amount = 4},
-        {type = "item",  name = "tin-plate",    amount = 4},
-        {type = "fluid", name = "boric-acid",   amount = 50},
-        {type = "item",  name = "silver-plate", amount = 1}
+        {type = "item",  name = "nickel-plate",    amount = 4},
+        {type = "item",  name = "tin-plate",       amount = 4},
+        {type = "fluid", name = "liquid-nitrogen", amount = 50},
+        {type = "item",  name = "silver-plate",    amount = 1}
     },
     results = {
         {type = "item", name = "capacitor-termination", amount = 2}
