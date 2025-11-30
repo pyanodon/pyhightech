@@ -31,21 +31,3 @@ RECIPE("gas-separator-mk01"):remove_unlock("coke-mk02"):add_unlock("sulfur-proce
 if not mods["pypetroleumhandling"] then
     RECIPE("mixer-mk01"):remove_unlock("advanced-mining-facilities"):add_unlock("mibc")
 end
-
-
--- RECIPE CHANGES
--- RECIPE("science-coating"):add_ingredient {type = "item", name = "nylon", amount = 5}:add_ingredient {type = "item", name = "zinc-acetate", amount = 15}
--- RECIPE("bio-reactor-mk01"):add_ingredient {type = "item", name = "advanced-circuit", amount = 5}
--- RECIPE("sc-coil"):add_ingredient {type = "item", name = "re-tin", amount = 1}
--- RECIPE("coil-core"):add_ingredient {type = "item", name = "nexelit-plate", amount = 2}
--- RECIPE("magnetic-core"):add_ingredient {type = "item", name = "ndfeb-alloy", amount = 1}:add_ingredient {type = "item", name = "epoxy", amount = 1}
--- RECIPE("deposited-core").category = "nano"
--- RECIPE("boron-mixture"):replace_ingredient("helium", "acetylene")
--- RECIPE("fusion-reactor-mk01"):replace_ingredient("advanced-circuit", "processing-unit")
--- RECIPE("fusion-reactor-mk02"):replace_ingredient("advanced-circuit", "intelligent-unit")
--- RECIPE("nexelit-matrix"):replace_ingredient("treated-wood", "epoxy")
--- RECIPE("mixer-mk01"):add_ingredient {type = "item", name = "electronic-circuit", amount = 10}
--- RECIPE("kmauts-ration"):remove_ingredient("organics"):add_ingredient {type = "item", name = "skin", amount = 25}
--- RECIPE("kmauts-ration"):remove_ingredient("ralesia"):add_ingredient {type = "item", name = "blood-meal", amount = 5}
--- RECIPE("agitator-mk01"):replace_ingredient("plastic-bar", "melamine")
--- RECIPE("centrifugal-pan-mk01"):replace_ingredient("advanced-circuit", "electronic-circuit")
