@@ -7,7 +7,7 @@ RECIPE {
     ingredients = {
         {type = "fluid", name = "chloromethane",  amount = 100},
         {type = "item",  name = "silicon",        amount = 5},
-        {type = "item",  name = "crushed-copper", amount = 10},
+        {type = "item",  name = "grade-4-copper", amount = 10},
     },
     results = {
         {type = "fluid", name = "dimethyldichlorosilane", amount = 50}

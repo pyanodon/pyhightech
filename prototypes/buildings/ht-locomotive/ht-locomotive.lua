@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "steel-plate",          amount = 60},
+        {type = "item", name = "aluminium-plate",      amount = 60},
         {type = "item", name = "evaporator",           amount = 1},
         {type = "item", name = "plastic-bar",          amount = 100},
         {type = "item", name = "advanced-circuit",     amount = 20},
@@ -15,6 +15,8 @@ RECIPE {
         {type = "item", name = "iron-gear-wheel",      amount = 100},
         {type = "item", name = "nichrome",             amount = 10},
         {type = "item", name = "electric-engine-unit", amount = 6},
+        {type = "item", name = "glass",                amount = 60},
+        {type = "item", name = "nickel-plate",         amount = 50}
     },
     results = {
         {type = "item", name = "ht-locomotive", amount = 1}

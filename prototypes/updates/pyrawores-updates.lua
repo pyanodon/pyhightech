@@ -20,16 +20,3 @@ RECIPE("nylon-plastic"):remove_unlock("plastics-mk02"):add_unlock("plastics-mk03
 RECIPE("plastics-mk03"):remove_unlock("plastics-mk03")
 RECIPE("plastic2"):remove_unlock("plastics-mk03")
 RECIPE("crco-alloy"):remove_unlock("quantum-processor"):add_unlock("alloys-mk04")
-
--- RECIPE CHANGES
-RECIPE("fawogae-plantation-mk03"):replace_ingredient("treated-wood", "fiberboard")
-RECIPE("ree-float"):replace_result("iron-ore", "zinc-plate")
-RECIPE("ree-concentrate3"):replace_result("copper-plate", "nickel-plate")
-RECIPE("syngas-methane"):replace_result("flue-gas", "oxygen")
-RECIPE("pa-niobium"):replace_ingredient("chromium", "nickel-plate")
-RECIPE("pa-uranium"):replace_ingredient("iron-plate", "gold-plate")
-RECIPE("propene"):replace_ingredient("iron-plate", "lead-plate")
-RECIPE("msa"):replace_ingredient("industrial-solvent", "chlorine")
-RECIPE("acrolein"):add_ingredient {type = "fluid", name = "oxygen", amount = 80}
-RECIPE("pa-niobium"):replace_ingredient("chromium", "nickel-plate")
-RECIPE("propene-to-acetone").category = "wet-scrubber"

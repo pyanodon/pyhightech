@@ -1,3 +1,7 @@
+if not mods["pyalienlife"] then
+    table.insert(data.raw["assembling-machine"]["crash-site-assembling-machine-1-repaired"].minable.results, {type = "item", name = "duralumin", amount = 50})
+end
+
 require "prototypes/updates/base-updates"
 require "prototypes/updates/pycoalprocessing-updates"
 require "prototypes/updates/pyfusionenergy-updates"
