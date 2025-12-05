@@ -2,6 +2,7 @@
 Version: 3.0.18
 Date: ????
   Changes:
+    - Updated German locale courtesy of @Spunk42
     - MK03 trains now tilt on rail ramps
     - Fixed some techs having a too-fast cycle time
     - Increased the output fluidbox size of all buildings from 100->1000. Allows fluid transfer at even higher rates before hitting engine limitations. Resolves https://github.com/pyanodon/pybugreports/issues/1203
