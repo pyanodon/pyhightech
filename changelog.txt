@@ -8,6 +8,7 @@ Date: ????
     - Fixed all techs added by "enable all feature flags" not being seen by autotech.
     - Added es-ES locale
     - Renamed "make diamond" to "breed diamond" to match other particle accelerator recipes
+    - Renamed "distilation of cumene" to "cumene distillation"
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.17
 Date: 2025-09-15
