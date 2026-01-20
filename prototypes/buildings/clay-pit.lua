@@ -115,7 +115,7 @@ for i = 1, 4 do
             },
         },
         energy_usage = (100 * 2 ^ i) .. "kW",
-        vector_to_place_result = {-3.51, -2.0},
+        vector_to_place_result = {-3.7, -2.0},
         graphics_set = {
             animation = {
                 layers = {
