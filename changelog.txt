@@ -3,6 +3,7 @@ Version: 3.0.19
 Date: ???
   Changes:
     - Updated German locale courtesy of @Spunk42
+    - Removed redundant silicon doping recipe names
     - Fixed that clay pit would sometimes drop items on the ground instead of in containers or on belts. Resolves https://github.com/pyanodon/pybugreports/issues/1366
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.18
