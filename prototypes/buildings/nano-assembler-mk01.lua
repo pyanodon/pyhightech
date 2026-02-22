@@ -12,6 +12,7 @@ RECIPE {
         {type = "item", name = "advanced-circuit",       amount = 10},
         {type = "item", name = "iron-gear-wheel",        amount = 30},
         {type = "item", name = "steam-engine",           amount = 3},
+        {type = "item", name = "glass",                  amount = 40},
     },
     results = {
         {type = "item", name = "nano-assembler-mk01", amount = 1}

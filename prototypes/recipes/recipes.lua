@@ -45,7 +45,7 @@ RECIPE {
         {type = "fluid", name = "organic-solvent", amount = 100}
     },
     results = {
-        {type = "item",  name = "iron-ore",       amount = 5},
+        {type = "item",  name = "zinc-plate",     amount = 5},
         {type = "fluid", name = "rare-earth-mud", amount = 100}
     },
     main_product = "rare-earth-mud"
@@ -228,9 +228,9 @@ RECIPE {
         {type = "fluid", name = "ammonia",     amount = 20}
     },
     results = {
-        {type = "item",  name = "melamine",          amount = 20},
-        {type = "fluid", name = "carbon-dioxide",    amount = 30},
-        {type = "fluid", name = "muddy-sludge", amount = 50}
+        {type = "item",  name = "melamine",       amount = 20},
+        {type = "fluid", name = "carbon-dioxide", amount = 30},
+        {type = "fluid", name = "muddy-sludge",   amount = 50}
     },
     main_product = "melamine"
 }
@@ -290,8 +290,8 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "ceramic",      amount = 1},
-        {type = "item", name = "copper-plate", amount = 2}
+        {type = "item", name = "ceramic",   amount = 1},
+        {type = "item", name = "tin-plate", amount = 2}
     },
     results = {
         {type = "item", name = "capacitor1", amount = 3}
@@ -306,8 +306,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "iron-plate", amount = 1},
-        {type = "item", name = "coke",       amount = 2}
+        {type = "item", name = "tin-plate", amount = 1},
+        {type = "item", name = "coke",      amount = 2},
+        {type = "item", name = "glass",     amount = 1}
     },
     results = {
         {type = "item", name = "resistor1", amount = 3}
@@ -340,7 +341,8 @@ RECIPE {
         {type = "item",  name = "iron-plate",   amount = 5},
         {type = "item",  name = "copper-plate", amount = 2},
         {type = "item",  name = "graphite",     amount = 2},
-        {type = "fluid", name = "vacuum",       amount = 50}
+        {type = "fluid", name = "vacuum",       amount = 50},
+        {type = "item",  name = "glass",        amount = 2}
     },
     results = {
         {type = "item", name = "vacuum-tube", amount = 2}
@@ -355,9 +357,10 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "treated-wood", amount = 3},
-        {type = "item",  name = "raw-fiber",    amount = 5},
-        {type = "fluid", name = "steam",        amount = 500}
+        {type = "item",  name = "treated-wood",     amount = 3},
+        {type = "item",  name = "raw-fiber",        amount = 5},
+        {type = "fluid", name = "steam",            amount = 500},
+        {type = "item",  name = "sodium-hydroxide", amount = 3}
     },
     results = {
         {type = "item",  name = "fiberboard",      amount = 4},
@@ -507,8 +510,10 @@ RECIPE {
     enabled = false,
     energy_required = 8,
     ingredients = {
-        {type = "item", name = "silicon",  amount = 5},
-        {type = "item", name = "graphite", amount = 3}
+        {type = "item", name = "silicon",        amount = 5},
+        {type = "item", name = "graphite",       amount = 3},
+        {type = "item", name = "crushed-quartz", amount = 2},
+        {type = "item", name = "aramid",         amount = 1}
     },
     results = {
         {type = "fluid", name = "flue-gas",      amount = 100},
@@ -658,6 +663,10 @@ RECIPE {
     main_product = "phenolicboard"
 }:add_unlock("integrated-circuits-1")
 
+if mods.pyhightech then
+    RECIPE("phenolicboard"):add_ingredient_unsafe {type = "item", name = "sodium-hydroxide", amount = 3}
+end
+
 RECIPE {
     type = "recipe",
     name = "pcb2",
@@ -668,7 +677,8 @@ RECIPE {
         {type = "item",  name = "phenolicboard", amount = 5},
         {type = "fluid", name = "etching",       amount = 25},
         {type = "item",  name = "copper-plate",  amount = 5},
-        {type = "item",  name = "nylon-parts",   amount = 10}
+        {type = "item",  name = "nylon-parts",   amount = 10},
+        {type = "item",  name = "tin-plate",     amount = 5}
     },
     results = {
         {type = "item", name = "pcb2", amount = 3}
@@ -687,8 +697,9 @@ RECIPE {
         {type = "item",  name = "p-dope",       amount = 10},
         {type = "item",  name = "plastic-bar",  amount = 6},
         {type = "item",  name = "cermet",       amount = 5},
-        {type = "item",  name = "copper-cable", amount = 10},
-        {type = "fluid", name = "vacuum",       amount = 50}
+        {type = "item",  name = "tinned-cable", amount = 10},
+        {type = "fluid", name = "vacuum",       amount = 50},
+        {type = "item",  name = "tin-plate",    amount = 5}
     },
     results = {
         {type = "item", name = "microchip", amount = 3}
@@ -704,7 +715,8 @@ RECIPE {
     energy_required = 5,
     ingredients = {
         {type = "item", name = "ceramic",        amount = 5},
-        {type = "item", name = "molybdenum-ore", amount = 3}
+        {type = "item", name = "molybdenum-ore", amount = 3},
+        {type = "item", name = "ore-nickel",     amount = 5}
     },
     results = {
         {type = "item", name = "crude-cermet", amount = 5}
@@ -730,12 +742,13 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fecr-alloy",
-    category = "hpf",
+    category = mods.pyhightech and "py-rawores-smelter" or "hpf",
     enabled = false,
     energy_required = 3,
     ingredients = {
         {type = "item", name = "iron-plate", amount = 5},
-        {type = "item", name = "chromium",   amount = 1}
+        {type = "item", name = "chromium",   amount = 1},
+        {type = "item", name = "graphite",   amount = 3}
     },
     results = {
         {type = "item", name = "fecr-alloy", amount = 2}
@@ -766,12 +779,13 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "light-n", amount = 4},
-        {type = "item",  name = "reo",     amount = 4},
-        {type = "item",  name = "cermet",  amount = 4},
-        {type = "item",  name = "p-dope",  amount = 4},
-        {type = "item",  name = "nylon",   amount = 3},
-        {type = "fluid", name = "vacuum",  amount = 50}
+        {type = "item",  name = "light-n",   amount = 4},
+        {type = "item",  name = "reo",       amount = 4},
+        {type = "item",  name = "cermet",    amount = 4},
+        {type = "item",  name = "p-dope",    amount = 4},
+        {type = "item",  name = "nylon",     amount = 3},
+        {type = "fluid", name = "vacuum",    amount = 50},
+        {type = "item",  name = "tin-plate", amount = 3}
     },
     results = {
         {type = "item", name = "diode", amount = 4}
@@ -788,7 +802,7 @@ RECIPE {
         {type = "item", name = "melamine-resin", amount = 5},
         {type = "item", name = "inductor1",      amount = 5},
         {type = "item", name = "ferrite",        amount = 10},
-        {type = "item", name = "copper-cable",   amount = 20}
+        {type = "item", name = "tinned-cable",   amount = 20}
     },
     results = {
         {type = "item", name = "inductor2", amount = 5}
@@ -802,11 +816,11 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item",  name = "cermet",       amount = 5},
-        {type = "item",  name = "capacitor1",   amount = 5},
-        {type = "item",  name = "steel-plate",  amount = 10},
-        {type = "item",  name = "copper-cable", amount = 20},
-        {type = "fluid", name = "boric-acid",   amount = 200}
+        {type = "item",  name = "capacitor1",      amount = 5},
+        {type = "item",  name = "aluminium-plate", amount = 10},
+        {type = "item",  name = "tinned-cable",    amount = 20},
+        {type = "fluid", name = "boric-acid",      amount = 200},
+        {type = "fluid", name = "al-pulp-01",      amount = 10}
     },
     results = {
         {type = "item", name = "capacitor2", amount = 5}
@@ -846,7 +860,9 @@ RECIPE {
         {type = "item",  name = "limestone",      amount = 5},
         {type = "item",  name = "clay",           amount = 5},
         {type = "item",  name = "boron-trioxide", amount = 3},
-        {type = "fluid", name = "refsyngas",      amount = 50, fluidbox_index = 1}
+        {type = "fluid", name = "refsyngas",      amount = 50,  fluidbox_index = 1},
+        {type = "item",  name = "sodium-sulfate", amount = 1},
+        {type = "fluid", name = "molten-glass",   amount = 100, fluidbox_index = 2}
     },
     results = {
         {type = "item", name = "glass-fiber", amount = 3}
@@ -861,8 +877,9 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item",  name = "phenol",  amount = 10},
-        {type = "fluid", name = "acetone", amount = 20}
+        {type = "item",  name = "phenol",            amount = 10},
+        {type = "fluid", name = "acetone",           amount = 20},
+        {type = "fluid", name = "hydrogen-chloride", amount = 50}
     },
     results = {
         {type = "item", name = "bisphenol-a", amount = 3}
@@ -877,9 +894,10 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "item",  name = "bisphenol-a", amount = 6},
-        {type = "item",  name = "iron-plate",  amount = 1},
-        {type = "fluid", name = "ech",         amount = 30}
+        {type = "item",  name = "bisphenol-a",      amount = 6},
+        {type = "item",  name = "iron-plate",       amount = 1},
+        {type = "fluid", name = "ech",              amount = 30},
+        {type = "item",  name = "sodium-hydroxide", amount = 5}
     },
     results = {
         {type = "item", name = "epoxy", amount = 4}
@@ -895,7 +913,8 @@ RECIPE {
     energy_required = 10,
     ingredients = {
         {type = "fluid", name = "dimethyldichlorosilane", amount = 100},
-        {type = "fluid", name = "water",                  amount = 200}
+        {type = "fluid", name = "water",                  amount = 200},
+        {type = "fluid", name = "hydrogen-chloride",      amount = 50}
     },
     results = {
         {type = "item", name = "pdms", amount = 5}
@@ -914,8 +933,10 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "item",  name = "pure-sand", amount = 30},
-        {type = "fluid", name = "methane",   amount = 100}
+        {type = "item",  name = "pure-sand",    amount = 30},
+        {type = "fluid", name = "methane",      amount = 100},
+        {type = "item",  name = "nickel-plate", amount = 2},
+        {type = "fluid", name = "hydrogen",     amount = 100}
     },
     results = {
         {type = "item", name = "nic-core", amount = 2}
@@ -970,8 +991,8 @@ RECIPE {
         {type = "item",  name = "biofilm",         amount = 4}
     },
     results = {
-        {type = "item",  name = "graphene-roll",     amount = 5},
-        {type = "fluid", name = "muddy-sludge", amount = 50}
+        {type = "item",  name = "graphene-roll", amount = 5},
+        {type = "fluid", name = "muddy-sludge",  amount = 50}
     },
     main_product = "graphene-roll"
 }:add_unlock("graphene")
@@ -1022,7 +1043,9 @@ RECIPE {
         {type = "item",  name = "graphene-roll",      amount = 4},
         {type = "item",  name = "epoxy",              amount = 5},
         {type = "fluid", name = "industrial-solvent", amount = 50},
-        {type = "fluid", name = "vacuum",             amount = 100}
+        {type = "fluid", name = "vacuum",             amount = 100},
+        {type = "item",  name = "gold-plate",         amount = 2},
+        {type = "item",  name = "aluminium-plate",    amount = 2}
     },
     results = {
         {type = "item", name = "processor", amount = 1}
@@ -1038,9 +1061,10 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "item",  name = "iron-oxide",     amount = 12},
-        {type = "item",  name = "glass-fiber",    amount = 6},
+        {type = "item",  name = "crushed-quartz", amount = 6},
         {type = "item",  name = "phosphate-rock", amount = 5},
-        {type = "fluid", name = "acetylene",      amount = 50, fluidbox_index = 1}
+        {type = "fluid", name = "acetylene",      amount = 50, fluidbox_index = 1},
+        {type = "item",  name = "sodium-sulfate", amount = 1}
     },
     results = {
         {type = "item", name = "phosphate-glass", amount = 1}
@@ -1078,7 +1102,8 @@ RECIPE {
         {type = "item",  name = "phosphate-glass", amount = 2},
         {type = "item",  name = "nichrome",        amount = 1},
         {type = "item",  name = "epoxy",           amount = 5},
-        {type = "fluid", name = "vacuum",          amount = 100}
+        {type = "fluid", name = "vacuum",          amount = 100},
+        {type = "item",  name = "nickel-plate",    amount = 2}
     },
     results = {
         {type = "item", name = "resistor3", amount = 3}
@@ -1130,7 +1155,8 @@ RECIPE {
         {type = "item",  name = "copper-plate", amount = 5},
         {type = "item",  name = "fiberglass",   amount = 1},
         {type = "item",  name = "nylon-parts",  amount = 15},
-        {type = "fluid", name = "msa",          amount = 100}
+        {type = "fluid", name = "msa",          amount = 100},
+        {type = "item",  name = "tin-plate",    amount = 5}
     },
     results = {
         {type = "item", name = "pcb3", amount = 2}
@@ -1165,7 +1191,7 @@ RECIPE {
         {type = "item",  name = "nbfe-alloy",      amount = 1},
         {type = "item",  name = "magnetic-core",   amount = 1},
         {type = "item",  name = "graphene-roll",   amount = 2},
-        {type = "fluid", name = "liquid-pure-air", amount = 30}
+        {type = "fluid", name = "liquid-nitrogen", amount = 30}
     },
     results = {
         {type = "item", name = "high-flux-core", amount = 1}
@@ -1181,7 +1207,8 @@ RECIPE {
     ingredients = {
         {type = "item", name = "high-flux-core", amount = 1},
         {type = "item", name = "epoxy",          amount = 1},
-        {type = "item", name = "copper-cable",   amount = 30}
+        {type = "item", name = "tinned-cable",   amount = 30},
+        {type = "item", name = "gold-plate",     amount = 1}
     },
     results = {
         {type = "item", name = "inductor3", amount = 3}
@@ -1191,11 +1218,11 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "re-tin",
-    category = "advanced-foundry",
+    category = mods.pyhightech and "py-rawores-smelter" or "advanced-foundry",
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "item",  name = "iron-plate",   amount = 5},
+        {type = "item",  name = "tin-plate",    amount = 5},
         {type = "item",  name = "reo",          amount = 4},
         {type = "item",  name = "sand-casting", amount = 1},
         {type = "fluid", name = "heavy-oil",    amount = 100}
@@ -1216,7 +1243,7 @@ RECIPE {
         {type = "item",  name = "biofilm",         amount = 1},
         {type = "item",  name = "re-tin",          amount = 1},
         {type = "item",  name = "nexelit-plate",   amount = 2},
-        {type = "fluid", name = "liquid-pure-air", amount = 30}
+        {type = "fluid", name = "liquid-nitrogen", amount = 30}
     },
     results = {
         {type = "item", name = "diode-core", amount = 3}
@@ -1246,9 +1273,10 @@ RECIPE {
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item", name = "copper-coating", amount = 1},
-        {type = "item", name = "ceramic",        amount = 3},
-        {type = "item", name = "boron-carbide",  amount = 1}
+        {type = "item", name = "copper-coating",   amount = 1},
+        {type = "item", name = "ceramic",          amount = 3},
+        {type = "item", name = "boron-carbide",    amount = 1},
+        {type = "item", name = "sodium-hydroxide", amount = 30}
     },
     results = {
         {type = "item", name = "capacitor-core", amount = 2}
@@ -1262,9 +1290,10 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "steel-plate",  amount = 4},
-        {type = "item",  name = "copper-plate", amount = 4},
-        {type = "fluid", name = "boric-acid",   amount = 50}
+        {type = "item",  name = "nickel-plate",    amount = 4},
+        {type = "item",  name = "tin-plate",       amount = 4},
+        {type = "fluid", name = "liquid-nitrogen", amount = 50},
+        {type = "item",  name = "silver-plate",    amount = 1}
     },
     results = {
         {type = "item", name = "capacitor-termination", amount = 2}
@@ -1340,6 +1369,10 @@ RECIPE {
     }
 }
 
+if mods.pyhightech then
+    RECIPE("biopolymer"):add_ingredient_unsafe {type = "fluid", name = "diesel", amount = 150}
+end
+
 RECIPE {
     type = "recipe",
     name = "carbon-nanotube",
@@ -1365,9 +1398,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "pure-sand", amount = 20},
-        {type = "fluid", name = "refsyngas", amount = 150},
-        {type = "item",  name = "phenol",    amount = 15}
+        {type = "item",  name = "pure-sand",        amount = 20},
+        {type = "fluid", name = "refsyngas",        amount = 150},
+        {type = "item",  name = "sodium-hydroxide", amount = 15}
     },
     results = {
         {type = "item", name = "sodium-silicate", amount = 1}
@@ -1397,7 +1430,7 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "silica-powder", amount = 5},
         {type = "item",  name = "sulfur",        amount = 3},
-        {type = "item",  name = "niobium-plate", amount = 2},
+        {type = "item",  name = "lead-plate",    amount = 2},
         {type = "item",  name = "plastic-bar",   amount = 20},
         {type = "fluid", name = "vacuum",        amount = 200}
     },
@@ -1595,7 +1628,8 @@ RECIPE {
     enabled = false,
     energy_required = 8,
     ingredients = {
-        {type = "item", name = "fiber", amount = 4}
+        {type = "item", name = "fiber",            amount = 4},
+        {type = "item", name = "sodium-hydroxide", amount = 3}
     },
     results = {
         {type = "item", name = "micro-fiber", amount = 2}
@@ -1609,8 +1643,8 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item", name = "melamine-resin", amount = 2},
-        {type = "item", name = "phenol",         amount = 10}
+        {type = "item", name = "melamine-resin",   amount = 2},
+        {type = "item", name = "sodium-hydroxide", amount = 10}
     },
     results = {
         {type = "item", name = "resorcinol", amount = 2}
@@ -1644,8 +1678,8 @@ RECIPE {
         {type = "fluid", name = "water",  amount = 100}
     },
     results = {
-        {type = "item",  name = "clean-rf-gel",      amount = 1},
-        {type = "fluid", name = "tailings", amount = 100}
+        {type = "item",  name = "clean-rf-gel", amount = 1},
+        {type = "fluid", name = "tailings",     amount = 100}
     },
     main_product = "clean-rf-gel"
 }:add_unlock("aerogel")
@@ -1671,9 +1705,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "syngas",  amount = 200},
-        {type = "item",  name = "aerogel", amount = 1},
-        {type = "item",  name = "silicon", amount = 5}
+        {type = "fluid", name = "nitrogen",        amount = 50},
+        {type = "item",  name = "aerogel",         amount = 1},
+        {type = "item",  name = "purified-quartz", amount = 1}
     },
     results = {
         {type = "item", name = "carbon-aerogel", amount = 1}
@@ -1725,9 +1759,10 @@ RECIPE {
     ingredients = {
         {type = "item", name = "copper-plate", amount = 10},
         {type = "item", name = "reo",          amount = 5},
-        {type = "item", name = "uranium-238",  amount = 10},
+        {type = "item", name = "40-u-powder",  amount = 10},
         {type = "item", name = "fuelrod-mk01", amount = 2},
-        {type = "item", name = "sand-casting", amount = 4}
+        {type = "item", name = "sand-casting", amount = 4},
+        {type = "item", name = "gold-plate",   amount = 5}
     },
     results = {
         {type = "item", name = "heavy-fermion", amount = 1}
@@ -1776,7 +1811,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "crco-alloy",
-    category = "advanced-foundry",
+    category = mods.pyhightech and "py-rawores-smelter" or "advanced-foundry",
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -1803,6 +1838,7 @@ RECIPE {
         {type = "item",  name = "super-alloy",    amount = 1},
         {type = "fluid", name = "boric-acid",     amount = 100},
         {type = "fluid", name = "vacuum",         amount = 100},
+        {type = "item",  name = "silver-plate",   amount = 4}
     },
     results = {
         {type = "item", name = "nxag-matrix", amount = 1}
@@ -1821,7 +1857,8 @@ RECIPE {
         {type = "item",  name = "cermet",      amount = 5},
         {type = "item",  name = "crco-alloy",  amount = 2},
         {type = "item",  name = "nxag-matrix", amount = 1},
-        {type = "fluid", name = "boric-acid",  amount = 100}
+        {type = "fluid", name = "boric-acid",  amount = 100},
+        {type = "item",  name = "lead-plate",  amount = 4}
     },
     results = {
         {type = "item", name = "paradiamatic-resistor", amount = 1}
@@ -1835,7 +1872,7 @@ RECIPE {
     enabled = false,
     energy_required = 3.5,
     ingredients = {
-        {type = "item",  name = "stone-brick", amount = 10},
+        {type = "item",  name = "zinc-plate",  amount = 10},
         {type = "fluid", name = "acetic-acid", amount = 100}
     },
     results = {
@@ -1880,9 +1917,10 @@ RECIPE {
     enabled = false,
     energy_required = 7,
     ingredients = {
-        {type = "item",  name = "zinc-acetate",    amount = 1},
-        {type = "item",  name = "sulfur",          amount = 10},
-        {type = "fluid", name = "ralesia-extract", amount = 50}
+        {type = "item",  name = "zinc-acetate",     amount = 1},
+        {type = "item",  name = "sulfur",           amount = 10},
+        {type = "fluid", name = "ralesia-extract",  amount = 50},
+        {type = "item",  name = "sodium-hydroxide", amount = 8}
     },
     results = {
         {type = "item", name = "zinc-nanocompound", amount = 1}
@@ -1900,8 +1938,8 @@ RECIPE {
         {type = "fluid", name = "methanol",          amount = 100}
     },
     results = {
-        {type = "item",  name = "zinc-nanocomplex",  amount = 1},
-        {type = "fluid", name = "tailings", amount = 100}
+        {type = "item",  name = "zinc-nanocomplex", amount = 1},
+        {type = "fluid", name = "tailings",         amount = 100}
     },
     main_product = "zinc-nanocomplex",
     icon = "__pyhightechgraphics__/graphics/icons/wash-zincnano.png",
@@ -1937,7 +1975,8 @@ RECIPE {
         {type = "item",  name = "biopolymer",        amount = 2},
         {type = "item",  name = "carbon-nanotube",   amount = 1},
         {type = "item",  name = "zno-nanoparticles", amount = 1},
-        {type = "fluid", name = "boric-acid",        amount = 100}
+        {type = "fluid", name = "boric-acid",        amount = 100},
+        {type = "item",  name = "salt",              amount = 40}
     },
     results = {
         {type = "item", name = "csle-diode", amount = 3}
@@ -1947,17 +1986,17 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ndfeb-alloy",
-    category = "advanced-foundry",
+    category = "py-rawores-smelter",
     enabled = false,
     energy_required = 4,
     ingredients = {
-        {type = "item",  name = "iron-plate",     amount = 12},
-        {type = "item",  name = "reo",            amount = 5},
-        {type = "item",  name = "boron",          amount = 4},
-        {type = "item",  name = "borax",          amount = 5},
-        {type = "item",  name = "fuelrod-mk01",   amount = 1},
-        {type = "item",  name = "sand-casting",   amount = 2},
-        {type = "fluid", name = "carbon-dioxide", amount = 100}
+        {type = "item",  name = "iron-plate",   amount = 12},
+        {type = "item",  name = "reo",          amount = 5},
+        {type = "item",  name = "boron",        amount = 4},
+        {type = "item",  name = "borax",        amount = 5},
+        {type = "item",  name = "fuelrod-mk01", amount = 1},
+        {type = "item",  name = "sand-casting", amount = 2},
+        {type = "fluid", name = "oxygen",       amount = 100}
     },
     results = {
         {type = "item", name = "ndfeb-alloy", amount = 1}
@@ -1988,7 +2027,8 @@ RECIPE {
         {type = "item", name = "ndfeb-powder", amount = 5},
         {type = "item", name = "borax",        amount = 5},
         {type = "item", name = "fuelrod-mk01", amount = 1},
-        {type = "item", name = "sand-casting", amount = 2}
+        {type = "item", name = "sand-casting", amount = 2},
+        {type = "item", name = "nickel-plate", amount = 2}
     },
     results = {
         {type = "item", name = "re-magnet", amount = 1}
@@ -2021,11 +2061,12 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item",  name = "sc-substrate",  amount = 1},
-        {type = "item",  name = "re-magnet",     amount = 1},
-        {type = "item",  name = "agzn-alloy",    amount = 1},
-        {type = "item",  name = "nbti-alloy",    amount = 5},
-        {type = "fluid", name = "liquid-helium", amount = 50}
+        {type = "item",  name = "sc-substrate",    amount = 1},
+        {type = "item",  name = "re-magnet",       amount = 1},
+        {type = "item",  name = "agzn-alloy",      amount = 1},
+        {type = "item",  name = "nbti-alloy",      amount = 5},
+        {type = "fluid", name = "liquid-nitrogen", amount = 50},
+        {type = "item",  name = "gold-plate",      amount = 1}
     },
     results = {
         {type = "item", name = "superconductor", amount = 1}
@@ -2043,7 +2084,8 @@ RECIPE {
         {type = "item", name = "silicon",       amount = 10},
         {type = "item", name = "iron-plate",    amount = 5},
         {type = "item", name = "boron",         amount = 3},
-        {type = "item", name = "copper-plate",  amount = 5}
+        {type = "item", name = "copper-plate",  amount = 5},
+        {type = "item", name = "gold-plate",    amount = 2}
     },
     results = {
         {type = "item", name = "nanocrystaline-core", amount = 1}
@@ -2079,7 +2121,8 @@ RECIPE {
         {type = "item",  name = "graphite",        amount = 1},
         {type = "item",  name = "carbon-aerogel",  amount = 8},
         {type = "item",  name = "sodium-chlorate", amount = 10},
-        {type = "fluid", name = "water",           amount = 50}
+        {type = "fluid", name = "water",           amount = 50},
+        {type = "item",  name = "silver-plate",    amount = 2}
     },
     results = {
         {type = "item", name = "supercapacitor-core", amount = 1}
@@ -2096,7 +2139,7 @@ RECIPE {
         {type = "item",  name = "fiberboard",       amount = 2},
         {type = "item",  name = "nexelit-plate",    amount = 2},
         {type = "item",  name = "molybdenum-plate", amount = 2},
-        {type = "item",  name = "iron-plate",       amount = 3},
+        {type = "item",  name = "aluminium-plate",  amount = 3},
         {type = "fluid", name = "water",            amount = 50}
     },
     results = {
@@ -2132,7 +2175,8 @@ RECIPE {
         {type = "item",  name = "ceramic",           amount = 3},
         {type = "item",  name = "zno-nanoparticles", amount = 2},
         {type = "fluid", name = "etching",           amount = 40},
-        {type = "fluid", name = "msa",               amount = 50}
+        {type = "fluid", name = "msa",               amount = 50},
+        {type = "item",  name = "lead-plate",        amount = 5}
     },
     results = {
         {type = "item", name = "pcb4", amount = 1}
@@ -2154,7 +2198,8 @@ RECIPE {
         {type = "item", name = "supercapacitor",         amount = 1},
         {type = "item", name = "paradiamatic-resistor",  amount = 1},
         {type = "item", name = "nanochip",               amount = 2},
-        {type = "item", name = "fault-current-inductor", amount = 1}
+        {type = "item", name = "fault-current-inductor", amount = 1},
+        {type = "item", name = "solder",                 amount = 4}
     },
     results = {
         {type = "item", name = "intelligent-unit", amount = 2}
@@ -2385,8 +2430,9 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "steam", amount = 300},
-        {type = "item",  name = "skin",  amount = 5}
+        {type = "fluid", name = "steam",            amount = 300},
+        {type = "item",  name = "skin",             amount = 5},
+        {type = "item",  name = "sodium-hydroxide", amount = 5}
     },
     results = {
         {type = "fluid", name = "glycerol", amount = 50}
@@ -2400,11 +2446,12 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "fluid", name = "carbon-sulfide", amount = 50},
-        {type = "fluid", name = "ammonia",        amount = 50},
-        {type = "item",  name = "urea",           amount = 10},
-        {type = "fluid", name = "sulfuric-acid",  amount = 150},
-        {type = "item",  name = "fiber",          amount = 15}
+        {type = "fluid", name = "carbon-sulfide",   amount = 50},
+        {type = "fluid", name = "ammonia",          amount = 50},
+        {type = "item",  name = "urea",             amount = 10},
+        {type = "fluid", name = "sulfuric-acid",    amount = 150},
+        {type = "item",  name = "fiber",            amount = 15},
+        {type = "item",  name = "sodium-carbonate", amount = 5}
     },
     results = {
         {type = "item", name = "rayon", amount = 5}
@@ -2554,7 +2601,8 @@ RECIPE {
     ingredients = {
         {type = "item", name = "sc-wire",         amount = 10},
         {type = "item", name = "silicon",         amount = 5},
-        {type = "item", name = "carbon-nanotube", amount = 2}
+        {type = "item", name = "carbon-nanotube", amount = 2},
+        {type = "item", name = "gold-plate",      amount = 10}
     },
     results = {
         {type = "item", name = "nano-wires", amount = 5}
@@ -2608,7 +2656,8 @@ RECIPE {
         {type = "item",  name = "nexelit-plate",   amount = 10},
         {type = "item",  name = "silicon-wafer",   amount = 5},
         {type = "item",  name = "resilin",         amount = 1},
-        {type = "fluid", name = "etching",         amount = 50}
+        {type = "fluid", name = "etching",         amount = 50},
+        {type = "item",  name = "glass",           amount = 10}
     },
     results = {
         {type = "item", name = "nems", amount = 5}
@@ -2622,9 +2671,9 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "reo",           amount = 10},
-        {type = "item",  name = "chromite-sand", amount = 10},
-        {type = "fluid", name = "sulfuric-acid", amount = 300}
+        {type = "item",  name = "reo",               amount = 10},
+        {type = "item",  name = "chromite-sand",     amount = 10},
+        {type = "fluid", name = "hydrogen-chloride", amount = 300}
     },
     results = {
         {type = "item", name = "lithium-chloride", amount = 3}
@@ -2644,6 +2693,7 @@ RECIPE {
         {type = "item",  name = "graphene-roll",    amount = 2},
         {type = "item",  name = "vanadium-oxide",   amount = 3},
         {type = "fluid", name = "vacuum",           amount = 150},
+        {type = "item",  name = "glass",            amount = 10}
     },
     results = {
         {type = "item", name = "volumetric-capacitor", amount = 1}
@@ -2675,9 +2725,10 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "item", name = "laser-module", amount = 1},
-        {type = "item", name = "reo",          amount = 10},
-        {type = "item", name = "re-magnet",    amount = 3}
+        {type = "item", name = "laser-module",    amount = 1},
+        {type = "item", name = "reo",             amount = 10},
+        {type = "item", name = "re-magnet",       amount = 3},
+        {type = "item", name = "aluminium-plate", amount = 10}
     },
     results = {
         {type = "item", name = "yag-laser-module", amount = 1}
@@ -2691,10 +2742,10 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "item",  name = "chromium",      amount = 5},
-        {type = "item",  name = "niobium-plate", amount = 10},
-        {type = "item",  name = "boron",         amount = 5},
-        {type = "fluid", name = "helium",        amount = 20}
+        {type = "item",  name = "lithium-chloride", amount = 5},
+        {type = "item",  name = "niobium-plate",    amount = 10},
+        {type = "item",  name = "boron",            amount = 5},
+        {type = "fluid", name = "helium",           amount = 20}
     },
     results = {
         {type = "item", name = "lithium-niobate", amount = 2}
@@ -2750,12 +2801,12 @@ RECIPE {
     enabled = false,
     energy_required = 8,
     ingredients = {
-        {type = "fluid", name = "syngas",        amount = 200},
-        {type = "item",  name = "niobium-plate", amount = 1}
+        {type = "fluid", name = "syngas",       amount = 200},
+        {type = "item",  name = "nickel-plate", amount = 1}
     },
     results = {
-        {type = "fluid", name = "methane",  amount = 200},
-        {type = "fluid", name = "flue-gas", amount = 75}
+        {type = "fluid", name = "methane", amount = 200},
+        {type = "fluid", name = "oxygen",  amount = 75}
     },
     main_product = "methane"
 }:add_unlock("coal-processing-3")
@@ -2768,7 +2819,7 @@ RECIPE {
     energy_required = 4,
     ingredients = {
         {type = "fluid", name = "methane",        amount = 30},
-        {type = "fluid", name = "water",          amount = 50},
+        {type = "fluid", name = "oxygen",         amount = 50},
         {type = "item",  name = "molybdenum-ore", amount = 3}
     },
     results = {
@@ -2855,11 +2906,11 @@ RECIPE {
     enabled = false,
     energy_required = 12,
     ingredients = {
-        {type = "item", name = "myoglobin",  amount = 4},
-        {type = "item", name = "chromium",   amount = 5},
-        {type = "item", name = "iron-plate", amount = 5},
-        {type = "item", name = "nylon",      amount = 2},
-        {type = "item", name = "iron-oxide", amount = 3}
+        {type = "item", name = "myoglobin",       amount = 4},
+        {type = "item", name = "chromium",        amount = 5},
+        {type = "item", name = "aluminium-plate", amount = 5},
+        {type = "item", name = "nylon",           amount = 2},
+        {type = "item", name = "iron-oxide",      amount = 3}
     },
     results = {
         {type = "item", name = "paramagnetic-material", amount = 1}
@@ -2877,7 +2928,8 @@ RECIPE {
         {type = "item", name = "re-magnet",        amount = 1},
         {type = "item", name = "niobium-plate",    amount = 2},
         {type = "item", name = "rayon",            amount = 2},
-        {type = "item", name = "copper-plate",     amount = 5}
+        {type = "item", name = "copper-plate",     amount = 5},
+        {type = "item", name = "lead-plate",       amount = 2}
     },
     results = {
         {type = "item", name = "diamagnetic-material", amount = 1}
@@ -3251,7 +3303,8 @@ RECIPE {
     enabled = false,
     energy_required = 5,
     ingredients = {
-        {type = "fluid", name = "black-liquor", amount = 80}
+        {type = "fluid", name = "black-liquor", amount = 80},
+        {type = "fluid", name = "oxygen",       amount = 100}
     },
     results = {
         {type = "fluid", name = "aromatics", amount = 100},
@@ -3299,7 +3352,8 @@ RECIPE {
     ingredients = {
         {type = "item",  name = "chromium",     amount = 1},
         {type = "fluid", name = "nitrobenzene", amount = 50},
-        {type = "fluid", name = "methanal",     amount = 50}
+        {type = "fluid", name = "methanal",     amount = 50},
+        {type = "fluid", name = "hydrogen",     amount = 50}
     },
     results = {
         {type = "item", name = "plastic-bar", amount = 10}
@@ -3490,10 +3544,10 @@ RECIPE {
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "benzene",       amount = 100},
-        {type = "fluid", name = "ammonia",       amount = 100},
-        {type = "fluid", name = "sulfuric-acid", amount = 50},
-        {type = "item",  name = "nichrome",      amount = 2},
+        {type = "fluid", name = "benzene",  amount = 100},
+        {type = "fluid", name = "ammonia",  amount = 100},
+        {type = "fluid", name = "chlorine", amount = 50},
+        {type = "item",  name = "nichrome", amount = 2},
     },
     results = {
         {type = "item", name = "nylon", amount = 6}
@@ -3557,7 +3611,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "propene-to-acetone",
-    category = "fbreactor",
+    category = "wet-scrubber",
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3578,7 +3632,7 @@ RECIPE {
     enabled = false,
     energy_required = 6,
     ingredients = {
-        {type = "item",  name = "clay",              amount = 20},
+        {type = "item",  name = "clay",         amount = 20},
         {type = "fluid", name = "muddy-sludge", amount = 100}
     },
     results = {
@@ -3603,6 +3657,7 @@ RECIPE {
         {type = "item",  name = "nexelit-plate", amount = 5},
         {type = "item",  name = "zinc-acetate",  amount = 1},
         {type = "item",  name = "nylon",         amount = 2},
+        {type = "item",  name = "lead-plate",    amount = 5},
     },
     results = {
         {type = "item", name = "used-nexelit-battery", amount = 1}

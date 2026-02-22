@@ -8,6 +8,7 @@ RECIPE {
         {type = "item", name = "pipe",            amount = 15},
         {type = "item", name = "iron-plate",      amount = 100},
         {type = "item", name = "iron-gear-wheel", amount = 40},
+        {type = "item", name = "glass",           amount = 40},
     },
     results = {
         {type = "item", name = "moondrop-greenhouse-mk01", amount = 1}

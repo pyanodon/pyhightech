@@ -6,6 +6,7 @@ RECIPE {
     energy_required = 15,
     ingredients = {
         {type = "fluid", name = "glycerol", amount = 80},
+        {type = "fluid", name = "oxygen",   amount = 80},
     },
     results = {
         {type = "fluid", name = "acrolein", amount = 50}

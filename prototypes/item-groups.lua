@@ -137,13 +137,13 @@ data:extend {
     },
 }
 
-if not mods["pyindustry"] then
-    data:extend {
-        {
-            type = "item-subgroup",
-            name = "py-trains",
-            group = "py-hightech",
-            order = "u"
-        }
-    }
-end
+-- if not mods["pyindustry"] then
+--     data:extend {
+--         {
+--             type = "item-subgroup",
+--             name = "py-trains",
+--             group = "py-hightech",
+--             order = "u"
+--         }
+--     }
+-- end

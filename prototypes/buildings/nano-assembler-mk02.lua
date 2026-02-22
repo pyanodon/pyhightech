@@ -10,6 +10,7 @@ RECIPE {
         {type = "item", name = "engine-unit",           amount = 4},
         {type = "item", name = "niobium-plate",         amount = 10},
         {type = "item", name = "low-density-structure", amount = 15},
+        {type = "item", name = "glass",                 amount = 40}
     },
     results = {
         {type = "item", name = "nano-assembler-mk02", amount = 1}

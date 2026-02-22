@@ -155,7 +155,7 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "chromium",     amount = 10},
+        {type = "item", name = "nickel-plate", amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
     },
     results = {
@@ -255,7 +255,7 @@ RECIPE {
     enabled = false,
     energy_required = 15,
     ingredients = {
-        {type = "item", name = "iron-plate",   amount = 10},
+        {type = "item", name = "gold-plate",   amount = 10},
         {type = "item", name = "proton-donor", amount = 2},
     },
     results = {
