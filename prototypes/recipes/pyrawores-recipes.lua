@@ -530,6 +530,10 @@ RECIPE {
     order = "on"
 }:add_unlock("casting-mk04")
 
+if mods.pypetroleumhandling then
+    RECIPE("casting-ht-pipe"):add_ingredient {type = "item", name = "rubber", amount = 5}
+end
+
 RECIPE {
     type = "recipe",
     name = "casting-ht-pipe-underground",
@@ -549,3 +553,7 @@ RECIPE {
     subgroup = "py-rawores-casting",
     order = "ou"
 }:add_unlock("casting-mk04")
+
+if mods.pypetroleumhandling then
+    RECIPE("casting-ht-pipe-underground"):add_ingredient {type = "item", name = "rubber", amount = 5}
+end

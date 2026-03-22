@@ -6,10 +6,7 @@ require "prototypes/updates/base-updates"
 require "prototypes/updates/pycoalprocessing-updates"
 require "prototypes/updates/pyfusionenergy-updates"
 require "prototypes/updates/pyindustry-updates"
-
-if mods["pyrawores"] then
-    require "prototypes/updates/pyrawores-updates"
-end
+require "prototypes/updates/pyrawores-updates"
 
 if mods["pyalienlife"] then
     require "prototypes/updates/pyalienlife-updates"
