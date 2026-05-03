@@ -7,6 +7,7 @@ Date: ???
     - Updated German locale courtesy of @Spunk42
     - Removed redundant silicon doping recipe names
     - Fixed that clay pit would sometimes drop items on the ground instead of in containers or on belts. Resolves https://github.com/pyanodon/pybugreports/issues/1366
+    - Fixed high tech locomotive fuel icon positioning. Resolves https://github.com/pyanodon/pybugreports/issues/1406
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.18
 Date: 2025-12-28
