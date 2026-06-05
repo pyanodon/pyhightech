@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "sulfur",                     amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "sulfur",
     icons =
@@ -35,7 +35,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "aromatics",                  amount = 100},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3},
+        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "aromatics",
     icons =
@@ -60,7 +60,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "benzene",                    amount = 100},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3},
+        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "benzene",
     icons =
@@ -85,7 +85,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "propene",                    amount = 100},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3},
+        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "propene",
     icons =
@@ -110,7 +110,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "silicon",                    amount = 20},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "silicon",
     icons =
@@ -135,7 +135,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "coal",                       amount = 60},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "coal",
     icons =
@@ -160,7 +160,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "niobium-plate",              amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "niobium-plate",
     icons =
@@ -185,7 +185,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "chromium",                   amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "chromium",
     icons =
@@ -210,7 +210,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "molybdenum-plate",           amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "molybdenum-plate",
     icons =
@@ -235,7 +235,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "vanadium-oxide",             amount = 6},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "vanadium-oxide",
     icons =
@@ -260,7 +260,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "uranium-ore",                amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "uranium-ore",
     icons =
@@ -285,7 +285,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "uranium-235",                amount = 5},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "uranium-235",
     icnos =
@@ -310,7 +310,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "diamond",                    amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3, ignored_by_productivity = 1},
     },
     main_product = "diamond",
     icons =
