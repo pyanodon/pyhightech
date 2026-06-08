@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.19
-Date: ???
+Date: 2026-06-08
   Changes:
     - Fixed rare earth naming inconsistencies in english. Resolves https://github.com/pyanodon/pybugreports/issues/1294
     - Updated russian locale courtesy of @Astorin
