@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ree-slurry",
-    category = "thickener",
+    categories = {"thickener"},
     enabled = false,
     energy_required = 10,
     ingredients = {

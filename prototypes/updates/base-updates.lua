@@ -61,15 +61,15 @@ RECIPE("explosives"):add_ingredient {type = "item", name = "urea", amount = 5}
 RECIPE("centrifuge"):replace_ingredient("advanced-circuit", "engine-unit")
 RECIPE("low-density-structure"):add_ingredient {type = "item", name = "ceramic", amount = 10}
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
-RECIPE("speed-module").category = "pcb"
-RECIPE("speed-module-2").category = "pcb"
-RECIPE("speed-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = "pcb"
-RECIPE("efficiency-module").category = "pcb"
-RECIPE("efficiency-module-2").category = "pcb"
-RECIPE("efficiency-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = "pcb"
-RECIPE("productivity-module").category = "pcb"
-RECIPE("productivity-module-2").category = "pcb"
-RECIPE("productivity-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = "pcb"
+RECIPE("speed-module"):replace_unlock("crafting", "pcb")
+RECIPE("speed-module-2"):replace_unlock("crafting", "pcb")
+RECIPE("speed-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit"):replace_unlock("crafting", "pcb")
+RECIPE("efficiency-module"):replace_unlock("crafting", "pcb")
+RECIPE("efficiency-module-2"):replace_unlock("crafting", "pcb")
+RECIPE("efficiency-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit"):replace_unlock("crafting", "pcb")
+RECIPE("productivity-module"):replace_unlock("crafting", "pcb")
+RECIPE("productivity-module-2"):replace_unlock("crafting", "pcb")
+RECIPE("productivity-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit"):replace_unlock("crafting", "pcb")
 
 
 -- ITEM CHANGES

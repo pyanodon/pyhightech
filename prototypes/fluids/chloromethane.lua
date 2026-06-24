@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "chloromethane",
-    category = "methanol",
+    categories = {"methanol"},
     enabled = false,
     energy_required = 10,
     ingredients = {

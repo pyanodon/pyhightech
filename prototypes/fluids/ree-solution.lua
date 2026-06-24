@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ree-solution",
-    category = "fluid-separator",
+    categories = {"fluid-separator"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "ree-solution", amount = 100},
-        {type = "item",  name = "uranium-ore",  amount = 1,  probability = 0.1},
+        {type = "item",  name = "uranium-ore",  amount = 1,  independent_probability = 0.1},
     },
     main_product = "ree-solution",
 }:add_unlock("rare-earth-tech")

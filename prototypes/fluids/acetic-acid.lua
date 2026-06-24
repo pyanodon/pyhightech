@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "acetic-acid",
-    category = "methanol",
+    categories = {"methanol"},
     enabled = false,
     energy_required = 4,
     ingredients = {

@@ -274,7 +274,6 @@ ENTITY {
             speed = {-0.03, -0.4},
             speed_multiplier = 0.75,
             speed_multiplier_deviation = 1.1,
-            color = {r = 0.333, g = 0.768, b = 0.913},
             offset_deviation = {{-0.75, -2.7}, {-0.3, 2.7}}
         },
         -- right side
@@ -287,7 +286,6 @@ ENTITY {
             speed = {0.03, -0.4},
             speed_multiplier = 0.75,
             speed_multiplier_deviation = 1.1,
-            color = {r = 0.333, g = 0.768, b = 0.913},
             offset_deviation = {{0.3, -2.7}, {0.75, 2.7}}
         },
         {
@@ -322,12 +320,12 @@ ENTITY {
         },
         match_speed_to_activity = true,
         max_sounds_per_prototype = 2,
-        -- use_doppler_shift = false
+        -- use_doppler_shift = false,
+        activity_to_speed_modifiers = {minimum = 0.5},
+        activity_to_volume_modifiers ={multiplier = 0.35}
     },
     open_sound = {filename = "__pyhightechgraphics__/sounds/ht-locomotive-open.ogg", volume = 0.5},
     close_sound = {filename = "__pyhightechgraphics__/sounds/ht-locomotive-close.ogg", volume = 0.4},
-    sound_minimum_speed = 0.5,
-    sound_scaling_ratio = 0.35,
     water_reflection = {
         pictures = {
             filename = "__base__/graphics/entity/locomotive/reflection/locomotive-reflection.png",

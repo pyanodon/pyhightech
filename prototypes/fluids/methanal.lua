@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "methanal",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {

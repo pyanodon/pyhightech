@@ -41,7 +41,6 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-5.6, -5.6}, {5.6, 5.6}},
     selection_box = {{-6.0, -6.0}, {6.0, 6.0}},
-    forced_symmetry = "diagonal-pos",
     module_slots = 4,
     allowed_effects = {"consumption", "speed", "pollution", "productivity"},
     allowed_module_categories = {"productivity", "speed", "quality"},
@@ -159,35 +158,35 @@ ENTITY {
             production_type = "input",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 1000,
+            volume = 100,
             pipe_connections = {{flow_direction = "input", position = {3.5, 5.5}, direction = defines.direction.south}}
         },
         {
             production_type = "input",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 1000,
+            volume = 100,
             pipe_connections = {{flow_direction = "input", position = {0.5, 5.5}, direction = defines.direction.south}}
         },
         {
             production_type = "input",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 1000,
+            volume = 100,
             pipe_connections = {{flow_direction = "input", position = {-3.5, 5.5}, direction = defines.direction.south}}
         },
         {
             production_type = "output",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 1000,
+            volume = 100,
             pipe_connections = {{flow_direction = "output", position = {2.5, -5.5}, direction = defines.direction.north}}
         },
         {
             production_type = "output",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 1000,
+            volume = 100,
             pipe_connections = {{flow_direction = "output", position = {-2.5, -5.5}, direction = defines.direction.north}}
         },
     },
@@ -195,6 +194,5 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 1.5},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/particle-accelerator.ogg", volume = 0.3},
-        apparent_volume = 2.5
     }
 }

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "crusher-ree",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -21,7 +21,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "milling-ree",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -37,7 +37,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ree-float",
-    category = "agitator",
+    categories = {"agitator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -54,7 +54,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ree-concentrate1",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -70,7 +70,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ree-concentrate2",
-    category = "pan",
+    categories = {"pan"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -87,7 +87,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ree-concentrate3",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -104,7 +104,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "reo",
-    category = "solid-separator",
+    categories = {"solid-separator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -120,7 +120,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "rare-earth-beneficiation",
-    category = "fts-reactor",
+    categories = {"fts-reactor"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -140,7 +140,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "clay",
-    category = "clay",
+    categories = {"clay"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -155,7 +155,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "melamine-resin",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -172,7 +172,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "urea",
-    category = "auog",
+    categories = {"auog"},
     enabled = false,
     energy_required = 25,
     ingredients = {
@@ -187,7 +187,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "urea2",
-    category = "auog",
+    categories = {"auog"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -203,7 +203,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "urea-decomposition",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -219,7 +219,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "melamine",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -238,7 +238,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "melamine-2",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -254,7 +254,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ceramic",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -270,7 +270,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "inductor1",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -286,7 +286,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "capacitor1",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -302,7 +302,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "resistor1",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -318,7 +318,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "graphite",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -333,7 +333,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "vacuum-tube",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 7,
     ingredients = {
@@ -351,7 +351,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fiberboard",
-    category = "pulp",
+    categories = {"pulp"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -371,7 +371,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "formica",
-    category = "pulp",
+    categories = {"pulp"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -389,7 +389,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "formica-2",
-    category = "wpu",
+    categories = {"wpu"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -405,7 +405,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pcb1",
-    category = "pcb",
+    categories = {"pcb"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -422,7 +422,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "electronic-circuit",
-    category = "chip",
+    categories = {"chip"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -443,7 +443,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fluidize-coke",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -465,7 +465,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tall-oil-separation",
-    category = "fluid-separator",
+    categories = {"fluid-separator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -487,7 +487,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "silicon",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -503,7 +503,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "silicon-wafer",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -520,7 +520,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "powdered-phosphate-rock",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -538,7 +538,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "light-n",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -555,7 +555,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "heavy-n",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -572,7 +572,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "p-dope",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -590,7 +590,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "transistor",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -610,7 +610,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "cumene-distilation",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -626,7 +626,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bakelite",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -644,7 +644,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "phenolicboard",
-    category = "pulp",
+    categories = {"pulp"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -661,7 +661,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pcb2",
-    category = "pcb",
+    categories = {"pcb"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -679,7 +679,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "microchip",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -699,7 +699,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "crude-cermet",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -714,7 +714,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "cermet",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -730,7 +730,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fecr-alloy",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -745,7 +745,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "resistor2",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -762,7 +762,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "diode",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -781,7 +781,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "inductor2",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -798,7 +798,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "capacitor2",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -816,7 +816,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "advanced-circuit",
-    category = "chip",
+    categories = {"chip"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -838,7 +838,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glass-fiber",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -857,7 +857,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bisphenol-a",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -873,7 +873,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "epoxy",
-    category = "agitator",
+    categories = {"agitator"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -890,7 +890,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pdms",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -910,7 +910,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nic-core",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -926,7 +926,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pdms-graphene",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 7,
     ingredients = {
@@ -944,7 +944,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "graphene-sheet",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -961,7 +961,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "graphene-roll",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -979,7 +979,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "processor-core",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -996,7 +996,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "heavy-p-type",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1014,7 +1014,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "processor",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1033,7 +1033,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "phosphate-glass",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1051,7 +1051,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fiberglass",
-    category = "glassworks",
+    categories = {"glassworks"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1071,7 +1071,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "resistor3",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -1089,7 +1089,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "stone-wool",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1106,7 +1106,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "stone-wool2",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1123,7 +1123,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pcb3",
-    category = "pcb",
+    categories = {"pcb"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1141,7 +1141,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pcb3-2",
-    category = "pcb",
+    categories = {"pcb"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1158,7 +1158,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "high-flux-core",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1175,7 +1175,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "inductor3",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1191,7 +1191,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "re-tin",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -1208,7 +1208,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "diode-core",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1226,7 +1226,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "diode3",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1242,7 +1242,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "capacitor-core",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1258,7 +1258,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "capacitor-termination",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1274,7 +1274,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "capacitor3",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -1290,7 +1290,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "processing-unit",
-    category = "chip",
+    categories = {"chip"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1312,7 +1312,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "carbon-dust",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1326,7 +1326,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "biopolymer",
-    category = "bio-reactor",
+    categories = {"bio-reactor"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1343,7 +1343,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "carbon-nanotube",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1361,7 +1361,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sodium-silicate",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1377,7 +1377,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "silica-powder",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1391,7 +1391,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "colloidal-silica",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1409,7 +1409,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nanochip",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1428,7 +1428,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "raw-fiber",
-    category = "kicalk",
+    categories = {"kicalk"},
     enabled = false,
     energy_required = 30,
     ingredients = {
@@ -1447,7 +1447,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "raw-fiber2",
-    category = "kicalk",
+    categories = {"kicalk"},
     enabled = true,
     energy_required = 120,
     ingredients = {
@@ -1463,7 +1463,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "raw-fiber3",
-    category = "kicalk",
+    categories = {"kicalk"},
     enabled = false,
     energy_required = 75,
     ingredients = {
@@ -1481,7 +1481,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "raw-fiber4",
-    category = "kicalk",
+    categories = {"kicalk"},
     enabled = false,
     energy_required = 180,
     ingredients = {
@@ -1497,7 +1497,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bonemeal2",
-    category = "ulric",
+    categories = {"ulric"},
     enabled = false,
     energy_required = 30,
     ingredients = {
@@ -1512,7 +1512,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bonemeal4",
-    category = "ulric",
+    categories = {"ulric"},
     enabled = false,
     energy_required = 25,
     ingredients = {
@@ -1528,7 +1528,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mukmoux-fat2",
-    category = "mukmoux",
+    categories = {"mukmoux"},
     enabled = false,
     energy_required = 50,
     ingredients = {
@@ -1544,7 +1544,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "mukmoux-fat3",
-    category = "mukmoux",
+    categories = {"mukmoux"},
     enabled = false,
     energy_required = 40,
     ingredients = {
@@ -1561,7 +1561,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ash3",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -1575,7 +1575,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fiber",
-    category = "centrifuging",
+    categories = {"centrifuging"},
     enabled = false,
     energy_required = 2,
     ingredients = {
@@ -1591,7 +1591,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "micro-fiber",
-    category = "pulp",
+    categories = {"pulp"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1605,7 +1605,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "resorcinol",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1620,7 +1620,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "rf-gel",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1636,7 +1636,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "clean-rf-gel",
-    category = "washer",
+    categories = {"washer"},
     enabled = false,
     energy_required = 7,
     ingredients = {
@@ -1653,7 +1653,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "aerogel",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1667,7 +1667,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "carbon-aerogel",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1683,7 +1683,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sub-denier-microfiber",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1700,7 +1700,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "kondo-substrate",
-    category = "pcb",
+    categories = {"pcb"},
     enabled = false,
     energy_required = 12,
     ingredients = {
@@ -1719,7 +1719,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "heavy-fermion",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 12,
     ingredients = {
@@ -1737,7 +1737,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "kondo-core",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1757,7 +1757,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "kondo-processor",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1776,7 +1776,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "crco-alloy",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -1795,7 +1795,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nxag-matrix",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1812,7 +1812,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "paradiamatic-resistor",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1831,7 +1831,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-acetate",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 3.5,
     ingredients = {
@@ -1846,7 +1846,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "dry-ralesia",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1860,7 +1860,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ralesia-powder",
-    category = "secondary-crusher",
+    categories = {"secondary-crusher"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1876,7 +1876,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-nanocompound",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 7,
     ingredients = {
@@ -1892,7 +1892,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zinc-nanocomplex",
-    category = "washer",
+    categories = {"washer"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1913,7 +1913,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zno-nanoparticles",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -1928,7 +1928,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "csle-diode",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -1947,7 +1947,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ndfeb-alloy",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -1967,7 +1967,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ndfeb-powder",
-    category = "ball-mill",
+    categories = {"ball-mill"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1981,7 +1981,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "re-magnet",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -1998,7 +1998,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "sc-substrate",
-    category = "pcb",
+    categories = {"pcb"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -2017,7 +2017,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "superconductor",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2035,7 +2035,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nanocrystaline-core",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2053,7 +2053,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fault-current-inductor",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2071,7 +2071,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "supercapacitor-core",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2089,7 +2089,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "supercapacitor-shell",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2107,7 +2107,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "supercapacitor",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 12,
     ingredients = {
@@ -2122,7 +2122,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pcb4",
-    category = "pcb",
+    categories = {"pcb"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -2142,7 +2142,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "intelligent-unit",
-    category = "chip",
+    categories = {"chip"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2164,7 +2164,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "zipir-carcass",
-    category = "zipir",
+    categories = {"zipir"},
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -2183,7 +2183,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "benzene-aromatics",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -2199,7 +2199,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "organic-solvent2",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -2216,7 +2216,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "plastic2",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2232,7 +2232,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "rendering",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2253,7 +2253,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bonemeal3",
-    category = "crusher",
+    categories = {"crusher"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -2268,7 +2268,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ash-bone",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -2282,7 +2282,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "calcinate-bone",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -2297,7 +2297,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'bone-briquette',
-    category = 'hpf',
+    categories = {'hpf'},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2314,7 +2314,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bone-fat",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2329,7 +2329,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fawogae2",
-    category = "fawogae",
+    categories = {"fawogae"},
     enabled = false,
     energy_required = 3.0,
     ingredients = {
@@ -2344,7 +2344,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "log7-2",
-    category = "nursery",
+    categories = {"nursery"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2363,7 +2363,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "fertilizer",
-    category = "agitator",
+    categories = {"agitator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2381,7 +2381,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "glycerol2",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2396,7 +2396,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "rayon",
-    category = "pulp",
+    categories = {"pulp"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -2414,7 +2414,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "blood-meal",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -2429,7 +2429,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nylon",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -2447,7 +2447,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nylon-plastic",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 7,
     ingredients = {
@@ -2462,7 +2462,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nylon-parts",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2476,7 +2476,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "collagen",
-    category = "agitator",
+    categories = {"agitator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2493,7 +2493,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "epoxy2",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -2512,7 +2512,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "resilin",
-    category = "bio-reactor",
+    categories = {"bio-reactor"},
     enabled = false,
     energy_required = 30,
     ingredients = {
@@ -2530,7 +2530,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "hyperelastic-material",
-    category = "bio-reactor",
+    categories = {"bio-reactor"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2548,7 +2548,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nano-wires",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2564,7 +2564,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "waste-water-recycle",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2582,7 +2582,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "waste-water-urea",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -2596,7 +2596,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nems",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2618,7 +2618,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lithium-chloride",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2634,7 +2634,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "volumetric-capacitor",
-    category = "nano",
+    categories = {"nano"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2653,7 +2653,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "laser-module-alt",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2671,7 +2671,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "yag-laser-module",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2687,7 +2687,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "lithium-niobate",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2704,7 +2704,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "parametric-oscilator",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2724,7 +2724,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "utility-science-pack",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2746,7 +2746,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "syngas-methane",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 8,
     ingredients = {
@@ -2763,7 +2763,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "methane-methanal",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 4,
     ingredients = {
@@ -2779,7 +2779,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coal-phenol",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 7,
     ingredients = {
@@ -2796,7 +2796,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tar-talloil",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -2815,7 +2815,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coarse-tar",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -2830,7 +2830,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "myoglobin",
-    category = "hydrocyclone",
+    categories = {"hydrocyclone"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2851,7 +2851,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "paramagnetic-material",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 12,
     ingredients = {
@@ -2869,7 +2869,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "diamagnetic-material",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2887,7 +2887,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "superconductor-servomechanims",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2906,7 +2906,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "harmonic-absorber",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -2924,7 +2924,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pyrolytic-carbon",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -2941,7 +2941,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "quantum-dots",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2959,7 +2959,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pi-josephson-junction",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2978,7 +2978,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "var-josephson-junction",
-    category = "electronic",
+    categories = {"electronic"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -2997,7 +2997,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "bose-einstein-superfluid",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -3015,7 +3015,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "quantum-vortex-storage-system",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -3031,7 +3031,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nv-center",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -3049,7 +3049,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "space-science-pack",
-    category = "quantum",
+    categories = {"quantum"},
     enabled = false,
     energy_required = 60,
     ingredients = {
@@ -3071,7 +3071,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "random-science-pack",
-    category = "quantum",
+    categories = {"quantum"},
     enabled = false,
     energy_required = 30,
     ingredients = {
@@ -3100,7 +3100,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "antimatter",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 150,
     ingredients = {
@@ -3117,7 +3117,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "antimatter-fusion",
-    category = "fusion-02",
+    categories = {"fusion-02"},
     enabled = false,
     energy_required = 30,
     ingredients = {
@@ -3139,13 +3139,12 @@ RECIPE {
     icon_size = 32,
     subgroup = "py-fusion-items",
     order = "e",
-    show_details_in_recipe_tooltip = false
 }:add_unlock("fusion-mk04")
 
 RECIPE {
     type = "recipe",
     name = "steam-exchange5",
-    category = "heat-exchanger",
+    categories = {"heat-exchanger"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3166,7 +3165,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "saline-water",
-    category = "washer",
+    categories = {"washer"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -3181,7 +3180,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "gravel-saline-water",
-    category = "washer",
+    categories = {"washer"},
     enabled = false,
     energy_required = 20,
     ingredients = {
@@ -3196,7 +3195,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "crystallographic-substrate",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3213,7 +3212,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "proton-donor",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -3230,7 +3229,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "proton-receiver",
-    category = "advanced-foundry",
+    categories = {"advanced-foundry"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3247,7 +3246,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "black-liquor",
-    category = "gasifier",
+    categories = {"gasifier"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3263,7 +3262,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coal-slurry-fuel",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3279,7 +3278,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "ammonia-urea",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3293,7 +3292,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "plastic3",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3309,7 +3308,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "iron-oxide",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3325,7 +3324,7 @@ RECIPE {
 RECIPE {
     type = 'recipe',
     name = 'coal-briquette3',
-    category = 'olefin',
+    categories = {'olefin'},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3343,7 +3342,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "petroleum-gas2",
-    category = "bio-reactor",
+    categories = {"bio-reactor"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3361,7 +3360,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "coal-dust3",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3375,7 +3374,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "acidgas",
-    category = "gas-separator",
+    categories = {"gas-separator"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3390,7 +3389,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "phosphoric-acid2",
-    category = "hpf",
+    categories = {"hpf"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3404,7 +3403,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "methane-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -3427,7 +3426,7 @@ if not mods["pyalienlife"] then
     RECIPE {
         type = "recipe",
         name = "electronic-circuit-initial",
-        category = "handcrafting",
+        categories = {"handcrafting"},
         enabled = true,
         energy_required = 2,
         ingredients = {
@@ -3447,7 +3446,7 @@ end
 RECIPE {
     type = "recipe",
     name = "plastics-mk03",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -3464,7 +3463,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "benzene-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -3486,7 +3485,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nylon2",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3503,7 +3502,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "phosphoric-acid3",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3521,7 +3520,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "tall-oil-combustion",
-    category = "combustion",
+    categories = {"combustion"},
     enabled = false,
     energy_required = 3,
     ingredients = {
@@ -3543,7 +3542,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "plastic-from-melamine",
-    category = "crafting",
+    categories = {"crafting"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3557,7 +3556,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "propene-to-acetone",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 5,
     ingredients = {
@@ -3574,7 +3573,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "rich-clay-2",
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     enabled = false,
     energy_required = 6,
     ingredients = {
@@ -3594,7 +3593,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nexelit-battery",
-    category = "advanced-crafting",
+    categories = {"advanced-crafting"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -3612,7 +3611,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "nexelit-battery-recharge",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 0.8,
     ingredients = {

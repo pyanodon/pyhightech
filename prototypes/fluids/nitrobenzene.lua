@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "nitrobenzene",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 4,
     ingredients = {
