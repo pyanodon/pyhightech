@@ -50,6 +50,7 @@ ENTITY {
     drawing_box_vertical_extension = data.raw["locomotive"]["locomotive"].drawing_box_vertical_extension,
     icons_positioning = {{inventory_index = defines.inventory.fuel, shift = {0, 0.3}, max_icons_per_row = 1}},
     alert_icon_shift = util.by_pixel(0, -24),
+    fast_replaceable_group = "locomotive",
     weight = 1000,
     max_speed = 1.5,
     max_power = "800kW",
