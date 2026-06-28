@@ -1,0 +1,307 @@
+local pipe = {
+    south = {
+        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/bottom.png",
+        priority = "extra-high",
+        width = 240,
+        height = 256
+    }
+}
+
+RECIPE {
+    type = "recipe",
+    name = "pcb-factory-mk01",
+    energy_required = 0.5,
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "steam-engine",    amount = 2 },
+        { type = "item", name = "fbreactor-mk01",  amount = 2 },
+        { type = "item", name = "distilator",      amount = 2 },
+        { type = "item", name = "iron-plate",      amount = 80 },
+        { type = "item", name = "copper-plate",    amount = 60 },
+        { type = "item", name = "iron-gear-wheel", amount = 100 },
+    },
+    results = {
+        { type = "item", name = "pcb-factory-mk01", amount = 1 }
+    }
+}:add_unlock("electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "pcb-factory-mk02",
+    energy_required = 0.5,
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "pcb-factory-mk01", amount = 1 },
+        { type = "item", name = "nexelit-plate",    amount = 20 },
+        { type = "item", name = "concrete",         amount = 60 },
+        { type = "item", name = "engine-unit",      amount = 7 },
+        { type = "item", name = "steel-plate",      amount = 40 },
+        { type = "item", name = "plastic-bar",      amount = 10 },
+        { type = "item", name = "advanced-circuit", amount = 10 }
+    },
+    results = {
+        { type = "item", name = "pcb-factory-mk02", amount = 1 }
+    }
+}:add_unlock("electronics-machines-1")
+
+RECIPE {
+    type = "recipe",
+    name = "pcb-factory-mk03",
+    energy_required = 0.5,
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "pcb-factory-mk02",      amount = 1 },
+        { type = "item", name = "graphene-roll",         amount = 10 },
+        { type = "item", name = "processing-unit",       amount = 30 },
+        { type = "item", name = "niobium-plate",         amount = 50 },
+        { type = "item", name = "low-density-structure", amount = 15 },
+        { type = "item", name = "concrete",              amount = 50 },
+        { type = "item", name = "electric-engine-unit",  amount = 10 },
+    },
+    results = {
+        { type = "item", name = "pcb-factory-mk03", amount = 1 }
+    }
+}:add_unlock("electronics-machines-2")
+
+RECIPE {
+    type = "recipe",
+    name = "pcb-factory-mk04",
+    energy_required = 0.5,
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "pcb-factory-mk03",              amount = 1 },
+        { type = "item", name = "biopolymer",                    amount = 10 },
+        { type = "item", name = "super-alloy",                   amount = 5 },
+        { type = "item", name = "intelligent-unit",              amount = 10 },
+        { type = "item", name = "superconductor-servomechanims", amount = 10 },
+        { type = "item", name = "hyperelastic-material",         amount = 15 },
+    },
+    results = {
+        { type = "item", name = "pcb-factory-mk04", amount = 1 }
+    }
+}:add_unlock("electronics-machines-3")
+
+for i = 1, 4 do
+    local name = "pcb-factory-mk0" .. i
+    local icon = "__pyhightechgraphics__/graphics/icons/pcb-factory-mk0" .. i .. ".png"
+    local icon_size = 64
+
+    ITEM {
+        type = "item",
+        name = name,
+        icon = icon,
+        icon_size = icon_size,
+        flags = {},
+        subgroup = "py-hightech-buildings-mk0" .. i,
+        order = "b",
+        place_result = name,
+        stack_size = 10
+    }
+
+    ENTITY {
+        type = "assembling-machine",
+        name = name,
+        icon = icon,
+        icon_size = icon_size,
+        flags = { "placeable-neutral", "player-creation" },
+        minable = { mining_time = 0.5, result = name },
+        fast_replaceable_group = "pcb-factory",
+        next_upgrade = i ~= 4 and "pcb-factory-mk0" .. (i + 1) or nil,
+        max_health = 100,
+        corpse = "big-remnants",
+        dying_explosion = "big-explosion",
+        collision_box = { { -3.2, -3.2 }, { 3.2, 3.2 } },
+        selection_box = { { -3.5, -3.5 }, { 3.5, 3.5 } },
+        module_slots = i,
+        allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
+        crafting_categories = { "pcb" },
+        crafting_speed = i,
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            emissions_per_minute = { pollution = 0.06 },
+        },
+        energy_usage = (400 + (100 * i)) .. "kW",
+        graphics_set = {
+            animation = {
+                layers = {
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/1.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(-96, -5)
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/1-mask.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(-96, -5),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/2.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(-64, -5)
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/2-mask.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(-64, -5),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/3.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(-32, -5)
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/3-mask.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(-32, -5),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/4.png",
+                        width = 32,
+                        height = 256,
+                        priority = "low",
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(0, -5)
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/4-mask.png",
+                        width = 32,
+                        height = 256,
+                        priority = "low",
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(0, -5),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/5.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(32, -5)
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/5-mask.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(32, -5),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/6.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(64, -5)
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/6-mask.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(64, -5),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/7.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(96, -5)
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/7-mask.png",
+                        width = 32,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        shift = util.by_pixel(96, -5),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/pcb-factory/8.png",
+                        width = 16,
+                        height = 256,
+                        line_length = 64,
+                        frame_count = 255,
+                        animation_speed = 0.3,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(112, -5)
+                    }
+                }
+            },
+        },
+        fluid_boxes_off_when_no_fluid_recipe = true,
+        fluid_boxes = {
+            --1
+            {
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.5, -4.04 }, nil, nil, pipe),
+                pipe_covers = py.pipe_covers(false, true, true, true),
+                volume = 100,
+                pipe_connections = { { flow_direction = "input", position = { 0.0, 3.0 }, direction = defines.direction.south } }
+            },
+            {
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.5, -4.04 }, nil, nil, pipe),
+                pipe_covers = py.pipe_covers(false, true, true, true),
+                volume = 100,
+                pipe_connections = { { flow_direction = "input", position = { 3.0, 0.0 }, direction = defines.direction.east } }
+            },
+            {
+                production_type = "output",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.5, -4.04 }, nil, nil, pipe),
+                pipe_covers = py.pipe_covers(false, true, true, true),
+                volume = 100,
+                pipe_connections = { { flow_direction = "output", position = { 0.0, -3.0 }, direction = defines.direction.north } }
+            },
+        },
+        impact_category = "metal-large",
+        working_sound = {
+            sound = { filename = "__pyhightechgraphics__/sounds/pcb-factory.ogg", volume = 1.5 },
+            idle_sound = { filename = "__pyhightechgraphics__/sounds/pcb-factory.ogg", volume = 0.3 },
+        }
+    }
+end

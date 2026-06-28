@@ -96,6 +96,7 @@ for i = 1, 4 do
         flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 0.5, result = name},
         fast_replaceable_group = "clay-pit",
+        next_upgrade = i~=4 and "clay-pit-mk0"..(i+1) or nil,
         fixed_recipe = "clay",
         max_health = 400 * i,
         corpse = "big-remnants",

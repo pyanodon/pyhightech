@@ -1,5 +1,3 @@
-local sounds = require "__base__.prototypes.entity.sounds"
-
 ENTITY {
     type = "assembling-machine",
     name = "crash-site-assembling-machine-1-repaired",

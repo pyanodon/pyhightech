@@ -1,0 +1,214 @@
+RECIPE {
+    type = "recipe",
+    name = "electronics-factory-mk01",
+    energy_required = 0.5,
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "fbreactor-mk01",        amount = 1 },
+        { type = "item", name = "pipe",                  amount = 15 },
+        { type = "item", name = "steam-engine",          amount = 4 },
+        { type = "item", name = "electric-mining-drill", amount = 2 },
+        { type = "item", name = "iron-plate",            amount = 40 }
+    },
+    results = {
+        { type = "item", name = "electronics-factory-mk01", amount = 1 }
+    }
+}:add_unlock("electronics")
+
+RECIPE {
+    type = "recipe",
+    name = "electronics-factory-mk02",
+    energy_required = 0.5,
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "electronics-factory-mk01", amount = 1 },
+        { type = "item", name = "advanced-circuit",         amount = 10 },
+        { type = "item", name = "plastic-bar",              amount = 40 },
+        { type = "item", name = "niobium-plate",            amount = 20 },
+        { type = "item", name = "engine-unit",              amount = 10 },
+        { type = "item", name = "steel-plate",              amount = 40 }
+    },
+    results = {
+        { type = "item", name = "electronics-factory-mk02", amount = 1 }
+    }
+}:add_unlock("electronics-machines-1")
+
+RECIPE {
+    type = "recipe",
+    name = "electronics-factory-mk03",
+    energy_required = 0.5,
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "electronics-factory-mk02", amount = 1 },
+        { type = "item", name = "processing-unit",          amount = 20 },
+        { type = "item", name = "concrete",                 amount = 20 },
+        { type = "item", name = "electric-engine-unit",     amount = 10 },
+        { type = "item", name = "low-density-structure",    amount = 15 },
+        { type = "item", name = "graphene-roll",            amount = 40 },
+    },
+    results = {
+        { type = "item", name = "electronics-factory-mk03", amount = 1 }
+    }
+}:add_unlock("electronics-machines-2")
+
+RECIPE {
+    type = "recipe",
+    name = "electronics-factory-mk04",
+    energy_required = 0.5,
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "electronics-factory-mk03",      amount = 1 },
+        { type = "item", name = "biopolymer",                    amount = 30 },
+        { type = "item", name = "super-alloy",                   amount = 30 },
+        { type = "item", name = "intelligent-unit",              amount = 10 },
+        { type = "item", name = "superconductor-servomechanims", amount = 10 },
+        { type = "item", name = "hyperelastic-material",         amount = 15 },
+    },
+    results = {
+        { type = "item", name = "electronics-factory-mk04", amount = 1 }
+    }
+}:add_unlock("electronics-machines-3")
+
+local usage_table={150,300,500,1000}
+
+for i = 1, 4 do
+    local name = "electronics-factory-mk0" .. i
+    local icon = "__pyhightechgraphics__/graphics/icons/electronics-factory-mk0" .. i .. ".png"
+    local icon_size = 64
+    ITEM {
+        type = "item",
+        name = name,
+        icon = icon,
+        icon_size = icon_size,
+        flags = {},
+        subgroup = "py-hightech-buildings-mk0" .. i,
+        order = "d",
+        place_result = name,
+        stack_size = 10
+    }
+
+    ENTITY {
+        type = "assembling-machine",
+        name = name,
+        icon = icon,
+        icon_size = icon_size,
+        flags = { "placeable-neutral", "player-creation" },
+        minable = { mining_time = 0.5, result = name },
+        fast_replaceable_group = "electronics-factory",
+        next_upgrade = i~=4 and "electronics-factory-mk0" .. (i+1) or nil,
+        max_health = 100,
+        corpse = "medium-remnants",
+        dying_explosion = "big-explosion",
+        collision_box = { { -2.4, -2.4 }, { 2.4, 2.4 } },
+        selection_box = { { -2.5, -2.5 }, { 2.5, 2.5 } },
+        module_slots = i,
+        allowed_effects = { "speed", "productivity", "consumption", "pollution", "quality" },
+        crafting_categories = { "electronic" },
+        crafting_speed = i,
+        energy_source = {
+            type = "electric",
+            usage_priority = "secondary-input",
+            emissions_per_minute = {pollution = 0.06},
+        },
+        energy_usage = usage_table[i].."kW",
+        graphics_set = {
+            working_visualisations = {
+                {
+                    north_position = util.by_pixel(0, -48),
+                    west_position = util.by_pixel(0, -48),
+                    south_position = util.by_pixel(0, -48),
+                    east_position = util.by_pixel(0, -48),
+                    animation = {
+                        filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/g.png",
+                        draw_as_glow = true,
+                        frame_count = 50,
+                        line_length = 10,
+                        tint = { r = 1.0, g = 1.0, b = 0.0, a = 1.0 },
+                        width = 160,
+                        height = 192,
+                        animation_speed = 0.4,
+                    }
+                },
+            },
+            animation = {
+                layers = {
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/bottom.png",
+                        frame_count = 1,
+                        width = 160,
+                        height = 32,
+                        repeat_count = 50,
+                        animation_speed = 0.4,
+                        shift = util.by_pixel(0, 64),
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory.png",
+                        width = 160,
+                        height = 192,
+                        line_length = 10,
+                        frame_count = 50,
+                        animation_speed = 0.4,
+                        shift = util.by_pixel(0, -48),
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/electronic-factory-mask.png",
+                        width = 160,
+                        height = 192,
+                        line_length = 10,
+                        frame_count = 50,
+                        animation_speed = 0.4,
+                        shift = util.by_pixel(0, -48),
+                        tint = py.tints[i]
+                    },
+                    {
+                        filename = "__pyhightechgraphics__/graphics/entity/electronics-factory/shadow.png",
+                        width = 180,
+                        height = 130,
+                        frame_count = 1,
+                        repeat_count = 50,
+                        animation_speed = 0.4,
+                        draw_as_shadow = true,
+                        shift = util.by_pixel(12, 15)
+                    }
+                }
+            },
+        },
+        fluid_boxes_off_when_no_fluid_recipe = true,
+        fluid_boxes = {
+            --1
+            {
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
+                pipe_covers = py.pipe_covers(false, true, true, true),
+                volume = 100,
+                pipe_connections = { { flow_direction = "input", position = { 0.0, -2.0 }, direction = defines.direction.north } }
+            },
+            {
+                production_type = "input",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
+                pipe_covers = py.pipe_covers(false, true, true, true),
+                volume = 100,
+                pipe_connections = { { flow_direction = "input", position = { 0.0, 2.0 }, direction = defines.direction.south } }
+            },
+            {
+                production_type = "output",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
+                pipe_covers = py.pipe_covers(false, true, true, true),
+                volume = 100,
+                pipe_connections = { { flow_direction = "output", position = { -2.0, 0.0 }, direction = defines.direction.west } }
+            },
+            {
+                production_type = "output",
+                pipe_picture = py.pipe_pictures("assembling-machine-2", nil, { 0.0, -0.96 }, nil, nil),
+                pipe_covers = py.pipe_covers(false, true, true, true),
+                volume = 100,
+                pipe_connections = { { flow_direction = "output", position = { 2.0, 0.0 }, direction = defines.direction.east } }
+            },
+        },
+        impact_category = "metal-large",
+        working_sound = {
+            sound = { filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 1.0 },
+            idle_sound = { filename = "__pyhightechgraphics__/sounds/electronics-factory.ogg", volume = 0.3 },
+        }
+    }
+end
