@@ -136,7 +136,7 @@ for i = 1, 4 do
                         frame_count = 30,
                         animation_speed = 0.4,
                         shift = util.by_pixel(5, 0),
-                        tint = py,tints[i]
+                        tint = py.tints[i]
                     },
                 }
             },
