@@ -8,6 +8,7 @@ Date: ???
     - Updated vector_to_place_result so items shouldn't drop on the floor. Resolves https://github.com/pyanodon/pybugreports/issues/1486
     - Fixed that many buildings did not have certain pipe covers rendered
     - Reduced most fluidbox sizes from 1000 to 100
+    - Added the following entities to be hidden when visibility of tall entities is toggled: chipshooter, pulp mill
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.19
 Date: ???
