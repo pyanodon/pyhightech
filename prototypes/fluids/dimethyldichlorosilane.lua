@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "dimethyldichlorosilane",
-    category = "fbreactor",
+    categories = {"fbreactor"},
     enabled = false,
     energy_required = 10,
     ingredients = {

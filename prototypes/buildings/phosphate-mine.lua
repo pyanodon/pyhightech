@@ -42,7 +42,7 @@ ENTITY {
     collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     input_fluid_box = {
-        pipe_picture = _G.assembler2pipepictures(),
+        pipe_picture = py.pipe_pictures("assembling-machine-2"),
         pipe_covers = _G.pipecoverspictures(),
         volume = 200,
         pipe_connections = {
@@ -73,9 +73,8 @@ ENTITY {
         }
     },
     energy_usage = "500kW",
-    mining_power = 2,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -4.65},
+    vector_to_place_result = {0, -4.8},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -131,6 +130,5 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/phosphate-mine.ogg", volume = 1.0},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/phosphate-mine.ogg", volume = 0.3},
-        apparent_volume = 2.5
     }
 }

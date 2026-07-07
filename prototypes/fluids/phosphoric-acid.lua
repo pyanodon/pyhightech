@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "phosphoric-acid",
-    category = "distilator",
+    categories = {"distilator"},
     enabled = false,
     energy_required = 5,
     ingredients = {

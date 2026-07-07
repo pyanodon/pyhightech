@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "msa",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 6,
     ingredients = {

@@ -420,13 +420,6 @@ ENTITY {
         hide_connection_info = true,
         max_pipeline_extent = 1280
     },
-    underground_sprite = {
-        filename = "__core__/graphics/arrows/underground-lines.png",
-        priority = "extra-high-no-scale",
-        width = 128,
-        height = 128,
-        scale = 1.0
-    },
     pictures = {
         north = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-to-ground-up.png",

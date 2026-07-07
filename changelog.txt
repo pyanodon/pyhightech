@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.1.0
+Date: ???
+  Changes:
+    - Updated to Factorio 2.1
+    - Fixed that the recipe icon for pa-uranium-235 was not properly set
+    - Removed unnecessary prototype values to clear up the log
+    - Updated vector_to_place_result so items shouldn't drop on the floor. Resolves https://github.com/pyanodon/pybugreports/issues/1486
+    - Fixed that many buildings did not have certain pipe covers rendered
+    - Reduced most fluidbox sizes from 1000 to 100
+    - Added the following entities to be hidden when visibility of tall entities is toggled: chipshooter, pulp mill
+    - Allowed the high tech locomotive, cargo wagon, and fluid wagon to be used with the upgrade planner to upgrade trains
+---------------------------------------------------------------------------------------------------
 Version: 3.0.19
 Date: 2026-06-08
   Changes:

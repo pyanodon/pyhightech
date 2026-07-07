@@ -45,6 +45,7 @@ ENTITY {
   selection_box = {{-1, -2.703125}, {1, 3.296875}},
   --damaged_trigger_effect = hit_effects.entity(),
   vertical_selection_shift = -0.5,
+  fast_replaceable_group = "cargo-wagon",
   weight = 400,
   max_speed = 1.7,
   braking_force = 25,
@@ -206,10 +207,8 @@ ENTITY {
     sound = sound_variations("__base__/sound/train-tie", 6, 0.4, {volume_multiplier("main-menu", 2.4), volume_multiplier("driving", 1.3)})
   },
   tie_distance = 50,
-  crash_trigger = crash_trigger(),
   open_sound = sounds.cargo_wagon_open,
   close_sound = sounds.cargo_wagon_close,
-  sound_minimum_speed = 1,
   impact_category = "default",
   --equipment_grid = "mk03-train-equipment-grid",
   water_reflection = {

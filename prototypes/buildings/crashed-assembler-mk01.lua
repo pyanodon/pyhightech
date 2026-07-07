@@ -69,7 +69,7 @@ ENTITY {
             }
         },
     },
-    crafting_categories = {"crafting", "basic-crafting", "advanced-crafting", "handcrafting"},
+    crafting_categories = {"crafting", "advanced-crafting", "handcrafting"},
     crafting_speed = 0.3,
     energy_source = {
         type = "electric",
@@ -89,7 +89,7 @@ ENTITY {
             production_type = "output",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.0, -0.96}, nil, nil),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 1000,
+            volume = 100,
             pipe_connections = {{flow_direction = "output", position = {-1, 1.0}, direction = defines.direction.south}}
         },
     },

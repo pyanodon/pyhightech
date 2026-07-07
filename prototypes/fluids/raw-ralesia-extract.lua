@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "raw-ralesia-extract",
-    category = "hydrocyclone",
+    categories = {"hydrocyclone"},
     enabled = false,
     energy_required = 6,
     ingredients = {

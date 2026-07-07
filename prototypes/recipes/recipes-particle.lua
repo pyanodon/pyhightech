@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "pa-sulfur",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -10,7 +10,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "sulfur",                     amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "sulfur",
     icons =
@@ -26,7 +26,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-aromatics",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -35,7 +35,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "aromatics",                  amount = 100},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3},
+        {type = "item",  name = "crystallographic-substrate", amount = 1,  independent_probability = 0.3},
     },
     main_product = "aromatics",
     icons =
@@ -51,7 +51,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-benzene",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -60,7 +60,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "benzene",                    amount = 100},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3},
+        {type = "item",  name = "crystallographic-substrate", amount = 1,  independent_probability = 0.3},
     },
     main_product = "benzene",
     icons =
@@ -76,7 +76,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-propene",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -85,7 +85,7 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "propene",                    amount = 100},
-        {type = "item",  name = "crystallographic-substrate", amount = 1,  probability = 0.3},
+        {type = "item",  name = "crystallographic-substrate", amount = 1,  independent_probability = 0.3},
     },
     main_product = "propene",
     icons =
@@ -101,7 +101,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-silicon",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -110,7 +110,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "silicon",                    amount = 20},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "silicon",
     icons =
@@ -126,7 +126,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-coal",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 10,
     ingredients = {
@@ -135,7 +135,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "coal",                       amount = 60},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "coal",
     icons =
@@ -151,7 +151,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-niobium",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -160,7 +160,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "niobium-plate",              amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "niobium-plate",
     icons =
@@ -176,7 +176,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-chromium",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -185,7 +185,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "chromium",                   amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "chromium",
     icons =
@@ -201,7 +201,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-molybdenum",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -210,7 +210,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "molybdenum-plate",           amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "molybdenum-plate",
     icons =
@@ -226,7 +226,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-vanadium",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 40,
     ingredients = {
@@ -235,7 +235,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "vanadium-oxide",             amount = 6},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "vanadium-oxide",
     icons =
@@ -251,7 +251,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-uranium",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -260,7 +260,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "uranium-ore",                amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "uranium-ore",
     icons =
@@ -276,7 +276,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-uranium-235",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -285,12 +285,12 @@ RECIPE {
     },
     results = {
         {type = "item", name = "uranium-235",                amount = 5},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "uranium-235",
-    icnos =
+    icons =
     {
-        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over"},
+        {icon = "__pyhightechgraphics__/graphics/icons/pa/pa-over.png", icon_size = 32},
         {icon = "__base__/graphics/icons/uranium-235.png",         icon_size = 64, scale = 0.5}
     },
     icon_size = 32,
@@ -301,7 +301,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-diamond",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 30,
     ingredients = {
@@ -310,7 +310,7 @@ RECIPE {
     },
     results = {
         {type = "item", name = "diamond",                    amount = 10},
-        {type = "item", name = "crystallographic-substrate", amount = 1, probability = 0.3},
+        {type = "item", name = "crystallographic-substrate", amount = 1, independent_probability = 0.3},
     },
     main_product = "diamond",
     icons =
@@ -326,7 +326,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "pa-proton",
-    category = "pa",
+    categories = {"pa"},
     enabled = false,
     energy_required = 20,
     ingredients = {

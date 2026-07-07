@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "dms",
-    category = "arum",
+    categories = {"arum"},
     enabled = false,
     energy_required = 8,
     ingredients = {

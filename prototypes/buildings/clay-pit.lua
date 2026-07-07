@@ -102,7 +102,6 @@ for i = 1, 4 do
         dying_explosion = "big-explosion",
         collision_box = {{-3.2, -3.2}, {3.2, 3.2}},
         selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
-        forced_symmetry = "diagonal-pos",
         module_slots = i,
         allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
         crafting_categories = {"clay"},
@@ -115,7 +114,7 @@ for i = 1, 4 do
             },
         },
         energy_usage = (100 * 2 ^ i) .. "kW",
-        vector_to_place_result = {-3.7, -2.0},
+        vector_to_place_result = {-3.8, -2.0},
         graphics_set = {
             animation = {
                 layers = {
@@ -180,7 +179,6 @@ for i = 1, 4 do
         working_sound = {
             sound = {filename = "__pyhightechgraphics__/sounds/clay-pit.ogg", volume = 1.5},
             idle_sound = {filename = "__pyhightechgraphics__/sounds/clay-pit.ogg", volume = 0.3},
-            apparent_volume = 2.5
         }
     }
 end
