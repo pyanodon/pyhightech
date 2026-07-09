@@ -1,6 +1,6 @@
 {
     "name": "pyhightech",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "factorio_version": "2.1",
     "title": "Pyanodons HighTech",
     "author": "Pyanodon, Nexela, Kingarthur, notnotmelon, Mootykins, ShadowGlass, Archezekiel, Quintuple, przemo1232, protocol_1903",
@@ -9,9 +9,9 @@
     "description": "Rebuilds the entire circuits and high tech production chain. Uncover technological secrets that perhaps should have been left in science fiction.",
     "dependencies": [
         "base >= 2.1.0",
-        "pyfusionenergy >= 3.1.0",
-        "~ pyhightechgraphics >= 3.1.0",
-        "pyindustry >= 3.1.0",
+        "pyfusionenergy >= 3.1.1",
+        "~ pyhightechgraphics >= 3.1.1",
+        "pyindustry >= 3.1.1",
         "? pyrawores"
     ],
     "package": {
