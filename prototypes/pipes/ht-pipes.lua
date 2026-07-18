@@ -360,6 +360,8 @@ ENTITY {
         hide_connection_info = true,
         max_pipeline_extent = 1280
     },
+    circuit_connector = circuit_connector_definitions["pipe"],
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
     pictures = py_pipepictures(),
     working_sound = {
         sound = {
@@ -420,6 +422,8 @@ ENTITY {
         hide_connection_info = true,
         max_pipeline_extent = 1280
     },
+    circuit_connector = circuit_connector_definitions["pipe-to-ground"],
+    circuit_wire_max_distance = default_circuit_wire_max_distance,
     pictures = {
         north = {
             filename = "__pyhightechgraphics__/graphics/entity/ht-pipes/pipe-to-ground-up.png",
