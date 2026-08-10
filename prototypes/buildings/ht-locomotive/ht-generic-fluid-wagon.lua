@@ -53,6 +53,12 @@ ENTITY {
   air_resistance = 0.0050,
   connection_distance = 3,
   joint_distance = 4,
+  valve_to_valve_offset_when_horizontal = {2, 0},
+  base_valve_xy_offset_when_horizontal = {0, 0},
+  base_valve_z_offset_projected_when_horizontal = -1.375,
+  valve_to_valve_offset_when_vertical = {0, 1.775},
+  base_valve_xy_offset_when_vertical = {0, 0},
+  base_valve_z_offset_projected_when_vertical = -1.35,
   energy_per_hit_point = 5,
   capacity = 75000,
   resistances =
