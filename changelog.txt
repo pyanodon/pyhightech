@@ -3,6 +3,17 @@ Version: 3.1.3
 Date: ????
   Changes:
     - Updated nexelit floating fluid wagon pump connections to more accurately fit the graphics. Resolves https://github.com/pyanodon/pybugreports/issues/1532
+    - Removed speed cap on hightech floating locomotive, cargo wagon, and fluid wagon
+    - Increased hightech floating locomotive weight from 1000 to 1200
+    - Increased hightech floating locomotive braking force from 20 to 45
+    - Decreased hightech floating locomotive friction from 0.4 to 0.25
+    - Increased hightech floating locomotive air resistance from 0.005 to 0.006
+    - Increased hightech floating cargo wagon and fluid wagon weight to 400 to 1500
+    - Decreased hightech floating cargo wagon and fluid wagon friction by from 0.4 to 0.25
+    - Increased hightech floating cargo wagon and fluid wagon air resistance from 0.005 to 0.008
+    - Decresed hightech floating cargo wagon and fluid wagon braking force from 25 to 20
+    - Removed speed bonus from nexelit battery
+    - Transferred 2x fuel acceleration multiplier from nexelit battery directly to the hightech floating locomotive
 ---------------------------------------------------------------------------------------------------
 Version: 3.1.2
 Date: 2026-07-09
