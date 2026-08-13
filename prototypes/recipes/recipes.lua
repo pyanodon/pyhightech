@@ -198,7 +198,7 @@ RECIPE {
         {type = "item", name = "urea", amount = 25}
     },
     main_product = "urea"
-}
+}:add_unlock("auog-2")
 
 RECIPE {
     type = "recipe",
