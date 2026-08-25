@@ -4,6 +4,7 @@ Date: ????
   Changes:
     - Updated nexelit floating fluid wagon pump connections to more accurately fit the graphics. Resolves https://github.com/pyanodon/pybugreports/issues/1532
     - Fixed that urea2 was not added to Auog 2 when alienlife was disabled. Resolves https://github.com/pyanodon/pybugreports/issues/1547
+    - Fixed misaligned pipe connection graphics. Resolves https://github.com/pyanodon/pybugreports/issues/1540
 ---------------------------------------------------------------------------------------------------
 Version: 3.1.2
 Date: 2026-07-09
