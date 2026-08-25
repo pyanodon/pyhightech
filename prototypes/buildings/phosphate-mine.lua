@@ -42,7 +42,7 @@ ENTITY {
     collision_box = {{-4.3, -4.3}, {4.3, 4.3}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
     input_fluid_box = {
-        pipe_picture = py.pipe_pictures("assembling-machine-2"),
+        pipe_picture = require("__base__.prototypes.entity.assembler-pictures").assembler2pipepictures,
         pipe_covers = _G.pipecoverspictures(),
         volume = 200,
         pipe_connections = {
