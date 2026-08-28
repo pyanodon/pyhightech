@@ -14,6 +14,8 @@ Date: ????
     - Decresed hightech floating cargo wagon and fluid wagon braking force from 25 to 20
     - Removed speed bonus from nexelit battery
     - Transferred 2x fuel acceleration multiplier from nexelit battery directly to the hightech floating locomotive
+    - Fixed that urea2 was not added to Auog 2 when alienlife was disabled. Resolves https://github.com/pyanodon/pybugreports/issues/1547
+    - Fixed misaligned pipe connection graphics. Resolves https://github.com/pyanodon/pybugreports/issues/1540
 ---------------------------------------------------------------------------------------------------
 Version: 3.1.2
 Date: 2026-07-09
