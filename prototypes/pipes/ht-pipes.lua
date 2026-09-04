@@ -361,6 +361,28 @@ ENTITY {
         max_pipeline_extent = 1280
     },
     pictures = py_pipepictures(),
+    circuit_connector = circuit_connector_definitions.create_vector(
+        universal_connector_template,
+        {
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation = 31, main_offset = util.by_pixel(8.875, -10.875), shadow_offset = util.by_pixel(8.875, -10.875), show_shadow = true },
+            { variation = 18, main_offset = util.by_pixel(-4.875,  -2.75), shadow_offset = util.by_pixel(-4.875,  -2.75), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation = 31, main_offset = util.by_pixel(8.875, -10.875), shadow_offset = util.by_pixel(8.875, -10.875), show_shadow = true },
+            { variation = 31, main_offset = util.by_pixel(8.875, -10.875), shadow_offset = util.by_pixel(8.875, -10.875), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation = 18, main_offset = util.by_pixel(-4.875,  -2.75), shadow_offset = util.by_pixel(-4.875,  -2.75), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation = 18, main_offset = util.by_pixel(-4.875,  -2.75), shadow_offset = util.by_pixel(-4.875,  -2.75), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+            { variation =  2, main_offset = util.by_pixel(-5.25, -10.875), shadow_offset = util.by_pixel(-5.25, -10.875), show_shadow = true },
+        }
+    ),
+    circuit_wire_max_distance = 9,
     working_sound = {
         sound = {
             {
