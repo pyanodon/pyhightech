@@ -178,7 +178,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-1",
     --fuel_value = "5MJ",
-    --fuel_category = "biomass",
+    --fuel_categories = {"biomass"},
     order = "g",
     stack_size = 100
 }
@@ -190,7 +190,7 @@ ITEM {
     flags = {},
     subgroup = "py-hightech-tier-1",
     --fuel_value = "8MJ",
-    --fuel_category = "biomass",
+    --fuel_categories = {"biomass"},
     order = "g",
     stack_size = 100
 }
@@ -748,7 +748,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "raw-fiber",
-    --fuel_category = "biomass",
+    --fuel_categories = {"biomass"},
     --fuel_value = "6MJ",
     icon = "__pyhightechgraphics__/graphics/icons/raw-fiber.png",
     icon_size = 32,
@@ -760,7 +760,7 @@ ITEM {
 ITEM {
     type = "item",
     name = "fiber",
-    --fuel_category = "biomass",
+    --fuel_categories = {"biomass"},
     --fuel_value = "8MJ",
     icon = "__pyhightechgraphics__/graphics/icons/fiber.png",
     icon_size = 32,
@@ -1426,7 +1426,7 @@ ITEM {
     icon = "__pyhightechgraphics__/graphics/icons/antimatter.png",
     icon_size = 32,
     fuel_value = "40GJ",
-    fuel_category = "nuclear",
+    fuel_categories = {"nuclear"},
     flags = {},
     subgroup = "py-hightech-earnshaw",
     order = "h",
@@ -1459,7 +1459,7 @@ ITEM {
     icon = "__pyhightechgraphics__/graphics/icons/nexelit-battery.png",
     icon_size = 64,
     fuel_value = "500MJ",
-    fuel_category = "nexelit",
+    fuel_categories = {"nexelit"},
     burnt_result = "used-nexelit-battery",
     flags = {},
     subgroup = "py-battery-equipment",
