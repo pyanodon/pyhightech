@@ -34,6 +34,7 @@ ITEM {
 
 ENTITY {
     type = "construction-robot",
+    tall = true,
     name = "py-construction-robot-mk04",
     icon = "__pyhightechgraphics__/graphics/icons/construction-robot-ht.png",
     icon_size = 32,
