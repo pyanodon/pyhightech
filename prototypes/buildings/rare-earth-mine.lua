@@ -54,9 +54,8 @@ ENTITY {
         },
     },
     energy_usage = "30MW",
-    mining_power = 1.5,
     resource_searching_radius = 0.49,
-    vector_to_place_result = {0, -4.75},
+    vector_to_place_result = {0, -4.8},
     radius_visualisation_picture = {
         filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-radius-visualization.png",
         width = 12,
@@ -101,6 +100,5 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/rare-earth.ogg", volume = 0.9},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/rare-earth.ogg", volume = 0.3},
-        apparent_volume = 2.5
     }
 }

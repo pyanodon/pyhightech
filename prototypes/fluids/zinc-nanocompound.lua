@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "zinc-nanocompound",
-    category = "nmf",
+    categories = {"nmf"},
     enabled = false,
     energy_required = 8,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ralesia-extract",
-    category = "carbonfilter",
+    categories = {"carbonfilter"},
     enabled = false,
     energy_required = 5,
     ingredients = {

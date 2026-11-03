@@ -1,3 +1,4 @@
+---@diagnostic disable-next-line: need-check-nil
 data.raw.planet.nauvis.map_gen_settings.autoplace_controls["rare-earth-bolide"] = {}
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["rare-earth-bolide"] = {}
 
@@ -68,7 +69,6 @@ data:extend {{
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = {
-        name = "rare-earth-bolide",
         order = "b-rare-earth-bolide",
         control = "rare-earth-bolide",
         -- We return the chance of spawning on any given tile here

@@ -232,7 +232,6 @@ ENTITY {
     sound = sound_variations("__base__/sound/train-tie", 6, 0.4, {volume_multiplier("main-menu", 2.4), volume_multiplier("driving", 1.3)})
   },
   tie_distance = 50,
-  crash_trigger = crash_trigger(),
   open_sound = sounds.cargo_wagon_open,
   close_sound = sounds.cargo_wagon_close,
   sound_minimum_speed = 1,
