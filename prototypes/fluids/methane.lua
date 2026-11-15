@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "methane-co2",
-    category = "moon",
+    categories = {"moon"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -17,7 +17,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "methane-py-fertilizer",
-    category = "moon",
+    categories = {"moon"},
     enabled = false,
     energy_required = 5,
     ingredients = {

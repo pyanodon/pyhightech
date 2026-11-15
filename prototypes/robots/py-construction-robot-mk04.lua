@@ -4,7 +4,7 @@ RECIPE {
     type = "recipe",
     name = "py-construction-robot-mk04",
     energy_required = 15,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     enabled = false,
     ingredients = {
         {type = "item",  name = "harmonic-absorber",             amount = 2},
@@ -34,6 +34,7 @@ ITEM {
 
 ENTITY {
     type = "construction-robot",
+    tall = true,
     name = "py-construction-robot-mk04",
     icon = "__pyhightechgraphics__/graphics/icons/construction-robot-ht.png",
     icon_size = 32,
@@ -48,7 +49,6 @@ ENTITY {
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
     max_payload_size = 5,
     speed = 0.24,
-    transfer_distance = 0.5,
     max_energy = "4MJ",
     energy_per_tick = "0.07kJ",
     speed_multiplier_when_out_of_energy = 0.2,
@@ -197,6 +197,5 @@ ENTITY {
         }
     },
     working_sound = sounds.construction_robot(0.5),
-    cargo_centered = {0.0, 0.2},
     construction_vector = {0.30, 0.22}
 }

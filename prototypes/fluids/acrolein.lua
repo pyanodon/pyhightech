@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "acrolein",
-    category = "evaporator",
+    categories = {"evaporator"},
     enabled = false,
     energy_required = 15,
     ingredients = {
@@ -15,7 +15,7 @@ RECIPE {
 RECIPE {
     type = "recipe",
     name = "acrolein2",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 10,
     ingredients = {

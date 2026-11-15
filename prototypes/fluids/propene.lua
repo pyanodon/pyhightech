@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "propene",
-    category = "gasifier",
+    categories = {"gasifier"},
     enabled = false,
     energy_required = 6,
     ingredients = {

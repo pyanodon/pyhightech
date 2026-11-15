@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "ech",
-    category = "mixer",
+    categories = {"mixer"},
     enabled = false,
     energy_required = 10,
     ingredients = {

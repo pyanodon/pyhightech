@@ -4,7 +4,7 @@ RECIPE {
     type = "recipe",
     name = "py-logistic-robot-mk04",
     energy_required = 15,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     enabled = false,
     ingredients = {
         {type = "item",  name = "harmonic-absorber",             amount = 1},
@@ -34,6 +34,7 @@ ITEM {
 
 ENTITY {
     type = "logistic-robot",
+    tall = true,
     name = "py-logistic-robot-mk04",
     icon = "__pyhightechgraphics__/graphics/icons/logistic-robot-ht.png",
     icon_size = 32,
@@ -48,7 +49,6 @@ ENTITY {
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
     max_payload_size = 8,
     speed = 0.24,
-    transfer_distance = 0.5,
     max_energy = "4MJ",
     energy_per_tick = "0.07kJ",
     speed_multiplier_when_out_of_energy = 0.2,
@@ -149,5 +149,4 @@ ENTITY {
         scale = 0.5
     },
     working_sound = sounds.flying_robot(0.5),
-    cargo_centered = {0.0, 0.2}
 }

@@ -189,8 +189,7 @@ local recipes_list =
 --adding to module limitation list
 py.allow_productivity(recipes_list)
 
-data.raw["assembling-machine"]["centrifuge"].working_visualisations = nil
-
+---@diagnostic disable-next-line: undefined-field
 if data.data_crawler then
     data.script_enabled = data.script_enabled or {}
     table.insert(data.script_enabled, "crash-site-assembling-machine-1-repaired")
@@ -203,5 +202,6 @@ if register_cache_file ~= nil then
 end
 
 if mods["dependency-graph-lib"] and not mods["pyalienlife"] then
+    ---@diagnostic disable-next-line: inject-field
     data.raw["assembling-machine"]["crash-site-assembling-machine-1-repaired"].autotech_startup = true
 end

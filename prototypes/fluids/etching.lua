@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "etching",
-    category = "chemistry",
+    categories = {"chemistry"},
     enabled = false,
     energy_required = 10,
     ingredients = {
