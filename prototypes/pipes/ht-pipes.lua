@@ -1,6 +1,6 @@
 local MULTIPURPOSE_CONNECTION_CATEGORY = settings.startup["py-braided-pipes"].value and {"ht-pipes"} or nil
 
---- @param i integer
+---@param i integer
 local function make_visualization(i)
     return
     {

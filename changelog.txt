@@ -3,6 +3,89 @@ Version: 4.0.0
 Date: ???
   Changes:
     - Linearilized Dependencies.
+---------------------------------------------------------------------------------------------------
+Version: 3.1.6
+Date: ???
+  Changes:
+    - Made bots tall
+    - Ignored productivity on crystallographic substrate in nucleosynthesis recipes
+---------------------------------------------------------------------------------------------------
+Version: 3.1.5
+Date: 2026-10-06
+  Changes:
+    - Updated utility pack tech icon to match the in game item
+---------------------------------------------------------------------------------------------------
+Version: 3.1.4
+Date: 2026-09-22
+  Changes:
+    - Updated autotech caches to apply latest tech tree fixes
+    - Added circuit connections to multipurpose pipes. Resolves https://github.com/pyanodon/pybugreports/issues/1511
+    - Changed to ItemPrototype.fuel_categories
+---------------------------------------------------------------------------------------------------
+Version: 3.1.3
+Date: 2026-08-28
+  Changes:
+    - Updated nexelit floating fluid wagon pump connections to more accurately fit the graphics. Resolves https://github.com/pyanodon/pybugreports/issues/1532
+    - Removed speed cap on hightech floating locomotive, cargo wagon, and fluid wagon
+    - Increased hightech floating locomotive weight from 1000 to 1200
+    - Increased hightech floating locomotive braking force from 20 to 45
+    - Decreased hightech floating locomotive friction from 0.4 to 0.25
+    - Increased hightech floating locomotive air resistance from 0.005 to 0.006
+    - Increased hightech floating cargo wagon and fluid wagon weight to 400 to 1500
+    - Decreased hightech floating cargo wagon and fluid wagon friction by from 0.4 to 0.25
+    - Increased hightech floating cargo wagon and fluid wagon air resistance from 0.005 to 0.008
+    - Decresed hightech floating cargo wagon and fluid wagon braking force from 25 to 20
+    - Removed speed bonus from nexelit battery
+    - Transferred 2x fuel acceleration multiplier from nexelit battery directly to the hightech floating locomotive
+    - Fixed that urea2 was not added to Auog 2 when alienlife was disabled. Resolves https://github.com/pyanodon/pybugreports/issues/1547
+    - Fixed misaligned pipe connection graphics. Resolves https://github.com/pyanodon/pybugreports/issues/1540
+---------------------------------------------------------------------------------------------------
+Version: 3.1.2
+Date: 2026-07-09
+  Changes:
+    - Fixed incorrect dependency version requirement
+---------------------------------------------------------------------------------------------------
+Version: 3.1.1
+Date: 2026-07-09
+  Changes:
+    - Restored mirroring for buildings
+---------------------------------------------------------------------------------------------------
+Version: 3.1.0
+Date: 2026-07-07
+  Changes:
+    - Updated to Factorio 2.1
+    - Fixed that the recipe icon for pa-uranium-235 was not properly set
+    - Removed unnecessary prototype values to clear up the log
+    - Updated vector_to_place_result so items shouldn't drop on the floor. Resolves https://github.com/pyanodon/pybugreports/issues/1486
+    - Fixed that many buildings did not have certain pipe covers rendered
+    - Reduced most fluidbox sizes from 1000 to 100
+    - Added the following entities to be hidden when visibility of tall entities is toggled: chipshooter, pulp mill
+    - Allowed the high tech locomotive, cargo wagon, and fluid wagon to be used with the upgrade planner to upgrade trains
+---------------------------------------------------------------------------------------------------
+Version: 3.0.19
+Date: 2026-06-08
+  Changes:
+    - Fixed rare earth naming inconsistencies in english. Resolves https://github.com/pyanodon/pybugreports/issues/1294
+    - Updated russian locale courtesy of @Astorin
+    - Updated German locale courtesy of @Spunk42
+    - Removed redundant silicon doping recipe names
+    - Fixed that clay pit would sometimes drop items on the ground instead of in containers or on belts. Resolves https://github.com/pyanodon/pybugreports/issues/1366
+    - Fixed high tech locomotive fuel icon positioning. Resolves https://github.com/pyanodon/pybugreports/issues/1406
+---------------------------------------------------------------------------------------------------
+Version: 3.0.18
+Date: 2025-12-28
+  Changes:
+    - MK03 trains now tilt on rail ramps
+    - Fixed some techs having a too-fast cycle time
+    - Increased the output fluidbox size of all buildings from 100->1000. Allows fluid transfer at even higher rates before hitting engine limitations. Resolves https://github.com/pyanodon/pybugreports/issues/1203
+    - Fixed all techs added by "enable all feature flags" not being seen by autotech.
+    - Added es-ES locale
+    - Renamed "make diamond" to "breed diamond" to match other particle accelerator recipes
+    - Renamed "distilation of cumene" to "cumene distillation"
+---------------------------------------------------------------------------------------------------
+Version: 3.0.17
+Date: 2025-09-15
+  Changes:
     - Remade tech tree with autotech 2.0. Science pack cost comparasion:
     - automation: n/a -> trigger
     - py1: 100 -> 100
