@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "bacteria-2",
-    categories = {"genlab"},
+    category = "genlab",
     enabled = false,
     energy_required = 8,
     ingredients = {

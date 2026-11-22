@@ -1,3 +1,7 @@
+if not mods["pyalienlife"] then
+    table.insert(data.raw["assembling-machine"]["crash-site-assembling-machine-1-repaired"].minable.results, {type = "item", name = "duralumin", amount = 50})
+end
+
 require "prototypes/updates/base-updates"
 require "prototypes/updates/pycoalprocessing-updates"
 require "prototypes/updates/pyfusionenergy-updates"
@@ -189,7 +193,8 @@ local recipes_list =
 --adding to module limitation list
 py.allow_productivity(recipes_list)
 
----@diagnostic disable-next-line: undefined-field
+data.raw["assembling-machine"]["centrifuge"].working_visualisations = nil
+
 if data.data_crawler then
     data.script_enabled = data.script_enabled or {}
     table.insert(data.script_enabled, "crash-site-assembling-machine-1-repaired")
@@ -202,6 +207,5 @@ if register_cache_file ~= nil then
 end
 
 if mods["dependency-graph-lib"] and not mods["pyalienlife"] then
-    ---@diagnostic disable-next-line: inject-field
     data.raw["assembling-machine"]["crash-site-assembling-machine-1-repaired"].autotech_startup = true
 end

@@ -3,6 +3,7 @@ data:extend {
         type = "item-group",
         name = "py-hightech",
         order = "v",
+        inventory_order = "v",
         icon = "__pyhightechgraphics__/graphics/technology/item-group.png",
         icon_size = 64
     },
@@ -136,13 +137,13 @@ data:extend {
     },
 }
 
-if not mods["pyindustry"] then
-    data:extend {
-        {
-            type = "item-subgroup",
-            name = "py-trains",
-            group = "py-hightech",
-            order = "u"
-        }
-    }
-end
+-- if not mods["pyindustry"] then
+--     data:extend {
+--         {
+--             type = "item-subgroup",
+--             name = "py-trains",
+--             group = "py-hightech",
+--             order = "u"
+--         }
+--     }
+-- end

@@ -8,7 +8,8 @@ RECIPE {
         {type = "item", name = "engine-unit",      amount = 4},
         {type = "item", name = "nexelit-plate",    amount = 20},
         {type = "item", name = "advanced-circuit", amount = 15},
-        {type = "item", name = "chipshooter-mk01", amount = 1}
+        {type = "item", name = "chipshooter-mk01", amount = 1},
+        {type = "item", name = "glass",            amount = 40}
     },
     results = {
         {type = "item", name = "chipshooter-mk02", amount = 1}
@@ -52,7 +53,6 @@ ENTITY {
         },
     },
     energy_usage = "300kW",
-    tall = true,
     graphics_set = {
         animation = {
             layers = {
@@ -130,5 +130,6 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/chipshooter.ogg", volume = 0.9},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/chipshooter.ogg", volume = 0.3},
+        apparent_volume = 2.5
     }
 }

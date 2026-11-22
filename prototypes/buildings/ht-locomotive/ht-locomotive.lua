@@ -6,7 +6,7 @@ RECIPE {
     energy_required = 0.5,
     enabled = false,
     ingredients = {
-        {type = "item", name = "steel-plate",          amount = 60},
+        {type = "item", name = "aluminium-plate",      amount = 60},
         {type = "item", name = "evaporator",           amount = 1},
         {type = "item", name = "plastic-bar",          amount = 100},
         {type = "item", name = "advanced-circuit",     amount = 20},
@@ -15,6 +15,8 @@ RECIPE {
         {type = "item", name = "iron-gear-wheel",      amount = 100},
         {type = "item", name = "nichrome",             amount = 10},
         {type = "item", name = "electric-engine-unit", amount = 6},
+        {type = "item", name = "glass",                amount = 60},
+        {type = "item", name = "nickel-plate",         amount = 50}
     },
     results = {
         {type = "item", name = "ht-locomotive", amount = 1}
@@ -48,16 +50,15 @@ ENTITY {
     selection_box = {{-1, -3}, {1, 3}},
     --damaged_trigger_effect = hit_effects.entity(),
     drawing_box_vertical_extension = data.raw["locomotive"]["locomotive"].drawing_box_vertical_extension,
-    icons_positioning = {{inventory_index = defines.inventory.fuel, shift = {0, 0.3}, max_icons_per_row = 1}},
     alert_icon_shift = util.by_pixel(0, -24),
-    fast_replaceable_group = "locomotive",
-    weight = 1200,
-    max_power = "1.6MW",
+    weight = 1000,
+    max_speed = 1.5,
+    max_power = "800kW",
     reversing_power_modifier = 0.5,
-    braking_force = 45,
-    friction_force = 0.25,
+    braking_force = 20,
+    friction_force = 0.40,
     vertical_selection_shift = -0.5,
-    air_resistance = 0.0060, -- this is a percentage of current speed that will be subtracted
+    air_resistance = 0.0050, -- this is a percentage of current speed that will be subtracted
     connection_distance = 3,
     joint_distance = 4,
     energy_per_hit_point = 5,
@@ -274,6 +275,7 @@ ENTITY {
             speed = {-0.03, -0.4},
             speed_multiplier = 0.75,
             speed_multiplier_deviation = 1.1,
+            color = {r = 0.333, g = 0.768, b = 0.913},
             offset_deviation = {{-0.75, -2.7}, {-0.3, 2.7}}
         },
         -- right side
@@ -286,6 +288,7 @@ ENTITY {
             speed = {0.03, -0.4},
             speed_multiplier = 0.75,
             speed_multiplier_deviation = 1.1,
+            color = {r = 0.333, g = 0.768, b = 0.913},
             offset_deviation = {{0.3, -2.7}, {0.75, 2.7}}
         },
         {
@@ -320,12 +323,12 @@ ENTITY {
         },
         match_speed_to_activity = true,
         max_sounds_per_prototype = 2,
-        -- use_doppler_shift = false,
-        activity_to_speed_modifiers = {minimum = 0.5},
-        activity_to_volume_modifiers ={multiplier = 0.35}
+        -- use_doppler_shift = false
     },
     open_sound = {filename = "__pyhightechgraphics__/sounds/ht-locomotive-open.ogg", volume = 0.5},
     close_sound = {filename = "__pyhightechgraphics__/sounds/ht-locomotive-close.ogg", volume = 0.4},
+    sound_minimum_speed = 0.5,
+    sound_scaling_ratio = 0.35,
     water_reflection = {
         pictures = {
             filename = "__base__/graphics/entity/locomotive/reflection/locomotive-reflection.png",

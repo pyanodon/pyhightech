@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "phosphorous-acid",
-    categories = {"hpf"},
+    category = "hpf",
     enabled = false,
     energy_required = 5,
     ingredients = {

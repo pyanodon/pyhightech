@@ -6,12 +6,14 @@ RECIPE {
   energy_required = 0.5,
   enabled = false,
   ingredients = {
-    {type = "item", name = "steel-plate",     amount = 50},
+    {type = "item", name = "aluminium-plate", amount = 50},
     {type = "item", name = "plastic-bar",     amount = 50},
     {type = "item", name = "nbfe-alloy",      amount = 20},
     {type = "item", name = "nexelit-plate",   amount = 30},
     {type = "item", name = "iron-gear-wheel", amount = 100},
     {type = "item", name = "nichrome",        amount = 15},
+    {type = "item", name = "glass",           amount = 20},
+    {type = "item", name = "nickel-plate",    amount = 10}
   },
   results = {
     {type = "item", name = "ht-generic-wagon", amount = 1}
@@ -45,11 +47,11 @@ ENTITY {
   selection_box = {{-1, -2.703125}, {1, 3.296875}},
   --damaged_trigger_effect = hit_effects.entity(),
   vertical_selection_shift = -0.5,
-  fast_replaceable_group = "cargo-wagon",
-  weight = 1500,
-  braking_force = 20,
-  friction_force = 0.25,
-  air_resistance = 0.0080,
+  weight = 400,
+  max_speed = 1.7,
+  braking_force = 25,
+  friction_force = 0.40,
+  air_resistance = 0.0050,
   connection_distance = 3,
   joint_distance = 4,
   energy_per_hit_point = 5,
@@ -206,8 +208,10 @@ ENTITY {
     sound = sound_variations("__base__/sound/train-tie", 6, 0.4, {volume_multiplier("main-menu", 2.4), volume_multiplier("driving", 1.3)})
   },
   tie_distance = 50,
+  crash_trigger = crash_trigger(),
   open_sound = sounds.cargo_wagon_open,
   close_sound = sounds.cargo_wagon_close,
+  sound_minimum_speed = 1,
   impact_category = "default",
   --equipment_grid = "mk03-train-equipment-grid",
   water_reflection = {

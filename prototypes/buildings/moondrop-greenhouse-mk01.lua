@@ -8,6 +8,7 @@ RECIPE {
         {type = "item", name = "pipe",            amount = 15},
         {type = "item", name = "iron-plate",      amount = 100},
         {type = "item", name = "iron-gear-wheel", amount = 40},
+        {type = "item", name = "glass",           amount = 40},
     },
     results = {
         {type = "item", name = "moondrop-greenhouse-mk01", amount = 1}
@@ -39,7 +40,7 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-4.2, -4.2}, {4.2, 4.2}},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
-    use_mirroring = true,
+    forced_symmetry = "diagonal-pos",
     module_slots = 1,
     allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
     crafting_categories = {"moon"},
@@ -123,14 +124,14 @@ ENTITY {
             production_type = "input",
             pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_covers = py.pipe_covers(true, true, false, false),
-            volume = 100,
+            volume = 1000,
             pipe_connections = {{flow_direction = "input", position = {-4.0, 0.0}, direction = defines.direction.west}}
         },
         {
             production_type = "input",
             pipe_picture = py.pipe_pictures("assembling-machine-2", {0.05, 0.49}, nil, nil, nil),
             pipe_covers = py.pipe_covers(true, true, false, false),
-            volume = 100,
+            volume = 1000,
             pipe_connections = {{flow_direction = "input", position = {0.0, 4.0}, direction = defines.direction.south}}
         },
         {
@@ -152,5 +153,6 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 1.5},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/moondrop-greenhouse.ogg", volume = 0.3},
+        apparent_volume = 2.5
     }
 }

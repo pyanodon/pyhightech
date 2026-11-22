@@ -14,7 +14,7 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "botanical-nursery", amount = 2},
-        {type = "item", name = "storage-tank",      amount = 1}, --replace py-tank-5000
+        {type = "item", name = "py-tank-5",         amount = 1}, --replace py-tank-5
         {type = "item", name = "classifier",        amount = 1},
 
     },
@@ -48,7 +48,7 @@ ENTITY {
     dying_explosion = "big-explosion",
     collision_box = {{-3.2, -3.2}, {3.2, 3.2}},
     selection_box = {{-3.5, -3.5}, {3.5, 3.5}},
-    use_mirroring = true,
+    forced_symmetry = "diagonal-pos",
     module_slots = 1,
     allowed_effects = {"speed", "productivity", "consumption", "pollution", "quality"},
     crafting_categories = {"kicalk"},
@@ -95,14 +95,14 @@ ENTITY {
             production_type = "input",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.1, -4.1}, nil, nil, pipe),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 100,
+            volume = 1000,
             pipe_connections = {{flow_direction = "input", position = {0.0, 3.0}, direction = defines.direction.south}}
         },
         {
             production_type = "input",
             pipe_picture = py.pipe_pictures("assembling-machine-2", nil, {0.1, -4.1}, nil, nil, pipe),
             pipe_covers = py.pipe_covers(false, true, true, true),
-            volume = 100,
+            volume = 1000,
             pipe_connections = {{flow_direction = "input", position = {0.0, -3.0}, direction = defines.direction.north}}
         },
         {
@@ -124,5 +124,6 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/kicalk-plantation.ogg", volume = 1.5},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/kicalk-plantation.ogg", volume = 0.3},
+        apparent_volume = 2.5
     }
 }

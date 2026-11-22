@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "cumene",
-    categories = {"fbreactor"},
+    category = "fbreactor",
     enabled = false,
     energy_required = 8,
     ingredients = {

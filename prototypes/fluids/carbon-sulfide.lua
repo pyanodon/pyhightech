@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "carbon-sulfide",
-    categories = {"hpf"},
+    category = "hpf",
     enabled = false,
     energy_required = 10,
     ingredients = {

@@ -1,7 +1,7 @@
 RECIPE {
     type = "recipe",
     name = "soaked-gel",
-    categories = {"washer"},
+    category = "washer",
     enabled = false,
     energy_required = 4,
     ingredients = {

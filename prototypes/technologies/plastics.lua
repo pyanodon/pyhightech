@@ -44,27 +44,26 @@ TECHNOLOGY {
     }
 }
 
-if mods["pyrawores"] then
-    TECHNOLOGY {
-        type = "technology",
-        name = "plastics-mk04",
-        icon = "__pyhightechgraphics__/graphics/technology/plastics-mk04.png",
-        icon_size = 128,
-        order = "c-a",
-        prerequisites = {"plastics-mk03"},
-        effects = {
-            {type = "unlock-recipe", recipe = "plastics-mk03"},
-            {type = "unlock-recipe", recipe = "plastic2"},
+
+TECHNOLOGY {
+    type = "technology",
+    name = "plastics-mk04",
+    icon = "__pyhightechgraphics__/graphics/technology/plastics-mk04.png",
+    icon_size = 128,
+    order = "c-a",
+    prerequisites = {"plastics-mk03"},
+    effects = {
+        {type = "unlock-recipe", recipe = "plastics-mk03"},
+        {type = "unlock-recipe", recipe = "plastic2"},
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack",   1},
+            {"chemical-science-pack",   1},
+            {"production-science-pack", 1},
         },
-        unit = {
-            count = 50,
-            ingredients = {
-                {"automation-science-pack", 1},
-                {"logistic-science-pack",   1},
-                {"chemical-science-pack",   1},
-                {"production-science-pack", 1},
-            },
-            time = 30
-        }
+        time = 30
     }
-end
+}

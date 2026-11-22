@@ -1,6 +1,5 @@
 -- TECH CHANGES
-data.raw.technology["processing-unit"].hidden = true
-data.raw.technology["processing-unit"].enabled = false
+TECHNOLOGY("processing-unit"):hide().enabled = false
 
 if mods.quality then
     TECHNOLOGY("recycling"):remove_prereq("processing-unit")
@@ -54,6 +53,7 @@ RECIPE("centrifuge"):remove_unlock("uranium-processing"):remove_unlock("nuclear-
 
 
 -- RECIPE CHANGES
+RECIPE("electronic-circuit"):add_ingredient {type = "item", name = "solder", amount = 2}
 RECIPE("explosives"):add_ingredient {type = "item", name = "collagen", amount = 5}
 RECIPE("small-lamp"):replace_ingredient("electronic-circuit", "copper-plate")
 RECIPE("battery"):add_ingredient {type = "item", name = "rayon", amount = 2}
@@ -61,18 +61,17 @@ RECIPE("explosives"):add_ingredient {type = "item", name = "urea", amount = 5}
 RECIPE("centrifuge"):replace_ingredient("advanced-circuit", "engine-unit")
 RECIPE("low-density-structure"):add_ingredient {type = "item", name = "ceramic", amount = 10}
 RECIPE("flying-robot-frame"):replace_ingredient("steel-plate", "niobium-plate")
-RECIPE("speed-module"):replace_unlock("crafting", "pcb")
-RECIPE("speed-module-2"):replace_unlock("crafting", "pcb")
-RECIPE("speed-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit"):replace_unlock("crafting", "pcb")
-RECIPE("efficiency-module"):replace_unlock("crafting", "pcb")
-RECIPE("efficiency-module-2"):replace_unlock("crafting", "pcb")
-RECIPE("efficiency-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit"):replace_unlock("crafting", "pcb")
-RECIPE("productivity-module"):replace_unlock("crafting", "pcb")
-RECIPE("productivity-module-2"):replace_unlock("crafting", "pcb")
-RECIPE("productivity-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit"):replace_unlock("crafting", "pcb")
+RECIPE("speed-module").category = "pcb"
+RECIPE("speed-module-2").category = "pcb"
+RECIPE("speed-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = "pcb"
+RECIPE("efficiency-module").category = "pcb"
+RECIPE("efficiency-module-2").category = "pcb"
+RECIPE("efficiency-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = "pcb"
+RECIPE("productivity-module").category = "pcb"
+RECIPE("productivity-module-2").category = "pcb"
+RECIPE("productivity-module-3"):replace_ingredient("processing-unit", "intelligent-unit"):replace_ingredient("advanced-circuit", "processing-unit").category = "pcb"
 
 
 -- ITEM CHANGES
-ITEM("utility-science-pack"):set("icon", "__pyhightechgraphics__/graphics/icons/high-tech-science-pack.png")
-TECHNOLOGY("utility-science-pack"):set("icon_size", 64):create_icons("__pyhightechgraphics__/graphics/icons/high-tech-science-pack.png")
-ITEM("utility-science-pack"):set("icon_size", 64)
+ITEM("utility-science-pack", "tool"):set("icon", "__pyhightechgraphics__/graphics/icons/high-tech-science-pack.png")
+ITEM("utility-science-pack", "tool"):set("icon_size", 64)

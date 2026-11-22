@@ -20,24 +20,22 @@ TECHNOLOGY {
     }
 }
 
-if mods["pyrawores"] then
-    TECHNOLOGY {
-        type = "technology",
-        name = "fiberboard-mk02",
-        icon = "__pyhightechgraphics__/graphics/technology/fiberboard-mk02.png",
-        icon_size = 128,
-        order = "c-a",
-        prerequisites = {"fiberboard"},
-        effects = {
+TECHNOLOGY {
+    type = "technology",
+    name = "fiberboard-mk02",
+    icon = "__pyhightechgraphics__/graphics/technology/fiberboard-mk02.png",
+    icon_size = 128,
+    order = "c-a",
+    prerequisites = {"fiberboard"},
+    effects = {
+    },
+    unit = {
+        count = 50,
+        ingredients = {
+            {"automation-science-pack", 1},
+            {"logistic-science-pack",   1},
+            {"chemical-science-pack",   1},
         },
-        unit = {
-            count = 50,
-            ingredients = {
-                {"automation-science-pack", 1},
-                {"logistic-science-pack",   1},
-                {"chemical-science-pack",   1},
-            },
-            time = 30
-        }
+        time = 30
     }
-end
+}

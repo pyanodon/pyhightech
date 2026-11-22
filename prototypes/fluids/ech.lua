@@ -1,12 +1,13 @@
 RECIPE {
     type = "recipe",
     name = "ech",
-    categories = {"mixer"},
+    category = "mixer",
     enabled = false,
     energy_required = 10,
     ingredients = {
-        {type = "fluid", name = "oleochemicals", amount = 10},
-        {type = "fluid", name = "glycerol",      amount = 30},
+        {type = "fluid", name = "oleochemicals",     amount = 10},
+        {type = "fluid", name = "glycerol",          amount = 30},
+        {type = "fluid", name = "hydrogen-chloride", amount = 150},
     },
     results = {
         {type = "fluid", name = "ech", amount = 30}
