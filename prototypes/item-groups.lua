@@ -3,6 +3,7 @@ data:extend {
         type = "item-group",
         name = "py-hightech",
         order = "v",
+        inventory_order = "v",
         icon = "__pyhightechgraphics__/graphics/technology/item-group.png",
         icon_size = 64
     },

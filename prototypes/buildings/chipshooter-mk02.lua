@@ -53,7 +53,6 @@ ENTITY {
         },
     },
     energy_usage = "300kW",
-    tall = true,
     graphics_set = {
         animation = {
             layers = {
@@ -131,5 +130,6 @@ ENTITY {
     working_sound = {
         sound = {filename = "__pyhightechgraphics__/sounds/chipshooter.ogg", volume = 0.9},
         idle_sound = {filename = "__pyhightechgraphics__/sounds/chipshooter.ogg", volume = 0.3},
+        apparent_volume = 2.5
     }
 }
